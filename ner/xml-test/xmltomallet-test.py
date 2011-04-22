@@ -23,7 +23,7 @@ handler = BookHandler( )
 parser.setContentHandler(handler)
 for item in os.listdir("."):
   path = "." + os.sep + item
-  if r"xml" in path:
+  if r".xml" in path:
     parser.parse(path)
 
 
