@@ -19,4 +19,5 @@ while 1:
     if not line1:
         print ""
     else:
-        print line1,line2
+        line1 = line1.split(' ')
+        print line1[0].strip(' '),line1[1].strip(' '),line1[2].strip(' '),line2

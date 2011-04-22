@@ -1,3 +1,6 @@
+#!/usr/bin/python
+# evaluate the result of pos-tagging
+
 input1 = open('eng-verified.txt')
 input2 = open('eng-result.txt')
 word_count = 0
@@ -21,5 +24,7 @@ while 1:
             continue
         if cmp(line1, line2) != 0:
             error_count = error_count + 1
-
+accuracy = float(word_count - error_count) / float(word_count) * 100
 print "Word Count: ",word_count,"\nError Count: ",error_count,"\nMiss Count: ",miss_count
+print "Accuracy: %.2f" % accuracy + "%"
+
