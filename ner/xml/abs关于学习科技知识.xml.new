@@ -1,0 +1,1719 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="nlp_style.xsl" ?>
+<xml4nlp>
+    <doc>
+        <para id="0">
+            <sent id="0" cont="科学技术是第一生产力。" tag="20%">
+                <word id="0" cont="科学技术" pos="n" ne="O" wsd="De04" wsdexp="智慧_才能_能力_功夫" parent="1" relate="SBV" />
+                <word id="1" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="0" />
+                    <arg id="1" type="受事" beg="2" end="3" />
+                </word>
+                <word id="2" cont="第一" pos="m" ne="O" wsd="Dn04" wsdexp="基数_序数" parent="3" relate="QUN" />
+                <word id="3" cont="生产力" pos="n" ne="O" wsd="Dd14" wsdexp="力气_力量_能量" parent="1" relate="VOB" />
+                <word id="4" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="1" cont="当今时代，科技进步对一个国家经济社会的发展越来越具有决定性的作用。" tag="">
+                <word id="0" cont="当今" pos="nt" ne="O" wsd="Ca10" wsdexp="现在" parent="1" relate="ATT" />
+                <word id="1" cont="时代" pos="n" ne="O" wsd="Ca02" wsdexp="时代_朝代_年代" parent="-1" relate="HED" />
+                <word id="2" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="3" cont="科技" pos="n" ne="O" wsd="Dk03" wsdexp="科学_学科_学业" parent="4" relate="ATT" />
+                <word id="4" cont="进步" pos="v" ne="O" wsd="Ie12" wsdexp="进步_退步_堕落" parent="16" relate="ATT" />
+                <word id="5" cont="对" pos="p" ne="O" wsd="Kb04" wsdexp="对于_关于" parent="10" relate="DE" />
+                <word id="6" cont="一个" pos="m" ne="O" wsd="Dn08" wsdexp="数量单位" parent="9" relate="QUN" />
+                <word id="7" cont="国家" pos="n" ne="O" wsd="Di02" wsdexp="国家_行政区划" parent="8" relate="ATT" />
+                <word id="8" cont="经济" pos="n" ne="O" wsd="Dj01" wsdexp="经济" parent="9" relate="ATT" />
+                <word id="9" cont="社会" pos="n" ne="O" wsd="Di01" wsdexp="世界_社会_人间" parent="5" relate="POB" />
+                <word id="10" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="11" relate="ATT" />
+                <word id="11" cont="发展" pos="v" ne="O" wsd="Ie12" wsdexp="进步_退步_堕落" parent="4" relate="COO" />
+                <word id="12" cont="越来越" pos="d" ne="O" wsd="Ka04" wsdexp="更加" parent="13" relate="ADV" />
+                <word id="13" cont="具有" pos="v" ne="O" wsd="Jd04" wsdexp="有_占有" parent="15" relate="DE">
+                    <arg id="0" type="受事" beg="14" end="14" />
+                </word>
+                <word id="14" cont="决定性" pos="n" ne="O" wsd="Dd01" wsdexp="性质" parent="13" relate="VOB" />
+                <word id="15" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="16" relate="ATT" />
+                <word id="16" cont="作用" pos="n" ne="O" wsd="Da25" wsdexp="效用_反应" parent="1" relate="COO" />
+                <word id="17" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="2" cont="我们必须坚定不移地实施科教兴国战略，真正把加速科技进步放在经济社会发展的关键地位，尽快形成自己的科技创新体系，着力促进科技成果切实转化为现实生产力。" tag="10%">
+                <word id="0" cont="我们" pos="r" ne="O" wsd="Aa02" wsdexp="我_我们" parent="4" relate="SBV" />
+                <word id="1" cont="必须" pos="d" ne="O" wsd="Gc03" wsdexp="应该_必须_无须" parent="4" relate="ADV" />
+                <word id="2" cont="坚定不移" pos="i" ne="O" wsd="Ee12" wsdexp="果断_坚强_坚定_脆弱" parent="3" relate="DI" />
+                <word id="3" cont="地" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="4" relate="ADV" />
+                <word id="4" cont="实施" pos="v" ne="O" wsd="Ie13" wsdexp="实行_举行" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="0" />
+                    <arg id="1" type="受事" beg="5" end="6" />
+                </word>
+                <word id="5" cont="科教兴国" pos="i" ne="O" wsd="-1" wsdexp="" parent="6" relate="ATT" />
+                <word id="6" cont="战略" pos="n" ne="O" wsd="Df09" wsdexp="计划_计策_手段" parent="4" relate="VOB" />
+                <word id="7" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="8" cont="真正" pos="d" ne="O" wsd="Ed01" wsdexp="真实_虚假_确实_虚妄" parent="9" relate="ADV" />
+                <word id="9" cont="把" pos="p" ne="O" wsd="Kb03" wsdexp="跟_替_把_比" parent="10" relate="ADV" />
+                <word id="10" cont="加速" pos="v" ne="O" wsd="Ih08" wsdexp="加快_放慢" parent="4" relate="VV">
+                    <arg id="0" type="受事" beg="11" end="12" />
+                    <arg id="1" type="受事" beg="13" end="34" />
+                </word>
+                <word id="11" cont="科技" pos="n" ne="O" wsd="Dk03" wsdexp="科学_学科_学业" parent="12" relate="ATT" />
+                <word id="12" cont="进步" pos="v" ne="O" wsd="Ie12" wsdexp="进步_退步_堕落" parent="10" relate="VOB" />
+                <word id="13" cont="放在" pos="v" ne="O" wsd="Jd02" wsdexp="处于_在于_陷于_适逢" parent="10" relate="VOB">
+                    <arg id="0" type="受事" beg="14" end="19" />
+                </word>
+                <word id="14" cont="经济" pos="n" ne="O" wsd="Dj01" wsdexp="经济" parent="15" relate="ATT" />
+                <word id="15" cont="社会" pos="n" ne="O" wsd="Di01" wsdexp="世界_社会_人间" parent="16" relate="ATT" />
+                <word id="16" cont="发展" pos="v" ne="O" wsd="Ie12" wsdexp="进步_退步_堕落" parent="17" relate="DE" />
+                <word id="17" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="19" relate="ATT" />
+                <word id="18" cont="关键" pos="n" ne="O" wsd="Dd09" wsdexp="关键_核心" parent="19" relate="ATT" />
+                <word id="19" cont="地位" pos="n" ne="O" wsd="Di15" wsdexp="地位_职位" parent="13" relate="VOB" />
+                <word id="20" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="21" cont="尽快" pos="d" ne="O" wsd="Ka08" wsdexp="立刻_赶快_逐渐" parent="22" relate="ADV" />
+                <word id="22" cont="形成" pos="v" ne="O" wsd="Ih01" wsdexp="变化_成为" parent="13" relate="VV">
+                    <arg id="0" type="受事" beg="23" end="27" />
+                </word>
+                <word id="23" cont="自己" pos="r" ne="O" wsd="Aa05" wsdexp="自己_别人_某人" parent="24" relate="DE" />
+                <word id="24" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="27" relate="ATT" />
+                <word id="25" cont="科技" pos="n" ne="O" wsd="Dk03" wsdexp="科学_学科_学业" parent="26" relate="ATT" />
+                <word id="26" cont="创新" pos="v" ne="O" wsd="Ih12" wsdexp="更新_复旧" parent="27" relate="ATT" />
+                <word id="27" cont="体系" pos="n" ne="O" wsd="Dd06" wsdexp="系统_种类_结构" parent="22" relate="VOB" />
+                <word id="28" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="29" cont="着力" pos="v" ne="O" wsd="Ka19" wsdexp="竭力_任意_胡乱" parent="30" relate="ADV" />
+                <word id="30" cont="促进" pos="v" ne="O" wsd="Je06" wsdexp="推动_激发" parent="22" relate="VV">
+                    <arg id="0" type="受事" beg="31" end="32" />
+                    <arg id="1" type="受事" beg="33" end="34" />
+                </word>
+                <word id="31" cont="科技" pos="n" ne="O" wsd="Dk03" wsdexp="科学_学科_学业" parent="32" relate="ATT" />
+                <word id="32" cont="成果" pos="n" ne="O" wsd="Da14" wsdexp="成就_功劳_过失_功过" parent="30" relate="VOB" />
+                <word id="33" cont="切实" pos="a" ne="O" wsd="Ed10" wsdexp="实际_空洞" parent="34" relate="ADV" />
+                <word id="34" cont="转化" pos="v" ne="O" wsd="Ih02" wsdexp="改变_改换" parent="30" relate="VOB" />
+                <word id="35" cont="为" pos="p" ne="O" wsd="Kb05" wsdexp="为_被_以_由" parent="10" relate="IC" />
+                <word id="36" cont="现实" pos="n" ne="O" wsd="Ed10" wsdexp="实际_空洞" parent="37" relate="ATT" />
+                <word id="37" cont="生产力" pos="n" ne="O" wsd="Dd14" wsdexp="力气_力量_能量" parent="35" relate="VOB" />
+                <word id="38" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="3" cont="这是一项十分紧迫的工作。" tag="">
+                <word id="0" cont="这" pos="r" ne="O" wsd="Ed61" wsdexp="这个_那个_某个_各个_其他_何" parent="1" relate="SBV" />
+                <word id="1" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="0" />
+                    <arg id="1" type="受事" beg="2" end="7" />
+                </word>
+                <word id="2" cont="一" pos="m" ne="B-Nm" wsd="Dn04" wsdexp="基数_序数" parent="3" relate="QUN" />
+                <word id="3" cont="项" pos="q" ne="E-Nm" wsd="Dn08" wsdexp="数量单位" parent="7" relate="ATT" />
+                <word id="4" cont="十分" pos="d" ne="O" wsd="Ka01" wsdexp="非常_多么" parent="5" relate="ADV" />
+                <word id="5" cont="紧迫" pos="a" ne="O" wsd="Ed29" wsdexp="紧急_严重_惊人" parent="6" relate="DE" />
+                <word id="6" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="7" relate="ATT" />
+                <word id="7" cont="工作" pos="v" ne="O" wsd="Hj11" wsdexp="工作_劳动" parent="1" relate="VOB" />
+                <word id="8" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="4" cont="如果我们不努力提高自己的科技知识素养，充分了解当今世界科技进步的趋势，要做好这方面的领导工作是很困难的。" tag="20%">
+                <word id="0" cont="如果" pos="c" ne="O" wsd="Kc08" wsdexp="如果_那末" parent="4" relate="CNJ" />
+                <word id="1" cont="我们" pos="r" ne="O" wsd="Aa02" wsdexp="我_我们" parent="4" relate="SBV" />
+                <word id="2" cont="不" pos="d" ne="O" wsd="Ka18" wsdexp="不_没" parent="3" relate="ADV" />
+                <word id="3" cont="努力" pos="a" ne="O" wsd="Ka19" wsdexp="竭力_任意_胡乱" parent="4" relate="ADV" />
+                <word id="4" cont="提高" pos="v" ne="O" wsd="Ih06" wsdexp="削弱" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="1" end="1" />
+                    <arg id="1" type="受事" beg="5" end="9" />
+                </word>
+                <word id="5" cont="自己" pos="r" ne="O" wsd="Aa05" wsdexp="自己_别人_某人" parent="6" relate="DE" />
+                <word id="6" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="9" relate="ATT" />
+                <word id="7" cont="科技" pos="n" ne="O" wsd="Dk03" wsdexp="科学_学科_学业" parent="8" relate="ATT" />
+                <word id="8" cont="知识" pos="n" ne="O" wsd="Dk02" wsdexp="学说_学问_知识" parent="9" relate="ATT" />
+                <word id="9" cont="素养" pos="n" ne="O" wsd="De04" wsdexp="智慧_才能_能力_功夫" parent="4" relate="VOB" />
+                <word id="10" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="11" cont="充分" pos="a" ne="O" wsd="Ka03" wsdexp="过分_尽量" parent="18" relate="ATT" />
+                <word id="12" cont="了解" pos="v" ne="O" wsd="Gb08" wsdexp="了解_体会_不解" parent="13" relate="ATT" />
+                <word id="13" cont="当今" pos="nt" ne="O" wsd="Ca10" wsdexp="现在" parent="14" relate="ATT" />
+                <word id="14" cont="世界" pos="n" ne="O" wsd="Di01" wsdexp="世界_社会_人间" parent="15" relate="ATT" />
+                <word id="15" cont="科技" pos="n" ne="O" wsd="Dk03" wsdexp="科学_学科_学业" parent="16" relate="ATT" />
+                <word id="16" cont="进步" pos="v" ne="O" wsd="Ie12" wsdexp="进步_退步_堕落" parent="17" relate="DE" />
+                <word id="17" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="18" relate="ATT" />
+                <word id="18" cont="趋势" pos="n" ne="O" wsd="Da20" wsdexp="形势_趋势_潮流" parent="21" relate="SBV" />
+                <word id="19" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="20" cont="要" pos="v" ne="O" wsd="Gc03" wsdexp="应该_必须_无须" parent="21" relate="ADV" />
+                <word id="21" cont="做好" pos="v" ne="O" wsd="Hj12" wsdexp="做_施展_合作_尝试" parent="4" relate="IC">
+                    <arg id="0" type="施事" beg="11" end="18" />
+                    <arg id="1" type="受事" beg="22" end="26" />
+                    <arg id="2" type="受事" beg="27" end="30" />
+                </word>
+                <word id="22" cont="这" pos="r" ne="O" wsd="Ed61" wsdexp="这个_那个_某个_各个_其他_何" parent="23" relate="ATT" />
+                <word id="23" cont="方面" pos="n" ne="O" wsd="Dd05" wsdexp="范围_方面_环节" parent="24" relate="DE" />
+                <word id="24" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="26" relate="ATT" />
+                <word id="25" cont="领导" pos="n" ne="O" wsd="Af10" wsdexp="领袖_领导" parent="26" relate="ATT" />
+                <word id="26" cont="工作" pos="v" ne="O" wsd="Hj11" wsdexp="工作_劳动" parent="21" relate="VOB" />
+                <word id="27" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="21" relate="VOB" />
+                <word id="28" cont="很" pos="d" ne="O" wsd="Ka01" wsdexp="非常_多么" parent="29" relate="ADV" />
+                <word id="29" cont="困难" pos="a" ne="O" wsd="Ed07" wsdexp="困难_艰巨_容易" parent="30" relate="DE" />
+                <word id="30" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="27" relate="MT" />
+                <word id="31" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+        </para>
+        <para id="1">
+            <sent id="0" cont="马克思、恩格斯、列宁和毛泽东、邓小平同志，都十分重视科学技术。" tag="">
+                <word id="0" cont="马克思" pos="nh" ne="S-Nh" wsd="Af10" wsdexp="领袖_领导" parent="13" relate="SBV" />
+                <word id="1" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="2" cont="恩格斯" pos="nh" ne="S-Nh" wsd="Dd15" wsdexp="名称_姓名_生肖_性别" parent="0" relate="COO" />
+                <word id="3" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="4" cont="列宁" pos="nh" ne="S-Nh" wsd="Af10" wsdexp="领袖_领导" parent="0" relate="COO" />
+                <word id="5" cont="和" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="6" relate="LAD" />
+                <word id="6" cont="毛泽东" pos="nh" ne="S-Nh" wsd="Af10" wsdexp="领袖_领导" parent="0" relate="COO" />
+                <word id="7" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="8" cont="邓小平" pos="nh" ne="S-Nh" wsd="Af10" wsdexp="领袖_领导" parent="9" relate="ATT" />
+                <word id="9" cont="同志" pos="n" ne="O" wsd="Aa03" wsdexp="你_你们" parent="0" relate="COO" />
+                <word id="10" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="11" cont="都" pos="d" ne="O" wsd="Ka07" wsdexp="都_只_不止_甚至" parent="13" relate="ADV" />
+                <word id="12" cont="十分" pos="d" ne="O" wsd="Ka01" wsdexp="非常_多么" parent="13" relate="ADV" />
+                <word id="13" cont="重视" pos="v" ne="O" wsd="Gb21" wsdexp="重视_并重_漠视_鄙视_置之不理" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="9" />
+                    <arg id="1" type="受事" beg="14" end="14" />
+                </word>
+                <word id="14" cont="科学技术" pos="n" ne="O" wsd="De04" wsdexp="智慧_才能_能力_功夫" parent="13" relate="VOB" />
+                <word id="15" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="1" cont="他们总是敏锐地捕捉住每一项重大科技发现的社会意义，从而丰富和完善自己的理论体系，揭示社会发展和进步的方向。" tag="">
+                <word id="0" cont="他们" pos="r" ne="O" wsd="Aa04" wsdexp="他_他们" parent="4" relate="SBV" />
+                <word id="1" cont="总是" pos="d" ne="O" wsd="Ka11" wsdexp="不断_一直_动辄" parent="4" relate="ADV" />
+                <word id="2" cont="敏锐" pos="a" ne="O" wsd="Ee15" wsdexp="机智_鲁钝" parent="3" relate="DI" />
+                <word id="3" cont="地" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="4" relate="ADV" />
+                <word id="4" cont="捕捉" pos="v" ne="O" wsd="Hm05" wsdexp="逮捕_押送_释放" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="0" />
+                    <arg id="1" type="受事" beg="6" end="10" />
+                    <arg id="2" type="受事" beg="11" end="14" />
+                    <arg id="3" type="受事" beg="25" end="31" />
+                </word>
+                <word id="5" cont="住" pos="v" ne="O" wsd="Hj01" wsdexp="生活_居住" parent="4" relate="CMP" />
+                <word id="6" cont="每" pos="r" ne="O" wsd="Ed61" wsdexp="这个_那个_某个_各个_其他_何" parent="8" relate="ATT" />
+                <word id="7" cont="一" pos="m" ne="B-Nm" wsd="Dn04" wsdexp="基数_序数" parent="8" relate="QUN" />
+                <word id="8" cont="项" pos="q" ne="E-Nm" wsd="Dn08" wsdexp="数量单位" parent="10" relate="ATT" />
+                <word id="9" cont="重大" pos="a" ne="O" wsd="Ed28" wsdexp="重要_次要_不足道" parent="10" relate="ATT" />
+                <word id="10" cont="科技" pos="n" ne="O" wsd="Dk03" wsdexp="科学_学科_学业" parent="4" relate="VOB" />
+                <word id="11" cont="发现" pos="v" ne="O" wsd="Gb08" wsdexp="了解_体会_不解" parent="12" relate="DE" />
+                <word id="12" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="14" relate="ATT" />
+                <word id="13" cont="社会" pos="n" ne="O" wsd="Di01" wsdexp="世界_社会_人间" parent="14" relate="ATT" />
+                <word id="14" cont="意义" pos="n" ne="O" wsd="Db06" wsdexp="规律_意义" parent="4" relate="VOB" />
+                <word id="15" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="16" cont="从而" pos="c" ne="O" wsd="Kc09" wsdexp="因为_所以" parent="17" relate="CNJ" />
+                <word id="17" cont="丰富" pos="a" ne="O" wsd="Ed39" wsdexp="丰富_广博_广博_贫乏" parent="4" relate="IC" />
+                <word id="18" cont="和" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="19" relate="LAD" />
+                <word id="19" cont="完善" pos="v" ne="O" wsd="Ih11" wsdexp="好转_改进_恶化" parent="17" relate="VV">
+                    <arg id="0" type="受事" beg="20" end="23" />
+                </word>
+                <word id="20" cont="自己" pos="r" ne="O" wsd="Aa05" wsdexp="自己_别人_某人" parent="21" relate="DE" />
+                <word id="21" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="23" relate="ATT" />
+                <word id="22" cont="理论" pos="n" ne="O" wsd="Dk02" wsdexp="学说_学问_知识" parent="23" relate="ATT" />
+                <word id="23" cont="体系" pos="n" ne="O" wsd="Dd06" wsdexp="系统_种类_结构" parent="19" relate="VOB" />
+                <word id="24" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="25" cont="揭示" pos="v" ne="O" wsd="Hc11" wsdexp="召集_宣布_下令" parent="30" relate="DE">
+                    <arg id="0" type="受事" beg="26" end="29" />
+                </word>
+                <word id="26" cont="社会" pos="n" ne="O" wsd="Di01" wsdexp="世界_社会_人间" parent="27" relate="ATT" />
+                <word id="27" cont="发展" pos="v" ne="O" wsd="Ie12" wsdexp="进步_退步_堕落" parent="25" relate="VOB" />
+                <word id="28" cont="和" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="29" relate="LAD" />
+                <word id="29" cont="进步" pos="v" ne="O" wsd="Ie12" wsdexp="进步_退步_堕落" parent="27" relate="COO" />
+                <word id="30" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="31" relate="ATT" />
+                <word id="31" cont="方向" pos="n" ne="O" wsd="Cb01" wsdexp="方向_位置" parent="4" relate="VOB" />
+                <word id="32" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="2" cont="科学技术的每一次重大突破，都会引起生产力的深刻变革和人类文明的巨大进步。" tag="">
+                <word id="0" cont="科学技术" pos="n" ne="O" wsd="De04" wsdexp="智慧_才能_能力_功夫" parent="1" relate="DE" />
+                <word id="1" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="6" relate="ATT" />
+                <word id="2" cont="每" pos="r" ne="O" wsd="Ed61" wsdexp="这个_那个_某个_各个_其他_何" parent="4" relate="ATT" />
+                <word id="3" cont="一" pos="m" ne="B-Nm" wsd="Dn04" wsdexp="基数_序数" parent="4" relate="QUN" />
+                <word id="4" cont="次" pos="q" ne="E-Nm" wsd="Dn08" wsdexp="数量单位" parent="6" relate="ATT" />
+                <word id="5" cont="重大" pos="a" ne="O" wsd="Ed28" wsdexp="重要_次要_不足道" parent="6" relate="ATT" />
+                <word id="6" cont="突破" pos="v" ne="O" wsd="Hb10" wsdexp="包围_突围" parent="-1" relate="HED" />
+                <word id="7" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="8" cont="都" pos="d" ne="O" wsd="Ka07" wsdexp="都_只_不止_甚至" parent="9" relate="ADV" />
+                <word id="9" cont="会" pos="v" ne="O" wsd="Gc02" wsdexp="能够_不能_可以_不可" parent="10" relate="ADV" />
+                <word id="10" cont="引起" pos="v" ne="O" wsd="Je04" wsdexp="引起_导致_使得" parent="12" relate="DE">
+                    <arg id="0" type="受事" beg="11" end="11" />
+                </word>
+                <word id="11" cont="生产力" pos="n" ne="O" wsd="Dd14" wsdexp="力气_力量_能量" parent="10" relate="VOB" />
+                <word id="12" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="14" relate="ATT" />
+                <word id="13" cont="深刻" pos="a" ne="O" wsd="Ed16" wsdexp="深刻_深远_深厚_深沉" parent="14" relate="ATT" />
+                <word id="14" cont="变革" pos="v" ne="O" wsd="Ha01" wsdexp="革命_解放" parent="18" relate="DE" />
+                <word id="15" cont="和" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="16" relate="LAD" />
+                <word id="16" cont="人类" pos="n" ne="O" wsd="Aa01" wsdexp="人_人民_众人" parent="14" relate="COO" />
+                <word id="17" cont="文明" pos="a" ne="O" wsd="Dk01" wsdexp="文化_教育_卫生" parent="18" relate="DE" />
+                <word id="18" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="20" relate="ATT" />
+                <word id="19" cont="巨大" pos="a" ne="O" wsd="Ea03" wsdexp="大_中_小" parent="20" relate="ATT" />
+                <word id="20" cont="进步" pos="v" ne="O" wsd="Ie12" wsdexp="进步_退步_堕落" parent="6" relate="VV" />
+                <word id="21" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="3" cont="一八四八年，马克思、恩格斯在《共产党宣言》中指出，资产阶级在它的不到一百年的阶级统治中所创造的生产力，比过去一切时代所创造的全部生产力还要多，还要大。" tag="">
+                <word id="0" cont="一八四八年" pos="nt" ne="S-Nr" wsd="-1" wsdexp="" parent="11" relate="ADV" />
+                <word id="1" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="2" cont="马克思" pos="nh" ne="S-Nh" wsd="Af10" wsdexp="领袖_领导" parent="11" relate="IS" />
+                <word id="3" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="4" cont="恩格斯" pos="nh" ne="S-Nh" wsd="Dd15" wsdexp="名称_姓名_生肖_性别" parent="2" relate="COO" />
+                <word id="5" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="11" relate="ADV" />
+                <word id="6" cont="《" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="7" cont="共产党" pos="n" ne="O" wsd="Di07" wsdexp="政党" parent="8" relate="ATT" />
+                <word id="8" cont="宣言" pos="n" ne="O" wsd="Dk14" wsdexp="命令_通知_报告" parent="10" relate="ATT" />
+                <word id="9" cont="》" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="10" cont="中" pos="nd" ne="O" wsd="Cb05" wsdexp="内_外" parent="5" relate="POB" />
+                <word id="11" cont="指出" pos="v" ne="O" wsd="Hi14" wsdexp="表示_表达_阐明_表露_发誓" parent="16" relate="DE">
+                    <arg id="0" type="时间" beg="0" end="0" />
+                    <arg id="1" type="方位" beg="5" end="10" />
+                </word>
+                <word id="12" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="13" cont="资产阶级" pos="n" ne="O" wsd="Di06" wsdexp="阶级" parent="16" relate="DE" />
+                <word id="14" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="16" relate="DE" />
+                <word id="15" cont="它" pos="r" ne="O" wsd="Ba10" wsdexp="它_什么" parent="14" relate="POB" />
+                <word id="16" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="23" relate="ATT" />
+                <word id="17" cont="不" pos="d" ne="O" wsd="Ka18" wsdexp="不_没" parent="18" relate="ADV" />
+                <word id="18" cont="到" pos="v" ne="O" wsd="Hf08" wsdexp="到达_停靠" parent="16" relate="NOT">
+                    <arg id="0" type="受事-数量性质" beg="19" end="20" />
+                </word>
+                <word id="19" cont="一百" pos="m" ne="B-Nm" wsd="-1" wsdexp="" parent="20" relate="QUN" />
+                <word id="20" cont="年" pos="q" ne="E-Nm" wsd="Ca18" wsdexp="年" parent="18" relate="VOB" />
+                <word id="21" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="23" relate="ATT" />
+                <word id="22" cont="阶级" pos="n" ne="O" wsd="Di06" wsdexp="阶级" parent="23" relate="ATT" />
+                <word id="23" cont="统治" pos="v" ne="O" wsd="Ha03" wsdexp="上台_统治_下台" parent="24" relate="ATT" />
+                <word id="24" cont="中" pos="nd" ne="O" wsd="Cb05" wsdexp="内_外" parent="28" relate="ATT" />
+                <word id="25" cont="所" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="26" relate="LAD" />
+                <word id="26" cont="创造" pos="v" ne="O" wsd="Hc05" wsdexp="建立_设立_创立_命名" parent="27" relate="DE" />
+                <word id="27" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="28" relate="ATT" />
+                <word id="28" cont="生产力" pos="n" ne="O" wsd="Dd14" wsdexp="力气_力量_能量" parent="40" relate="SBV" />
+                <word id="29" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="30" cont="比" pos="p" ne="O" wsd="Kb03" wsdexp="跟_替_把_比" parent="35" relate="ADV" />
+                <word id="31" cont="过去" pos="nt" ne="O" wsd="Ca11" wsdexp="过去_近来" parent="30" relate="POB" />
+                <word id="32" cont="一切" pos="r" ne="O" wsd="Eb02" wsdexp="单_双_全部_部分" parent="33" relate="ATT" />
+                <word id="33" cont="时代" pos="n" ne="O" wsd="Ca02" wsdexp="时代_朝代_年代" parent="30" relate="POB" />
+                <word id="34" cont="所" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="35" relate="LAD" />
+                <word id="35" cont="创造" pos="v" ne="O" wsd="Hc05" wsdexp="建立_设立_创立_命名" parent="36" relate="DE">
+                    <arg id="0" type="时间" beg="30" end="33" />
+                </word>
+                <word id="36" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="38" relate="ATT" />
+                <word id="37" cont="全部" pos="m" ne="O" wsd="Eb02" wsdexp="单_双_全部_部分" parent="38" relate="QUN" />
+                <word id="38" cont="生产力" pos="n" ne="O" wsd="Dd14" wsdexp="力气_力量_能量" parent="40" relate="SBV" />
+                <word id="39" cont="还要" pos="d" ne="O" wsd="Kc02" wsdexp="并且_况且" parent="40" relate="ADV" />
+                <word id="40" cont="多" pos="a" ne="O" wsd="Dn05" wsdexp="半_概数_若干" parent="-1" relate="HED" />
+                <word id="41" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="42" cont="还要" pos="d" ne="O" wsd="Kc02" wsdexp="并且_况且" parent="43" relate="ADV" />
+                <word id="43" cont="大" pos="a" ne="O" wsd="Ea03" wsdexp="大_中_小" parent="40" relate="IC" />
+                <word id="44" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="4" cont="主要原因就是当时科学技术取得了一系列新的突破。" tag="">
+                <word id="0" cont="主要" pos="b" ne="O" wsd="Ed28" wsdexp="重要_次要_不足道" parent="1" relate="ATT" />
+                <word id="1" cont="原因" pos="n" ne="O" wsd="Db01" wsdexp="原因_结果" parent="2" relate="SBV" />
+                <word id="2" cont="就是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="1" />
+                    <arg id="1" type="受事" beg="3" end="4" />
+                    <arg id="2" type="受事" beg="5" end="11" />
+                </word>
+                <word id="3" cont="当时" pos="nt" ne="O" wsd="Ca31" wsdexp="这时_那时_几时" parent="4" relate="ATT" />
+                <word id="4" cont="科学技术" pos="n" ne="O" wsd="De04" wsdexp="智慧_才能_能力_功夫" parent="2" relate="VOB" />
+                <word id="5" cont="取得" pos="v" ne="O" wsd="Je12" wsdexp="取得_达到_挽回" parent="2" relate="VOB">
+                    <arg id="0" type="受事" beg="7" end="11" />
+                </word>
+                <word id="6" cont="了" pos="u" ne="O" wsd="Kd05" wsdexp="吗_的话_罢了_了_哉" parent="5" relate="MT" />
+                <word id="7" cont="一" pos="m" ne="S-Nm" wsd="Dn04" wsdexp="基数_序数" parent="8" relate="QUN" />
+                <word id="8" cont="系列" pos="q" ne="O" wsd="Dn08" wsdexp="数量单位" parent="11" relate="ATT" />
+                <word id="9" cont="新" pos="a" ne="O" wsd="Eb28" wsdexp="新_新鲜" parent="10" relate="DE" />
+                <word id="10" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="11" relate="ATT" />
+                <word id="11" cont="突破" pos="v" ne="O" wsd="Hb10" wsdexp="包围_突围" parent="5" relate="VOB" />
+                <word id="12" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="5" cont="一百五十年过去了，世界科技发生了前所未有的变化。" tag="">
+                <word id="0" cont="一百五十" pos="m" ne="B-Nm" wsd="-1" wsdexp="" parent="1" relate="QUN" />
+                <word id="1" cont="年" pos="q" ne="E-Nm" wsd="Ca18" wsdexp="年" parent="2" relate="SBV" />
+                <word id="2" cont="过去" pos="v" ne="O" wsd="Ca11" wsdexp="过去_近来" parent="-1" relate="HED">
+                    <arg id="0" type="施事-数量性质" beg="0" end="1" />
+                </word>
+                <word id="3" cont="了" pos="u" ne="O" wsd="Kd05" wsdexp="吗_的话_罢了_了_哉" parent="2" relate="MT" />
+                <word id="4" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="5" cont="世界" pos="n" ne="O" wsd="Di01" wsdexp="世界_社会_人间" parent="6" relate="ATT" />
+                <word id="6" cont="科技" pos="n" ne="O" wsd="Dk03" wsdexp="科学_学科_学业" parent="7" relate="SBV" />
+                <word id="7" cont="发生" pos="v" ne="O" wsd="Jd07" wsdexp="出现_发生" parent="2" relate="VV">
+                    <arg id="0" type="施事" beg="5" end="6" />
+                    <arg id="1" type="受事" beg="9" end="11" />
+                </word>
+                <word id="8" cont="了" pos="u" ne="O" wsd="Kd05" wsdexp="吗_的话_罢了_了_哉" parent="7" relate="MT" />
+                <word id="9" cont="前所未有" pos="i" ne="O" wsd="Ed04" wsdexp="杰出_异常_普通" parent="10" relate="DE" />
+                <word id="10" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="11" relate="ATT" />
+                <word id="11" cont="变化" pos="v" ne="O" wsd="Ih01" wsdexp="变化_成为" parent="7" relate="VOB" />
+                <word id="12" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="6" cont="本世纪，人类在科技方面取得的新发现新发明，以及由它们催生出来的新产业新产品，更是日新月异。" tag="">
+                <word id="0" cont="本世纪" pos="nt" ne="O" wsd="Ca03" wsdexp="时期_时间" parent="9" relate="ADV" />
+                <word id="1" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="2" cont="人类" pos="n" ne="O" wsd="Aa01" wsdexp="人_人民_众人" parent="6" relate="SBV" />
+                <word id="3" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="6" relate="ADV" />
+                <word id="4" cont="科技" pos="n" ne="O" wsd="Dk03" wsdexp="科学_学科_学业" parent="5" relate="ATT" />
+                <word id="5" cont="方面" pos="n" ne="O" wsd="Dd05" wsdexp="范围_方面_环节" parent="3" relate="POB" />
+                <word id="6" cont="取得" pos="v" ne="O" wsd="Je12" wsdexp="取得_达到_挽回" parent="7" relate="DE">
+                    <arg id="0" type="施事" beg="2" end="2" />
+                </word>
+                <word id="7" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="9" relate="ATT" />
+                <word id="8" cont="新" pos="a" ne="O" wsd="Eb28" wsdexp="新_新鲜" parent="9" relate="ADV" />
+                <word id="9" cont="发现" pos="v" ne="O" wsd="Gb08" wsdexp="了解_体会_不解" parent="-1" relate="HED">
+                    <arg id="0" type="时间" beg="0" end="0" />
+                    <arg id="1" type="受事" beg="10" end="10" />
+                    <arg id="2" type="受事" beg="11" end="11" />
+                </word>
+                <word id="10" cont="新" pos="a" ne="O" wsd="Eb28" wsdexp="新_新鲜" parent="9" relate="VOB" />
+                <word id="11" cont="发明" pos="v" ne="O" wsd="Hi14" wsdexp="表示_表达_阐明_表露_发誓" parent="9" relate="VOB" />
+                <word id="12" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="13" cont="以及" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="16" relate="CNJ" />
+                <word id="14" cont="由" pos="p" ne="O" wsd="Kb05" wsdexp="为_被_以_由" parent="16" relate="ADV" />
+                <word id="15" cont="它们" pos="r" ne="O" wsd="Ba10" wsdexp="它_什么" parent="14" relate="POB" />
+                <word id="16" cont="催生" pos="v" ne="O" wsd="Je04" wsdexp="引起_导致_使得" parent="19" relate="DE" />
+                <word id="17" cont="出" pos="v" ne="O" wsd="Hj64" wsdexp="出_进_出入" parent="16" relate="CMP" />
+                <word id="18" cont="来" pos="v" ne="O" wsd="Hj63" wsdexp="来_去_来去" parent="16" relate="CMP" />
+                <word id="19" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="21" relate="ATT" />
+                <word id="20" cont="新" pos="a" ne="O" wsd="Eb28" wsdexp="新_新鲜" parent="21" relate="ATT" />
+                <word id="21" cont="产业" pos="n" ne="O" wsd="Dj03" wsdexp="产业_财物" parent="23" relate="ATT" />
+                <word id="22" cont="新" pos="a" ne="O" wsd="Eb28" wsdexp="新_新鲜" parent="23" relate="ATT" />
+                <word id="23" cont="产品" pos="n" ne="O" wsd="Ba04" wsdexp="货物_产品" parent="26" relate="SBV" />
+                <word id="24" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="25" cont="更" pos="d" ne="O" wsd="Ka04" wsdexp="更加" parent="26" relate="ADV" />
+                <word id="26" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="9" relate="IC">
+                    <arg id="0" type="施事" beg="13" end="23" />
+                    <arg id="1" type="受事" beg="27" end="27" />
+                </word>
+                <word id="27" cont="日新月异" pos="i" ne="O" wsd="Ih01" wsdexp="变化_成为" parent="26" relate="VOB" />
+                <word id="28" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="7" cont="特别是本世纪中叶以来，原子能技术、空间技术、微电子与信息技术、生物工程技术、新材料研究等的重大进展，极大地提高了人类对自然和社会的认识能力，极大地推动了生产力的发展。" tag="">
+                <word id="0" cont="特别" pos="d" ne="O" wsd="Ka01" wsdexp="非常_多么" parent="1" relate="ADV" />
+                <word id="1" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="4" relate="ATT" />
+                <word id="2" cont="本世纪" pos="nt" ne="O" wsd="Ca03" wsdexp="时期_时间" parent="3" relate="ATT" />
+                <word id="3" cont="中叶" pos="nt" ne="O" wsd="Ca08" wsdexp="中期" parent="4" relate="ATT" />
+                <word id="4" cont="以来" pos="nd" ne="O" wsd="Ca11" wsdexp="过去_近来" parent="27" relate="ADV" />
+                <word id="5" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="6" cont="原子能" pos="n" ne="O" wsd="Dd14" wsdexp="力气_力量_能量" parent="7" relate="ATT" />
+                <word id="7" cont="技术" pos="n" ne="O" wsd="De04" wsdexp="智慧_才能_能力_功夫" parent="23" relate="ATT" />
+                <word id="8" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="9" cont="空间" pos="n" ne="O" wsd="Cb07" wsdexp="天_地" parent="10" relate="ATT" />
+                <word id="10" cont="技术" pos="n" ne="O" wsd="De04" wsdexp="智慧_才能_能力_功夫" parent="7" relate="COO" />
+                <word id="11" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="12" cont="微电子" pos="n" ne="O" wsd="Ba01" wsdexp="物_物体" parent="7" relate="COO" />
+                <word id="13" cont="与" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="15" relate="LAD" />
+                <word id="14" cont="信息" pos="n" ne="O" wsd="Da19" wsdexp="消息_音信" parent="15" relate="ATT" />
+                <word id="15" cont="技术" pos="n" ne="O" wsd="De04" wsdexp="智慧_才能_能力_功夫" parent="7" relate="COO" />
+                <word id="16" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="17" cont="生物" pos="n" ne="O" wsd="Ba02" wsdexp="生物_物品" parent="18" relate="ATT" />
+                <word id="18" cont="工程" pos="n" ne="O" wsd="Di18" wsdexp="事业_行业_工程" parent="19" relate="ATT" />
+                <word id="19" cont="技术" pos="n" ne="O" wsd="De04" wsdexp="智慧_才能_能力_功夫" parent="7" relate="COO" />
+                <word id="20" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="21" cont="新" pos="a" ne="O" wsd="Eb28" wsdexp="新_新鲜" parent="7" relate="COO" />
+                <word id="22" cont="材料" pos="n" ne="O" wsd="Ba06" wsdexp="物资_生活资料" parent="23" relate="ATT" />
+                <word id="23" cont="研究" pos="v" ne="O" wsd="Hg14" wsdexp="分析_推敲_研究_考证" parent="25" relate="DE" />
+                <word id="24" cont="等" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="23" relate="RAD" />
+                <word id="25" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="27" relate="ATT" />
+                <word id="26" cont="重大" pos="a" ne="O" wsd="Ed28" wsdexp="重要_次要_不足道" parent="27" relate="ATT" />
+                <word id="27" cont="进展" pos="v" ne="O" wsd="Ig03" wsdexp="进行_继续_流逝" parent="-1" relate="HED">
+                    <arg id="0" type="方位" beg="0" end="4" />
+                </word>
+                <word id="28" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="29" cont="极大" pos="a" ne="O" wsd="Ea03" wsdexp="大_中_小" parent="30" relate="DI" />
+                <word id="30" cont="地" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="31" relate="ADV" />
+                <word id="31" cont="提高" pos="v" ne="O" wsd="Ih06" wsdexp="削弱" parent="33" relate="ATT" />
+                <word id="32" cont="了" pos="u" ne="O" wsd="Kd05" wsdexp="吗_的话_罢了_了_哉" parent="31" relate="MT" />
+                <word id="33" cont="人类" pos="n" ne="O" wsd="Aa01" wsdexp="人_人民_众人" parent="40" relate="ATT" />
+                <word id="34" cont="对" pos="p" ne="O" wsd="Kb04" wsdexp="对于_关于" parent="38" relate="DE" />
+                <word id="35" cont="自然" pos="n" ne="O" wsd="Ed51" wsdexp="天然_本来_现成" parent="34" relate="POB" />
+                <word id="36" cont="和" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="37" relate="LAD" />
+                <word id="37" cont="社会" pos="n" ne="O" wsd="Di01" wsdexp="世界_社会_人间" parent="35" relate="COO" />
+                <word id="38" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="40" relate="ATT" />
+                <word id="39" cont="认识" pos="v" ne="O" wsd="Df14" wsdexp="想法_主意_见解" parent="40" relate="ATT" />
+                <word id="40" cont="能力" pos="n" ne="O" wsd="De04" wsdexp="智慧_才能_能力_功夫" parent="48" relate="SBV" />
+                <word id="41" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="42" cont="极大" pos="a" ne="O" wsd="Ea03" wsdexp="大_中_小" parent="43" relate="DI" />
+                <word id="43" cont="地" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="44" relate="ADV" />
+                <word id="44" cont="推动" pos="v" ne="O" wsd="Je06" wsdexp="推动_激发" parent="46" relate="ATT" />
+                <word id="45" cont="了" pos="u" ne="O" wsd="Kd05" wsdexp="吗_的话_罢了_了_哉" parent="44" relate="MT" />
+                <word id="46" cont="生产力" pos="n" ne="O" wsd="Dd14" wsdexp="力气_力量_能量" parent="47" relate="DE" />
+                <word id="47" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="48" relate="ATT" />
+                <word id="48" cont="发展" pos="v" ne="O" wsd="Ie12" wsdexp="进步_退步_堕落" parent="27" relate="VV">
+                    <arg id="0" type="施事" beg="29" end="40" />
+                </word>
+                <word id="49" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="8" cont="当前，人类正在经历一场全球性的科学技术革命。" tag="">
+                <word id="0" cont="当前" pos="nt" ne="O" wsd="Ca10" wsdexp="现在" parent="4" relate="ADV" />
+                <word id="1" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="2" cont="人类" pos="n" ne="O" wsd="Aa01" wsdexp="人_人民_众人" parent="4" relate="SBV" />
+                <word id="3" cont="正在" pos="d" ne="O" wsd="Ka12" wsdexp="已经_方才_正在" parent="4" relate="ADV" />
+                <word id="4" cont="经历" pos="v" ne="O" wsd="Hj03" wsdexp="消磨_度过_经历" parent="-1" relate="HED">
+                    <arg id="0" type="时间" beg="0" end="0" />
+                    <arg id="1" type="施事" beg="2" end="2" />
+                    <arg id="2" type="受事" beg="5" end="10" />
+                </word>
+                <word id="5" cont="一" pos="m" ne="B-Nm" wsd="Dn04" wsdexp="基数_序数" parent="6" relate="QUN" />
+                <word id="6" cont="场" pos="q" ne="E-Nm" wsd="Dn09" wsdexp="动量单位_复量单位" parent="10" relate="ATT" />
+                <word id="7" cont="全球性" pos="n" ne="O" wsd="Dd01" wsdexp="性质" parent="8" relate="DE" />
+                <word id="8" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="10" relate="ATT" />
+                <word id="9" cont="科学技术" pos="n" ne="O" wsd="De04" wsdexp="智慧_才能_能力_功夫" parent="10" relate="ATT" />
+                <word id="10" cont="革命" pos="v" ne="O" wsd="Ee37" wsdexp="革命_反动_进步_落后" parent="4" relate="VOB" />
+                <word id="11" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="9" cont="物质科学的研究、生物工程技术、信息技术、宇宙科学、地球科学等都在迅速发展，科技知识空前快速地生产、传播和转化。" tag="">
+                <word id="0" cont="物质" pos="n" ne="O" wsd="Ba01" wsdexp="物_物体" parent="3" relate="ATT" />
+                <word id="1" cont="科学" pos="a" ne="O" wsd="Dk03" wsdexp="科学_学科_学业" parent="2" relate="DE" />
+                <word id="2" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="3" relate="ATT" />
+                <word id="3" cont="研究" pos="v" ne="O" wsd="Hg14" wsdexp="分析_推敲_研究_考证" parent="-1" relate="HED" />
+                <word id="4" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="5" cont="生物" pos="n" ne="O" wsd="Ba02" wsdexp="生物_物品" parent="6" relate="ATT" />
+                <word id="6" cont="工程" pos="n" ne="O" wsd="Di18" wsdexp="事业_行业_工程" parent="7" relate="ATT" />
+                <word id="7" cont="技术" pos="n" ne="O" wsd="De04" wsdexp="智慧_才能_能力_功夫" parent="3" relate="COO" />
+                <word id="8" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="9" cont="信息" pos="n" ne="O" wsd="Da19" wsdexp="消息_音信" parent="10" relate="ATT" />
+                <word id="10" cont="技术" pos="n" ne="O" wsd="De04" wsdexp="智慧_才能_能力_功夫" parent="3" relate="COO" />
+                <word id="11" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="12" cont="宇宙" pos="n" ne="O" wsd="Bd01" wsdexp="宇宙_星辰" parent="13" relate="ATT" />
+                <word id="13" cont="科学" pos="n" ne="O" wsd="Dk03" wsdexp="科学_学科_学业" parent="3" relate="COO" />
+                <word id="14" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="15" cont="地球" pos="n" ne="O" wsd="Bd03" wsdexp="地球" parent="3" relate="COO" />
+                <word id="16" cont="科学" pos="a" ne="O" wsd="Dk03" wsdexp="科学_学科_学业" parent="17" relate="DE" />
+                <word id="17" cont="等" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="3" relate="MT" />
+                <word id="18" cont="都" pos="d" ne="O" wsd="Ka07" wsdexp="都_只_不止_甚至" parent="21" relate="ADV" />
+                <word id="19" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="21" relate="ADV" />
+                <word id="20" cont="迅速" pos="a" ne="O" wsd="Eb23" wsdexp="快_慢" parent="21" relate="ATT" />
+                <word id="21" cont="发展" pos="v" ne="O" wsd="Ie12" wsdexp="进步_退步_堕落" parent="3" relate="COO">
+                    <arg id="0" type="受事" beg="23" end="32" />
+                </word>
+                <word id="22" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="23" cont="科技" pos="n" ne="O" wsd="Dk03" wsdexp="科学_学科_学业" parent="24" relate="ATT" />
+                <word id="24" cont="知识" pos="n" ne="O" wsd="Dk02" wsdexp="学说_学问_知识" parent="25" relate="SBV" />
+                <word id="25" cont="空前" pos="a" ne="O" wsd="Ed04" wsdexp="杰出_异常_普通" parent="27" relate="DI" />
+                <word id="26" cont="快速" pos="b" ne="O" wsd="Eb23" wsdexp="快_慢" parent="27" relate="DI" />
+                <word id="27" cont="地" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="28" relate="ATT" />
+                <word id="28" cont="生产" pos="v" ne="O" wsd="Hd29" wsdexp="出产" parent="21" relate="VOB" />
+                <word id="29" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="30" cont="传播" pos="v" ne="O" wsd="Ie01" wsdexp="传导_传播_流行" parent="28" relate="COO" />
+                <word id="31" cont="和" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="32" relate="LAD" />
+                <word id="32" cont="转化" pos="v" ne="O" wsd="Ih02" wsdexp="改变_改换" parent="28" relate="COO" />
+                <word id="33" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="10" cont="一九九八年，世界科技发展又取得了许多新的成果。" tag="">
+                <word id="0" cont="一九九八年" pos="nt" ne="S-Nr" wsd="-1" wsdexp="" parent="6" relate="ADV" />
+                <word id="1" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="2" cont="世界" pos="n" ne="O" wsd="Di01" wsdexp="世界_社会_人间" parent="3" relate="ATT" />
+                <word id="3" cont="科技" pos="n" ne="O" wsd="Dk03" wsdexp="科学_学科_学业" parent="4" relate="ATT" />
+                <word id="4" cont="发展" pos="v" ne="O" wsd="Ie12" wsdexp="进步_退步_堕落" parent="6" relate="SBV" />
+                <word id="5" cont="又" pos="d" ne="O" wsd="Ka14" wsdexp="再" parent="6" relate="ADV" />
+                <word id="6" cont="取得" pos="v" ne="O" wsd="Je12" wsdexp="取得_达到_挽回" parent="-1" relate="HED">
+                    <arg id="0" type="时间" beg="0" end="0" />
+                    <arg id="1" type="施事" beg="2" end="4" />
+                    <arg id="2" type="受事" beg="8" end="11" />
+                </word>
+                <word id="7" cont="了" pos="u" ne="O" wsd="Kd05" wsdexp="吗_的话_罢了_了_哉" parent="6" relate="MT" />
+                <word id="8" cont="许多" pos="m" ne="O" wsd="Eb01" wsdexp="多_少_稀少" parent="11" relate="QUN" />
+                <word id="9" cont="新" pos="a" ne="O" wsd="Eb28" wsdexp="新_新鲜" parent="10" relate="DE" />
+                <word id="10" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="11" relate="ATT" />
+                <word id="11" cont="成果" pos="n" ne="O" wsd="Da14" wsdexp="成就_功劳_过失_功过" parent="6" relate="VOB" />
+                <word id="12" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="11" cont="科技领域的革命性变革，不仅通过推动生产力发展有力地作用于人们的生产和生活方式，而且必将深刻地影响下个世纪的世界政治、经济、文化和军事格局。" tag="20%">
+                <word id="0" cont="科技" pos="n" ne="O" wsd="Dk03" wsdexp="科学_学科_学业" parent="1" relate="ATT" />
+                <word id="1" cont="领域" pos="n" ne="O" wsd="Dd05" wsdexp="范围_方面_环节" parent="2" relate="DE" />
+                <word id="2" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="4" relate="ATT" />
+                <word id="3" cont="革命性" pos="n" ne="O" wsd="Dd01" wsdexp="性质" parent="4" relate="ATT" />
+                <word id="4" cont="变革" pos="v" ne="O" wsd="Ha01" wsdexp="革命_解放" parent="-1" relate="HED" />
+                <word id="5" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="6" cont="不仅" pos="c" ne="O" wsd="Kc05" wsdexp="不但_何止" parent="7" relate="CNJ" />
+                <word id="7" cont="通过" pos="p" ne="O" wsd="Kb06" wsdexp="依靠_通过" parent="8" relate="ADV" />
+                <word id="8" cont="推动" pos="v" ne="O" wsd="Je06" wsdexp="推动_激发" parent="12" relate="DI">
+                    <arg id="0" type="受事" beg="9" end="9" />
+                    <arg id="1" type="受事" beg="10" end="10" />
+                </word>
+                <word id="9" cont="生产力" pos="n" ne="O" wsd="Dd14" wsdexp="力气_力量_能量" parent="8" relate="VOB" />
+                <word id="10" cont="发展" pos="v" ne="O" wsd="Ie12" wsdexp="进步_退步_堕落" parent="8" relate="VOB" />
+                <word id="11" cont="有力" pos="a" ne="O" wsd="Ed19" wsdexp="稳固_强大_弱小" parent="12" relate="DI" />
+                <word id="12" cont="地" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="13" relate="ATT" />
+                <word id="13" cont="作用" pos="n" ne="O" wsd="Da25" wsdexp="效用_反应" parent="4" relate="COO" />
+                <word id="14" cont="于" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="16" relate="DE" />
+                <word id="15" cont="人们" pos="n" ne="O" wsd="Aa01" wsdexp="人_人民_众人" parent="14" relate="POB" />
+                <word id="16" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="17" relate="ATT" />
+                <word id="17" cont="生产" pos="v" ne="O" wsd="Hd29" wsdexp="出产" parent="4" relate="VV">
+                    <arg id="0" type="受事" beg="22" end="39" />
+                </word>
+                <word id="18" cont="和" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="20" relate="LAD" />
+                <word id="19" cont="生活" pos="v" ne="O" wsd="Hj01" wsdexp="生活_居住" parent="20" relate="ATT" />
+                <word id="20" cont="方式" pos="n" ne="O" wsd="Db09" wsdexp="方法_诀窍_步骤" parent="17" relate="COO" />
+                <word id="21" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="22" cont="而且" pos="c" ne="O" wsd="Kc02" wsdexp="并且_况且" parent="23" relate="ADV" />
+                <word id="23" cont="必将" pos="d" ne="O" wsd="Ka15" wsdexp="必然_管保_未必" parent="32" relate="ATT" />
+                <word id="24" cont="深刻" pos="a" ne="O" wsd="Ed16" wsdexp="深刻_深远_深厚_深沉" parent="25" relate="DI" />
+                <word id="25" cont="地" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="32" relate="ATT" />
+                <word id="26" cont="影响" pos="v" ne="O" wsd="Je02" wsdexp="影响_触动_带动" parent="27" relate="ATT" />
+                <word id="27" cont="下" pos="nd" ne="O" wsd="Cb03" wsdexp="上_下_左_右" parent="29" relate="ATT" />
+                <word id="28" cont="个" pos="q" ne="O" wsd="Dn08" wsdexp="数量单位" parent="29" relate="ATT" />
+                <word id="29" cont="世纪" pos="n" ne="O" wsd="Ca18" wsdexp="年" parent="30" relate="DE" />
+                <word id="30" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="32" relate="ATT" />
+                <word id="31" cont="世界" pos="n" ne="O" wsd="Di01" wsdexp="世界_社会_人间" parent="32" relate="ATT" />
+                <word id="32" cont="政治" pos="n" ne="O" wsd="Di08" wsdexp="政治_政体_专政" parent="17" relate="VOB" />
+                <word id="33" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="34" cont="经济" pos="n" ne="O" wsd="Dj01" wsdexp="经济" parent="32" relate="COO" />
+                <word id="35" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="36" cont="文化" pos="n" ne="O" wsd="Dk01" wsdexp="文化_教育_卫生" parent="32" relate="COO" />
+                <word id="37" cont="和" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="39" relate="LAD" />
+                <word id="38" cont="军事" pos="n" ne="O" wsd="Di11" wsdexp="军队_战争" parent="39" relate="ATT" />
+                <word id="39" cont="格局" pos="n" ne="O" wsd="Dk07" wsdexp="题材_体裁_布局" parent="32" relate="COO" />
+                <word id="40" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="12" cont="对此，我们要有足够的估计。" tag="">
+                <word id="0" cont="对" pos="p" ne="O" wsd="Kb04" wsdexp="对于_关于" parent="5" relate="ADV" />
+                <word id="1" cont="此" pos="r" ne="O" wsd="Ed61" wsdexp="这个_那个_某个_各个_其他_何" parent="0" relate="POB" />
+                <word id="2" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="3" cont="我们" pos="r" ne="O" wsd="Aa02" wsdexp="我_我们" parent="5" relate="SBV" />
+                <word id="4" cont="要" pos="v" ne="O" wsd="Gc03" wsdexp="应该_必须_无须" parent="5" relate="ADV" />
+                <word id="5" cont="有" pos="v" ne="O" wsd="Jd04" wsdexp="有_占有" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="3" end="3" />
+                    <arg id="1" type="受事" beg="6" end="8" />
+                </word>
+                <word id="6" cont="足够" pos="v" ne="O" wsd="He14" wsdexp="足够_相抵_剩余_结存_亏欠" parent="7" relate="DE" />
+                <word id="7" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="8" relate="ATT" />
+                <word id="8" cont="估计" pos="v" ne="O" wsd="Gb03" wsdexp="推测_猜想" parent="5" relate="VOB" />
+                <word id="9" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+        </para>
+        <para id="2">
+            <sent id="0" cont="去年十一月访问俄罗斯时，我在新西伯利亚科学城发表了一篇关于科学技术的演讲，在美国和其他一些国家引起了广泛注意和较大反响。" tag="">
+                <word id="0" cont="去年" pos="nt" ne="O" wsd="Ca18" wsdexp="年" parent="1" relate="ATT" />
+                <word id="1" cont="十一月" pos="nt" ne="S-Nr" wsd="Ca21" wsdexp="月" parent="2" relate="ADV" />
+                <word id="2" cont="访问" pos="v" ne="O" wsd="Hi02" wsdexp="访问_进见_探望" parent="-1" relate="HED">
+                    <arg id="0" type="时间" beg="0" end="1" />
+                    <arg id="1" type="受事" beg="3" end="4" />
+                </word>
+                <word id="3" cont="俄罗斯" pos="ns" ne="S-Ns" wsd="Di02" wsdexp="国家_行政区划" parent="4" relate="ATT" />
+                <word id="4" cont="时" pos="n" ne="O" wsd="Ca04" wsdexp="时候_时机_关头" parent="2" relate="VOB" />
+                <word id="5" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="6" cont="我" pos="r" ne="O" wsd="Aa02" wsdexp="我_我们" parent="11" relate="SBV" />
+                <word id="7" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="11" relate="ADV" />
+                <word id="8" cont="新" pos="a" ne="O" wsd="Eb28" wsdexp="新_新鲜" parent="10" relate="ATT" />
+                <word id="9" cont="西伯利亚" pos="ns" ne="S-Ns" wsd="Cb08" wsdexp="地方_地点" parent="10" relate="ATT" />
+                <word id="10" cont="科学城" pos="n" ne="O" wsd="Cb25" wsdexp="城市_集镇_乡村" parent="7" relate="POB" />
+                <word id="11" cont="发表" pos="v" ne="O" wsd="Hi14" wsdexp="表示_表达_阐明_表露_发誓" parent="2" relate="VV">
+                    <arg id="0" type="施事" beg="6" end="6" />
+                    <arg id="1" type="受事-数量性质" beg="13" end="14" />
+                    <arg id="2" type="受事" beg="15" end="18" />
+                </word>
+                <word id="12" cont="了" pos="u" ne="O" wsd="Kd05" wsdexp="吗_的话_罢了_了_哉" parent="11" relate="MT" />
+                <word id="13" cont="一" pos="m" ne="B-Nm" wsd="Dn04" wsdexp="基数_序数" parent="14" relate="QUN" />
+                <word id="14" cont="篇" pos="q" ne="E-Nm" wsd="Dn08" wsdexp="数量单位" parent="11" relate="VOB" />
+                <word id="15" cont="关于" pos="p" ne="O" wsd="Kb04" wsdexp="对于_关于" parent="17" relate="DE" />
+                <word id="16" cont="科学技术" pos="n" ne="O" wsd="De04" wsdexp="智慧_才能_能力_功夫" parent="15" relate="POB" />
+                <word id="17" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="18" relate="ATT" />
+                <word id="18" cont="演讲" pos="v" ne="O" wsd="Hi13" wsdexp="演讲_论述_列举_叙述_描写" parent="11" relate="VOB" />
+                <word id="19" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="20" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="26" relate="ADV" />
+                <word id="21" cont="美国" pos="ns" ne="S-Ns" wsd="Di02" wsdexp="国家_行政区划" parent="20" relate="POB" />
+                <word id="22" cont="和" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="25" relate="LAD" />
+                <word id="23" cont="其他" pos="r" ne="O" wsd="Ed61" wsdexp="这个_那个_某个_各个_其他_何" parent="25" relate="ATT" />
+                <word id="24" cont="一些" pos="m" ne="O" wsd="Dn05" wsdexp="半_概数_若干" parent="25" relate="QUN" />
+                <word id="25" cont="国家" pos="n" ne="O" wsd="Di02" wsdexp="国家_行政区划" parent="20" relate="POB" />
+                <word id="26" cont="引起" pos="v" ne="O" wsd="Je04" wsdexp="引起_导致_使得" parent="11" relate="VV">
+                    <arg id="0" type="地点" beg="20" end="25" />
+                    <arg id="1" type="受事" beg="28" end="29" />
+                    <arg id="2" type="受事" beg="30" end="33" />
+                </word>
+                <word id="27" cont="了" pos="u" ne="O" wsd="Kd05" wsdexp="吗_的话_罢了_了_哉" parent="26" relate="MT" />
+                <word id="28" cont="广泛" pos="a" ne="O" wsd="Ed38" wsdexp="广泛_无穷_狭隘" parent="29" relate="ADV" />
+                <word id="29" cont="注意" pos="v" ne="O" wsd="Gb20" wsdexp="注意_权衡_计较" parent="26" relate="VOB" />
+                <word id="30" cont="和" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="33" relate="LAD" />
+                <word id="31" cont="较" pos="d" ne="O" wsd="Ka05" wsdexp="相当_比较_稍微_大多" parent="32" relate="ADV" />
+                <word id="32" cont="大" pos="a" ne="O" wsd="Ea03" wsdexp="大_中_小" parent="33" relate="ATT" />
+                <word id="33" cont="反响" pos="n" ne="O" wsd="Da25" wsdexp="效用_反应" parent="26" relate="VOB" />
+                <word id="34" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="1" cont="国外报纸还发表了不少评论。" tag="">
+                <word id="0" cont="国外" pos="nl" ne="O" wsd="Cb05" wsdexp="内_外" parent="1" relate="ATT" />
+                <word id="1" cont="报纸" pos="n" ne="O" wsd="Dk21" wsdexp="报章_杂志_报刊" parent="3" relate="SBV" />
+                <word id="2" cont="还" pos="d" ne="O" wsd="Ka33" wsdexp="却_还_也_反而" parent="3" relate="ADV" />
+                <word id="3" cont="发表" pos="v" ne="O" wsd="Jd03" wsdexp="登载" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="1" />
+                    <arg id="1" type="受事" beg="5" end="6" />
+                </word>
+                <word id="4" cont="了" pos="u" ne="O" wsd="Kd05" wsdexp="吗_的话_罢了_了_哉" parent="3" relate="MT" />
+                <word id="5" cont="不少" pos="m" ne="O" wsd="Eb01" wsdexp="多_少_稀少" parent="6" relate="QUN" />
+                <word id="6" cont="评论" pos="n" ne="O" wsd="Dk12" wsdexp="说法_言论_评论" parent="3" relate="VOB" />
+                <word id="7" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="2" cont="为什么会引起他们如此的注意呢？" tag="">
+                <word id="0" cont="为什么" pos="r" ne="O" wsd="Ka35" wsdexp="哪里_怎样_为什么" parent="2" relate="SBV" />
+                <word id="1" cont="会" pos="v" ne="O" wsd="Gc02" wsdexp="能够_不能_可以_不可" parent="2" relate="ADV" />
+                <word id="2" cont="引起" pos="v" ne="O" wsd="Je04" wsdexp="引起_导致_使得" parent="5" relate="DE">
+                    <arg id="0" type="施事" beg="0" end="0" />
+                    <arg id="1" type="受事" beg="3" end="3" />
+                </word>
+                <word id="3" cont="他们" pos="r" ne="O" wsd="Aa04" wsdexp="他_他们" parent="2" relate="VOB" />
+                <word id="4" cont="如此" pos="r" ne="O" wsd="Ka34" wsdexp="这样_那样" parent="5" relate="DE" />
+                <word id="5" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="6" relate="LAD" />
+                <word id="6" cont="注意" pos="v" ne="O" wsd="Gb20" wsdexp="注意_权衡_计较" parent="-1" relate="HED" />
+                <word id="7" cont="呢" pos="u" ne="O" wsd="Kd03" wsdexp="啊_呢_喽" parent="6" relate="MT" />
+                <word id="8" cont="？" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="3" cont="无非是两方面的原因，一是关注中国和俄罗斯加强科学技术方面的合作，二是关注中国科教兴国战略的实施带来的历史影响。" tag="">
+                <word id="0" cont="无非" pos="d" ne="O" wsd="Ka07" wsdexp="都_只_不止_甚至" parent="1" relate="ADV" />
+                <word id="1" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="-1" relate="HED">
+                    <arg id="0" type="受事" beg="2" end="3" />
+                    <arg id="1" type="受事" beg="4" end="5" />
+                </word>
+                <word id="2" cont="两" pos="m" ne="S-Nm" wsd="Dn04" wsdexp="基数_序数" parent="3" relate="QUN" />
+                <word id="3" cont="方面" pos="n" ne="O" wsd="Dd05" wsdexp="范围_方面_环节" parent="1" relate="VOB" />
+                <word id="4" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="5" relate="ATT" />
+                <word id="5" cont="原因" pos="n" ne="O" wsd="Db01" wsdexp="原因_结果" parent="1" relate="VOB" />
+                <word id="6" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="7" cont="一" pos="m" ne="S-Nm" wsd="Dn04" wsdexp="基数_序数" parent="8" relate="SBV" />
+                <word id="8" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="1" relate="VV">
+                    <arg id="0" type="施事" beg="7" end="7" />
+                    <arg id="1" type="受事" beg="9" end="9" />
+                    <arg id="2" type="受事" beg="10" end="12" />
+                    <arg id="3" type="受事" beg="13" end="15" />
+                </word>
+                <word id="9" cont="关注" pos="v" ne="O" wsd="Gb19" wsdexp="关怀_担心_放心" parent="8" relate="VOB" />
+                <word id="10" cont="中国" pos="ns" ne="S-Ns" wsd="Di02" wsdexp="国家_行政区划" parent="8" relate="VOB" />
+                <word id="11" cont="和" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="12" relate="LAD" />
+                <word id="12" cont="俄罗斯" pos="ns" ne="S-Ns" wsd="Di02" wsdexp="国家_行政区划" parent="10" relate="COO" />
+                <word id="13" cont="加强" pos="v" ne="O" wsd="Ih10" wsdexp="抓紧_放松" parent="8" relate="VOB">
+                    <arg id="0" type="受事" beg="14" end="15" />
+                </word>
+                <word id="14" cont="科学技术" pos="n" ne="O" wsd="De04" wsdexp="智慧_才能_能力_功夫" parent="15" relate="ATT" />
+                <word id="15" cont="方面" pos="n" ne="O" wsd="Dd05" wsdexp="范围_方面_环节" parent="13" relate="VOB" />
+                <word id="16" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="17" relate="ATT" />
+                <word id="17" cont="合作" pos="v" ne="O" wsd="Hj12" wsdexp="做_施展_合作_尝试" parent="20" relate="SBV" />
+                <word id="18" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="19" cont="二" pos="m" ne="S-Nm" wsd="Dn04" wsdexp="基数_序数" parent="20" relate="SBV" />
+                <word id="20" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="1" relate="VV">
+                    <arg id="0" type="施事" beg="16" end="17" />
+                    <arg id="1" type="施事" beg="19" end="19" />
+                    <arg id="2" type="受事" beg="21" end="26" />
+                    <arg id="3" type="受事" beg="27" end="30" />
+                </word>
+                <word id="21" cont="关注" pos="v" ne="O" wsd="Gb19" wsdexp="关怀_担心_放心" parent="25" relate="DE">
+                    <arg id="0" type="受事" beg="22" end="24" />
+                </word>
+                <word id="22" cont="中国" pos="ns" ne="S-Ns" wsd="Di02" wsdexp="国家_行政区划" parent="24" relate="ATT" />
+                <word id="23" cont="科教兴国" pos="i" ne="O" wsd="-1" wsdexp="" parent="24" relate="ATT" />
+                <word id="24" cont="战略" pos="n" ne="O" wsd="Df09" wsdexp="计划_计策_手段" parent="21" relate="VOB" />
+                <word id="25" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="26" relate="ATT" />
+                <word id="26" cont="实施" pos="v" ne="O" wsd="Ie13" wsdexp="实行_举行" parent="20" relate="VOB" />
+                <word id="27" cont="带来" pos="v" ne="O" wsd="Hj36" wsdexp="携带_跟随" parent="28" relate="DE" />
+                <word id="28" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="30" relate="ATT" />
+                <word id="29" cont="历史" pos="n" ne="O" wsd="Da07" wsdexp="往事_前途" parent="30" relate="ATT" />
+                <word id="30" cont="影响" pos="v" ne="O" wsd="Je02" wsdexp="影响_触动_带动" parent="20" relate="VOB" />
+                <word id="31" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+        </para>
+        <para id="3">
+            <sent id="0" cont="我们学习科技知识，首先是要通过这种学习把握世界发展的大势，加强做好工作的紧迫感和责任感。" tag="10%">
+                <word id="0" cont="我们" pos="r" ne="O" wsd="Aa02" wsdexp="我_我们" parent="1" relate="SBV" />
+                <word id="1" cont="学习" pos="v" ne="O" wsd="Hg08" wsdexp="学习_从师_模仿" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="0" />
+                    <arg id="1" type="受事" beg="2" end="3" />
+                </word>
+                <word id="2" cont="科技" pos="n" ne="O" wsd="Dk03" wsdexp="科学_学科_学业" parent="3" relate="ATT" />
+                <word id="3" cont="知识" pos="n" ne="O" wsd="Dk02" wsdexp="学说_学问_知识" parent="1" relate="VOB" />
+                <word id="4" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="5" cont="首先" pos="d" ne="O" wsd="Ka09" wsdexp="姑且_临时_预先_首先_准时" parent="6" relate="ADV" />
+                <word id="6" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="1" relate="IC">
+                    <arg id="0" type="受事" beg="7" end="10" />
+                    <arg id="1" type="受事" beg="11" end="15" />
+                </word>
+                <word id="7" cont="要" pos="v" ne="O" wsd="Gc03" wsdexp="应该_必须_无须" parent="10" relate="ADV" />
+                <word id="8" cont="通过" pos="p" ne="O" wsd="Kb06" wsdexp="依靠_通过" parent="10" relate="ADV" />
+                <word id="9" cont="这种" pos="r" ne="O" wsd="-1" wsdexp="" parent="8" relate="POB" />
+                <word id="10" cont="学习" pos="v" ne="O" wsd="Hg08" wsdexp="学习_从师_模仿" parent="6" relate="VOB" />
+                <word id="11" cont="把握" pos="v" ne="O" wsd="Fa06" wsdexp="拿_撮_揪_挎_夹" parent="6" relate="VOB">
+                    <arg id="0" type="受事" beg="12" end="15" />
+                </word>
+                <word id="12" cont="世界" pos="n" ne="O" wsd="Di01" wsdexp="世界_社会_人间" parent="13" relate="ATT" />
+                <word id="13" cont="发展" pos="v" ne="O" wsd="Ie12" wsdexp="进步_退步_堕落" parent="14" relate="DE" />
+                <word id="14" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="15" relate="ATT" />
+                <word id="15" cont="大势" pos="n" ne="O" wsd="Da20" wsdexp="形势_趋势_潮流" parent="11" relate="VOB" />
+                <word id="16" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="17" cont="加强" pos="v" ne="O" wsd="Ih10" wsdexp="抓紧_放松" parent="6" relate="IC">
+                    <arg id="0" type="受事" beg="18" end="23" />
+                </word>
+                <word id="18" cont="做好" pos="v" ne="O" wsd="Hj12" wsdexp="做_施展_合作_尝试" parent="20" relate="DE">
+                    <arg id="0" type="受事" beg="19" end="19" />
+                </word>
+                <word id="19" cont="工作" pos="v" ne="O" wsd="Hj11" wsdexp="工作_劳动" parent="18" relate="VOB" />
+                <word id="20" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="21" relate="ATT" />
+                <word id="21" cont="紧迫感" pos="n" ne="O" wsd="Df04" wsdexp="感觉_感情" parent="17" relate="VOB" />
+                <word id="22" cont="和" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="23" relate="LAD" />
+                <word id="23" cont="责任感" pos="n" ne="O" wsd="Df04" wsdexp="感觉_感情" parent="21" relate="COO" />
+                <word id="24" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="1" cont="西方资本主义国家称强世界几百年，一个重要原因就是它们首先掌握和运用了先进的科学技术，在经济上、军事上对其他国家形成了压倒性的优势。" tag="">
+                <word id="0" cont="西方" pos="nl" ne="O" wsd="Di02" wsdexp="国家_行政区划" parent="1" relate="ATT" />
+                <word id="1" cont="资本主义" pos="n" ne="O" wsd="Di08" wsdexp="政治_政体_专政" parent="2" relate="ATT" />
+                <word id="2" cont="国家" pos="n" ne="O" wsd="Di02" wsdexp="国家_行政区划" parent="3" relate="SBV" />
+                <word id="3" cont="称" pos="v" ne="O" wsd="Ja02" wsdexp="叫做_所谓" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="2" />
+                    <arg id="1" type="受事" beg="4" end="5" />
+                    <arg id="2" type="受事-数量性质" beg="6" end="7" />
+                    <arg id="3" type="受事" beg="23" end="36" />
+                </word>
+                <word id="4" cont="强" pos="a" ne="O" wsd="Ed19" wsdexp="稳固_强大_弱小" parent="5" relate="ATT" />
+                <word id="5" cont="世界" pos="n" ne="O" wsd="Di01" wsdexp="世界_社会_人间" parent="3" relate="VOB" />
+                <word id="6" cont="几百" pos="m" ne="B-Nm" wsd="-1" wsdexp="" parent="7" relate="QUN" />
+                <word id="7" cont="年" pos="q" ne="E-Nm" wsd="Ca18" wsdexp="年" parent="3" relate="VOB" />
+                <word id="8" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="9" cont="一个" pos="m" ne="O" wsd="Dn08" wsdexp="数量单位" parent="11" relate="QUN" />
+                <word id="10" cont="重要" pos="a" ne="O" wsd="Ed28" wsdexp="重要_次要_不足道" parent="11" relate="ATT" />
+                <word id="11" cont="原因" pos="n" ne="O" wsd="Db01" wsdexp="原因_结果" parent="12" relate="SBV" />
+                <word id="12" cont="就是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="3" relate="IC">
+                    <arg id="0" type="施事" beg="9" end="11" />
+                    <arg id="1" type="受事" beg="13" end="21" />
+                </word>
+                <word id="13" cont="它们" pos="r" ne="O" wsd="Ba10" wsdexp="它_什么" parent="15" relate="SBV" />
+                <word id="14" cont="首先" pos="d" ne="O" wsd="Ka09" wsdexp="姑且_临时_预先_首先_准时" parent="15" relate="ADV" />
+                <word id="15" cont="掌握" pos="v" ne="O" wsd="Gb08" wsdexp="了解_体会_不解" parent="12" relate="VOB">
+                    <arg id="0" type="施事" beg="13" end="13" />
+                    <arg id="1" type="受事" beg="19" end="21" />
+                </word>
+                <word id="16" cont="和" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="17" relate="LAD" />
+                <word id="17" cont="运用" pos="v" ne="O" wsd="Hj28" wsdexp="使用_沿用_借鉴" parent="15" relate="COO" />
+                <word id="18" cont="了" pos="u" ne="O" wsd="Kd05" wsdexp="吗_的话_罢了_了_哉" parent="15" relate="MT" />
+                <word id="19" cont="先进" pos="a" ne="O" wsd="Ee37" wsdexp="革命_反动_进步_落后" parent="20" relate="DE" />
+                <word id="20" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="21" relate="ATT" />
+                <word id="21" cont="科学技术" pos="n" ne="O" wsd="De04" wsdexp="智慧_才能_能力_功夫" parent="15" relate="VOB" />
+                <word id="22" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="23" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="32" relate="ADV" />
+                <word id="24" cont="经济" pos="n" ne="O" wsd="Dj01" wsdexp="经济" parent="25" relate="ATT" />
+                <word id="25" cont="上" pos="nd" ne="O" wsd="Cb03" wsdexp="上_下_左_右" parent="23" relate="POB" />
+                <word id="26" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="27" cont="军事" pos="n" ne="O" wsd="Di11" wsdexp="军队_战争" parent="28" relate="ATT" />
+                <word id="28" cont="上" pos="nd" ne="O" wsd="Cb03" wsdexp="上_下_左_右" parent="23" relate="POB" />
+                <word id="29" cont="对" pos="p" ne="O" wsd="Kb04" wsdexp="对于_关于" parent="32" relate="ADV" />
+                <word id="30" cont="其他" pos="r" ne="O" wsd="Ed61" wsdexp="这个_那个_某个_各个_其他_何" parent="31" relate="ATT" />
+                <word id="31" cont="国家" pos="n" ne="O" wsd="Di02" wsdexp="国家_行政区划" parent="29" relate="POB" />
+                <word id="32" cont="形成" pos="v" ne="O" wsd="Ih01" wsdexp="变化_成为" parent="35" relate="DE">
+                    <arg id="0" type="方位" beg="23" end="28" />
+                    <arg id="1" type="受事" beg="34" end="34" />
+                </word>
+                <word id="33" cont="了" pos="u" ne="O" wsd="Kd05" wsdexp="吗_的话_罢了_了_哉" parent="32" relate="MT" />
+                <word id="34" cont="压倒性" pos="n" ne="O" wsd="-1" wsdexp="" parent="32" relate="VOB" />
+                <word id="35" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="36" relate="ATT" />
+                <word id="36" cont="优势" pos="n" ne="O" wsd="Da20" wsdexp="形势_趋势_潮流" parent="3" relate="VOB" />
+                <word id="37" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="2" cont="中国在近代以后所以屡屡遭受西方列强的侵略和蹂躏，除了腐朽的政治统治这个原因，经济技术落后是一个重要的原因。" tag="">
+                <word id="0" cont="中国" pos="ns" ne="S-Ns" wsd="Di02" wsdexp="国家_行政区划" parent="10" relate="SBV" />
+                <word id="1" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="6" relate="ADV" />
+                <word id="2" cont="近代" pos="nt" ne="O" wsd="Ca02" wsdexp="时代_朝代_年代" parent="1" relate="POB" />
+                <word id="3" cont="以后" pos="nd" ne="O" wsd="Ca12" wsdexp="将来_隔日" parent="1" relate="POB" />
+                <word id="4" cont="所以" pos="c" ne="O" wsd="Kc09" wsdexp="因为_所以" parent="6" relate="CNJ" />
+                <word id="5" cont="屡屡" pos="d" ne="O" wsd="Ka10" wsdexp="经常_向来_本来" parent="6" relate="ADV" />
+                <word id="6" cont="遭受" pos="v" ne="O" wsd="Je13" wsdexp="遭受_享受" parent="9" relate="DE">
+                    <arg id="0" type="时间" beg="1" end="3" />
+                    <arg id="1" type="受事" beg="7" end="8" />
+                </word>
+                <word id="7" cont="西方" pos="nl" ne="O" wsd="Di02" wsdexp="国家_行政区划" parent="8" relate="ATT" />
+                <word id="8" cont="列强" pos="n" ne="O" wsd="Dd15" wsdexp="名称_姓名_生肖_性别" parent="6" relate="VOB" />
+                <word id="9" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="10" relate="ATT" />
+                <word id="10" cont="侵略" pos="v" ne="O" wsd="Hb11" wsdexp="侵略_并吞_骚扰" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="0" />
+                </word>
+                <word id="11" cont="和" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="12" relate="LAD" />
+                <word id="12" cont="蹂躏" pos="v" ne="O" wsd="Hi58" wsdexp="欺负_侮辱_排挤" parent="10" relate="COO" />
+                <word id="13" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="14" cont="除了" pos="p" ne="O" wsd="Kc07" wsdexp="除了_除非_若非_否则" parent="18" relate="ADV" />
+                <word id="15" cont="腐朽" pos="a" ne="O" wsd="Ia12" wsdexp="腐烂_发霉_生锈_褪色" parent="16" relate="DE" />
+                <word id="16" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="17" relate="ATT" />
+                <word id="17" cont="政治" pos="n" ne="O" wsd="Di08" wsdexp="政治_政体_专政" parent="14" relate="POB" />
+                <word id="18" cont="统治" pos="v" ne="O" wsd="Ha03" wsdexp="上台_统治_下台" parent="10" relate="VV">
+                    <arg id="0" type="受事" beg="19" end="20" />
+                </word>
+                <word id="19" cont="这个" pos="r" ne="O" wsd="Ed61" wsdexp="这个_那个_某个_各个_其他_何" parent="20" relate="ATT" />
+                <word id="20" cont="原因" pos="n" ne="O" wsd="Db01" wsdexp="原因_结果" parent="18" relate="VOB" />
+                <word id="21" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="22" cont="经济" pos="n" ne="O" wsd="Dj01" wsdexp="经济" parent="23" relate="ATT" />
+                <word id="23" cont="技术" pos="n" ne="O" wsd="De04" wsdexp="智慧_才能_能力_功夫" parent="24" relate="SBV" />
+                <word id="24" cont="落后" pos="a" ne="O" wsd="Ee37" wsdexp="革命_反动_进步_落后" parent="25" relate="ADV" />
+                <word id="25" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="18" relate="IC">
+                    <arg id="0" type="受事" beg="26" end="29" />
+                </word>
+                <word id="26" cont="一个" pos="m" ne="O" wsd="Dn08" wsdexp="数量单位" parent="29" relate="QUN" />
+                <word id="27" cont="重要" pos="a" ne="O" wsd="Ed28" wsdexp="重要_次要_不足道" parent="28" relate="DE" />
+                <word id="28" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="29" relate="ATT" />
+                <word id="29" cont="原因" pos="n" ne="O" wsd="Db01" wsdexp="原因_结果" parent="25" relate="VOB" />
+                <word id="30" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="3" cont="这个历史教训，我们永远不要忘记。" tag="">
+                <word id="0" cont="这个" pos="r" ne="O" wsd="Ed61" wsdexp="这个_那个_某个_各个_其他_何" parent="2" relate="ATT" />
+                <word id="1" cont="历史" pos="n" ne="O" wsd="Da07" wsdexp="往事_前途" parent="2" relate="ATT" />
+                <word id="2" cont="教训" pos="n" ne="O" wsd="Da16" wsdexp="经验_教训_印象" parent="7" relate="SBV" />
+                <word id="3" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="4" cont="我们" pos="r" ne="O" wsd="Aa02" wsdexp="我_我们" parent="7" relate="SBV" />
+                <word id="5" cont="永远" pos="d" ne="O" wsd="Eb24" wsdexp="长久_永远" parent="7" relate="ADV" />
+                <word id="6" cont="不要" pos="d" ne="O" wsd="Ka18" wsdexp="不_没" parent="7" relate="ADV" />
+                <word id="7" cont="忘记" pos="v" ne="O" wsd="Gb07" wsdexp="记得_忘记" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="2" />
+                    <arg id="1" type="施事" beg="4" end="4" />
+                </word>
+                <word id="8" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="4" cont="如果我们不紧紧跟上科技进步的时代潮流，不下大力气努力提高我国的科学技术水平，就会落后。" tag="">
+                <word id="0" cont="如果" pos="c" ne="O" wsd="Kc08" wsdexp="如果_那末" parent="4" relate="CNJ" />
+                <word id="1" cont="我们" pos="r" ne="O" wsd="Aa02" wsdexp="我_我们" parent="4" relate="SBV" />
+                <word id="2" cont="不" pos="d" ne="O" wsd="Ka18" wsdexp="不_没" parent="4" relate="ADV" />
+                <word id="3" cont="紧紧" pos="d" ne="O" wsd="Eb09" wsdexp="紧_松" parent="4" relate="ADV" />
+                <word id="4" cont="跟" pos="v" ne="O" wsd="Hj36" wsdexp="携带_跟随" parent="8" relate="DE">
+                    <arg id="0" type="施事" beg="1" end="1" />
+                    <arg id="1" type="受事" beg="5" end="7" />
+                </word>
+                <word id="5" cont="上" pos="nd" ne="O" wsd="Cb03" wsdexp="上_下_左_右" parent="6" relate="ATT" />
+                <word id="6" cont="科技" pos="n" ne="O" wsd="Dk03" wsdexp="科学_学科_学业" parent="7" relate="ATT" />
+                <word id="7" cont="进步" pos="v" ne="O" wsd="Ie12" wsdexp="进步_退步_堕落" parent="4" relate="VOB" />
+                <word id="8" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="10" relate="ATT" />
+                <word id="9" cont="时代" pos="n" ne="O" wsd="Ca02" wsdexp="时代_朝代_年代" parent="10" relate="ATT" />
+                <word id="10" cont="潮流" pos="n" ne="O" wsd="Da20" wsdexp="形势_趋势_潮流" parent="13" relate="SBV" />
+                <word id="11" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="12" cont="不" pos="d" ne="O" wsd="Ka18" wsdexp="不_没" parent="13" relate="ADV" />
+                <word id="13" cont="下" pos="v" ne="O" wsd="Cb03" wsdexp="上_下_左_右" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="10" />
+                    <arg id="1" type="受事" beg="14" end="15" />
+                    <arg id="2" type="受事" beg="16" end="21" />
+                </word>
+                <word id="14" cont="大" pos="a" ne="O" wsd="Ea03" wsdexp="大_中_小" parent="15" relate="ATT" />
+                <word id="15" cont="力气" pos="n" ne="O" wsd="Dd14" wsdexp="力气_力量_能量" parent="13" relate="VOB" />
+                <word id="16" cont="努力" pos="a" ne="O" wsd="Hj08" wsdexp="发奋_荒废" parent="18" relate="ATT" />
+                <word id="17" cont="提高" pos="v" ne="O" wsd="Ih06" wsdexp="削弱" parent="18" relate="ATT" />
+                <word id="18" cont="我国" pos="n" ne="O" wsd="Di02" wsdexp="国家_行政区划" parent="19" relate="DE" />
+                <word id="19" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="21" relate="ATT" />
+                <word id="20" cont="科学技术" pos="n" ne="O" wsd="De04" wsdexp="智慧_才能_能力_功夫" parent="21" relate="ATT" />
+                <word id="21" cont="水平" pos="n" ne="O" wsd="Dd12" wsdexp="质量_基础" parent="13" relate="VOB" />
+                <word id="22" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="23" cont="就" pos="d" ne="O" wsd="Ka07" wsdexp="都_只_不止_甚至" parent="24" relate="ADV" />
+                <word id="24" cont="会" pos="v" ne="O" wsd="Gc02" wsdexp="能够_不能_可以_不可" parent="13" relate="VV">
+                    <arg id="0" type="受事" beg="25" end="25" />
+                </word>
+                <word id="25" cont="落后" pos="a" ne="O" wsd="Ee37" wsdexp="革命_反动_进步_落后" parent="24" relate="VOB" />
+                <word id="26" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="5" cont="一旦发生什么事情，就会陷入被动挨打的境地。" tag="">
+                <word id="0" cont="一旦" pos="d" ne="O" wsd="Kc08" wsdexp="如果_那末" parent="1" relate="ADV" />
+                <word id="1" cont="发生" pos="v" ne="O" wsd="Jd07" wsdexp="出现_发生" parent="-1" relate="HED">
+                    <arg id="0" type="受事" beg="2" end="3" />
+                </word>
+                <word id="2" cont="什么" pos="r" ne="O" wsd="Ba10" wsdexp="它_什么" parent="3" relate="ATT" />
+                <word id="3" cont="事情" pos="n" ne="O" wsd="Da01" wsdexp="事情_事件_事故" parent="1" relate="VOB" />
+                <word id="4" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="5" cont="就" pos="d" ne="O" wsd="Ka07" wsdexp="都_只_不止_甚至" parent="6" relate="ADV" />
+                <word id="6" cont="会" pos="v" ne="O" wsd="Gc02" wsdexp="能够_不能_可以_不可" parent="7" relate="ADV" />
+                <word id="7" cont="陷入" pos="v" ne="O" wsd="Jd02" wsdexp="处于_在于_陷于_适逢" parent="1" relate="VV">
+                    <arg id="0" type="受事" beg="8" end="11" />
+                </word>
+                <word id="8" cont="被动" pos="a" ne="O" wsd="Ee23" wsdexp="积极_消极" parent="10" relate="DE" />
+                <word id="9" cont="挨打" pos="v" ne="O" wsd="Je13" wsdexp="遭受_享受" parent="10" relate="DE" />
+                <word id="10" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="11" relate="ATT" />
+                <word id="11" cont="境地" pos="n" ne="O" wsd="Da21" wsdexp="情况_境地_境界_环境" parent="7" relate="VOB" />
+                <word id="12" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="6" cont="这一点，我们高级干部在思想上必须十分清醒。" tag="">
+                <word id="0" cont="这" pos="r" ne="O" wsd="Ed61" wsdexp="这个_那个_某个_各个_其他_何" parent="2" relate="ATT" />
+                <word id="1" cont="一" pos="m" ne="B-Nm" wsd="Dn04" wsdexp="基数_序数" parent="2" relate="QUN" />
+                <word id="2" cont="点" pos="q" ne="E-Nm" wsd="Dn08" wsdexp="数量单位" parent="13" relate="ADV" />
+                <word id="3" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="4" cont="我们" pos="r" ne="O" wsd="Aa02" wsdexp="我_我们" parent="6" relate="ATT" />
+                <word id="5" cont="高级" pos="a" ne="O" wsd="Ed06" wsdexp="上等_中等_下等" parent="6" relate="ATT" />
+                <word id="6" cont="干部" pos="n" ne="O" wsd="Ae01" wsdexp="职工_职员" parent="13" relate="SBV" />
+                <word id="7" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="12" relate="ADV" />
+                <word id="8" cont="思想" pos="n" ne="O" wsd="Df01" wsdexp="思想_感想" parent="9" relate="ATT" />
+                <word id="9" cont="上" pos="nd" ne="O" wsd="Cb03" wsdexp="上_下_左_右" parent="7" relate="POB" />
+                <word id="10" cont="必须" pos="d" ne="O" wsd="Gc03" wsdexp="应该_必须_无须" parent="12" relate="ADV" />
+                <word id="11" cont="十" pos="m" ne="B-Nm" wsd="Dn04" wsdexp="基数_序数" parent="12" relate="QUN" />
+                <word id="12" cont="分" pos="q" ne="E-Nm" wsd="Hj30" wsdexp="合并_分开" parent="6" relate="APP" />
+                <word id="13" cont="清醒" pos="a" ne="O" wsd="Eb20" wsdexp="清晰_模糊" parent="-1" relate="HED" />
+                <word id="14" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+        </para>
+        <para id="4">
+            <sent id="0" cont="当前，一些发达国家的经济正在朝着主要依靠知识创新和知识的创造性应用的方向发展。" tag="10%">
+                <word id="0" cont="当前" pos="nt" ne="O" wsd="Ca10" wsdexp="现在" parent="7" relate="ADV" />
+                <word id="1" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="2" cont="一些" pos="m" ne="O" wsd="Dn05" wsdexp="半_概数_若干" parent="5" relate="QUN" />
+                <word id="3" cont="发达国家" pos="i" ne="O" wsd="Di02" wsdexp="国家_行政区划" parent="4" relate="DE" />
+                <word id="4" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="5" relate="ATT" />
+                <word id="5" cont="经济" pos="n" ne="O" wsd="Dj01" wsdexp="经济" parent="7" relate="SBV" />
+                <word id="6" cont="正在" pos="d" ne="O" wsd="Ka12" wsdexp="已经_方才_正在" parent="7" relate="ADV" />
+                <word id="7" cont="朝着" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="16" relate="ADV" />
+                <word id="8" cont="主要" pos="b" ne="O" wsd="Ed28" wsdexp="重要_次要_不足道" parent="14" relate="DE" />
+                <word id="9" cont="依靠" pos="v" ne="O" wsd="Kb06" wsdexp="依靠_通过" parent="14" relate="DE" />
+                <word id="10" cont="知识" pos="n" ne="O" wsd="Dk02" wsdexp="学说_学问_知识" parent="11" relate="ATT" />
+                <word id="11" cont="创新" pos="v" ne="O" wsd="Ih12" wsdexp="更新_复旧" parent="14" relate="DE" />
+                <word id="12" cont="和" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="13" relate="LAD" />
+                <word id="13" cont="知识" pos="n" ne="O" wsd="Dk02" wsdexp="学说_学问_知识" parent="11" relate="COO" />
+                <word id="14" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="16" relate="ATT" />
+                <word id="15" cont="创造性" pos="n" ne="O" wsd="Dd01" wsdexp="性质" parent="16" relate="ATT" />
+                <word id="16" cont="应用" pos="v" ne="O" wsd="Hj28" wsdexp="使用_沿用_借鉴" parent="-1" relate="HED">
+                    <arg id="0" type="时间" beg="0" end="7" />
+                </word>
+                <word id="17" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="19" relate="ATT" />
+                <word id="18" cont="方向" pos="n" ne="O" wsd="Cb01" wsdexp="方向_位置" parent="19" relate="ATT" />
+                <word id="19" cont="发展" pos="v" ne="O" wsd="Ie12" wsdexp="进步_退步_堕落" parent="16" relate="COO" />
+                <word id="20" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="1" cont="这个趋势，必须引起我们的密切注意。" tag="">
+                <word id="0" cont="这个" pos="r" ne="O" wsd="Ed61" wsdexp="这个_那个_某个_各个_其他_何" parent="1" relate="ATT" />
+                <word id="1" cont="趋势" pos="n" ne="O" wsd="Da20" wsdexp="形势_趋势_潮流" parent="6" relate="DE" />
+                <word id="2" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="3" cont="必须" pos="d" ne="O" wsd="Gc03" wsdexp="应该_必须_无须" parent="4" relate="ADV" />
+                <word id="4" cont="引起" pos="v" ne="O" wsd="Je04" wsdexp="引起_导致_使得" parent="6" relate="DE" />
+                <word id="5" cont="我们" pos="r" ne="O" wsd="Aa02" wsdexp="我_我们" parent="6" relate="DE" />
+                <word id="6" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="8" relate="LAD" />
+                <word id="7" cont="密切" pos="a" ne="O" wsd="Ed32" wsdexp="亲密_疏远" parent="8" relate="ADV" />
+                <word id="8" cont="注意" pos="v" ne="O" wsd="Gb20" wsdexp="注意_权衡_计较" parent="-1" relate="HED" />
+                <word id="9" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="2" cont="我国已有一些高新技术产业，但大量的还是一般意义上的工业经济，甚至还有分量不少的自然经济。" tag="">
+                <word id="0" cont="我国" pos="n" ne="O" wsd="Di02" wsdexp="国家_行政区划" parent="2" relate="SBV" />
+                <word id="1" cont="已" pos="d" ne="O" wsd="Ka12" wsdexp="已经_方才_正在" parent="2" relate="ADV" />
+                <word id="2" cont="有" pos="v" ne="O" wsd="Jd04" wsdexp="有_占有" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="0" />
+                    <arg id="1" type="受事" beg="3" end="5" />
+                    <arg id="2" type="受事" beg="7" end="24" />
+                </word>
+                <word id="3" cont="一些" pos="m" ne="O" wsd="Dn05" wsdexp="半_概数_若干" parent="5" relate="QUN" />
+                <word id="4" cont="高新技术" pos="n" ne="O" wsd="De04" wsdexp="智慧_才能_能力_功夫" parent="5" relate="ATT" />
+                <word id="5" cont="产业" pos="n" ne="O" wsd="Dj03" wsdexp="产业_财物" parent="2" relate="VOB" />
+                <word id="6" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="7" cont="但" pos="c" ne="O" wsd="Kc03" wsdexp="但是" parent="16" relate="LAD" />
+                <word id="8" cont="大量" pos="m" ne="O" wsd="Eb01" wsdexp="多_少_稀少" parent="9" relate="DE" />
+                <word id="9" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="16" relate="ATT" />
+                <word id="10" cont="还是" pos="d" ne="O" wsd="Ka28" wsdexp="仍然_尚且" parent="11" relate="ADV" />
+                <word id="11" cont="一般" pos="a" ne="O" wsd="Ed04" wsdexp="杰出_异常_普通" parent="14" relate="DE" />
+                <word id="12" cont="意义" pos="n" ne="O" wsd="Db06" wsdexp="规律_意义" parent="13" relate="ATT" />
+                <word id="13" cont="上" pos="nd" ne="O" wsd="Cb03" wsdexp="上_下_左_右" parent="14" relate="DE" />
+                <word id="14" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="16" relate="ATT" />
+                <word id="15" cont="工业" pos="n" ne="O" wsd="Di18" wsdexp="事业_行业_工程" parent="16" relate="ATT" />
+                <word id="16" cont="经济" pos="n" ne="O" wsd="Dj01" wsdexp="经济" parent="2" relate="VOB" />
+                <word id="17" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="18" cont="甚至" pos="d" ne="O" wsd="Ka07" wsdexp="都_只_不止_甚至" parent="20" relate="ADV" />
+                <word id="19" cont="还" pos="d" ne="O" wsd="Ka33" wsdexp="却_还_也_反而" parent="20" relate="ADV" />
+                <word id="20" cont="有" pos="v" ne="O" wsd="Jd04" wsdexp="有_占有" parent="23" relate="DE">
+                    <arg id="0" type="受事" beg="21" end="21" />
+                    <arg id="1" type="受事" beg="22" end="22" />
+                </word>
+                <word id="21" cont="分量" pos="n" ne="O" wsd="Dn01" wsdexp="量度_温度" parent="20" relate="VOB" />
+                <word id="22" cont="不少" pos="m" ne="O" wsd="Eb01" wsdexp="多_少_稀少" parent="20" relate="VOB" />
+                <word id="23" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="24" relate="ATT" />
+                <word id="24" cont="自然经济" pos="n" ne="O" wsd="Dj01" wsdexp="经济" parent="16" relate="COO" />
+                <word id="25" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="3" cont="在这种情况下，我们学习知识经济，是否为时过早了呢？" tag="">
+                <word id="0" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="6" relate="ADV" />
+                <word id="1" cont="这种" pos="r" ne="O" wsd="-1" wsdexp="" parent="2" relate="ATT" />
+                <word id="2" cont="情况" pos="n" ne="O" wsd="Da21" wsdexp="情况_境地_境界_环境" parent="3" relate="ATT" />
+                <word id="3" cont="下" pos="nd" ne="O" wsd="Cb03" wsdexp="上_下_左_右" parent="0" relate="POB" />
+                <word id="4" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="5" cont="我们" pos="r" ne="O" wsd="Aa02" wsdexp="我_我们" parent="6" relate="SBV" />
+                <word id="6" cont="学习" pos="v" ne="O" wsd="Hg08" wsdexp="学习_从师_模仿" parent="11" relate="SBV">
+                    <arg id="0" type="方位" beg="0" end="3" />
+                    <arg id="1" type="施事" beg="5" end="5" />
+                    <arg id="2" type="受事" beg="7" end="8" />
+                </word>
+                <word id="7" cont="知识" pos="n" ne="O" wsd="Dk02" wsdexp="学说_学问_知识" parent="8" relate="ATT" />
+                <word id="8" cont="经济" pos="n" ne="O" wsd="Dj01" wsdexp="经济" parent="6" relate="VOB" />
+                <word id="9" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="10" cont="是否" pos="v" ne="O" wsd="Da15" wsdexp="是非_差错_漏洞" parent="11" relate="SBV" />
+                <word id="11" cont="为时过早" pos="i" ne="O" wsd="Eb22" wsdexp="早_迟" parent="-1" relate="HED" />
+                <word id="12" cont="了" pos="u" ne="O" wsd="Kd05" wsdexp="吗_的话_罢了_了_哉" parent="11" relate="MT" />
+                <word id="13" cont="呢" pos="u" ne="O" wsd="Kd03" wsdexp="啊_呢_喽" parent="11" relate="MT" />
+                <word id="14" cont="？" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="4" cont="当然不是。" tag="">
+                <word id="0" cont="当然" pos="d" ne="O" wsd="Ka32" wsdexp="千万_当然" parent="2" relate="ADV" />
+                <word id="1" cont="不" pos="d" ne="O" wsd="Ka18" wsdexp="不_没" parent="2" relate="ADV" />
+                <word id="2" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="-1" relate="HED" />
+                <word id="3" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="5" cont="对于一切代表未来经济发展和科技进步方向的事物，我们都要及时地加以把握。" tag="">
+                <word id="0" cont="对于" pos="p" ne="O" wsd="Kb04" wsdexp="对于_关于" parent="18" relate="ADV" />
+                <word id="1" cont="一切" pos="r" ne="O" wsd="Eb02" wsdexp="单_双_全部_部分" parent="11" relate="ATT" />
+                <word id="2" cont="代表" pos="n" ne="O" wsd="Aj13" wsdexp="专人_代表" parent="3" relate="ATT" />
+                <word id="3" cont="未来" pos="nt" ne="O" wsd="Da07" wsdexp="往事_前途" parent="4" relate="ATT" />
+                <word id="4" cont="经济" pos="n" ne="O" wsd="Dj01" wsdexp="经济" parent="5" relate="ATT" />
+                <word id="5" cont="发展" pos="v" ne="O" wsd="Ie12" wsdexp="进步_退步_堕落" parent="10" relate="DE" />
+                <word id="6" cont="和" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="9" relate="LAD" />
+                <word id="7" cont="科技" pos="n" ne="O" wsd="Dk03" wsdexp="科学_学科_学业" parent="8" relate="ATT" />
+                <word id="8" cont="进步" pos="v" ne="O" wsd="Ie12" wsdexp="进步_退步_堕落" parent="9" relate="ATT" />
+                <word id="9" cont="方向" pos="n" ne="O" wsd="Cb01" wsdexp="方向_位置" parent="5" relate="COO" />
+                <word id="10" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="11" relate="ATT" />
+                <word id="11" cont="事物" pos="n" ne="O" wsd="Da28" wsdexp="事物_对象" parent="0" relate="POB" />
+                <word id="12" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="13" cont="我们" pos="r" ne="O" wsd="Aa02" wsdexp="我_我们" parent="18" relate="SBV" />
+                <word id="14" cont="都" pos="d" ne="O" wsd="Ka07" wsdexp="都_只_不止_甚至" parent="15" relate="ADV" />
+                <word id="15" cont="要" pos="v" ne="O" wsd="Gc03" wsdexp="应该_必须_无须" parent="18" relate="ADV" />
+                <word id="16" cont="及时" pos="a" ne="O" wsd="Ka08" wsdexp="立刻_赶快_逐渐" parent="17" relate="DI" />
+                <word id="17" cont="地" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="18" relate="ADV" />
+                <word id="18" cont="加以" pos="v" ne="O" wsd="Je05" wsdexp="给予_寄予_加以_冠以" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="13" end="13" />
+                    <arg id="1" type="受事" beg="19" end="19" />
+                </word>
+                <word id="19" cont="把握" pos="v" ne="O" wsd="Fa06" wsdexp="拿_撮_揪_挎_夹" parent="18" relate="VOB" />
+                <word id="20" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="6" cont="我们应该发挥我国社会主义制度的优越性，结合实际需要，有选择、有重点地集中力量开发和运用最新技术成果，实现技术发展的跨越，在世界高新技术前沿占有一席之地。" tag="">
+                <word id="0" cont="我们" pos="r" ne="O" wsd="Aa02" wsdexp="我_我们" parent="2" relate="SBV" />
+                <word id="1" cont="应该" pos="v" ne="O" wsd="Gc03" wsdexp="应该_必须_无须" parent="2" relate="ADV" />
+                <word id="2" cont="发挥" pos="v" ne="O" wsd="Hi14" wsdexp="表示_表达_阐明_表露_发誓" parent="6" relate="DE">
+                    <arg id="0" type="施事" beg="0" end="0" />
+                    <arg id="1" type="受事" beg="3" end="5" />
+                </word>
+                <word id="3" cont="我国" pos="n" ne="O" wsd="Di02" wsdexp="国家_行政区划" parent="4" relate="ATT" />
+                <word id="4" cont="社会主义" pos="n" ne="O" wsd="Di08" wsdexp="政治_政体_专政" parent="5" relate="ATT" />
+                <word id="5" cont="制度" pos="n" ne="O" wsd="Di09" wsdexp="政策_制度_所有制_体制" parent="2" relate="VOB" />
+                <word id="6" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="7" relate="ATT" />
+                <word id="7" cont="优越性" pos="n" ne="O" wsd="Dd01" wsdexp="性质" parent="9" relate="SBV" />
+                <word id="8" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="9" cont="结合" pos="v" ne="O" wsd="Ie02" wsdexp="连接_纠缠_积压_结合_割裂" parent="31" relate="DE">
+                    <arg id="0" type="施事" beg="0" end="7" />
+                    <arg id="1" type="受事" beg="10" end="10" />
+                    <arg id="2" type="受事" beg="11" end="11" />
+                </word>
+                <word id="10" cont="实际" pos="n" ne="O" wsd="Da21" wsdexp="情况_境地_境界_环境" parent="9" relate="VOB" />
+                <word id="11" cont="需要" pos="v" ne="O" wsd="Jc05" wsdexp="需要_提供_满足" parent="9" relate="VOB" />
+                <word id="12" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="13" cont="有" pos="v" ne="O" wsd="Jd04" wsdexp="有_占有" parent="18" relate="DI">
+                    <arg id="0" type="受事" beg="14" end="14" />
+                </word>
+                <word id="14" cont="选择" pos="v" ne="O" wsd="Hj25" wsdexp="采集_搜罗_挑选_取长补短" parent="13" relate="VOB" />
+                <word id="15" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="16" cont="有" pos="v" ne="O" wsd="Jd04" wsdexp="有_占有" parent="18" relate="DI">
+                    <arg id="0" type="受事" beg="17" end="17" />
+                </word>
+                <word id="17" cont="重点" pos="n" ne="O" wsd="Dd09" wsdexp="关键_核心" parent="16" relate="VOB" />
+                <word id="18" cont="地" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="21" relate="ADV" />
+                <word id="19" cont="集中" pos="a" ne="O" wsd="Ie10" wsdexp="集合_分散" parent="21" relate="ATT" />
+                <word id="20" cont="力量" pos="n" ne="O" wsd="De04" wsdexp="智慧_才能_能力_功夫" parent="21" relate="ATT" />
+                <word id="21" cont="开发" pos="v" ne="O" wsd="Hd17" wsdexp="开山_垦荒_烧荒_种地" parent="23" relate="ADV" />
+                <word id="22" cont="和" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="23" relate="CNJ" />
+                <word id="23" cont="运用" pos="v" ne="O" wsd="Hj28" wsdexp="使用_沿用_借鉴" parent="9" relate="VV">
+                    <arg id="0" type="受事" beg="24" end="26" />
+                </word>
+                <word id="24" cont="最新" pos="a" ne="O" wsd="Eb28" wsdexp="新_新鲜" parent="26" relate="ATT" />
+                <word id="25" cont="技术" pos="n" ne="O" wsd="De04" wsdexp="智慧_才能_能力_功夫" parent="26" relate="ATT" />
+                <word id="26" cont="成果" pos="n" ne="O" wsd="Da14" wsdexp="成就_功劳_过失_功过" parent="23" relate="VOB" />
+                <word id="27" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="28" cont="实现" pos="v" ne="O" wsd="Ie14" wsdexp="完成_实现" parent="23" relate="VV">
+                    <arg id="0" type="受事" beg="29" end="30" />
+                </word>
+                <word id="29" cont="技术" pos="n" ne="O" wsd="De04" wsdexp="智慧_才能_能力_功夫" parent="30" relate="ATT" />
+                <word id="30" cont="发展" pos="v" ne="O" wsd="Ie12" wsdexp="进步_退步_堕落" parent="28" relate="VOB" />
+                <word id="31" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="32" relate="ATT" />
+                <word id="32" cont="跨越" pos="v" ne="O" wsd="Je09" wsdexp="支配_超越" parent="38" relate="SBV" />
+                <word id="33" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="34" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="38" relate="ADV" />
+                <word id="35" cont="世界" pos="n" ne="O" wsd="Di01" wsdexp="世界_社会_人间" parent="36" relate="ATT" />
+                <word id="36" cont="高新技术" pos="n" ne="O" wsd="De04" wsdexp="智慧_才能_能力_功夫" parent="37" relate="ATT" />
+                <word id="37" cont="前沿" pos="nl" ne="O" wsd="Cb12" wsdexp="前方_后方_驻地_战场" parent="34" relate="POB" />
+                <word id="38" cont="占有" pos="v" ne="O" wsd="Jd04" wsdexp="有_占有" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="32" />
+                    <arg id="1" type="地点" beg="34" end="37" />
+                    <arg id="2" type="受事" beg="39" end="39" />
+                </word>
+                <word id="39" cont="一席之地" pos="i" ne="O" wsd="-1" wsdexp="" parent="38" relate="VOB" />
+                <word id="40" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="7" cont="不这样做，我国同发达国家之间的差距就难以缩小，而且会越拉越大。" tag="">
+                <word id="0" cont="不" pos="d" ne="O" wsd="Ka18" wsdexp="不_没" parent="2" relate="ADV" />
+                <word id="1" cont="这样" pos="r" ne="O" wsd="Ka34" wsdexp="这样_那样" parent="2" relate="ADV" />
+                <word id="2" cont="做" pos="v" ne="O" wsd="Hj12" wsdexp="做_施展_合作_尝试" parent="-1" relate="HED">
+                    <arg id="0" type="受事" beg="4" end="19" />
+                </word>
+                <word id="3" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="4" cont="我国" pos="n" ne="O" wsd="Di02" wsdexp="国家_行政区划" parent="5" relate="SBV" />
+                <word id="5" cont="同" pos="p" ne="O" wsd="Kc01" wsdexp="和_或者" parent="6" relate="ADV" />
+                <word id="6" cont="发达国家" pos="i" ne="O" wsd="Di02" wsdexp="国家_行政区划" parent="9" relate="ATT" />
+                <word id="7" cont="之间" pos="nd" ne="O" wsd="Cb04" wsdexp="前_后_中" parent="8" relate="DE" />
+                <word id="8" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="9" relate="ATT" />
+                <word id="9" cont="差距" pos="n" ne="O" wsd="Dd04" wsdexp="特征_差别" parent="12" relate="SBV" />
+                <word id="10" cont="就" pos="d" ne="O" wsd="Ka07" wsdexp="都_只_不止_甚至" parent="12" relate="ADV" />
+                <word id="11" cont="难以" pos="d" ne="O" wsd="Ed48" wsdexp="便利_不便" parent="12" relate="ADV" />
+                <word id="12" cont="缩小" pos="v" ne="O" wsd="Ih03" wsdexp="扩大_伸长_收缩" parent="2" relate="VOB">
+                    <arg id="0" type="施事" beg="4" end="9" />
+                </word>
+                <word id="13" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="14" cont="而且" pos="c" ne="O" wsd="Kc02" wsdexp="并且_况且" parent="17" relate="CNJ" />
+                <word id="15" cont="会" pos="v" ne="O" wsd="Gc02" wsdexp="能够_不能_可以_不可" parent="17" relate="ADV" />
+                <word id="16" cont="越" pos="d" ne="O" wsd="Ka04" wsdexp="更加" parent="17" relate="ADV" />
+                <word id="17" cont="拉" pos="v" ne="O" wsd="Fa02" wsdexp="拉_推_拖" parent="12" relate="VV" />
+                <word id="18" cont="越" pos="d" ne="O" wsd="Ka04" wsdexp="更加" parent="19" relate="ADV" />
+                <word id="19" cont="大" pos="a" ne="O" wsd="Ea03" wsdexp="大_中_小" parent="17" relate="CMP" />
+                <word id="20" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+        </para>
+        <para id="5">
+            <sent id="0" cont="实践证明，即使是整体科技水平相对落后的国家，也有可能在某些领域、某些环节取得突破。" tag="20%">
+                <word id="0" cont="实践" pos="v" ne="O" wsd="Ie13" wsdexp="实行_举行" parent="1" relate="SBV" />
+                <word id="1" cont="证明" pos="v" ne="O" wsd="Ja04" wsdexp="显示_预示_证明" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="0" />
+                    <arg id="1" type="受事" beg="3" end="7" />
+                </word>
+                <word id="2" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="3" cont="即使" pos="c" ne="O" wsd="Kc04" wsdexp="虽然_即使_既然" parent="4" relate="CNJ" />
+                <word id="4" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="1" relate="VOB">
+                    <arg id="0" type="受事" beg="5" end="7" />
+                </word>
+                <word id="5" cont="整体" pos="n" ne="O" wsd="Ed56" wsdexp="总_分" parent="6" relate="ATT" />
+                <word id="6" cont="科技" pos="n" ne="O" wsd="Dk03" wsdexp="科学_学科_学业" parent="7" relate="ATT" />
+                <word id="7" cont="水平" pos="n" ne="O" wsd="Dd12" wsdexp="质量_基础" parent="4" relate="VOB" />
+                <word id="8" cont="相对" pos="d" ne="O" wsd="Jc04" wsdexp="相对_矛盾" parent="11" relate="ATT" />
+                <word id="9" cont="落后" pos="a" ne="O" wsd="Ee37" wsdexp="革命_反动_进步_落后" parent="10" relate="DE" />
+                <word id="10" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="11" relate="ATT" />
+                <word id="11" cont="国家" pos="n" ne="O" wsd="Di02" wsdexp="国家_行政区划" parent="14" relate="SBV" />
+                <word id="12" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="13" cont="也" pos="d" ne="O" wsd="Ka33" wsdexp="却_还_也_反而" parent="14" relate="ADV" />
+                <word id="14" cont="有" pos="v" ne="O" wsd="Jd04" wsdexp="有_占有" parent="1" relate="IC">
+                    <arg id="0" type="施事" beg="8" end="11" />
+                    <arg id="1" type="受事" beg="15" end="15" />
+                    <arg id="2" type="受事" beg="16" end="23" />
+                </word>
+                <word id="15" cont="可能" pos="v" ne="O" wsd="Gc02" wsdexp="能够_不能_可以_不可" parent="14" relate="VOB" />
+                <word id="16" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="22" relate="ADV" />
+                <word id="17" cont="某些" pos="r" ne="O" wsd="Dn05" wsdexp="半_概数_若干" parent="18" relate="ATT" />
+                <word id="18" cont="领域" pos="n" ne="O" wsd="Dd05" wsdexp="范围_方面_环节" parent="16" relate="POB" />
+                <word id="19" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="20" cont="某些" pos="r" ne="O" wsd="Dn05" wsdexp="半_概数_若干" parent="21" relate="ATT" />
+                <word id="21" cont="环节" pos="n" ne="O" wsd="Dd05" wsdexp="范围_方面_环节" parent="22" relate="SBV" />
+                <word id="22" cont="取得" pos="v" ne="O" wsd="Je12" wsdexp="取得_达到_挽回" parent="14" relate="VOB">
+                    <arg id="0" type="施事" beg="20" end="21" />
+                    <arg id="1" type="受事" beg="23" end="23" />
+                </word>
+                <word id="23" cont="突破" pos="v" ne="O" wsd="Hb10" wsdexp="包围_突围" parent="22" relate="VOB" />
+                <word id="24" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="1" cont="六七十年代，我们成功地搞出“两弹一星”，极大地提高了我国的国际地位。" tag="">
+                <word id="0" cont="六七十" pos="m" ne="B-Nr" wsd="-1" wsdexp="" parent="1" relate="QUN" />
+                <word id="1" cont="年代" pos="n" ne="E-Nr" wsd="Ca02" wsdexp="时代_朝代_年代" parent="6" relate="SBV" />
+                <word id="2" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="3" cont="我们" pos="r" ne="O" wsd="Aa02" wsdexp="我_我们" parent="6" relate="SBV" />
+                <word id="4" cont="成功" pos="a" ne="O" wsd="If22" wsdexp="成功_失败_垮台_落空" parent="5" relate="DI" />
+                <word id="5" cont="地" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="6" relate="ADV" />
+                <word id="6" cont="搞" pos="v" ne="O" wsd="Hj12" wsdexp="做_施展_合作_尝试" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="1" />
+                    <arg id="1" type="施事" beg="3" end="3" />
+                    <arg id="2" type="受事" beg="12" end="19" />
+                </word>
+                <word id="7" cont="出" pos="v" ne="O" wsd="Hj64" wsdexp="出_进_出入" parent="6" relate="CMP" />
+                <word id="8" cont="“" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="9" cont="两弹一星" pos="j" ne="O" wsd="-1" wsdexp="" parent="6" relate="COO" />
+                <word id="10" cont="”" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="11" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="12" cont="极大" pos="a" ne="O" wsd="Ea03" wsdexp="大_中_小" parent="13" relate="DI" />
+                <word id="13" cont="地" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="14" relate="ADV" />
+                <word id="14" cont="提高" pos="v" ne="O" wsd="Ih06" wsdexp="削弱" parent="17" relate="DE">
+                    <arg id="0" type="受事" beg="16" end="16" />
+                </word>
+                <word id="15" cont="了" pos="u" ne="O" wsd="Kd05" wsdexp="吗_的话_罢了_了_哉" parent="14" relate="MT" />
+                <word id="16" cont="我国" pos="n" ne="O" wsd="Di02" wsdexp="国家_行政区划" parent="14" relate="VOB" />
+                <word id="17" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="19" relate="ATT" />
+                <word id="18" cont="国际" pos="n" ne="O" wsd="Di02" wsdexp="国家_行政区划" parent="19" relate="ATT" />
+                <word id="19" cont="地位" pos="n" ne="O" wsd="Di15" wsdexp="地位_职位" parent="6" relate="VOB" />
+                <word id="20" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="2" cont="有资料说，在过去的五六年里，印度的软件业一直保持每年百分之五十以上的增长率，远远高于世界软件业百分之二十的年增长速度。" tag="">
+                <word id="0" cont="有" pos="v" ne="O" wsd="Jd04" wsdexp="有_占有" parent="6" relate="DE">
+                    <arg id="0" type="受事" beg="1" end="1" />
+                    <arg id="1" type="受事" beg="2" end="2" />
+                </word>
+                <word id="1" cont="资料" pos="n" ne="O" wsd="Dk17" wsdexp="资料_文件" parent="0" relate="VOB" />
+                <word id="2" cont="说" pos="v" ne="O" wsd="Hi12" wsdexp="讲话_谈天" parent="0" relate="VOB" />
+                <word id="3" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="4" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="6" relate="DE" />
+                <word id="5" cont="过去" pos="nt" ne="O" wsd="Ca11" wsdexp="过去_近来" parent="6" relate="DE" />
+                <word id="6" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="14" relate="SBV" />
+                <word id="7" cont="五六年" pos="nt" ne="S-Nr" wsd="-1" wsdexp="" parent="8" relate="ATT" />
+                <word id="8" cont="里" pos="nd" ne="O" wsd="Cb05" wsdexp="内_外" parent="14" relate="ADV" />
+                <word id="9" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="10" cont="印度" pos="ns" ne="S-Ns" wsd="Di02" wsdexp="国家_行政区划" parent="11" relate="DE" />
+                <word id="11" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="12" relate="ATT" />
+                <word id="12" cont="软件业" pos="n" ne="O" wsd="Di18" wsdexp="事业_行业_工程" parent="14" relate="SBV" />
+                <word id="13" cont="一直" pos="d" ne="O" wsd="Ka11" wsdexp="不断_一直_动辄" parent="14" relate="ADV" />
+                <word id="14" cont="保持" pos="v" ne="O" wsd="Jd01" wsdexp="无关" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="6" />
+                    <arg id="1" type="方位" beg="7" end="8" />
+                    <arg id="2" type="施事" beg="10" end="12" />
+                    <arg id="3" type="受事" beg="15" end="19" />
+                    <arg id="4" type="受事" beg="21" end="29" />
+                </word>
+                <word id="15" cont="每年" pos="r" ne="O" wsd="Ca18" wsdexp="年" parent="19" relate="ATT" />
+                <word id="16" cont="百分之五十" pos="m" ne="S-Nm" wsd="-1" wsdexp="" parent="19" relate="QUN" />
+                <word id="17" cont="以上" pos="nd" ne="O" wsd="Cb03" wsdexp="上_下_左_右" parent="18" relate="DE" />
+                <word id="18" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="19" relate="ATT" />
+                <word id="19" cont="增长率" pos="n" ne="O" wsd="Dn07" wsdexp="比率_比例_比重" parent="14" relate="VOB" />
+                <word id="20" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="21" cont="远远" pos="d" ne="O" wsd="Eb21" wsdexp="远_近" parent="22" relate="ADV" />
+                <word id="22" cont="高于" pos="v" ne="O" wsd="Jb04" wsdexp="超过" parent="26" relate="DE">
+                    <arg id="0" type="受事" beg="23" end="24" />
+                    <arg id="1" type="受事" beg="25" end="25" />
+                </word>
+                <word id="23" cont="世界" pos="n" ne="O" wsd="Di01" wsdexp="世界_社会_人间" parent="24" relate="ATT" />
+                <word id="24" cont="软件业" pos="n" ne="O" wsd="Di18" wsdexp="事业_行业_工程" parent="22" relate="VOB" />
+                <word id="25" cont="百分之二十" pos="m" ne="S-Nm" wsd="-1" wsdexp="" parent="22" relate="VOB" />
+                <word id="26" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="29" relate="ATT" />
+                <word id="27" cont="年" pos="n" ne="O" wsd="Ca18" wsdexp="年" parent="28" relate="ATT" />
+                <word id="28" cont="增长" pos="v" ne="O" wsd="Ih05" wsdexp="增多_添补_减少" parent="29" relate="ATT" />
+                <word id="29" cont="速度" pos="n" ne="O" wsd="Dn01" wsdexp="量度_温度" parent="14" relate="VOB" />
+                <word id="30" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="3" cont="一九九一年，印度软件出口额不到五千万美元，而一九九八年已达到十八亿美元。" tag="">
+                <word id="0" cont="一九九一年" pos="nt" ne="S-Nr" wsd="-1" wsdexp="" parent="6" relate="ADV" />
+                <word id="1" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="2" cont="印度" pos="ns" ne="S-Ns" wsd="Di02" wsdexp="国家_行政区划" parent="3" relate="ATT" />
+                <word id="3" cont="软件" pos="n" ne="O" wsd="Ba05" wsdexp="器具_设备" parent="4" relate="ATT" />
+                <word id="4" cont="出口额" pos="n" ne="O" wsd="Dj08" wsdexp="帐目_款项_费用" parent="6" relate="SBV" />
+                <word id="5" cont="不" pos="d" ne="O" wsd="Ka18" wsdexp="不_没" parent="6" relate="ADV" />
+                <word id="6" cont="到" pos="v" ne="O" wsd="Hf08" wsdexp="到达_停靠" parent="-1" relate="HED">
+                    <arg id="0" type="时间" beg="0" end="0" />
+                    <arg id="1" type="施事" beg="2" end="4" />
+                    <arg id="2" type="受事-数量性质" beg="7" end="8" />
+                </word>
+                <word id="7" cont="五千万" pos="m" ne="B-Nm" wsd="-1" wsdexp="" parent="8" relate="QUN" />
+                <word id="8" cont="美元" pos="q" ne="E-Nm" wsd="Dj05" wsdexp="货币_票据" parent="6" relate="VOB" />
+                <word id="9" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="10" cont="而" pos="c" ne="O" wsd="Kc03" wsdexp="但是" parent="13" relate="CNJ" />
+                <word id="11" cont="一九九八年" pos="nt" ne="S-Nr" wsd="-1" wsdexp="" parent="13" relate="ADV" />
+                <word id="12" cont="已" pos="d" ne="O" wsd="Ka12" wsdexp="已经_方才_正在" parent="13" relate="ADV" />
+                <word id="13" cont="达到" pos="v" ne="O" wsd="Je12" wsdexp="取得_达到_挽回" parent="6" relate="VV">
+                    <arg id="0" type="时间" beg="11" end="11" />
+                    <arg id="1" type="受事-数量性质" beg="14" end="15" />
+                </word>
+                <word id="14" cont="十八亿" pos="m" ne="B-Nm" wsd="-1" wsdexp="" parent="15" relate="QUN" />
+                <word id="15" cont="美元" pos="q" ne="E-Nm" wsd="Dj05" wsdexp="货币_票据" parent="13" relate="VOB" />
+                <word id="16" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="4" cont="在全球按客户要求设计的软件开发市场中，印度已占据百分之十六点七的市场份额，成为世界上仅次于美国的第二大软件出口国。" tag="">
+                <word id="0" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="4" relate="ADV" />
+                <word id="1" cont="全球" pos="n" ne="O" wsd="Di01" wsdexp="世界_社会_人间" parent="0" relate="POB" />
+                <word id="2" cont="按" pos="p" ne="O" wsd="Kb07" wsdexp="依照_根据_趁" parent="4" relate="ADV" />
+                <word id="3" cont="客户" pos="n" ne="O" wsd="Aj06" wsdexp="顾客" parent="2" relate="POB" />
+                <word id="4" cont="要求" pos="v" ne="O" wsd="Gb04" wsdexp="希望_要求_追求" parent="6" relate="DE">
+                    <arg id="0" type="受事" beg="5" end="5" />
+                </word>
+                <word id="5" cont="设计" pos="v" ne="O" wsd="Gb05" wsdexp="计划_打算" parent="4" relate="VOB" />
+                <word id="6" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="9" relate="ATT" />
+                <word id="7" cont="软件" pos="n" ne="O" wsd="Ba05" wsdexp="器具_设备" parent="8" relate="ATT" />
+                <word id="8" cont="开发" pos="v" ne="O" wsd="Hd17" wsdexp="开山_垦荒_烧荒_种地" parent="9" relate="ATT" />
+                <word id="9" cont="市场" pos="n" ne="O" wsd="Cb28" wsdexp="场所" parent="10" relate="ATT" />
+                <word id="10" cont="中" pos="nd" ne="O" wsd="Da05" wsdexp="过程_内中" parent="14" relate="ADV" />
+                <word id="11" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="12" cont="印度" pos="ns" ne="S-Ns" wsd="Di02" wsdexp="国家_行政区划" parent="14" relate="SBV" />
+                <word id="13" cont="已" pos="d" ne="O" wsd="Ka12" wsdexp="已经_方才_正在" parent="14" relate="ADV" />
+                <word id="14" cont="占据" pos="v" ne="O" wsd="Jd04" wsdexp="有_占有" parent="16" relate="DE">
+                    <arg id="0" type="方位" beg="0" end="10" />
+                    <arg id="1" type="施事" beg="12" end="12" />
+                    <arg id="2" type="受事" beg="15" end="15" />
+                </word>
+                <word id="15" cont="百分之十六点七" pos="m" ne="S-Nm" wsd="-1" wsdexp="" parent="14" relate="VOB" />
+                <word id="16" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="18" relate="ATT" />
+                <word id="17" cont="市场" pos="n" ne="O" wsd="Cb28" wsdexp="场所" parent="18" relate="ATT" />
+                <word id="18" cont="份额" pos="n" ne="O" wsd="Dn07" wsdexp="比率_比例_比重" parent="20" relate="SBV" />
+                <word id="19" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="20" cont="成为" pos="v" ne="O" wsd="Ih01" wsdexp="变化_成为" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="18" />
+                    <arg id="1" type="受事" beg="21" end="29" />
+                </word>
+                <word id="21" cont="世界" pos="n" ne="O" wsd="Di01" wsdexp="世界_社会_人间" parent="22" relate="ATT" />
+                <word id="22" cont="上" pos="nd" ne="O" wsd="Cb03" wsdexp="上_下_左_右" parent="23" relate="ADV" />
+                <word id="23" cont="仅次于" pos="v" ne="O" wsd="Jb05" wsdexp="不及" parent="25" relate="DE">
+                    <arg id="0" type="方位" beg="21" end="22" />
+                    <arg id="1" type="受事" beg="24" end="24" />
+                </word>
+                <word id="24" cont="美国" pos="ns" ne="S-Ns" wsd="Di02" wsdexp="国家_行政区划" parent="23" relate="VOB" />
+                <word id="25" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="29" relate="ATT" />
+                <word id="26" cont="第二" pos="m" ne="O" wsd="Dn04" wsdexp="基数_序数" parent="29" relate="QUN" />
+                <word id="27" cont="大" pos="a" ne="O" wsd="Ea03" wsdexp="大_中_小" parent="29" relate="ATT" />
+                <word id="28" cont="软件" pos="n" ne="O" wsd="Ba05" wsdexp="器具_设备" parent="29" relate="ATT" />
+                <word id="29" cont="出口国" pos="n" ne="O" wsd="Di02" wsdexp="国家_行政区划" parent="20" relate="VOB" />
+                <word id="30" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="5" cont="很多发展中国家都认识到了发展科技对本国经济社会发展的重大意义，纷纷采取措施加以推进。" tag="">
+                <word id="0" cont="很多" pos="m" ne="O" wsd="Eb01" wsdexp="多_少_稀少" parent="1" relate="ATT" />
+                <word id="1" cont="发展中国家" pos="i" ne="O" wsd="Di02" wsdexp="国家_行政区划" parent="3" relate="ADV" />
+                <word id="2" cont="都" pos="d" ne="O" wsd="Ka07" wsdexp="都_只_不止_甚至" parent="3" relate="ADV" />
+                <word id="3" cont="认识" pos="v" ne="O" wsd="Df14" wsdexp="想法_主意_见解" parent="-1" relate="HED">
+                    <arg id="0" type="受事" beg="6" end="7" />
+                </word>
+                <word id="4" cont="到" pos="v" ne="O" wsd="Hf08" wsdexp="到达_停靠" parent="3" relate="CMP" />
+                <word id="5" cont="了" pos="u" ne="O" wsd="Kd05" wsdexp="吗_的话_罢了_了_哉" parent="3" relate="MT" />
+                <word id="6" cont="发展" pos="v" ne="O" wsd="Ie12" wsdexp="进步_退步_堕落" parent="7" relate="ATT" />
+                <word id="7" cont="科技" pos="n" ne="O" wsd="Dk03" wsdexp="科学_学科_学业" parent="3" relate="VOB" />
+                <word id="8" cont="对" pos="p" ne="O" wsd="Kb04" wsdexp="对于_关于" parent="18" relate="ADV" />
+                <word id="9" cont="本国" pos="r" ne="O" wsd="Di02" wsdexp="国家_行政区划" parent="8" relate="POB" />
+                <word id="10" cont="经济" pos="n" ne="O" wsd="Dj01" wsdexp="经济" parent="11" relate="ATT" />
+                <word id="11" cont="社会" pos="n" ne="O" wsd="Di01" wsdexp="世界_社会_人间" parent="12" relate="ATT" />
+                <word id="12" cont="发展" pos="v" ne="O" wsd="Ie12" wsdexp="进步_退步_堕落" parent="13" relate="DE" />
+                <word id="13" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="15" relate="ATT" />
+                <word id="14" cont="重大" pos="a" ne="O" wsd="Ed28" wsdexp="重要_次要_不足道" parent="15" relate="ATT" />
+                <word id="15" cont="意义" pos="n" ne="O" wsd="Db06" wsdexp="规律_意义" parent="8" relate="POB" />
+                <word id="16" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="17" cont="纷纷" pos="d" ne="O" wsd="Eb01" wsdexp="多_少_稀少" parent="18" relate="ADV" />
+                <word id="18" cont="采取" pos="v" ne="O" wsd="Hj28" wsdexp="使用_沿用_借鉴" parent="3" relate="VV">
+                    <arg id="0" type="受事" beg="19" end="19" />
+                </word>
+                <word id="19" cont="措施" pos="n" ne="O" wsd="Db09" wsdexp="方法_诀窍_步骤" parent="18" relate="VOB" />
+                <word id="20" cont="加以" pos="v" ne="O" wsd="Je05" wsdexp="给予_寄予_加以_冠以" parent="18" relate="VV">
+                    <arg id="0" type="受事" beg="21" end="21" />
+                </word>
+                <word id="21" cont="推进" pos="v" ne="O" wsd="Je06" wsdexp="推动_激发" parent="20" relate="VOB" />
+                <word id="22" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="6" cont="马来西亚虽然遭到金融危机的严重冲击，仍准备加快建立自己的科学城。" tag="">
+                <word id="0" cont="马来西亚" pos="ns" ne="S-Ns" wsd="Di02" wsdexp="国家_行政区划" parent="2" relate="SBV" />
+                <word id="1" cont="虽然" pos="c" ne="O" wsd="Kc04" wsdexp="虽然_即使_既然" parent="2" relate="CNJ" />
+                <word id="2" cont="遭到" pos="v" ne="O" wsd="Je13" wsdexp="遭受_享受" parent="5" relate="DE">
+                    <arg id="0" type="施事" beg="0" end="0" />
+                    <arg id="1" type="受事" beg="3" end="4" />
+                </word>
+                <word id="3" cont="金融" pos="n" ne="O" wsd="Dj01" wsdexp="经济" parent="4" relate="ATT" />
+                <word id="4" cont="危机" pos="n" ne="O" wsd="Da01" wsdexp="事情_事件_事故" parent="2" relate="VOB" />
+                <word id="5" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="7" relate="ATT" />
+                <word id="6" cont="严重" pos="a" ne="O" wsd="Ed29" wsdexp="紧急_严重_惊人" parent="7" relate="ATT" />
+                <word id="7" cont="冲击" pos="v" ne="O" wsd="Hb03" wsdexp="进攻_抵抗_回击" parent="-1" relate="HED" />
+                <word id="8" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="9" cont="仍" pos="d" ne="O" wsd="Ka28" wsdexp="仍然_尚且" parent="10" relate="ADV" />
+                <word id="10" cont="准备" pos="v" ne="O" wsd="Hj35" wsdexp="整理_料理_准备" parent="7" relate="VV">
+                    <arg id="0" type="受事" beg="11" end="15" />
+                </word>
+                <word id="11" cont="加快" pos="v" ne="O" wsd="Ih08" wsdexp="加快_放慢" parent="10" relate="VOB">
+                    <arg id="0" type="受事" beg="12" end="15" />
+                </word>
+                <word id="12" cont="建立" pos="v" ne="O" wsd="Hc05" wsdexp="建立_设立_创立_命名" parent="11" relate="VOB">
+                    <arg id="0" type="受事" beg="13" end="15" />
+                </word>
+                <word id="13" cont="自己" pos="r" ne="O" wsd="Aa05" wsdexp="自己_别人_某人" parent="14" relate="DE" />
+                <word id="14" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="15" relate="ATT" />
+                <word id="15" cont="科学城" pos="n" ne="O" wsd="Cb25" wsdexp="城市_集镇_乡村" parent="12" relate="VOB" />
+                <word id="16" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="7" cont="美国《新闻周刊》不久前发表了一篇文章，在谈到美国已拥有硅谷等多座各种各样的科学技术城以后，认为在当今世界上，各个国家都应建设自己的科学技术城，都应拥有自己的高科技研究和开发中心，这是关系到国家安全的重大问题。" tag="">
+                <word id="0" cont="美国" pos="ns" ne="S-Ns" wsd="Di02" wsdexp="国家_行政区划" parent="6" relate="SBV" />
+                <word id="1" cont="《" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="2" cont="新闻" pos="n" ne="O" wsd="Da19" wsdexp="消息_音信" parent="3" relate="ATT" />
+                <word id="3" cont="周刊" pos="n" ne="O" wsd="Dk21" wsdexp="报章_杂志_报刊" parent="6" relate="SBV" />
+                <word id="4" cont="》" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="5" cont="不久前" pos="nt" ne="O" wsd="Ca03" wsdexp="时期_时间" parent="6" relate="ADV" />
+                <word id="6" cont="发表" pos="v" ne="O" wsd="Hi14" wsdexp="表示_表达_阐明_表露_发誓" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="0" />
+                    <arg id="1" type="施事" beg="2" end="3" />
+                    <arg id="2" type="时间" beg="5" end="5" />
+                    <arg id="3" type="受事" beg="8" end="10" />
+                </word>
+                <word id="7" cont="了" pos="u" ne="O" wsd="Kd05" wsdexp="吗_的话_罢了_了_哉" parent="6" relate="MT" />
+                <word id="8" cont="一" pos="m" ne="B-Nm" wsd="Dn04" wsdexp="基数_序数" parent="9" relate="QUN" />
+                <word id="9" cont="篇" pos="q" ne="E-Nm" wsd="Dn08" wsdexp="数量单位" parent="10" relate="ATT" />
+                <word id="10" cont="文章" pos="n" ne="O" wsd="Dk19" wsdexp="作品_文章_稿件" parent="6" relate="VOB" />
+                <word id="11" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="12" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="13" relate="ADV" />
+                <word id="13" cont="谈到" pos="v" ne="O" wsd="Hi12" wsdexp="讲话_谈天" parent="25" relate="ATT" />
+                <word id="14" cont="美国" pos="ns" ne="S-Ns" wsd="Di02" wsdexp="国家_行政区划" parent="25" relate="ATT" />
+                <word id="15" cont="已" pos="d" ne="O" wsd="Ka12" wsdexp="已经_方才_正在" parent="16" relate="ADV" />
+                <word id="16" cont="拥有" pos="v" ne="O" wsd="Jd04" wsdexp="有_占有" parent="25" relate="ATT">
+                    <arg id="0" type="受事" beg="17" end="17" />
+                </word>
+                <word id="17" cont="硅谷" pos="n" ne="O" wsd="Cb25" wsdexp="城市_集镇_乡村" parent="16" relate="VOB" />
+                <word id="18" cont="等" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="16" relate="MT" />
+                <word id="19" cont="多" pos="m" ne="O" wsd="Dn05" wsdexp="半_概数_若干" parent="20" relate="QUN" />
+                <word id="20" cont="座" pos="q" ne="O" wsd="Dn08" wsdexp="数量单位" parent="24" relate="ATT" />
+                <word id="21" cont="各种各样" pos="i" ne="O" wsd="Eb01" wsdexp="多_少_稀少" parent="22" relate="DE" />
+                <word id="22" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="24" relate="ATT" />
+                <word id="23" cont="科学技术" pos="n" ne="O" wsd="De04" wsdexp="智慧_才能_能力_功夫" parent="24" relate="ATT" />
+                <word id="24" cont="城" pos="n" ne="O" wsd="Cb25" wsdexp="城市_集镇_乡村" parent="25" relate="ATT" />
+                <word id="25" cont="以后" pos="nd" ne="O" wsd="Ca12" wsdexp="将来_隔日" parent="27" relate="ADV" />
+                <word id="26" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="27" cont="认为" pos="v" ne="O" wsd="Gb02" wsdexp="感到_认为_主张" parent="6" relate="VV">
+                    <arg id="0" type="方位" beg="12" end="25" />
+                </word>
+                <word id="28" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="37" relate="ADV" />
+                <word id="29" cont="当今" pos="nt" ne="O" wsd="Ca10" wsdexp="现在" parent="30" relate="ATT" />
+                <word id="30" cont="世界" pos="n" ne="O" wsd="Di01" wsdexp="世界_社会_人间" parent="31" relate="ATT" />
+                <word id="31" cont="上" pos="nd" ne="O" wsd="Cb03" wsdexp="上_下_左_右" parent="28" relate="POB" />
+                <word id="32" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="33" cont="各个" pos="r" ne="O" wsd="Ed61" wsdexp="这个_那个_某个_各个_其他_何" parent="34" relate="ATT" />
+                <word id="34" cont="国家" pos="n" ne="O" wsd="Di02" wsdexp="国家_行政区划" parent="37" relate="SBV" />
+                <word id="35" cont="都" pos="d" ne="O" wsd="Ka07" wsdexp="都_只_不止_甚至" parent="36" relate="ADV" />
+                <word id="36" cont="应" pos="v" ne="O" wsd="Gc03" wsdexp="应该_必须_无须" parent="37" relate="ADV" />
+                <word id="37" cont="建设" pos="v" ne="O" wsd="Hc05" wsdexp="建立_设立_创立_命名" parent="6" relate="VV">
+                    <arg id="0" type="方位" beg="28" end="31" />
+                    <arg id="1" type="施事" beg="33" end="34" />
+                    <arg id="2" type="受事" beg="38" end="41" />
+                </word>
+                <word id="38" cont="自己" pos="r" ne="O" wsd="Aa05" wsdexp="自己_别人_某人" parent="39" relate="DE" />
+                <word id="39" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="41" relate="ATT" />
+                <word id="40" cont="科学技术" pos="n" ne="O" wsd="De04" wsdexp="智慧_才能_能力_功夫" parent="41" relate="ATT" />
+                <word id="41" cont="城" pos="n" ne="O" wsd="Cb25" wsdexp="城市_集镇_乡村" parent="37" relate="VOB" />
+                <word id="42" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="43" cont="都" pos="d" ne="O" wsd="Ka07" wsdexp="都_只_不止_甚至" parent="44" relate="ADV" />
+                <word id="44" cont="应" pos="v" ne="O" wsd="Gc03" wsdexp="应该_必须_无须" parent="45" relate="ADV" />
+                <word id="45" cont="拥有" pos="v" ne="O" wsd="Jd04" wsdexp="有_占有" parent="47" relate="DE" />
+                <word id="46" cont="自己" pos="r" ne="O" wsd="Aa05" wsdexp="自己_别人_某人" parent="47" relate="DE" />
+                <word id="47" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="50" relate="ATT" />
+                <word id="48" cont="高" pos="a" ne="O" wsd="Ea02" wsdexp="高_矮" parent="50" relate="ATT" />
+                <word id="49" cont="科技" pos="n" ne="O" wsd="Dk03" wsdexp="科学_学科_学业" parent="50" relate="ATT" />
+                <word id="50" cont="研究" pos="v" ne="O" wsd="Hg14" wsdexp="分析_推敲_研究_考证" parent="56" relate="SBV" />
+                <word id="51" cont="和" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="53" relate="LAD" />
+                <word id="52" cont="开发" pos="v" ne="O" wsd="Hd17" wsdexp="开山_垦荒_烧荒_种地" parent="53" relate="ATT" />
+                <word id="53" cont="中心" pos="n" ne="O" wsd="Dm04" wsdexp="商店" parent="50" relate="COO" />
+                <word id="54" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="55" cont="这" pos="r" ne="O" wsd="Ed61" wsdexp="这个_那个_某个_各个_其他_何" parent="56" relate="SBV" />
+                <word id="56" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="6" relate="IC">
+                    <arg id="0" type="施事" beg="43" end="53" />
+                    <arg id="1" type="施事" beg="55" end="55" />
+                    <arg id="2" type="受事" beg="57" end="57" />
+                    <arg id="3" type="受事" beg="58" end="58" />
+                    <arg id="4" type="受事" beg="59" end="63" />
+                </word>
+                <word id="57" cont="关系" pos="n" ne="O" wsd="Db10" wsdexp="关系_友谊_缘分" parent="56" relate="VOB" />
+                <word id="58" cont="到" pos="v" ne="O" wsd="Hf08" wsdexp="到达_停靠" parent="56" relate="VOB" />
+                <word id="59" cont="国家" pos="n" ne="O" wsd="Di02" wsdexp="国家_行政区划" parent="63" relate="ATT" />
+                <word id="60" cont="安全" pos="a" ne="O" wsd="Ef08" wsdexp="安全_危险" parent="61" relate="DE" />
+                <word id="61" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="63" relate="ATT" />
+                <word id="62" cont="重大" pos="a" ne="O" wsd="Ed28" wsdexp="重要_次要_不足道" parent="63" relate="ATT" />
+                <word id="63" cont="问题" pos="n" ne="O" wsd="Da01" wsdexp="事情_事件_事故" parent="56" relate="VOB" />
+                <word id="64" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="8" cont="如果不这么做，就是对自己国家未来的发展和安全不负责任。" tag="">
+                <word id="0" cont="如果" pos="c" ne="O" wsd="Kc08" wsdexp="如果_那末" parent="3" relate="CNJ" />
+                <word id="1" cont="不" pos="d" ne="O" wsd="Ka18" wsdexp="不_没" parent="3" relate="ADV" />
+                <word id="2" cont="这么" pos="r" ne="O" wsd="Ka34" wsdexp="这样_那样" parent="3" relate="ADV" />
+                <word id="3" cont="做" pos="v" ne="O" wsd="Hj12" wsdexp="做_施展_合作_尝试" parent="-1" relate="HED" />
+                <word id="4" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="5" cont="就" pos="d" ne="O" wsd="Ka07" wsdexp="都_只_不止_甚至" parent="6" relate="ADV" />
+                <word id="6" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="3" relate="IC">
+                    <arg id="0" type="受事" beg="7" end="12" />
+                </word>
+                <word id="7" cont="对" pos="p" ne="O" wsd="Kb04" wsdexp="对于_关于" parent="11" relate="DE" />
+                <word id="8" cont="自己" pos="r" ne="O" wsd="Aa05" wsdexp="自己_别人_某人" parent="7" relate="POB" />
+                <word id="9" cont="国家" pos="n" ne="O" wsd="Di02" wsdexp="国家_行政区划" parent="7" relate="POB" />
+                <word id="10" cont="未来" pos="nt" ne="O" wsd="Da07" wsdexp="往事_前途" parent="7" relate="POB" />
+                <word id="11" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="12" relate="ATT" />
+                <word id="12" cont="发展" pos="v" ne="O" wsd="Ie12" wsdexp="进步_退步_堕落" parent="6" relate="VOB" />
+                <word id="13" cont="和" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="14" relate="LAD" />
+                <word id="14" cont="安全" pos="a" ne="O" wsd="Ef08" wsdexp="安全_危险" parent="16" relate="ADV" />
+                <word id="15" cont="不" pos="d" ne="O" wsd="Ka18" wsdexp="不_没" parent="16" relate="ADV" />
+                <word id="16" cont="负" pos="v" ne="O" wsd="Hj24" wsdexp="担负_承揽_担任_兼职" parent="3" relate="VV">
+                    <arg id="0" type="受事" beg="17" end="17" />
+                </word>
+                <word id="17" cont="责任" pos="n" ne="O" wsd="Di22" wsdexp="责任_负担" parent="16" relate="VOB" />
+                <word id="18" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="9" cont="这是讲得有道理的。" tag="">
+                <word id="0" cont="这" pos="r" ne="O" wsd="Ed61" wsdexp="这个_那个_某个_各个_其他_何" parent="1" relate="SBV" />
+                <word id="1" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="0" />
+                    <arg id="1" type="受事" beg="2" end="3" />
+                    <arg id="2" type="受事" beg="4" end="5" />
+                </word>
+                <word id="2" cont="讲" pos="v" ne="O" wsd="Hi12" wsdexp="讲话_谈天" parent="1" relate="VOB" />
+                <word id="3" cont="得" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="2" relate="CMP" />
+                <word id="4" cont="有" pos="v" ne="O" wsd="Jd04" wsdexp="有_占有" parent="1" relate="VOB">
+                    <arg id="0" type="受事" beg="5" end="5" />
+                </word>
+                <word id="5" cont="道理" pos="n" ne="O" wsd="Db06" wsdexp="规律_意义" parent="4" relate="VOB" />
+                <word id="6" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="1" relate="MT" />
+                <word id="7" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+        </para>
+        <para id="6">
+            <sent id="0" cont="现在，新科技新知识层出不穷，即使是学自然科学的，如果不学习，很快就会跟不上了。" tag="20%">
+                <word id="0" cont="现在" pos="nt" ne="O" wsd="Ca10" wsdexp="现在" parent="6" relate="ADV" />
+                <word id="1" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="2" cont="新" pos="a" ne="O" wsd="Eb28" wsdexp="新_新鲜" parent="3" relate="ATT" />
+                <word id="3" cont="科技" pos="n" ne="O" wsd="Dk03" wsdexp="科学_学科_学业" parent="5" relate="ATT" />
+                <word id="4" cont="新" pos="a" ne="O" wsd="Eb28" wsdexp="新_新鲜" parent="5" relate="ATT" />
+                <word id="5" cont="知识" pos="n" ne="O" wsd="Dk02" wsdexp="学说_学问_知识" parent="6" relate="SBV" />
+                <word id="6" cont="层出不穷" pos="i" ne="O" wsd="Jd07" wsdexp="出现_发生" parent="12" relate="DE" />
+                <word id="7" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="8" cont="即使" pos="c" ne="O" wsd="Kc04" wsdexp="虽然_即使_既然" parent="9" relate="CNJ" />
+                <word id="9" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="6" relate="IC" />
+                <word id="10" cont="学" pos="v" ne="O" wsd="Hg08" wsdexp="学习_从师_模仿" parent="12" relate="DE" />
+                <word id="11" cont="自然科学" pos="i" ne="O" wsd="Dk03" wsdexp="科学_学科_学业" parent="12" relate="DE" />
+                <word id="12" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="16" relate="ATT" />
+                <word id="13" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="14" cont="如果" pos="c" ne="O" wsd="Kc08" wsdexp="如果_那末" parent="16" relate="CNJ" />
+                <word id="15" cont="不" pos="d" ne="O" wsd="Ka18" wsdexp="不_没" parent="16" relate="ADV" />
+                <word id="16" cont="学习" pos="v" ne="O" wsd="Hg08" wsdexp="学习_从师_模仿" parent="-1" relate="HED" />
+                <word id="17" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="18" cont="很快" pos="d" ne="O" wsd="Eb23" wsdexp="快_慢" parent="20" relate="ADV" />
+                <word id="19" cont="就" pos="d" ne="O" wsd="Ka07" wsdexp="都_只_不止_甚至" parent="20" relate="ADV" />
+                <word id="20" cont="会" pos="v" ne="O" wsd="Gc02" wsdexp="能够_不能_可以_不可" parent="21" relate="ADV" />
+                <word id="21" cont="跟不上" pos="v" ne="O" wsd="Hj36" wsdexp="携带_跟随" parent="16" relate="VV" />
+                <word id="22" cont="了" pos="u" ne="O" wsd="Kd05" wsdexp="吗_的话_罢了_了_哉" parent="21" relate="MT" />
+                <word id="23" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="1" cont="作为领导干部，如果对现代科技一窍不通，兴味索然，又怎么能重视和领导好科技工作呢？" tag="20%">
+                <word id="0" cont="作为" pos="p" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="8" relate="ADV" />
+                <word id="1" cont="领导" pos="n" ne="O" wsd="Af10" wsdexp="领袖_领导" parent="2" relate="ATT" />
+                <word id="2" cont="干部" pos="n" ne="O" wsd="Ae01" wsdexp="职工_职员" parent="0" relate="POB" />
+                <word id="3" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="4" cont="如果" pos="c" ne="O" wsd="Kc08" wsdexp="如果_那末" parent="8" relate="CNJ" />
+                <word id="5" cont="对" pos="p" ne="O" wsd="Kb04" wsdexp="对于_关于" parent="8" relate="ADV" />
+                <word id="6" cont="现代" pos="nt" ne="O" wsd="Ca02" wsdexp="时代_朝代_年代" parent="7" relate="ATT" />
+                <word id="7" cont="科技" pos="n" ne="O" wsd="Dk03" wsdexp="科学_学科_学业" parent="5" relate="POB" />
+                <word id="8" cont="一窍不通" pos="i" ne="O" wsd="Ee18" wsdexp="博学_浅学_无知" parent="-1" relate="HED" />
+                <word id="9" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="10" cont="兴味" pos="n" ne="O" wsd="Df12" wsdexp="兴趣_嗜好" parent="11" relate="SBV" />
+                <word id="11" cont="索然" pos="a" ne="O" wsd="Ee33" wsdexp="恭敬_客气_简慢_热情_冷淡" parent="8" relate="IC" />
+                <word id="12" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="13" cont="又" pos="c" ne="O" wsd="Ka14" wsdexp="再" parent="16" relate="CNJ" />
+                <word id="14" cont="怎么" pos="r" ne="O" wsd="Ka35" wsdexp="哪里_怎样_为什么" parent="16" relate="ADV" />
+                <word id="15" cont="能" pos="v" ne="O" wsd="Gc02" wsdexp="能够_不能_可以_不可" parent="16" relate="ADV" />
+                <word id="16" cont="重视" pos="v" ne="O" wsd="Gb21" wsdexp="重视_并重_漠视_鄙视_置之不理" parent="11" relate="IC">
+                    <arg id="0" type="受事" beg="20" end="22" />
+                </word>
+                <word id="17" cont="和" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="18" relate="LAD" />
+                <word id="18" cont="领导" pos="v" ne="O" wsd="Af10" wsdexp="领袖_领导" parent="16" relate="COO" />
+                <word id="19" cont="好" pos="a" ne="O" wsd="Ed03" wsdexp="好_坏" parent="16" relate="CMP" />
+                <word id="20" cont="科技" pos="n" ne="O" wsd="Dk03" wsdexp="科学_学科_学业" parent="21" relate="ATT" />
+                <word id="21" cont="工作" pos="v" ne="O" wsd="Hj11" wsdexp="工作_劳动" parent="16" relate="VOB" />
+                <word id="22" cont="呢" pos="u" ne="O" wsd="Kd03" wsdexp="啊_呢_喽" parent="21" relate="MT" />
+                <word id="23" cont="？" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="2" cont="像“水变油”、“永动机”这类违反科学常识的笑话，星相占卦、烧香拜佛这类的迷信活动，在我们的少数同志中竟然还颇有市场。" tag="">
+                <word id="0" cont="像" pos="v" ne="O" wsd="Jb03" wsdexp="相似_例如" parent="24" relate="ADV">
+                    <arg id="0" type="受事" beg="2" end="4" />
+                    <arg id="1" type="受事" beg="8" end="9" />
+                    <arg id="2" type="受事" beg="11" end="17" />
+                </word>
+                <word id="1" cont="“" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="2" cont="水" pos="n" ne="O" wsd="Bg01" wsdexp="水_汁_浆" parent="3" relate="SBV" />
+                <word id="3" cont="变" pos="v" ne="O" wsd="Ih02" wsdexp="改变_改换" parent="0" relate="VOB">
+                    <arg id="0" type="施事" beg="2" end="2" />
+                    <arg id="1" type="受事" beg="4" end="4" />
+                </word>
+                <word id="4" cont="油" pos="n" ne="O" wsd="Br08" wsdexp="油_盐_酱_醋_糖" parent="3" relate="VOB" />
+                <word id="5" cont="”" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="6" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="7" cont="“" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="8" cont="永" pos="j" ne="O" wsd="Ea01" wsdexp="长_短" parent="9" relate="ATT" />
+                <word id="9" cont="动机" pos="n" ne="O" wsd="Df14" wsdexp="想法_主意_见解" parent="0" relate="VOB" />
+                <word id="10" cont="”" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="11" cont="这" pos="r" ne="O" wsd="Ed61" wsdexp="这个_那个_某个_各个_其他_何" parent="12" relate="ATT" />
+                <word id="12" cont="类" pos="q" ne="O" wsd="Dn08" wsdexp="数量单位" parent="17" relate="ATT" />
+                <word id="13" cont="违反" pos="v" ne="O" wsd="Hi39" wsdexp="遵守_听从_违背_抗拒" parent="16" relate="DE">
+                    <arg id="0" type="受事" beg="14" end="15" />
+                </word>
+                <word id="14" cont="科学" pos="n" ne="O" wsd="Dk03" wsdexp="科学_学科_学业" parent="15" relate="ATT" />
+                <word id="15" cont="常识" pos="n" ne="O" wsd="Dk02" wsdexp="学说_学问_知识" parent="13" relate="VOB" />
+                <word id="16" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="17" relate="ATT" />
+                <word id="17" cont="笑话" pos="n" ne="O" wsd="Hi40" wsdexp="称赞_耻笑_讥讽_丑化_诬蔑" parent="0" relate="VOB" />
+                <word id="18" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="19" cont="星" pos="n" ne="O" wsd="Bd01" wsdexp="宇宙_星辰" parent="21" relate="SBV" />
+                <word id="20" cont="相" pos="d" ne="O" wsd="Ka23" wsdexp="共同_分头_独自_互相_从中" parent="21" relate="ADV" />
+                <word id="21" cont="占卦" pos="v" ne="O" wsd="Hl02" wsdexp="下凡" parent="24" relate="ADV">
+                    <arg id="0" type="施事" beg="19" end="19" />
+                </word>
+                <word id="22" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="23" cont="烧香" pos="v" ne="O" wsd="Hk03" wsdexp="拜佛_斋戒_念经_修行_传教" parent="21" relate="COO" />
+                <word id="24" cont="拜佛" pos="v" ne="O" wsd="Hk03" wsdexp="拜佛_斋戒_念经_修行_传教" parent="-1" relate="HED">
+                    <arg id="0" type="受事" beg="25" end="29" />
+                </word>
+                <word id="25" cont="这" pos="r" ne="O" wsd="Ed61" wsdexp="这个_那个_某个_各个_其他_何" parent="26" relate="ATT" />
+                <word id="26" cont="类" pos="q" ne="O" wsd="Dn08" wsdexp="数量单位" parent="27" relate="DE" />
+                <word id="27" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="29" relate="ATT" />
+                <word id="28" cont="迷信" pos="v" ne="O" wsd="Gb14" wsdexp="相信_信仰_怀疑_信任" parent="29" relate="ATT" />
+                <word id="29" cont="活动" pos="v" ne="O" wsd="Di20" wsdexp="动作_举动_行为" parent="24" relate="VOB" />
+                <word id="30" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="31" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="33" relate="DE" />
+                <word id="32" cont="我们" pos="r" ne="O" wsd="Aa02" wsdexp="我_我们" parent="31" relate="POB" />
+                <word id="33" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="35" relate="ATT" />
+                <word id="34" cont="少数" pos="m" ne="O" wsd="Dn05" wsdexp="半_概数_若干" parent="35" relate="QUN" />
+                <word id="35" cont="同志" pos="n" ne="O" wsd="Aa03" wsdexp="你_你们" parent="36" relate="ATT" />
+                <word id="36" cont="中" pos="nd" ne="O" wsd="Cb05" wsdexp="内_外" parent="40" relate="ADV" />
+                <word id="37" cont="竟然" pos="d" ne="O" wsd="Ka27" wsdexp="竟然_几乎" parent="40" relate="ADV" />
+                <word id="38" cont="还" pos="d" ne="O" wsd="Ka33" wsdexp="却_还_也_反而" parent="40" relate="ADV" />
+                <word id="39" cont="颇" pos="d" ne="O" wsd="Ka01" wsdexp="非常_多么" parent="40" relate="ADV" />
+                <word id="40" cont="有" pos="v" ne="O" wsd="Jd04" wsdexp="有_占有" parent="24" relate="VV">
+                    <arg id="0" type="方位" beg="31" end="36" />
+                    <arg id="1" type="受事" beg="41" end="41" />
+                </word>
+                <word id="41" cont="市场" pos="n" ne="O" wsd="Cb28" wsdexp="场所" parent="40" relate="VOB" />
+                <word id="42" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="3" cont="连基本的科学精神都没有，怎么谈得上推动科技进步呢？" tag="">
+                <word id="0" cont="连" pos="d" ne="O" wsd="Kc06" wsdexp="连_凡是" parent="6" relate="ADV" />
+                <word id="1" cont="基本" pos="a" ne="O" wsd="Ed28" wsdexp="重要_次要_不足道" parent="2" relate="DE" />
+                <word id="2" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="4" relate="ATT" />
+                <word id="3" cont="科学" pos="n" ne="O" wsd="Dk03" wsdexp="科学_学科_学业" parent="4" relate="ATT" />
+                <word id="4" cont="精神" pos="n" ne="O" wsd="Df01" wsdexp="思想_感想" parent="6" relate="SBV" />
+                <word id="5" cont="都" pos="d" ne="O" wsd="Ka07" wsdexp="都_只_不止_甚至" parent="6" relate="ADV" />
+                <word id="6" cont="没有" pos="v" ne="O" wsd="Ka18" wsdexp="不_没" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="1" end="4" />
+                </word>
+                <word id="7" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="8" cont="怎么" pos="r" ne="O" wsd="Ka35" wsdexp="哪里_怎样_为什么" parent="9" relate="ADV" />
+                <word id="9" cont="谈" pos="v" ne="O" wsd="Hi12" wsdexp="讲话_谈天" parent="6" relate="VV">
+                    <arg id="0" type="受事" beg="12" end="15" />
+                </word>
+                <word id="10" cont="得" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="9" relate="CMP" />
+                <word id="11" cont="上" pos="nd" ne="O" wsd="Cb03" wsdexp="上_下_左_右" parent="9" relate="CMP" />
+                <word id="12" cont="推动" pos="v" ne="O" wsd="Je06" wsdexp="推动_激发" parent="9" relate="VOB">
+                    <arg id="0" type="受事" beg="13" end="14" />
+                </word>
+                <word id="13" cont="科技" pos="n" ne="O" wsd="Dk03" wsdexp="科学_学科_学业" parent="14" relate="ATT" />
+                <word id="14" cont="进步" pos="v" ne="O" wsd="Ie12" wsdexp="进步_退步_堕落" parent="12" relate="VOB" />
+                <word id="15" cont="呢" pos="u" ne="O" wsd="Kd03" wsdexp="啊_呢_喽" parent="12" relate="MT" />
+                <word id="16" cont="？" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="4" cont="所以，学习科技知识要坚持不懈，破除封建迷信、消除各种伪科学反科学现象也要坚持不懈。" tag="10%">
+                <word id="0" cont="所以" pos="c" ne="O" wsd="Kc09" wsdexp="因为_所以" parent="2" relate="CNJ" />
+                <word id="1" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="2" cont="学习" pos="v" ne="O" wsd="Hg08" wsdexp="学习_从师_模仿" parent="-1" relate="HED">
+                    <arg id="0" type="受事" beg="3" end="4" />
+                    <arg id="1" type="受事" beg="5" end="6" />
+                </word>
+                <word id="3" cont="科技" pos="n" ne="O" wsd="Dk03" wsdexp="科学_学科_学业" parent="4" relate="ATT" />
+                <word id="4" cont="知识" pos="n" ne="O" wsd="Dk02" wsdexp="学说_学问_知识" parent="2" relate="VOB" />
+                <word id="5" cont="要" pos="v" ne="O" wsd="Gc03" wsdexp="应该_必须_无须" parent="2" relate="VOB">
+                    <arg id="0" type="受事" beg="6" end="6" />
+                </word>
+                <word id="6" cont="坚持不懈" pos="i" ne="O" wsd="Ee25" wsdexp="有恒_无恒" parent="5" relate="VOB" />
+                <word id="7" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="8" cont="破除" pos="v" ne="O" wsd="Jd10" wsdexp="克服_消灭_消除" parent="2" relate="VV">
+                    <arg id="0" type="受事" beg="9" end="9" />
+                </word>
+                <word id="9" cont="封建迷信" pos="i" ne="O" wsd="-1" wsdexp="" parent="8" relate="VOB" />
+                <word id="10" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="11" cont="消除" pos="v" ne="O" wsd="Jd10" wsdexp="克服_消灭_消除" parent="8" relate="COO">
+                    <arg id="0" type="受事" beg="12" end="15" />
+                </word>
+                <word id="12" cont="各种" pos="r" ne="O" wsd="Dn03" wsdexp="数量" parent="15" relate="ATT" />
+                <word id="13" cont="伪科学" pos="n" ne="O" wsd="Dk03" wsdexp="科学_学科_学业" parent="14" relate="ATT" />
+                <word id="14" cont="反科学" pos="n" ne="O" wsd="Hi21" wsdexp="责备_批评_攻击" parent="15" relate="ATT" />
+                <word id="15" cont="现象" pos="n" ne="O" wsd="Da22" wsdexp="现象_迹象_预兆" parent="11" relate="VOB" />
+                <word id="16" cont="也" pos="d" ne="O" wsd="Ka33" wsdexp="却_还_也_反而" parent="17" relate="ADV" />
+                <word id="17" cont="要" pos="v" ne="O" wsd="Gc03" wsdexp="应该_必须_无须" parent="2" relate="VV">
+                    <arg id="0" type="受事" beg="18" end="18" />
+                </word>
+                <word id="18" cont="坚持不懈" pos="i" ne="O" wsd="Ee25" wsdexp="有恒_无恒" parent="17" relate="VOB" />
+                <word id="19" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="5" cont="科技创新和转化的工作进一步抓好了，我国的经济社会发展就能具备更强大的后劲。" tag="10%">
+                <word id="0" cont="科技" pos="n" ne="O" wsd="Dk03" wsdexp="科学_学科_学业" parent="1" relate="ATT" />
+                <word id="1" cont="创新" pos="v" ne="O" wsd="Ih12" wsdexp="更新_复旧" parent="5" relate="ATT" />
+                <word id="2" cont="和" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="3" relate="LAD" />
+                <word id="3" cont="转化" pos="v" ne="O" wsd="Ih02" wsdexp="改变_改换" parent="4" relate="DE" />
+                <word id="4" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="5" relate="ATT" />
+                <word id="5" cont="工作" pos="v" ne="O" wsd="Hj11" wsdexp="工作_劳动" parent="7" relate="SBV" />
+                <word id="6" cont="进一步" pos="d" ne="O" wsd="Ka04" wsdexp="更加" parent="7" relate="ADV" />
+                <word id="7" cont="抓好" pos="v" ne="O" wsd="Hj12" wsdexp="做_施展_合作_尝试" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="5" />
+                </word>
+                <word id="8" cont="了" pos="u" ne="O" wsd="Kd05" wsdexp="吗_的话_罢了_了_哉" parent="7" relate="MT" />
+                <word id="9" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="10" cont="我国" pos="n" ne="O" wsd="Di02" wsdexp="国家_行政区划" parent="11" relate="DE" />
+                <word id="11" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="14" relate="ATT" />
+                <word id="12" cont="经济" pos="n" ne="O" wsd="Dj01" wsdexp="经济" parent="13" relate="ATT" />
+                <word id="13" cont="社会" pos="n" ne="O" wsd="Di01" wsdexp="世界_社会_人间" parent="14" relate="ATT" />
+                <word id="14" cont="发展" pos="v" ne="O" wsd="Ie12" wsdexp="进步_退步_堕落" parent="17" relate="SBV" />
+                <word id="15" cont="就" pos="d" ne="O" wsd="Ka07" wsdexp="都_只_不止_甚至" parent="16" relate="ADV" />
+                <word id="16" cont="能" pos="v" ne="O" wsd="Gc02" wsdexp="能够_不能_可以_不可" parent="17" relate="ADV" />
+                <word id="17" cont="具备" pos="v" ne="O" wsd="Jd04" wsdexp="有_占有" parent="7" relate="VV">
+                    <arg id="0" type="施事" beg="10" end="14" />
+                    <arg id="1" type="受事" beg="18" end="21" />
+                </word>
+                <word id="18" cont="更" pos="d" ne="O" wsd="Ka04" wsdexp="更加" parent="19" relate="ADV" />
+                <word id="19" cont="强大" pos="a" ne="O" wsd="Ed19" wsdexp="稳固_强大_弱小" parent="20" relate="DE" />
+                <word id="20" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="21" relate="ATT" />
+                <word id="21" cont="后劲" pos="n" ne="O" wsd="Dd14" wsdexp="力气_力量_能量" parent="17" relate="VOB" />
+                <word id="22" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+        </para>
+    </doc>
+    <class>科技</class>
+    <coref />
+</xml4nlp>

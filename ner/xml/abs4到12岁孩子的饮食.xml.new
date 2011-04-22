@@ -1,0 +1,1549 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="nlp_style.xsl" ?>
+<xml4nlp>
+    <doc>
+        <para id="0">
+            <sent id="0" cont="4到12岁孩子的饮食  " tag="">
+                <word id="0" cont="4" pos="m" ne="S-Nm" wsd="-1" wsdexp="" parent="1" relate="ADV" />
+                <word id="1" cont="到" pos="v" ne="O" wsd="Hf08" wsdexp="到达_停靠" parent="-1" relate="HED">
+                    <arg id="0" type="受事" beg="2" end="6" />
+                </word>
+                <word id="2" cont="12" pos="m" ne="B-Nm" wsd="-1" wsdexp="" parent="3" relate="QUN" />
+                <word id="3" cont="岁" pos="q" ne="E-Nm" wsd="Ca14" wsdexp="年龄" parent="4" relate="ATT" />
+                <word id="4" cont="孩子" pos="n" ne="O" wsd="Ab04" wsdexp="婴儿_儿童" parent="5" relate="DE" />
+                <word id="5" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="6" relate="ATT" />
+                <word id="6" cont="饮食" pos="n" ne="O" wsd="Da18" wsdexp="生计_饮食" parent="1" relate="VOB" />
+            </sent>
+        </para>
+        <para id="1">
+            <sent id="0" cont="营养在孩子成长阶段具有非常关键的作用。" tag="10%">
+                <word id="0" cont="营养" pos="n" ne="O" wsd="Br13" wsdexp="药品_维生素_补品" parent="3" relate="SBV" />
+                <word id="1" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="3" relate="ADV" />
+                <word id="2" cont="孩子" pos="n" ne="O" wsd="Ah14" wsdexp="子_女_子女" parent="1" relate="POB" />
+                <word id="3" cont="成长" pos="v" ne="O" wsd="Ib01" wsdexp="生育_诞生_生长_繁殖" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="0" />
+                    <arg id="1" type="受事" beg="4" end="4" />
+                    <arg id="2" type="受事" beg="5" end="9" />
+                </word>
+                <word id="4" cont="阶段" pos="n" ne="O" wsd="Ca03" wsdexp="时期_时间" parent="3" relate="VOB" />
+                <word id="5" cont="具有" pos="v" ne="O" wsd="Jd04" wsdexp="有_占有" parent="3" relate="VOB">
+                    <arg id="0" type="受事" beg="6" end="9" />
+                </word>
+                <word id="6" cont="非常" pos="d" ne="O" wsd="Ka01" wsdexp="非常_多么" parent="7" relate="ADV" />
+                <word id="7" cont="关键" pos="a" ne="O" wsd="Dd09" wsdexp="关键_核心" parent="8" relate="DE" />
+                <word id="8" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="9" relate="ATT" />
+                <word id="9" cont="作用" pos="n" ne="O" wsd="Da25" wsdexp="效用_反应" parent="5" relate="VOB" />
+                <word id="10" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="1" cont="这同样也是培养您的孩子良好的饮食习惯的理想时期，而这种良好的饮食习惯将会长期保持。" tag="">
+                <word id="0" cont="这" pos="r" ne="O" wsd="Ed61" wsdexp="这个_那个_某个_各个_其他_何" parent="3" relate="SBV" />
+                <word id="1" cont="同样" pos="d" ne="O" wsd="Jb01" wsdexp="相同_相等_差不多" parent="3" relate="ADV" />
+                <word id="2" cont="也" pos="d" ne="O" wsd="Ka33" wsdexp="却_还_也_反而" parent="3" relate="ADV" />
+                <word id="3" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="0" />
+                    <arg id="1" type="受事" beg="4" end="4" />
+                    <arg id="2" type="受事" beg="5" end="7" />
+                    <arg id="3" type="受事" beg="8" end="11" />
+                    <arg id="4" type="受事" beg="12" end="14" />
+                </word>
+                <word id="4" cont="培养" pos="v" ne="O" wsd="Hg07" wsdexp="培养_试验_考试" parent="3" relate="VOB" />
+                <word id="5" cont="您" pos="r" ne="O" wsd="Aa03" wsdexp="你_你们" parent="6" relate="DE" />
+                <word id="6" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="7" relate="ATT" />
+                <word id="7" cont="孩子" pos="n" ne="O" wsd="Ah14" wsdexp="子_女_子女" parent="3" relate="VOB" />
+                <word id="8" cont="良好" pos="a" ne="O" wsd="Ed03" wsdexp="好_坏" parent="9" relate="DE" />
+                <word id="9" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="11" relate="ATT" />
+                <word id="10" cont="饮食" pos="n" ne="O" wsd="Da18" wsdexp="生计_饮食" parent="11" relate="ATT" />
+                <word id="11" cont="习惯" pos="n" ne="O" wsd="Di14" wsdexp="风俗_习惯_风气" parent="3" relate="VOB" />
+                <word id="12" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="14" relate="ATT" />
+                <word id="13" cont="理想" pos="n" ne="O" wsd="Df10" wsdexp="理想_幻想_泡影_梦幻" parent="14" relate="ATT" />
+                <word id="14" cont="时期" pos="n" ne="O" wsd="Ca03" wsdexp="时期_时间" parent="3" relate="VOB" />
+                <word id="15" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="16" cont="而" pos="c" ne="O" wsd="Kc02" wsdexp="并且_况且" parent="21" relate="LAD" />
+                <word id="17" cont="这种" pos="r" ne="O" wsd="-1" wsdexp="" parent="21" relate="ATT" />
+                <word id="18" cont="良好" pos="a" ne="O" wsd="Ed03" wsdexp="好_坏" parent="19" relate="DE" />
+                <word id="19" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="21" relate="ATT" />
+                <word id="20" cont="饮食" pos="n" ne="O" wsd="Da18" wsdexp="生计_饮食" parent="21" relate="ATT" />
+                <word id="21" cont="习惯" pos="n" ne="O" wsd="Di14" wsdexp="风俗_习惯_风气" parent="25" relate="SBV" />
+                <word id="22" cont="将" pos="d" ne="O" wsd="Ka13" wsdexp="随即_即将_终于" parent="23" relate="ADV" />
+                <word id="23" cont="会" pos="v" ne="O" wsd="Gc02" wsdexp="能够_不能_可以_不可" parent="25" relate="ADV" />
+                <word id="24" cont="长期" pos="d" ne="O" wsd="Eb24" wsdexp="长久_永远" parent="25" relate="ADV" />
+                <word id="25" cont="保持" pos="v" ne="O" wsd="Jd01" wsdexp="无关" parent="3" relate="IC">
+                    <arg id="0" type="施事" beg="16" end="21" />
+                </word>
+                <word id="26" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="2" cont="下边这些信息和建议就是针对为他们提供合适的饮食并能帮助他们健康成长而作出的。" tag="">
+                <word id="0" cont="下边" pos="nd" ne="O" wsd="Cb03" wsdexp="上_下_左_右" parent="6" relate="ADV" />
+                <word id="1" cont="这些" pos="r" ne="O" wsd="Ed61" wsdexp="这个_那个_某个_各个_其他_何" parent="2" relate="ATT" />
+                <word id="2" cont="信息" pos="n" ne="O" wsd="Da19" wsdexp="消息_音信" parent="6" relate="SBV" />
+                <word id="3" cont="和" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="4" relate="LAD" />
+                <word id="4" cont="建议" pos="n" ne="O" wsd="Dk13" wsdexp="建议_结论_决定" parent="2" relate="COO" />
+                <word id="5" cont="就" pos="d" ne="O" wsd="Ka07" wsdexp="都_只_不止_甚至" parent="6" relate="ADV" />
+                <word id="6" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="-1" relate="HED">
+                    <arg id="0" type="方位" beg="0" end="0" />
+                    <arg id="1" type="施事" beg="1" end="4" />
+                    <arg id="2" type="受事" beg="7" end="21" />
+                </word>
+                <word id="7" cont="针对" pos="p" ne="O" wsd="Kb07" wsdexp="依照_根据_趁" parent="10" relate="ADV" />
+                <word id="8" cont="为" pos="p" ne="O" wsd="Kb05" wsdexp="为_被_以_由" parent="10" relate="ADV" />
+                <word id="9" cont="他们" pos="r" ne="O" wsd="Aa04" wsdexp="他_他们" parent="8" relate="POB" />
+                <word id="10" cont="提供" pos="v" ne="O" wsd="Jc05" wsdexp="需要_提供_满足" parent="6" relate="VOB">
+                    <arg id="0" type="受事" beg="11" end="13" />
+                    <arg id="1" type="受事" beg="14" end="21" />
+                </word>
+                <word id="11" cont="合适" pos="a" ne="O" wsd="Ed49" wsdexp="恰当_失当" parent="12" relate="DE" />
+                <word id="12" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="13" relate="ATT" />
+                <word id="13" cont="饮食" pos="n" ne="O" wsd="Da18" wsdexp="生计_饮食" parent="10" relate="VOB" />
+                <word id="14" cont="并" pos="c" ne="O" wsd="Kc02" wsdexp="并且_况且" parent="16" relate="CNJ" />
+                <word id="15" cont="能" pos="v" ne="O" wsd="Gc02" wsdexp="能够_不能_可以_不可" parent="16" relate="ADV" />
+                <word id="16" cont="帮助" pos="v" ne="O" wsd="Hi36" wsdexp="帮助_拯救_献计" parent="10" relate="VOB">
+                    <arg id="0" type="受事" beg="17" end="17" />
+                    <arg id="1" type="受事" beg="18" end="19" />
+                    <arg id="2" type="受事" beg="20" end="21" />
+                </word>
+                <word id="17" cont="他们" pos="r" ne="O" wsd="Aa04" wsdexp="他_他们" parent="16" relate="VOB" />
+                <word id="18" cont="健康" pos="a" ne="O" wsd="Eb37" wsdexp="健康_孱弱" parent="19" relate="ATT" />
+                <word id="19" cont="成长" pos="v" ne="O" wsd="Ib01" wsdexp="生育_诞生_生长_繁殖" parent="16" relate="VOB" />
+                <word id="20" cont="而" pos="c" ne="O" wsd="Kc02" wsdexp="并且_况且" parent="21" relate="CNJ" />
+                <word id="21" cont="作出" pos="v" ne="O" wsd="Hj12" wsdexp="做_施展_合作_尝试" parent="16" relate="VOB" />
+                <word id="22" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="6" relate="MT" />
+                <word id="23" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+        </para>
+        <para id="2">
+            <sent id="0" cont="从幼儿到青少年" tag="">
+                <word id="0" cont="从" pos="p" ne="O" wsd="Kb02" wsdexp="从_到_沿" parent="2" relate="ADV" />
+                <word id="1" cont="幼儿" pos="n" ne="O" wsd="Ab04" wsdexp="婴儿_儿童" parent="0" relate="POB" />
+                <word id="2" cont="到" pos="v" ne="O" wsd="Kb02" wsdexp="从_到_沿" parent="-1" relate="HED">
+                    <arg id="0" type="受事" beg="3" end="3" />
+                </word>
+                <word id="3" cont="青少年" pos="n" ne="O" wsd="Ab03" wsdexp="青少年" parent="2" relate="VOB" />
+            </sent>
+        </para>
+        <para id="3">
+            <sent id="0" cont="从4到12岁，孩子平均每年增长5厘米。" tag="">
+                <word id="0" cont="从" pos="p" ne="O" wsd="Kb02" wsdexp="从_到_沿" parent="2" relate="ADV" />
+                <word id="1" cont="4" pos="m" ne="S-Nm" wsd="-1" wsdexp="" parent="2" relate="ADV" />
+                <word id="2" cont="到" pos="v" ne="O" wsd="Hf08" wsdexp="到达_停靠" parent="-1" relate="HED">
+                    <arg id="0" type="受事-数量性质" beg="3" end="4" />
+                </word>
+                <word id="3" cont="12" pos="m" ne="B-Nm" wsd="-1" wsdexp="" parent="4" relate="QUN" />
+                <word id="4" cont="岁" pos="q" ne="E-Nm" wsd="Ca14" wsdexp="年龄" parent="2" relate="VOB" />
+                <word id="5" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="6" cont="孩子" pos="n" ne="O" wsd="Ah14" wsdexp="子_女_子女" parent="7" relate="SBV" />
+                <word id="7" cont="平均" pos="v" ne="O" wsd="Ed37" wsdexp="简单_详细_透彻_均匀" parent="9" relate="ATT">
+                    <arg id="0" type="施事" beg="6" end="6" />
+                </word>
+                <word id="8" cont="每年" pos="r" ne="O" wsd="Ca18" wsdexp="年" parent="9" relate="SBV" />
+                <word id="9" cont="增长" pos="v" ne="O" wsd="Ih05" wsdexp="增多_添补_减少" parent="2" relate="VV">
+                    <arg id="0" type="施事" beg="8" end="8" />
+                    <arg id="1" type="受事-数量性质" beg="10" end="11" />
+                </word>
+                <word id="10" cont="5" pos="m" ne="B-Nm" wsd="-1" wsdexp="" parent="11" relate="QUN" />
+                <word id="11" cont="厘米" pos="q" ne="E-Nm" wsd="Dn10" wsdexp="度量衡单位" parent="9" relate="VOB" />
+                <word id="12" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="1" cont="而饮食在此健康成长阶段起到非常重要的作用。" tag="">
+                <word id="0" cont="而" pos="c" ne="O" wsd="Kc02" wsdexp="并且_况且" parent="7" relate="CNJ" />
+                <word id="1" cont="饮食" pos="n" ne="O" wsd="Da18" wsdexp="生计_饮食" parent="7" relate="SBV" />
+                <word id="2" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="7" relate="ADV" />
+                <word id="3" cont="此" pos="r" ne="O" wsd="Ed61" wsdexp="这个_那个_某个_各个_其他_何" parent="2" relate="POB" />
+                <word id="4" cont="健康" pos="a" ne="O" wsd="Eb37" wsdexp="健康_孱弱" parent="6" relate="ATT" />
+                <word id="5" cont="成长" pos="v" ne="O" wsd="Ib01" wsdexp="生育_诞生_生长_繁殖" parent="6" relate="ATT" />
+                <word id="6" cont="阶段" pos="n" ne="O" wsd="Ca03" wsdexp="时期_时间" parent="2" relate="POB" />
+                <word id="7" cont="起" pos="v" ne="O" wsd="Jd07" wsdexp="出现_发生" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="1" end="1" />
+                    <arg id="1" type="受事" beg="9" end="12" />
+                </word>
+                <word id="8" cont="到" pos="v" ne="O" wsd="Hf08" wsdexp="到达_停靠" parent="7" relate="CMP" />
+                <word id="9" cont="非常" pos="d" ne="O" wsd="Ka01" wsdexp="非常_多么" parent="10" relate="ADV" />
+                <word id="10" cont="重要" pos="a" ne="O" wsd="Ed28" wsdexp="重要_次要_不足道" parent="11" relate="DE" />
+                <word id="11" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="12" relate="ATT" />
+                <word id="12" cont="作用" pos="n" ne="O" wsd="Da25" wsdexp="效用_反应" parent="7" relate="VOB" />
+                <word id="13" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="2" cont="今天，所有的人都知道小孩子的饮食需求，因此如果二十世纪的法国人平均身高比十九世纪的高出10厘米并不是一种偶然现象。" tag="">
+                <word id="0" cont="今天" pos="nt" ne="O" wsd="Ca23" wsdexp="日" parent="31" relate="ADV" />
+                <word id="1" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="2" cont="所有" pos="b" ne="O" wsd="Eb02" wsdexp="单_双_全部_部分" parent="3" relate="DE" />
+                <word id="3" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="4" relate="ATT" />
+                <word id="4" cont="人" pos="n" ne="O" wsd="Aa01" wsdexp="人_人民_众人" parent="6" relate="SBV" />
+                <word id="5" cont="都" pos="d" ne="O" wsd="Ka07" wsdexp="都_只_不止_甚至" parent="6" relate="ADV" />
+                <word id="6" cont="知道" pos="v" ne="O" wsd="Gb08" wsdexp="了解_体会_不解" parent="8" relate="DE">
+                    <arg id="0" type="施事" beg="2" end="4" />
+                    <arg id="1" type="受事" beg="7" end="7" />
+                </word>
+                <word id="7" cont="小孩子" pos="n" ne="O" wsd="Ab04" wsdexp="婴儿_儿童" parent="6" relate="VOB" />
+                <word id="8" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="10" relate="ATT" />
+                <word id="9" cont="饮食" pos="n" ne="O" wsd="Da18" wsdexp="生计_饮食" parent="10" relate="ATT" />
+                <word id="10" cont="需求" pos="n" ne="O" wsd="Df07" wsdexp="欲望_需要" parent="31" relate="SBV" />
+                <word id="11" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="12" cont="因此" pos="c" ne="O" wsd="Kc09" wsdexp="因为_所以" parent="31" relate="CNJ" />
+                <word id="13" cont="如果" pos="c" ne="O" wsd="Kc08" wsdexp="如果_那末" parent="31" relate="CNJ" />
+                <word id="14" cont="二十" pos="m" ne="S-Nm" wsd="-1" wsdexp="" parent="15" relate="QUN" />
+                <word id="15" cont="世纪" pos="n" ne="O" wsd="Ca18" wsdexp="年" parent="16" relate="DE" />
+                <word id="16" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="18" relate="ATT" />
+                <word id="17" cont="法国" pos="ns" ne="S-Ns" wsd="Di02" wsdexp="国家_行政区划" parent="18" relate="ATT" />
+                <word id="18" cont="人" pos="n" ne="O" wsd="Aa01" wsdexp="人_人民_众人" parent="20" relate="ATT" />
+                <word id="19" cont="平均" pos="a" ne="O" wsd="Ed37" wsdexp="简单_详细_透彻_均匀" parent="20" relate="ATT" />
+                <word id="20" cont="身高" pos="n" ne="O" wsd="Ea02" wsdexp="高_矮" parent="24" relate="DE" />
+                <word id="21" cont="比" pos="p" ne="O" wsd="Kb03" wsdexp="跟_替_把_比" parent="24" relate="DE" />
+                <word id="22" cont="十九" pos="m" ne="S-Nm" wsd="-1" wsdexp="" parent="23" relate="QUN" />
+                <word id="23" cont="世纪" pos="n" ne="O" wsd="Ca18" wsdexp="年" parent="21" relate="POB" />
+                <word id="24" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="28" relate="ATT" />
+                <word id="25" cont="高" pos="a" ne="O" wsd="Ea02" wsdexp="高_矮" parent="28" relate="SBV" />
+                <word id="26" cont="出" pos="v" ne="O" wsd="Hj64" wsdexp="出_进_出入" parent="25" relate="VV" />
+                <word id="27" cont="10" pos="m" ne="B-Nm" wsd="-1" wsdexp="" parent="28" relate="QUN" />
+                <word id="28" cont="厘米" pos="q" ne="E-Nm" wsd="Dn10" wsdexp="度量衡单位" parent="31" relate="ADV" />
+                <word id="29" cont="并" pos="c" ne="O" wsd="Kc02" wsdexp="并且_况且" parent="31" relate="CNJ" />
+                <word id="30" cont="不" pos="d" ne="O" wsd="Ka18" wsdexp="不_没" parent="31" relate="ADV" />
+                <word id="31" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="-1" relate="HED">
+                    <arg id="0" type="时间" beg="0" end="0" />
+                    <arg id="1" type="施事" beg="2" end="10" />
+                    <arg id="2" type="受事" beg="32" end="35" />
+                </word>
+                <word id="32" cont="一" pos="m" ne="B-Nm" wsd="Dn04" wsdexp="基数_序数" parent="33" relate="QUN" />
+                <word id="33" cont="种" pos="q" ne="E-Nm" wsd="Dn08" wsdexp="数量单位" parent="35" relate="ATT" />
+                <word id="34" cont="偶然" pos="a" ne="O" wsd="Ka16" wsdexp="突然_偶然" parent="35" relate="ATT" />
+                <word id="35" cont="现象" pos="n" ne="O" wsd="Da22" wsdexp="现象_迹象_预兆" parent="31" relate="VOB" />
+                <word id="36" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="3" cont="对于孩子而言，这不仅是身体成长和发展时期，同样也是智力成长发展时期。" tag="">
+                <word id="0" cont="对于" pos="p" ne="O" wsd="Kb04" wsdexp="对于_关于" parent="6" relate="ADV" />
+                <word id="1" cont="孩子" pos="n" ne="O" wsd="Ah14" wsdexp="子_女_子女" parent="0" relate="POB" />
+                <word id="2" cont="而言" pos="u" ne="O" wsd="Hi12" wsdexp="讲话_谈天" parent="6" relate="ADV" />
+                <word id="3" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="4" cont="这" pos="r" ne="O" wsd="Ed61" wsdexp="这个_那个_某个_各个_其他_何" parent="6" relate="SBV" />
+                <word id="5" cont="不仅" pos="c" ne="O" wsd="Kc05" wsdexp="不但_何止" parent="6" relate="CNJ" />
+                <word id="6" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="4" end="4" />
+                    <arg id="1" type="受事" beg="7" end="19" />
+                </word>
+                <word id="7" cont="身体" pos="n" ne="O" wsd="Dd17" wsdexp="体格" parent="8" relate="ATT" />
+                <word id="8" cont="成长" pos="v" ne="O" wsd="Ib01" wsdexp="生育_诞生_生长_繁殖" parent="6" relate="VOB" />
+                <word id="9" cont="和" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="11" relate="LAD" />
+                <word id="10" cont="发展" pos="v" ne="O" wsd="Ie12" wsdexp="进步_退步_堕落" parent="11" relate="ATT" />
+                <word id="11" cont="时期" pos="n" ne="O" wsd="Ca03" wsdexp="时期_时间" parent="8" relate="COO" />
+                <word id="12" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="13" cont="同样" pos="d" ne="O" wsd="Jb01" wsdexp="相同_相等_差不多" parent="15" relate="ADV" />
+                <word id="14" cont="也" pos="d" ne="O" wsd="Ka33" wsdexp="却_还_也_反而" parent="15" relate="ADV" />
+                <word id="15" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="8" relate="VV">
+                    <arg id="0" type="受事" beg="16" end="16" />
+                    <arg id="1" type="受事" beg="17" end="19" />
+                </word>
+                <word id="16" cont="智力" pos="n" ne="O" wsd="De04" wsdexp="智慧_才能_能力_功夫" parent="15" relate="VOB" />
+                <word id="17" cont="成长" pos="v" ne="O" wsd="Ib01" wsdexp="生育_诞生_生长_繁殖" parent="15" relate="VOB">
+                    <arg id="0" type="受事" beg="18" end="19" />
+                </word>
+                <word id="18" cont="发展" pos="v" ne="O" wsd="Ie12" wsdexp="进步_退步_堕落" parent="19" relate="ATT" />
+                <word id="19" cont="时期" pos="n" ne="O" wsd="Ca03" wsdexp="时期_时间" parent="17" relate="VOB" />
+                <word id="20" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="4" cont="因此首要的是饮食均衡、多样、结构合理、搭配适当。" tag="10%">
+                <word id="0" cont="因此" pos="c" ne="O" wsd="Kc09" wsdexp="因为_所以" parent="3" relate="CNJ" />
+                <word id="1" cont="首要" pos="b" ne="O" wsd="Ed28" wsdexp="重要_次要_不足道" parent="2" relate="DE" />
+                <word id="2" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="3" relate="ATT" />
+                <word id="3" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="-1" relate="HED">
+                    <arg id="0" type="受事" beg="4" end="4" />
+                    <arg id="1" type="受事" beg="5" end="13" />
+                </word>
+                <word id="4" cont="饮食" pos="n" ne="O" wsd="Da18" wsdexp="生计_饮食" parent="3" relate="VOB" />
+                <word id="5" cont="均衡" pos="a" ne="O" wsd="Ed37" wsdexp="简单_详细_透彻_均匀" parent="3" relate="VOB" />
+                <word id="6" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="7" cont="多样" pos="m" ne="S-Nm" wsd="Eb01" wsdexp="多_少_稀少" parent="5" relate="COO" />
+                <word id="8" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="9" cont="结构" pos="n" ne="O" wsd="Dd06" wsdexp="系统_种类_结构" parent="5" relate="COO" />
+                <word id="10" cont="合理" pos="a" ne="O" wsd="Ed13" wsdexp="合理_无理_生硬_牵强" parent="5" relate="COO" />
+                <word id="11" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="12" cont="搭配" pos="v" ne="O" wsd="Ie05" wsdexp="陪衬_点缀" parent="5" relate="COO" />
+                <word id="13" cont="适当" pos="a" ne="O" wsd="Ed49" wsdexp="恰当_失当" parent="12" relate="CMP" />
+                <word id="14" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+        </para>
+        <para id="4">
+            <sent id="0" cont="从4岁开始，孩子逐渐形成自己口味和营养搭配。" tag="">
+                <word id="0" cont="从" pos="p" ne="O" wsd="Kb02" wsdexp="从_到_沿" parent="3" relate="ADV" />
+                <word id="1" cont="4" pos="m" ne="B-Nm" wsd="-1" wsdexp="" parent="2" relate="QUN" />
+                <word id="2" cont="岁" pos="q" ne="E-Nm" wsd="Ca14" wsdexp="年龄" parent="3" relate="ADV" />
+                <word id="3" cont="开始" pos="v" ne="O" wsd="Ig01" wsdexp="开始_结束" parent="-1" relate="HED" />
+                <word id="4" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="5" cont="孩子" pos="n" ne="O" wsd="Ah14" wsdexp="子_女_子女" parent="7" relate="SBV" />
+                <word id="6" cont="逐渐" pos="d" ne="O" wsd="Ka08" wsdexp="立刻_赶快_逐渐" parent="7" relate="ADV" />
+                <word id="7" cont="形成" pos="v" ne="O" wsd="Ie14" wsdexp="完成_实现" parent="3" relate="VV">
+                    <arg id="0" type="施事" beg="5" end="5" />
+                    <arg id="1" type="受事" beg="8" end="11" />
+                    <arg id="2" type="受事" beg="12" end="12" />
+                </word>
+                <word id="8" cont="自己" pos="r" ne="O" wsd="Aa05" wsdexp="自己_别人_某人" parent="9" relate="ATT" />
+                <word id="9" cont="口味" pos="n" ne="O" wsd="Df12" wsdexp="兴趣_嗜好" parent="7" relate="VOB" />
+                <word id="10" cont="和" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="11" relate="LAD" />
+                <word id="11" cont="营养" pos="n" ne="O" wsd="Dd10" wsdexp="因素_成分" parent="9" relate="COO" />
+                <word id="12" cont="搭配" pos="v" ne="O" wsd="Ie05" wsdexp="陪衬_点缀" parent="7" relate="VOB" />
+                <word id="13" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="1" cont="他们变得更为自主，会根据自己的口味选择食物。" tag="">
+                <word id="0" cont="他们" pos="r" ne="O" wsd="Aa04" wsdexp="他_他们" parent="1" relate="SBV" />
+                <word id="1" cont="变" pos="v" ne="O" wsd="Ih02" wsdexp="改变_改换" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="0" />
+                    <arg id="1" type="受事" beg="3" end="4" />
+                </word>
+                <word id="2" cont="得" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="1" relate="CMP" />
+                <word id="3" cont="更为" pos="d" ne="O" wsd="Ka04" wsdexp="更加" parent="4" relate="ADV" />
+                <word id="4" cont="自主" pos="v" ne="O" wsd="Hj05" wsdexp="独立_依附_随大溜_混日子" parent="1" relate="VOB" />
+                <word id="5" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="6" cont="会" pos="v" ne="O" wsd="Gc02" wsdexp="能够_不能_可以_不可" parent="1" relate="IC" />
+                <word id="7" cont="根据" pos="p" ne="O" wsd="Kb07" wsdexp="依照_根据_趁" parent="6" relate="CMP" />
+                <word id="8" cont="自己" pos="r" ne="O" wsd="Aa05" wsdexp="自己_别人_某人" parent="9" relate="DE" />
+                <word id="9" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="12" relate="ATT" />
+                <word id="10" cont="口味" pos="n" ne="O" wsd="Df12" wsdexp="兴趣_嗜好" parent="11" relate="ATT" />
+                <word id="11" cont="选择" pos="v" ne="O" wsd="Hj25" wsdexp="采集_搜罗_挑选_取长补短" parent="12" relate="ATT" />
+                <word id="12" cont="食物" pos="n" ne="O" wsd="Br03" wsdexp="食物" parent="7" relate="POB" />
+                <word id="13" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+        </para>
+        <para id="5">
+            <sent id="0" cont="注意他们的能量提供并关注他们的体重" tag="20%">
+                <word id="0" cont="注意" pos="v" ne="O" wsd="Gb20" wsdexp="注意_权衡_计较" parent="8" relate="DE" />
+                <word id="1" cont="他们" pos="r" ne="O" wsd="Aa04" wsdexp="他_他们" parent="2" relate="DE" />
+                <word id="2" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="3" relate="ATT" />
+                <word id="3" cont="能量" pos="n" ne="O" wsd="Dd14" wsdexp="力气_力量_能量" parent="4" relate="SBV" />
+                <word id="4" cont="提供" pos="v" ne="O" wsd="Jc05" wsdexp="需要_提供_满足" parent="8" relate="DE">
+                    <arg id="0" type="施事" beg="1" end="3" />
+                </word>
+                <word id="5" cont="并" pos="c" ne="O" wsd="Kc02" wsdexp="并且_况且" parent="6" relate="LAD" />
+                <word id="6" cont="关注" pos="v" ne="O" wsd="Gb19" wsdexp="关怀_担心_放心" parent="4" relate="COO" />
+                <word id="7" cont="他们" pos="r" ne="O" wsd="Aa04" wsdexp="他_他们" parent="8" relate="DE" />
+                <word id="8" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="9" relate="ATT" />
+                <word id="9" cont="体重" pos="n" ne="O" wsd="Dn01" wsdexp="量度_温度" parent="-1" relate="HED" />
+            </sent>
+        </para>
+        <para id="6">
+            <sent id="0" cont="在成长期，根据性别，年龄，体重以及身高的不同，孩子每年的能量需求有所不同：" tag="">
+                <word id="0" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="12" relate="ADV" />
+                <word id="1" cont="成长期" pos="n" ne="O" wsd="Ca03" wsdexp="时期_时间" parent="0" relate="POB" />
+                <word id="2" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="3" cont="根据" pos="p" ne="O" wsd="Kb07" wsdexp="依照_根据_趁" parent="12" relate="ADV" />
+                <word id="4" cont="性别" pos="n" ne="O" wsd="Dd15" wsdexp="名称_姓名_生肖_性别" parent="3" relate="POB" />
+                <word id="5" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="6" cont="年龄" pos="n" ne="O" wsd="Ca14" wsdexp="年龄" parent="12" relate="IS" />
+                <word id="7" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="8" cont="体重" pos="n" ne="O" wsd="Dn01" wsdexp="量度_温度" parent="10" relate="ATT" />
+                <word id="9" cont="以及" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="10" relate="LAD" />
+                <word id="10" cont="身高" pos="n" ne="O" wsd="Ea02" wsdexp="高_矮" parent="11" relate="DE" />
+                <word id="11" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="12" relate="ATT" />
+                <word id="12" cont="不同" pos="a" ne="O" wsd="Jb02" wsdexp="不同_相反" parent="-1" relate="HED" />
+                <word id="13" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="14" cont="孩子" pos="n" ne="O" wsd="Ah14" wsdexp="子_女_子女" parent="18" relate="ATT" />
+                <word id="15" cont="每年" pos="r" ne="O" wsd="Ca18" wsdexp="年" parent="16" relate="DE" />
+                <word id="16" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="18" relate="ATT" />
+                <word id="17" cont="能量" pos="n" ne="O" wsd="Dd14" wsdexp="力气_力量_能量" parent="18" relate="ATT" />
+                <word id="18" cont="需求" pos="n" ne="O" wsd="Df07" wsdexp="欲望_需要" parent="19" relate="SBV" />
+                <word id="19" cont="有所不同" pos="i" ne="O" wsd="Jb02" wsdexp="不同_相反" parent="12" relate="IC" />
+                <word id="20" cont="：" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="1" cont="对于女孩子，从4岁到9岁能量需求为1200千卡到2000千卡/天，从10岁到12岁为2100千卡到2400千卡/天；" tag="">
+                <word id="0" cont="对于" pos="p" ne="O" wsd="Kb04" wsdexp="对于_关于" parent="6" relate="ADV" />
+                <word id="1" cont="女孩子" pos="n" ne="O" wsd="Ab03" wsdexp="青少年" parent="0" relate="POB" />
+                <word id="2" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="3" cont="从" pos="p" ne="O" wsd="Kb02" wsdexp="从_到_沿" parent="6" relate="ADV" />
+                <word id="4" cont="4" pos="m" ne="B-Nm" wsd="-1" wsdexp="" parent="5" relate="QUN" />
+                <word id="5" cont="岁" pos="q" ne="E-Nm" wsd="Ca14" wsdexp="年龄" parent="3" relate="POB" />
+                <word id="6" cont="到" pos="v" ne="O" wsd="Hf08" wsdexp="到达_停靠" parent="-1" relate="HED">
+                    <arg id="0" type="受事" beg="12" end="13" />
+                    <arg id="1" type="受事" beg="15" end="16" />
+                    <arg id="2" type="受事" beg="18" end="18" />
+                </word>
+                <word id="7" cont="9" pos="m" ne="B-Nm" wsd="-1" wsdexp="" parent="8" relate="QUN" />
+                <word id="8" cont="岁" pos="q" ne="E-Nm" wsd="Ca14" wsdexp="年龄" parent="10" relate="ATT" />
+                <word id="9" cont="能量" pos="n" ne="O" wsd="Dd14" wsdexp="力气_力量_能量" parent="10" relate="ATT" />
+                <word id="10" cont="需求" pos="n" ne="O" wsd="Df07" wsdexp="欲望_需要" parent="11" relate="SBV" />
+                <word id="11" cont="为" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="6" relate="CMP">
+                    <arg id="0" type="施事" beg="7" end="10" />
+                </word>
+                <word id="12" cont="1200千" pos="m" ne="S-Nm" wsd="-1" wsdexp="" parent="13" relate="QUN" />
+                <word id="13" cont="卡" pos="n" ne="O" wsd="Bp18" wsdexp="簿册_卡片_名帖" parent="6" relate="VOB" />
+                <word id="14" cont="到" pos="v" ne="O" wsd="Hf08" wsdexp="到达_停靠" parent="6" relate="CMP" />
+                <word id="15" cont="2000千" pos="m" ne="S-Nm" wsd="-1" wsdexp="" parent="16" relate="QUN" />
+                <word id="16" cont="卡" pos="n" ne="O" wsd="Bp18" wsdexp="簿册_卡片_名帖" parent="6" relate="VOB" />
+                <word id="17" cont="/" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="18" cont="天" pos="n" ne="O" wsd="Ca23" wsdexp="日" parent="6" relate="VOB" />
+                <word id="19" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="20" cont="从" pos="p" ne="O" wsd="Kb02" wsdexp="从_到_沿" parent="23" relate="ADV" />
+                <word id="21" cont="10" pos="m" ne="B-Nm" wsd="-1" wsdexp="" parent="22" relate="QUN" />
+                <word id="22" cont="岁" pos="q" ne="E-Nm" wsd="Ca14" wsdexp="年龄" parent="20" relate="POB" />
+                <word id="23" cont="到" pos="v" ne="O" wsd="Hf08" wsdexp="到达_停靠" parent="6" relate="IC">
+                    <arg id="0" type="受事-数量性质" beg="24" end="25" />
+                    <arg id="1" type="受事" beg="30" end="31" />
+                    <arg id="2" type="受事" beg="33" end="33" />
+                </word>
+                <word id="24" cont="12" pos="m" ne="B-Nm" wsd="-1" wsdexp="" parent="25" relate="QUN" />
+                <word id="25" cont="岁" pos="q" ne="E-Nm" wsd="Ca14" wsdexp="年龄" parent="23" relate="VOB" />
+                <word id="26" cont="为" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="23" relate="CMP">
+                    <arg id="0" type="受事" beg="27" end="28" />
+                    <arg id="1" type="受事" beg="29" end="29" />
+                </word>
+                <word id="27" cont="2100千" pos="m" ne="S-Nm" wsd="-1" wsdexp="" parent="28" relate="QUN" />
+                <word id="28" cont="卡" pos="n" ne="O" wsd="Bp18" wsdexp="簿册_卡片_名帖" parent="26" relate="VOB" />
+                <word id="29" cont="到" pos="v" ne="O" wsd="Hf08" wsdexp="到达_停靠" parent="26" relate="VOB" />
+                <word id="30" cont="2400千" pos="m" ne="S-Nm" wsd="-1" wsdexp="" parent="31" relate="QUN" />
+                <word id="31" cont="卡" pos="n" ne="O" wsd="Bp18" wsdexp="簿册_卡片_名帖" parent="23" relate="VOB" />
+                <word id="32" cont="/" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="33" cont="天" pos="n" ne="O" wsd="Ca23" wsdexp="日" parent="23" relate="VOB" />
+                <word id="34" cont="；" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="2" cont="对于男孩子，从4岁到9岁，他们的能量需求为1300千卡到2100千卡/天，从10岁到12岁为2200千卡到2500千卡/天(资料来源：" tag="">
+                <word id="0" cont="对于" pos="p" ne="O" wsd="Kb04" wsdexp="对于_关于" parent="6" relate="ADV" />
+                <word id="1" cont="男孩子" pos="n" ne="O" wsd="Ab03" wsdexp="青少年" parent="0" relate="POB" />
+                <word id="2" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="3" cont="从" pos="p" ne="O" wsd="Kb02" wsdexp="从_到_沿" parent="6" relate="ADV" />
+                <word id="4" cont="4" pos="m" ne="B-Nm" wsd="-1" wsdexp="" parent="5" relate="QUN" />
+                <word id="5" cont="岁" pos="q" ne="E-Nm" wsd="Ca14" wsdexp="年龄" parent="3" relate="POB" />
+                <word id="6" cont="到" pos="v" ne="O" wsd="Hf08" wsdexp="到达_停靠" parent="-1" relate="HED">
+                    <arg id="0" type="受事-数量性质" beg="7" end="8" />
+                </word>
+                <word id="7" cont="9" pos="m" ne="B-Nm" wsd="-1" wsdexp="" parent="8" relate="QUN" />
+                <word id="8" cont="岁" pos="q" ne="E-Nm" wsd="Ca14" wsdexp="年龄" parent="6" relate="VOB" />
+                <word id="9" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="10" cont="他们" pos="r" ne="O" wsd="Aa04" wsdexp="他_他们" parent="11" relate="DE" />
+                <word id="11" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="13" relate="ATT" />
+                <word id="12" cont="能量" pos="n" ne="O" wsd="Dd14" wsdexp="力气_力量_能量" parent="13" relate="ATT" />
+                <word id="13" cont="需求" pos="n" ne="O" wsd="Df07" wsdexp="欲望_需要" parent="14" relate="SBV" />
+                <word id="14" cont="为" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="17" relate="ADV">
+                    <arg id="0" type="施事" beg="10" end="13" />
+                    <arg id="1" type="受事" beg="15" end="16" />
+                </word>
+                <word id="15" cont="1300千" pos="m" ne="S-Nm" wsd="-1" wsdexp="" parent="16" relate="QUN" />
+                <word id="16" cont="卡" pos="n" ne="O" wsd="Bp18" wsdexp="簿册_卡片_名帖" parent="14" relate="VOB" />
+                <word id="17" cont="到" pos="v" ne="O" wsd="Hf08" wsdexp="到达_停靠" parent="6" relate="VV">
+                    <arg id="0" type="受事" beg="18" end="19" />
+                    <arg id="1" type="受事" beg="21" end="21" />
+                </word>
+                <word id="18" cont="2100千" pos="m" ne="S-Nm" wsd="-1" wsdexp="" parent="19" relate="QUN" />
+                <word id="19" cont="卡" pos="n" ne="O" wsd="Bp18" wsdexp="簿册_卡片_名帖" parent="17" relate="VOB" />
+                <word id="20" cont="/" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="21" cont="天" pos="n" ne="O" wsd="Ca23" wsdexp="日" parent="17" relate="VOB" />
+                <word id="22" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="23" cont="从" pos="p" ne="O" wsd="Kb02" wsdexp="从_到_沿" parent="26" relate="ADV" />
+                <word id="24" cont="10" pos="m" ne="B-Nm" wsd="-1" wsdexp="" parent="25" relate="QUN" />
+                <word id="25" cont="岁" pos="q" ne="E-Nm" wsd="Ca14" wsdexp="年龄" parent="23" relate="POB" />
+                <word id="26" cont="到" pos="v" ne="O" wsd="Hf08" wsdexp="到达_停靠" parent="6" relate="IC">
+                    <arg id="0" type="受事-数量性质" beg="27" end="28" />
+                    <arg id="1" type="受事" beg="33" end="34" />
+                    <arg id="2" type="受事" beg="36" end="36" />
+                    <arg id="3" type="受事" beg="38" end="39" />
+                </word>
+                <word id="27" cont="12" pos="m" ne="B-Nm" wsd="-1" wsdexp="" parent="28" relate="QUN" />
+                <word id="28" cont="岁" pos="q" ne="E-Nm" wsd="Ca14" wsdexp="年龄" parent="26" relate="VOB" />
+                <word id="29" cont="为" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="26" relate="CMP">
+                    <arg id="0" type="受事" beg="30" end="31" />
+                    <arg id="1" type="受事" beg="32" end="32" />
+                </word>
+                <word id="30" cont="2200千" pos="m" ne="S-Nm" wsd="-1" wsdexp="" parent="31" relate="QUN" />
+                <word id="31" cont="卡" pos="n" ne="O" wsd="Bp18" wsdexp="簿册_卡片_名帖" parent="29" relate="VOB" />
+                <word id="32" cont="到" pos="v" ne="O" wsd="Hf08" wsdexp="到达_停靠" parent="29" relate="VOB" />
+                <word id="33" cont="2500千" pos="m" ne="S-Nm" wsd="-1" wsdexp="" parent="34" relate="QUN" />
+                <word id="34" cont="卡" pos="n" ne="O" wsd="Bp18" wsdexp="簿册_卡片_名帖" parent="26" relate="VOB" />
+                <word id="35" cont="/" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="36" cont="天" pos="n" ne="O" wsd="Ca23" wsdexp="日" parent="26" relate="VOB" />
+                <word id="37" cont="(" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="38" cont="资料" pos="n" ne="O" wsd="Dk17" wsdexp="资料_文件" parent="39" relate="ATT" />
+                <word id="39" cont="来源" pos="n" ne="O" wsd="Db02" wsdexp="根源_来源" parent="26" relate="VOB" />
+                <word id="40" cont="：" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="3" cont="法国人口营养供给建议-2001年第3版)。" tag="">
+                <word id="0" cont="法国" pos="ns" ne="O" wsd="Di02" wsdexp="国家_行政区划" parent="1" relate="ATT" />
+                <word id="1" cont="人口" pos="n" ne="O" wsd="Aa01" wsdexp="人_人民_众人" parent="2" relate="ATT" />
+                <word id="2" cont="营养" pos="n" ne="O" wsd="Dd10" wsdexp="因素_成分" parent="3" relate="ATT" />
+                <word id="3" cont="供给" pos="v" ne="O" wsd="Jc05" wsdexp="需要_提供_满足" parent="4" relate="SBV" />
+                <word id="4" cont="建议" pos="v" ne="O" wsd="Dk13" wsdexp="建议_结论_决定" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="3" />
+                    <arg id="1" type="受事-数量性质" beg="5" end="6" />
+                    <arg id="2" type="受事" beg="7" end="8" />
+                </word>
+                <word id="5" cont="-2001" pos="m" ne="B-Nm" wsd="-1" wsdexp="" parent="6" relate="QUN" />
+                <word id="6" cont="年" pos="q" ne="E-Nm" wsd="Ca18" wsdexp="年" parent="4" relate="VOB" />
+                <word id="7" cont="第3" pos="m" ne="S-Nm" wsd="-1" wsdexp="" parent="8" relate="QUN" />
+                <word id="8" cont="版" pos="n" ne="O" wsd="Dk20" wsdexp="读物_书籍_版本_页张" parent="4" relate="VOB" />
+                <word id="9" cont=")" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="10" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="4" cont="这些数值同样要根据孩子的体力活动的不同而进行相应调整。" tag="">
+                <word id="0" cont="这些" pos="r" ne="O" wsd="Ed61" wsdexp="这个_那个_某个_各个_其他_何" parent="1" relate="ATT" />
+                <word id="1" cont="数值" pos="n" ne="O" wsd="Dj02" wsdexp="价值_价格" parent="3" relate="SBV" />
+                <word id="2" cont="同样" pos="d" ne="O" wsd="Jb01" wsdexp="相同_相等_差不多" parent="3" relate="ADV" />
+                <word id="3" cont="要" pos="v" ne="O" wsd="Gc03" wsdexp="应该_必须_无须" parent="9" relate="DE">
+                    <arg id="0" type="施事" beg="0" end="1" />
+                </word>
+                <word id="4" cont="根据" pos="p" ne="O" wsd="Kb07" wsdexp="依照_根据_趁" parent="6" relate="DE" />
+                <word id="5" cont="孩子" pos="n" ne="O" wsd="Ah14" wsdexp="子_女_子女" parent="4" relate="POB" />
+                <word id="6" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="8" relate="ATT" />
+                <word id="7" cont="体力" pos="n" ne="O" wsd="Dd14" wsdexp="力气_力量_能量" parent="8" relate="ATT" />
+                <word id="8" cont="活动" pos="v" ne="O" wsd="Di20" wsdexp="动作_举动_行为" parent="9" relate="DE" />
+                <word id="9" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="10" relate="ATT" />
+                <word id="10" cont="不同" pos="a" ne="O" wsd="Jb02" wsdexp="不同_相反" parent="12" relate="SBV" />
+                <word id="11" cont="而" pos="c" ne="O" wsd="Kc03" wsdexp="但是" parent="12" relate="CNJ" />
+                <word id="12" cont="进行" pos="v" ne="O" wsd="Ig03" wsdexp="进行_继续_流逝" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="10" />
+                    <arg id="1" type="受事" beg="13" end="14" />
+                </word>
+                <word id="13" cont="相应" pos="v" ne="O" wsd="Jc06" wsdexp="连贯_呼应" parent="14" relate="ATT" />
+                <word id="14" cont="调整" pos="v" ne="O" wsd="Hc03" wsdexp="安置_部署_调动_整顿_整编" parent="12" relate="VOB" />
+                <word id="15" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+        </para>
+        <para id="7">
+            <sent id="0" cont="根据“JONAS”(1999年营养与肥胖对健康影响的日志)，30%的法国儿童超重。" tag="">
+                <word id="0" cont="根据" pos="p" ne="O" wsd="Kb07" wsdexp="依照_根据_趁" parent="9" relate="ATT" />
+                <word id="1" cont="“" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="2" cont="JONAS" pos="ws" ne="O" wsd="-1" wsdexp="" parent="0" relate="NOT" />
+                <word id="3" cont="”" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="4" cont="(" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="5" cont="1999年" pos="nt" ne="S-Nr" wsd="-1" wsdexp="" parent="6" relate="ATT" />
+                <word id="6" cont="营养" pos="n" ne="O" wsd="Br13" wsdexp="药品_维生素_补品" parent="8" relate="SBV" />
+                <word id="7" cont="与" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="8" relate="CNJ" />
+                <word id="8" cont="肥胖" pos="a" ne="O" wsd="Ea07" wsdexp="胖_瘦" parent="2" relate="NOT" />
+                <word id="9" cont="对" pos="p" ne="O" wsd="Kb04" wsdexp="对于_关于" parent="11" relate="ADV" />
+                <word id="10" cont="健康" pos="a" ne="O" wsd="Eb37" wsdexp="健康_孱弱" parent="11" relate="ATT" />
+                <word id="11" cont="影响" pos="v" ne="O" wsd="Je02" wsdexp="影响_触动_带动" parent="-1" relate="HED">
+                    <arg id="0" type="受事" beg="12" end="13" />
+                </word>
+                <word id="12" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="13" relate="ATT" />
+                <word id="13" cont="日志" pos="n" ne="O" wsd="Dk26" wsdexp="散文_传记_杂记" parent="11" relate="VOB" />
+                <word id="14" cont=")" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="15" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="16" cont="30%" pos="m" ne="S-Nm" wsd="-1" wsdexp="" parent="17" relate="DE" />
+                <word id="17" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="20" relate="ATT" />
+                <word id="18" cont="法国" pos="ns" ne="S-Ns" wsd="Di02" wsdexp="国家_行政区划" parent="19" relate="ATT" />
+                <word id="19" cont="儿童" pos="n" ne="O" wsd="Ab04" wsdexp="婴儿_儿童" parent="20" relate="ATT" />
+                <word id="20" cont="超重" pos="v" ne="O" wsd="Id25" wsdexp="混杂_超重" parent="11" relate="VV" />
+                <word id="21" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="1" cont="这就是为什么现在建议要关注儿童体重曲线表的变化。" tag="">
+                <word id="0" cont="这" pos="r" ne="O" wsd="Ed61" wsdexp="这个_那个_某个_各个_其他_何" parent="1" relate="SBV" />
+                <word id="1" cont="就是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="0" />
+                    <arg id="1" type="受事" beg="2" end="2" />
+                    <arg id="2" type="受事" beg="3" end="4" />
+                    <arg id="3" type="受事" beg="5" end="12" />
+                </word>
+                <word id="2" cont="为什么" pos="r" ne="O" wsd="Ka35" wsdexp="哪里_怎样_为什么" parent="1" relate="VOB" />
+                <word id="3" cont="现在" pos="nt" ne="O" wsd="Ca10" wsdexp="现在" parent="4" relate="ATT" />
+                <word id="4" cont="建议" pos="n" ne="O" wsd="Dk13" wsdexp="建议_结论_决定" parent="1" relate="VOB" />
+                <word id="5" cont="要" pos="v" ne="O" wsd="Gc03" wsdexp="应该_必须_无须" parent="6" relate="ADV" />
+                <word id="6" cont="关注" pos="v" ne="O" wsd="Gb19" wsdexp="关怀_担心_放心" parent="11" relate="DE">
+                    <arg id="0" type="受事" beg="7" end="10" />
+                </word>
+                <word id="7" cont="儿童" pos="n" ne="O" wsd="Ab04" wsdexp="婴儿_儿童" parent="8" relate="ATT" />
+                <word id="8" cont="体重" pos="n" ne="O" wsd="Dn01" wsdexp="量度_温度" parent="9" relate="ATT" />
+                <word id="9" cont="曲线" pos="n" ne="O" wsd="Cb23" wsdexp="点_线_角_面_体" parent="10" relate="ATT" />
+                <word id="10" cont="表" pos="n" ne="O" wsd="Dk18" wsdexp="图_表" parent="6" relate="VOB" />
+                <word id="11" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="12" relate="ATT" />
+                <word id="12" cont="变化" pos="v" ne="O" wsd="Ih01" wsdexp="变化_成为" parent="1" relate="VOB" />
+                <word id="13" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+        </para>
+        <para id="8">
+            <sent id="0" cont="计算您的孩子的体重指数(体重的公斤数除以身高的米数的平方，即kg/m2)。" tag="">
+                <word id="0" cont="计算" pos="v" ne="O" wsd="Hj29" wsdexp="称_量_计算" parent="14" relate="DE">
+                    <arg id="0" type="受事" beg="1" end="6" />
+                </word>
+                <word id="1" cont="您" pos="r" ne="O" wsd="Aa03" wsdexp="你_你们" parent="2" relate="DE" />
+                <word id="2" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="3" relate="ATT" />
+                <word id="3" cont="孩子" pos="n" ne="O" wsd="Ab04" wsdexp="婴儿_儿童" parent="4" relate="DE" />
+                <word id="4" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="6" relate="ATT" />
+                <word id="5" cont="体重" pos="n" ne="O" wsd="Dn01" wsdexp="量度_温度" parent="6" relate="ATT" />
+                <word id="6" cont="指数" pos="n" ne="O" wsd="Dn03" wsdexp="数量" parent="0" relate="VOB" />
+                <word id="7" cont="(" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="8" cont="体重" pos="n" ne="O" wsd="Dn01" wsdexp="量度_温度" parent="9" relate="DE" />
+                <word id="9" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="11" relate="ATT" />
+                <word id="10" cont="公斤" pos="q" ne="O" wsd="Dn10" wsdexp="度量衡单位" parent="11" relate="ATT" />
+                <word id="11" cont="数" pos="n" ne="O" wsd="Dn03" wsdexp="数量" parent="12" relate="SBV" />
+                <word id="12" cont="除以" pos="v" ne="O" wsd="-1" wsdexp="" parent="14" relate="DE">
+                    <arg id="0" type="施事" beg="8" end="11" />
+                    <arg id="1" type="受事" beg="13" end="13" />
+                </word>
+                <word id="13" cont="身高" pos="n" ne="O" wsd="Ea02" wsdexp="高_矮" parent="12" relate="VOB" />
+                <word id="14" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="15" relate="ATT" />
+                <word id="15" cont="米" pos="q" ne="O" wsd="Dn10" wsdexp="度量衡单位" parent="16" relate="ATT" />
+                <word id="16" cont="数" pos="n" ne="O" wsd="Dn03" wsdexp="数量" parent="17" relate="DE" />
+                <word id="17" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="18" relate="ATT" />
+                <word id="18" cont="平方" pos="n" ne="O" wsd="Dk02" wsdexp="学说_学问_知识" parent="20" relate="SBV" />
+                <word id="19" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="20" cont="即" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="18" />
+                    <arg id="1" type="受事" beg="21" end="21" />
+                </word>
+                <word id="21" cont="kg" pos="ws" ne="O" wsd="-1" wsdexp="" parent="20" relate="VOB" />
+                <word id="22" cont="/" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="23" cont="m2" pos="ws" ne="O" wsd="-1" wsdexp="" parent="20" relate="NOT" />
+                <word id="24" cont=")" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="25" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="1" cont="这是一个很好的指标可以发现可能出现的超重。" tag="">
+                <word id="0" cont="这" pos="r" ne="O" wsd="Ed61" wsdexp="这个_那个_某个_各个_其他_何" parent="1" relate="SBV" />
+                <word id="1" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="0" />
+                    <arg id="1" type="受事" beg="2" end="8" />
+                    <arg id="2" type="受事" beg="9" end="12" />
+                </word>
+                <word id="2" cont="一个" pos="m" ne="O" wsd="Dn08" wsdexp="数量单位" parent="6" relate="QUN" />
+                <word id="3" cont="很" pos="d" ne="O" wsd="Ka01" wsdexp="非常_多么" parent="4" relate="ADV" />
+                <word id="4" cont="好" pos="a" ne="O" wsd="Ed03" wsdexp="好_坏" parent="5" relate="DE" />
+                <word id="5" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="6" relate="ATT" />
+                <word id="6" cont="指标" pos="n" ne="O" wsd="Dd11" wsdexp="标准_榜样" parent="8" relate="SBV" />
+                <word id="7" cont="可以" pos="v" ne="O" wsd="Gc02" wsdexp="能够_不能_可以_不可" parent="8" relate="ADV" />
+                <word id="8" cont="发现" pos="v" ne="O" wsd="Gb08" wsdexp="了解_体会_不解" parent="1" relate="VOB">
+                    <arg id="0" type="施事" beg="2" end="6" />
+                </word>
+                <word id="9" cont="可能" pos="v" ne="O" wsd="Ka17" wsdexp="也许_大概_难道" parent="10" relate="ADV" />
+                <word id="10" cont="出现" pos="v" ne="O" wsd="Jd07" wsdexp="出现_发生" parent="11" relate="DE" />
+                <word id="11" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="12" relate="ATT" />
+                <word id="12" cont="超重" pos="v" ne="O" wsd="Id25" wsdexp="混杂_超重" parent="1" relate="VOB" />
+                <word id="13" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="2" cont="一定要及时告诉您的医生以便医生能够建议应该采取哪些措施。" tag="">
+                <word id="0" cont="一定" pos="d" ne="O" wsd="Ka15" wsdexp="必然_管保_未必" parent="1" relate="ADV" />
+                <word id="1" cont="要" pos="v" ne="O" wsd="Gc03" wsdexp="应该_必须_无须" parent="3" relate="ADV" />
+                <word id="2" cont="及时" pos="a" ne="O" wsd="Ka08" wsdexp="立刻_赶快_逐渐" parent="3" relate="ADV" />
+                <word id="3" cont="告诉" pos="v" ne="O" wsd="Hi15" wsdexp="告诉_通知_嘱咐" parent="-1" relate="HED">
+                    <arg id="0" type="受事" beg="4" end="6" />
+                    <arg id="1" type="受事" beg="7" end="8" />
+                    <arg id="2" type="受事" beg="9" end="14" />
+                </word>
+                <word id="4" cont="您" pos="r" ne="O" wsd="Aa03" wsdexp="你_你们" parent="5" relate="DE" />
+                <word id="5" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="6" relate="ATT" />
+                <word id="6" cont="医生" pos="n" ne="O" wsd="Ae15" wsdexp="医生_助产士_护士" parent="3" relate="VOB" />
+                <word id="7" cont="以便" pos="c" ne="O" wsd="Kb05" wsdexp="为_被_以_由" parent="8" relate="LAD" />
+                <word id="8" cont="医生" pos="n" ne="O" wsd="Ae15" wsdexp="医生_助产士_护士" parent="3" relate="VOB" />
+                <word id="9" cont="能够" pos="v" ne="O" wsd="Gc02" wsdexp="能够_不能_可以_不可" parent="12" relate="ADV">
+                    <arg id="0" type="受事" beg="10" end="10" />
+                </word>
+                <word id="10" cont="建议" pos="n" ne="O" wsd="Hc14" wsdexp="建议_讨论_决定_制订" parent="9" relate="VOB" />
+                <word id="11" cont="应该" pos="v" ne="O" wsd="Gc03" wsdexp="应该_必须_无须" parent="12" relate="ADV" />
+                <word id="12" cont="采取" pos="v" ne="O" wsd="Hj28" wsdexp="使用_沿用_借鉴" parent="3" relate="VOB">
+                    <arg id="0" type="受事" beg="13" end="14" />
+                </word>
+                <word id="13" cont="哪些" pos="r" ne="O" wsd="Ka35" wsdexp="哪里_怎样_为什么" parent="14" relate="ATT" />
+                <word id="14" cont="措施" pos="n" ne="O" wsd="Db09" wsdexp="方法_诀窍_步骤" parent="12" relate="VOB" />
+                <word id="15" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="3" cont="不管怎样，鼓励孩子多运动或尽量少待在家中(比如待在电视机前)是非常重要的。" tag="">
+                <word id="0" cont="不管怎样" pos="i" ne="O" wsd="Kc10" wsdexp="不论_只管" parent="2" relate="ADV" />
+                <word id="1" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="2" cont="鼓励" pos="v" ne="O" wsd="Hi34" wsdexp="鼓励_劝告" parent="19" relate="ADV">
+                    <arg id="0" type="受事" beg="3" end="3" />
+                    <arg id="1" type="受事" beg="4" end="5" />
+                    <arg id="2" type="受事" beg="6" end="9" />
+                </word>
+                <word id="3" cont="孩子" pos="n" ne="O" wsd="Ah14" wsdexp="子_女_子女" parent="2" relate="VOB" />
+                <word id="4" cont="多" pos="a" ne="O" wsd="Eb01" wsdexp="多_少_稀少" parent="5" relate="ATT" />
+                <word id="5" cont="运动" pos="v" ne="O" wsd="Di20" wsdexp="动作_举动_行为" parent="2" relate="VOB" />
+                <word id="6" cont="或" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="8" relate="CNJ" />
+                <word id="7" cont="尽量" pos="d" ne="O" wsd="Ka03" wsdexp="过分_尽量" parent="8" relate="ADV" />
+                <word id="8" cont="少" pos="a" ne="O" wsd="Eb01" wsdexp="多_少_稀少" parent="9" relate="ADV" />
+                <word id="9" cont="待" pos="v" ne="O" wsd="Hi07" wsdexp="等候_驱逐_收留_挽留" parent="2" relate="VOB" />
+                <word id="10" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="2" relate="CMP" />
+                <word id="11" cont="家中" pos="nl" ne="O" wsd="Di05" wsdexp="家族_家庭_户头" parent="10" relate="POB" />
+                <word id="12" cont="(" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="13" cont="比如" pos="v" ne="O" wsd="Jb03" wsdexp="相似_例如" parent="19" relate="IS">
+                    <arg id="0" type="受事" beg="14" end="14" />
+                </word>
+                <word id="14" cont="待" pos="v" ne="O" wsd="Hi07" wsdexp="等候_驱逐_收留_挽留" parent="13" relate="VOB" />
+                <word id="15" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="19" relate="ADV" />
+                <word id="16" cont="电视机" pos="n" ne="O" wsd="Bo04" wsdexp="通信器材_电线_电料" parent="17" relate="ATT" />
+                <word id="17" cont="前" pos="nd" ne="O" wsd="Cb04" wsdexp="前_后_中" parent="15" relate="POB" />
+                <word id="18" cont=")" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="19" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="-1" relate="HED">
+                    <arg id="0" type="方位" beg="15" end="17" />
+                </word>
+                <word id="20" cont="非常" pos="d" ne="O" wsd="Ka01" wsdexp="非常_多么" parent="21" relate="ADV" />
+                <word id="21" cont="重要" pos="a" ne="O" wsd="Ed28" wsdexp="重要_次要_不足道" parent="22" relate="DE" />
+                <word id="22" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="19" relate="MT" />
+                <word id="23" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+        </para>
+        <para id="9">
+            <sent id="0" cont="均衡蛋白质，脂肪，碳水化合物" tag="">
+                <word id="0" cont="均衡" pos="a" ne="O" wsd="Ed37" wsdexp="简单_详细_透彻_均匀" parent="1" relate="ATT" />
+                <word id="1" cont="蛋白质" pos="n" ne="O" wsd="Ba01" wsdexp="物_物体" parent="-1" relate="HED" />
+                <word id="2" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="3" cont="脂肪" pos="n" ne="O" wsd="Bk10" wsdexp="皮肤_肌肉" parent="1" relate="COO" />
+                <word id="4" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="5" cont="碳水化合物" pos="n" ne="O" wsd="Dd10" wsdexp="因素_成分" parent="1" relate="COO" />
+            </sent>
+        </para>
+        <para id="10">
+            <sent id="0" cont="蛋白质" tag="">
+                <word id="0" cont="蛋白质" pos="n" ne="O" wsd="Ba01" wsdexp="物_物体" parent="-1" relate="HED" />
+            </sent>
+        </para>
+        <para id="11">
+            <sent id="0" cont="儿童对于蛋白质的需求和体重是成正比的。" tag="">
+                <word id="0" cont="儿童" pos="n" ne="O" wsd="Ab04" wsdexp="婴儿_儿童" parent="7" relate="SBV" />
+                <word id="1" cont="对于" pos="p" ne="O" wsd="Kb04" wsdexp="对于_关于" parent="3" relate="DE" />
+                <word id="2" cont="蛋白质" pos="n" ne="O" wsd="Ba01" wsdexp="物_物体" parent="1" relate="POB" />
+                <word id="3" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="4" relate="ATT" />
+                <word id="4" cont="需求" pos="n" ne="O" wsd="Df07" wsdexp="欲望_需要" parent="7" relate="SBV" />
+                <word id="5" cont="和" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="6" relate="LAD" />
+                <word id="6" cont="体重" pos="n" ne="O" wsd="Dn01" wsdexp="量度_温度" parent="4" relate="COO" />
+                <word id="7" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="0" />
+                    <arg id="1" type="施事" beg="1" end="6" />
+                    <arg id="2" type="受事" beg="8" end="9" />
+                </word>
+                <word id="8" cont="成" pos="v" ne="O" wsd="Ih01" wsdexp="变化_成为" parent="7" relate="VOB">
+                    <arg id="0" type="受事" beg="9" end="9" />
+                </word>
+                <word id="9" cont="正比" pos="n" ne="O" wsd="Dn07" wsdexp="比率_比例_比重" parent="8" relate="VOB" />
+                <word id="10" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="7" relate="MT" />
+                <word id="11" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="1" cont="我们指出，儿童每天每公斤体重需要1克蛋白质。" tag="10%">
+                <word id="0" cont="我们" pos="r" ne="O" wsd="Aa02" wsdexp="我_我们" parent="1" relate="SBV" />
+                <word id="1" cont="指出" pos="v" ne="O" wsd="Hi14" wsdexp="表示_表达_阐明_表露_发誓" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="0" />
+                    <arg id="1" type="受事" beg="3" end="11" />
+                </word>
+                <word id="2" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="3" cont="儿童" pos="n" ne="O" wsd="Ab04" wsdexp="婴儿_儿童" parent="7" relate="ATT" />
+                <word id="4" cont="每天" pos="r" ne="O" wsd="Ca23" wsdexp="日" parent="6" relate="ATT" />
+                <word id="5" cont="每" pos="r" ne="O" wsd="Ed61" wsdexp="这个_那个_某个_各个_其他_何" parent="6" relate="ATT" />
+                <word id="6" cont="公斤" pos="q" ne="O" wsd="Dn10" wsdexp="度量衡单位" parent="7" relate="ATT" />
+                <word id="7" cont="体重" pos="n" ne="O" wsd="Dn01" wsdexp="量度_温度" parent="8" relate="SBV" />
+                <word id="8" cont="需要" pos="v" ne="O" wsd="Jc05" wsdexp="需要_提供_满足" parent="1" relate="VOB">
+                    <arg id="0" type="施事" beg="3" end="7" />
+                    <arg id="1" type="受事" beg="9" end="11" />
+                </word>
+                <word id="9" cont="1" pos="m" ne="B-Nm" wsd="-1" wsdexp="" parent="10" relate="QUN" />
+                <word id="10" cont="克" pos="q" ne="E-Nm" wsd="Dn10" wsdexp="度量衡单位" parent="11" relate="ATT" />
+                <word id="11" cont="蛋白质" pos="n" ne="O" wsd="Ba01" wsdexp="物_物体" parent="8" relate="VOB" />
+                <word id="12" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="2" cont="一般说来日常饮食完全可以提供这些蛋白质。" tag="">
+                <word id="0" cont="一般说来" pos="i" ne="O" wsd="Ed04" wsdexp="杰出_异常_普通" parent="5" relate="ADV" />
+                <word id="1" cont="日常" pos="b" ne="O" wsd="Ed04" wsdexp="杰出_异常_普通" parent="2" relate="ATT" />
+                <word id="2" cont="饮食" pos="n" ne="O" wsd="Da18" wsdexp="生计_饮食" parent="5" relate="SBV" />
+                <word id="3" cont="完全" pos="a" ne="O" wsd="Ka06" wsdexp="完全_彻底_半半拉拉" parent="5" relate="ADV" />
+                <word id="4" cont="可以" pos="v" ne="O" wsd="Gc02" wsdexp="能够_不能_可以_不可" parent="5" relate="ADV" />
+                <word id="5" cont="提供" pos="v" ne="O" wsd="Jc05" wsdexp="需要_提供_满足" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="1" end="2" />
+                    <arg id="1" type="受事" beg="6" end="7" />
+                </word>
+                <word id="6" cont="这些" pos="r" ne="O" wsd="Ed61" wsdexp="这个_那个_某个_各个_其他_何" parent="7" relate="ATT" />
+                <word id="7" cont="蛋白质" pos="n" ne="O" wsd="Ba01" wsdexp="物_物体" parent="5" relate="VOB" />
+                <word id="8" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="3" cont="孩子可以通过奶制品，肉类，鱼或者蛋类汲取蛋白质。" tag="">
+                <word id="0" cont="孩子" pos="n" ne="O" wsd="Ab04" wsdexp="婴儿_儿童" parent="1" relate="SBV" />
+                <word id="1" cont="可以" pos="v" ne="O" wsd="Gc02" wsdexp="能够_不能_可以_不可" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="0" />
+                </word>
+                <word id="2" cont="通过" pos="p" ne="O" wsd="Kb06" wsdexp="依靠_通过" parent="10" relate="ADV" />
+                <word id="3" cont="奶制品" pos="n" ne="O" wsd="Ba02" wsdexp="生物_物品" parent="2" relate="POB" />
+                <word id="4" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="5" cont="肉类" pos="n" ne="O" wsd="Br06" wsdexp="菜肴_荤菜_素菜" parent="10" relate="SBV" />
+                <word id="6" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="7" cont="鱼" pos="n" ne="O" wsd="Bi14" wsdexp="鱼_鱼虾" parent="9" relate="ATT" />
+                <word id="8" cont="或者" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="9" relate="LAD" />
+                <word id="9" cont="蛋类" pos="n" ne="O" wsd="Dd06" wsdexp="系统_种类_结构" parent="10" relate="SBV" />
+                <word id="10" cont="汲取" pos="v" ne="O" wsd="Je12" wsdexp="取得_达到_挽回" parent="1" relate="VV">
+                    <arg id="0" type="施事" beg="5" end="5" />
+                    <arg id="1" type="施事" beg="7" end="9" />
+                    <arg id="2" type="受事" beg="11" end="11" />
+                </word>
+                <word id="11" cont="蛋白质" pos="n" ne="O" wsd="Ba01" wsdexp="物_物体" parent="10" relate="VOB" />
+                <word id="12" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="4" cont="比如说，100克牛肉碎末饼可以满足4到7岁的儿童一天所需的所有蛋白质。" tag="">
+                <word id="0" cont="比如说" pos="i" ne="O" wsd="Jb03" wsdexp="相似_例如" parent="5" relate="ADV" />
+                <word id="1" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="2" cont="100" pos="m" ne="B-Nm" wsd="-1" wsdexp="" parent="3" relate="QUN" />
+                <word id="3" cont="克" pos="q" ne="E-Nm" wsd="Dn10" wsdexp="度量衡单位" parent="4" relate="ATT" />
+                <word id="4" cont="牛肉" pos="n" ne="O" wsd="Bh13" wsdexp="果实_种子" parent="5" relate="SBV" />
+                <word id="5" cont="碎" pos="v" ne="O" wsd="Eb07" wsdexp="完整_齐全_残缺_零碎_破烂" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="2" end="4" />
+                    <arg id="1" type="受事" beg="6" end="7" />
+                    <arg id="2" type="受事" beg="8" end="22" />
+                </word>
+                <word id="6" cont="末" pos="nd" ne="O" wsd="Ca09" wsdexp="末期_年终_月终" parent="7" relate="ATT" />
+                <word id="7" cont="饼" pos="n" ne="O" wsd="Br09" wsdexp="点心" parent="5" relate="VOB" />
+                <word id="8" cont="可以" pos="v" ne="O" wsd="Gc02" wsdexp="能够_不能_可以_不可" parent="9" relate="ADV" />
+                <word id="9" cont="满足" pos="v" ne="O" wsd="Jc05" wsdexp="需要_提供_满足" parent="5" relate="VOB">
+                    <arg id="0" type="受事" beg="10" end="15" />
+                    <arg id="1" type="受事" beg="16" end="22" />
+                </word>
+                <word id="10" cont="4" pos="m" ne="S-Nm" wsd="-1" wsdexp="" parent="15" relate="QUN" />
+                <word id="11" cont="到" pos="v" ne="O" wsd="Hf08" wsdexp="到达_停靠" parent="14" relate="DE">
+                    <arg id="0" type="受事-数量性质" beg="12" end="13" />
+                </word>
+                <word id="12" cont="7" pos="m" ne="B-Nm" wsd="-1" wsdexp="" parent="13" relate="QUN" />
+                <word id="13" cont="岁" pos="q" ne="E-Nm" wsd="Ca14" wsdexp="年龄" parent="11" relate="VOB" />
+                <word id="14" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="15" relate="ATT" />
+                <word id="15" cont="儿童" pos="n" ne="O" wsd="Ab04" wsdexp="婴儿_儿童" parent="9" relate="VOB" />
+                <word id="16" cont="一" pos="m" ne="B-Nm" wsd="Dn04" wsdexp="基数_序数" parent="17" relate="QUN" />
+                <word id="17" cont="天" pos="q" ne="E-Nm" wsd="Ca23" wsdexp="日" parent="22" relate="ATT" />
+                <word id="18" cont="所" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="19" relate="LAD" />
+                <word id="19" cont="需" pos="v" ne="O" wsd="Jc05" wsdexp="需要_提供_满足" parent="20" relate="DE" />
+                <word id="20" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="22" relate="ATT" />
+                <word id="21" cont="所有" pos="b" ne="O" wsd="Eb02" wsdexp="单_双_全部_部分" parent="22" relate="ATT" />
+                <word id="22" cont="蛋白质" pos="n" ne="O" wsd="Ba01" wsdexp="物_物体" parent="9" relate="VOB" />
+                <word id="23" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="5" cont="根据年龄不同，蛋白质日需求量也有所不同：" tag="">
+                <word id="0" cont="根据" pos="p" ne="O" wsd="Kb07" wsdexp="依照_根据_趁" parent="2" relate="ADV" />
+                <word id="1" cont="年龄" pos="n" ne="O" wsd="Ca14" wsdexp="年龄" parent="2" relate="SBV" />
+                <word id="2" cont="不同" pos="a" ne="O" wsd="Jb02" wsdexp="不同_相反" parent="-1" relate="HED" />
+                <word id="3" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="4" cont="蛋白质" pos="n" ne="O" wsd="Ba01" wsdexp="物_物体" parent="5" relate="ATT" />
+                <word id="5" cont="日需求量" pos="n" ne="O" wsd="Dn03" wsdexp="数量" parent="7" relate="SBV" />
+                <word id="6" cont="也" pos="d" ne="O" wsd="Ka33" wsdexp="却_还_也_反而" parent="7" relate="ADV" />
+                <word id="7" cont="有所不同" pos="i" ne="O" wsd="Jb02" wsdexp="不同_相反" parent="2" relate="IC" />
+                <word id="8" cont="：" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="6" cont="4到7岁，每天17克，8到10岁，每天24克，11到12岁，大约30克。" tag="">
+                <word id="0" cont="4" pos="m" ne="S-Nm" wsd="-1" wsdexp="" parent="1" relate="ADV" />
+                <word id="1" cont="到" pos="v" ne="O" wsd="Hf08" wsdexp="到达_停靠" parent="-1" relate="HED">
+                    <arg id="0" type="受事-数量性质" beg="2" end="3" />
+                </word>
+                <word id="2" cont="7" pos="m" ne="B-Nm" wsd="-1" wsdexp="" parent="3" relate="QUN" />
+                <word id="3" cont="岁" pos="q" ne="E-Nm" wsd="Ca14" wsdexp="年龄" parent="1" relate="VOB" />
+                <word id="4" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="5" cont="每天" pos="r" ne="O" wsd="Ca23" wsdexp="日" parent="7" relate="ATT" />
+                <word id="6" cont="17" pos="m" ne="B-Nm" wsd="-1" wsdexp="" parent="7" relate="QUN" />
+                <word id="7" cont="克" pos="q" ne="E-Nm" wsd="Dn10" wsdexp="度量衡单位" parent="1" relate="IC" />
+                <word id="8" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="9" cont="8" pos="m" ne="S-Nm" wsd="-1" wsdexp="" parent="10" relate="SBV" />
+                <word id="10" cont="到" pos="v" ne="O" wsd="Hf08" wsdexp="到达_停靠" parent="1" relate="VV">
+                    <arg id="0" type="施事" beg="9" end="9" />
+                    <arg id="1" type="受事-数量性质" beg="11" end="12" />
+                </word>
+                <word id="11" cont="10" pos="m" ne="B-Nm" wsd="-1" wsdexp="" parent="12" relate="QUN" />
+                <word id="12" cont="岁" pos="q" ne="E-Nm" wsd="Ca14" wsdexp="年龄" parent="10" relate="VOB" />
+                <word id="13" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="14" cont="每天" pos="r" ne="O" wsd="Ca23" wsdexp="日" parent="16" relate="ATT" />
+                <word id="15" cont="24" pos="m" ne="B-Nm" wsd="-1" wsdexp="" parent="16" relate="QUN" />
+                <word id="16" cont="克" pos="q" ne="E-Nm" wsd="Dn10" wsdexp="度量衡单位" parent="10" relate="IC" />
+                <word id="17" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="18" cont="11" pos="m" ne="S-Nm" wsd="-1" wsdexp="" parent="19" relate="ADV" />
+                <word id="19" cont="到" pos="v" ne="O" wsd="Hf08" wsdexp="到达_停靠" parent="10" relate="VV">
+                    <arg id="0" type="受事-数量性质" beg="20" end="21" />
+                </word>
+                <word id="20" cont="12" pos="m" ne="B-Nm" wsd="-1" wsdexp="" parent="21" relate="QUN" />
+                <word id="21" cont="岁" pos="q" ne="E-Nm" wsd="Ca14" wsdexp="年龄" parent="19" relate="VOB" />
+                <word id="22" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="23" cont="大约" pos="d" ne="O" wsd="Ka17" wsdexp="也许_大概_难道" parent="25" relate="ATT" />
+                <word id="24" cont="30" pos="m" ne="B-Nm" wsd="-1" wsdexp="" parent="25" relate="QUN" />
+                <word id="25" cont="克" pos="q" ne="E-Nm" wsd="Dn10" wsdexp="度量衡单位" parent="10" relate="IC" />
+                <word id="26" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+        </para>
+        <para id="12">
+            <sent id="0" cont="脂肪" tag="">
+                <word id="0" cont="脂肪" pos="n" ne="O" wsd="Bk10" wsdexp="皮肤_肌肉" parent="-1" relate="HED" />
+            </sent>
+        </para>
+        <para id="13">
+            <sent id="0" cont="脂肪对于儿童成长是必需的，但应该有节制地食用。" tag="">
+                <word id="0" cont="脂肪" pos="n" ne="O" wsd="Bk10" wsdexp="皮肤_肌肉" parent="3" relate="SBV" />
+                <word id="1" cont="对于" pos="p" ne="O" wsd="Kb04" wsdexp="对于_关于" parent="3" relate="ADV" />
+                <word id="2" cont="儿童" pos="n" ne="O" wsd="Ab04" wsdexp="婴儿_儿童" parent="1" relate="POB" />
+                <word id="3" cont="成长" pos="v" ne="O" wsd="Ib01" wsdexp="生育_诞生_生长_繁殖" parent="6" relate="DE">
+                    <arg id="0" type="施事" beg="0" end="0" />
+                </word>
+                <word id="4" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="3" relate="CMP" />
+                <word id="5" cont="必需" pos="v" ne="O" wsd="Ed30" wsdexp="必要_多余" parent="6" relate="DE" />
+                <word id="6" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="10" relate="SBV" />
+                <word id="7" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="8" cont="但" pos="c" ne="O" wsd="Kc03" wsdexp="但是" parent="10" relate="CNJ" />
+                <word id="9" cont="应该" pos="v" ne="O" wsd="Gc03" wsdexp="应该_必须_无须" parent="10" relate="ADV" />
+                <word id="10" cont="有" pos="v" ne="O" wsd="Jd04" wsdexp="有_占有" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="6" />
+                    <arg id="1" type="受事" beg="11" end="11" />
+                    <arg id="2" type="受事" beg="12" end="13" />
+                </word>
+                <word id="11" cont="节制" pos="v" ne="O" wsd="Hc09" wsdexp="主持_指挥_统率_执掌_管辖" parent="10" relate="VOB" />
+                <word id="12" cont="地" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="13" relate="ADV" />
+                <word id="13" cont="食用" pos="v" ne="O" wsd="Da25" wsdexp="效用_反应" parent="10" relate="VOB" />
+                <word id="14" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="1" cont="要注意那些看不见的脂肪(在糕点，炸糕，炸薯条里)。" tag="">
+                <word id="0" cont="要" pos="v" ne="O" wsd="Gc03" wsdexp="应该_必须_无须" parent="1" relate="ADV" />
+                <word id="1" cont="注意" pos="v" ne="O" wsd="Gb20" wsdexp="注意_权衡_计较" parent="-1" relate="HED">
+                    <arg id="0" type="受事" beg="2" end="6" />
+                </word>
+                <word id="2" cont="那些" pos="r" ne="O" wsd="Ed61" wsdexp="这个_那个_某个_各个_其他_何" parent="6" relate="ATT" />
+                <word id="3" cont="看" pos="v" ne="O" wsd="Fc04" wsdexp="看" parent="5" relate="DE">
+                    <arg id="0" type="受事" beg="4" end="4" />
+                </word>
+                <word id="4" cont="不见" pos="v" ne="O" wsd="If19" wsdexp="迷路_失踪_遗失" parent="3" relate="VOB" />
+                <word id="5" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="6" relate="ATT" />
+                <word id="6" cont="脂肪" pos="n" ne="O" wsd="Bk10" wsdexp="皮肤_肌肉" parent="1" relate="VOB" />
+                <word id="7" cont="(" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="8" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="11" relate="ADV" />
+                <word id="9" cont="糕点" pos="n" ne="O" wsd="Br09" wsdexp="点心" parent="8" relate="POB" />
+                <word id="10" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="11" cont="炸" pos="v" ne="O" wsd="Hb06" wsdexp="射击_空袭_爆破_刺杀" parent="1" relate="VV">
+                    <arg id="0" type="受事" beg="12" end="12" />
+                </word>
+                <word id="12" cont="糕" pos="n" ne="O" wsd="Br09" wsdexp="点心" parent="11" relate="VOB" />
+                <word id="13" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="14" cont="炸" pos="v" ne="O" wsd="Hb06" wsdexp="射击_空袭_爆破_刺杀" parent="16" relate="ATT" />
+                <word id="15" cont="薯条" pos="n" ne="O" wsd="Br03" wsdexp="食物" parent="16" relate="ATT" />
+                <word id="16" cont="里" pos="nd" ne="O" wsd="Cb05" wsdexp="内_外" parent="1" relate="COO" />
+                <word id="17" cont=")" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="18" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="2" cont="1到2勺植物油(向日葵油，油菜籽油，花生油或橄榄油)就可以满足儿童对日常必需脂肪酸的需求。" tag="20%">
+                <word id="0" cont="1" pos="m" ne="S-Nm" wsd="-1" wsdexp="" parent="1" relate="ADV" />
+                <word id="1" cont="到" pos="v" ne="O" wsd="Hf08" wsdexp="到达_停靠" parent="-1" relate="HED">
+                    <arg id="0" type="受事" beg="2" end="4" />
+                    <arg id="1" type="受事" beg="6" end="7" />
+                </word>
+                <word id="2" cont="2" pos="m" ne="B-Nm" wsd="-1" wsdexp="" parent="3" relate="QUN" />
+                <word id="3" cont="勺" pos="q" ne="E-Nm" wsd="Bp05" wsdexp="锅_壶_蒸笼_勺子_筷子" parent="4" relate="ATT" />
+                <word id="4" cont="植物油" pos="n" ne="O" wsd="Br08" wsdexp="油_盐_酱_醋_糖" parent="1" relate="VOB" />
+                <word id="5" cont="(" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="6" cont="向日葵" pos="n" ne="O" wsd="Bh09" wsdexp="经济作物" parent="7" relate="ATT" />
+                <word id="7" cont="油" pos="n" ne="O" wsd="Br08" wsdexp="油_盐_酱_醋_糖" parent="1" relate="VOB" />
+                <word id="8" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="9" cont="油菜籽" pos="n" ne="O" wsd="Bh13" wsdexp="果实_种子" parent="10" relate="ATT" />
+                <word id="10" cont="油" pos="n" ne="O" wsd="Br08" wsdexp="油_盐_酱_醋_糖" parent="18" relate="SBV" />
+                <word id="11" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="12" cont="花生油" pos="n" ne="O" wsd="Br08" wsdexp="油_盐_酱_醋_糖" parent="18" relate="SBV" />
+                <word id="13" cont="或" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="14" relate="LAD" />
+                <word id="14" cont="橄榄油" pos="n" ne="O" wsd="Br08" wsdexp="油_盐_酱_醋_糖" parent="12" relate="COO" />
+                <word id="15" cont=")" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="16" cont="就" pos="d" ne="O" wsd="Ka12" wsdexp="已经_方才_正在" parent="18" relate="ADV" />
+                <word id="17" cont="可以" pos="v" ne="O" wsd="Gc02" wsdexp="能够_不能_可以_不可" parent="18" relate="ADV" />
+                <word id="18" cont="满足" pos="v" ne="O" wsd="Jc05" wsdexp="需要_提供_满足" parent="1" relate="VV">
+                    <arg id="0" type="施事" beg="9" end="10" />
+                    <arg id="1" type="施事" beg="12" end="14" />
+                    <arg id="2" type="受事" beg="19" end="19" />
+                    <arg id="3" type="受事" beg="20" end="25" />
+                </word>
+                <word id="19" cont="儿童" pos="n" ne="O" wsd="Ab04" wsdexp="婴儿_儿童" parent="18" relate="VOB" />
+                <word id="20" cont="对" pos="p" ne="O" wsd="Kb04" wsdexp="对于_关于" parent="24" relate="DE" />
+                <word id="21" cont="日常" pos="b" ne="O" wsd="Ed04" wsdexp="杰出_异常_普通" parent="22" relate="ATT" />
+                <word id="22" cont="必需" pos="v" ne="O" wsd="Ed30" wsdexp="必要_多余" parent="23" relate="ATT" />
+                <word id="23" cont="脂肪酸" pos="n" ne="O" wsd="Ba01" wsdexp="物_物体" parent="20" relate="POB" />
+                <word id="24" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="25" relate="ATT" />
+                <word id="25" cont="需求" pos="n" ne="O" wsd="Df07" wsdexp="欲望_需要" parent="18" relate="VOB" />
+                <word id="26" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+        </para>
+        <para id="14">
+            <sent id="0" cont="碳水化合物" tag="">
+                <word id="0" cont="碳水化合物" pos="n" ne="O" wsd="Dd10" wsdexp="因素_成分" parent="-1" relate="HED" />
+            </sent>
+        </para>
+        <para id="15">
+            <sent id="0" cont="碳水化合物是肌肉和大脑中枢的能源。" tag="10%">
+                <word id="0" cont="碳水化合物" pos="n" ne="O" wsd="Dd10" wsdexp="因素_成分" parent="1" relate="SBV" />
+                <word id="1" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="0" />
+                    <arg id="1" type="受事" beg="2" end="5" />
+                    <arg id="2" type="受事" beg="6" end="7" />
+                </word>
+                <word id="2" cont="肌肉" pos="n" ne="O" wsd="Bk10" wsdexp="皮肤_肌肉" parent="1" relate="VOB" />
+                <word id="3" cont="和" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="5" relate="LAD" />
+                <word id="4" cont="大脑" pos="n" ne="O" wsd="Bk02" wsdexp="头_脸_脑" parent="5" relate="ATT" />
+                <word id="5" cont="中枢" pos="n" ne="O" wsd="Dd09" wsdexp="关键_核心" parent="2" relate="COO" />
+                <word id="6" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="7" relate="ATT" />
+                <word id="7" cont="能源" pos="n" ne="O" wsd="Ba08" wsdexp="宝物_废物" parent="1" relate="VOB" />
+                <word id="8" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="1" cont="他们应该在日常4餐中通过面包，谷类或淀粉类(面条，米饭，土豆等)食物摄入；" tag="20%">
+                <word id="0" cont="他们" pos="r" ne="O" wsd="Aa04" wsdexp="他_他们" parent="1" relate="SBV" />
+                <word id="1" cont="应该" pos="v" ne="O" wsd="Gc03" wsdexp="应该_必须_无须" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="0" />
+                </word>
+                <word id="2" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="7" relate="ADV" />
+                <word id="3" cont="日常" pos="b" ne="O" wsd="Ed04" wsdexp="杰出_异常_普通" parent="6" relate="ATT" />
+                <word id="4" cont="4" pos="m" ne="B-Nm" wsd="-1" wsdexp="" parent="5" relate="QUN" />
+                <word id="5" cont="餐" pos="q" ne="E-Nm" wsd="Dn08" wsdexp="数量单位" parent="6" relate="ATT" />
+                <word id="6" cont="中" pos="nd" ne="O" wsd="Da05" wsdexp="过程_内中" parent="2" relate="POB" />
+                <word id="7" cont="通过" pos="p" ne="O" wsd="Kb06" wsdexp="依靠_通过" parent="23" relate="ADV" />
+                <word id="8" cont="面包" pos="n" ne="O" wsd="Br05" wsdexp="面食_杂粮" parent="7" relate="POB" />
+                <word id="9" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="10" cont="谷类" pos="n" ne="O" wsd="Bh05" wsdexp="五谷" parent="15" relate="ATT" />
+                <word id="11" cont="或" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="13" relate="LAD" />
+                <word id="12" cont="淀粉" pos="n" ne="O" wsd="Br07" wsdexp="调味品" parent="13" relate="ATT" />
+                <word id="13" cont="类" pos="n" ne="O" wsd="Dn08" wsdexp="数量单位" parent="10" relate="COO" />
+                <word id="14" cont="(" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="15" cont="面条" pos="n" ne="O" wsd="Br05" wsdexp="面食_杂粮" parent="23" relate="SBV" />
+                <word id="16" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="17" cont="米饭" pos="n" ne="O" wsd="Br04" wsdexp="饭_粥_锅巴" parent="23" relate="SBV" />
+                <word id="18" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="19" cont="土豆" pos="n" ne="O" wsd="Bh06" wsdexp="蔬菜" parent="23" relate="SBV" />
+                <word id="20" cont="等" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="19" relate="RAD" />
+                <word id="21" cont=")" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="22" cont="食物" pos="n" ne="O" wsd="Br03" wsdexp="食物" parent="23" relate="SBV" />
+                <word id="23" cont="摄入" pos="v" ne="O" wsd="Hh03" wsdexp="摄影_录音_放映_广播" parent="1" relate="VV">
+                    <arg id="0" type="施事" beg="10" end="15" />
+                    <arg id="1" type="施事" beg="17" end="17" />
+                    <arg id="2" type="施事" beg="19" end="20" />
+                    <arg id="3" type="施事" beg="22" end="22" />
+                </word>
+                <word id="24" cont="；" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="2" cont="同时也存在于富含维生素的水果或蔬菜中。" tag="">
+                <word id="0" cont="同时" pos="c" ne="O" wsd="Kc02" wsdexp="并且_况且" parent="2" relate="CNJ" />
+                <word id="1" cont="也" pos="d" ne="O" wsd="Ka33" wsdexp="却_还_也_反而" parent="2" relate="ADV" />
+                <word id="2" cont="存在" pos="v" ne="O" wsd="Jd01" wsdexp="无关" parent="-1" relate="HED" />
+                <word id="3" cont="于" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="2" relate="CMP" />
+                <word id="4" cont="富" pos="a" ne="O" wsd="Ef14" wsdexp="富裕_小康_贫穷" parent="7" relate="DE" />
+                <word id="5" cont="含" pos="v" ne="O" wsd="Jd06" wsdexp="充满_满怀_包含_显露_呈现" parent="7" relate="DE">
+                    <arg id="0" type="受事" beg="6" end="6" />
+                </word>
+                <word id="6" cont="维生素" pos="n" ne="O" wsd="Br13" wsdexp="药品_维生素_补品" parent="5" relate="VOB" />
+                <word id="7" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="8" relate="ATT" />
+                <word id="8" cont="水果" pos="n" ne="O" wsd="Bh07" wsdexp="水果" parent="11" relate="ATT" />
+                <word id="9" cont="或" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="10" relate="LAD" />
+                <word id="10" cont="蔬菜" pos="n" ne="O" wsd="Bh06" wsdexp="蔬菜" parent="8" relate="COO" />
+                <word id="11" cont="中" pos="nd" ne="O" wsd="Cb05" wsdexp="内_外" parent="3" relate="POB" />
+                <word id="12" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="3" cont="注意限制您的孩子对糖以及甜食的需求(汽水类，糖果等)，因为这些是增加体重的主要因素。" tag="">
+                <word id="0" cont="注意" pos="v" ne="O" wsd="Gb20" wsdexp="注意_权衡_计较" parent="21" relate="SBV">
+                    <arg id="0" type="受事" beg="1" end="1" />
+                    <arg id="1" type="受事" beg="2" end="4" />
+                    <arg id="2" type="受事" beg="5" end="10" />
+                    <arg id="3" type="受事" beg="12" end="13" />
+                    <arg id="4" type="受事" beg="15" end="16" />
+                </word>
+                <word id="1" cont="限制" pos="v" ne="O" wsd="Je08" wsdexp="限制_约束_制止" parent="0" relate="VOB" />
+                <word id="2" cont="您" pos="r" ne="O" wsd="Aa03" wsdexp="你_你们" parent="3" relate="DE" />
+                <word id="3" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="4" relate="ATT" />
+                <word id="4" cont="孩子" pos="n" ne="O" wsd="Ah14" wsdexp="子_女_子女" parent="0" relate="VOB" />
+                <word id="5" cont="对" pos="p" ne="O" wsd="Kb04" wsdexp="对于_关于" parent="9" relate="DE" />
+                <word id="6" cont="糖" pos="n" ne="O" wsd="Br08" wsdexp="油_盐_酱_醋_糖" parent="5" relate="POB" />
+                <word id="7" cont="以及" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="8" relate="LAD" />
+                <word id="8" cont="甜食" pos="n" ne="O" wsd="Br09" wsdexp="点心" parent="5" relate="POB" />
+                <word id="9" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="10" relate="ATT" />
+                <word id="10" cont="需求" pos="n" ne="O" wsd="Df07" wsdexp="欲望_需要" parent="0" relate="VOB" />
+                <word id="11" cont="(" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="12" cont="汽水" pos="n" ne="O" wsd="Br12" wsdexp="饮料_茶_酒_乳酪" parent="13" relate="ATT" />
+                <word id="13" cont="类" pos="n" ne="O" wsd="Dn08" wsdexp="数量单位" parent="0" relate="VOB" />
+                <word id="14" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="15" cont="糖果" pos="n" ne="O" wsd="Br10" wsdexp="糖果_蜜饯" parent="0" relate="VOB" />
+                <word id="16" cont="等" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="15" relate="RAD" />
+                <word id="17" cont=")" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="18" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="19" cont="因为" pos="p" ne="O" wsd="Kc09" wsdexp="因为_所以" parent="21" relate="ADV" />
+                <word id="20" cont="这些" pos="r" ne="O" wsd="Ed61" wsdexp="这个_那个_某个_各个_其他_何" parent="21" relate="SBV" />
+                <word id="21" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="16" />
+                    <arg id="1" type="施事" beg="20" end="20" />
+                    <arg id="2" type="受事" beg="22" end="22" />
+                    <arg id="3" type="受事" beg="23" end="23" />
+                    <arg id="4" type="受事" beg="24" end="26" />
+                </word>
+                <word id="22" cont="增加" pos="v" ne="O" wsd="Ih05" wsdexp="增多_添补_减少" parent="21" relate="VOB" />
+                <word id="23" cont="体重" pos="n" ne="O" wsd="Dn01" wsdexp="量度_温度" parent="21" relate="VOB" />
+                <word id="24" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="26" relate="ATT" />
+                <word id="25" cont="主要" pos="b" ne="O" wsd="Ed28" wsdexp="重要_次要_不足道" parent="26" relate="ATT" />
+                <word id="26" cont="因素" pos="n" ne="O" wsd="Dd10" wsdexp="因素_成分" parent="21" relate="VOB" />
+                <word id="27" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+        </para>
+        <para id="16">
+            <sent id="0" cont="我们要区分两种碳水化合物：" tag="">
+                <word id="0" cont="我们" pos="r" ne="O" wsd="Aa02" wsdexp="我_我们" parent="2" relate="SBV" />
+                <word id="1" cont="要" pos="v" ne="O" wsd="Gc03" wsdexp="应该_必须_无须" parent="2" relate="ADV" />
+                <word id="2" cont="区分" pos="v" ne="O" wsd="Hj26" wsdexp="观察_比较_区分" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="0" />
+                    <arg id="1" type="受事" beg="3" end="5" />
+                </word>
+                <word id="3" cont="两" pos="m" ne="B-Nm" wsd="Dn04" wsdexp="基数_序数" parent="4" relate="QUN" />
+                <word id="4" cont="种" pos="q" ne="E-Nm" wsd="Dn08" wsdexp="数量单位" parent="5" relate="ATT" />
+                <word id="5" cont="碳水化合物" pos="n" ne="O" wsd="Dd10" wsdexp="因素_成分" parent="2" relate="VOB" />
+                <word id="6" cont="：" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="1" cont="能够快速补充能量的“快吸收”碳水化合物(糖，甜食，甜饮料)，以及“慢吸收”碳水化合物，提供长期效应的能量(通心粉，豆类，某些饼干等)" tag="">
+                <word id="0" cont="能够" pos="v" ne="O" wsd="Gc02" wsdexp="能够_不能_可以_不可" parent="2" relate="ADV" />
+                <word id="1" cont="快速" pos="d" ne="O" wsd="Eb23" wsdexp="快_慢" parent="2" relate="ADV" />
+                <word id="2" cont="补充" pos="v" ne="O" wsd="Ih05" wsdexp="增多_添补_减少" parent="4" relate="DE">
+                    <arg id="0" type="受事" beg="3" end="3" />
+                </word>
+                <word id="3" cont="能量" pos="n" ne="O" wsd="Dd14" wsdexp="力气_力量_能量" parent="2" relate="VOB" />
+                <word id="4" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="7" relate="ATT" />
+                <word id="5" cont="“" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="6" cont="快" pos="a" ne="O" wsd="Eb23" wsdexp="快_慢" parent="7" relate="ATT" />
+                <word id="7" cont="吸收" pos="v" ne="O" wsd="Hc07" wsdexp="收_发" parent="-1" relate="HED">
+                    <arg id="0" type="受事" beg="9" end="9" />
+                    <arg id="1" type="受事" beg="11" end="11" />
+                </word>
+                <word id="8" cont="”" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="9" cont="碳水化合物" pos="n" ne="O" wsd="Dd10" wsdexp="因素_成分" parent="7" relate="VOB" />
+                <word id="10" cont="(" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="11" cont="糖" pos="n" ne="O" wsd="Br08" wsdexp="油_盐_酱_醋_糖" parent="7" relate="VOB" />
+                <word id="12" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="13" cont="甜食" pos="n" ne="O" wsd="Br09" wsdexp="点心" parent="22" relate="SBV" />
+                <word id="14" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="15" cont="甜" pos="a" ne="O" wsd="Ec09" wsdexp="甜_酸_苦_涩_辣" parent="16" relate="ATT" />
+                <word id="16" cont="饮料" pos="n" ne="O" wsd="Br12" wsdexp="饮料_茶_酒_乳酪" parent="22" relate="SBV" />
+                <word id="17" cont=")" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="18" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="19" cont="以及" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="22" relate="CNJ" />
+                <word id="20" cont="“" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="21" cont="慢" pos="a" ne="O" wsd="Eb23" wsdexp="快_慢" parent="22" relate="ATT" />
+                <word id="22" cont="吸收" pos="v" ne="O" wsd="Hc07" wsdexp="收_发" parent="7" relate="VV">
+                    <arg id="0" type="施事" beg="13" end="13" />
+                    <arg id="1" type="施事" beg="15" end="16" />
+                    <arg id="2" type="受事" beg="24" end="24" />
+                </word>
+                <word id="23" cont="”" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="24" cont="碳水化合物" pos="n" ne="O" wsd="Dd10" wsdexp="因素_成分" parent="22" relate="VOB" />
+                <word id="25" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="26" cont="提供" pos="v" ne="O" wsd="Jc05" wsdexp="需要_提供_满足" parent="29" relate="DE">
+                    <arg id="0" type="受事" beg="27" end="28" />
+                </word>
+                <word id="27" cont="长期" pos="b" ne="O" wsd="Eb24" wsdexp="长久_永远" parent="28" relate="ATT" />
+                <word id="28" cont="效应" pos="n" ne="O" wsd="Da25" wsdexp="效用_反应" parent="26" relate="VOB" />
+                <word id="29" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="30" relate="ATT" />
+                <word id="30" cont="能量" pos="n" ne="O" wsd="Dd14" wsdexp="力气_力量_能量" parent="7" relate="COO" />
+                <word id="31" cont="(" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="32" cont="通心粉" pos="n" ne="O" wsd="Br05" wsdexp="面食_杂粮" parent="30" relate="APP" />
+                <word id="33" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="34" cont="豆类" pos="n" ne="O" wsd="Bh06" wsdexp="蔬菜" parent="30" relate="COO" />
+                <word id="35" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="36" cont="某些" pos="r" ne="O" wsd="Dn05" wsdexp="半_概数_若干" parent="37" relate="ATT" />
+                <word id="37" cont="饼干" pos="n" ne="O" wsd="Br09" wsdexp="点心" parent="30" relate="COO" />
+                <word id="38" cont="等" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="37" relate="RAD" />
+                <word id="39" cont=")" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+        </para>
+        <para id="17">
+            <sent id="0" cont="强调钙和维生素D的重要性" tag="">
+                <word id="0" cont="强调" pos="v" ne="O" wsd="Hi14" wsdexp="表示_表达_阐明_表露_发誓" parent="-1" relate="HED">
+                    <arg id="0" type="受事" beg="1" end="3" />
+                    <arg id="1" type="受事" beg="4" end="6" />
+                </word>
+                <word id="1" cont="钙" pos="n" ne="O" wsd="Br13" wsdexp="药品_维生素_补品" parent="0" relate="VOB" />
+                <word id="2" cont="和" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="3" relate="LAD" />
+                <word id="3" cont="维生素" pos="n" ne="O" wsd="Br13" wsdexp="药品_维生素_补品" parent="1" relate="COO" />
+                <word id="4" cont="D" pos="ws" ne="O" wsd="-1" wsdexp="" parent="5" relate="DE" />
+                <word id="5" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="6" relate="ATT" />
+                <word id="6" cont="重要性" pos="n" ne="O" wsd="Ed28" wsdexp="重要_次要_不足道" parent="0" relate="VOB" />
+            </sent>
+        </para>
+        <para id="18">
+            <sent id="0" cont="为了孩子能够有结实的骨骼，钙和维生素D是最基本的要素。" tag="10%">
+                <word id="0" cont="为了" pos="p" ne="O" wsd="Kb05" wsdexp="为_被_以_由" parent="3" relate="ADV" />
+                <word id="1" cont="孩子" pos="n" ne="O" wsd="Ah14" wsdexp="子_女_子女" parent="0" relate="POB" />
+                <word id="2" cont="能够" pos="v" ne="O" wsd="Gc02" wsdexp="能够_不能_可以_不可" parent="3" relate="ADV" />
+                <word id="3" cont="有" pos="v" ne="O" wsd="Jd04" wsdexp="有_占有" parent="-1" relate="HED">
+                    <arg id="0" type="受事" beg="4" end="6" />
+                </word>
+                <word id="4" cont="结实" pos="a" ne="O" wsd="Eb11" wsdexp="牢_韧" parent="5" relate="DE" />
+                <word id="5" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="6" relate="ATT" />
+                <word id="6" cont="骨骼" pos="n" ne="O" wsd="Bk13" wsdexp="骨骼_指甲_甲壳_鳞" parent="3" relate="VOB" />
+                <word id="7" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="8" cont="钙" pos="n" ne="O" wsd="Br13" wsdexp="药品_维生素_补品" parent="12" relate="SBV" />
+                <word id="9" cont="和" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="10" relate="LAD" />
+                <word id="10" cont="维生素" pos="n" ne="O" wsd="Br13" wsdexp="药品_维生素_补品" parent="8" relate="COO" />
+                <word id="11" cont="D" pos="ws" ne="O" wsd="-1" wsdexp="" parent="12" relate="SBV" />
+                <word id="12" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="3" relate="IC">
+                    <arg id="0" type="施事" beg="8" end="10" />
+                    <arg id="1" type="施事" beg="11" end="11" />
+                    <arg id="2" type="受事" beg="13" end="16" />
+                </word>
+                <word id="13" cont="最" pos="d" ne="O" wsd="Ka02" wsdexp="最_至多_至少" parent="14" relate="ADV" />
+                <word id="14" cont="基本" pos="a" ne="O" wsd="Ed28" wsdexp="重要_次要_不足道" parent="15" relate="DE" />
+                <word id="15" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="16" relate="ATT" />
+                <word id="16" cont="要素" pos="n" ne="O" wsd="Dd10" wsdexp="因素_成分" parent="12" relate="VOB" />
+                <word id="17" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+        </para>
+        <para id="19">
+            <sent id="0" cont="钙" tag="">
+                <word id="0" cont="钙" pos="n" ne="O" wsd="Br13" wsdexp="药品_维生素_补品" parent="-1" relate="HED" />
+            </sent>
+        </para>
+        <para id="20">
+            <sent id="0" cont="10岁时，儿童整个骨骼的一半已经形成。" tag="">
+                <word id="0" cont="10" pos="m" ne="B-Nm" wsd="-1" wsdexp="" parent="1" relate="QUN" />
+                <word id="1" cont="岁" pos="q" ne="E-Nm" wsd="Ca14" wsdexp="年龄" parent="2" relate="ATT" />
+                <word id="2" cont="时" pos="n" ne="O" wsd="Ca04" wsdexp="时候_时机_关头" parent="10" relate="ADV" />
+                <word id="3" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="4" cont="儿童" pos="n" ne="O" wsd="Ab04" wsdexp="婴儿_儿童" parent="5" relate="ATT" />
+                <word id="5" cont="整个" pos="b" ne="O" wsd="Eb02" wsdexp="单_双_全部_部分" parent="6" relate="ATT" />
+                <word id="6" cont="骨骼" pos="n" ne="O" wsd="Bk13" wsdexp="骨骼_指甲_甲壳_鳞" parent="7" relate="DE" />
+                <word id="7" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="8" relate="ATT" />
+                <word id="8" cont="一半" pos="m" ne="O" wsd="Dn05" wsdexp="半_概数_若干" parent="10" relate="ADV" />
+                <word id="9" cont="已经" pos="d" ne="O" wsd="Ka12" wsdexp="已经_方才_正在" parent="10" relate="ADV" />
+                <word id="10" cont="形成" pos="v" ne="O" wsd="Ie14" wsdexp="完成_实现" parent="-1" relate="HED" />
+                <word id="11" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="1" cont="在7到9岁时，建议摄取的钙营养元素和成年人是相同的，即每天900毫克(对于钙的需求在青少年时期增加到1200毫克)。" tag="20%">
+                <word id="0" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="2" relate="ADV" />
+                <word id="1" cont="7" pos="m" ne="S-Nm" wsd="-1" wsdexp="" parent="2" relate="ADV" />
+                <word id="2" cont="到" pos="v" ne="O" wsd="Hf08" wsdexp="到达_停靠" parent="-1" relate="HED">
+                    <arg id="0" type="受事" beg="3" end="5" />
+                </word>
+                <word id="3" cont="9" pos="m" ne="B-Nm" wsd="-1" wsdexp="" parent="4" relate="QUN" />
+                <word id="4" cont="岁" pos="q" ne="E-Nm" wsd="Ca14" wsdexp="年龄" parent="5" relate="ATT" />
+                <word id="5" cont="时" pos="n" ne="O" wsd="Ca04" wsdexp="时候_时机_关头" parent="2" relate="VOB" />
+                <word id="6" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="7" cont="建议" pos="n" ne="O" wsd="Dk13" wsdexp="建议_结论_决定" parent="8" relate="SBV" />
+                <word id="8" cont="摄取" pos="v" ne="O" wsd="Je12" wsdexp="取得_达到_挽回" parent="9" relate="DE">
+                    <arg id="0" type="施事" beg="7" end="7" />
+                </word>
+                <word id="9" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="12" relate="ATT" />
+                <word id="10" cont="钙" pos="n" ne="O" wsd="Br13" wsdexp="药品_维生素_补品" parent="11" relate="ATT" />
+                <word id="11" cont="营养" pos="n" ne="O" wsd="Br13" wsdexp="药品_维生素_补品" parent="12" relate="ATT" />
+                <word id="12" cont="元素" pos="n" ne="O" wsd="Dd10" wsdexp="因素_成分" parent="15" relate="SBV" />
+                <word id="13" cont="和" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="14" relate="LAD" />
+                <word id="14" cont="成年人" pos="n" ne="O" wsd="Ab02" wsdexp="老人_成年人_老小" parent="12" relate="COO" />
+                <word id="15" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="2" relate="IC">
+                    <arg id="0" type="施事" beg="7" end="14" />
+                </word>
+                <word id="16" cont="相同" pos="a" ne="O" wsd="Jb01" wsdexp="相同_相等_差不多" parent="17" relate="DE" />
+                <word id="17" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="2" relate="MT" />
+                <word id="18" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="19" cont="即" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="2" relate="IC">
+                    <arg id="0" type="受事-数量性质" beg="20" end="22" />
+                    <arg id="1" type="受事" beg="24" end="34" />
+                </word>
+                <word id="20" cont="每天" pos="r" ne="O" wsd="Ca23" wsdexp="日" parent="22" relate="ATT" />
+                <word id="21" cont="900" pos="m" ne="B-Nm" wsd="-1" wsdexp="" parent="22" relate="QUN" />
+                <word id="22" cont="毫克" pos="q" ne="E-Nm" wsd="Dn10" wsdexp="度量衡单位" parent="19" relate="VOB" />
+                <word id="23" cont="(" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="24" cont="对于" pos="p" ne="O" wsd="Kb04" wsdexp="对于_关于" parent="26" relate="DE" />
+                <word id="25" cont="钙" pos="n" ne="O" wsd="Br13" wsdexp="药品_维生素_补品" parent="24" relate="POB" />
+                <word id="26" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="27" relate="ATT" />
+                <word id="27" cont="需求" pos="n" ne="O" wsd="Df07" wsdexp="欲望_需要" parent="31" relate="SBV" />
+                <word id="28" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="31" relate="ADV" />
+                <word id="29" cont="青少年" pos="n" ne="O" wsd="Ab03" wsdexp="青少年" parent="30" relate="ATT" />
+                <word id="30" cont="时期" pos="n" ne="O" wsd="Ca03" wsdexp="时期_时间" parent="28" relate="POB" />
+                <word id="31" cont="增加" pos="v" ne="O" wsd="Ih05" wsdexp="增多_添补_减少" parent="19" relate="VOB">
+                    <arg id="0" type="施事" beg="24" end="27" />
+                    <arg id="1" type="受事-数量性质" beg="33" end="34" />
+                </word>
+                <word id="32" cont="到" pos="v" ne="O" wsd="Hf08" wsdexp="到达_停靠" parent="31" relate="CMP" />
+                <word id="33" cont="1200" pos="m" ne="B-Nm" wsd="-1" wsdexp="" parent="34" relate="QUN" />
+                <word id="34" cont="毫克" pos="q" ne="E-Nm" wsd="Dn10" wsdexp="度量衡单位" parent="31" relate="VOB" />
+                <word id="35" cont=")" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="36" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="2" cont="为了能够满足孩子成长需求，建议至少每餐都有奶制品。" tag="">
+                <word id="0" cont="为了" pos="p" ne="O" wsd="Kb05" wsdexp="为_被_以_由" parent="11" relate="ADV" />
+                <word id="1" cont="能够" pos="v" ne="O" wsd="Gc02" wsdexp="能够_不能_可以_不可" parent="2" relate="ADV" />
+                <word id="2" cont="满足" pos="v" ne="O" wsd="Jc05" wsdexp="需要_提供_满足" parent="0" relate="POB">
+                    <arg id="0" type="受事" beg="3" end="3" />
+                </word>
+                <word id="3" cont="孩子" pos="n" ne="O" wsd="Ah14" wsdexp="子_女_子女" parent="2" relate="VOB" />
+                <word id="4" cont="成长" pos="v" ne="O" wsd="Ib01" wsdexp="生育_诞生_生长_繁殖" parent="0" relate="POB">
+                    <arg id="0" type="受事" beg="5" end="5" />
+                </word>
+                <word id="5" cont="需求" pos="n" ne="O" wsd="Df07" wsdexp="欲望_需要" parent="4" relate="VOB" />
+                <word id="6" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="7" cont="建议" pos="n" ne="O" wsd="Dk13" wsdexp="建议_结论_决定" parent="11" relate="SBV" />
+                <word id="8" cont="至少" pos="d" ne="O" wsd="Ka02" wsdexp="最_至多_至少" parent="11" relate="ADV" />
+                <word id="9" cont="每餐" pos="r" ne="O" wsd="-1" wsdexp="" parent="11" relate="ADV" />
+                <word id="10" cont="都" pos="d" ne="O" wsd="Ka07" wsdexp="都_只_不止_甚至" parent="11" relate="ADV" />
+                <word id="11" cont="有" pos="v" ne="O" wsd="Jd04" wsdexp="有_占有" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="7" end="7" />
+                    <arg id="1" type="受事" beg="12" end="12" />
+                </word>
+                <word id="12" cont="奶制品" pos="n" ne="O" wsd="Ba02" wsdexp="生物_物品" parent="11" relate="VOB" />
+                <word id="13" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+        </para>
+        <para id="21">
+            <sent id="0" cont="维生素D" tag="">
+                <word id="0" cont="维生素" pos="n" ne="O" wsd="Br13" wsdexp="药品_维生素_补品" parent="-1" relate="HED" />
+                <word id="1" cont="D" pos="ws" ne="O" wsd="-1" wsdexp="" parent="0" relate="APP" />
+            </sent>
+        </para>
+        <para id="22">
+            <sent id="0" cont="作为骨骼吸收钙必不可少的元素，维生素D主要存在于脂肪含量高的鱼类中(三文鱼，沙丁鱼等)中。" tag="">
+                <word id="0" cont="作为" pos="p" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="2" relate="ADV" />
+                <word id="1" cont="骨骼" pos="n" ne="O" wsd="Bk13" wsdexp="骨骼_指甲_甲壳_鳞" parent="0" relate="POB" />
+                <word id="2" cont="吸收" pos="v" ne="O" wsd="Hc07" wsdexp="收_发" parent="-1" relate="HED">
+                    <arg id="0" type="受事" beg="3" end="3" />
+                    <arg id="1" type="受事" beg="4" end="6" />
+                </word>
+                <word id="3" cont="钙" pos="n" ne="O" wsd="Br13" wsdexp="药品_维生素_补品" parent="2" relate="VOB" />
+                <word id="4" cont="必不可少" pos="i" ne="O" wsd="Ed30" wsdexp="必要_多余" parent="5" relate="DE" />
+                <word id="5" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="6" relate="ATT" />
+                <word id="6" cont="元素" pos="n" ne="O" wsd="Dd10" wsdexp="因素_成分" parent="2" relate="VOB" />
+                <word id="7" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="8" cont="维生素" pos="n" ne="O" wsd="Br13" wsdexp="药品_维生素_补品" parent="11" relate="SBV" />
+                <word id="9" cont="D" pos="ws" ne="O" wsd="-1" wsdexp="" parent="11" relate="SBV" />
+                <word id="10" cont="主要" pos="b" ne="O" wsd="Ed28" wsdexp="重要_次要_不足道" parent="11" relate="ADV" />
+                <word id="11" cont="存在" pos="v" ne="O" wsd="Jd01" wsdexp="无关" parent="2" relate="VV">
+                    <arg id="0" type="施事" beg="8" end="8" />
+                    <arg id="1" type="施事" beg="9" end="9" />
+                </word>
+                <word id="12" cont="于" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="2" relate="COO" />
+                <word id="13" cont="脂肪" pos="n" ne="O" wsd="Bk10" wsdexp="皮肤_肌肉" parent="14" relate="ATT" />
+                <word id="14" cont="含量" pos="n" ne="O" wsd="Dn03" wsdexp="数量" parent="18" relate="ATT" />
+                <word id="15" cont="高" pos="a" ne="O" wsd="Ea02" wsdexp="高_矮" parent="16" relate="DE" />
+                <word id="16" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="17" relate="ATT" />
+                <word id="17" cont="鱼类" pos="n" ne="O" wsd="Ba02" wsdexp="生物_物品" parent="18" relate="ATT" />
+                <word id="18" cont="中" pos="nd" ne="O" wsd="Da05" wsdexp="过程_内中" parent="12" relate="POB" />
+                <word id="19" cont="(" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="20" cont="三文鱼" pos="nz" ne="S-Nz" wsd="-1" wsdexp="" parent="12" relate="POB" />
+                <word id="21" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="22" cont="沙丁鱼" pos="n" ne="O" wsd="Bi14" wsdexp="鱼_鱼虾" parent="25" relate="ATT" />
+                <word id="23" cont="等" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="22" relate="RAD" />
+                <word id="24" cont=")" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="25" cont="中" pos="nd" ne="O" wsd="Da05" wsdexp="过程_内中" parent="12" relate="POB" />
+                <word id="26" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="1" cont="晒太阳时身体组织本身可以产生维生素D。" tag="">
+                <word id="0" cont="晒太阳" pos="v" ne="O" wsd="Hj42" wsdexp="晒_熨" parent="-1" relate="HED">
+                    <arg id="0" type="受事" beg="1" end="2" />
+                    <arg id="1" type="受事" beg="3" end="3" />
+                    <arg id="2" type="受事" beg="4" end="8" />
+                </word>
+                <word id="1" cont="时" pos="n" ne="O" wsd="Ca04" wsdexp="时候_时机_关头" parent="2" relate="ATT" />
+                <word id="2" cont="身体" pos="n" ne="O" wsd="Dd17" wsdexp="体格" parent="0" relate="VOB" />
+                <word id="3" cont="组织" pos="v" ne="O" wsd="Di10" wsdexp="团体_派别" parent="0" relate="VOB" />
+                <word id="4" cont="本身" pos="r" ne="O" wsd="Aa05" wsdexp="自己_别人_某人" parent="6" relate="SBV" />
+                <word id="5" cont="可以" pos="v" ne="O" wsd="Gc02" wsdexp="能够_不能_可以_不可" parent="6" relate="ADV" />
+                <word id="6" cont="产生" pos="v" ne="O" wsd="Jd07" wsdexp="出现_发生" parent="0" relate="VOB">
+                    <arg id="0" type="施事" beg="4" end="4" />
+                    <arg id="1" type="受事" beg="7" end="7" />
+                    <arg id="2" type="受事" beg="8" end="8" />
+                </word>
+                <word id="7" cont="维生素" pos="n" ne="O" wsd="Br13" wsdexp="药品_维生素_补品" parent="6" relate="VOB" />
+                <word id="8" cont="D" pos="ws" ne="O" wsd="-1" wsdexp="" parent="6" relate="VOB" />
+                <word id="9" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="2" cont="这就是为什么在太阳光照少的地区，儿科医生建议要给孩子加大维生素D的摄取量直到6岁。" tag="">
+                <word id="0" cont="这" pos="r" ne="O" wsd="Ed61" wsdexp="这个_那个_某个_各个_其他_何" parent="1" relate="SBV" />
+                <word id="1" cont="就是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="0" />
+                    <arg id="1" type="受事" beg="2" end="2" />
+                    <arg id="2" type="受事" beg="3" end="8" />
+                </word>
+                <word id="2" cont="为什么" pos="r" ne="O" wsd="Ka35" wsdexp="哪里_怎样_为什么" parent="1" relate="VOB" />
+                <word id="3" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="5" relate="ADV" />
+                <word id="4" cont="太阳光" pos="n" ne="O" wsd="-1" wsdexp="" parent="3" relate="POB" />
+                <word id="5" cont="照" pos="v" ne="O" wsd="Hh03" wsdexp="摄影_录音_放映_广播" parent="1" relate="VOB">
+                    <arg id="0" type="受事" beg="6" end="8" />
+                </word>
+                <word id="6" cont="少" pos="a" ne="O" wsd="Eb01" wsdexp="多_少_稀少" parent="7" relate="DE" />
+                <word id="7" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="8" relate="ATT" />
+                <word id="8" cont="地区" pos="n" ne="O" wsd="Cb08" wsdexp="地方_地点" parent="5" relate="VOB" />
+                <word id="9" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="10" cont="儿科" pos="n" ne="O" wsd="Dk03" wsdexp="科学_学科_学业" parent="11" relate="ATT" />
+                <word id="11" cont="医生" pos="n" ne="O" wsd="Ae15" wsdexp="医生_助产士_护士" parent="12" relate="ATT" />
+                <word id="12" cont="建议" pos="n" ne="O" wsd="Dk13" wsdexp="建议_结论_决定" parent="16" relate="SBV" />
+                <word id="13" cont="要" pos="v" ne="O" wsd="Gc03" wsdexp="应该_必须_无须" parent="16" relate="ADV" />
+                <word id="14" cont="给" pos="p" ne="O" wsd="Je05" wsdexp="给予_寄予_加以_冠以" parent="16" relate="ADV" />
+                <word id="15" cont="孩子" pos="n" ne="O" wsd="Ab04" wsdexp="婴儿_儿童" parent="14" relate="POB" />
+                <word id="16" cont="加大" pos="v" ne="O" wsd="Ih05" wsdexp="增多_添补_减少" parent="19" relate="DE">
+                    <arg id="0" type="施事" beg="10" end="12" />
+                    <arg id="1" type="受事" beg="17" end="17" />
+                </word>
+                <word id="17" cont="维生素" pos="n" ne="O" wsd="Br13" wsdexp="药品_维生素_补品" parent="16" relate="VOB" />
+                <word id="18" cont="D" pos="ws" ne="O" wsd="-1" wsdexp="" parent="19" relate="DE" />
+                <word id="19" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="20" relate="ATT" />
+                <word id="20" cont="摄取量" pos="n" ne="O" wsd="-1" wsdexp="" parent="21" relate="SBV" />
+                <word id="21" cont="直到" pos="v" ne="O" wsd="Kb02" wsdexp="从_到_沿" parent="1" relate="VV">
+                    <arg id="0" type="施事" beg="10" end="20" />
+                    <arg id="1" type="受事-数量性质" beg="22" end="23" />
+                </word>
+                <word id="22" cont="6" pos="m" ne="B-Nm" wsd="-1" wsdexp="" parent="23" relate="QUN" />
+                <word id="23" cont="岁" pos="q" ne="E-Nm" wsd="Ca14" wsdexp="年龄" parent="21" relate="VOB" />
+                <word id="24" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="3" cont="从4岁开始，对于维生素D的摄取量要与成人一样，即每天5毫克。" tag="20%">
+                <word id="0" cont="从" pos="p" ne="O" wsd="Kb02" wsdexp="从_到_沿" parent="3" relate="ADV" />
+                <word id="1" cont="4" pos="m" ne="B-Nm" wsd="-1" wsdexp="" parent="2" relate="QUN" />
+                <word id="2" cont="岁" pos="q" ne="E-Nm" wsd="Ca14" wsdexp="年龄" parent="3" relate="ADV" />
+                <word id="3" cont="开始" pos="v" ne="O" wsd="Ig01" wsdexp="开始_结束" parent="-1" relate="HED" />
+                <word id="4" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="5" cont="对于" pos="p" ne="O" wsd="Kb04" wsdexp="对于_关于" parent="10" relate="ADV" />
+                <word id="6" cont="维生素" pos="n" ne="O" wsd="Br13" wsdexp="药品_维生素_补品" parent="5" relate="POB" />
+                <word id="7" cont="D" pos="ws" ne="O" wsd="-1" wsdexp="" parent="8" relate="DE" />
+                <word id="8" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="9" relate="ATT" />
+                <word id="9" cont="摄取量" pos="n" ne="O" wsd="-1" wsdexp="" parent="5" relate="POB" />
+                <word id="10" cont="要" pos="v" ne="O" wsd="Gc03" wsdexp="应该_必须_无须" parent="3" relate="VV">
+                    <arg id="0" type="受事" beg="11" end="13" />
+                </word>
+                <word id="11" cont="与" pos="p" ne="O" wsd="Kc01" wsdexp="和_或者" parent="13" relate="ADV" />
+                <word id="12" cont="成人" pos="n" ne="O" wsd="Ib01" wsdexp="生育_诞生_生长_繁殖" parent="11" relate="POB" />
+                <word id="13" cont="一样" pos="a" ne="O" wsd="Jb01" wsdexp="相同_相等_差不多" parent="10" relate="VOB" />
+                <word id="14" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="15" cont="即" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="10" relate="IC">
+                    <arg id="0" type="受事-数量性质" beg="16" end="18" />
+                </word>
+                <word id="16" cont="每天" pos="r" ne="O" wsd="Ca23" wsdexp="日" parent="18" relate="ATT" />
+                <word id="17" cont="5" pos="m" ne="B-Nm" wsd="-1" wsdexp="" parent="18" relate="QUN" />
+                <word id="18" cont="毫克" pos="q" ne="E-Nm" wsd="Dn10" wsdexp="度量衡单位" parent="15" relate="VOB" />
+                <word id="19" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+        </para>
+        <para id="23">
+            <sent id="0" cont="均衡营养是家庭的一项重要使命" tag="">
+                <word id="0" cont="均衡" pos="a" ne="O" wsd="Ed37" wsdexp="简单_详细_透彻_均匀" parent="1" relate="ATT" />
+                <word id="1" cont="营养" pos="n" ne="O" wsd="Br13" wsdexp="药品_维生素_补品" parent="2" relate="SBV" />
+                <word id="2" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="1" />
+                    <arg id="1" type="受事" beg="3" end="3" />
+                    <arg id="2" type="受事" beg="4" end="8" />
+                </word>
+                <word id="3" cont="家庭" pos="n" ne="O" wsd="Di05" wsdexp="家族_家庭_户头" parent="2" relate="VOB" />
+                <word id="4" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="8" relate="ATT" />
+                <word id="5" cont="一" pos="m" ne="B-Nm" wsd="Dn04" wsdexp="基数_序数" parent="6" relate="QUN" />
+                <word id="6" cont="项" pos="q" ne="E-Nm" wsd="Dn08" wsdexp="数量单位" parent="8" relate="ATT" />
+                <word id="7" cont="重要" pos="a" ne="O" wsd="Ed28" wsdexp="重要_次要_不足道" parent="8" relate="ATT" />
+                <word id="8" cont="使命" pos="n" ne="O" wsd="Di22" wsdexp="责任_负担" parent="2" relate="VOB" />
+            </sent>
+        </para>
+        <para id="24">
+            <sent id="0" cont="变换饭菜花样，开发您孩子的新口味，尤其是尽可能多满足孩子在维生素、微量矿物元素以及其他成长所需的基本要素方面的需求。" tag="10%">
+                <word id="0" cont="变换" pos="v" ne="O" wsd="Ih02" wsdexp="改变_改换" parent="-1" relate="HED">
+                    <arg id="0" type="受事" beg="1" end="2" />
+                </word>
+                <word id="1" cont="饭菜" pos="n" ne="O" wsd="Br03" wsdexp="食物" parent="2" relate="ATT" />
+                <word id="2" cont="花样" pos="n" ne="O" wsd="Dc01" wsdexp="形状_状态_式样_装饰" parent="0" relate="VOB" />
+                <word id="3" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="4" cont="开发" pos="v" ne="O" wsd="Hd17" wsdexp="开山_垦荒_烧荒_种地" parent="12" relate="ADV">
+                    <arg id="0" type="受事" beg="5" end="5" />
+                    <arg id="1" type="受事" beg="6" end="9" />
+                </word>
+                <word id="5" cont="您" pos="r" ne="O" wsd="Aa03" wsdexp="你_你们" parent="4" relate="VOB" />
+                <word id="6" cont="孩子" pos="n" ne="O" wsd="Ah14" wsdexp="子_女_子女" parent="7" relate="DE" />
+                <word id="7" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="9" relate="ATT" />
+                <word id="8" cont="新" pos="a" ne="O" wsd="Eb28" wsdexp="新_新鲜" parent="9" relate="ATT" />
+                <word id="9" cont="口味" pos="n" ne="O" wsd="Df12" wsdexp="兴趣_嗜好" parent="4" relate="VOB" />
+                <word id="10" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="11" cont="尤其" pos="d" ne="O" wsd="Ka04" wsdexp="更加" parent="12" relate="ADV" />
+                <word id="12" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="0" relate="IC">
+                    <arg id="0" type="受事" beg="13" end="16" />
+                    <arg id="1" type="受事" beg="17" end="33" />
+                </word>
+                <word id="13" cont="尽可能" pos="d" ne="O" wsd="Ka19" wsdexp="竭力_任意_胡乱" parent="14" relate="ADV" />
+                <word id="14" cont="多" pos="a" ne="O" wsd="Dn05" wsdexp="半_概数_若干" parent="16" relate="ATT" />
+                <word id="15" cont="满足" pos="v" ne="O" wsd="Jc05" wsdexp="需要_提供_满足" parent="16" relate="ATT" />
+                <word id="16" cont="孩子" pos="n" ne="O" wsd="Ah14" wsdexp="子_女_子女" parent="12" relate="VOB" />
+                <word id="17" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="25" relate="ADV" />
+                <word id="18" cont="维生素" pos="n" ne="O" wsd="Br13" wsdexp="药品_维生素_补品" parent="17" relate="POB" />
+                <word id="19" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="20" cont="微量" pos="b" ne="O" wsd="Eb01" wsdexp="多_少_稀少" parent="21" relate="ATT" />
+                <word id="21" cont="矿物" pos="n" ne="O" wsd="Ba08" wsdexp="宝物_废物" parent="22" relate="ATT" />
+                <word id="22" cont="元素" pos="n" ne="O" wsd="Dd10" wsdexp="因素_成分" parent="18" relate="COO" />
+                <word id="23" cont="以及" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="25" relate="CNJ" />
+                <word id="24" cont="其他" pos="r" ne="O" wsd="Ed61" wsdexp="这个_那个_某个_各个_其他_何" parent="25" relate="SBV" />
+                <word id="25" cont="成长" pos="v" ne="O" wsd="Ib01" wsdexp="生育_诞生_生长_繁殖" parent="12" relate="VOB">
+                    <arg id="0" type="施事" beg="24" end="24" />
+                    <arg id="1" type="受事" beg="26" end="33" />
+                </word>
+                <word id="26" cont="所" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="27" relate="LAD" />
+                <word id="27" cont="需" pos="v" ne="O" wsd="Jc05" wsdexp="需要_提供_满足" parent="28" relate="DE" />
+                <word id="28" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="31" relate="ATT" />
+                <word id="29" cont="基本" pos="a" ne="O" wsd="Ed28" wsdexp="重要_次要_不足道" parent="31" relate="ATT" />
+                <word id="30" cont="要素" pos="n" ne="O" wsd="Dd10" wsdexp="因素_成分" parent="31" relate="ATT" />
+                <word id="31" cont="方面" pos="n" ne="O" wsd="Dd05" wsdexp="范围_方面_环节" parent="32" relate="DE" />
+                <word id="32" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="33" relate="ATT" />
+                <word id="33" cont="需求" pos="n" ne="O" wsd="Df07" wsdexp="欲望_需要" parent="25" relate="VOB" />
+                <word id="34" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="1" cont="尽可能在家进餐。" tag="">
+                <word id="0" cont="尽可能" pos="d" ne="O" wsd="Ka19" wsdexp="竭力_任意_胡乱" parent="3" relate="ADV" />
+                <word id="1" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="3" relate="ADV" />
+                <word id="2" cont="家" pos="n" ne="O" wsd="Dn08" wsdexp="数量单位" parent="1" relate="POB" />
+                <word id="3" cont="进餐" pos="v" ne="O" wsd="Hj45" wsdexp="品尝_点饥_用餐_喂食_捕食" parent="-1" relate="HED" />
+                <word id="4" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="2" cont="实际上，孩子本能地模仿他们的父母，在您的陪伴下，他们会吃得更好。" tag="">
+                <word id="0" cont="实际上" pos="d" ne="O" wsd="Ka30" wsdexp="实在_其实_不免_莫如" parent="5" relate="ADV" />
+                <word id="1" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="2" cont="孩子" pos="n" ne="O" wsd="Ah14" wsdexp="子_女_子女" parent="3" relate="ATT" />
+                <word id="3" cont="本能" pos="n" ne="O" wsd="De04" wsdexp="智慧_才能_能力_功夫" parent="5" relate="SBV" />
+                <word id="4" cont="地" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="5" relate="ADV" />
+                <word id="5" cont="模仿" pos="v" ne="O" wsd="Hg08" wsdexp="学习_从师_模仿" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="2" end="3" />
+                    <arg id="1" type="受事" beg="6" end="8" />
+                </word>
+                <word id="6" cont="他们" pos="r" ne="O" wsd="Aa04" wsdexp="他_他们" parent="7" relate="DE" />
+                <word id="7" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="8" relate="ATT" />
+                <word id="8" cont="父母" pos="n" ne="O" wsd="Ah04" wsdexp="父_母_父母_父子" parent="5" relate="VOB" />
+                <word id="9" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="10" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="18" relate="ADV" />
+                <word id="11" cont="您" pos="r" ne="O" wsd="Aa03" wsdexp="你_你们" parent="12" relate="DE" />
+                <word id="12" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="13" relate="ATT" />
+                <word id="13" cont="陪伴" pos="v" ne="O" wsd="Hi05" wsdexp="迎接_会面_陪伴" parent="14" relate="ATT" />
+                <word id="14" cont="下" pos="nd" ne="O" wsd="Cb03" wsdexp="上_下_左_右" parent="10" relate="POB" />
+                <word id="15" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="16" cont="他们" pos="r" ne="O" wsd="Aa04" wsdexp="他_他们" parent="18" relate="SBV" />
+                <word id="17" cont="会" pos="v" ne="O" wsd="Gc02" wsdexp="能够_不能_可以_不可" parent="18" relate="ADV" />
+                <word id="18" cont="吃" pos="v" ne="O" wsd="Fc06" wsdexp="吃_嚼_咽_吮_喝" parent="5" relate="VV">
+                    <arg id="0" type="方位" beg="10" end="14" />
+                    <arg id="1" type="施事" beg="16" end="16" />
+                </word>
+                <word id="19" cont="得" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="18" relate="CMP" />
+                <word id="20" cont="更" pos="d" ne="O" wsd="Ka04" wsdexp="更加" parent="21" relate="ADV" />
+                <word id="21" cont="好" pos="a" ne="O" wsd="Ed03" wsdexp="好_坏" parent="19" relate="DEI" />
+                <word id="22" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="3" cont="为了能够让他们发现新的食物，同样也要让他们学习做饭。" tag="">
+                <word id="0" cont="为了" pos="p" ne="O" wsd="Kb05" wsdexp="为_被_以_由" parent="4" relate="ADV" />
+                <word id="1" cont="能够" pos="v" ne="O" wsd="Gc02" wsdexp="能够_不能_可以_不可" parent="2" relate="ADV" />
+                <word id="2" cont="让" pos="v" ne="O" wsd="Je04" wsdexp="引起_导致_使得" parent="0" relate="POB" />
+                <word id="3" cont="他们" pos="r" ne="O" wsd="Aa04" wsdexp="他_他们" parent="4" relate="SBV" />
+                <word id="4" cont="发现" pos="v" ne="O" wsd="Gb08" wsdexp="了解_体会_不解" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="3" end="3" />
+                    <arg id="1" type="受事" beg="5" end="7" />
+                </word>
+                <word id="5" cont="新" pos="a" ne="O" wsd="Eb28" wsdexp="新_新鲜" parent="6" relate="DE" />
+                <word id="6" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="7" relate="ATT" />
+                <word id="7" cont="食物" pos="n" ne="O" wsd="Br03" wsdexp="食物" parent="4" relate="VOB" />
+                <word id="8" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="9" cont="同样" pos="d" ne="O" wsd="Jb01" wsdexp="相同_相等_差不多" parent="12" relate="ADV" />
+                <word id="10" cont="也" pos="d" ne="O" wsd="Ka33" wsdexp="却_还_也_反而" parent="11" relate="ADV" />
+                <word id="11" cont="要" pos="v" ne="O" wsd="Gc03" wsdexp="应该_必须_无须" parent="12" relate="ADV" />
+                <word id="12" cont="让" pos="v" ne="O" wsd="Je04" wsdexp="引起_导致_使得" parent="4" relate="VV">
+                    <arg id="0" type="受事" beg="13" end="13" />
+                    <arg id="1" type="受事" beg="14" end="14" />
+                    <arg id="2" type="受事" beg="15" end="15" />
+                </word>
+                <word id="13" cont="他们" pos="r" ne="O" wsd="Aa04" wsdexp="他_他们" parent="12" relate="VOB" />
+                <word id="14" cont="学习" pos="v" ne="O" wsd="Hg08" wsdexp="学习_从师_模仿" parent="12" relate="VOB" />
+                <word id="15" cont="做饭" pos="v" ne="O" wsd="Hj44" wsdexp="烹饪" parent="12" relate="VOB" />
+                <word id="16" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="4" cont="没有什么比在一起设想有趣而又简单易行的菜谱更能令人胃口大开的了。" tag="">
+                <word id="0" cont="没有" pos="v" ne="O" wsd="Ka18" wsdexp="不_没" parent="-1" relate="HED">
+                    <arg id="0" type="受事" beg="1" end="1" />
+                    <arg id="1" type="受事" beg="2" end="5" />
+                </word>
+                <word id="1" cont="什么" pos="r" ne="O" wsd="Ba10" wsdexp="它_什么" parent="0" relate="VOB" />
+                <word id="2" cont="比" pos="p" ne="O" wsd="Kb03" wsdexp="跟_替_把_比" parent="5" relate="ADV" />
+                <word id="3" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="5" relate="ADV" />
+                <word id="4" cont="一起" pos="nl" ne="O" wsd="Ka23" wsdexp="共同_分头_独自_互相_从中" parent="3" relate="POB" />
+                <word id="5" cont="设想" pos="v" ne="O" wsd="Df14" wsdexp="想法_主意_见解" parent="0" relate="VOB">
+                    <arg id="0" type="地点" beg="3" end="4" />
+                </word>
+                <word id="6" cont="有趣" pos="a" ne="O" wsd="Ed42" wsdexp="有趣_枯燥" parent="19" relate="DE" />
+                <word id="7" cont="而" pos="c" ne="O" wsd="Kc03" wsdexp="但是" parent="14" relate="CNJ" />
+                <word id="8" cont="又" pos="d" ne="O" wsd="Ka14" wsdexp="再" parent="14" relate="ADV" />
+                <word id="9" cont="简单易行" pos="i" ne="O" wsd="Ed37" wsdexp="简单_详细_透彻_均匀" parent="10" relate="DE" />
+                <word id="10" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="11" relate="ATT" />
+                <word id="11" cont="菜谱" pos="n" ne="O" wsd="Bp18" wsdexp="簿册_卡片_名帖" parent="14" relate="SBV" />
+                <word id="12" cont="更" pos="d" ne="O" wsd="Ka04" wsdexp="更加" parent="13" relate="ADV" />
+                <word id="13" cont="能" pos="v" ne="O" wsd="Gc02" wsdexp="能够_不能_可以_不可" parent="14" relate="ADV" />
+                <word id="14" cont="令" pos="v" ne="O" wsd="Je04" wsdexp="引起_导致_使得" parent="19" relate="DE">
+                    <arg id="0" type="施事" beg="9" end="11" />
+                    <arg id="1" type="受事" beg="15" end="16" />
+                    <arg id="2" type="受事" beg="17" end="18" />
+                </word>
+                <word id="15" cont="人" pos="n" ne="O" wsd="Aa01" wsdexp="人_人民_众人" parent="16" relate="ATT" />
+                <word id="16" cont="胃口" pos="n" ne="O" wsd="Dn03" wsdexp="数量" parent="14" relate="VOB" />
+                <word id="17" cont="大" pos="a" ne="O" wsd="Ea03" wsdexp="大_中_小" parent="18" relate="ADV" />
+                <word id="18" cont="开" pos="v" ne="O" wsd="Fa31" wsdexp="开_关" parent="14" relate="VOB" />
+                <word id="19" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="0" relate="MT" />
+                <word id="20" cont="了" pos="u" ne="O" wsd="Kd05" wsdexp="吗_的话_罢了_了_哉" parent="19" relate="NOT" />
+                <word id="21" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+        </para>
+        <para id="25" />
+    </doc>
+    <class>生活</class>
+    <coref />
+</xml4nlp>

@@ -1,0 +1,1413 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="nlp_style.xsl" ?>
+<xml4nlp>
+    <doc>
+        <para id="0">
+            <sent id="0" cont="中共河北省委关于开除刘青山、张子善党籍的决议" tag="">
+                <word id="0" cont="中共" pos="j" ne="B-Ni" wsd="Di07" wsdexp="政党" parent="1" relate="ATT" />
+                <word id="1" cont="河北" pos="ns" ne="I-Ni" wsd="Di02" wsdexp="国家_行政区划" parent="2" relate="ATT" />
+                <word id="2" cont="省委" pos="n" ne="E-Ni" wsd="Dm01" wsdexp="政府" parent="4" relate="SBV" />
+                <word id="3" cont="关于" pos="p" ne="O" wsd="Kb04" wsdexp="对于_关于" parent="4" relate="ADV" />
+                <word id="4" cont="开除" pos="v" ne="O" wsd="Hc22" wsdexp="处罚_检讨" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="2" />
+                    <arg id="1" type="受事" beg="5" end="10" />
+                </word>
+                <word id="5" cont="刘青山" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="4" relate="VOB" />
+                <word id="6" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="7" cont="张子善" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="8" relate="ATT" />
+                <word id="8" cont="党籍" pos="n" ne="O" wsd="Dd16" wsdexp="籍贯_资格_出身_辈分" parent="9" relate="DE" />
+                <word id="9" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="10" relate="ATT" />
+                <word id="10" cont="决议" pos="n" ne="O" wsd="Dk13" wsdexp="建议_结论_决定" parent="5" relate="APP" />
+            </sent>
+        </para>
+        <para id="1">
+            <sent id="0" cont="――一九五一年十二月四日河北省委员会通过，并经中共中央华北局批准" tag="10%">
+                <word id="0" cont="――" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="1" cont="一九五一年" pos="nt" ne="B-Nr" wsd="-1" wsdexp="" parent="2" relate="ATT" />
+                <word id="2" cont="十二月" pos="nt" ne="I-Nr" wsd="Ca21" wsdexp="月" parent="3" relate="ATT" />
+                <word id="3" cont="四日" pos="nt" ne="E-Nr" wsd="-1" wsdexp="" parent="4" relate="ATT" />
+                <word id="4" cont="河北省" pos="ns" ne="B-Ni" wsd="Di02" wsdexp="国家_行政区划" parent="5" relate="ATT" />
+                <word id="5" cont="委员会" pos="n" ne="E-Ni" wsd="Di10" wsdexp="团体_派别" parent="6" relate="SBV" />
+                <word id="6" cont="通过" pos="v" ne="O" wsd="Kb06" wsdexp="依靠_通过" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="1" end="5" />
+                </word>
+                <word id="7" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="8" cont="并" pos="c" ne="O" wsd="Kc02" wsdexp="并且_况且" parent="12" relate="CNJ" />
+                <word id="9" cont="经" pos="p" ne="O" wsd="Kb06" wsdexp="依靠_通过" parent="12" relate="ADV" />
+                <word id="10" cont="中共中央" pos="ni" ne="S-Ni" wsd="Dm01" wsdexp="政府" parent="11" relate="ATT" />
+                <word id="11" cont="华北局" pos="n" ne="O" wsd="-1" wsdexp="" parent="9" relate="POB" />
+                <word id="12" cont="批准" pos="v" ne="O" wsd="Hc17" wsdexp="批准_禁止_宵禁_解禁" parent="6" relate="VV" />
+            </sent>
+        </para>
+        <para id="2">
+            <sent id="0" cont="刘青山，前任天津地方委员会书记，河北省安国县人，雇工出身，现年三十五岁，一九三一年入党。" tag="20%">
+                <word id="0" cont="刘青山" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="13" relate="SBV" />
+                <word id="1" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="2" cont="前任" pos="b" ne="O" wsd="Ai01" wsdexp="鼻祖_前人_今人_后人" parent="3" relate="ATT" />
+                <word id="3" cont="天津" pos="ns" ne="B-Ni" wsd="Di02" wsdexp="国家_行政区划" parent="4" relate="ATT" />
+                <word id="4" cont="地方" pos="n" ne="I-Ni" wsd="Cb08" wsdexp="地方_地点" parent="5" relate="ATT" />
+                <word id="5" cont="委员会" pos="n" ne="E-Ni" wsd="Di10" wsdexp="团体_派别" parent="6" relate="ATT" />
+                <word id="6" cont="书记" pos="n" ne="O" wsd="Ae01" wsdexp="职工_职员" parent="0" relate="APP" />
+                <word id="7" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="8" cont="河北省" pos="ns" ne="O" wsd="Di02" wsdexp="国家_行政区划" parent="9" relate="ATT" />
+                <word id="9" cont="安国县" pos="ns" ne="O" wsd="-1" wsdexp="" parent="10" relate="ATT" />
+                <word id="10" cont="人" pos="n" ne="O" wsd="Aa01" wsdexp="人_人民_众人" parent="6" relate="COO" />
+                <word id="11" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="12" cont="雇工" pos="n" ne="O" wsd="Ae02" wsdexp="工人" parent="13" relate="ATT" />
+                <word id="13" cont="出身" pos="v" ne="O" wsd="Dd16" wsdexp="籍贯_资格_出身_辈分" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="10" />
+                </word>
+                <word id="14" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="15" cont="现年" pos="n" ne="O" wsd="Ca18" wsdexp="年" parent="17" relate="SBV" />
+                <word id="16" cont="三十五" pos="m" ne="B-Nm" wsd="-1" wsdexp="" parent="17" relate="QUN" />
+                <word id="17" cont="岁" pos="q" ne="E-Nm" wsd="Ca14" wsdexp="年龄" parent="13" relate="IC" />
+                <word id="18" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="19" cont="一九三一年" pos="nt" ne="S-Nr" wsd="-1" wsdexp="" parent="20" relate="ADV" />
+                <word id="20" cont="入党" pos="v" ne="O" wsd="Hj19" wsdexp="从事_参加_脱离" parent="13" relate="VV">
+                    <arg id="0" type="时间" beg="19" end="19" />
+                </word>
+                <word id="21" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="1" cont="张子善，现任天津地方委员会书记，前天津专区专员，河北省深县人，学生出身，现年三十七岁，一九三三年入党。" tag="20%">
+                <word id="0" cont="张子善" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="2" relate="SBV" />
+                <word id="1" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="2" cont="现任" pos="v" ne="O" wsd="Hj24" wsdexp="担负_承揽_担任_兼职" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="0" />
+                    <arg id="1" type="受事" beg="3" end="6" />
+                    <arg id="2" type="受事" beg="8" end="11" />
+                    <arg id="3" type="受事" beg="13" end="14" />
+                </word>
+                <word id="3" cont="天津" pos="ns" ne="B-Ni" wsd="Di02" wsdexp="国家_行政区划" parent="4" relate="ATT" />
+                <word id="4" cont="地方" pos="n" ne="I-Ni" wsd="Cb08" wsdexp="地方_地点" parent="5" relate="ATT" />
+                <word id="5" cont="委员会" pos="n" ne="E-Ni" wsd="Di10" wsdexp="团体_派别" parent="6" relate="ATT" />
+                <word id="6" cont="书记" pos="n" ne="O" wsd="Ae01" wsdexp="职工_职员" parent="2" relate="VOB" />
+                <word id="7" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="8" cont="前" pos="nd" ne="O" wsd="Cb04" wsdexp="前_后_中" parent="9" relate="ATT" />
+                <word id="9" cont="天津" pos="ns" ne="S-Ns" wsd="Di02" wsdexp="国家_行政区划" parent="10" relate="ATT" />
+                <word id="10" cont="专区" pos="n" ne="O" wsd="Di02" wsdexp="国家_行政区划" parent="11" relate="ATT" />
+                <word id="11" cont="专员" pos="n" ne="O" wsd="Aj13" wsdexp="专人_代表" parent="2" relate="VOB" />
+                <word id="12" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="13" cont="河北省" pos="ns" ne="S-Ns" wsd="Di02" wsdexp="国家_行政区划" parent="14" relate="ATT" />
+                <word id="14" cont="深县人" pos="n" ne="O" wsd="-1" wsdexp="" parent="2" relate="VOB" />
+                <word id="15" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="16" cont="学生" pos="n" ne="O" wsd="Ae13" wsdexp="教师_学生" parent="17" relate="ATT" />
+                <word id="17" cont="出身" pos="v" ne="O" wsd="Dd16" wsdexp="籍贯_资格_出身_辈分" parent="2" relate="VV" />
+                <word id="18" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="19" cont="现年" pos="n" ne="O" wsd="Ca18" wsdexp="年" parent="21" relate="SBV" />
+                <word id="20" cont="三十七" pos="m" ne="B-Nm" wsd="-1" wsdexp="" parent="21" relate="QUN" />
+                <word id="21" cont="岁" pos="q" ne="E-Nm" wsd="Ca14" wsdexp="年龄" parent="17" relate="IC" />
+                <word id="22" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="23" cont="一九三三年" pos="nt" ne="S-Nr" wsd="-1" wsdexp="" parent="24" relate="ADV" />
+                <word id="24" cont="入党" pos="v" ne="O" wsd="Hj19" wsdexp="从事_参加_脱离" parent="17" relate="VV">
+                    <arg id="0" type="时间" beg="23" end="23" />
+                </word>
+                <word id="25" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+        </para>
+        <para id="3">
+            <sent id="0" cont="刘青山、张子善参加革命斗争均已二十年左右，他们在国民党血腥的白色恐怖下，在艰苦的八年抗日战争和三年多的人民解放战争中，都曾奋不顾身地为党的事业和人民群众的解放，进行过英勇的斗争，树立过功绩。" tag="10%">
+                <word id="0" cont="刘青山" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="3" relate="SBV" />
+                <word id="1" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="2" cont="张子善" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="0" relate="COO" />
+                <word id="3" cont="参加" pos="v" ne="O" wsd="Hj19" wsdexp="从事_参加_脱离" parent="18" relate="ADV">
+                    <arg id="0" type="施事" beg="0" end="2" />
+                    <arg id="1" type="受事" beg="4" end="5" />
+                    <arg id="2" type="受事-数量性质" beg="6" end="10" />
+                </word>
+                <word id="4" cont="革命" pos="v" ne="O" wsd="Ha01" wsdexp="革命_解放" parent="5" relate="ATT" />
+                <word id="5" cont="斗争" pos="v" ne="O" wsd="Ha02" wsdexp="斗争_抗议" parent="3" relate="VOB" />
+                <word id="6" cont="均" pos="d" ne="O" wsd="Ka07" wsdexp="都_只_不止_甚至" parent="7" relate="ADV" />
+                <word id="7" cont="已" pos="d" ne="O" wsd="Ka12" wsdexp="已经_方才_正在" parent="9" relate="ATT" />
+                <word id="8" cont="二十" pos="m" ne="B-Nm" wsd="-1" wsdexp="" parent="9" relate="QUN" />
+                <word id="9" cont="年" pos="q" ne="E-Nm" wsd="Ca18" wsdexp="年" parent="3" relate="VOB" />
+                <word id="10" cont="左右" pos="m" ne="O" wsd="Dn05" wsdexp="半_概数_若干" parent="9" relate="RAD" />
+                <word id="11" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="12" cont="他们" pos="r" ne="O" wsd="Aa04" wsdexp="他_他们" parent="13" relate="SBV" />
+                <word id="13" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="17" relate="ADV" />
+                <word id="14" cont="国民党" pos="n" ne="O" wsd="Di10" wsdexp="团体_派别" parent="16" relate="DE" />
+                <word id="15" cont="血腥" pos="a" ne="O" wsd="Ec08" wsdexp="腥_膻_臊" parent="16" relate="DE" />
+                <word id="16" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="17" relate="ATT" />
+                <word id="17" cont="白色恐怖" pos="i" ne="O" wsd="Ga16" wsdexp="惊奇_害怕" parent="18" relate="ATT" />
+                <word id="18" cont="下" pos="nd" ne="O" wsd="Cb03" wsdexp="上_下_左_右" parent="-1" relate="HED" />
+                <word id="19" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="20" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="39" relate="ADV" />
+                <word id="21" cont="艰苦" pos="a" ne="O" wsd="Ef07" wsdexp="舒服_艰苦" parent="22" relate="DE" />
+                <word id="22" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="24" relate="ATT" />
+                <word id="23" cont="八" pos="m" ne="B-Nm" wsd="Dn04" wsdexp="基数_序数" parent="24" relate="QUN" />
+                <word id="24" cont="年" pos="q" ne="E-Nm" wsd="Ca18" wsdexp="年" parent="20" relate="POB" />
+                <word id="25" cont="抗日战争" pos="nz" ne="S-Nz" wsd="Di11" wsdexp="军队_战争" parent="20" relate="POB" />
+                <word id="26" cont="和" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="33" relate="LAD" />
+                <word id="27" cont="三" pos="m" ne="B-Nm" wsd="Dn04" wsdexp="基数_序数" parent="28" relate="QUN" />
+                <word id="28" cont="年" pos="q" ne="E-Nm" wsd="Ca18" wsdexp="年" parent="33" relate="ATT" />
+                <word id="29" cont="多" pos="a" ne="O" wsd="Dn05" wsdexp="半_概数_若干" parent="30" relate="DE" />
+                <word id="30" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="31" relate="ATT" />
+                <word id="31" cont="人民" pos="n" ne="O" wsd="Aa01" wsdexp="人_人民_众人" parent="33" relate="ATT" />
+                <word id="32" cont="解放战争" pos="nz" ne="S-Nz" wsd="Di11" wsdexp="军队_战争" parent="33" relate="ATT" />
+                <word id="33" cont="中" pos="nd" ne="O" wsd="Da05" wsdexp="过程_内中" parent="20" relate="POB" />
+                <word id="34" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="35" cont="都" pos="d" ne="O" wsd="Ka07" wsdexp="都_只_不止_甚至" parent="38" relate="DI" />
+                <word id="36" cont="曾" pos="d" ne="O" wsd="Ka12" wsdexp="已经_方才_正在" parent="38" relate="DI" />
+                <word id="37" cont="奋不顾身" pos="i" ne="O" wsd="Ee13" wsdexp="勇敢_怯懦" parent="38" relate="DI" />
+                <word id="38" cont="地" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="39" relate="ADV" />
+                <word id="39" cont="为" pos="v" ne="O" wsd="Kb05" wsdexp="为_被_以_由" parent="49" relate="ADV">
+                    <arg id="0" type="方位" beg="20" end="33" />
+                    <arg id="1" type="受事" beg="40" end="47" />
+                </word>
+                <word id="40" cont="党" pos="n" ne="O" wsd="Di07" wsdexp="政党" parent="41" relate="DE" />
+                <word id="41" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="42" relate="ATT" />
+                <word id="42" cont="事业" pos="n" ne="O" wsd="Di18" wsdexp="事业_行业_工程" parent="46" relate="DE" />
+                <word id="43" cont="和" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="45" relate="LAD" />
+                <word id="44" cont="人民" pos="n" ne="O" wsd="Aa01" wsdexp="人_人民_众人" parent="45" relate="ATT" />
+                <word id="45" cont="群众" pos="n" ne="O" wsd="Aa01" wsdexp="人_人民_众人" parent="42" relate="COO" />
+                <word id="46" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="47" relate="ATT" />
+                <word id="47" cont="解放" pos="v" ne="O" wsd="Ha01" wsdexp="革命_解放" parent="39" relate="VOB" />
+                <word id="48" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="49" cont="进行" pos="v" ne="O" wsd="Ig03" wsdexp="进行_继续_流逝" parent="18" relate="VV">
+                    <arg id="0" type="受事" beg="51" end="53" />
+                </word>
+                <word id="50" cont="过" pos="u" ne="O" wsd="Kd02" wsdexp="来着_过" parent="49" relate="MT" />
+                <word id="51" cont="英勇" pos="a" ne="O" wsd="Ee13" wsdexp="勇敢_怯懦" parent="52" relate="DE" />
+                <word id="52" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="53" relate="ATT" />
+                <word id="53" cont="斗争" pos="v" ne="O" wsd="Ha02" wsdexp="斗争_抗议" parent="49" relate="VOB" />
+                <word id="54" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="55" cont="树立" pos="v" ne="O" wsd="Hc05" wsdexp="建立_设立_创立_命名" parent="49" relate="VV">
+                    <arg id="0" type="受事" beg="57" end="57" />
+                </word>
+                <word id="56" cont="过" pos="u" ne="O" wsd="Kd02" wsdexp="来着_过" parent="55" relate="MT" />
+                <word id="57" cont="功绩" pos="n" ne="O" wsd="Da14" wsdexp="成就_功劳_过失_功过" parent="55" relate="VOB" />
+                <word id="58" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="1" cont="他们本是可以继续给党、给国家、给人民做更多的事情的。" tag="">
+                <word id="0" cont="他们" pos="r" ne="O" wsd="Aa04" wsdexp="他_他们" parent="2" relate="SBV" />
+                <word id="1" cont="本" pos="d" ne="O" wsd="Dn08" wsdexp="数量单位" parent="2" relate="ADV" />
+                <word id="2" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="0" />
+                    <arg id="1" type="受事" beg="3" end="4" />
+                </word>
+                <word id="3" cont="可以" pos="v" ne="O" wsd="Gc02" wsdexp="能够_不能_可以_不可" parent="4" relate="ADV" />
+                <word id="4" cont="继续" pos="v" ne="O" wsd="Ig03" wsdexp="进行_继续_流逝" parent="2" relate="VOB" />
+                <word id="5" cont="给" pos="p" ne="O" wsd="Je05" wsdexp="给予_寄予_加以_冠以" parent="18" relate="DE" />
+                <word id="6" cont="党" pos="n" ne="O" wsd="Di07" wsdexp="政党" parent="5" relate="POB" />
+                <word id="7" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="8" cont="给" pos="p" ne="O" wsd="Je05" wsdexp="给予_寄予_加以_冠以" parent="18" relate="DE" />
+                <word id="9" cont="国家" pos="n" ne="O" wsd="Di02" wsdexp="国家_行政区划" parent="8" relate="POB" />
+                <word id="10" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="11" cont="给" pos="p" ne="O" wsd="Je05" wsdexp="给予_寄予_加以_冠以" parent="13" relate="ADV" />
+                <word id="12" cont="人民" pos="n" ne="O" wsd="Aa01" wsdexp="人_人民_众人" parent="11" relate="POB" />
+                <word id="13" cont="做" pos="v" ne="O" wsd="Hj12" wsdexp="做_施展_合作_尝试" parent="18" relate="DE">
+                    <arg id="0" type="受事" beg="14" end="17" />
+                </word>
+                <word id="14" cont="更" pos="d" ne="O" wsd="Ka04" wsdexp="更加" parent="15" relate="ADV" />
+                <word id="15" cont="多" pos="a" ne="O" wsd="Dn05" wsdexp="半_概数_若干" parent="16" relate="DE" />
+                <word id="16" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="17" relate="ATT" />
+                <word id="17" cont="事情" pos="n" ne="O" wsd="Da01" wsdexp="事情_事件_事故" parent="13" relate="VOB" />
+                <word id="18" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="2" relate="MT" />
+                <word id="19" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="2" cont="可是，他们却在全国胜利后两年多的和平环境中，经不起资产阶级自私自利思想作风的侵蚀和引诱，堕落蜕化了。" tag="10%">
+                <word id="0" cont="可是" pos="c" ne="O" wsd="Kc03" wsdexp="但是" parent="3" relate="CNJ" />
+                <word id="1" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="2" cont="他们" pos="r" ne="O" wsd="Aa04" wsdexp="他_他们" parent="3" relate="SBV" />
+                <word id="3" cont="却" pos="d" ne="O" wsd="Ka33" wsdexp="却_还_也_反而" parent="22" relate="ADV" />
+                <word id="4" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="16" relate="ADV" />
+                <word id="5" cont="全国" pos="n" ne="O" wsd="Di02" wsdexp="国家_行政区划" parent="6" relate="ATT" />
+                <word id="6" cont="胜利" pos="v" ne="O" wsd="If21" wsdexp="胜利_战败_被围_沦陷_亡国" parent="7" relate="ATT" />
+                <word id="7" cont="后" pos="nd" ne="O" wsd="Cb04" wsdexp="前_后_中" parent="4" relate="POB" />
+                <word id="8" cont="两" pos="m" ne="B-Nm" wsd="Dn04" wsdexp="基数_序数" parent="9" relate="QUN" />
+                <word id="9" cont="年" pos="q" ne="E-Nm" wsd="Ca18" wsdexp="年" parent="14" relate="ATT" />
+                <word id="10" cont="多" pos="a" ne="O" wsd="Dn05" wsdexp="半_概数_若干" parent="11" relate="DE" />
+                <word id="11" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="13" relate="ATT" />
+                <word id="12" cont="和平" pos="n" ne="O" wsd="Ef01" wsdexp="太平_安定_动荡_混乱" parent="13" relate="ATT" />
+                <word id="13" cont="环境" pos="n" ne="O" wsd="Da21" wsdexp="情况_境地_境界_环境" parent="14" relate="ATT" />
+                <word id="14" cont="中" pos="nd" ne="O" wsd="Da05" wsdexp="过程_内中" parent="4" relate="POB" />
+                <word id="15" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="16" cont="经不起" pos="v" ne="O" wsd="Ie18" wsdexp="禁得起_禁不起" parent="21" relate="DE">
+                    <arg id="0" type="方位" beg="4" end="14" />
+                    <arg id="1" type="受事" beg="17" end="17" />
+                    <arg id="2" type="受事" beg="18" end="18" />
+                    <arg id="3" type="受事" beg="19" end="20" />
+                </word>
+                <word id="17" cont="资产阶级" pos="n" ne="O" wsd="Di06" wsdexp="阶级" parent="16" relate="VOB" />
+                <word id="18" cont="自私自利" pos="i" ne="O" wsd="Ee40" wsdexp="公正_严明_偏心_无私_自私" parent="16" relate="VOB" />
+                <word id="19" cont="思想" pos="n" ne="O" wsd="Df01" wsdexp="思想_感想" parent="20" relate="ATT" />
+                <word id="20" cont="作风" pos="n" ne="O" wsd="De01" wsdexp="性格_品行_道德_作风" parent="16" relate="VOB" />
+                <word id="21" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="22" relate="ATT" />
+                <word id="22" cont="侵蚀" pos="v" ne="O" wsd="Hi61" wsdexp="破坏_侵害_毒害_腐蚀" parent="-1" relate="HED" />
+                <word id="23" cont="和" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="24" relate="LAD" />
+                <word id="24" cont="引诱" pos="v" ne="O" wsd="Hi57" wsdexp="恐吓_威胁_引诱" parent="22" relate="COO" />
+                <word id="25" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="26" cont="堕落" pos="v" ne="O" wsd="Ie12" wsdexp="进步_退步_堕落" parent="22" relate="VV">
+                    <arg id="0" type="受事" beg="27" end="28" />
+                </word>
+                <word id="27" cont="蜕化" pos="v" ne="O" wsd="Ie12" wsdexp="进步_退步_堕落" parent="26" relate="VOB" />
+                <word id="28" cont="了" pos="u" ne="O" wsd="Kd05" wsdexp="吗_的话_罢了_了_哉" parent="27" relate="MT" />
+                <word id="29" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="3" cont="他们完完全全变成党、国家和人民的无可饶恕的叛徒了。" tag="20%">
+                <word id="0" cont="他们" pos="r" ne="O" wsd="Aa04" wsdexp="他_他们" parent="2" relate="SBV" />
+                <word id="1" cont="完完全全" pos="a" ne="O" wsd="Eb07" wsdexp="完整_齐全_残缺_零碎_破烂" parent="2" relate="ADV" />
+                <word id="2" cont="变成" pos="v" ne="O" wsd="Ih01" wsdexp="变化_成为" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="0" />
+                    <arg id="1" type="受事" beg="3" end="7" />
+                    <arg id="2" type="受事" beg="8" end="13" />
+                </word>
+                <word id="3" cont="党" pos="n" ne="O" wsd="Di07" wsdexp="政党" parent="2" relate="VOB" />
+                <word id="4" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="5" cont="国家" pos="n" ne="O" wsd="Di02" wsdexp="国家_行政区划" parent="3" relate="COO" />
+                <word id="6" cont="和" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="7" relate="LAD" />
+                <word id="7" cont="人民" pos="n" ne="O" wsd="Aa01" wsdexp="人_人民_众人" parent="3" relate="COO" />
+                <word id="8" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="12" relate="ATT" />
+                <word id="9" cont="无可" pos="d" ne="O" wsd="Ed01" wsdexp="真实_虚假_确实_虚妄" parent="10" relate="ADV" />
+                <word id="10" cont="饶恕" pos="v" ne="O" wsd="Gb18" wsdexp="怜悯_忍心_体谅_原谅" parent="11" relate="DE" />
+                <word id="11" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="12" relate="ATT" />
+                <word id="12" cont="叛徒" pos="n" ne="O" wsd="An01" wsdexp="反动派_叛徒" parent="2" relate="VOB" />
+                <word id="13" cont="了" pos="u" ne="O" wsd="Kd05" wsdexp="吗_的话_罢了_了_哉" parent="12" relate="RAD" />
+                <word id="14" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+        </para>
+        <para id="4">
+            <sent id="0" cont="刘青山、张子善为贪图可鄙的不正当的个人享受，为满足其极端腐化的生活需要，竟凭藉职权，不顾国法党纪，不管人民疾苦，盗窃机场建筑款、救灾粮、治河款、干部家属救济粮、地方粮及剥削克扣民工工资、骗取银行贷款等共达一百五十五亿四千九百五十四万元的巨额，藉机关生产名义，进行违法经营，并交送四十九亿巨款给奸商张文义倒卖钢铁木材，瓦解国营厂矿，任其投机倒把，扰乱金融，使人民资财损失达十四亿元之多。" tag="">
+                <word id="0" cont="刘青山" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="3" relate="SBV" />
+                <word id="1" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="2" cont="张子善" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="0" relate="COO" />
+                <word id="3" cont="为" pos="p" ne="O" wsd="Kb05" wsdexp="为_被_以_由" parent="4" relate="ADV" />
+                <word id="4" cont="贪图" pos="v" ne="O" wsd="Gb04" wsdexp="希望_要求_追求" parent="11" relate="SBV" />
+                <word id="5" cont="可鄙" pos="a" ne="O" wsd="Ed41" wsdexp="可怕_可憎_可怜_可笑" parent="6" relate="DE" />
+                <word id="6" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="11" relate="ATT" />
+                <word id="7" cont="不" pos="d" ne="O" wsd="Ka18" wsdexp="不_没" parent="8" relate="ADV" />
+                <word id="8" cont="正当" pos="a" ne="O" wsd="Ee42" wsdexp="高尚_庸俗_下流" parent="9" relate="DE" />
+                <word id="9" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="11" relate="ATT" />
+                <word id="10" cont="个人" pos="n" ne="O" wsd="Ed55" wsdexp="公_私" parent="11" relate="ATT" />
+                <word id="11" cont="享受" pos="v" ne="O" wsd="Je13" wsdexp="遭受_享受" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="4" />
+                </word>
+                <word id="12" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="13" cont="为" pos="p" ne="O" wsd="Kb05" wsdexp="为_被_以_由" parent="14" relate="ADV" />
+                <word id="14" cont="满足" pos="v" ne="O" wsd="Jc05" wsdexp="需要_提供_满足" parent="11" relate="VV">
+                    <arg id="0" type="受事" beg="15" end="19" />
+                    <arg id="1" type="受事" beg="20" end="20" />
+                </word>
+                <word id="15" cont="其" pos="r" ne="O" wsd="Ba10" wsdexp="它_什么" parent="17" relate="SBV" />
+                <word id="16" cont="极端" pos="d" ne="O" wsd="Ka02" wsdexp="最_至多_至少" parent="17" relate="ADV" />
+                <word id="17" cont="腐化" pos="v" ne="O" wsd="Ie12" wsdexp="进步_退步_堕落" parent="18" relate="DE">
+                    <arg id="0" type="施事" beg="15" end="15" />
+                </word>
+                <word id="18" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="19" relate="ATT" />
+                <word id="19" cont="生活" pos="v" ne="O" wsd="Hj01" wsdexp="生活_居住" parent="14" relate="VOB" />
+                <word id="20" cont="需要" pos="v" ne="O" wsd="Jc05" wsdexp="需要_提供_满足" parent="14" relate="VOB" />
+                <word id="21" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="22" cont="竟" pos="d" ne="O" wsd="Ka27" wsdexp="竟然_几乎" parent="23" relate="ADV" />
+                <word id="23" cont="凭" pos="p" ne="O" wsd="Kb06" wsdexp="依靠_通过" parent="24" relate="ADV" />
+                <word id="24" cont="藉" pos="v" ne="O" wsd="Bp30" wsdexp="垫子_罩子" parent="14" relate="VV">
+                    <arg id="0" type="受事" beg="25" end="25" />
+                    <arg id="1" type="受事" beg="31" end="33" />
+                </word>
+                <word id="25" cont="职权" pos="n" ne="O" wsd="Di21" wsdexp="权力_权利" parent="24" relate="VOB" />
+                <word id="26" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="27" cont="不顾" pos="v" ne="O" wsd="Gb22" wsdexp="顾及_理睬" parent="24" relate="VV">
+                    <arg id="0" type="受事" beg="28" end="29" />
+                </word>
+                <word id="28" cont="国法" pos="n" ne="O" wsd="Di25" wsdexp="法律_纪律" parent="29" relate="ATT" />
+                <word id="29" cont="党纪" pos="n" ne="O" wsd="Di25" wsdexp="法律_纪律" parent="27" relate="VOB" />
+                <word id="30" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="31" cont="不管" pos="c" ne="O" wsd="Kc10" wsdexp="不论_只管" parent="33" relate="LAD" />
+                <word id="32" cont="人民" pos="n" ne="O" wsd="Aa01" wsdexp="人_人民_众人" parent="33" relate="ATT" />
+                <word id="33" cont="疾苦" pos="n" ne="O" wsd="Da10" wsdexp="苦痛_磨难_难题_挫折_冤屈" parent="24" relate="VOB" />
+                <word id="34" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="35" cont="盗窃" pos="v" ne="O" wsd="Hn03" wsdexp="抢劫_盗窃" parent="65" relate="DE">
+                    <arg id="0" type="受事" beg="36" end="52" />
+                    <arg id="1" type="受事" beg="53" end="55" />
+                </word>
+                <word id="36" cont="机场" pos="n" ne="O" wsd="Cb08" wsdexp="地方_地点" parent="37" relate="ATT" />
+                <word id="37" cont="建筑" pos="n" ne="O" wsd="Bn01" wsdexp="建筑_房屋" parent="38" relate="ATT" />
+                <word id="38" cont="款" pos="n" ne="O" wsd="Dj08" wsdexp="帐目_款项_费用" parent="43" relate="ATT" />
+                <word id="39" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="40" cont="救灾粮" pos="n" ne="O" wsd="Br01" wsdexp="粮食" parent="38" relate="COO" />
+                <word id="41" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="42" cont="治河" pos="v" ne="O" wsd="-1" wsdexp="" parent="38" relate="COO" />
+                <word id="43" cont="款" pos="n" ne="O" wsd="Dj08" wsdexp="帐目_款项_费用" parent="35" relate="VOB" />
+                <word id="44" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="45" cont="干部" pos="n" ne="O" wsd="Ae01" wsdexp="职工_职员" parent="46" relate="ATT" />
+                <word id="46" cont="家属" pos="n" ne="O" wsd="Ah01" wsdexp="亲戚_眷属" parent="47" relate="ATT" />
+                <word id="47" cont="救济粮" pos="n" ne="O" wsd="Br01" wsdexp="粮食" parent="43" relate="COO" />
+                <word id="48" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="49" cont="地方" pos="n" ne="O" wsd="Di02" wsdexp="国家_行政区划" parent="50" relate="ATT" />
+                <word id="50" cont="粮" pos="n" ne="O" wsd="Br01" wsdexp="粮食" parent="43" relate="COO" />
+                <word id="51" cont="及" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="52" relate="LAD" />
+                <word id="52" cont="剥削" pos="v" ne="O" wsd="Hn12" wsdexp="剥削_搜刮" parent="43" relate="COO" />
+                <word id="53" cont="克扣" pos="v" ne="O" wsd="Hn10" wsdexp="贪污_舞弊_剽窃_侵吞" parent="35" relate="VOB">
+                    <arg id="0" type="受事" beg="54" end="55" />
+                </word>
+                <word id="54" cont="民工" pos="n" ne="O" wsd="Ae02" wsdexp="工人" parent="55" relate="ATT" />
+                <word id="55" cont="工资" pos="n" ne="O" wsd="Dj07" wsdexp="工资_报酬" parent="53" relate="VOB" />
+                <word id="56" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="57" cont="骗取" pos="v" ne="O" wsd="Hi49" wsdexp="欺骗_捣鬼" parent="65" relate="DE">
+                    <arg id="0" type="受事" beg="58" end="59" />
+                </word>
+                <word id="58" cont="银行" pos="n" ne="O" wsd="Dm04" wsdexp="商店" parent="59" relate="ATT" />
+                <word id="59" cont="贷款" pos="n" ne="O" wsd="He07" wsdexp="放债_借债" parent="57" relate="VOB" />
+                <word id="60" cont="等" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="57" relate="MT" />
+                <word id="61" cont="共" pos="d" ne="O" wsd="He16" wsdexp="合计" parent="62" relate="ADV" />
+                <word id="62" cont="达" pos="v" ne="O" wsd="Je12" wsdexp="取得_达到_挽回" parent="65" relate="DE">
+                    <arg id="0" type="受事-数量性质" beg="63" end="64" />
+                </word>
+                <word id="63" cont="一百五十五亿四千九百五十四万" pos="m" ne="B-Nm" wsd="-1" wsdexp="" parent="64" relate="QUN" />
+                <word id="64" cont="元" pos="q" ne="E-Nm" wsd="Dj05" wsdexp="货币_票据" parent="62" relate="VOB" />
+                <word id="65" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="66" relate="ATT" />
+                <word id="66" cont="巨额" pos="b" ne="O" wsd="Eb01" wsdexp="多_少_稀少" parent="24" relate="IC" />
+                <word id="67" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="68" cont="藉" pos="v" ne="O" wsd="Bp30" wsdexp="垫子_罩子" parent="24" relate="VV">
+                    <arg id="0" type="受事" beg="69" end="71" />
+                </word>
+                <word id="69" cont="机关" pos="n" ne="O" wsd="Dm01" wsdexp="政府" parent="70" relate="ATT" />
+                <word id="70" cont="生产" pos="v" ne="O" wsd="Hd29" wsdexp="出产" parent="71" relate="ATT" />
+                <word id="71" cont="名义" pos="n" ne="O" wsd="Dd15" wsdexp="名称_姓名_生肖_性别" parent="68" relate="VOB" />
+                <word id="72" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="73" cont="进行" pos="v" ne="O" wsd="Ig03" wsdexp="进行_继续_流逝" parent="68" relate="VV">
+                    <arg id="0" type="受事" beg="74" end="75" />
+                </word>
+                <word id="74" cont="违法" pos="v" ne="O" wsd="Hn01" wsdexp="违法" parent="75" relate="ATT" />
+                <word id="75" cont="经营" pos="v" ne="O" wsd="Hc02" wsdexp="管理_经营" parent="73" relate="VOB" />
+                <word id="76" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="77" cont="并" pos="c" ne="O" wsd="Kc02" wsdexp="并且_况且" parent="78" relate="CNJ" />
+                <word id="78" cont="交" pos="v" ne="O" wsd="He10" wsdexp="征收_交纳_支付" parent="73" relate="VV" />
+                <word id="79" cont="送" pos="v" ne="O" wsd="Hi26" wsdexp="赠送_赠答_捐献" parent="73" relate="VV" />
+                <word id="80" cont="四十九亿" pos="m" ne="S-Nm" wsd="-1" wsdexp="" parent="81" relate="QUN" />
+                <word id="81" cont="巨款" pos="n" ne="O" wsd="Dj08" wsdexp="帐目_款项_费用" parent="85" relate="SBV" />
+                <word id="82" cont="给" pos="p" ne="O" wsd="Je05" wsdexp="给予_寄予_加以_冠以" parent="85" relate="ADV" />
+                <word id="83" cont="奸商" pos="n" ne="O" wsd="An04" wsdexp="流氓_骗子_投机商" parent="84" relate="ATT" />
+                <word id="84" cont="张文义" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="82" relate="POB" />
+                <word id="85" cont="倒卖" pos="v" ne="O" wsd="He03" wsdexp="买_卖" parent="73" relate="VV">
+                    <arg id="0" type="施事" beg="80" end="81" />
+                    <arg id="1" type="受事" beg="86" end="87" />
+                </word>
+                <word id="86" cont="钢铁" pos="n" ne="O" wsd="Bm02" wsdexp="钢_铁" parent="87" relate="ATT" />
+                <word id="87" cont="木材" pos="n" ne="O" wsd="Bm03" wsdexp="木料_软木" parent="85" relate="VOB" />
+                <word id="88" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="89" cont="瓦解" pos="v" ne="O" wsd="Ie08" wsdexp="团结_合并_分裂" parent="73" relate="VV">
+                    <arg id="0" type="受事" beg="90" end="92" />
+                </word>
+                <word id="90" cont="国营" pos="b" ne="O" wsd="Hc02" wsdexp="管理_经营" parent="91" relate="ATT" />
+                <word id="91" cont="厂" pos="n" ne="O" wsd="Dm03" wsdexp="工厂_工场" parent="92" relate="ATT" />
+                <word id="92" cont="矿" pos="n" ne="O" wsd="Dm03" wsdexp="工厂_工场" parent="89" relate="VOB" />
+                <word id="93" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="94" cont="任" pos="v" ne="O" wsd="Hj24" wsdexp="担负_承揽_担任_兼职" parent="73" relate="VV">
+                    <arg id="0" type="受事" beg="95" end="95" />
+                    <arg id="1" type="受事" beg="96" end="96" />
+                </word>
+                <word id="95" cont="其" pos="r" ne="O" wsd="Ba10" wsdexp="它_什么" parent="94" relate="VOB" />
+                <word id="96" cont="投机倒把" pos="i" ne="O" wsd="Hn13" wsdexp="投机_囤积_走私" parent="94" relate="VOB" />
+                <word id="97" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="98" cont="扰乱" pos="v" ne="O" wsd="Hi52" wsdexp="打搅_麻烦_惑乱" parent="73" relate="VV">
+                    <arg id="0" type="受事" beg="99" end="99" />
+                </word>
+                <word id="99" cont="金融" pos="n" ne="O" wsd="Di18" wsdexp="事业_行业_工程" parent="98" relate="VOB" />
+                <word id="100" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="101" cont="使" pos="v" ne="O" wsd="Je04" wsdexp="引起_导致_使得" parent="108" relate="DE" />
+                <word id="102" cont="人民" pos="n" ne="O" wsd="Aa01" wsdexp="人_人民_众人" parent="103" relate="ATT" />
+                <word id="103" cont="资财" pos="n" ne="O" wsd="Dj03" wsdexp="产业_财物" parent="104" relate="ATT" />
+                <word id="104" cont="损失" pos="n" ne="O" wsd="If24" wsdexp="赚_亏_损失_亏空" parent="105" relate="SBV" />
+                <word id="105" cont="达" pos="v" ne="O" wsd="Je12" wsdexp="取得_达到_挽回" parent="108" relate="DE">
+                    <arg id="0" type="施事" beg="102" end="104" />
+                    <arg id="1" type="受事-数量性质" beg="106" end="107" />
+                </word>
+                <word id="106" cont="十四亿" pos="m" ne="B-Nm" wsd="-1" wsdexp="" parent="107" relate="QUN" />
+                <word id="107" cont="元" pos="q" ne="E-Nm" wsd="Dj05" wsdexp="货币_票据" parent="105" relate="VOB" />
+                <word id="108" cont="之" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="109" relate="ATT" />
+                <word id="109" cont="多" pos="a" ne="O" wsd="Dn05" wsdexp="半_概数_若干" parent="68" relate="IC" />
+                <word id="110" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+        </para>
+        <para id="5">
+            <sent id="0" cont="刘青山、张子善等在获取非法暴利、大量贪污后，则任意浪费挥霍，过着可耻的腐化生活。" tag="">
+                <word id="0" cont="刘青山" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="5" relate="SBV" />
+                <word id="1" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="2" cont="张子善" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="0" relate="COO" />
+                <word id="3" cont="等" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="0" relate="RAD" />
+                <word id="4" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="5" relate="ADV" />
+                <word id="5" cont="获取" pos="v" ne="O" wsd="Je12" wsdexp="取得_达到_挽回" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="3" />
+                    <arg id="1" type="受事" beg="6" end="7" />
+                </word>
+                <word id="6" cont="非法" pos="b" ne="O" wsd="Ed45" wsdexp="合法_非法" parent="7" relate="ATT" />
+                <word id="7" cont="暴利" pos="n" ne="O" wsd="Dj04" wsdexp="资本_利润_利息_债务" parent="5" relate="VOB" />
+                <word id="8" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="9" cont="大量" pos="m" ne="O" wsd="Eb01" wsdexp="多_少_稀少" parent="15" relate="IS" />
+                <word id="10" cont="贪污" pos="v" ne="O" wsd="Hn10" wsdexp="贪污_舞弊_剽窃_侵吞" parent="11" relate="ATT" />
+                <word id="11" cont="后" pos="nd" ne="O" wsd="Cb04" wsdexp="前_后_中" parent="15" relate="ADV" />
+                <word id="12" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="13" cont="则" pos="c" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="15" relate="CNJ" />
+                <word id="14" cont="任意" pos="d" ne="O" wsd="Ka19" wsdexp="竭力_任意_胡乱" parent="15" relate="ADV" />
+                <word id="15" cont="浪费" pos="v" ne="O" wsd="He13" wsdexp="积累_花费_浪费_节省" parent="5" relate="VV">
+                    <arg id="0" type="方位" beg="10" end="11" />
+                    <arg id="1" type="受事" beg="16" end="16" />
+                </word>
+                <word id="16" cont="挥霍" pos="v" ne="O" wsd="He13" wsdexp="积累_花费_浪费_节省" parent="15" relate="VOB" />
+                <word id="17" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="18" cont="过" pos="v" ne="O" wsd="Kd02" wsdexp="来着_过" parent="21" relate="DE" />
+                <word id="19" cont="着" pos="u" ne="O" wsd="Fa18" wsdexp="穿_戴_佩带" parent="18" relate="MT" />
+                <word id="20" cont="可耻" pos="a" ne="O" wsd="Ed24" wsdexp="光荣_可耻" parent="21" relate="DE" />
+                <word id="21" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="23" relate="ATT" />
+                <word id="22" cont="腐化" pos="a" ne="O" wsd="Ie12" wsdexp="进步_退步_堕落" parent="23" relate="ATT" />
+                <word id="23" cont="生活" pos="v" ne="O" wsd="Hj01" wsdexp="生活_居住" parent="15" relate="IC" />
+                <word id="24" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="1" cont="刘青山吸食毒品竟至成瘾，据他们现在自供，刘、张二人开支及送礼即达三亿多元。" tag="">
+                <word id="0" cont="刘青山" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="1" relate="SBV" />
+                <word id="1" cont="吸食" pos="v" ne="O" wsd="Fc06" wsdexp="吃_嚼_咽_吮_喝" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="0" />
+                    <arg id="1" type="受事" beg="2" end="2" />
+                    <arg id="2" type="受事" beg="3" end="24" />
+                </word>
+                <word id="2" cont="毒品" pos="n" ne="O" wsd="Br14" wsdexp="毒品_鸦片_砒霜_烟" parent="1" relate="VOB" />
+                <word id="3" cont="竟" pos="d" ne="O" wsd="Ka27" wsdexp="竟然_几乎" parent="5" relate="ADV" />
+                <word id="4" cont="至" pos="p" ne="O" wsd="Kb02" wsdexp="从_到_沿" parent="5" relate="ADV" />
+                <word id="5" cont="成" pos="v" ne="O" wsd="Ih01" wsdexp="变化_成为" parent="1" relate="VOB">
+                    <arg id="0" type="受事" beg="6" end="6" />
+                </word>
+                <word id="6" cont="瘾" pos="n" ne="O" wsd="Df12" wsdexp="兴趣_嗜好" parent="5" relate="VOB" />
+                <word id="7" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="8" cont="据" pos="p" ne="O" wsd="Kb07" wsdexp="依照_根据_趁" parent="12" relate="ADV" />
+                <word id="9" cont="他们" pos="r" ne="O" wsd="Aa04" wsdexp="他_他们" parent="8" relate="POB" />
+                <word id="10" cont="现在" pos="nt" ne="O" wsd="Ca10" wsdexp="现在" parent="8" relate="POB" />
+                <word id="11" cont="自" pos="p" ne="O" wsd="Kb02" wsdexp="从_到_沿" parent="12" relate="ADV" />
+                <word id="12" cont="供" pos="v" ne="O" wsd="Jc05" wsdexp="需要_提供_满足" parent="5" relate="VV">
+                    <arg id="0" type="时间" beg="8" end="10" />
+                </word>
+                <word id="13" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="14" cont="刘" pos="nh" ne="S-Nh" wsd="Dd15" wsdexp="名称_姓名_生肖_性别" parent="21" relate="SBV" />
+                <word id="15" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="16" cont="张二人" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="17" relate="ATT" />
+                <word id="17" cont="开支" pos="n" ne="O" wsd="Dj08" wsdexp="帐目_款项_费用" parent="14" relate="COO" />
+                <word id="18" cont="及" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="19" relate="LAD" />
+                <word id="19" cont="送礼" pos="v" ne="O" wsd="Hi26" wsdexp="赠送_赠答_捐献" parent="14" relate="COO" />
+                <word id="20" cont="即" pos="d" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="21" relate="ADV" />
+                <word id="21" cont="达" pos="v" ne="O" wsd="Je12" wsdexp="取得_达到_挽回" parent="12" relate="IC">
+                    <arg id="0" type="施事" beg="14" end="19" />
+                    <arg id="1" type="受事-数量性质" beg="22" end="24" />
+                </word>
+                <word id="22" cont="三亿" pos="m" ne="B-Nm" wsd="-1" wsdexp="" parent="24" relate="QUN" />
+                <word id="23" cont="多" pos="m" ne="I-Nm" wsd="Dn05" wsdexp="半_概数_若干" parent="22" relate="RAD" />
+                <word id="24" cont="元" pos="q" ne="E-Nm" wsd="Dj05" wsdexp="货币_票据" parent="21" relate="VOB" />
+                <word id="25" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="2" cont="为消灭贪污罪证，张子善并亲手一次焚毁单据三百七十八张。" tag="">
+                <word id="0" cont="为" pos="p" ne="O" wsd="Kb05" wsdexp="为_被_以_由" parent="1" relate="ADV" />
+                <word id="1" cont="消灭" pos="v" ne="O" wsd="Jd10" wsdexp="克服_消灭_消除" parent="-1" relate="HED">
+                    <arg id="0" type="受事" beg="2" end="3" />
+                </word>
+                <word id="2" cont="贪污罪" pos="n" ne="O" wsd="Di26" wsdexp="罪行_刑罚" parent="3" relate="ATT" />
+                <word id="3" cont="证" pos="n" ne="O" wsd="Ja04" wsdexp="显示_预示_证明" parent="1" relate="VOB" />
+                <word id="4" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="5" cont="张子善" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="10" relate="SBV" />
+                <word id="6" cont="并" pos="c" ne="O" wsd="Kc02" wsdexp="并且_况且" parent="10" relate="CNJ" />
+                <word id="7" cont="亲手" pos="d" ne="O" wsd="Ka24" wsdexp="亲自_挨次_一边_轮流" parent="10" relate="ADV" />
+                <word id="8" cont="一" pos="m" ne="B-Nm" wsd="Dn04" wsdexp="基数_序数" parent="9" relate="QUN" />
+                <word id="9" cont="次" pos="q" ne="E-Nm" wsd="Dn08" wsdexp="数量单位" parent="10" relate="ADV" />
+                <word id="10" cont="焚毁" pos="v" ne="O" wsd="Ia09" wsdexp="燃烧_焦" parent="1" relate="VV">
+                    <arg id="0" type="施事" beg="5" end="5" />
+                    <arg id="1" type="受事" beg="11" end="13" />
+                </word>
+                <word id="11" cont="单据" pos="n" ne="O" wsd="Bp19" wsdexp="单据_证书_凭证" parent="10" relate="VOB" />
+                <word id="12" cont="三百七十八" pos="m" ne="B-Nm" wsd="-1" wsdexp="" parent="13" relate="QUN" />
+                <word id="13" cont="张" pos="q" ne="E-Nm" wsd="Dn08" wsdexp="数量单位" parent="11" relate="APP" />
+                <word id="14" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+        </para>
+        <para id="6">
+            <sent id="0" cont="刘青山、张子善这种违法乱纪的非法罪恶行为，自然会遭到一切忠诚的共产党员和正直的政府工作人员的指责和反对的，因此，这些人们就成为刘青山、张子善等贪污罪犯极端痛恨的眼中钉。" tag="">
+                <word id="0" cont="刘青山" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="8" relate="ATT" />
+                <word id="1" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="2" cont="张子善" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="0" relate="COO" />
+                <word id="3" cont="这种" pos="r" ne="O" wsd="-1" wsdexp="" parent="8" relate="ATT" />
+                <word id="4" cont="违法乱纪" pos="i" ne="O" wsd="Hn01" wsdexp="违法" parent="5" relate="DE" />
+                <word id="5" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="8" relate="ATT" />
+                <word id="6" cont="非法" pos="b" ne="O" wsd="Ed45" wsdexp="合法_非法" parent="7" relate="ATT" />
+                <word id="7" cont="罪恶" pos="n" ne="O" wsd="Ee01" wsdexp="善良_仁慈_凶恶_阴险" parent="8" relate="ATT" />
+                <word id="8" cont="行为" pos="n" ne="O" wsd="Di20" wsdexp="动作_举动_行为" parent="34" relate="SBV" />
+                <word id="9" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="10" cont="自然" pos="d" ne="O" wsd="Ed51" wsdexp="天然_本来_现成" parent="11" relate="ADV" />
+                <word id="11" cont="会" pos="v" ne="O" wsd="Gc02" wsdexp="能够_不能_可以_不可" parent="12" relate="ADV" />
+                <word id="12" cont="遭到" pos="v" ne="O" wsd="Je13" wsdexp="遭受_享受" parent="23" relate="DE">
+                    <arg id="0" type="受事" beg="13" end="16" />
+                    <arg id="1" type="受事" beg="17" end="22" />
+                </word>
+                <word id="13" cont="一切" pos="r" ne="O" wsd="Eb02" wsdexp="单_双_全部_部分" parent="16" relate="ATT" />
+                <word id="14" cont="忠诚" pos="a" ne="O" wsd="Ee06" wsdexp="忠诚_叛逆" parent="15" relate="DE" />
+                <word id="15" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="16" relate="ATT" />
+                <word id="16" cont="共产党员" pos="n" ne="O" wsd="Aj07" wsdexp="成员" parent="12" relate="VOB" />
+                <word id="17" cont="和" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="22" relate="LAD" />
+                <word id="18" cont="正直" pos="a" ne="O" wsd="Ee03" wsdexp="正直_坦率" parent="19" relate="DE" />
+                <word id="19" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="22" relate="ATT" />
+                <word id="20" cont="政府" pos="n" ne="O" wsd="Dm01" wsdexp="政府" parent="21" relate="ATT" />
+                <word id="21" cont="工作" pos="v" ne="O" wsd="Hj11" wsdexp="工作_劳动" parent="22" relate="ATT" />
+                <word id="22" cont="人员" pos="n" ne="O" wsd="Aa01" wsdexp="人_人民_众人" parent="12" relate="VOB" />
+                <word id="23" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="24" relate="ATT" />
+                <word id="24" cont="指责" pos="v" ne="O" wsd="Hi21" wsdexp="责备_批评_攻击" parent="26" relate="SBV" />
+                <word id="25" cont="和" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="26" relate="LAD" />
+                <word id="26" cont="反对" pos="v" ne="O" wsd="Gb15" wsdexp="赞成_同意_拥护_反对" parent="27" relate="DE">
+                    <arg id="0" type="施事" beg="10" end="24" />
+                </word>
+                <word id="27" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="8" relate="RAD" />
+                <word id="28" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="29" cont="因此" pos="c" ne="O" wsd="Kc09" wsdexp="因为_所以" parent="34" relate="CNJ" />
+                <word id="30" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="31" cont="这些" pos="r" ne="O" wsd="Ed61" wsdexp="这个_那个_某个_各个_其他_何" parent="32" relate="ATT" />
+                <word id="32" cont="人们" pos="n" ne="O" wsd="Aa01" wsdexp="人_人民_众人" parent="34" relate="SBV" />
+                <word id="33" cont="就" pos="d" ne="O" wsd="Ka07" wsdexp="都_只_不止_甚至" parent="34" relate="ADV" />
+                <word id="34" cont="成为" pos="v" ne="O" wsd="Ih01" wsdexp="变化_成为" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="27" />
+                    <arg id="1" type="施事" beg="31" end="32" />
+                    <arg id="2" type="受事" beg="35" end="40" />
+                    <arg id="3" type="受事" beg="41" end="45" />
+                </word>
+                <word id="35" cont="刘青山" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="40" relate="ATT" />
+                <word id="36" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="37" cont="张子善" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="35" relate="COO" />
+                <word id="38" cont="等" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="35" relate="RAD" />
+                <word id="39" cont="贪污" pos="v" ne="O" wsd="Hn10" wsdexp="贪污_舞弊_剽窃_侵吞" parent="40" relate="ATT" />
+                <word id="40" cont="罪犯" pos="n" ne="O" wsd="An02" wsdexp="罪犯" parent="34" relate="VOB" />
+                <word id="41" cont="极端" pos="d" ne="O" wsd="Ka02" wsdexp="最_至多_至少" parent="42" relate="ADV" />
+                <word id="42" cont="痛恨" pos="v" ne="O" wsd="Gb10" wsdexp="讨厌_恨" parent="43" relate="DE" />
+                <word id="43" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="44" relate="ATT" />
+                <word id="44" cont="眼中" pos="nl" ne="O" wsd="Cb05" wsdexp="内_外" parent="45" relate="ADV" />
+                <word id="45" cont="钉" pos="v" ne="O" wsd="Bo03" wsdexp="机件" parent="34" relate="VOB">
+                    <arg id="0" type="地点" beg="41" end="44" />
+                </word>
+                <word id="46" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="1" cont="刘、张二人为遂行其贪污挥霍的卑鄙企图，就采取了敌对分子的手段来对待党的组织和人民干部。" tag="">
+                <word id="0" cont="刘" pos="nh" ne="S-Nh" wsd="Dd15" wsdexp="名称_姓名_生肖_性别" parent="3" relate="SBV" />
+                <word id="1" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="2" cont="张二人" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="0" relate="COO" />
+                <word id="3" cont="为" pos="p" ne="O" wsd="Kb05" wsdexp="为_被_以_由" parent="4" relate="ADV" />
+                <word id="4" cont="遂行" pos="v" ne="O" wsd="Hj19" wsdexp="从事_参加_脱离" parent="8" relate="DE" />
+                <word id="5" cont="其" pos="r" ne="O" wsd="Ba10" wsdexp="它_什么" parent="8" relate="DE" />
+                <word id="6" cont="贪污" pos="v" ne="O" wsd="Hn10" wsdexp="贪污_舞弊_剽窃_侵吞" parent="8" relate="DE" />
+                <word id="7" cont="挥霍" pos="v" ne="O" wsd="He13" wsdexp="积累_花费_浪费_节省" parent="8" relate="DE" />
+                <word id="8" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="10" relate="ATT" />
+                <word id="9" cont="卑鄙" pos="a" ne="O" wsd="Ee42" wsdexp="高尚_庸俗_下流" parent="10" relate="ADV" />
+                <word id="10" cont="企图" pos="v" ne="O" wsd="Gb05" wsdexp="计划_打算" parent="-1" relate="HED" />
+                <word id="11" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="12" cont="就" pos="d" ne="O" wsd="Ka07" wsdexp="都_只_不止_甚至" parent="13" relate="ADV" />
+                <word id="13" cont="采取" pos="v" ne="O" wsd="Hj28" wsdexp="使用_沿用_借鉴" parent="17" relate="DE">
+                    <arg id="0" type="受事" beg="15" end="16" />
+                </word>
+                <word id="14" cont="了" pos="u" ne="O" wsd="Kd05" wsdexp="吗_的话_罢了_了_哉" parent="13" relate="MT" />
+                <word id="15" cont="敌对" pos="a" ne="O" wsd="Ed33" wsdexp="和睦_不和_敌对" parent="16" relate="ATT" />
+                <word id="16" cont="分子" pos="n" ne="O" wsd="Aj07" wsdexp="成员" parent="13" relate="VOB" />
+                <word id="17" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="18" relate="ATT" />
+                <word id="18" cont="手段" pos="n" ne="O" wsd="Df09" wsdexp="计划_计策_手段" parent="19" relate="ATT" />
+                <word id="19" cont="来" pos="nd" ne="O" wsd="Hj63" wsdexp="来_去_来去" parent="20" relate="ADV" />
+                <word id="20" cont="对待" pos="v" ne="O" wsd="Hi08" wsdexp="招呼_招待_对待" parent="10" relate="VV">
+                    <arg id="0" type="方位" beg="12" end="19" />
+                    <arg id="1" type="受事" beg="21" end="26" />
+                </word>
+                <word id="21" cont="党" pos="n" ne="O" wsd="Di07" wsdexp="政党" parent="22" relate="DE" />
+                <word id="22" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="23" relate="ATT" />
+                <word id="23" cont="组织" pos="n" ne="O" wsd="Di10" wsdexp="团体_派别" parent="20" relate="VOB" />
+                <word id="24" cont="和" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="26" relate="LAD" />
+                <word id="25" cont="人民" pos="n" ne="O" wsd="Aa01" wsdexp="人_人民_众人" parent="26" relate="ATT" />
+                <word id="26" cont="干部" pos="n" ne="O" wsd="Ae01" wsdexp="职工_职员" parent="23" relate="COO" />
+                <word id="27" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="2" cont="首先，他们在政治上极力造成一个“唯我独尊”和“挥霍有道”的空气。" tag="">
+                <word id="0" cont="首先" pos="c" ne="O" wsd="Ka09" wsdexp="姑且_临时_预先_首先_准时" parent="7" relate="CNJ" />
+                <word id="1" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="2" cont="他们" pos="r" ne="O" wsd="Aa04" wsdexp="他_他们" parent="7" relate="SBV" />
+                <word id="3" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="7" relate="ADV" />
+                <word id="4" cont="政治" pos="n" ne="O" wsd="Di08" wsdexp="政治_政体_专政" parent="5" relate="ATT" />
+                <word id="5" cont="上" pos="nd" ne="O" wsd="Cb03" wsdexp="上_下_左_右" parent="3" relate="POB" />
+                <word id="6" cont="极力" pos="d" ne="O" wsd="Ka19" wsdexp="竭力_任意_胡乱" parent="7" relate="ADV" />
+                <word id="7" cont="造成" pos="v" ne="O" wsd="Je04" wsdexp="引起_导致_使得" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="2" end="2" />
+                    <arg id="1" type="方位" beg="3" end="5" />
+                    <arg id="2" type="受事" beg="8" end="8" />
+                    <arg id="3" type="受事" beg="10" end="10" />
+                    <arg id="4" type="受事" beg="12" end="19" />
+                </word>
+                <word id="8" cont="一个" pos="m" ne="O" wsd="Dn08" wsdexp="数量单位" parent="7" relate="VOB" />
+                <word id="9" cont="“" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="10" cont="唯我独尊" pos="i" ne="O" wsd="Ee34" wsdexp="谦虚_自卑_恭顺_骄傲" parent="7" relate="VOB" />
+                <word id="11" cont="”" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="12" cont="和" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="14" relate="LAD" />
+                <word id="13" cont="“" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="14" cont="挥霍" pos="v" ne="O" wsd="He13" wsdexp="积累_花费_浪费_节省" parent="7" relate="VOB">
+                    <arg id="0" type="受事" beg="15" end="19" />
+                </word>
+                <word id="15" cont="有" pos="v" ne="O" wsd="Jd04" wsdexp="有_占有" parent="18" relate="DE">
+                    <arg id="0" type="受事" beg="16" end="16" />
+                </word>
+                <word id="16" cont="道" pos="n" ne="O" wsd="Dn08" wsdexp="数量单位" parent="15" relate="VOB" />
+                <word id="17" cont="”" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="18" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="19" relate="ATT" />
+                <word id="19" cont="空气" pos="n" ne="O" wsd="Bg05" wsdexp="气" parent="14" relate="VOB" />
+                <word id="20" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="3" cont="刘青山说“老子们拼命打了天下，享受些又怎么样！" tag="">
+                <word id="0" cont="刘青山" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="1" relate="SBV" />
+                <word id="1" cont="说" pos="v" ne="O" wsd="Hi12" wsdexp="讲话_谈天" parent="13" relate="ADV">
+                    <arg id="0" type="施事" beg="0" end="0" />
+                    <arg id="1" type="受事" beg="3" end="8" />
+                </word>
+                <word id="2" cont="“" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="3" cont="老子" pos="n" ne="O" wsd="Aa02" wsdexp="我_我们" parent="6" relate="SBV" />
+                <word id="4" cont="们" pos="k" ne="O" wsd="Aa01" wsdexp="人_人民_众人" parent="3" relate="RAD" />
+                <word id="5" cont="拼命" pos="d" ne="O" wsd="Hj17" wsdexp="挣扎_冒险" parent="6" relate="ADV" />
+                <word id="6" cont="打" pos="v" ne="O" wsd="Fa01" wsdexp="打_拍_抚摩_搔_摸" parent="1" relate="VOB">
+                    <arg id="0" type="施事" beg="3" end="4" />
+                    <arg id="1" type="受事" beg="8" end="8" />
+                </word>
+                <word id="7" cont="了" pos="u" ne="O" wsd="Kd05" wsdexp="吗_的话_罢了_了_哉" parent="6" relate="MT" />
+                <word id="8" cont="天下" pos="n" ne="O" wsd="Di01" wsdexp="世界_社会_人间" parent="6" relate="VOB" />
+                <word id="9" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="10" cont="享受" pos="v" ne="O" wsd="Je13" wsdexp="遭受_享受" parent="1" relate="IC" />
+                <word id="11" cont="些" pos="q" ne="O" wsd="Dn05" wsdexp="半_概数_若干" parent="10" relate="VOB" />
+                <word id="12" cont="又" pos="d" ne="O" wsd="Ka14" wsdexp="再" parent="13" relate="ADV" />
+                <word id="13" cont="怎么样" pos="r" ne="O" wsd="Ka35" wsdexp="哪里_怎样_为什么" parent="-1" relate="HED" />
+                <word id="14" cont="！" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="4" cont="”“老子们打天下，小子们来享受！" tag="">
+                <word id="0" cont="”" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="1" cont="“" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="2" cont="老子" pos="n" ne="O" wsd="Aa02" wsdexp="我_我们" parent="4" relate="SBV" />
+                <word id="3" cont="们" pos="k" ne="O" wsd="Aa01" wsdexp="人_人民_众人" parent="2" relate="RAD" />
+                <word id="4" cont="打天下" pos="v" ne="O" wsd="Ha01" wsdexp="革命_解放" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="2" end="3" />
+                </word>
+                <word id="5" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="6" cont="小子" pos="n" ne="O" wsd="Aa01" wsdexp="人_人民_众人" parent="8" relate="SBV" />
+                <word id="7" cont="们" pos="k" ne="O" wsd="Aa01" wsdexp="人_人民_众人" parent="6" relate="RAD" />
+                <word id="8" cont="来" pos="v" ne="O" wsd="Hj63" wsdexp="来_去_来去" parent="9" relate="SBV">
+                    <arg id="0" type="施事" beg="6" end="7" />
+                </word>
+                <word id="9" cont="享受" pos="v" ne="O" wsd="Je13" wsdexp="遭受_享受" parent="4" relate="VV">
+                    <arg id="0" type="施事" beg="6" end="8" />
+                </word>
+                <word id="10" cont="！" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="5" cont="”张子善则说是天津地委内只能有“一个头”、“一个领袖”。" tag="">
+                <word id="0" cont="”" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="1" cont="张子善" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="3" relate="SBV" />
+                <word id="2" cont="则" pos="d" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="3" relate="ADV" />
+                <word id="3" cont="说" pos="v" ne="O" wsd="Hi12" wsdexp="讲话_谈天" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="1" end="1" />
+                    <arg id="1" type="受事" beg="4" end="4" />
+                    <arg id="2" type="受事" beg="5" end="10" />
+                    <arg id="3" type="受事-数量性质" beg="12" end="13" />
+                    <arg id="4" type="受事" beg="17" end="18" />
+                </word>
+                <word id="4" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="3" relate="VOB" />
+                <word id="5" cont="天津" pos="ns" ne="B-Ni" wsd="Di02" wsdexp="国家_行政区划" parent="6" relate="ATT" />
+                <word id="6" cont="地委" pos="n" ne="E-Ni" wsd="Dm01" wsdexp="政府" parent="7" relate="ATT" />
+                <word id="7" cont="内" pos="nd" ne="O" wsd="Cb05" wsdexp="内_外" parent="10" relate="ADV" />
+                <word id="8" cont="只" pos="d" ne="O" wsd="Ka07" wsdexp="都_只_不止_甚至" parent="9" relate="ADV" />
+                <word id="9" cont="能" pos="v" ne="O" wsd="Gc02" wsdexp="能够_不能_可以_不可" parent="10" relate="ADV" />
+                <word id="10" cont="有" pos="v" ne="O" wsd="Jd04" wsdexp="有_占有" parent="3" relate="VOB">
+                    <arg id="0" type="方位" beg="5" end="7" />
+                </word>
+                <word id="11" cont="“" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="12" cont="一个" pos="m" ne="O" wsd="Dn08" wsdexp="数量单位" parent="13" relate="QUN" />
+                <word id="13" cont="头" pos="q" ne="O" wsd="Bk02" wsdexp="头_脸_脑" parent="3" relate="VOB" />
+                <word id="14" cont="”" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="15" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="16" cont="“" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="17" cont="一个" pos="m" ne="O" wsd="Dn08" wsdexp="数量单位" parent="18" relate="QUN" />
+                <word id="18" cont="领袖" pos="n" ne="O" wsd="Af10" wsdexp="领袖_领导" parent="3" relate="VOB" />
+                <word id="19" cont="”" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="20" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="6" cont="有一个无耻之徒竟在“七一”纪念大会上高呼“向我们英明的领袖张专员致敬”，“在英明领袖张专员领导下前进”，而张则对人说：" tag="">
+                <word id="0" cont="有" pos="v" ne="O" wsd="Jd04" wsdexp="有_占有" parent="-1" relate="HED">
+                    <arg id="0" type="受事" beg="1" end="4" />
+                    <arg id="1" type="受事" beg="5" end="21" />
+                </word>
+                <word id="1" cont="一个" pos="m" ne="O" wsd="Dn08" wsdexp="数量单位" parent="4" relate="QUN" />
+                <word id="2" cont="无耻" pos="a" ne="O" wsd="Ed24" wsdexp="光荣_可耻" parent="3" relate="DE" />
+                <word id="3" cont="之" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="4" relate="ATT" />
+                <word id="4" cont="徒" pos="n" ne="O" wsd="Ka07" wsdexp="都_只_不止_甚至" parent="0" relate="VOB" />
+                <word id="5" cont="竟" pos="d" ne="O" wsd="Ka27" wsdexp="竟然_几乎" parent="6" relate="ADV" />
+                <word id="6" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="10" relate="ADV" />
+                <word id="7" cont="“" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="8" cont="七一" pos="m" ne="S-Nm" wsd="Ca25" wsdexp="节日_假日" parent="10" relate="IS" />
+                <word id="9" cont="”" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="10" cont="纪念" pos="v" ne="O" wsd="Ba02" wsdexp="生物_物品" parent="12" relate="ATT" />
+                <word id="11" cont="大会" pos="n" ne="O" wsd="Di23" wsdexp="会议_宴会" parent="12" relate="ATT" />
+                <word id="12" cont="上" pos="nd" ne="O" wsd="Cb03" wsdexp="上_下_左_右" parent="13" relate="ADV" />
+                <word id="13" cont="高呼" pos="v" ne="O" wsd="Fc10" wsdexp="喊_叫" parent="0" relate="VOB">
+                    <arg id="0" type="方位" beg="5" end="12" />
+                    <arg id="1" type="受事" beg="15" end="21" />
+                </word>
+                <word id="14" cont="“" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="15" cont="向" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="21" relate="ADV" />
+                <word id="16" cont="我们" pos="r" ne="O" wsd="Aa02" wsdexp="我_我们" parent="15" relate="POB" />
+                <word id="17" cont="英明" pos="a" ne="O" wsd="Ee14" wsdexp="聪明_愚笨_糊涂" parent="18" relate="DE" />
+                <word id="18" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="20" relate="ATT" />
+                <word id="19" cont="领袖" pos="n" ne="O" wsd="Af10" wsdexp="领袖_领导" parent="20" relate="ATT" />
+                <word id="20" cont="张专员" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="15" relate="POB" />
+                <word id="21" cont="致敬" pos="v" ne="O" wsd="Fd09" wsdexp="行礼_下跪_磕头" parent="13" relate="VOB" />
+                <word id="22" cont="”" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="23" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="24" cont="“" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="25" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="31" relate="ADV" />
+                <word id="26" cont="英明" pos="a" ne="O" wsd="Ee14" wsdexp="聪明_愚笨_糊涂" parent="31" relate="ADV" />
+                <word id="27" cont="领袖" pos="n" ne="O" wsd="Af10" wsdexp="领袖_领导" parent="28" relate="ATT" />
+                <word id="28" cont="张专员" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="29" relate="ATT" />
+                <word id="29" cont="领导" pos="n" ne="O" wsd="Af10" wsdexp="领袖_领导" parent="30" relate="ATT" />
+                <word id="30" cont="下" pos="nd" ne="O" wsd="Cb03" wsdexp="上_下_左_右" parent="31" relate="ADV" />
+                <word id="31" cont="前进" pos="v" ne="O" wsd="Hj67" wsdexp="前进_后退_追赶" parent="0" relate="VV">
+                    <arg id="0" type="方位" beg="27" end="30" />
+                </word>
+                <word id="32" cont="”" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="33" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="34" cont="而" pos="c" ne="O" wsd="Kc03" wsdexp="但是" parent="39" relate="CNJ" />
+                <word id="35" cont="张" pos="nh" ne="S-Nh" wsd="Dn08" wsdexp="数量单位" parent="39" relate="SBV" />
+                <word id="36" cont="则" pos="d" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="39" relate="ADV" />
+                <word id="37" cont="对" pos="p" ne="O" wsd="Kb04" wsdexp="对于_关于" parent="39" relate="ADV" />
+                <word id="38" cont="人" pos="n" ne="O" wsd="Aa01" wsdexp="人_人民_众人" parent="37" relate="POB" />
+                <word id="39" cont="说" pos="v" ne="O" wsd="Hi12" wsdexp="讲话_谈天" parent="31" relate="VV">
+                    <arg id="0" type="施事" beg="35" end="35" />
+                </word>
+                <word id="40" cont="：" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="7" cont="“应向这个同志学习”。" tag="">
+                <word id="0" cont="“" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="1" cont="应" pos="v" ne="O" wsd="Gc03" wsdexp="应该_必须_无须" parent="5" relate="ADV" />
+                <word id="2" cont="向" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="5" relate="ADV" />
+                <word id="3" cont="这个" pos="r" ne="O" wsd="Ed61" wsdexp="这个_那个_某个_各个_其他_何" parent="4" relate="ATT" />
+                <word id="4" cont="同志" pos="n" ne="O" wsd="Aa03" wsdexp="你_你们" parent="2" relate="POB" />
+                <word id="5" cont="学习" pos="v" ne="O" wsd="Hg08" wsdexp="学习_从师_模仿" parent="-1" relate="HED" />
+                <word id="6" cont="”" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="7" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="8" cont="其次，他们在组织上除极力压抑民主、取消批评与自我批评、施行其家长制的统治外，凡是坚持党的原则，维护人民利益，对刘、张所为提出不同意见和反对他们的同志，莫不遭受其打击与排挤；" tag="">
+                <word id="0" cont="其次" pos="c" ne="O" wsd="Ed28" wsdexp="重要_次要_不足道" parent="6" relate="CNJ" />
+                <word id="1" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="2" cont="他们" pos="r" ne="O" wsd="Aa04" wsdexp="他_他们" parent="6" relate="SBV" />
+                <word id="3" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="6" relate="ATT" />
+                <word id="4" cont="组织" pos="n" ne="O" wsd="Di10" wsdexp="团体_派别" parent="5" relate="ATT" />
+                <word id="5" cont="上" pos="nd" ne="O" wsd="Cb03" wsdexp="上_下_左_右" parent="3" relate="POB" />
+                <word id="6" cont="除" pos="p" ne="O" wsd="Kc07" wsdexp="除了_除非_若非_否则" parent="8" relate="ADV" />
+                <word id="7" cont="极力" pos="d" ne="O" wsd="Ka19" wsdexp="竭力_任意_胡乱" parent="8" relate="ADV" />
+                <word id="8" cont="压抑" pos="v" ne="O" wsd="Gb16" wsdexp="忍耐_克制_禁不住" parent="21" relate="ATT">
+                    <arg id="0" type="受事" beg="9" end="16" />
+                </word>
+                <word id="9" cont="民主" pos="a" ne="O" wsd="Ee38" wsdexp="民主_专制_讲理_蛮横" parent="8" relate="VOB" />
+                <word id="10" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="11" cont="取消" pos="v" ne="O" wsd="Hc06" wsdexp="撤销" parent="9" relate="COO">
+                    <arg id="0" type="受事" beg="12" end="12" />
+                </word>
+                <word id="12" cont="批评" pos="v" ne="O" wsd="Hi21" wsdexp="责备_批评_攻击" parent="11" relate="VOB" />
+                <word id="13" cont="与" pos="p" ne="O" wsd="Kc01" wsdexp="和_或者" parent="16" relate="ADV" />
+                <word id="14" cont="自我批评" pos="n" ne="O" wsd="Hi21" wsdexp="责备_批评_攻击" parent="13" relate="POB" />
+                <word id="15" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="16" cont="施行" pos="v" ne="O" wsd="Ie13" wsdexp="实行_举行" parent="11" relate="COO" />
+                <word id="17" cont="其" pos="r" ne="O" wsd="Ba10" wsdexp="它_什么" parent="18" relate="ATT" />
+                <word id="18" cont="家长制" pos="n" ne="O" wsd="Di09" wsdexp="政策_制度_所有制_体制" parent="19" relate="DE" />
+                <word id="19" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="20" relate="ATT" />
+                <word id="20" cont="统治" pos="v" ne="O" wsd="Ha03" wsdexp="上台_统治_下台" parent="21" relate="ATT" />
+                <word id="21" cont="外" pos="nd" ne="O" wsd="Cb05" wsdexp="内_外" parent="24" relate="ADV" />
+                <word id="22" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="23" cont="凡是" pos="d" ne="O" wsd="Kc06" wsdexp="连_凡是" parent="24" relate="ADV" />
+                <word id="24" cont="坚持" pos="v" ne="O" wsd="Gb02" wsdexp="感到_认为_主张" parent="-1" relate="HED">
+                    <arg id="0" type="方位" beg="0" end="21" />
+                    <arg id="1" type="受事" beg="25" end="27" />
+                </word>
+                <word id="25" cont="党" pos="n" ne="O" wsd="Di07" wsdexp="政党" parent="26" relate="DE" />
+                <word id="26" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="27" relate="ATT" />
+                <word id="27" cont="原则" pos="n" ne="O" wsd="Dd11" wsdexp="标准_榜样" parent="24" relate="VOB" />
+                <word id="28" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="29" cont="维护" pos="v" ne="O" wsd="Hi37" wsdexp="照顾_服侍_护理_保护" parent="24" relate="VV">
+                    <arg id="0" type="受事" beg="30" end="31" />
+                </word>
+                <word id="30" cont="人民" pos="n" ne="O" wsd="Aa01" wsdexp="人_人民_众人" parent="31" relate="ATT" />
+                <word id="31" cont="利益" pos="n" ne="O" wsd="Dd03" wsdexp="益处_害处_利弊" parent="29" relate="VOB" />
+                <word id="32" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="33" cont="对" pos="p" ne="O" wsd="Kb04" wsdexp="对于_关于" parent="37" relate="ADV" />
+                <word id="34" cont="刘" pos="nh" ne="S-Nh" wsd="Dd15" wsdexp="名称_姓名_生肖_性别" parent="33" relate="POB" />
+                <word id="35" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="36" cont="张所" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="34" relate="COO" />
+                <word id="37" cont="为" pos="p" ne="O" wsd="Kb05" wsdexp="为_被_以_由" parent="38" relate="ADV" />
+                <word id="38" cont="提出" pos="v" ne="O" wsd="Hi14" wsdexp="表示_表达_阐明_表露_发誓" parent="24" relate="VV">
+                    <arg id="0" type="受事" beg="39" end="40" />
+                    <arg id="1" type="受事" beg="41" end="45" />
+                </word>
+                <word id="39" cont="不同" pos="a" ne="O" wsd="Jb02" wsdexp="不同_相反" parent="40" relate="ATT" />
+                <word id="40" cont="意见" pos="n" ne="O" wsd="Df14" wsdexp="想法_主意_见解" parent="38" relate="VOB" />
+                <word id="41" cont="和" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="42" relate="CNJ" />
+                <word id="42" cont="反对" pos="v" ne="O" wsd="Gb15" wsdexp="赞成_同意_拥护_反对" parent="38" relate="VOB">
+                    <arg id="0" type="受事" beg="43" end="45" />
+                </word>
+                <word id="43" cont="他们" pos="r" ne="O" wsd="Aa04" wsdexp="他_他们" parent="44" relate="DE" />
+                <word id="44" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="45" relate="ATT" />
+                <word id="45" cont="同志" pos="n" ne="O" wsd="Aa03" wsdexp="你_你们" parent="42" relate="VOB" />
+                <word id="46" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="47" cont="莫不" pos="d" ne="O" wsd="Ka17" wsdexp="也许_大概_难道" parent="48" relate="ADV" />
+                <word id="48" cont="遭受" pos="v" ne="O" wsd="Je13" wsdexp="遭受_享受" parent="38" relate="VV">
+                    <arg id="0" type="受事" beg="49" end="52" />
+                </word>
+                <word id="49" cont="其" pos="r" ne="O" wsd="Ba10" wsdexp="它_什么" parent="50" relate="SBV" />
+                <word id="50" cont="打击" pos="v" ne="O" wsd="Fa01" wsdexp="打_拍_抚摩_搔_摸" parent="48" relate="VOB">
+                    <arg id="0" type="施事" beg="49" end="49" />
+                </word>
+                <word id="51" cont="与" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="52" relate="LAD" />
+                <word id="52" cont="排挤" pos="v" ne="O" wsd="Hi58" wsdexp="欺负_侮辱_排挤" parent="50" relate="COO" />
+                <word id="53" cont="；" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="9" cont="凡是意志薄弱和他们气味相投共同作弊的分子，则大肆拉拢，造成一个公然行盗的小宗派集团。" tag="">
+                <word id="0" cont="凡是" pos="j" ne="O" wsd="Kc06" wsdexp="连_凡是" parent="1" relate="ATT" />
+                <word id="1" cont="意志" pos="n" ne="O" wsd="Df11" wsdexp="志气_意志_干劲" parent="2" relate="SBV" />
+                <word id="2" cont="薄弱" pos="a" ne="O" wsd="Ed19" wsdexp="稳固_强大_弱小" parent="5" relate="ATT" />
+                <word id="3" cont="和" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="5" relate="LAD" />
+                <word id="4" cont="他们" pos="r" ne="O" wsd="Aa04" wsdexp="他_他们" parent="5" relate="ATT" />
+                <word id="5" cont="气味" pos="n" ne="O" wsd="Bg06" wsdexp="颜色_气息_味道" parent="6" relate="SBV" />
+                <word id="6" cont="相投" pos="v" ne="O" wsd="Jc02" wsdexp="相投_巧合" parent="9" relate="DE">
+                    <arg id="0" type="施事" beg="0" end="5" />
+                    <arg id="1" type="受事" beg="7" end="8" />
+                </word>
+                <word id="7" cont="共同" pos="d" ne="O" wsd="Ka23" wsdexp="共同_分头_独自_互相_从中" parent="8" relate="ADV" />
+                <word id="8" cont="作弊" pos="v" ne="O" wsd="Hn10" wsdexp="贪污_舞弊_剽窃_侵吞" parent="6" relate="VOB" />
+                <word id="9" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="10" relate="ATT" />
+                <word id="10" cont="分子" pos="n" ne="O" wsd="Aj07" wsdexp="成员" parent="14" relate="SBV" />
+                <word id="11" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="12" cont="则" pos="c" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="14" relate="CNJ" />
+                <word id="13" cont="大肆" pos="d" ne="O" wsd="Ed15" wsdexp="猛烈_尖锐_柔和" parent="14" relate="ADV" />
+                <word id="14" cont="拉拢" pos="v" ne="O" wsd="Hi46" wsdexp="谄媚_笼络_攀附_迎合" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="10" />
+                </word>
+                <word id="15" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="16" cont="造成" pos="v" ne="O" wsd="Je04" wsdexp="引起_导致_使得" parent="14" relate="VV" />
+                <word id="17" cont="一个" pos="m" ne="O" wsd="Dn08" wsdexp="数量单位" parent="19" relate="QUN" />
+                <word id="18" cont="公然" pos="d" ne="O" wsd="Ed44" wsdexp="公开_秘密" parent="19" relate="ADV" />
+                <word id="19" cont="行" pos="v" ne="O" wsd="Di20" wsdexp="动作_举动_行为" parent="14" relate="VV">
+                    <arg id="0" type="受事" beg="20" end="24" />
+                </word>
+                <word id="20" cont="盗" pos="v" ne="O" wsd="Hn03" wsdexp="抢劫_盗窃" parent="21" relate="DE" />
+                <word id="21" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="24" relate="ATT" />
+                <word id="22" cont="小" pos="a" ne="O" wsd="Ea03" wsdexp="大_中_小" parent="24" relate="ATT" />
+                <word id="23" cont="宗派" pos="n" ne="O" wsd="Di10" wsdexp="团体_派别" parent="24" relate="ATT" />
+                <word id="24" cont="集团" pos="n" ne="O" wsd="Di10" wsdexp="团体_派别" parent="19" relate="VOB" />
+                <word id="25" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="10" cont="这个小集团在思想上和组织上又是和资产阶级分子千丝万缕地结成了不解之缘。" tag="">
+                <word id="0" cont="这个" pos="r" ne="O" wsd="Ed61" wsdexp="这个_那个_某个_各个_其他_何" parent="2" relate="ATT" />
+                <word id="1" cont="小" pos="a" ne="O" wsd="Ea03" wsdexp="大_中_小" parent="2" relate="ATT" />
+                <word id="2" cont="集团" pos="n" ne="O" wsd="Di10" wsdexp="团体_派别" parent="10" relate="SBV" />
+                <word id="3" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="10" relate="ADV" />
+                <word id="4" cont="思想" pos="n" ne="O" wsd="Df01" wsdexp="思想_感想" parent="5" relate="ATT" />
+                <word id="5" cont="上" pos="nd" ne="O" wsd="Cb03" wsdexp="上_下_左_右" parent="3" relate="POB" />
+                <word id="6" cont="和" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="8" relate="LAD" />
+                <word id="7" cont="组织" pos="n" ne="O" wsd="Hc03" wsdexp="安置_部署_调动_整顿_整编" parent="8" relate="ATT" />
+                <word id="8" cont="上" pos="nd" ne="O" wsd="Cb03" wsdexp="上_下_左_右" parent="3" relate="POB" />
+                <word id="9" cont="又" pos="d" ne="O" wsd="Ka14" wsdexp="再" parent="10" relate="ADV" />
+                <word id="10" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="2" />
+                    <arg id="1" type="方位" beg="3" end="8" />
+                    <arg id="2" type="受事" beg="11" end="13" />
+                    <arg id="3" type="受事" beg="14" end="18" />
+                </word>
+                <word id="11" cont="和" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="13" relate="LAD" />
+                <word id="12" cont="资产阶级" pos="n" ne="O" wsd="Di06" wsdexp="阶级" parent="13" relate="ATT" />
+                <word id="13" cont="分子" pos="n" ne="O" wsd="Aj07" wsdexp="成员" parent="10" relate="VOB" />
+                <word id="14" cont="千丝万缕" pos="i" ne="O" wsd="Ed35" wsdexp="单纯_复杂" parent="15" relate="DI" />
+                <word id="15" cont="地" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="16" relate="ADV" />
+                <word id="16" cont="结成" pos="v" ne="O" wsd="Ie02" wsdexp="连接_纠缠_积压_结合_割裂" parent="10" relate="VOB">
+                    <arg id="0" type="受事" beg="18" end="18" />
+                </word>
+                <word id="17" cont="了" pos="u" ne="O" wsd="Kd05" wsdexp="吗_的话_罢了_了_哉" parent="16" relate="MT" />
+                <word id="18" cont="不解之缘" pos="i" ne="O" wsd="Db10" wsdexp="关系_友谊_缘分" parent="16" relate="VOB" />
+                <word id="19" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="11" cont="这就是刘青山、张子善等反党的“组织”原则。" tag="">
+                <word id="0" cont="这" pos="r" ne="O" wsd="Ed61" wsdexp="这个_那个_某个_各个_其他_何" parent="1" relate="SBV" />
+                <word id="1" cont="就是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="0" />
+                    <arg id="1" type="受事" beg="2" end="5" />
+                    <arg id="2" type="受事" beg="6" end="9" />
+                    <arg id="3" type="受事" beg="11" end="11" />
+                </word>
+                <word id="2" cont="刘青山" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="1" relate="VOB" />
+                <word id="3" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="4" cont="张子善" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="2" relate="COO" />
+                <word id="5" cont="等" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="2" relate="RAD" />
+                <word id="6" cont="反党" pos="v" ne="O" wsd="Ha07" wsdexp="叛变_通敌" parent="7" relate="DE" />
+                <word id="7" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="9" relate="ATT" />
+                <word id="8" cont="“" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="9" cont="组织" pos="n" ne="O" wsd="Di10" wsdexp="团体_派别" parent="1" relate="VOB" />
+                <word id="10" cont="”" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="11" cont="原则" pos="n" ne="O" wsd="Dd11" wsdexp="标准_榜样" parent="1" relate="VOB" />
+                <word id="12" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="12" cont="再次，刘、张“作贼心虚”，为了掩盖其罪恶勾当，则在上下左右之间公行贿赂，到处拉人下水，恶风所及，邪气上升，以达其腐蚀党的组织和人民干部的目的。" tag="">
+                <word id="0" cont="再次" pos="d" ne="O" wsd="Ka14" wsdexp="再" parent="6" relate="ADV" />
+                <word id="1" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="2" cont="刘" pos="nh" ne="S-Nh" wsd="Dd15" wsdexp="名称_姓名_生肖_性别" parent="6" relate="IS" />
+                <word id="3" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="4" cont="张" pos="nh" ne="S-Nh" wsd="Dn08" wsdexp="数量单位" parent="2" relate="COO" />
+                <word id="5" cont="“" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="6" cont="作" pos="v" ne="O" wsd="Hj12" wsdexp="做_施展_合作_尝试" parent="-1" relate="HED">
+                    <arg id="0" type="受事" beg="7" end="7" />
+                </word>
+                <word id="7" cont="贼" pos="n" ne="O" wsd="An01" wsdexp="反动派_叛徒" parent="6" relate="VOB" />
+                <word id="8" cont="心虚" pos="a" ne="O" wsd="Ee13" wsdexp="勇敢_怯懦" parent="6" relate="CMP" />
+                <word id="9" cont="”" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="10" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="11" cont="为了" pos="p" ne="O" wsd="Kb05" wsdexp="为_被_以_由" parent="12" relate="ADV" />
+                <word id="12" cont="掩盖" pos="v" ne="O" wsd="Hi20" wsdexp="隐瞒_保密_揭露" parent="6" relate="VV">
+                    <arg id="0" type="受事" beg="13" end="15" />
+                </word>
+                <word id="13" cont="其" pos="r" ne="O" wsd="Ba10" wsdexp="它_什么" parent="15" relate="ATT" />
+                <word id="14" cont="罪恶" pos="n" ne="O" wsd="Ee01" wsdexp="善良_仁慈_凶恶_阴险" parent="15" relate="ATT" />
+                <word id="15" cont="勾当" pos="n" ne="O" wsd="Da01" wsdexp="事情_事件_事故" parent="12" relate="VOB" />
+                <word id="16" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="17" cont="则" pos="c" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="18" relate="ADV" />
+                <word id="18" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="19" relate="ADV" />
+                <word id="19" cont="上下左右" pos="i" ne="O" wsd="-1" wsdexp="" parent="23" relate="ATT" />
+                <word id="20" cont="之间" pos="nd" ne="O" wsd="Cb04" wsdexp="前_后_中" parent="21" relate="ATT" />
+                <word id="21" cont="公" pos="b" ne="O" wsd="Ed55" wsdexp="公_私" parent="22" relate="ATT" />
+                <word id="22" cont="行" pos="n" ne="O" wsd="Fb01" wsdexp="走_跑" parent="23" relate="ATT" />
+                <word id="23" cont="贿赂" pos="v" ne="O" wsd="Hn09" wsdexp="钻营_贿赂_受贿" parent="6" relate="VV" />
+                <word id="24" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="25" cont="到处" pos="d" ne="O" wsd="Cb09" wsdexp="到处" parent="26" relate="ADV" />
+                <word id="26" cont="拉" pos="v" ne="O" wsd="Fa02" wsdexp="拉_推_拖" parent="23" relate="IC">
+                    <arg id="0" type="受事" beg="27" end="27" />
+                </word>
+                <word id="27" cont="人" pos="n" ne="O" wsd="Aa01" wsdexp="人_人民_众人" parent="26" relate="VOB" />
+                <word id="28" cont="下水" pos="v" ne="O" wsd="Br06" wsdexp="菜肴_荤菜_素菜" parent="26" relate="VV" />
+                <word id="29" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="30" cont="恶" pos="a" ne="O" wsd="Ee01" wsdexp="善良_仁慈_凶恶_阴险" parent="31" relate="ATT" />
+                <word id="31" cont="风" pos="n" ne="O" wsd="Bf02" wsdexp="风_云" parent="32" relate="DI" />
+                <word id="32" cont="所" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="33" relate="ATT" />
+                <word id="33" cont="及" pos="v" ne="O" wsd="Kc01" wsdexp="和_或者" parent="23" relate="IC" />
+                <word id="34" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="35" cont="邪气" pos="n" ne="O" wsd="Di14" wsdexp="风俗_习惯_风气" parent="36" relate="SBV" />
+                <word id="36" cont="上升" pos="v" ne="O" wsd="Ih06" wsdexp="削弱" parent="23" relate="IC">
+                    <arg id="0" type="施事" beg="35" end="35" />
+                </word>
+                <word id="37" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="38" cont="以" pos="p" ne="O" wsd="Kb05" wsdexp="为_被_以_由" parent="39" relate="ADV" />
+                <word id="39" cont="达" pos="v" ne="O" wsd="Je12" wsdexp="取得_达到_挽回" parent="6" relate="VV">
+                    <arg id="0" type="受事" beg="40" end="47" />
+                    <arg id="1" type="受事" beg="48" end="49" />
+                </word>
+                <word id="40" cont="其" pos="r" ne="O" wsd="Ba10" wsdexp="它_什么" parent="42" relate="ATT" />
+                <word id="41" cont="腐蚀" pos="v" ne="O" wsd="Hi61" wsdexp="破坏_侵害_毒害_腐蚀" parent="42" relate="ATT" />
+                <word id="42" cont="党" pos="n" ne="O" wsd="Di07" wsdexp="政党" parent="43" relate="DE" />
+                <word id="43" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="44" relate="ATT" />
+                <word id="44" cont="组织" pos="n" ne="O" wsd="Hc03" wsdexp="安置_部署_调动_整顿_整编" parent="39" relate="VOB" />
+                <word id="45" cont="和" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="47" relate="LAD" />
+                <word id="46" cont="人民" pos="n" ne="O" wsd="Aa01" wsdexp="人_人民_众人" parent="47" relate="ATT" />
+                <word id="47" cont="干部" pos="n" ne="O" wsd="Ae01" wsdexp="职工_职员" parent="44" relate="COO" />
+                <word id="48" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="49" relate="ATT" />
+                <word id="49" cont="目的" pos="n" ne="O" wsd="Db05" wsdexp="目的_宗旨" parent="39" relate="VOB" />
+                <word id="50" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+        </para>
+        <para id="7">
+            <sent id="0" cont="由此可见，刘青山、张子善已不仅仅是两个普通的贪污罪犯，两个普通的窃盗，而是像党的二中全会所预见的，他们是经不起敌人糖衣炮弹的攻击，向敌人投降了的，并很快地实际上成为反动分子在党内的代理人，肆无忌惮地从内部来腐蚀党和瓦解党。" tag="">
+                <word id="0" cont="由此可见" pos="c" ne="O" wsd="Kc09" wsdexp="因为_所以" parent="7" relate="CNJ" />
+                <word id="1" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="2" cont="刘青山" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="7" relate="SBV" />
+                <word id="3" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="4" cont="张子善" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="2" relate="COO" />
+                <word id="5" cont="已" pos="d" ne="O" wsd="Ka12" wsdexp="已经_方才_正在" parent="7" relate="ADV" />
+                <word id="6" cont="不仅仅" pos="d" ne="O" wsd="Kc05" wsdexp="不但_何止" parent="7" relate="ADV" />
+                <word id="7" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="2" end="4" />
+                    <arg id="1" type="受事" beg="8" end="13" />
+                    <arg id="2" type="受事" beg="15" end="20" />
+                </word>
+                <word id="8" cont="两" pos="m" ne="B-Nm" wsd="Dn04" wsdexp="基数_序数" parent="9" relate="QUN" />
+                <word id="9" cont="个" pos="q" ne="E-Nm" wsd="Dn08" wsdexp="数量单位" parent="13" relate="ATT" />
+                <word id="10" cont="普通" pos="a" ne="O" wsd="Ed04" wsdexp="杰出_异常_普通" parent="11" relate="DE" />
+                <word id="11" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="13" relate="ATT" />
+                <word id="12" cont="贪污" pos="v" ne="O" wsd="Hn10" wsdexp="贪污_舞弊_剽窃_侵吞" parent="13" relate="ATT" />
+                <word id="13" cont="罪犯" pos="n" ne="O" wsd="An02" wsdexp="罪犯" parent="7" relate="VOB" />
+                <word id="14" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="15" cont="两" pos="m" ne="B-Nm" wsd="Dn04" wsdexp="基数_序数" parent="16" relate="QUN" />
+                <word id="16" cont="个" pos="q" ne="E-Nm" wsd="Dn08" wsdexp="数量单位" parent="18" relate="DE" />
+                <word id="17" cont="普通" pos="a" ne="O" wsd="Ed04" wsdexp="杰出_异常_普通" parent="18" relate="DE" />
+                <word id="18" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="19" relate="ADV" />
+                <word id="19" cont="窃" pos="v" ne="O" wsd="Hn03" wsdexp="抢劫_盗窃" parent="7" relate="VOB">
+                    <arg id="0" type="受事" beg="20" end="20" />
+                </word>
+                <word id="20" cont="盗" pos="v" ne="O" wsd="Hn03" wsdexp="抢劫_盗窃" parent="19" relate="VOB" />
+                <word id="21" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="22" cont="而是" pos="c" ne="O" wsd="Kc06" wsdexp="连_凡是" parent="7" relate="VV" />
+                <word id="23" cont="像" pos="p" ne="O" wsd="Jb03" wsdexp="相似_例如" parent="25" relate="DE" />
+                <word id="24" cont="党" pos="n" ne="O" wsd="Di07" wsdexp="政党" parent="25" relate="DE" />
+                <word id="25" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="7" relate="MT" />
+                <word id="26" cont="二中全会" pos="j" ne="O" wsd="Di23" wsdexp="会议_宴会" parent="28" relate="SBV" />
+                <word id="27" cont="所" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="28" relate="LAD" />
+                <word id="28" cont="预见" pos="v" ne="O" wsd="Df14" wsdexp="想法_主意_见解" parent="29" relate="DE">
+                    <arg id="0" type="施事" beg="26" end="26" />
+                </word>
+                <word id="29" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="32" relate="SBV" />
+                <word id="30" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="31" cont="他们" pos="r" ne="O" wsd="Aa04" wsdexp="他_他们" parent="32" relate="SBV" />
+                <word id="32" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="7" relate="VV">
+                    <arg id="0" type="施事" beg="26" end="29" />
+                    <arg id="1" type="施事" beg="31" end="31" />
+                    <arg id="2" type="受事" beg="33" end="33" />
+                    <arg id="3" type="受事" beg="34" end="34" />
+                    <arg id="4" type="受事" beg="37" end="37" />
+                </word>
+                <word id="33" cont="经不起" pos="v" ne="O" wsd="Ie18" wsdexp="禁得起_禁不起" parent="32" relate="VOB" />
+                <word id="34" cont="敌人" pos="n" ne="O" wsd="Aj01" wsdexp="朋友_恩人_仇人_对手" parent="32" relate="VOB" />
+                <word id="35" cont="糖衣炮弹" pos="i" ne="O" wsd="Dg06" wsdexp="诱饵_圈套_护身符" parent="36" relate="DE" />
+                <word id="36" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="32" relate="MT" />
+                <word id="37" cont="攻击" pos="v" ne="O" wsd="Hb03" wsdexp="进攻_抵抗_回击" parent="32" relate="VOB" />
+                <word id="38" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="39" cont="向" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="41" relate="ADV" />
+                <word id="40" cont="敌人" pos="n" ne="O" wsd="Aj01" wsdexp="朋友_恩人_仇人_对手" parent="39" relate="POB" />
+                <word id="41" cont="投降" pos="v" ne="O" wsd="Hi45" wsdexp="调解_屈服_降伏_讲和" parent="43" relate="DE" />
+                <word id="42" cont="了" pos="u" ne="O" wsd="Kd05" wsdexp="吗_的话_罢了_了_哉" parent="41" relate="MT" />
+                <word id="43" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="32" relate="MT" />
+                <word id="44" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="45" cont="并" pos="c" ne="O" wsd="Kc02" wsdexp="并且_况且" parent="49" relate="CNJ" />
+                <word id="46" cont="很快" pos="d" ne="O" wsd="Eb23" wsdexp="快_慢" parent="47" relate="DI" />
+                <word id="47" cont="地" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="49" relate="ADV" />
+                <word id="48" cont="实际上" pos="d" ne="O" wsd="Ka30" wsdexp="实在_其实_不免_莫如" parent="49" relate="ADV" />
+                <word id="49" cont="成为" pos="v" ne="O" wsd="Ih01" wsdexp="变化_成为" parent="32" relate="IC">
+                    <arg id="0" type="受事" beg="50" end="51" />
+                </word>
+                <word id="50" cont="反动" pos="a" ne="O" wsd="Ee37" wsdexp="革命_反动_进步_落后" parent="51" relate="ATT" />
+                <word id="51" cont="分子" pos="n" ne="O" wsd="Aj07" wsdexp="成员" parent="49" relate="VOB" />
+                <word id="52" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="49" relate="CMP" />
+                <word id="53" cont="党内" pos="nl" ne="O" wsd="Cb05" wsdexp="内_外" parent="52" relate="POB" />
+                <word id="54" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="55" relate="ATT" />
+                <word id="55" cont="代理人" pos="n" ne="O" wsd="Aj13" wsdexp="专人_代表" parent="52" relate="POB" />
+                <word id="56" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="57" cont="肆无忌惮" pos="i" ne="O" wsd="Ee11" wsdexp="安分_放肆_散漫" parent="58" relate="DI" />
+                <word id="58" cont="地" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="61" relate="ADV" />
+                <word id="59" cont="从" pos="p" ne="O" wsd="Kb02" wsdexp="从_到_沿" parent="61" relate="ADV" />
+                <word id="60" cont="内部" pos="nd" ne="O" wsd="Da05" wsdexp="过程_内中" parent="59" relate="POB" />
+                <word id="61" cont="来" pos="v" ne="O" wsd="Hj63" wsdexp="来_去_来去" parent="49" relate="VV">
+                    <arg id="0" type="方位" beg="59" end="60" />
+                    <arg id="1" type="受事" beg="62" end="66" />
+                </word>
+                <word id="62" cont="腐蚀" pos="v" ne="O" wsd="Hi61" wsdexp="破坏_侵害_毒害_腐蚀" parent="63" relate="ATT" />
+                <word id="63" cont="党" pos="n" ne="O" wsd="Di07" wsdexp="政党" parent="61" relate="VOB" />
+                <word id="64" cont="和" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="66" relate="LAD" />
+                <word id="65" cont="瓦解" pos="v" ne="O" wsd="Ie08" wsdexp="团结_合并_分裂" parent="66" relate="ATT" />
+                <word id="66" cont="党" pos="n" ne="O" wsd="Di07" wsdexp="政党" parent="63" relate="COO" />
+                <word id="67" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="1" cont="刘青山、张子善公然责令干部，要动员党的组织―一无产阶级的先锋队，“保证完成”他们剥削民工三十亿元的“任务”。" tag="">
+                <word id="0" cont="刘青山" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="4" relate="SBV" />
+                <word id="1" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="2" cont="张子善" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="0" relate="COO" />
+                <word id="3" cont="公然" pos="d" ne="O" wsd="Ed44" wsdexp="公开_秘密" parent="4" relate="ADV" />
+                <word id="4" cont="责令" pos="v" ne="O" wsd="Hc11" wsdexp="召集_宣布_下令" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="2" />
+                    <arg id="1" type="受事" beg="5" end="5" />
+                    <arg id="2" type="受事" beg="13" end="29" />
+                </word>
+                <word id="5" cont="干部" pos="n" ne="O" wsd="Ae01" wsdexp="职工_职员" parent="4" relate="VOB" />
+                <word id="6" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="7" cont="要" pos="v" ne="O" wsd="Gc03" wsdexp="应该_必须_无须" parent="8" relate="ADV" />
+                <word id="8" cont="动员" pos="v" ne="O" wsd="Hc12" wsdexp="宣传_发动_提倡" parent="4" relate="VV">
+                    <arg id="0" type="受事" beg="9" end="11" />
+                </word>
+                <word id="9" cont="党" pos="n" ne="O" wsd="Di07" wsdexp="政党" parent="10" relate="DE" />
+                <word id="10" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="11" relate="ATT" />
+                <word id="11" cont="组织" pos="n" ne="O" wsd="Hc03" wsdexp="安置_部署_调动_整顿_整编" parent="8" relate="VOB" />
+                <word id="12" cont="―" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="13" cont="一" pos="m" ne="S-Nm" wsd="Dn04" wsdexp="基数_序数" parent="16" relate="QUN" />
+                <word id="14" cont="无产阶级" pos="n" ne="O" wsd="Di06" wsdexp="阶级" parent="15" relate="DE" />
+                <word id="15" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="16" relate="ATT" />
+                <word id="16" cont="先锋队" pos="n" ne="O" wsd="Di10" wsdexp="团体_派别" parent="4" relate="VOB" />
+                <word id="17" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="18" cont="“" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="19" cont="保证" pos="v" ne="O" wsd="Ka15" wsdexp="必然_管保_未必" parent="22" relate="DE">
+                    <arg id="0" type="受事" beg="20" end="20" />
+                </word>
+                <word id="20" cont="完成" pos="v" ne="O" wsd="Ie14" wsdexp="完成_实现" parent="19" relate="VOB" />
+                <word id="21" cont="”" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="22" cont="他们" pos="r" ne="O" wsd="Aa04" wsdexp="他_他们" parent="24" relate="ATT" />
+                <word id="23" cont="剥削" pos="v" ne="O" wsd="Hn12" wsdexp="剥削_搜刮" parent="24" relate="ATT" />
+                <word id="24" cont="民工" pos="n" ne="O" wsd="Ae02" wsdexp="工人" parent="26" relate="ATT" />
+                <word id="25" cont="三十亿" pos="m" ne="B-Nm" wsd="-1" wsdexp="" parent="26" relate="QUN" />
+                <word id="26" cont="元" pos="q" ne="E-Nm" wsd="Dj05" wsdexp="货币_票据" parent="27" relate="DE" />
+                <word id="27" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="29" relate="ATT" />
+                <word id="28" cont="“" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="29" cont="任务" pos="n" ne="O" wsd="Di22" wsdexp="责任_负担" parent="16" relate="COO" />
+                <word id="30" cont="”" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="31" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="2" cont="他们要把天津地区的党变成贪污罪犯们的驯服的工具，这就是刘清山、张子善贪污事件的特别严重的地方。" tag="">
+                <word id="0" cont="他们" pos="r" ne="O" wsd="Aa04" wsdexp="他_他们" parent="1" relate="SBV" />
+                <word id="1" cont="要" pos="v" ne="O" wsd="Gc03" wsdexp="应该_必须_无须" parent="7" relate="ADV">
+                    <arg id="0" type="施事" beg="0" end="0" />
+                </word>
+                <word id="2" cont="把" pos="p" ne="O" wsd="Kb03" wsdexp="跟_替_把_比" parent="5" relate="DE" />
+                <word id="3" cont="天津" pos="ns" ne="B-Ns" wsd="Di02" wsdexp="国家_行政区划" parent="4" relate="ATT" />
+                <word id="4" cont="地区" pos="n" ne="E-Ns" wsd="Cb08" wsdexp="地方_地点" parent="2" relate="POB" />
+                <word id="5" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="6" relate="ATT" />
+                <word id="6" cont="党" pos="n" ne="O" wsd="Di07" wsdexp="政党" parent="7" relate="SBV" />
+                <word id="7" cont="变成" pos="v" ne="O" wsd="Ih01" wsdexp="变化_成为" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="2" end="6" />
+                    <arg id="1" type="受事" beg="8" end="9" />
+                    <arg id="2" type="受事" beg="10" end="14" />
+                </word>
+                <word id="8" cont="贪污" pos="v" ne="O" wsd="Hn10" wsdexp="贪污_舞弊_剽窃_侵吞" parent="9" relate="ATT" />
+                <word id="9" cont="罪犯" pos="n" ne="O" wsd="An02" wsdexp="罪犯" parent="7" relate="VOB" />
+                <word id="10" cont="们" pos="k" ne="O" wsd="Aa01" wsdexp="人_人民_众人" parent="11" relate="DE" />
+                <word id="11" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="12" relate="ATT" />
+                <word id="12" cont="驯服" pos="v" ne="O" wsd="Ee07" wsdexp="温柔_暴躁_温顺_倔强_乖僻" parent="13" relate="DE" />
+                <word id="13" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="14" relate="ATT" />
+                <word id="14" cont="工具" pos="n" ne="O" wsd="Bo01" wsdexp="机器_工具_泵" parent="7" relate="VOB" />
+                <word id="15" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="16" cont="这" pos="r" ne="O" wsd="Ed61" wsdexp="这个_那个_某个_各个_其他_何" parent="17" relate="SBV" />
+                <word id="17" cont="就是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="7" relate="IC">
+                    <arg id="0" type="施事" beg="16" end="16" />
+                    <arg id="1" type="受事" beg="18" end="20" />
+                    <arg id="2" type="受事" beg="21" end="27" />
+                </word>
+                <word id="18" cont="刘清山" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="17" relate="VOB" />
+                <word id="19" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="20" cont="张子善" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="18" relate="COO" />
+                <word id="21" cont="贪污" pos="v" ne="O" wsd="Hn10" wsdexp="贪污_舞弊_剽窃_侵吞" parent="23" relate="DE">
+                    <arg id="0" type="受事" beg="22" end="22" />
+                </word>
+                <word id="22" cont="事件" pos="n" ne="O" wsd="Da01" wsdexp="事情_事件_事故" parent="21" relate="VOB" />
+                <word id="23" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="27" relate="ATT" />
+                <word id="24" cont="特别" pos="d" ne="O" wsd="Ka01" wsdexp="非常_多么" parent="25" relate="ADV" />
+                <word id="25" cont="严重" pos="a" ne="O" wsd="Ed29" wsdexp="紧急_严重_惊人" parent="26" relate="DE" />
+                <word id="26" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="27" relate="ATT" />
+                <word id="27" cont="地方" pos="n" ne="O" wsd="Cb08" wsdexp="地方_地点" parent="17" relate="VOB" />
+                <word id="28" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="3" cont="这一点，也正是曾经是一个革命者的刘青山、张子善身败名裂、背叛党和背叛人民的根本原因，正是河北省的党组织必须把刘、张贪污事件作为重大教训的意义所在，正是我党必须坚决把刘清山、张子善开除出党并交政府依法制裁的理由。" tag="">
+                <word id="0" cont="这" pos="r" ne="O" wsd="Ed61" wsdexp="这个_那个_某个_各个_其他_何" parent="2" relate="ATT" />
+                <word id="1" cont="一" pos="m" ne="B-Nm" wsd="Dn04" wsdexp="基数_序数" parent="2" relate="QUN" />
+                <word id="2" cont="点" pos="q" ne="E-Nm" wsd="Dn08" wsdexp="数量单位" parent="5" relate="SBV" />
+                <word id="3" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="4" cont="也" pos="d" ne="O" wsd="Ka33" wsdexp="却_还_也_反而" parent="5" relate="ADV" />
+                <word id="5" cont="正是" pos="v" ne="O" wsd="Ka26" wsdexp="恰巧_幸亏_偏偏" parent="-1" relate="HED">
+                    <arg id="0" type="施事-数量性质" beg="0" end="2" />
+                    <arg id="1" type="受事" beg="6" end="9" />
+                    <arg id="2" type="受事" beg="10" end="11" />
+                    <arg id="3" type="受事" beg="13" end="38" />
+                </word>
+                <word id="6" cont="曾经" pos="d" ne="O" wsd="Ka12" wsdexp="已经_方才_正在" parent="7" relate="ADV" />
+                <word id="7" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="5" relate="VOB">
+                    <arg id="0" type="受事" beg="8" end="9" />
+                </word>
+                <word id="8" cont="一个" pos="m" ne="O" wsd="Dn08" wsdexp="数量单位" parent="9" relate="QUN" />
+                <word id="9" cont="革命者" pos="n" ne="O" wsd="Aa01" wsdexp="人_人民_众人" parent="7" relate="VOB" />
+                <word id="10" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="11" relate="ATT" />
+                <word id="11" cont="刘青山" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="5" relate="VOB" />
+                <word id="12" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="13" cont="张子善" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="14" relate="SBV" />
+                <word id="14" cont="身败名裂" pos="i" ne="O" wsd="If05" wsdexp="成名_名誉扫地_出丑" parent="5" relate="VOB" />
+                <word id="15" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="16" cont="背叛" pos="v" ne="O" wsd="Ha07" wsdexp="叛变_通敌" parent="14" relate="COO">
+                    <arg id="0" type="受事" beg="17" end="17" />
+                    <arg id="1" type="受事" beg="18" end="23" />
+                </word>
+                <word id="17" cont="党" pos="n" ne="O" wsd="Di07" wsdexp="政党" parent="16" relate="VOB" />
+                <word id="18" cont="和" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="19" relate="CNJ" />
+                <word id="19" cont="背叛" pos="v" ne="O" wsd="Ha07" wsdexp="叛变_通敌" parent="16" relate="VOB">
+                    <arg id="0" type="受事" beg="20" end="23" />
+                </word>
+                <word id="20" cont="人民" pos="n" ne="O" wsd="Aa01" wsdexp="人_人民_众人" parent="21" relate="DE" />
+                <word id="21" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="23" relate="ATT" />
+                <word id="22" cont="根本" pos="a" ne="O" wsd="Ed28" wsdexp="重要_次要_不足道" parent="23" relate="ATT" />
+                <word id="23" cont="原因" pos="n" ne="O" wsd="Db01" wsdexp="原因_结果" parent="19" relate="VOB" />
+                <word id="24" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="25" cont="正是" pos="v" ne="O" wsd="Ka26" wsdexp="恰巧_幸亏_偏偏" parent="16" relate="VV">
+                    <arg id="0" type="受事" beg="26" end="35" />
+                    <arg id="1" type="受事" beg="36" end="38" />
+                </word>
+                <word id="26" cont="河北省" pos="ns" ne="S-Ns" wsd="Di02" wsdexp="国家_行政区划" parent="27" relate="DE" />
+                <word id="27" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="28" relate="ATT" />
+                <word id="28" cont="党组织" pos="n" ne="O" wsd="Di10" wsdexp="团体_派别" parent="34" relate="SBV" />
+                <word id="29" cont="必须" pos="d" ne="O" wsd="Gc03" wsdexp="应该_必须_无须" parent="34" relate="ADV" />
+                <word id="30" cont="把" pos="p" ne="O" wsd="Kb03" wsdexp="跟_替_把_比" parent="34" relate="ADV" />
+                <word id="31" cont="刘" pos="nh" ne="S-Nh" wsd="Dd15" wsdexp="名称_姓名_生肖_性别" parent="30" relate="POB" />
+                <word id="32" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="33" cont="张" pos="nh" ne="S-Nh" wsd="Dn08" wsdexp="数量单位" parent="31" relate="COO" />
+                <word id="34" cont="贪污" pos="v" ne="O" wsd="Hn10" wsdexp="贪污_舞弊_剽窃_侵吞" parent="25" relate="VOB">
+                    <arg id="0" type="施事" beg="26" end="28" />
+                    <arg id="1" type="受事" beg="35" end="35" />
+                </word>
+                <word id="35" cont="事件" pos="n" ne="O" wsd="Da01" wsdexp="事情_事件_事故" parent="34" relate="VOB" />
+                <word id="36" cont="作为" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="25" relate="VOB">
+                    <arg id="0" type="受事" beg="37" end="38" />
+                </word>
+                <word id="37" cont="重大" pos="a" ne="O" wsd="Ed28" wsdexp="重要_次要_不足道" parent="38" relate="ATT" />
+                <word id="38" cont="教训" pos="n" ne="O" wsd="Da16" wsdexp="经验_教训_印象" parent="36" relate="VOB" />
+                <word id="39" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="41" relate="ATT" />
+                <word id="40" cont="意义" pos="n" ne="O" wsd="Db06" wsdexp="规律_意义" parent="41" relate="ATT" />
+                <word id="41" cont="所在" pos="n" ne="O" wsd="Cb08" wsdexp="地方_地点" parent="44" relate="SBV" />
+                <word id="42" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="43" cont="正" pos="d" ne="O" wsd="Ka12" wsdexp="已经_方才_正在" parent="44" relate="ADV" />
+                <word id="44" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="5" relate="IC">
+                    <arg id="0" type="施事" beg="39" end="41" />
+                    <arg id="1" type="受事" beg="45" end="47" />
+                    <arg id="2" type="受事" beg="48" end="61" />
+                </word>
+                <word id="45" cont="我党" pos="n" ne="O" wsd="Dd05" wsdexp="范围_方面_环节" parent="44" relate="VOB" />
+                <word id="46" cont="必须" pos="d" ne="O" wsd="Gc03" wsdexp="应该_必须_无须" parent="47" relate="ADV" />
+                <word id="47" cont="坚决" pos="a" ne="O" wsd="Ee12" wsdexp="果断_坚强_坚定_脆弱" parent="45" relate="SBV" />
+                <word id="48" cont="把" pos="p" ne="O" wsd="Kb03" wsdexp="跟_替_把_比" parent="52" relate="ADV" />
+                <word id="49" cont="刘清山" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="52" relate="SBV" />
+                <word id="50" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="51" cont="张子善" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="49" relate="COO" />
+                <word id="52" cont="开除" pos="v" ne="O" wsd="Hc22" wsdexp="处罚_检讨" parent="44" relate="VOB">
+                    <arg id="0" type="施事" beg="49" end="51" />
+                    <arg id="1" type="受事" beg="54" end="54" />
+                    <arg id="2" type="受事" beg="60" end="61" />
+                </word>
+                <word id="53" cont="出" pos="v" ne="O" wsd="Hj64" wsdexp="出_进_出入" parent="52" relate="CMP" />
+                <word id="54" cont="党" pos="n" ne="O" wsd="Di07" wsdexp="政党" parent="52" relate="VOB" />
+                <word id="55" cont="并" pos="c" ne="O" wsd="Kc02" wsdexp="并且_况且" parent="56" relate="CNJ" />
+                <word id="56" cont="交" pos="v" ne="O" wsd="He10" wsdexp="征收_交纳_支付" parent="52" relate="VV">
+                    <arg id="0" type="受事" beg="57" end="57" />
+                </word>
+                <word id="57" cont="政府" pos="n" ne="O" wsd="Dm01" wsdexp="政府" parent="56" relate="VOB" />
+                <word id="58" cont="依法" pos="d" ne="O" wsd="Hi39" wsdexp="遵守_听从_违背_抗拒" parent="59" relate="ADV" />
+                <word id="59" cont="制裁" pos="v" ne="O" wsd="Je08" wsdexp="限制_约束_制止" parent="52" relate="VV" />
+                <word id="60" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="61" relate="ATT" />
+                <word id="61" cont="理由" pos="n" ne="O" wsd="Db04" wsdexp="借口_把柄_典故" parent="52" relate="VOB" />
+                <word id="62" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+        </para>
+        <para id="8">
+            <sent id="0" cont="在党中央和华北局的正确领导下，河北省党代表会议终于揭发了刘、张的罪行，并把他们开除出党，这是河北党的组织的一大胜利！" tag="10%">
+                <word id="0" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="4" relate="DE" />
+                <word id="1" cont="党中央" pos="ni" ne="S-Ni" wsd="Dm01" wsdexp="政府" parent="3" relate="ATT" />
+                <word id="2" cont="和" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="3" relate="LAD" />
+                <word id="3" cont="华北局" pos="n" ne="O" wsd="-1" wsdexp="" parent="0" relate="POB" />
+                <word id="4" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="5" relate="ATT" />
+                <word id="5" cont="正确" pos="a" ne="O" wsd="Ed12" wsdexp="正确_准确_错误" parent="7" relate="ATT" />
+                <word id="6" cont="领导" pos="n" ne="O" wsd="Af10" wsdexp="领袖_领导" parent="7" relate="ATT" />
+                <word id="7" cont="下" pos="nd" ne="O" wsd="Cb03" wsdexp="上_下_左_右" parent="13" relate="ADV" />
+                <word id="8" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="9" cont="河北省" pos="ns" ne="B-Nz" wsd="Di02" wsdexp="国家_行政区划" parent="10" relate="ATT" />
+                <word id="10" cont="党代表" pos="n" ne="I-Nz" wsd="Aj13" wsdexp="专人_代表" parent="11" relate="ATT" />
+                <word id="11" cont="会议" pos="n" ne="E-Nz" wsd="Di23" wsdexp="会议_宴会" parent="13" relate="SBV" />
+                <word id="12" cont="终于" pos="d" ne="O" wsd="Ka13" wsdexp="随即_即将_终于" parent="13" relate="ADV" />
+                <word id="13" cont="揭发" pos="v" ne="O" wsd="Hm01" wsdexp="检举_控告_诉讼" parent="34" relate="DE">
+                    <arg id="0" type="方位" beg="0" end="7" />
+                    <arg id="1" type="施事" beg="9" end="11" />
+                    <arg id="2" type="受事" beg="15" end="19" />
+                </word>
+                <word id="14" cont="了" pos="u" ne="O" wsd="Kd05" wsdexp="吗_的话_罢了_了_哉" parent="13" relate="MT" />
+                <word id="15" cont="刘" pos="nh" ne="S-Nh" wsd="Dd15" wsdexp="名称_姓名_生肖_性别" parent="18" relate="DE" />
+                <word id="16" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="17" cont="张" pos="nh" ne="S-Nh" wsd="Dn08" wsdexp="数量单位" parent="15" relate="COO" />
+                <word id="18" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="19" relate="ATT" />
+                <word id="19" cont="罪行" pos="n" ne="O" wsd="Di26" wsdexp="罪行_刑罚" parent="13" relate="VOB" />
+                <word id="20" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="21" cont="并" pos="c" ne="O" wsd="Kc02" wsdexp="并且_况且" parent="24" relate="CNJ" />
+                <word id="22" cont="把" pos="p" ne="O" wsd="Kb03" wsdexp="跟_替_把_比" parent="24" relate="ADV" />
+                <word id="23" cont="他们" pos="r" ne="O" wsd="Aa04" wsdexp="他_他们" parent="22" relate="POB" />
+                <word id="24" cont="开除" pos="v" ne="O" wsd="Hc22" wsdexp="处罚_检讨" parent="13" relate="VV">
+                    <arg id="0" type="受事" beg="26" end="26" />
+                </word>
+                <word id="25" cont="出" pos="v" ne="O" wsd="Hj64" wsdexp="出_进_出入" parent="24" relate="CMP" />
+                <word id="26" cont="党" pos="n" ne="O" wsd="Di07" wsdexp="政党" parent="24" relate="VOB" />
+                <word id="27" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="28" cont="这" pos="r" ne="O" wsd="Ed61" wsdexp="这个_那个_某个_各个_其他_何" parent="29" relate="SBV" />
+                <word id="29" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="13" relate="VV">
+                    <arg id="0" type="施事" beg="28" end="28" />
+                    <arg id="1" type="受事" beg="30" end="33" />
+                </word>
+                <word id="30" cont="河北" pos="ns" ne="B-Ni" wsd="Di02" wsdexp="国家_行政区划" parent="31" relate="ATT" />
+                <word id="31" cont="党" pos="n" ne="E-Ni" wsd="Di07" wsdexp="政党" parent="32" relate="DE" />
+                <word id="32" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="33" relate="ATT" />
+                <word id="33" cont="组织" pos="n" ne="O" wsd="Hc03" wsdexp="安置_部署_调动_整顿_整编" parent="29" relate="VOB" />
+                <word id="34" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="35" relate="ATT" />
+                <word id="35" cont="一" pos="m" ne="B-Nm" wsd="Dn04" wsdexp="基数_序数" parent="37" relate="QUN" />
+                <word id="36" cont="大" pos="a" ne="E-Nm" wsd="Ea03" wsdexp="大_中_小" parent="37" relate="ATT" />
+                <word id="37" cont="胜利" pos="v" ne="O" wsd="If21" wsdexp="胜利_战败_被围_沦陷_亡国" parent="-1" relate="HED" />
+                <word id="38" cont="！" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="1" cont="希望河北全省同志，接受这一痛心的教训，为开展全省规模的反贪污、反浪费、反官僚主义运动，肃清资产阶级的腐化影响，在党中央和毛主席的英明领导下，为进一步从政治上、思想上、组织上巩固河北党的组织而奋斗。" tag="">
+                <word id="0" cont="希望" pos="v" ne="O" wsd="Gb04" wsdexp="希望_要求_追求" parent="16" relate="DE">
+                    <arg id="0" type="受事" beg="1" end="3" />
+                    <arg id="1" type="受事" beg="6" end="10" />
+                </word>
+                <word id="1" cont="河北" pos="ns" ne="S-Ns" wsd="Di02" wsdexp="国家_行政区划" parent="2" relate="ATT" />
+                <word id="2" cont="全省" pos="n" ne="O" wsd="Di02" wsdexp="国家_行政区划" parent="3" relate="ATT" />
+                <word id="3" cont="同志" pos="n" ne="O" wsd="Aa03" wsdexp="你_你们" parent="0" relate="VOB" />
+                <word id="4" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="5" cont="接受" pos="v" ne="O" wsd="Je14" wsdexp="接受_忍受" parent="0" relate="VV" />
+                <word id="6" cont="这" pos="r" ne="O" wsd="Ed61" wsdexp="这个_那个_某个_各个_其他_何" parent="7" relate="ATT" />
+                <word id="7" cont="一" pos="m" ne="S-Nm" wsd="Dn04" wsdexp="基数_序数" parent="10" relate="QUN" />
+                <word id="8" cont="痛心" pos="a" ne="O" wsd="Ga01" wsdexp="高兴_悲伤" parent="9" relate="DE" />
+                <word id="9" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="10" relate="ATT" />
+                <word id="10" cont="教训" pos="n" ne="O" wsd="Da16" wsdexp="经验_教训_印象" parent="0" relate="VOB" />
+                <word id="11" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="12" cont="为" pos="p" ne="O" wsd="Kb05" wsdexp="为_被_以_由" parent="13" relate="ADV" />
+                <word id="13" cont="开展" pos="v" ne="O" wsd="Ig03" wsdexp="进行_继续_流逝" parent="16" relate="DE">
+                    <arg id="0" type="受事" beg="14" end="15" />
+                </word>
+                <word id="14" cont="全省" pos="n" ne="O" wsd="Di02" wsdexp="国家_行政区划" parent="15" relate="ATT" />
+                <word id="15" cont="规模" pos="n" ne="O" wsd="Dd05" wsdexp="范围_方面_环节" parent="13" relate="VOB" />
+                <word id="16" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="17" relate="ATT" />
+                <word id="17" cont="反" pos="v" ne="O" wsd="Ih02" wsdexp="改变_改换" parent="38" relate="DE">
+                    <arg id="0" type="受事" beg="18" end="18" />
+                </word>
+                <word id="18" cont="贪污" pos="v" ne="O" wsd="Hn10" wsdexp="贪污_舞弊_剽窃_侵吞" parent="17" relate="VOB" />
+                <word id="19" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="20" cont="反" pos="v" ne="O" wsd="Ih02" wsdexp="改变_改换" parent="17" relate="COO">
+                    <arg id="0" type="受事" beg="21" end="21" />
+                </word>
+                <word id="21" cont="浪费" pos="v" ne="O" wsd="He13" wsdexp="积累_花费_浪费_节省" parent="20" relate="VOB" />
+                <word id="22" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="23" cont="反" pos="v" ne="O" wsd="Ih02" wsdexp="改变_改换" parent="17" relate="COO">
+                    <arg id="0" type="受事" beg="24" end="25" />
+                </word>
+                <word id="24" cont="官僚主义" pos="n" ne="O" wsd="De01" wsdexp="性格_品行_道德_作风" parent="25" relate="ATT" />
+                <word id="25" cont="运动" pos="v" ne="O" wsd="Di20" wsdexp="动作_举动_行为" parent="23" relate="VOB" />
+                <word id="26" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="27" cont="肃清" pos="v" ne="O" wsd="Jd10" wsdexp="克服_消灭_消除" parent="29" relate="DE" />
+                <word id="28" cont="资产阶级" pos="n" ne="O" wsd="Di06" wsdexp="阶级" parent="29" relate="DE" />
+                <word id="29" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="31" relate="ATT" />
+                <word id="30" cont="腐化" pos="a" ne="O" wsd="Ie12" wsdexp="进步_退步_堕落" parent="31" relate="ATT" />
+                <word id="31" cont="影响" pos="v" ne="O" wsd="Je02" wsdexp="影响_触动_带动" parent="17" relate="VV" />
+                <word id="32" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="33" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="38" relate="DE" />
+                <word id="34" cont="党中央" pos="ni" ne="S-Ni" wsd="Dm01" wsdexp="政府" parent="37" relate="ATT" />
+                <word id="35" cont="和" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="37" relate="LAD" />
+                <word id="36" cont="毛" pos="nh" ne="S-Nh" wsd="Bk11" wsdexp="毛_发" parent="37" relate="ATT" />
+                <word id="37" cont="主席" pos="n" ne="O" wsd="Af10" wsdexp="领袖_领导" parent="38" relate="DE" />
+                <word id="38" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="39" relate="ATT" />
+                <word id="39" cont="英明" pos="a" ne="O" wsd="Ee14" wsdexp="聪明_愚笨_糊涂" parent="41" relate="ATT" />
+                <word id="40" cont="领导" pos="n" ne="O" wsd="Af10" wsdexp="领袖_领导" parent="41" relate="ATT" />
+                <word id="41" cont="下" pos="nd" ne="O" wsd="Cb03" wsdexp="上_下_左_右" parent="60" relate="ADV" />
+                <word id="42" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="43" cont="为" pos="p" ne="O" wsd="Kb05" wsdexp="为_被_以_由" parent="60" relate="ADV" />
+                <word id="44" cont="进一步" pos="d" ne="O" wsd="Ka04" wsdexp="更加" parent="60" relate="ADV" />
+                <word id="45" cont="从" pos="p" ne="O" wsd="Kb02" wsdexp="从_到_沿" parent="54" relate="ADV" />
+                <word id="46" cont="政治" pos="n" ne="O" wsd="Di08" wsdexp="政治_政体_专政" parent="47" relate="ATT" />
+                <word id="47" cont="上" pos="nd" ne="O" wsd="Cb03" wsdexp="上_下_左_右" parent="45" relate="POB" />
+                <word id="48" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="49" cont="思想" pos="n" ne="O" wsd="Df01" wsdexp="思想_感想" parent="50" relate="ATT" />
+                <word id="50" cont="上" pos="nd" ne="O" wsd="Cb03" wsdexp="上_下_左_右" parent="45" relate="POB" />
+                <word id="51" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="52" cont="组织" pos="n" ne="O" wsd="Di10" wsdexp="团体_派别" parent="53" relate="ATT" />
+                <word id="53" cont="上" pos="nd" ne="O" wsd="Cb03" wsdexp="上_下_左_右" parent="50" relate="COO" />
+                <word id="54" cont="巩固" pos="v" ne="O" wsd="Ih09" wsdexp="巩固_安定" parent="57" relate="DE">
+                    <arg id="0" type="方位" beg="45" end="53" />
+                    <arg id="1" type="受事" beg="55" end="56" />
+                </word>
+                <word id="55" cont="河北" pos="ns" ne="B-Ni" wsd="Di02" wsdexp="国家_行政区划" parent="56" relate="ATT" />
+                <word id="56" cont="党" pos="n" ne="E-Ni" wsd="Di07" wsdexp="政党" parent="54" relate="VOB" />
+                <word id="57" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="58" relate="ATT" />
+                <word id="58" cont="组织" pos="n" ne="O" wsd="Di10" wsdexp="团体_派别" parent="60" relate="SBV" />
+                <word id="59" cont="而" pos="c" ne="O" wsd="Kc03" wsdexp="但是" parent="60" relate="CNJ" />
+                <word id="60" cont="奋斗" pos="v" ne="O" wsd="Hj08" wsdexp="发奋_荒废" parent="-1" relate="HED">
+                    <arg id="0" type="方位" beg="0" end="41" />
+                    <arg id="1" type="施事" beg="45" end="58" />
+                </word>
+                <word id="61" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+        </para>
+    </doc>
+    <class>军事</class>
+    <coref />
+</xml4nlp>

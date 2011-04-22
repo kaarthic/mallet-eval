@@ -1,0 +1,5 @@
+Pierre NNP
+Vinken NNP
+61 CD
+years NNS
+old JJ

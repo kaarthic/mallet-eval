@@ -1,0 +1,1617 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="nlp_style.xsl" ?>
+<xml4nlp>
+    <doc>
+        <para id="0">
+            <sent id="0" cont="21世纪的早晨穿出蛋白丝之感受  " tag="">
+                <word id="0" cont="21" pos="m" ne="S-Nm" wsd="-1" wsdexp="" parent="1" relate="QUN" />
+                <word id="1" cont="世纪" pos="n" ne="O" wsd="Ca18" wsdexp="年" parent="2" relate="DE" />
+                <word id="2" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="3" relate="ATT" />
+                <word id="3" cont="早晨" pos="nt" ne="O" wsd="Ca27" wsdexp="黎明_早晨" parent="9" relate="ATT" />
+                <word id="4" cont="穿" pos="v" ne="O" wsd="Fa18" wsdexp="穿_戴_佩带" parent="8" relate="DE">
+                    <arg id="0" type="受事" beg="6" end="7" />
+                </word>
+                <word id="5" cont="出" pos="v" ne="O" wsd="Hj64" wsdexp="出_进_出入" parent="4" relate="CMP" />
+                <word id="6" cont="蛋白" pos="n" ne="O" wsd="Bl05" wsdexp="精液_卵" parent="7" relate="ATT" />
+                <word id="7" cont="丝" pos="n" ne="O" wsd="Dn08" wsdexp="数量单位" parent="4" relate="VOB" />
+                <word id="8" cont="之" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="9" relate="ATT" />
+                <word id="9" cont="感受" pos="v" ne="O" wsd="Gb02" wsdexp="感到_认为_主张" parent="-1" relate="HED" />
+            </sent>
+        </para>
+        <para id="1">
+            <sent id="0" cont="10年前，你可以想象，我们可以随时随地用手机打电话吗？" tag="">
+                <word id="0" cont="10" pos="m" ne="B-Nm" wsd="-1" wsdexp="" parent="1" relate="QUN" />
+                <word id="1" cont="年" pos="q" ne="E-Nm" wsd="Ca18" wsdexp="年" parent="2" relate="ATT" />
+                <word id="2" cont="前" pos="nd" ne="O" wsd="Cb04" wsdexp="前_后_中" parent="6" relate="ADV" />
+                <word id="3" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="4" cont="你" pos="r" ne="O" wsd="Aa03" wsdexp="你_你们" parent="6" relate="SBV" />
+                <word id="5" cont="可以" pos="v" ne="O" wsd="Gc02" wsdexp="能够_不能_可以_不可" parent="6" relate="ADV" />
+                <word id="6" cont="想象" pos="v" ne="O" wsd="Gb01" wsdexp="想象_思考_斟酌_着想_存心" parent="-1" relate="HED">
+                    <arg id="0" type="方位" beg="0" end="2" />
+                    <arg id="1" type="施事" beg="4" end="4" />
+                </word>
+                <word id="7" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="8" cont="我们" pos="r" ne="O" wsd="Aa02" wsdexp="我_我们" parent="9" relate="SBV" />
+                <word id="9" cont="可以" pos="v" ne="O" wsd="Gc02" wsdexp="能够_不能_可以_不可" parent="10" relate="ADV">
+                    <arg id="0" type="施事" beg="8" end="8" />
+                </word>
+                <word id="10" cont="随时随地" pos="i" ne="O" wsd="-1" wsdexp="" parent="13" relate="ADV" />
+                <word id="11" cont="用" pos="p" ne="O" wsd="Hj28" wsdexp="使用_沿用_借鉴" parent="13" relate="ADV" />
+                <word id="12" cont="手机" pos="n" ne="O" wsd="Bo04" wsdexp="通信器材_电线_电料" parent="11" relate="POB" />
+                <word id="13" cont="打电话" pos="v" ne="O" wsd="Hi11" wsdexp="写信_汇款_邮寄_拍电报_打电话" parent="6" relate="IC" />
+                <word id="14" cont="吗" pos="u" ne="O" wsd="Kd05" wsdexp="吗_的话_罢了_了_哉" parent="13" relate="MT" />
+                <word id="15" cont="？" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="1" cont="我们可以把吃的东西穿上身吗？" tag="">
+                <word id="0" cont="我们" pos="r" ne="O" wsd="Aa02" wsdexp="我_我们" parent="1" relate="SBV" />
+                <word id="1" cont="可以" pos="v" ne="O" wsd="Gc02" wsdexp="能够_不能_可以_不可" parent="3" relate="ADV">
+                    <arg id="0" type="施事" beg="0" end="0" />
+                </word>
+                <word id="2" cont="把" pos="p" ne="O" wsd="Kb03" wsdexp="跟_替_把_比" parent="3" relate="ADV" />
+                <word id="3" cont="吃" pos="v" ne="O" wsd="Fc06" wsdexp="吃_嚼_咽_吮_喝" parent="-1" relate="HED">
+                    <arg id="0" type="受事" beg="4" end="5" />
+                    <arg id="1" type="受事" beg="6" end="9" />
+                </word>
+                <word id="4" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="5" relate="ATT" />
+                <word id="5" cont="东西" pos="n" ne="O" wsd="Da28" wsdexp="事物_对象" parent="3" relate="VOB" />
+                <word id="6" cont="穿" pos="v" ne="O" wsd="Fa18" wsdexp="穿_戴_佩带" parent="3" relate="VOB">
+                    <arg id="0" type="受事" beg="7" end="8" />
+                </word>
+                <word id="7" cont="上" pos="nd" ne="O" wsd="Cb03" wsdexp="上_下_左_右" parent="8" relate="ATT" />
+                <word id="8" cont="身" pos="n" ne="O" wsd="Bk01" wsdexp="身体_尸体" parent="6" relate="VOB" />
+                <word id="9" cont="吗" pos="u" ne="O" wsd="Kd05" wsdexp="吗_的话_罢了_了_哉" parent="6" relate="MT" />
+                <word id="10" cont="？" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="2" cont="在21世纪的早晨，理想成为现实，我们的生活丰富多彩，可以把大豆穿上身了。" tag="">
+                <word id="0" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="3" relate="DE" />
+                <word id="1" cont="21" pos="m" ne="S-Nm" wsd="-1" wsdexp="" parent="2" relate="QUN" />
+                <word id="2" cont="世纪" pos="n" ne="O" wsd="Ca18" wsdexp="年" parent="0" relate="POB" />
+                <word id="3" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="4" relate="ATT" />
+                <word id="4" cont="早晨" pos="nt" ne="O" wsd="Ca27" wsdexp="黎明_早晨" parent="7" relate="ADV" />
+                <word id="5" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="6" cont="理想" pos="n" ne="O" wsd="Df10" wsdexp="理想_幻想_泡影_梦幻" parent="7" relate="SBV" />
+                <word id="7" cont="成为" pos="v" ne="O" wsd="Ih01" wsdexp="变化_成为" parent="-1" relate="HED">
+                    <arg id="0" type="时间" beg="0" end="4" />
+                    <arg id="1" type="施事" beg="6" end="6" />
+                    <arg id="2" type="受事" beg="8" end="8" />
+                </word>
+                <word id="8" cont="现实" pos="n" ne="O" wsd="Ed10" wsdexp="实际_空洞" parent="7" relate="VOB" />
+                <word id="9" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="10" cont="我们" pos="r" ne="O" wsd="Aa02" wsdexp="我_我们" parent="11" relate="DE" />
+                <word id="11" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="12" relate="ATT" />
+                <word id="12" cont="生活" pos="v" ne="O" wsd="Hj01" wsdexp="生活_居住" parent="7" relate="IC">
+                    <arg id="0" type="受事" beg="13" end="21" />
+                </word>
+                <word id="13" cont="丰富多彩" pos="i" ne="O" wsd="Ed39" wsdexp="丰富_广博_广博_贫乏" parent="12" relate="VOB" />
+                <word id="14" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="15" cont="可以" pos="v" ne="O" wsd="Gc02" wsdexp="能够_不能_可以_不可" parent="18" relate="ADV" />
+                <word id="16" cont="把" pos="p" ne="O" wsd="Kb03" wsdexp="跟_替_把_比" parent="18" relate="ADV" />
+                <word id="17" cont="大豆" pos="n" ne="O" wsd="Bh06" wsdexp="蔬菜" parent="16" relate="POB" />
+                <word id="18" cont="穿" pos="v" ne="O" wsd="Fa18" wsdexp="穿_戴_佩带" parent="13" relate="IC">
+                    <arg id="0" type="受事" beg="19" end="20" />
+                </word>
+                <word id="19" cont="上" pos="nd" ne="O" wsd="Cb03" wsdexp="上_下_左_右" parent="20" relate="ATT" />
+                <word id="20" cont="身" pos="n" ne="O" wsd="Bk01" wsdexp="身体_尸体" parent="18" relate="VOB" />
+                <word id="21" cont="了" pos="u" ne="O" wsd="Kd05" wsdexp="吗_的话_罢了_了_哉" parent="18" relate="MT" />
+                <word id="22" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+        </para>
+        <para id="2">
+            <sent id="0" cont="具有“绿色纤维”之称的大豆蛋白纤维，目前已成为制作内衣面料的最佳产品。" tag="10%">
+                <word id="0" cont="具有" pos="v" ne="O" wsd="Jd04" wsdexp="有_占有" parent="18" relate="DE">
+                    <arg id="0" type="受事" beg="2" end="3" />
+                    <arg id="1" type="受事" beg="5" end="10" />
+                </word>
+                <word id="1" cont="“" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="2" cont="绿色" pos="n" ne="O" wsd="Bg06" wsdexp="颜色_气息_味道" parent="3" relate="ATT" />
+                <word id="3" cont="纤维" pos="n" ne="O" wsd="Bm12" wsdexp="蚕丝_绵纱_化学纤维" parent="0" relate="VOB" />
+                <word id="4" cont="”" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="5" cont="之" pos="r" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="6" relate="SBV" />
+                <word id="6" cont="称" pos="v" ne="O" wsd="Ja02" wsdexp="叫做_所谓" parent="7" relate="DE">
+                    <arg id="0" type="施事" beg="5" end="5" />
+                </word>
+                <word id="7" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="10" relate="ATT" />
+                <word id="8" cont="大豆" pos="n" ne="O" wsd="Bh06" wsdexp="蔬菜" parent="9" relate="ATT" />
+                <word id="9" cont="蛋白" pos="n" ne="O" wsd="Bl05" wsdexp="精液_卵" parent="10" relate="ATT" />
+                <word id="10" cont="纤维" pos="n" ne="O" wsd="Bm12" wsdexp="蚕丝_绵纱_化学纤维" parent="0" relate="VOB" />
+                <word id="11" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="12" cont="目前" pos="nt" ne="O" wsd="Ca10" wsdexp="现在" parent="14" relate="ADV" />
+                <word id="13" cont="已" pos="d" ne="O" wsd="Ka12" wsdexp="已经_方才_正在" parent="14" relate="ADV" />
+                <word id="14" cont="成为" pos="v" ne="O" wsd="Ih01" wsdexp="变化_成为" parent="0" relate="IC">
+                    <arg id="0" type="时间" beg="12" end="12" />
+                    <arg id="1" type="受事" beg="15" end="17" />
+                </word>
+                <word id="15" cont="制作" pos="v" ne="O" wsd="Hd04" wsdexp="切割" parent="16" relate="ATT" />
+                <word id="16" cont="内衣" pos="n" ne="O" wsd="Bq03" wsdexp="衣服_上装_裤子_裙子" parent="17" relate="ATT" />
+                <word id="17" cont="面料" pos="n" ne="O" wsd="Bq01" wsdexp="衣料_布_绒" parent="14" relate="VOB" />
+                <word id="18" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="20" relate="ATT" />
+                <word id="19" cont="最佳" pos="a" ne="O" wsd="Ed06" wsdexp="上等_中等_下等" parent="20" relate="ATT" />
+                <word id="20" cont="产品" pos="n" ne="O" wsd="Ba04" wsdexp="货物_产品" parent="-1" relate="HED" />
+                <word id="21" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="1" cont="这种生长了千万年的绿叶、绿荚、黄色果实植物将从常年固有的餐桌食品步入一个全新的工业化之途。" tag="">
+                <word id="0" cont="这种" pos="r" ne="O" wsd="-1" wsdexp="" parent="6" relate="ATT" />
+                <word id="1" cont="生长" pos="v" ne="O" wsd="Ib01" wsdexp="生育_诞生_生长_繁殖" parent="5" relate="DE">
+                    <arg id="0" type="受事-数量性质" beg="3" end="4" />
+                </word>
+                <word id="2" cont="了" pos="u" ne="O" wsd="Kd05" wsdexp="吗_的话_罢了_了_哉" parent="1" relate="MT" />
+                <word id="3" cont="千万" pos="m" ne="B-Nm" wsd="Ka32" wsdexp="千万_当然" parent="4" relate="QUN" />
+                <word id="4" cont="年" pos="q" ne="E-Nm" wsd="Ca18" wsdexp="年" parent="1" relate="VOB" />
+                <word id="5" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="6" relate="ATT" />
+                <word id="6" cont="绿叶" pos="n" ne="O" wsd="Bh11" wsdexp="根_叶_花朵" parent="21" relate="SBV" />
+                <word id="7" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="8" cont="绿" pos="a" ne="O" wsd="Ec02" wsdexp="蓝_绿" parent="9" relate="ATT" />
+                <word id="9" cont="荚" pos="n" ne="O" wsd="Bh13" wsdexp="果实_种子" parent="6" relate="COO" />
+                <word id="10" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="11" cont="黄色" pos="n" ne="O" wsd="Ee43" wsdexp="贞洁_轻佻_淫荡_色情" parent="12" relate="ATT" />
+                <word id="12" cont="果实" pos="n" ne="O" wsd="Da14" wsdexp="成就_功劳_过失_功过" parent="13" relate="ATT" />
+                <word id="13" cont="植物" pos="n" ne="O" wsd="Ba02" wsdexp="生物_物品" parent="21" relate="SBV" />
+                <word id="14" cont="将" pos="d" ne="O" wsd="Ka13" wsdexp="随即_即将_终于" parent="21" relate="ADV" />
+                <word id="15" cont="从" pos="p" ne="O" wsd="Kb02" wsdexp="从_到_沿" parent="21" relate="ADV" />
+                <word id="16" cont="常年" pos="b" ne="O" wsd="Eb24" wsdexp="长久_永远" parent="20" relate="ATT" />
+                <word id="17" cont="固有" pos="b" ne="O" wsd="Ed51" wsdexp="天然_本来_现成" parent="18" relate="DE" />
+                <word id="18" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="20" relate="ATT" />
+                <word id="19" cont="餐桌" pos="n" ne="O" wsd="Bp26" wsdexp="桌子_抽屉_椅子_凳子" parent="20" relate="ATT" />
+                <word id="20" cont="食品" pos="n" ne="O" wsd="Br03" wsdexp="食物" parent="15" relate="POB" />
+                <word id="21" cont="步入" pos="v" ne="O" wsd="Hj64" wsdexp="出_进_出入" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="9" />
+                    <arg id="1" type="施事" beg="11" end="13" />
+                    <arg id="2" type="受事" beg="22" end="27" />
+                </word>
+                <word id="22" cont="一个" pos="m" ne="O" wsd="Dn08" wsdexp="数量单位" parent="27" relate="QUN" />
+                <word id="23" cont="全新" pos="b" ne="O" wsd="Eb28" wsdexp="新_新鲜" parent="24" relate="DE" />
+                <word id="24" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="25" relate="ATT" />
+                <word id="25" cont="工业化" pos="v" ne="O" wsd="Ih01" wsdexp="变化_成为" parent="26" relate="DE" />
+                <word id="26" cont="之" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="27" relate="ATT" />
+                <word id="27" cont="途" pos="n" ne="O" wsd="Cb27" wsdexp="道路_路线" parent="21" relate="VOB" />
+                <word id="28" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="2" cont="纵观各种化学纤维―――涤沦、锦纶、腈纶、粘胶……均是由外国人开发的，我国只能跟在人家后面走。" tag="">
+                <word id="0" cont="纵观" pos="v" ne="O" wsd="Hj26" wsdexp="观察_比较_区分" parent="14" relate="SBV">
+                    <arg id="0" type="受事" beg="1" end="2" />
+                </word>
+                <word id="1" cont="各种" pos="r" ne="O" wsd="Dn03" wsdexp="数量" parent="2" relate="ATT" />
+                <word id="2" cont="化学纤维" pos="i" ne="O" wsd="Bm12" wsdexp="蚕丝_绵纱_化学纤维" parent="0" relate="VOB" />
+                <word id="3" cont="―――" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="4" cont="涤" pos="v" ne="O" wsd="Fa21" wsdexp="洗_扫_擦" parent="14" relate="SBV">
+                    <arg id="0" type="受事" beg="5" end="11" />
+                </word>
+                <word id="5" cont="沦" pos="n" ne="O" wsd="Jd02" wsdexp="处于_在于_陷于_适逢" parent="4" relate="VOB" />
+                <word id="6" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="7" cont="锦纶" pos="nz" ne="S-Nz" wsd="Bm12" wsdexp="蚕丝_绵纱_化学纤维" parent="5" relate="COO" />
+                <word id="8" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="9" cont="腈纶" pos="n" ne="O" wsd="Bm12" wsdexp="蚕丝_绵纱_化学纤维" parent="5" relate="COO" />
+                <word id="10" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="11" cont="粘胶" pos="n" ne="O" wsd="-1" wsdexp="" parent="5" relate="COO" />
+                <word id="12" cont="……" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="13" cont="均" pos="d" ne="O" wsd="Ka07" wsdexp="都_只_不止_甚至" parent="14" relate="ADV" />
+                <word id="14" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="2" />
+                    <arg id="1" type="施事" beg="4" end="11" />
+                    <arg id="2" type="受事" beg="15" end="17" />
+                </word>
+                <word id="15" cont="由" pos="p" ne="O" wsd="Kb05" wsdexp="为_被_以_由" parent="17" relate="ADV" />
+                <word id="16" cont="外国人" pos="n" ne="O" wsd="Ad02" wsdexp="本国人_外国人_外族人" parent="15" relate="POB" />
+                <word id="17" cont="开发" pos="v" ne="O" wsd="Hd17" wsdexp="开山_垦荒_烧荒_种地" parent="14" relate="VOB" />
+                <word id="18" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="14" relate="MT" />
+                <word id="19" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="20" cont="我国" pos="n" ne="O" wsd="Di02" wsdexp="国家_行政区划" parent="22" relate="SBV" />
+                <word id="21" cont="只能" pos="v" ne="O" wsd="Ka22" wsdexp="执意_只得" parent="22" relate="ADV" />
+                <word id="22" cont="跟" pos="v" ne="O" wsd="Kc01" wsdexp="和_或者" parent="14" relate="IC">
+                    <arg id="0" type="施事" beg="20" end="20" />
+                    <arg id="1" type="受事" beg="23" end="26" />
+                </word>
+                <word id="23" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="26" relate="ADV" />
+                <word id="24" cont="人家" pos="n" ne="O" wsd="Aa05" wsdexp="自己_别人_某人" parent="23" relate="POB" />
+                <word id="25" cont="后面" pos="nd" ne="O" wsd="Cb04" wsdexp="前_后_中" parent="23" relate="POB" />
+                <word id="26" cont="走" pos="v" ne="O" wsd="Fb01" wsdexp="走_跑" parent="22" relate="VOB">
+                    <arg id="0" type="方位" beg="23" end="25" />
+                </word>
+                <word id="27" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="3" cont="而唯有大豆蛋白质纤维，完全由我国自主开发，率先研制成功并形成产业化，其意义十分重大。" tag="10%">
+                <word id="0" cont="而" pos="c" ne="O" wsd="Kc03" wsdexp="但是" parent="1" relate="CNJ" />
+                <word id="1" cont="唯有" pos="v" ne="O" wsd="Ka07" wsdexp="都_只_不止_甚至" parent="-1" relate="HED">
+                    <arg id="0" type="受事" beg="2" end="4" />
+                </word>
+                <word id="2" cont="大豆" pos="n" ne="O" wsd="Bh06" wsdexp="蔬菜" parent="3" relate="ATT" />
+                <word id="3" cont="蛋白质" pos="n" ne="O" wsd="Ba01" wsdexp="物_物体" parent="4" relate="ATT" />
+                <word id="4" cont="纤维" pos="n" ne="O" wsd="Bm12" wsdexp="蚕丝_绵纱_化学纤维" parent="1" relate="VOB" />
+                <word id="5" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="6" cont="完全" pos="a" ne="O" wsd="Ka06" wsdexp="完全_彻底_半半拉拉" parent="10" relate="ADV" />
+                <word id="7" cont="由" pos="p" ne="O" wsd="Kb05" wsdexp="为_被_以_由" parent="10" relate="ADV" />
+                <word id="8" cont="我国" pos="n" ne="O" wsd="Di02" wsdexp="国家_行政区划" parent="7" relate="POB" />
+                <word id="9" cont="自主" pos="v" ne="O" wsd="Hj05" wsdexp="独立_依附_随大溜_混日子" parent="10" relate="ADV" />
+                <word id="10" cont="开发" pos="v" ne="O" wsd="Hd17" wsdexp="开山_垦荒_烧荒_种地" parent="1" relate="VV" />
+                <word id="11" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="12" cont="率先" pos="d" ne="O" wsd="Ka09" wsdexp="姑且_临时_预先_首先_准时" parent="13" relate="ADV" />
+                <word id="13" cont="研制" pos="v" ne="O" wsd="Hg14" wsdexp="分析_推敲_研究_考证" parent="10" relate="VV">
+                    <arg id="0" type="受事" beg="15" end="17" />
+                </word>
+                <word id="14" cont="成功" pos="a" ne="O" wsd="If22" wsdexp="成功_失败_垮台_落空" parent="13" relate="CMP" />
+                <word id="15" cont="并" pos="c" ne="O" wsd="Kc02" wsdexp="并且_况且" parent="16" relate="CNJ" />
+                <word id="16" cont="形成" pos="v" ne="O" wsd="Ie14" wsdexp="完成_实现" parent="13" relate="VOB">
+                    <arg id="0" type="受事" beg="17" end="17" />
+                </word>
+                <word id="17" cont="产业化" pos="v" ne="O" wsd="Ih01" wsdexp="变化_成为" parent="16" relate="VOB" />
+                <word id="18" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="19" cont="其" pos="r" ne="O" wsd="Ba10" wsdexp="它_什么" parent="20" relate="ATT" />
+                <word id="20" cont="意义" pos="n" ne="O" wsd="Db06" wsdexp="规律_意义" parent="22" relate="SBV" />
+                <word id="21" cont="十分" pos="d" ne="O" wsd="Ka01" wsdexp="非常_多么" parent="22" relate="ADV" />
+                <word id="22" cont="重大" pos="a" ne="O" wsd="Ed28" wsdexp="重要_次要_不足道" parent="1" relate="IC" />
+                <word id="23" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+        </para>
+        <para id="3">
+            <sent id="0" cont="科技缔造时尚感谢高新技术的恩惠 " tag="">
+                <word id="0" cont="科技" pos="n" ne="O" wsd="Dk03" wsdexp="科学_学科_学业" parent="1" relate="SBV" />
+                <word id="1" cont="缔造" pos="v" ne="O" wsd="Hc05" wsdexp="建立_设立_创立_命名" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="0" />
+                    <arg id="1" type="受事" beg="2" end="2" />
+                    <arg id="2" type="受事" beg="3" end="6" />
+                </word>
+                <word id="2" cont="时尚" pos="n" ne="O" wsd="Di14" wsdexp="风俗_习惯_风气" parent="1" relate="VOB" />
+                <word id="3" cont="感谢" pos="v" ne="O" wsd="Hi29" wsdexp="感谢_报答" parent="5" relate="DE">
+                    <arg id="0" type="受事" beg="4" end="4" />
+                </word>
+                <word id="4" cont="高新技术" pos="n" ne="O" wsd="De04" wsdexp="智慧_才能_能力_功夫" parent="3" relate="VOB" />
+                <word id="5" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="6" relate="ATT" />
+                <word id="6" cont="恩惠" pos="n" ne="O" wsd="Da11" wsdexp="恩惠_冤仇_恩怨" parent="1" relate="VOB" />
+            </sent>
+        </para>
+        <para id="4">
+            <sent id="0" cont="从19世纪末、20世纪初人类即开始对再生蛋白质纤维进行研究，科学家曾分别探讨从牛乳、花生蛋白质、玉米、大豆豆粕中提取蛋白质，再进行纺丝。" tag="">
+                <word id="0" cont="从" pos="p" ne="O" wsd="Kb02" wsdexp="从_到_沿" parent="15" relate="ADV" />
+                <word id="1" cont="19" pos="m" ne="S-Nm" wsd="-1" wsdexp="" parent="0" relate="POB" />
+                <word id="2" cont="世纪" pos="n" ne="O" wsd="Ca18" wsdexp="年" parent="3" relate="ATT" />
+                <word id="3" cont="末" pos="nd" ne="O" wsd="Ca09" wsdexp="末期_年终_月终" parent="15" relate="ADV" />
+                <word id="4" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="5" cont="20" pos="m" ne="S-Nm" wsd="-1" wsdexp="" parent="8" relate="QUN" />
+                <word id="6" cont="世纪" pos="n" ne="O" wsd="Ca18" wsdexp="年" parent="7" relate="ATT" />
+                <word id="7" cont="初" pos="nd" ne="O" wsd="Ca07" wsdexp="初期_年初" parent="8" relate="ATT" />
+                <word id="8" cont="人类" pos="n" ne="O" wsd="Aa01" wsdexp="人_人民_众人" parent="15" relate="SBV" />
+                <word id="9" cont="即" pos="d" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="10" relate="ADV" />
+                <word id="10" cont="开始" pos="v" ne="O" wsd="Ig01" wsdexp="开始_结束" parent="15" relate="ADV" />
+                <word id="11" cont="对" pos="p" ne="O" wsd="Kb04" wsdexp="对于_关于" parent="15" relate="ADV" />
+                <word id="12" cont="再生" pos="v" ne="O" wsd="Ih11" wsdexp="好转_改进_恶化" parent="13" relate="ATT" />
+                <word id="13" cont="蛋白质" pos="n" ne="O" wsd="Ba01" wsdexp="物_物体" parent="14" relate="ATT" />
+                <word id="14" cont="纤维" pos="n" ne="O" wsd="Bm12" wsdexp="蚕丝_绵纱_化学纤维" parent="11" relate="POB" />
+                <word id="15" cont="进行" pos="v" ne="O" wsd="Ig03" wsdexp="进行_继续_流逝" parent="-1" relate="HED">
+                    <arg id="0" type="方位" beg="2" end="3" />
+                    <arg id="1" type="施事" beg="5" end="8" />
+                    <arg id="2" type="受事" beg="16" end="16" />
+                </word>
+                <word id="16" cont="研究" pos="v" ne="O" wsd="Hg14" wsdexp="分析_推敲_研究_考证" parent="15" relate="VOB" />
+                <word id="17" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="18" cont="科学家" pos="n" ne="O" wsd="Al02" wsdexp="内行_专家_骨干_外行" parent="21" relate="SBV" />
+                <word id="19" cont="曾" pos="d" ne="O" wsd="Ka12" wsdexp="已经_方才_正在" parent="21" relate="ADV" />
+                <word id="20" cont="分别" pos="d" ne="O" wsd="Ka23" wsdexp="共同_分头_独自_互相_从中" parent="21" relate="ADV" />
+                <word id="21" cont="探讨" pos="v" ne="O" wsd="Hc14" wsdexp="建议_讨论_决定_制订" parent="15" relate="VV">
+                    <arg id="0" type="施事" beg="18" end="18" />
+                </word>
+                <word id="22" cont="从" pos="p" ne="O" wsd="Kb02" wsdexp="从_到_沿" parent="33" relate="ADV" />
+                <word id="23" cont="牛乳" pos="n" ne="O" wsd="Br12" wsdexp="饮料_茶_酒_乳酪" parent="32" relate="ATT" />
+                <word id="24" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="25" cont="花生" pos="n" ne="O" wsd="Bh09" wsdexp="经济作物" parent="26" relate="ATT" />
+                <word id="26" cont="蛋白质" pos="n" ne="O" wsd="Ba01" wsdexp="物_物体" parent="23" relate="COO" />
+                <word id="27" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="28" cont="玉米" pos="n" ne="O" wsd="Bh05" wsdexp="五谷" parent="23" relate="COO" />
+                <word id="29" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="30" cont="大豆" pos="n" ne="O" wsd="Bh06" wsdexp="蔬菜" parent="31" relate="ATT" />
+                <word id="31" cont="豆粕" pos="n" ne="O" wsd="-1" wsdexp="" parent="23" relate="COO" />
+                <word id="32" cont="中" pos="nd" ne="O" wsd="Da05" wsdexp="过程_内中" parent="22" relate="POB" />
+                <word id="33" cont="提取" pos="v" ne="O" wsd="Hi27" wsdexp="交_取_借_归还_交换" parent="15" relate="VV">
+                    <arg id="0" type="方位" beg="22" end="32" />
+                    <arg id="1" type="受事" beg="34" end="34" />
+                </word>
+                <word id="34" cont="蛋白质" pos="n" ne="O" wsd="Ba01" wsdexp="物_物体" parent="33" relate="VOB" />
+                <word id="35" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="36" cont="再" pos="d" ne="O" wsd="Ka14" wsdexp="再" parent="37" relate="ADV" />
+                <word id="37" cont="进行" pos="v" ne="O" wsd="Ig03" wsdexp="进行_继续_流逝" parent="15" relate="VV">
+                    <arg id="0" type="受事" beg="38" end="39" />
+                </word>
+                <word id="38" cont="纺" pos="v" ne="O" wsd="Bq02" wsdexp="丝绸_呢绒" parent="37" relate="VOB">
+                    <arg id="0" type="受事" beg="39" end="39" />
+                </word>
+                <word id="39" cont="丝" pos="n" ne="O" wsd="Dn08" wsdexp="数量单位" parent="38" relate="VOB" />
+                <word id="40" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="1" cont="40年代初美国、英国研制了酪素纤维，1945年美、英又研究了大豆蛋白质纤维，1948年美国通用汽车公司从豆粕中提取了大豆纤维，但大多因为纤维性能差，无法进行纺织加工而中断研究。" tag="">
+                <word id="0" cont="40" pos="m" ne="B-Nr" wsd="-1" wsdexp="" parent="6" relate="ADV" />
+                <word id="1" cont="年代" pos="n" ne="E-Nr" wsd="Ca02" wsdexp="时代_朝代_年代" parent="2" relate="ATT" />
+                <word id="2" cont="初" pos="nd" ne="O" wsd="Ca07" wsdexp="初期_年初" parent="3" relate="ATT" />
+                <word id="3" cont="美国" pos="ns" ne="S-Ns" wsd="Di02" wsdexp="国家_行政区划" parent="6" relate="SBV" />
+                <word id="4" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="5" cont="英国" pos="ns" ne="S-Ns" wsd="Di02" wsdexp="国家_行政区划" parent="3" relate="COO" />
+                <word id="6" cont="研制" pos="v" ne="O" wsd="Hg14" wsdexp="分析_推敲_研究_考证" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="1" end="5" />
+                    <arg id="1" type="受事" beg="8" end="8" />
+                    <arg id="2" type="受事" beg="9" end="10" />
+                </word>
+                <word id="7" cont="了" pos="u" ne="O" wsd="Kd05" wsdexp="吗_的话_罢了_了_哉" parent="6" relate="MT" />
+                <word id="8" cont="酪" pos="n" ne="O" wsd="Br12" wsdexp="饮料_茶_酒_乳酪" parent="6" relate="VOB" />
+                <word id="9" cont="素" pos="a" ne="O" wsd="Ba01" wsdexp="物_物体" parent="10" relate="ATT" />
+                <word id="10" cont="纤维" pos="n" ne="O" wsd="Bm12" wsdexp="蚕丝_绵纱_化学纤维" parent="6" relate="VOB" />
+                <word id="11" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="12" cont="1945年" pos="nt" ne="S-Nr" wsd="-1" wsdexp="" parent="13" relate="ATT" />
+                <word id="13" cont="美" pos="j" ne="S-Ns" wsd="Eb30" wsdexp="美丽_丑陋" parent="17" relate="SBV" />
+                <word id="14" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="15" cont="英" pos="j" ne="S-Ns" wsd="Al03" wsdexp="俊杰_人才" parent="13" relate="COO" />
+                <word id="16" cont="又" pos="d" ne="O" wsd="Ka14" wsdexp="再" parent="17" relate="ADV" />
+                <word id="17" cont="研究" pos="v" ne="O" wsd="Hg14" wsdexp="分析_推敲_研究_考证" parent="6" relate="VV">
+                    <arg id="0" type="施事" beg="12" end="15" />
+                    <arg id="1" type="受事" beg="19" end="21" />
+                </word>
+                <word id="18" cont="了" pos="u" ne="O" wsd="Kd05" wsdexp="吗_的话_罢了_了_哉" parent="17" relate="MT" />
+                <word id="19" cont="大豆" pos="n" ne="O" wsd="Bh06" wsdexp="蔬菜" parent="20" relate="ATT" />
+                <word id="20" cont="蛋白质" pos="n" ne="O" wsd="Ba01" wsdexp="物_物体" parent="21" relate="ATT" />
+                <word id="21" cont="纤维" pos="n" ne="O" wsd="Bm12" wsdexp="蚕丝_绵纱_化学纤维" parent="17" relate="VOB" />
+                <word id="22" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="23" cont="1948年" pos="nt" ne="S-Nr" wsd="-1" wsdexp="" parent="24" relate="ATT" />
+                <word id="24" cont="美国" pos="ns" ne="B-Ni" wsd="Di02" wsdexp="国家_行政区划" parent="25" relate="ATT" />
+                <word id="25" cont="通用" pos="nz" ne="I-Ni" wsd="Hj28" wsdexp="使用_沿用_借鉴" parent="26" relate="ATT" />
+                <word id="26" cont="汽车" pos="n" ne="I-Ni" wsd="Bo21" wsdexp="车" parent="27" relate="ATT" />
+                <word id="27" cont="公司" pos="n" ne="E-Ni" wsd="Dm04" wsdexp="商店" parent="31" relate="SBV" />
+                <word id="28" cont="从" pos="p" ne="O" wsd="Kb02" wsdexp="从_到_沿" parent="31" relate="ADV" />
+                <word id="29" cont="豆粕" pos="n" ne="O" wsd="-1" wsdexp="" parent="30" relate="ATT" />
+                <word id="30" cont="中" pos="nd" ne="O" wsd="Da05" wsdexp="过程_内中" parent="28" relate="POB" />
+                <word id="31" cont="提取" pos="v" ne="O" wsd="Hi27" wsdexp="交_取_借_归还_交换" parent="17" relate="VV">
+                    <arg id="0" type="施事" beg="23" end="27" />
+                    <arg id="1" type="方位" beg="28" end="30" />
+                    <arg id="2" type="受事" beg="33" end="34" />
+                </word>
+                <word id="32" cont="了" pos="u" ne="O" wsd="Kd05" wsdexp="吗_的话_罢了_了_哉" parent="31" relate="MT" />
+                <word id="33" cont="大豆" pos="n" ne="O" wsd="Bh06" wsdexp="蔬菜" parent="34" relate="ATT" />
+                <word id="34" cont="纤维" pos="n" ne="O" wsd="Bm12" wsdexp="蚕丝_绵纱_化学纤维" parent="31" relate="VOB" />
+                <word id="35" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="36" cont="但" pos="c" ne="O" wsd="Kc03" wsdexp="但是" parent="41" relate="CNJ" />
+                <word id="37" cont="大多" pos="d" ne="O" wsd="Ka05" wsdexp="相当_比较_稍微_大多" parent="38" relate="ADV" />
+                <word id="38" cont="因为" pos="p" ne="O" wsd="Kc09" wsdexp="因为_所以" parent="41" relate="ADV" />
+                <word id="39" cont="纤维" pos="n" ne="O" wsd="Bm12" wsdexp="蚕丝_绵纱_化学纤维" parent="40" relate="ATT" />
+                <word id="40" cont="性能" pos="n" ne="O" wsd="Dd01" wsdexp="性质" parent="41" relate="SBV" />
+                <word id="41" cont="差" pos="a" ne="O" wsd="Ed03" wsdexp="好_坏" parent="6" relate="IC" />
+                <word id="42" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="43" cont="无法" pos="v" ne="O" wsd="Ga12" wsdexp="无奈_无法_难堪" parent="44" relate="ADV" />
+                <word id="44" cont="进行" pos="v" ne="O" wsd="Ig03" wsdexp="进行_继续_流逝" parent="41" relate="IC">
+                    <arg id="0" type="受事" beg="45" end="46" />
+                    <arg id="1" type="受事" beg="47" end="49" />
+                </word>
+                <word id="45" cont="纺织" pos="n" ne="O" wsd="Hd12" wsdexp="纺织_漂白_染色_编织" parent="46" relate="ATT" />
+                <word id="46" cont="加工" pos="v" ne="O" wsd="Hd29" wsdexp="出产" parent="44" relate="VOB" />
+                <word id="47" cont="而" pos="c" ne="O" wsd="Kc03" wsdexp="但是" parent="48" relate="CNJ" />
+                <word id="48" cont="中断" pos="v" ne="O" wsd="Ig02" wsdexp="停止_中断" parent="44" relate="VOB">
+                    <arg id="0" type="受事" beg="49" end="49" />
+                </word>
+                <word id="49" cont="研究" pos="v" ne="O" wsd="Hg14" wsdexp="分析_推敲_研究_考证" parent="48" relate="VOB" />
+                <word id="50" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="2" cont="近年日本东洋纺公司开发的牛奶蛋白质纤维实现了工业化生产，由于100千克牛奶只能提取2千克蛋白质，使得制造成本过高，至今无法大力推广使用。" tag="">
+                <word id="0" cont="近年" pos="nt" ne="O" wsd="Ca11" wsdexp="过去_近来" parent="1" relate="ATT" />
+                <word id="1" cont="日本" pos="ns" ne="B-Ni" wsd="Di02" wsdexp="国家_行政区划" parent="2" relate="ATT" />
+                <word id="2" cont="东洋" pos="n" ne="I-Ni" wsd="Di02" wsdexp="国家_行政区划" parent="3" relate="SBV" />
+                <word id="3" cont="纺" pos="v" ne="I-Ni" wsd="Bq02" wsdexp="丝绸_呢绒" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="2" />
+                    <arg id="1" type="受事" beg="4" end="13" />
+                </word>
+                <word id="4" cont="公司" pos="n" ne="E-Ni" wsd="Dm04" wsdexp="商店" parent="5" relate="SBV" />
+                <word id="5" cont="开发" pos="v" ne="O" wsd="Hd17" wsdexp="开山_垦荒_烧荒_种地" parent="6" relate="DE">
+                    <arg id="0" type="施事" beg="4" end="4" />
+                </word>
+                <word id="6" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="9" relate="ATT" />
+                <word id="7" cont="牛奶" pos="n" ne="O" wsd="Br12" wsdexp="饮料_茶_酒_乳酪" parent="8" relate="ATT" />
+                <word id="8" cont="蛋白质" pos="n" ne="O" wsd="Ba01" wsdexp="物_物体" parent="9" relate="ATT" />
+                <word id="9" cont="纤维" pos="n" ne="O" wsd="Bm12" wsdexp="蚕丝_绵纱_化学纤维" parent="10" relate="SBV" />
+                <word id="10" cont="实现" pos="v" ne="O" wsd="Ie14" wsdexp="完成_实现" parent="3" relate="VOB">
+                    <arg id="0" type="施事" beg="4" end="9" />
+                    <arg id="1" type="受事" beg="12" end="13" />
+                </word>
+                <word id="11" cont="了" pos="u" ne="O" wsd="Kd05" wsdexp="吗_的话_罢了_了_哉" parent="10" relate="MT" />
+                <word id="12" cont="工业化" pos="v" ne="O" wsd="Ih01" wsdexp="变化_成为" parent="13" relate="ATT" />
+                <word id="13" cont="生产" pos="v" ne="O" wsd="Hd29" wsdexp="出产" parent="10" relate="VOB" />
+                <word id="14" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="15" cont="由于" pos="p" ne="O" wsd="Kc09" wsdexp="因为_所以" parent="21" relate="ADV" />
+                <word id="16" cont="100" pos="m" ne="B-Nm" wsd="-1" wsdexp="" parent="17" relate="QUN" />
+                <word id="17" cont="千克" pos="q" ne="E-Nm" wsd="Dn10" wsdexp="度量衡单位" parent="18" relate="ATT" />
+                <word id="18" cont="牛奶" pos="n" ne="O" wsd="Br12" wsdexp="饮料_茶_酒_乳酪" parent="15" relate="POB" />
+                <word id="19" cont="只" pos="d" ne="O" wsd="Ka07" wsdexp="都_只_不止_甚至" parent="20" relate="ADV" />
+                <word id="20" cont="能" pos="v" ne="O" wsd="Gc02" wsdexp="能够_不能_可以_不可" parent="21" relate="ADV" />
+                <word id="21" cont="提取" pos="v" ne="O" wsd="Hi27" wsdexp="交_取_借_归还_交换" parent="3" relate="VV">
+                    <arg id="0" type="受事" beg="22" end="24" />
+                </word>
+                <word id="22" cont="2" pos="m" ne="B-Nm" wsd="-1" wsdexp="" parent="23" relate="QUN" />
+                <word id="23" cont="千克" pos="q" ne="E-Nm" wsd="Dn10" wsdexp="度量衡单位" parent="24" relate="ATT" />
+                <word id="24" cont="蛋白质" pos="n" ne="O" wsd="Ba01" wsdexp="物_物体" parent="21" relate="VOB" />
+                <word id="25" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="26" cont="使得" pos="v" ne="O" wsd="Je04" wsdexp="引起_导致_使得" parent="21" relate="VV">
+                    <arg id="0" type="受事" beg="27" end="28" />
+                </word>
+                <word id="27" cont="制造" pos="v" ne="O" wsd="Hd04" wsdexp="切割" parent="28" relate="ATT" />
+                <word id="28" cont="成本" pos="n" ne="O" wsd="Dj04" wsdexp="资本_利润_利息_债务" parent="26" relate="VOB" />
+                <word id="29" cont="过" pos="u" ne="O" wsd="Jb04" wsdexp="超过" parent="26" relate="MT" />
+                <word id="30" cont="高" pos="a" ne="O" wsd="Ea02" wsdexp="高_矮" parent="3" relate="IC" />
+                <word id="31" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="32" cont="至今" pos="d" ne="O" wsd="Ca11" wsdexp="过去_近来" parent="33" relate="ADV" />
+                <word id="33" cont="无法" pos="v" ne="O" wsd="Ga12" wsdexp="无奈_无法_难堪" parent="35" relate="ADV" />
+                <word id="34" cont="大力" pos="d" ne="O" wsd="Ka19" wsdexp="竭力_任意_胡乱" parent="35" relate="ADV" />
+                <word id="35" cont="推广" pos="v" ne="O" wsd="Ih03" wsdexp="扩大_伸长_收缩" parent="3" relate="VV">
+                    <arg id="0" type="受事" beg="36" end="36" />
+                </word>
+                <word id="36" cont="使用" pos="v" ne="O" wsd="Hj28" wsdexp="使用_沿用_借鉴" parent="35" relate="VOB" />
+                <word id="37" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="3" cont="而我国的大豆蛋白质纤维制造技术可以从100千克豆粕中提取40千克的植物蛋白质，纤维性能优良，成本竞争优势较大，便于大量推广。" tag="">
+                <word id="0" cont="而" pos="c" ne="O" wsd="Kc03" wsdexp="但是" parent="14" relate="CNJ" />
+                <word id="1" cont="我国" pos="n" ne="O" wsd="Di02" wsdexp="国家_行政区划" parent="2" relate="DE" />
+                <word id="2" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="7" relate="ATT" />
+                <word id="3" cont="大豆" pos="n" ne="O" wsd="Bh06" wsdexp="蔬菜" parent="4" relate="ATT" />
+                <word id="4" cont="蛋白质" pos="n" ne="O" wsd="Ba01" wsdexp="物_物体" parent="5" relate="ATT" />
+                <word id="5" cont="纤维" pos="n" ne="O" wsd="Bm12" wsdexp="蚕丝_绵纱_化学纤维" parent="6" relate="ATT" />
+                <word id="6" cont="制造" pos="v" ne="O" wsd="Hd04" wsdexp="切割" parent="7" relate="ATT" />
+                <word id="7" cont="技术" pos="n" ne="O" wsd="De04" wsdexp="智慧_才能_能力_功夫" parent="14" relate="SBV" />
+                <word id="8" cont="可以" pos="v" ne="O" wsd="Gc02" wsdexp="能够_不能_可以_不可" parent="14" relate="ADV" />
+                <word id="9" cont="从" pos="p" ne="O" wsd="Kb02" wsdexp="从_到_沿" parent="14" relate="ADV" />
+                <word id="10" cont="100" pos="m" ne="B-Nm" wsd="-1" wsdexp="" parent="11" relate="QUN" />
+                <word id="11" cont="千克" pos="q" ne="E-Nm" wsd="Dn10" wsdexp="度量衡单位" parent="12" relate="ATT" />
+                <word id="12" cont="豆粕" pos="n" ne="O" wsd="-1" wsdexp="" parent="13" relate="ATT" />
+                <word id="13" cont="中" pos="nd" ne="O" wsd="Da05" wsdexp="过程_内中" parent="9" relate="POB" />
+                <word id="14" cont="提取" pos="v" ne="O" wsd="Hi27" wsdexp="交_取_借_归还_交换" parent="17" relate="DE">
+                    <arg id="0" type="施事" beg="1" end="7" />
+                    <arg id="1" type="方位" beg="9" end="13" />
+                </word>
+                <word id="15" cont="40" pos="m" ne="B-Nm" wsd="-1" wsdexp="" parent="16" relate="QUN" />
+                <word id="16" cont="千克" pos="q" ne="E-Nm" wsd="Dn10" wsdexp="度量衡单位" parent="17" relate="DE" />
+                <word id="17" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="19" relate="ATT" />
+                <word id="18" cont="植物" pos="n" ne="O" wsd="Ba02" wsdexp="生物_物品" parent="19" relate="ATT" />
+                <word id="19" cont="蛋白质" pos="n" ne="O" wsd="Ba01" wsdexp="物_物体" parent="23" relate="SBV" />
+                <word id="20" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="21" cont="纤维" pos="n" ne="O" wsd="Bm12" wsdexp="蚕丝_绵纱_化学纤维" parent="22" relate="ATT" />
+                <word id="22" cont="性能" pos="n" ne="O" wsd="Dd01" wsdexp="性质" parent="23" relate="SBV" />
+                <word id="23" cont="优良" pos="a" ne="O" wsd="Ed03" wsdexp="好_坏" parent="-1" relate="HED" />
+                <word id="24" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="25" cont="成本" pos="n" ne="O" wsd="Dj04" wsdexp="资本_利润_利息_债务" parent="26" relate="ATT" />
+                <word id="26" cont="竞争" pos="v" ne="O" wsd="Hi41" wsdexp="争论_辩论_议论" parent="27" relate="ATT" />
+                <word id="27" cont="优势" pos="n" ne="O" wsd="Da20" wsdexp="形势_趋势_潮流" parent="29" relate="SBV" />
+                <word id="28" cont="较" pos="d" ne="O" wsd="Ka05" wsdexp="相当_比较_稍微_大多" parent="29" relate="ADV" />
+                <word id="29" cont="大" pos="a" ne="O" wsd="Ea03" wsdexp="大_中_小" parent="23" relate="IC" />
+                <word id="30" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="31" cont="便于" pos="v" ne="O" wsd="Jc07" wsdexp="易于" parent="23" relate="IC">
+                    <arg id="0" type="受事" beg="32" end="33" />
+                </word>
+                <word id="32" cont="大量" pos="m" ne="O" wsd="Eb01" wsdexp="多_少_稀少" parent="33" relate="QUN" />
+                <word id="33" cont="推广" pos="v" ne="O" wsd="Ih03" wsdexp="扩大_伸长_收缩" parent="31" relate="VOB" />
+                <word id="34" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+        </para>
+        <para id="5">
+            <sent id="0" cont="大豆蛋白纤维作为唯一的植物蛋白丝，其生产过程是将榨过油的大豆豆粕浸泡，利用高新技术分离出球蛋白，再进行提纯，通过助剂与腈基、羟基高聚物接枝，共聚、共混，制成一定浓度的蛋白质纺丝溶液，利用现代纺丝设备，经湿法或干法纺丝而成。" tag="10%">
+                <word id="0" cont="大豆" pos="n" ne="O" wsd="Bh06" wsdexp="蔬菜" parent="1" relate="ATT" />
+                <word id="1" cont="蛋白" pos="n" ne="O" wsd="Bl05" wsdexp="精液_卵" parent="2" relate="ATT" />
+                <word id="2" cont="纤维" pos="n" ne="O" wsd="Bm12" wsdexp="蚕丝_绵纱_化学纤维" parent="21" relate="SBV" />
+                <word id="3" cont="作为" pos="p" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="21" relate="ADV" />
+                <word id="4" cont="唯一" pos="b" ne="O" wsd="Ka07" wsdexp="都_只_不止_甚至" parent="5" relate="DE" />
+                <word id="5" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="8" relate="ATT" />
+                <word id="6" cont="植物" pos="n" ne="O" wsd="Ba02" wsdexp="生物_物品" parent="7" relate="ATT" />
+                <word id="7" cont="蛋白" pos="n" ne="O" wsd="Bl05" wsdexp="精液_卵" parent="8" relate="ATT" />
+                <word id="8" cont="丝" pos="n" ne="O" wsd="Dn08" wsdexp="数量单位" parent="3" relate="POB" />
+                <word id="9" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="10" cont="其" pos="r" ne="O" wsd="Ba10" wsdexp="它_什么" parent="11" relate="SBV" />
+                <word id="11" cont="生产" pos="v" ne="O" wsd="Hd29" wsdexp="出产" parent="18" relate="DE">
+                    <arg id="0" type="施事" beg="10" end="10" />
+                    <arg id="1" type="受事" beg="12" end="17" />
+                </word>
+                <word id="12" cont="过程" pos="n" ne="O" wsd="Da05" wsdexp="过程_内中" parent="13" relate="SBV" />
+                <word id="13" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="11" relate="VOB">
+                    <arg id="0" type="施事" beg="12" end="12" />
+                    <arg id="1" type="受事" beg="14" end="17" />
+                </word>
+                <word id="14" cont="将" pos="d" ne="O" wsd="Ka13" wsdexp="随即_即将_终于" parent="15" relate="ADV" />
+                <word id="15" cont="榨" pos="v" ne="O" wsd="Fa05" wsdexp="揿_压_撑" parent="13" relate="VOB">
+                    <arg id="0" type="受事" beg="17" end="17" />
+                </word>
+                <word id="16" cont="过" pos="u" ne="O" wsd="Kd02" wsdexp="来着_过" parent="15" relate="MT" />
+                <word id="17" cont="油" pos="n" ne="O" wsd="Br08" wsdexp="油_盐_酱_醋_糖" parent="15" relate="VOB" />
+                <word id="18" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="20" relate="ATT" />
+                <word id="19" cont="大豆" pos="n" ne="O" wsd="Bh06" wsdexp="蔬菜" parent="20" relate="ATT" />
+                <word id="20" cont="豆粕" pos="n" ne="O" wsd="-1" wsdexp="" parent="21" relate="SBV" />
+                <word id="21" cont="浸泡" pos="v" ne="O" wsd="Id11" wsdexp="泡_淹_沉_陷_漂_流" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="2" />
+                    <arg id="1" type="施事" beg="10" end="20" />
+                </word>
+                <word id="22" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="23" cont="利用" pos="v" ne="O" wsd="Hj28" wsdexp="使用_沿用_借鉴" parent="30" relate="ADV">
+                    <arg id="0" type="受事" beg="24" end="24" />
+                    <arg id="1" type="受事" beg="25" end="27" />
+                </word>
+                <word id="24" cont="高新技术" pos="n" ne="O" wsd="De04" wsdexp="智慧_才能_能力_功夫" parent="23" relate="VOB" />
+                <word id="25" cont="分离" pos="v" ne="O" wsd="Ie09" wsdexp="团聚_离别" parent="23" relate="VOB">
+                    <arg id="0" type="受事" beg="27" end="27" />
+                </word>
+                <word id="26" cont="出" pos="v" ne="O" wsd="Hj64" wsdexp="出_进_出入" parent="25" relate="CMP" />
+                <word id="27" cont="球蛋白" pos="n" ne="O" wsd="Ba02" wsdexp="生物_物品" parent="25" relate="VOB" />
+                <word id="28" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="29" cont="再" pos="d" ne="O" wsd="Ka14" wsdexp="再" parent="30" relate="ADV" />
+                <word id="30" cont="进行" pos="v" ne="O" wsd="Ig03" wsdexp="进行_继续_流逝" parent="21" relate="VV">
+                    <arg id="0" type="受事" beg="31" end="31" />
+                </word>
+                <word id="31" cont="提纯" pos="v" ne="O" wsd="Hd10" wsdexp="提纯_裂化" parent="30" relate="VOB" />
+                <word id="32" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="33" cont="通过" pos="p" ne="O" wsd="Kb06" wsdexp="依靠_通过" parent="36" relate="ADV" />
+                <word id="34" cont="助剂" pos="n" ne="O" wsd="Br13" wsdexp="药品_维生素_补品" parent="33" relate="POB" />
+                <word id="35" cont="与" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="36" relate="CNJ" />
+                <word id="36" cont="腈" pos="v" ne="O" wsd="-1" wsdexp="" parent="30" relate="VV">
+                    <arg id="0" type="受事" beg="37" end="37" />
+                </word>
+                <word id="37" cont="基" pos="n" ne="O" wsd="Di17" wsdexp="帝位_爵位" parent="36" relate="VOB" />
+                <word id="38" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="39" cont="羟基" pos="n" ne="O" wsd="Ba01" wsdexp="物_物体" parent="40" relate="ATT" />
+                <word id="40" cont="高聚物" pos="nh" ne="S-Nh" wsd="Ba01" wsdexp="物_物体" parent="41" relate="SBV" />
+                <word id="41" cont="接" pos="v" ne="O" wsd="Fa15" wsdexp="扔_接_拾_松手" parent="30" relate="VV">
+                    <arg id="0" type="施事" beg="39" end="40" />
+                    <arg id="1" type="受事" beg="42" end="42" />
+                </word>
+                <word id="42" cont="枝" pos="n" ne="O" wsd="Dn08" wsdexp="数量单位" parent="41" relate="VOB" />
+                <word id="43" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="44" cont="共聚" pos="v" ne="O" wsd="Ie10" wsdexp="集合_分散" parent="30" relate="VV" />
+                <word id="45" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="46" cont="共" pos="d" ne="O" wsd="He16" wsdexp="合计" parent="47" relate="ADV" />
+                <word id="47" cont="混" pos="v" ne="O" wsd="Id25" wsdexp="混杂_超重" parent="30" relate="VV" />
+                <word id="48" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="49" cont="制成" pos="v" ne="O" wsd="Hd04" wsdexp="切割" parent="47" relate="VV" />
+                <word id="50" cont="一定" pos="b" ne="O" wsd="Ka05" wsdexp="相当_比较_稍微_大多" parent="51" relate="ATT" />
+                <word id="51" cont="浓度" pos="n" ne="O" wsd="Dn01" wsdexp="量度_温度" parent="52" relate="DE" />
+                <word id="52" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="53" relate="ATT" />
+                <word id="53" cont="蛋白质" pos="n" ne="O" wsd="Ba01" wsdexp="物_物体" parent="54" relate="SBV" />
+                <word id="54" cont="纺" pos="v" ne="O" wsd="Bq02" wsdexp="丝绸_呢绒" parent="30" relate="VV">
+                    <arg id="0" type="施事" beg="50" end="53" />
+                    <arg id="1" type="受事" beg="55" end="55" />
+                    <arg id="2" type="受事" beg="56" end="56" />
+                </word>
+                <word id="55" cont="丝" pos="n" ne="O" wsd="Dn08" wsdexp="数量单位" parent="54" relate="VOB" />
+                <word id="56" cont="溶液" pos="n" ne="O" wsd="Bg01" wsdexp="水_汁_浆" parent="54" relate="VOB" />
+                <word id="57" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="58" cont="利用" pos="v" ne="O" wsd="Hj28" wsdexp="使用_沿用_借鉴" parent="30" relate="VV">
+                    <arg id="0" type="受事" beg="59" end="62" />
+                </word>
+                <word id="59" cont="现代" pos="nt" ne="O" wsd="Ca02" wsdexp="时代_朝代_年代" parent="60" relate="ADV" />
+                <word id="60" cont="纺" pos="v" ne="O" wsd="Bq02" wsdexp="丝绸_呢绒" parent="58" relate="VOB">
+                    <arg id="0" type="时间" beg="59" end="59" />
+                    <arg id="1" type="受事" beg="61" end="61" />
+                    <arg id="2" type="受事" beg="62" end="62" />
+                </word>
+                <word id="61" cont="丝" pos="n" ne="O" wsd="Dn08" wsdexp="数量单位" parent="60" relate="VOB" />
+                <word id="62" cont="设备" pos="n" ne="O" wsd="Ba05" wsdexp="器具_设备" parent="60" relate="VOB" />
+                <word id="63" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="64" cont="经" pos="p" ne="O" wsd="Kb06" wsdexp="依靠_通过" parent="69" relate="ADV" />
+                <word id="65" cont="湿" pos="a" ne="O" wsd="Eb27" wsdexp="凉爽_闷气_干燥_潮湿_滋润" parent="66" relate="ATT" />
+                <word id="66" cont="法" pos="n" ne="O" wsd="Di02" wsdexp="国家_行政区划" parent="64" relate="POB" />
+                <word id="67" cont="或" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="68" relate="LAD" />
+                <word id="68" cont="干法" pos="n" ne="O" wsd="Di25" wsdexp="法律_纪律" parent="66" relate="COO" />
+                <word id="69" cont="纺" pos="v" ne="O" wsd="Bq02" wsdexp="丝绸_呢绒" parent="30" relate="VV">
+                    <arg id="0" type="受事" beg="70" end="70" />
+                </word>
+                <word id="70" cont="丝" pos="n" ne="O" wsd="Dn08" wsdexp="数量单位" parent="69" relate="VOB" />
+                <word id="71" cont="而" pos="c" ne="O" wsd="Kc03" wsdexp="但是" parent="72" relate="CNJ" />
+                <word id="72" cont="成" pos="v" ne="O" wsd="Ih01" wsdexp="变化_成为" parent="69" relate="VV" />
+                <word id="73" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="1" cont="其纤维单丝细度细，比重小，强伸度较高，工艺涉及高分子、化学、生物化学等诸多学科领域的高新技术，难度极大。" tag="">
+                <word id="0" cont="其" pos="r" ne="O" wsd="Ba10" wsdexp="它_什么" parent="3" relate="ATT" />
+                <word id="1" cont="纤维" pos="n" ne="O" wsd="Bm12" wsdexp="蚕丝_绵纱_化学纤维" parent="2" relate="ATT" />
+                <word id="2" cont="单" pos="b" ne="O" wsd="Ka07" wsdexp="都_只_不止_甚至" parent="3" relate="ATT" />
+                <word id="3" cont="丝" pos="n" ne="O" wsd="Dn08" wsdexp="数量单位" parent="4" relate="SBV" />
+                <word id="4" cont="细" pos="a" ne="O" wsd="Ea06" wsdexp="粗_细" parent="-1" relate="HED" />
+                <word id="5" cont="度" pos="q" ne="O" wsd="Dn09" wsdexp="动量单位_复量单位" parent="4" relate="RAD" />
+                <word id="6" cont="细" pos="a" ne="O" wsd="Ea06" wsdexp="粗_细" parent="4" relate="COO" />
+                <word id="7" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="8" cont="比重" pos="n" ne="O" wsd="Dn07" wsdexp="比率_比例_比重" parent="9" relate="SBV" />
+                <word id="9" cont="小" pos="a" ne="O" wsd="Ea03" wsdexp="大_中_小" parent="4" relate="IC" />
+                <word id="10" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="11" cont="强" pos="a" ne="O" wsd="Ed19" wsdexp="稳固_强大_弱小" parent="9" relate="COO" />
+                <word id="12" cont="伸" pos="v" ne="O" wsd="Id04" wsdexp="伸_缩_伸缩_张合" parent="4" relate="IC">
+                    <arg id="0" type="受事" beg="13" end="13" />
+                </word>
+                <word id="13" cont="度" pos="n" ne="O" wsd="Dn09" wsdexp="动量单位_复量单位" parent="12" relate="VOB" />
+                <word id="14" cont="较" pos="d" ne="O" wsd="Ka05" wsdexp="相当_比较_稍微_大多" parent="15" relate="ADV" />
+                <word id="15" cont="高" pos="a" ne="O" wsd="Ea02" wsdexp="高_矮" parent="12" relate="CMP" />
+                <word id="16" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="17" cont="工艺" pos="n" ne="O" wsd="De04" wsdexp="智慧_才能_能力_功夫" parent="18" relate="SBV" />
+                <word id="18" cont="涉及" pos="v" ne="O" wsd="Je01" wsdexp="牵连_涉及_相关" parent="12" relate="VV">
+                    <arg id="0" type="施事" beg="17" end="17" />
+                    <arg id="1" type="受事" beg="19" end="24" />
+                    <arg id="2" type="受事" beg="25" end="30" />
+                </word>
+                <word id="19" cont="高分子" pos="n" ne="O" wsd="Aj07" wsdexp="成员" parent="18" relate="VOB" />
+                <word id="20" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="21" cont="化学" pos="n" ne="O" wsd="Dk03" wsdexp="科学_学科_学业" parent="19" relate="COO" />
+                <word id="22" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="23" cont="生物" pos="n" ne="O" wsd="Ba02" wsdexp="生物_物品" parent="24" relate="ATT" />
+                <word id="24" cont="化学" pos="n" ne="O" wsd="Dk03" wsdexp="科学_学科_学业" parent="19" relate="COO" />
+                <word id="25" cont="等" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="30" relate="ATT" />
+                <word id="26" cont="诸多" pos="m" ne="O" wsd="Eb01" wsdexp="多_少_稀少" parent="28" relate="QUN" />
+                <word id="27" cont="学科" pos="n" ne="O" wsd="Dk03" wsdexp="科学_学科_学业" parent="28" relate="ATT" />
+                <word id="28" cont="领域" pos="n" ne="O" wsd="Dd05" wsdexp="范围_方面_环节" parent="29" relate="DE" />
+                <word id="29" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="30" relate="ATT" />
+                <word id="30" cont="高新技术" pos="n" ne="O" wsd="De04" wsdexp="智慧_才能_能力_功夫" parent="18" relate="VOB" />
+                <word id="31" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="32" cont="难度" pos="n" ne="O" wsd="Dn01" wsdexp="量度_温度" parent="33" relate="SBV" />
+                <word id="33" cont="极大" pos="a" ne="O" wsd="Ea03" wsdexp="大_中_小" parent="4" relate="IC" />
+                <word id="34" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+        </para>
+        <para id="6">
+            <sent id="0" cont="就人类发展而言，新世纪的新型纤维首先将不再过度依赖于石油，转向取材于价格低廉、储量丰富的自然资源，其中，农、牧、林业的下脚料是值得重点予以关注的材料来源。" tag="20%">
+                <word id="0" cont="就" pos="p" ne="O" wsd="Ka07" wsdexp="都_只_不止_甚至" parent="2" relate="ADV" />
+                <word id="1" cont="人类" pos="n" ne="O" wsd="Aa01" wsdexp="人_人民_众人" parent="0" relate="POB" />
+                <word id="2" cont="发展" pos="v" ne="O" wsd="Ie12" wsdexp="进步_退步_堕落" parent="43" relate="DE" />
+                <word id="3" cont="而言" pos="u" ne="O" wsd="Hi12" wsdexp="讲话_谈天" parent="2" relate="MT" />
+                <word id="4" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="5" cont="新" pos="a" ne="O" wsd="Eb28" wsdexp="新_新鲜" parent="6" relate="ATT" />
+                <word id="6" cont="世纪" pos="n" ne="O" wsd="Ca18" wsdexp="年" parent="7" relate="DE" />
+                <word id="7" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="9" relate="ATT" />
+                <word id="8" cont="新型" pos="b" ne="O" wsd="Eb28" wsdexp="新_新鲜" parent="9" relate="ATT" />
+                <word id="9" cont="纤维" pos="n" ne="O" wsd="Bm12" wsdexp="蚕丝_绵纱_化学纤维" parent="14" relate="SBV" />
+                <word id="10" cont="首先" pos="d" ne="O" wsd="Ka09" wsdexp="姑且_临时_预先_首先_准时" parent="14" relate="ADV" />
+                <word id="11" cont="将" pos="d" ne="O" wsd="Ka13" wsdexp="随即_即将_终于" parent="14" relate="ADV" />
+                <word id="12" cont="不再" pos="d" ne="O" wsd="Ka14" wsdexp="再" parent="14" relate="ADV" />
+                <word id="13" cont="过度" pos="d" ne="O" wsd="Ka03" wsdexp="过分_尽量" parent="14" relate="ADV" />
+                <word id="14" cont="依赖" pos="v" ne="O" wsd="Kb06" wsdexp="依靠_通过" parent="2" relate="VV">
+                    <arg id="0" type="施事" beg="5" end="9" />
+                </word>
+                <word id="15" cont="于" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="18" relate="ADV" />
+                <word id="16" cont="石油" pos="n" ne="O" wsd="Bm10" wsdexp="石油_酒精_润滑油_煤焦油" parent="15" relate="POB" />
+                <word id="17" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="18" cont="转向" pos="v" ne="O" wsd="Ih01" wsdexp="变化_成为" parent="2" relate="VV" />
+                <word id="19" cont="取材" pos="v" ne="O" wsd="Hj25" wsdexp="采集_搜罗_挑选_取长补短" parent="18" relate="VV" />
+                <word id="20" cont="于" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="22" relate="ADV" />
+                <word id="21" cont="价格" pos="n" ne="O" wsd="Dj02" wsdexp="价值_价格" parent="20" relate="POB" />
+                <word id="22" cont="低廉" pos="a" ne="O" wsd="Ed27" wsdexp="贵重_昂贵_便宜" parent="2" relate="IC" />
+                <word id="23" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="24" cont="储量" pos="n" ne="O" wsd="Dn03" wsdexp="数量" parent="26" relate="DE" />
+                <word id="25" cont="丰富" pos="a" ne="O" wsd="Ed39" wsdexp="丰富_广博_广博_贫乏" parent="26" relate="DE" />
+                <word id="26" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="27" relate="ATT" />
+                <word id="27" cont="自然资源" pos="i" ne="O" wsd="Db02" wsdexp="根源_来源" parent="22" relate="COO" />
+                <word id="28" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="29" cont="其中" pos="r" ne="O" wsd="Da05" wsdexp="过程_内中" parent="38" relate="ADV" />
+                <word id="30" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="31" cont="农" pos="n" ne="O" wsd="Ae07" wsdexp="农民_牧民_渔民" parent="36" relate="DE" />
+                <word id="32" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="33" cont="牧" pos="v" ne="O" wsd="Hd27" wsdexp="畜牧_饲养_养殖" parent="31" relate="COO" />
+                <word id="34" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="35" cont="林业" pos="n" ne="O" wsd="Di18" wsdexp="事业_行业_工程" parent="31" relate="COO" />
+                <word id="36" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="37" relate="ATT" />
+                <word id="37" cont="下脚料" pos="n" ne="O" wsd="Ba06" wsdexp="物资_生活资料" parent="38" relate="SBV" />
+                <word id="38" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="2" relate="IC">
+                    <arg id="0" type="施事" beg="31" end="37" />
+                    <arg id="1" type="受事" beg="39" end="40" />
+                    <arg id="2" type="受事" beg="41" end="42" />
+                </word>
+                <word id="39" cont="值得" pos="v" ne="O" wsd="Gc04" wsdexp="值得_不值" parent="38" relate="VOB">
+                    <arg id="0" type="受事" beg="40" end="40" />
+                </word>
+                <word id="40" cont="重点" pos="n" ne="O" wsd="Ed28" wsdexp="重要_次要_不足道" parent="39" relate="VOB" />
+                <word id="41" cont="予以" pos="v" ne="O" wsd="Je05" wsdexp="给予_寄予_加以_冠以" parent="38" relate="VOB">
+                    <arg id="0" type="受事" beg="42" end="42" />
+                </word>
+                <word id="42" cont="关注" pos="v" ne="O" wsd="Gb19" wsdexp="关怀_担心_放心" parent="41" relate="VOB" />
+                <word id="43" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="45" relate="ATT" />
+                <word id="44" cont="材料" pos="n" ne="O" wsd="Ba06" wsdexp="物资_生活资料" parent="45" relate="ATT" />
+                <word id="45" cont="来源" pos="n" ne="O" wsd="Db02" wsdexp="根源_来源" parent="-1" relate="HED" />
+                <word id="46" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="1" cont="而自然材料的使用，将最大限度地减少生产过程中可能出现的环境污染，同时将使得新型纤维对人体皮肤具有很好的舒适性。" tag="">
+                <word id="0" cont="而" pos="c" ne="O" wsd="Kc03" wsdexp="但是" parent="2" relate="LAD" />
+                <word id="1" cont="自然" pos="n" ne="O" wsd="Ed51" wsdexp="天然_本来_现成" parent="2" relate="ATT" />
+                <word id="2" cont="材料" pos="n" ne="O" wsd="Dk17" wsdexp="资料_文件" parent="3" relate="DE" />
+                <word id="3" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="4" relate="ATT" />
+                <word id="4" cont="使用" pos="v" ne="O" wsd="Hj28" wsdexp="使用_沿用_借鉴" parent="-1" relate="HED" />
+                <word id="5" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="6" cont="将" pos="d" ne="O" wsd="Ka13" wsdexp="随即_即将_终于" parent="11" relate="ADV" />
+                <word id="7" cont="最" pos="d" ne="O" wsd="Ka02" wsdexp="最_至多_至少" parent="8" relate="ADV" />
+                <word id="8" cont="大" pos="a" ne="O" wsd="Ea03" wsdexp="大_中_小" parent="9" relate="ATT" />
+                <word id="9" cont="限度" pos="n" ne="O" wsd="Dd13" wsdexp="界限_限度_分寸" parent="10" relate="DI" />
+                <word id="10" cont="地" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="11" relate="ADV" />
+                <word id="11" cont="减少" pos="v" ne="O" wsd="Ih05" wsdexp="增多_添补_减少" parent="4" relate="VV">
+                    <arg id="0" type="受事" beg="12" end="19" />
+                </word>
+                <word id="12" cont="生产" pos="v" ne="O" wsd="Hd29" wsdexp="出产" parent="13" relate="ATT" />
+                <word id="13" cont="过程" pos="n" ne="O" wsd="Da05" wsdexp="过程_内中" parent="14" relate="ATT" />
+                <word id="14" cont="中" pos="nd" ne="O" wsd="Da05" wsdexp="过程_内中" parent="16" relate="ADV" />
+                <word id="15" cont="可能" pos="v" ne="O" wsd="Gc02" wsdexp="能够_不能_可以_不可" parent="16" relate="ADV" />
+                <word id="16" cont="出现" pos="v" ne="O" wsd="Jd07" wsdexp="出现_发生" parent="17" relate="DE">
+                    <arg id="0" type="方位" beg="12" end="14" />
+                </word>
+                <word id="17" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="19" relate="ATT" />
+                <word id="18" cont="环境" pos="n" ne="O" wsd="Da21" wsdexp="情况_境地_境界_环境" parent="19" relate="ATT" />
+                <word id="19" cont="污染" pos="v" ne="O" wsd="Je03" wsdexp="沾染_传染" parent="11" relate="VOB" />
+                <word id="20" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="21" cont="同时" pos="c" ne="O" wsd="Ca03" wsdexp="时期_时间" parent="23" relate="CNJ" />
+                <word id="22" cont="将" pos="d" ne="O" wsd="Ka13" wsdexp="随即_即将_终于" parent="23" relate="ADV" />
+                <word id="23" cont="使得" pos="v" ne="O" wsd="Je04" wsdexp="引起_导致_使得" parent="11" relate="VV">
+                    <arg id="0" type="受事" beg="24" end="33" />
+                </word>
+                <word id="24" cont="新型" pos="b" ne="O" wsd="Eb28" wsdexp="新_新鲜" parent="25" relate="ATT" />
+                <word id="25" cont="纤维" pos="n" ne="O" wsd="Bm12" wsdexp="蚕丝_绵纱_化学纤维" parent="29" relate="SBV" />
+                <word id="26" cont="对" pos="p" ne="O" wsd="Kb04" wsdexp="对于_关于" parent="29" relate="ADV" />
+                <word id="27" cont="人体" pos="n" ne="O" wsd="Bk01" wsdexp="身体_尸体" parent="28" relate="ATT" />
+                <word id="28" cont="皮肤" pos="n" ne="O" wsd="Bk10" wsdexp="皮肤_肌肉" parent="26" relate="POB" />
+                <word id="29" cont="具有" pos="v" ne="O" wsd="Jd04" wsdexp="有_占有" parent="23" relate="VOB">
+                    <arg id="0" type="施事" beg="24" end="25" />
+                    <arg id="1" type="受事" beg="30" end="33" />
+                </word>
+                <word id="30" cont="很" pos="d" ne="O" wsd="Ka01" wsdexp="非常_多么" parent="31" relate="ADV" />
+                <word id="31" cont="好" pos="a" ne="O" wsd="Ed03" wsdexp="好_坏" parent="32" relate="DE" />
+                <word id="32" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="33" relate="ATT" />
+                <word id="33" cont="舒适性" pos="n" ne="O" wsd="Dd01" wsdexp="性质" parent="29" relate="VOB" />
+                <word id="34" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="2" cont="大豆纤维正代表了新型纤维的这几个发展方向。" tag="">
+                <word id="0" cont="大豆" pos="n" ne="O" wsd="Bh06" wsdexp="蔬菜" parent="1" relate="ATT" />
+                <word id="1" cont="纤维" pos="n" ne="O" wsd="Bm12" wsdexp="蚕丝_绵纱_化学纤维" parent="3" relate="SBV" />
+                <word id="2" cont="正" pos="d" ne="O" wsd="Ka12" wsdexp="已经_方才_正在" parent="3" relate="ADV" />
+                <word id="3" cont="代表" pos="v" ne="O" wsd="Aj13" wsdexp="专人_代表" parent="7" relate="DE">
+                    <arg id="0" type="施事" beg="0" end="1" />
+                    <arg id="1" type="受事" beg="5" end="6" />
+                </word>
+                <word id="4" cont="了" pos="u" ne="O" wsd="Kd05" wsdexp="吗_的话_罢了_了_哉" parent="3" relate="MT" />
+                <word id="5" cont="新型" pos="b" ne="O" wsd="Eb28" wsdexp="新_新鲜" parent="6" relate="ATT" />
+                <word id="6" cont="纤维" pos="n" ne="O" wsd="Bm12" wsdexp="蚕丝_绵纱_化学纤维" parent="3" relate="VOB" />
+                <word id="7" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="12" relate="ATT" />
+                <word id="8" cont="这" pos="r" ne="O" wsd="Ed61" wsdexp="这个_那个_某个_各个_其他_何" parent="10" relate="ATT" />
+                <word id="9" cont="几" pos="m" ne="O" wsd="Dn05" wsdexp="半_概数_若干" parent="10" relate="QUN" />
+                <word id="10" cont="个" pos="q" ne="O" wsd="Dn08" wsdexp="数量单位" parent="12" relate="ATT" />
+                <word id="11" cont="发展" pos="v" ne="O" wsd="Ie12" wsdexp="进步_退步_堕落" parent="12" relate="ATT" />
+                <word id="12" cont="方向" pos="n" ne="O" wsd="Cb01" wsdexp="方向_位置" parent="-1" relate="HED" />
+                <word id="13" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="3" cont="由于主要原料为来自于自然界的大豆粕，原料数量大且具有可再生性，不会对资源造成掠夺性开发。" tag="">
+                <word id="0" cont="由于" pos="p" ne="O" wsd="Kc09" wsdexp="因为_所以" parent="3" relate="ADV" />
+                <word id="1" cont="主要" pos="b" ne="O" wsd="Ed28" wsdexp="重要_次要_不足道" parent="2" relate="ATT" />
+                <word id="2" cont="原料" pos="n" ne="O" wsd="Ba06" wsdexp="物资_生活资料" parent="0" relate="POB" />
+                <word id="3" cont="为" pos="v" ne="O" wsd="Kb05" wsdexp="为_被_以_由" parent="4" relate="ADV" />
+                <word id="4" cont="来自" pos="v" ne="O" wsd="Ja05" wsdexp="起源_取决" parent="-1" relate="HED" />
+                <word id="5" cont="于" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="4" relate="CMP" />
+                <word id="6" cont="自然界" pos="n" ne="O" wsd="Bd01" wsdexp="宇宙_星辰" parent="5" relate="POB" />
+                <word id="7" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="9" relate="ATT" />
+                <word id="8" cont="大" pos="a" ne="O" wsd="Ea03" wsdexp="大_中_小" parent="9" relate="ATT" />
+                <word id="9" cont="豆粕" pos="n" ne="O" wsd="-1" wsdexp="" parent="5" relate="POB" />
+                <word id="10" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="11" cont="原料" pos="n" ne="O" wsd="Ba06" wsdexp="物资_生活资料" parent="12" relate="ATT" />
+                <word id="12" cont="数量" pos="n" ne="O" wsd="Dn03" wsdexp="数量" parent="13" relate="SBV" />
+                <word id="13" cont="大" pos="a" ne="O" wsd="Ea03" wsdexp="大_中_小" parent="15" relate="ADV" />
+                <word id="14" cont="且" pos="c" ne="O" wsd="Kc02" wsdexp="并且_况且" parent="15" relate="CNJ" />
+                <word id="15" cont="具有" pos="v" ne="O" wsd="Jd04" wsdexp="有_占有" parent="4" relate="VV">
+                    <arg id="0" type="受事" beg="16" end="16" />
+                </word>
+                <word id="16" cont="可再生性" pos="n" ne="O" wsd="-1" wsdexp="" parent="15" relate="VOB" />
+                <word id="17" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="18" cont="不" pos="d" ne="O" wsd="Ka18" wsdexp="不_没" parent="19" relate="ADV" />
+                <word id="19" cont="会" pos="v" ne="O" wsd="Gc02" wsdexp="能够_不能_可以_不可" parent="22" relate="ADV" />
+                <word id="20" cont="对" pos="p" ne="O" wsd="Kb04" wsdexp="对于_关于" parent="22" relate="ADV" />
+                <word id="21" cont="资源" pos="n" ne="O" wsd="Ba08" wsdexp="宝物_废物" parent="20" relate="POB" />
+                <word id="22" cont="造成" pos="v" ne="O" wsd="Je04" wsdexp="引起_导致_使得" parent="15" relate="VV">
+                    <arg id="0" type="受事" beg="23" end="24" />
+                </word>
+                <word id="23" cont="掠夺性" pos="n" ne="O" wsd="Dd01" wsdexp="性质" parent="24" relate="ATT" />
+                <word id="24" cont="开发" pos="v" ne="O" wsd="Hd17" wsdexp="开山_垦荒_烧荒_种地" parent="22" relate="VOB" />
+                <word id="25" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="4" cont="在大豆蛋白纤维生产过程中也不会对环境造成污染，所使用的辅料、助剂均无毒，且大部分助剂和半成品纤维均可回收重新使用，而提纯蛋白后留下的残渣还可以作为饲料，其生产过程完全符合环保要求。" tag="">
+                <word id="0" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="12" relate="ADV" />
+                <word id="1" cont="大豆" pos="n" ne="O" wsd="Bh06" wsdexp="蔬菜" parent="2" relate="ATT" />
+                <word id="2" cont="蛋白" pos="n" ne="O" wsd="Bl05" wsdexp="精液_卵" parent="3" relate="ATT" />
+                <word id="3" cont="纤维" pos="n" ne="O" wsd="Bm12" wsdexp="蚕丝_绵纱_化学纤维" parent="4" relate="ATT" />
+                <word id="4" cont="生产" pos="v" ne="O" wsd="Hd29" wsdexp="出产" parent="5" relate="ATT" />
+                <word id="5" cont="过程" pos="n" ne="O" wsd="Da05" wsdexp="过程_内中" parent="6" relate="ATT" />
+                <word id="6" cont="中" pos="nd" ne="O" wsd="Da05" wsdexp="过程_内中" parent="0" relate="POB" />
+                <word id="7" cont="也" pos="d" ne="O" wsd="Ka33" wsdexp="却_还_也_反而" parent="9" relate="ADV" />
+                <word id="8" cont="不" pos="d" ne="O" wsd="Ka18" wsdexp="不_没" parent="9" relate="ADV" />
+                <word id="9" cont="会" pos="v" ne="O" wsd="Gc02" wsdexp="能够_不能_可以_不可" parent="12" relate="ADV" />
+                <word id="10" cont="对" pos="p" ne="O" wsd="Kb04" wsdexp="对于_关于" parent="12" relate="ADV" />
+                <word id="11" cont="环境" pos="n" ne="O" wsd="Da21" wsdexp="情况_境地_境界_环境" parent="10" relate="POB" />
+                <word id="12" cont="造成" pos="v" ne="O" wsd="Je04" wsdexp="引起_导致_使得" parent="-1" relate="HED">
+                    <arg id="0" type="方位" beg="0" end="6" />
+                    <arg id="1" type="受事" beg="13" end="13" />
+                </word>
+                <word id="13" cont="污染" pos="v" ne="O" wsd="Je03" wsdexp="沾染_传染" parent="12" relate="VOB" />
+                <word id="14" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="15" cont="所" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="16" relate="LAD" />
+                <word id="16" cont="使用" pos="v" ne="O" wsd="Hj28" wsdexp="使用_沿用_借鉴" parent="17" relate="DE" />
+                <word id="17" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="18" relate="ATT" />
+                <word id="18" cont="辅料" pos="n" ne="O" wsd="Bm10" wsdexp="石油_酒精_润滑油_煤焦油" parent="22" relate="SBV" />
+                <word id="19" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="20" cont="助剂" pos="n" ne="O" wsd="Br13" wsdexp="药品_维生素_补品" parent="18" relate="COO" />
+                <word id="21" cont="均" pos="d" ne="O" wsd="Ka07" wsdexp="都_只_不止_甚至" parent="22" relate="ADV" />
+                <word id="22" cont="无毒" pos="v" ne="O" wsd="Br14" wsdexp="毒品_鸦片_砒霜_烟" parent="12" relate="IC">
+                    <arg id="0" type="施事" beg="15" end="20" />
+                </word>
+                <word id="23" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="24" cont="且" pos="c" ne="O" wsd="Kc02" wsdexp="并且_况且" parent="32" relate="CNJ" />
+                <word id="25" cont="大部分" pos="m" ne="O" wsd="Eb02" wsdexp="单_双_全部_部分" parent="26" relate="QUN" />
+                <word id="26" cont="助剂" pos="n" ne="O" wsd="Br13" wsdexp="药品_维生素_补品" parent="32" relate="SBV" />
+                <word id="27" cont="和" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="29" relate="LAD" />
+                <word id="28" cont="半成品" pos="n" ne="O" wsd="Ba04" wsdexp="货物_产品" parent="29" relate="ATT" />
+                <word id="29" cont="纤维" pos="n" ne="O" wsd="Bm12" wsdexp="蚕丝_绵纱_化学纤维" parent="26" relate="COO" />
+                <word id="30" cont="均" pos="d" ne="O" wsd="Ka07" wsdexp="都_只_不止_甚至" parent="31" relate="ADV" />
+                <word id="31" cont="可" pos="v" ne="O" wsd="Gc02" wsdexp="能够_不能_可以_不可" parent="32" relate="ADV" />
+                <word id="32" cont="回收" pos="v" ne="O" wsd="Hc07" wsdexp="收_发" parent="22" relate="IC">
+                    <arg id="0" type="施事" beg="25" end="29" />
+                </word>
+                <word id="33" cont="重新" pos="d" ne="O" wsd="Ka14" wsdexp="再" parent="34" relate="ADV" />
+                <word id="34" cont="使用" pos="v" ne="O" wsd="Hj28" wsdexp="使用_沿用_借鉴" parent="32" relate="VV" />
+                <word id="35" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="36" cont="而" pos="c" ne="O" wsd="Kc03" wsdexp="但是" parent="37" relate="CNJ" />
+                <word id="37" cont="提纯" pos="v" ne="O" wsd="Hd10" wsdexp="提纯_裂化" parent="39" relate="ATT" />
+                <word id="38" cont="蛋白" pos="n" ne="O" wsd="Bl05" wsdexp="精液_卵" parent="39" relate="ATT" />
+                <word id="39" cont="后" pos="nd" ne="O" wsd="Cb04" wsdexp="前_后_中" parent="40" relate="ADV" />
+                <word id="40" cont="留下" pos="v" ne="O" wsd="Jd01" wsdexp="无关" parent="41" relate="DE">
+                    <arg id="0" type="方位" beg="36" end="39" />
+                </word>
+                <word id="41" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="42" relate="ATT" />
+                <word id="42" cont="残渣" pos="n" ne="O" wsd="Dg02" wsdexp="毫毛_赘疣_糟粕" parent="45" relate="SBV" />
+                <word id="43" cont="还" pos="d" ne="O" wsd="Ka33" wsdexp="却_还_也_反而" parent="44" relate="ADV" />
+                <word id="44" cont="可以" pos="v" ne="O" wsd="Gc02" wsdexp="能够_不能_可以_不可" parent="45" relate="ADV" />
+                <word id="45" cont="作为" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="32" relate="VV">
+                    <arg id="0" type="施事" beg="36" end="42" />
+                    <arg id="1" type="受事" beg="46" end="46" />
+                </word>
+                <word id="46" cont="饲料" pos="n" ne="O" wsd="Br02" wsdexp="饲料_粮草_鱼饵" parent="45" relate="VOB" />
+                <word id="47" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="48" cont="其" pos="r" ne="O" wsd="Ba10" wsdexp="它_什么" parent="50" relate="ATT" />
+                <word id="49" cont="生产" pos="v" ne="O" wsd="Hd29" wsdexp="出产" parent="50" relate="ATT" />
+                <word id="50" cont="过程" pos="n" ne="O" wsd="Da05" wsdexp="过程_内中" parent="52" relate="SBV" />
+                <word id="51" cont="完全" pos="a" ne="O" wsd="Ka06" wsdexp="完全_彻底_半半拉拉" parent="52" relate="ADV" />
+                <word id="52" cont="符合" pos="v" ne="O" wsd="Jc01" wsdexp="适应_相配_符合" parent="45" relate="VV">
+                    <arg id="0" type="施事" beg="48" end="50" />
+                    <arg id="1" type="受事" beg="53" end="54" />
+                </word>
+                <word id="53" cont="环保" pos="j" ne="O" wsd="Di18" wsdexp="事业_行业_工程" parent="54" relate="ATT" />
+                <word id="54" cont="要求" pos="n" ne="O" wsd="Gb04" wsdexp="希望_要求_追求" parent="52" relate="VOB" />
+                <word id="55" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+        </para>
+        <para id="7">
+            <sent id="0" cont="大豆纤维给人们带来新的视野，新的境界 " tag="">
+                <word id="0" cont="大豆" pos="n" ne="O" wsd="Bh06" wsdexp="蔬菜" parent="1" relate="ATT" />
+                <word id="1" cont="纤维" pos="n" ne="O" wsd="Bm12" wsdexp="蚕丝_绵纱_化学纤维" parent="4" relate="SBV" />
+                <word id="2" cont="给" pos="p" ne="O" wsd="Je05" wsdexp="给予_寄予_加以_冠以" parent="4" relate="ADV" />
+                <word id="3" cont="人们" pos="n" ne="O" wsd="Aa01" wsdexp="人_人民_众人" parent="2" relate="POB" />
+                <word id="4" cont="带来" pos="v" ne="O" wsd="Hj36" wsdexp="携带_跟随" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="1" />
+                    <arg id="1" type="受事" beg="5" end="7" />
+                    <arg id="2" type="受事" beg="9" end="11" />
+                </word>
+                <word id="5" cont="新" pos="a" ne="O" wsd="Eb28" wsdexp="新_新鲜" parent="6" relate="DE" />
+                <word id="6" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="7" relate="ATT" />
+                <word id="7" cont="视野" pos="n" ne="O" wsd="Dd05" wsdexp="范围_方面_环节" parent="4" relate="VOB" />
+                <word id="8" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="9" cont="新" pos="a" ne="O" wsd="Eb28" wsdexp="新_新鲜" parent="10" relate="DE" />
+                <word id="10" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="11" relate="ATT" />
+                <word id="11" cont="境界" pos="n" ne="O" wsd="Da21" wsdexp="情况_境地_境界_环境" parent="4" relate="VOB" />
+            </sent>
+        </para>
+        <para id="8">
+            <sent id="0" cont="也许你会问，大豆纤维除去绿色的优点，它作为纤维其质地到底怎样？" tag="">
+                <word id="0" cont="也许" pos="d" ne="O" wsd="Ka17" wsdexp="也许_大概_难道" parent="3" relate="ADV" />
+                <word id="1" cont="你" pos="r" ne="O" wsd="Aa03" wsdexp="你_你们" parent="3" relate="SBV" />
+                <word id="2" cont="会" pos="v" ne="O" wsd="Gc02" wsdexp="能够_不能_可以_不可" parent="3" relate="ADV" />
+                <word id="3" cont="问" pos="v" ne="O" wsd="Hi18" wsdexp="问_答_对质" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="1" end="1" />
+                </word>
+                <word id="4" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="5" cont="大豆" pos="n" ne="O" wsd="Bh06" wsdexp="蔬菜" parent="6" relate="ATT" />
+                <word id="6" cont="纤维" pos="n" ne="O" wsd="Bm12" wsdexp="蚕丝_绵纱_化学纤维" parent="7" relate="SBV" />
+                <word id="7" cont="除去" pos="v" ne="O" wsd="Hg18" wsdexp="润色_修改_修订" parent="3" relate="VV">
+                    <arg id="0" type="施事" beg="5" end="6" />
+                    <arg id="1" type="受事" beg="8" end="10" />
+                </word>
+                <word id="8" cont="绿色" pos="n" ne="O" wsd="Bg06" wsdexp="颜色_气息_味道" parent="9" relate="DE" />
+                <word id="9" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="10" relate="ATT" />
+                <word id="10" cont="优点" pos="n" ne="O" wsd="Dd02" wsdexp="优点_缺点" parent="7" relate="VOB" />
+                <word id="11" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="12" cont="它" pos="r" ne="O" wsd="Ba10" wsdexp="它_什么" parent="17" relate="SBV" />
+                <word id="13" cont="作为" pos="p" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="17" relate="ADV" />
+                <word id="14" cont="纤维" pos="n" ne="O" wsd="Bm12" wsdexp="蚕丝_绵纱_化学纤维" parent="13" relate="POB" />
+                <word id="15" cont="其" pos="r" ne="O" wsd="Ba10" wsdexp="它_什么" parent="13" relate="POB" />
+                <word id="16" cont="质地" pos="n" ne="O" wsd="Dd12" wsdexp="质量_基础" parent="13" relate="POB" />
+                <word id="17" cont="到底" pos="v" ne="O" wsd="Ka31" wsdexp="无怪_未尝_毋宁_究竟_不妨" parent="3" relate="VV">
+                    <arg id="0" type="施事" beg="12" end="12" />
+                    <arg id="1" type="受事" beg="18" end="18" />
+                </word>
+                <word id="18" cont="怎样" pos="r" ne="O" wsd="Ka35" wsdexp="哪里_怎样_为什么" parent="17" relate="VOB" />
+                <word id="19" cont="？" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="1" cont="据专家介绍，自然界的大豆粕，是一种再生植物蛋白纤维，它含有18种氨基酸及碳水化合物、无机物、维生素等，由于这些氨基酸的分子结构上大多含有亲水性基因，赋予大豆纤维既有羊绒般的手感，蚕丝般的柔软和光泽，又有很好的吸湿性和导湿性，穿着十分舒适。" tag="20%">
+                <word id="0" cont="据" pos="p" ne="O" wsd="Kb07" wsdexp="依照_根据_趁" parent="9" relate="ADV" />
+                <word id="1" cont="专家" pos="n" ne="O" wsd="Al02" wsdexp="内行_专家_骨干_外行" parent="0" relate="POB" />
+                <word id="2" cont="介绍" pos="v" ne="O" wsd="Hi16" wsdexp="介绍_推荐" parent="0" relate="POB" />
+                <word id="3" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="4" cont="自然界" pos="n" ne="O" wsd="Bd01" wsdexp="宇宙_星辰" parent="5" relate="DE" />
+                <word id="5" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="7" relate="ATT" />
+                <word id="6" cont="大" pos="a" ne="O" wsd="Ea03" wsdexp="大_中_小" parent="7" relate="ATT" />
+                <word id="7" cont="豆粕" pos="n" ne="O" wsd="-1" wsdexp="" parent="9" relate="SBV" />
+                <word id="8" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="9" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="4" end="7" />
+                    <arg id="1" type="受事" beg="10" end="15" />
+                </word>
+                <word id="10" cont="一" pos="m" ne="B-Nm" wsd="Dn04" wsdexp="基数_序数" parent="11" relate="QUN" />
+                <word id="11" cont="种" pos="q" ne="E-Nm" wsd="Dn08" wsdexp="数量单位" parent="15" relate="ATT" />
+                <word id="12" cont="再生" pos="v" ne="O" wsd="Ih11" wsdexp="好转_改进_恶化" parent="13" relate="ATT" />
+                <word id="13" cont="植物" pos="n" ne="O" wsd="Ba02" wsdexp="生物_物品" parent="14" relate="ATT" />
+                <word id="14" cont="蛋白" pos="n" ne="O" wsd="Bl05" wsdexp="精液_卵" parent="15" relate="ATT" />
+                <word id="15" cont="纤维" pos="n" ne="O" wsd="Bm12" wsdexp="蚕丝_绵纱_化学纤维" parent="9" relate="VOB" />
+                <word id="16" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="17" cont="它" pos="r" ne="O" wsd="Ba10" wsdexp="它_什么" parent="18" relate="SBV" />
+                <word id="18" cont="含有" pos="v" ne="O" wsd="Jd06" wsdexp="充满_满怀_包含_显露_呈现" parent="9" relate="VV">
+                    <arg id="0" type="施事" beg="17" end="17" />
+                    <arg id="1" type="受事" beg="19" end="27" />
+                </word>
+                <word id="19" cont="18" pos="m" ne="B-Nm" wsd="-1" wsdexp="" parent="20" relate="QUN" />
+                <word id="20" cont="种" pos="q" ne="E-Nm" wsd="Dn08" wsdexp="数量单位" parent="21" relate="ATT" />
+                <word id="21" cont="氨基酸" pos="n" ne="O" wsd="Dd10" wsdexp="因素_成分" parent="18" relate="VOB" />
+                <word id="22" cont="及" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="23" relate="LAD" />
+                <word id="23" cont="碳水化合物" pos="n" ne="O" wsd="Dd10" wsdexp="因素_成分" parent="21" relate="COO" />
+                <word id="24" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="25" cont="无机物" pos="n" ne="O" wsd="Ba01" wsdexp="物_物体" parent="21" relate="COO" />
+                <word id="26" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="27" cont="维生素" pos="n" ne="O" wsd="Br13" wsdexp="药品_维生素_补品" parent="21" relate="COO" />
+                <word id="28" cont="等" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="18" relate="MT" />
+                <word id="29" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="30" cont="由于" pos="p" ne="O" wsd="Kc09" wsdexp="因为_所以" parent="33" relate="DE" />
+                <word id="31" cont="这些" pos="r" ne="O" wsd="Ed61" wsdexp="这个_那个_某个_各个_其他_何" parent="32" relate="ATT" />
+                <word id="32" cont="氨基酸" pos="n" ne="O" wsd="Dd10" wsdexp="因素_成分" parent="30" relate="POB" />
+                <word id="33" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="34" relate="ATT" />
+                <word id="34" cont="分子结构" pos="i" ne="O" wsd="Dd06" wsdexp="系统_种类_结构" parent="35" relate="ATT" />
+                <word id="35" cont="上" pos="nd" ne="O" wsd="Cb03" wsdexp="上_下_左_右" parent="37" relate="ADV" />
+                <word id="36" cont="大多" pos="d" ne="O" wsd="Ka05" wsdexp="相当_比较_稍微_大多" parent="37" relate="ADV" />
+                <word id="37" cont="含有" pos="v" ne="O" wsd="Jd06" wsdexp="充满_满怀_包含_显露_呈现" parent="9" relate="VV">
+                    <arg id="0" type="方位" beg="30" end="35" />
+                    <arg id="1" type="受事" beg="38" end="39" />
+                </word>
+                <word id="38" cont="亲水性" pos="n" ne="O" wsd="Dd01" wsdexp="性质" parent="39" relate="ATT" />
+                <word id="39" cont="基因" pos="n" ne="O" wsd="Dd15" wsdexp="名称_姓名_生肖_性别" parent="37" relate="VOB" />
+                <word id="40" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="41" cont="赋予" pos="v" ne="O" wsd="Je05" wsdexp="给予_寄予_加以_冠以" parent="37" relate="VV">
+                    <arg id="0" type="受事" beg="42" end="49" />
+                </word>
+                <word id="42" cont="大豆" pos="n" ne="O" wsd="Bh06" wsdexp="蔬菜" parent="43" relate="ATT" />
+                <word id="43" cont="纤维" pos="n" ne="O" wsd="Bm12" wsdexp="蚕丝_绵纱_化学纤维" parent="45" relate="SBV" />
+                <word id="44" cont="既" pos="c" ne="O" wsd="Kc04" wsdexp="虽然_即使_既然" parent="45" relate="CNJ" />
+                <word id="45" cont="有" pos="v" ne="O" wsd="Jd04" wsdexp="有_占有" parent="41" relate="VOB">
+                    <arg id="0" type="施事" beg="42" end="43" />
+                    <arg id="1" type="受事" beg="46" end="46" />
+                    <arg id="2" type="受事" beg="47" end="49" />
+                </word>
+                <word id="46" cont="羊绒" pos="n" ne="O" wsd="Bq01" wsdexp="衣料_布_绒" parent="45" relate="VOB" />
+                <word id="47" cont="般" pos="u" ne="O" wsd="Jb03" wsdexp="相似_例如" parent="48" relate="DE" />
+                <word id="48" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="49" relate="ATT" />
+                <word id="49" cont="手感" pos="n" ne="O" wsd="Df04" wsdexp="感觉_感情" parent="45" relate="VOB" />
+                <word id="50" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="51" cont="蚕" pos="n" ne="O" wsd="Bi19" wsdexp="蜂_蚕" parent="52" relate="ATT" />
+                <word id="52" cont="丝" pos="n" ne="O" wsd="Dn08" wsdexp="数量单位" parent="54" relate="DE" />
+                <word id="53" cont="般" pos="u" ne="O" wsd="Jb03" wsdexp="相似_例如" parent="54" relate="DE" />
+                <word id="54" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="55" relate="ATT" />
+                <word id="55" cont="柔软" pos="a" ne="O" wsd="Eb10" wsdexp="硬_软_烂_脆" parent="9" relate="IC" />
+                <word id="56" cont="和" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="57" relate="LAD" />
+                <word id="57" cont="光泽" pos="n" ne="O" wsd="Bg03" wsdexp="火_光_影" parent="55" relate="COO" />
+                <word id="58" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="59" cont="又" pos="d" ne="O" wsd="Ka14" wsdexp="再" parent="60" relate="ADV" />
+                <word id="60" cont="有" pos="v" ne="O" wsd="Jd04" wsdexp="有_占有" parent="63" relate="DE" />
+                <word id="61" cont="很" pos="d" ne="O" wsd="Ka01" wsdexp="非常_多么" parent="62" relate="ADV" />
+                <word id="62" cont="好" pos="a" ne="O" wsd="Ed03" wsdexp="好_坏" parent="63" relate="DE" />
+                <word id="63" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="64" relate="ATT" />
+                <word id="64" cont="吸" pos="v" ne="O" wsd="Fc08" wsdexp="呼_吐_吸_呼吸" parent="9" relate="VV">
+                    <arg id="0" type="受事" beg="65" end="66" />
+                    <arg id="1" type="受事" beg="67" end="70" />
+                </word>
+                <word id="65" cont="湿" pos="a" ne="O" wsd="Eb27" wsdexp="凉爽_闷气_干燥_潮湿_滋润" parent="66" relate="ATT" />
+                <word id="66" cont="性" pos="n" ne="O" wsd="De01" wsdexp="性格_品行_道德_作风" parent="64" relate="VOB" />
+                <word id="67" cont="和" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="68" relate="CNJ" />
+                <word id="68" cont="导" pos="v" ne="O" wsd="Ie01" wsdexp="传导_传播_流行" parent="64" relate="VOB">
+                    <arg id="0" type="受事" beg="69" end="70" />
+                </word>
+                <word id="69" cont="湿" pos="a" ne="O" wsd="Eb27" wsdexp="凉爽_闷气_干燥_潮湿_滋润" parent="70" relate="ATT" />
+                <word id="70" cont="性" pos="n" ne="O" wsd="De01" wsdexp="性格_品行_道德_作风" parent="68" relate="VOB" />
+                <word id="71" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="72" cont="穿着" pos="n" ne="O" wsd="Fa18" wsdexp="穿_戴_佩带" parent="74" relate="SBV" />
+                <word id="73" cont="十分" pos="d" ne="O" wsd="Ka01" wsdexp="非常_多么" parent="74" relate="ADV" />
+                <word id="74" cont="舒适" pos="a" ne="O" wsd="Ef07" wsdexp="舒服_艰苦" parent="9" relate="IC" />
+                <word id="75" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+        </para>
+        <para id="9">
+            <sent id="0" cont="来到21世纪，人类更加关注生活质量，关心健康。" tag="">
+                <word id="0" cont="来到" pos="v" ne="O" wsd="Hj63" wsdexp="来_去_来去" parent="-1" relate="HED">
+                    <arg id="0" type="受事" beg="1" end="2" />
+                </word>
+                <word id="1" cont="21" pos="m" ne="S-Nm" wsd="-1" wsdexp="" parent="2" relate="QUN" />
+                <word id="2" cont="世纪" pos="n" ne="O" wsd="Ca18" wsdexp="年" parent="0" relate="VOB" />
+                <word id="3" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="4" cont="人类" pos="n" ne="O" wsd="Aa01" wsdexp="人_人民_众人" parent="6" relate="SBV" />
+                <word id="5" cont="更加" pos="d" ne="O" wsd="Ka04" wsdexp="更加" parent="6" relate="ADV" />
+                <word id="6" cont="关注" pos="v" ne="O" wsd="Gb19" wsdexp="关怀_担心_放心" parent="0" relate="VV">
+                    <arg id="0" type="施事" beg="4" end="4" />
+                    <arg id="1" type="受事" beg="7" end="8" />
+                </word>
+                <word id="7" cont="生活" pos="v" ne="O" wsd="Hj01" wsdexp="生活_居住" parent="8" relate="ATT" />
+                <word id="8" cont="质量" pos="n" ne="O" wsd="Dd12" wsdexp="质量_基础" parent="6" relate="VOB" />
+                <word id="9" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="10" cont="关心" pos="v" ne="O" wsd="Gb19" wsdexp="关怀_担心_放心" parent="0" relate="VV" />
+                <word id="11" cont="健康" pos="a" ne="O" wsd="Ed43" wsdexp="正常_反常_奇怪" parent="0" relate="VV" />
+                <word id="12" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="1" cont="在冬季内衣市场眼花缭乱的产品中，绿色服饰―――如同绿色食品一样抢眼，大豆纤维内衣给人们带来新的视野，新的境界。" tag="">
+                <word id="0" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="12" relate="ADV" />
+                <word id="1" cont="冬季" pos="nt" ne="O" wsd="Ca19" wsdexp="四季_春_夏_秋_冬" parent="2" relate="ATT" />
+                <word id="2" cont="内衣" pos="n" ne="O" wsd="Bq03" wsdexp="衣服_上装_裤子_裙子" parent="3" relate="ATT" />
+                <word id="3" cont="市场" pos="n" ne="O" wsd="Cb28" wsdexp="场所" parent="6" relate="ATT" />
+                <word id="4" cont="眼花缭乱" pos="i" ne="O" wsd="Ef13" wsdexp="整齐_杂乱" parent="5" relate="DE" />
+                <word id="5" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="6" relate="ATT" />
+                <word id="6" cont="产品" pos="n" ne="O" wsd="Ba04" wsdexp="货物_产品" parent="7" relate="ATT" />
+                <word id="7" cont="中" pos="nd" ne="O" wsd="Da05" wsdexp="过程_内中" parent="0" relate="POB" />
+                <word id="8" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="9" cont="绿色" pos="n" ne="O" wsd="Bg06" wsdexp="颜色_气息_味道" parent="10" relate="ATT" />
+                <word id="10" cont="服饰" pos="n" ne="O" wsd="Bq03" wsdexp="衣服_上装_裤子_裙子" parent="12" relate="SBV" />
+                <word id="11" cont="―――" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="12" cont="如同" pos="v" ne="O" wsd="Jb03" wsdexp="相似_例如" parent="15" relate="SIM">
+                    <arg id="0" type="方位" beg="0" end="7" />
+                    <arg id="1" type="施事" beg="9" end="10" />
+                    <arg id="2" type="受事" beg="13" end="14" />
+                </word>
+                <word id="13" cont="绿色" pos="n" ne="O" wsd="Bg06" wsdexp="颜色_气息_味道" parent="14" relate="ATT" />
+                <word id="14" cont="食品" pos="n" ne="O" wsd="Br03" wsdexp="食物" parent="12" relate="VOB" />
+                <word id="15" cont="一样" pos="u" ne="O" wsd="Jb01" wsdexp="相同_相等_差不多" parent="16" relate="ATT" />
+                <word id="16" cont="抢眼" pos="a" ne="O" wsd="Ed03" wsdexp="好_坏" parent="-1" relate="HED" />
+                <word id="17" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="18" cont="大豆" pos="n" ne="O" wsd="Bh06" wsdexp="蔬菜" parent="19" relate="ATT" />
+                <word id="19" cont="纤维" pos="n" ne="O" wsd="Bm12" wsdexp="蚕丝_绵纱_化学纤维" parent="20" relate="ATT" />
+                <word id="20" cont="内衣" pos="n" ne="O" wsd="Bq03" wsdexp="衣服_上装_裤子_裙子" parent="23" relate="SBV" />
+                <word id="21" cont="给" pos="p" ne="O" wsd="Je05" wsdexp="给予_寄予_加以_冠以" parent="23" relate="ADV" />
+                <word id="22" cont="人们" pos="n" ne="O" wsd="Aa01" wsdexp="人_人民_众人" parent="21" relate="POB" />
+                <word id="23" cont="带来" pos="v" ne="O" wsd="Hj36" wsdexp="携带_跟随" parent="16" relate="IC">
+                    <arg id="0" type="施事" beg="18" end="20" />
+                    <arg id="1" type="受事" beg="24" end="26" />
+                </word>
+                <word id="24" cont="新" pos="a" ne="O" wsd="Eb28" wsdexp="新_新鲜" parent="25" relate="DE" />
+                <word id="25" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="26" relate="ATT" />
+                <word id="26" cont="视野" pos="n" ne="O" wsd="Dd05" wsdexp="范围_方面_环节" parent="23" relate="VOB" />
+                <word id="27" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="28" cont="新" pos="a" ne="O" wsd="Eb28" wsdexp="新_新鲜" parent="29" relate="DE" />
+                <word id="29" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="30" relate="ATT" />
+                <word id="30" cont="境界" pos="n" ne="O" wsd="Da21" wsdexp="情况_境地_境界_环境" parent="16" relate="IC" />
+                <word id="31" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+        </para>
+        <para id="10">
+            <sent id="0" cont="有关专家告诉我们，因为大豆蛋白纤维与人体皮肤蛋白有着相同性，不会像羊毛鳞片结构那样具有排斥性，引起皮肤瘙痒；" tag="">
+                <word id="0" cont="有关" pos="v" ne="O" wsd="Je01" wsdexp="牵连_涉及_相关" parent="1" relate="ATT" />
+                <word id="1" cont="专家" pos="n" ne="O" wsd="Al02" wsdexp="内行_专家_骨干_外行" parent="2" relate="SBV" />
+                <word id="2" cont="告诉" pos="v" ne="O" wsd="Hi15" wsdexp="告诉_通知_嘱咐" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="1" />
+                    <arg id="1" type="受事" beg="3" end="3" />
+                </word>
+                <word id="3" cont="我们" pos="r" ne="O" wsd="Aa02" wsdexp="我_我们" parent="2" relate="VOB" />
+                <word id="4" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="5" cont="因为" pos="c" ne="O" wsd="Kc09" wsdexp="因为_所以" parent="13" relate="CNJ" />
+                <word id="6" cont="大豆" pos="n" ne="O" wsd="Bh06" wsdexp="蔬菜" parent="7" relate="ATT" />
+                <word id="7" cont="蛋白" pos="n" ne="O" wsd="Bl05" wsdexp="精液_卵" parent="8" relate="ATT" />
+                <word id="8" cont="纤维" pos="n" ne="O" wsd="Bm12" wsdexp="蚕丝_绵纱_化学纤维" parent="13" relate="SBV" />
+                <word id="9" cont="与" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="12" relate="LAD" />
+                <word id="10" cont="人体" pos="n" ne="O" wsd="Bk01" wsdexp="身体_尸体" parent="11" relate="ATT" />
+                <word id="11" cont="皮肤" pos="n" ne="O" wsd="Bk10" wsdexp="皮肤_肌肉" parent="12" relate="ATT" />
+                <word id="12" cont="蛋白" pos="n" ne="O" wsd="Bl05" wsdexp="精液_卵" parent="8" relate="COO" />
+                <word id="13" cont="有着" pos="v" ne="O" wsd="Jd04" wsdexp="有_占有" parent="2" relate="IC">
+                    <arg id="0" type="施事" beg="6" end="12" />
+                    <arg id="1" type="受事" beg="14" end="15" />
+                </word>
+                <word id="14" cont="相同" pos="a" ne="O" wsd="Jb01" wsdexp="相同_相等_差不多" parent="15" relate="ATT" />
+                <word id="15" cont="性" pos="n" ne="O" wsd="De01" wsdexp="性格_品行_道德_作风" parent="13" relate="VOB" />
+                <word id="16" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="17" cont="不" pos="d" ne="O" wsd="Ka18" wsdexp="不_没" parent="18" relate="ADV" />
+                <word id="18" cont="会" pos="v" ne="O" wsd="Gc02" wsdexp="能够_不能_可以_不可" parent="19" relate="ADV" />
+                <word id="19" cont="像" pos="v" ne="O" wsd="Jb03" wsdexp="相似_例如" parent="13" relate="VV">
+                    <arg id="0" type="受事" beg="20" end="22" />
+                    <arg id="1" type="受事" beg="23" end="23" />
+                    <arg id="2" type="受事" beg="24" end="24" />
+                    <arg id="3" type="受事" beg="25" end="26" />
+                </word>
+                <word id="20" cont="羊毛" pos="n" ne="O" wsd="Bk11" wsdexp="毛_发" parent="21" relate="ATT" />
+                <word id="21" cont="鳞片" pos="n" ne="O" wsd="Bk13" wsdexp="骨骼_指甲_甲壳_鳞" parent="22" relate="ATT" />
+                <word id="22" cont="结构" pos="n" ne="O" wsd="Dd06" wsdexp="系统_种类_结构" parent="19" relate="VOB" />
+                <word id="23" cont="那样" pos="r" ne="O" wsd="Ka34" wsdexp="这样_那样" parent="19" relate="VOB" />
+                <word id="24" cont="具有" pos="v" ne="O" wsd="Jd04" wsdexp="有_占有" parent="19" relate="VOB" />
+                <word id="25" cont="排斥" pos="v" ne="O" wsd="Hi58" wsdexp="欺负_侮辱_排挤" parent="19" relate="VOB">
+                    <arg id="0" type="受事" beg="26" end="26" />
+                </word>
+                <word id="26" cont="性" pos="n" ne="O" wsd="De01" wsdexp="性格_品行_道德_作风" parent="25" relate="VOB" />
+                <word id="27" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="28" cont="引起" pos="v" ne="O" wsd="Je04" wsdexp="引起_导致_使得" parent="13" relate="VV">
+                    <arg id="0" type="受事" beg="29" end="29" />
+                </word>
+                <word id="29" cont="皮肤" pos="n" ne="O" wsd="Bk10" wsdexp="皮肤_肌肉" parent="28" relate="VOB" />
+                <word id="30" cont="瘙痒" pos="a" ne="O" wsd="Ib11" wsdexp="痒_酸_痛_肿_胀" parent="2" relate="IC" />
+                <word id="31" cont="；" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="1" cont="大豆纤维所含的色氨酸和酪氨酸能吸收紫外线，可防止皮肤遭受过多紫外线侵袭，对于一些皮肤过敏的人更是首选。" tag="">
+                <word id="0" cont="大豆" pos="n" ne="O" wsd="Bh06" wsdexp="蔬菜" parent="1" relate="ATT" />
+                <word id="1" cont="纤维" pos="n" ne="O" wsd="Bm12" wsdexp="蚕丝_绵纱_化学纤维" parent="3" relate="SBV" />
+                <word id="2" cont="所" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="3" relate="LAD" />
+                <word id="3" cont="含" pos="v" ne="O" wsd="Jd06" wsdexp="充满_满怀_包含_显露_呈现" parent="4" relate="DE">
+                    <arg id="0" type="施事" beg="0" end="1" />
+                </word>
+                <word id="4" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="5" relate="ATT" />
+                <word id="5" cont="色氨酸" pos="n" ne="O" wsd="-1" wsdexp="" parent="7" relate="SBV" />
+                <word id="6" cont="和" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="7" relate="CNJ" />
+                <word id="7" cont="酪" pos="v" ne="O" wsd="Br12" wsdexp="饮料_茶_酒_乳酪" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="5" />
+                    <arg id="1" type="受事" beg="8" end="8" />
+                </word>
+                <word id="8" cont="氨" pos="n" ne="O" wsd="Bg05" wsdexp="气" parent="7" relate="VOB" />
+                <word id="9" cont="酸" pos="a" ne="O" wsd="Ec09" wsdexp="甜_酸_苦_涩_辣" parent="11" relate="ADV" />
+                <word id="10" cont="能" pos="v" ne="O" wsd="Gc02" wsdexp="能够_不能_可以_不可" parent="11" relate="ADV" />
+                <word id="11" cont="吸收" pos="v" ne="O" wsd="Hc07" wsdexp="收_发" parent="7" relate="VV">
+                    <arg id="0" type="受事" beg="12" end="12" />
+                </word>
+                <word id="12" cont="紫外线" pos="n" ne="O" wsd="Bg03" wsdexp="火_光_影" parent="11" relate="VOB" />
+                <word id="13" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="14" cont="可" pos="v" ne="O" wsd="Gc02" wsdexp="能够_不能_可以_不可" parent="15" relate="ADV" />
+                <word id="15" cont="防止" pos="v" ne="O" wsd="Je11" wsdexp="防止_避免_免得" parent="11" relate="VV">
+                    <arg id="0" type="受事" beg="16" end="16" />
+                    <arg id="1" type="受事" beg="17" end="18" />
+                    <arg id="2" type="受事" beg="19" end="20" />
+                    <arg id="3" type="受事" beg="21" end="21" />
+                </word>
+                <word id="16" cont="皮肤" pos="n" ne="O" wsd="Bk10" wsdexp="皮肤_肌肉" parent="15" relate="VOB" />
+                <word id="17" cont="遭受" pos="v" ne="O" wsd="Je13" wsdexp="遭受_享受" parent="15" relate="VOB" />
+                <word id="18" cont="过" pos="u" ne="O" wsd="Kd02" wsdexp="来着_过" parent="17" relate="MT" />
+                <word id="19" cont="多" pos="m" ne="O" wsd="Eb01" wsdexp="多_少_稀少" parent="20" relate="QUN" />
+                <word id="20" cont="紫外线" pos="n" ne="O" wsd="Bg03" wsdexp="火_光_影" parent="15" relate="VOB" />
+                <word id="21" cont="侵袭" pos="v" ne="O" wsd="Hb08" wsdexp="埋伏_袭击" parent="15" relate="VOB" />
+                <word id="22" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="23" cont="对于" pos="p" ne="O" wsd="Kb04" wsdexp="对于_关于" parent="26" relate="ADV" />
+                <word id="24" cont="一些" pos="m" ne="O" wsd="Dn05" wsdexp="半_概数_若干" parent="25" relate="QUN" />
+                <word id="25" cont="皮肤" pos="n" ne="O" wsd="Bk10" wsdexp="皮肤_肌肉" parent="23" relate="POB" />
+                <word id="26" cont="过敏" pos="v" ne="O" wsd="Dl01" wsdexp="疾病_兽疫_病害" parent="27" relate="DE" />
+                <word id="27" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="28" relate="ATT" />
+                <word id="28" cont="人" pos="n" ne="O" wsd="Aa01" wsdexp="人_人民_众人" parent="30" relate="SBV" />
+                <word id="29" cont="更" pos="d" ne="O" wsd="Ka04" wsdexp="更加" parent="30" relate="ADV" />
+                <word id="30" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="11" relate="IC">
+                    <arg id="0" type="施事" beg="23" end="28" />
+                    <arg id="1" type="受事" beg="31" end="31" />
+                </word>
+                <word id="31" cont="首选" pos="v" ne="O" wsd="Hj25" wsdexp="采集_搜罗_挑选_取长补短" parent="30" relate="VOB" />
+                <word id="32" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+        </para>
+        <para id="11">
+            <sent id="0" cont="服装面料在外观上给人们的感觉体现在光泽、悬垂性和织纹细腻程度三个方面。" tag="">
+                <word id="0" cont="服装" pos="n" ne="O" wsd="Bq03" wsdexp="衣服_上装_裤子_裙子" parent="1" relate="ATT" />
+                <word id="1" cont="面料" pos="n" ne="O" wsd="Bq01" wsdexp="衣料_布_绒" parent="9" relate="SBV" />
+                <word id="2" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="9" relate="ADV" />
+                <word id="3" cont="外观" pos="n" ne="O" wsd="Dc02" wsdexp="风景_景象" parent="4" relate="ATT" />
+                <word id="4" cont="上" pos="nd" ne="O" wsd="Cb03" wsdexp="上_下_左_右" parent="2" relate="POB" />
+                <word id="5" cont="给" pos="p" ne="O" wsd="Je05" wsdexp="给予_寄予_加以_冠以" parent="7" relate="DE" />
+                <word id="6" cont="人们" pos="n" ne="O" wsd="Aa01" wsdexp="人_人民_众人" parent="5" relate="POB" />
+                <word id="7" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="8" relate="ATT" />
+                <word id="8" cont="感觉" pos="n" ne="O" wsd="Df04" wsdexp="感觉_感情" parent="9" relate="SBV" />
+                <word id="9" cont="体现" pos="v" ne="O" wsd="Ja03" wsdexp="意味_影射_体现_标志" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="1" />
+                    <arg id="1" type="方位" beg="2" end="4" />
+                    <arg id="2" type="施事" beg="5" end="8" />
+                </word>
+                <word id="10" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="9" relate="CMP" />
+                <word id="11" cont="光泽" pos="n" ne="O" wsd="Bg03" wsdexp="火_光_影" parent="10" relate="POB" />
+                <word id="12" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="13" cont="悬垂" pos="v" ne="O" wsd="Id01" wsdexp="翘_垂" parent="9" relate="COO">
+                    <arg id="0" type="受事" beg="14" end="14" />
+                    <arg id="1" type="受事" beg="15" end="22" />
+                </word>
+                <word id="14" cont="性" pos="n" ne="O" wsd="De01" wsdexp="性格_品行_道德_作风" parent="13" relate="VOB" />
+                <word id="15" cont="和" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="16" relate="CNJ" />
+                <word id="16" cont="织" pos="v" ne="O" wsd="Hd12" wsdexp="纺织_漂白_染色_编织" parent="13" relate="VOB">
+                    <arg id="0" type="受事" beg="17" end="17" />
+                    <arg id="1" type="受事" beg="18" end="22" />
+                </word>
+                <word id="17" cont="纹" pos="n" ne="O" wsd="Bg09" wsdexp="纹路_痕迹" parent="16" relate="VOB" />
+                <word id="18" cont="细腻" pos="a" ne="O" wsd="Ed18" wsdexp="细腻_粗疏" parent="19" relate="ATT" />
+                <word id="19" cont="程度" pos="n" ne="O" wsd="Da21" wsdexp="情况_境地_境界_环境" parent="22" relate="ATT" />
+                <word id="20" cont="三" pos="m" ne="B-Nm" wsd="Dn04" wsdexp="基数_序数" parent="21" relate="QUN" />
+                <word id="21" cont="个" pos="q" ne="E-Nm" wsd="Dn08" wsdexp="数量单位" parent="22" relate="ATT" />
+                <word id="22" cont="方面" pos="n" ne="O" wsd="Dd05" wsdexp="范围_方面_环节" parent="16" relate="VOB" />
+                <word id="23" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="1" cont="在丰联广场 F ORENCE专卖店，记者看到用大豆纤维制成的内衣很是走俏。" tag="">
+                <word id="0" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="7" relate="ADV" />
+                <word id="1" cont="丰联" pos="nz" ne="B-Ns" wsd="-1" wsdexp="" parent="2" relate="ATT" />
+                <word id="2" cont="广场" pos="n" ne="E-Ns" wsd="Bn01" wsdexp="建筑_房屋" parent="3" relate="ATT" />
+                <word id="3" cont=" F ORENCE" pos="ws" ne="O" wsd="-1" wsdexp="" parent="4" relate="ATT" />
+                <word id="4" cont="专卖店" pos="n" ne="O" wsd="Dm04" wsdexp="商店" parent="0" relate="POB" />
+                <word id="5" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="6" cont="记者" pos="n" ne="O" wsd="Ae16" wsdexp="作者_译者_记者_编辑" parent="7" relate="SBV" />
+                <word id="7" cont="看到" pos="v" ne="O" wsd="Fc04" wsdexp="看" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="6" end="6" />
+                    <arg id="1" type="受事" beg="8" end="15" />
+                </word>
+                <word id="8" cont="用" pos="p" ne="O" wsd="Hj28" wsdexp="使用_沿用_借鉴" parent="11" relate="ADV" />
+                <word id="9" cont="大豆" pos="n" ne="O" wsd="Bh06" wsdexp="蔬菜" parent="10" relate="ATT" />
+                <word id="10" cont="纤维" pos="n" ne="O" wsd="Bm12" wsdexp="蚕丝_绵纱_化学纤维" parent="8" relate="POB" />
+                <word id="11" cont="制成" pos="v" ne="O" wsd="Hd04" wsdexp="切割" parent="12" relate="DE" />
+                <word id="12" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="13" relate="ATT" />
+                <word id="13" cont="内衣" pos="n" ne="O" wsd="Bq03" wsdexp="衣服_上装_裤子_裙子" parent="15" relate="SBV" />
+                <word id="14" cont="很" pos="d" ne="O" wsd="Ka01" wsdexp="非常_多么" parent="15" relate="ADV" />
+                <word id="15" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="7" relate="VOB">
+                    <arg id="0" type="施事" beg="8" end="13" />
+                </word>
+                <word id="16" cont="走俏" pos="a" ne="O" wsd="Ed25" wsdexp="著名_无名_热门_冷门" parent="7" relate="CMP" />
+                <word id="17" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="2" cont="大豆蛋白纤维面料，具有真丝般光泽，非常怡人，其悬垂性也极佳，给人以飘逸脱俗的感觉，用高支纱织成的织物，表面纹路细洁、清晰，是高档的衬衣面料。" tag="">
+                <word id="0" cont="大豆" pos="n" ne="O" wsd="Bh06" wsdexp="蔬菜" parent="1" relate="ATT" />
+                <word id="1" cont="蛋白" pos="n" ne="O" wsd="Bl05" wsdexp="精液_卵" parent="2" relate="ATT" />
+                <word id="2" cont="纤维" pos="n" ne="O" wsd="Bm12" wsdexp="蚕丝_绵纱_化学纤维" parent="3" relate="ATT" />
+                <word id="3" cont="面料" pos="n" ne="O" wsd="Bq01" wsdexp="衣料_布_绒" parent="5" relate="SBV" />
+                <word id="4" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="5" cont="具有" pos="v" ne="O" wsd="Jd04" wsdexp="有_占有" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="3" />
+                    <arg id="1" type="受事" beg="6" end="6" />
+                    <arg id="2" type="受事" beg="7" end="8" />
+                </word>
+                <word id="6" cont="真丝" pos="n" ne="O" wsd="Bm12" wsdexp="蚕丝_绵纱_化学纤维" parent="5" relate="VOB" />
+                <word id="7" cont="般" pos="u" ne="O" wsd="Jb03" wsdexp="相似_例如" parent="8" relate="ATT" />
+                <word id="8" cont="光泽" pos="n" ne="O" wsd="Bg03" wsdexp="火_光_影" parent="5" relate="VOB" />
+                <word id="9" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="10" cont="非常" pos="d" ne="O" wsd="Ka01" wsdexp="非常_多么" parent="11" relate="ADV" />
+                <word id="11" cont="怡" pos="v" ne="O" wsd="Ga01" wsdexp="高兴_悲伤" parent="5" relate="VV">
+                    <arg id="0" type="受事" beg="12" end="12" />
+                </word>
+                <word id="12" cont="人" pos="n" ne="O" wsd="Aa01" wsdexp="人_人民_众人" parent="11" relate="VOB" />
+                <word id="13" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="14" cont="其" pos="r" ne="O" wsd="Ba10" wsdexp="它_什么" parent="15" relate="SBV" />
+                <word id="15" cont="悬垂" pos="v" ne="O" wsd="Id01" wsdexp="翘_垂" parent="11" relate="VV">
+                    <arg id="0" type="施事" beg="14" end="14" />
+                    <arg id="1" type="受事" beg="16" end="19" />
+                </word>
+                <word id="16" cont="性" pos="n" ne="O" wsd="De01" wsdexp="性格_品行_道德_作风" parent="19" relate="SBV" />
+                <word id="17" cont="也" pos="d" ne="O" wsd="Ka33" wsdexp="却_还_也_反而" parent="19" relate="ADV" />
+                <word id="18" cont="极" pos="d" ne="O" wsd="Ka02" wsdexp="最_至多_至少" parent="19" relate="ADV" />
+                <word id="19" cont="佳" pos="a" ne="O" wsd="Ed03" wsdexp="好_坏" parent="15" relate="VOB" />
+                <word id="20" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="21" cont="给" pos="p" ne="O" wsd="Je05" wsdexp="给予_寄予_加以_冠以" parent="41" relate="ADV" />
+                <word id="22" cont="人" pos="n" ne="O" wsd="Aa01" wsdexp="人_人民_众人" parent="21" relate="POB" />
+                <word id="23" cont="以" pos="p" ne="O" wsd="Kb05" wsdexp="为_被_以_由" parent="21" relate="CMP" />
+                <word id="24" cont="飘逸" pos="a" ne="O" wsd="Ee10" wsdexp="潇洒_豪放_拘束_逍遥" parent="27" relate="ATT" />
+                <word id="25" cont="脱俗" pos="v" ne="O" wsd="Ee32" wsdexp="清高_虚荣" parent="26" relate="DE" />
+                <word id="26" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="27" relate="ATT" />
+                <word id="27" cont="感觉" pos="n" ne="O" wsd="Df04" wsdexp="感觉_感情" parent="23" relate="POB" />
+                <word id="28" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="29" cont="用" pos="p" ne="O" wsd="Hj28" wsdexp="使用_沿用_借鉴" parent="41" relate="ADV" />
+                <word id="30" cont="高支纱" pos="n" ne="O" wsd="-1" wsdexp="" parent="29" relate="POB" />
+                <word id="31" cont="织成" pos="v" ne="O" wsd="Hd12" wsdexp="纺织_漂白_染色_编织" parent="32" relate="DE" />
+                <word id="32" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="33" relate="ATT" />
+                <word id="33" cont="织物" pos="n" ne="O" wsd="Bq01" wsdexp="衣料_布_绒" parent="29" relate="POB" />
+                <word id="34" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="35" cont="表面" pos="n" ne="O" wsd="Dd08" wsdexp="表面_实质_根本" parent="36" relate="ATT" />
+                <word id="36" cont="纹" pos="n" ne="O" wsd="Bg09" wsdexp="纹路_痕迹" parent="37" relate="ATT" />
+                <word id="37" cont="路细洁" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="41" relate="SBV" />
+                <word id="38" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="39" cont="清晰" pos="a" ne="O" wsd="Eb20" wsdexp="清晰_模糊" parent="37" relate="COO" />
+                <word id="40" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="41" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="5" relate="IC">
+                    <arg id="0" type="施事" beg="35" end="39" />
+                    <arg id="1" type="受事" beg="42" end="45" />
+                </word>
+                <word id="42" cont="高档" pos="b" ne="O" wsd="Ed06" wsdexp="上等_中等_下等" parent="43" relate="DE" />
+                <word id="43" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="45" relate="ATT" />
+                <word id="44" cont="衬衣" pos="n" ne="O" wsd="Bq03" wsdexp="衣服_上装_裤子_裙子" parent="45" relate="ATT" />
+                <word id="45" cont="面料" pos="n" ne="O" wsd="Bq01" wsdexp="衣料_布_绒" parent="41" relate="VOB" />
+                <word id="46" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+        </para>
+        <para id="12">
+            <sent id="0" cont="大豆蛋白纤维本色为淡黄色，很像柞蚕丝色。" tag="">
+                <word id="0" cont="大豆" pos="n" ne="O" wsd="Bh06" wsdexp="蔬菜" parent="1" relate="ATT" />
+                <word id="1" cont="蛋白" pos="n" ne="O" wsd="Bl05" wsdexp="精液_卵" parent="2" relate="ATT" />
+                <word id="2" cont="纤维" pos="n" ne="O" wsd="Bm12" wsdexp="蚕丝_绵纱_化学纤维" parent="3" relate="ATT" />
+                <word id="3" cont="本色" pos="n" ne="O" wsd="Dd08" wsdexp="表面_实质_根本" parent="4" relate="SBV" />
+                <word id="4" cont="为" pos="v" ne="O" wsd="Kb05" wsdexp="为_被_以_由" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="3" />
+                    <arg id="1" type="受事" beg="5" end="6" />
+                </word>
+                <word id="5" cont="淡" pos="a" ne="O" wsd="Ec05" wsdexp="深_淡" parent="6" relate="ATT" />
+                <word id="6" cont="黄色" pos="n" ne="O" wsd="Ee43" wsdexp="贞洁_轻佻_淫荡_色情" parent="4" relate="VOB" />
+                <word id="7" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="8" cont="很" pos="d" ne="O" wsd="Ka01" wsdexp="非常_多么" parent="9" relate="ADV" />
+                <word id="9" cont="像" pos="v" ne="O" wsd="Jb03" wsdexp="相似_例如" parent="4" relate="VV">
+                    <arg id="0" type="受事" beg="10" end="11" />
+                </word>
+                <word id="10" cont="柞蚕丝" pos="n" ne="O" wsd="-1" wsdexp="" parent="11" relate="ATT" />
+                <word id="11" cont="色" pos="n" ne="O" wsd="Bg06" wsdexp="颜色_气息_味道" parent="9" relate="VOB" />
+                <word id="12" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="1" cont="它可用酸性染料、活性染料染色，尤其是用活性染料染色，产品颜色鲜艳而有光泽，同时日晒、汗渍牢度又非常好，与真丝产品相比解决了染色鲜艳与染色牢度差的矛盾（真丝产品日晒、汗渍牢度极差，很容易掉色）。" tag="">
+                <word id="0" cont="它" pos="r" ne="O" wsd="Ba10" wsdexp="它_什么" parent="8" relate="SBV" />
+                <word id="1" cont="可" pos="v" ne="O" wsd="Gc02" wsdexp="能够_不能_可以_不可" parent="8" relate="ADV" />
+                <word id="2" cont="用" pos="p" ne="O" wsd="Hj28" wsdexp="使用_沿用_借鉴" parent="8" relate="ADV" />
+                <word id="3" cont="酸性" pos="n" ne="O" wsd="Dd01" wsdexp="性质" parent="4" relate="ATT" />
+                <word id="4" cont="染料" pos="n" ne="O" wsd="Bm11" wsdexp="颜料_染料_油漆" parent="2" relate="POB" />
+                <word id="5" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="6" cont="活性" pos="b" ne="O" wsd="Dd01" wsdexp="性质" parent="7" relate="ATT" />
+                <word id="7" cont="染料" pos="n" ne="O" wsd="Bm11" wsdexp="颜料_染料_油漆" parent="4" relate="COO" />
+                <word id="8" cont="染色" pos="v" ne="O" wsd="Hd12" wsdexp="纺织_漂白_染色_编织" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="0" />
+                </word>
+                <word id="9" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="10" cont="尤其" pos="d" ne="O" wsd="Ka04" wsdexp="更加" parent="11" relate="ADV" />
+                <word id="11" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="8" relate="IC">
+                    <arg id="0" type="受事" beg="12" end="15" />
+                </word>
+                <word id="12" cont="用" pos="p" ne="O" wsd="Hj28" wsdexp="使用_沿用_借鉴" parent="15" relate="ADV" />
+                <word id="13" cont="活性" pos="b" ne="O" wsd="Dd01" wsdexp="性质" parent="14" relate="ATT" />
+                <word id="14" cont="染料" pos="n" ne="O" wsd="Bm11" wsdexp="颜料_染料_油漆" parent="12" relate="POB" />
+                <word id="15" cont="染色" pos="v" ne="O" wsd="Hd12" wsdexp="纺织_漂白_染色_编织" parent="11" relate="VOB" />
+                <word id="16" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="17" cont="产品" pos="n" ne="O" wsd="Ba04" wsdexp="货物_产品" parent="18" relate="ATT" />
+                <word id="18" cont="颜色" pos="n" ne="O" wsd="Bg06" wsdexp="颜色_气息_味道" parent="19" relate="SBV" />
+                <word id="19" cont="鲜艳" pos="a" ne="O" wsd="Ec06" wsdexp="鲜艳_五彩_素净" parent="21" relate="ADV" />
+                <word id="20" cont="而" pos="c" ne="O" wsd="Kc03" wsdexp="但是" parent="21" relate="CNJ" />
+                <word id="21" cont="有" pos="v" ne="O" wsd="Jd04" wsdexp="有_占有" parent="11" relate="VV">
+                    <arg id="0" type="受事" beg="22" end="22" />
+                </word>
+                <word id="22" cont="光泽" pos="n" ne="O" wsd="Bg03" wsdexp="火_光_影" parent="21" relate="VOB" />
+                <word id="23" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="24" cont="同时" pos="c" ne="O" wsd="Kc02" wsdexp="并且_况且" parent="26" relate="CNJ" />
+                <word id="25" cont="日" pos="j" ne="S-Ns" wsd="Di02" wsdexp="国家_行政区划" parent="26" relate="SBV" />
+                <word id="26" cont="晒" pos="v" ne="O" wsd="Hj42" wsdexp="晒_熨" parent="21" relate="VV">
+                    <arg id="0" type="施事" beg="25" end="25" />
+                </word>
+                <word id="27" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="28" cont="汗渍" pos="n" ne="O" wsd="Bg09" wsdexp="纹路_痕迹" parent="30" relate="ATT" />
+                <word id="29" cont="牢" pos="a" ne="O" wsd="Bn13" wsdexp="圈_笼_窠_陷阱" parent="30" relate="ATT" />
+                <word id="30" cont="度" pos="n" ne="O" wsd="Dn09" wsdexp="动量单位_复量单位" parent="33" relate="SBV" />
+                <word id="31" cont="又" pos="d" ne="O" wsd="Ka14" wsdexp="再" parent="33" relate="ADV" />
+                <word id="32" cont="非常" pos="d" ne="O" wsd="Ka01" wsdexp="非常_多么" parent="33" relate="ADV" />
+                <word id="33" cont="好" pos="a" ne="O" wsd="Ed03" wsdexp="好_坏" parent="39" relate="ATT" />
+                <word id="34" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="35" cont="与" pos="p" ne="O" wsd="Kc01" wsdexp="和_或者" parent="38" relate="ADV" />
+                <word id="36" cont="真丝" pos="n" ne="O" wsd="Bm12" wsdexp="蚕丝_绵纱_化学纤维" parent="37" relate="ATT" />
+                <word id="37" cont="产品" pos="n" ne="O" wsd="Ba04" wsdexp="货物_产品" parent="35" relate="POB" />
+                <word id="38" cont="相比" pos="v" ne="O" wsd="Hj26" wsdexp="观察_比较_区分" parent="39" relate="ADV" />
+                <word id="39" cont="解决" pos="v" ne="O" wsd="Jd09" wsdexp="解决" parent="26" relate="VV">
+                    <arg id="0" type="受事" beg="41" end="41" />
+                    <arg id="1" type="受事" beg="43" end="49" />
+                </word>
+                <word id="40" cont="了" pos="u" ne="O" wsd="Kd05" wsdexp="吗_的话_罢了_了_哉" parent="39" relate="MT" />
+                <word id="41" cont="染色" pos="v" ne="O" wsd="Hd12" wsdexp="纺织_漂白_染色_编织" parent="39" relate="VOB" />
+                <word id="42" cont="鲜艳" pos="a" ne="O" wsd="Ec06" wsdexp="鲜艳_五彩_素净" parent="39" relate="CMP" />
+                <word id="43" cont="与" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="44" relate="CNJ" />
+                <word id="44" cont="染色" pos="v" ne="O" wsd="Hd12" wsdexp="纺织_漂白_染色_编织" parent="39" relate="VOB">
+                    <arg id="0" type="受事" beg="45" end="49" />
+                </word>
+                <word id="45" cont="牢" pos="a" ne="O" wsd="Bn13" wsdexp="圈_笼_窠_陷阱" parent="46" relate="QUN" />
+                <word id="46" cont="度" pos="q" ne="O" wsd="Dn09" wsdexp="动量单位_复量单位" parent="49" relate="ATT" />
+                <word id="47" cont="差" pos="a" ne="O" wsd="Ed03" wsdexp="好_坏" parent="48" relate="DE" />
+                <word id="48" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="49" relate="ATT" />
+                <word id="49" cont="矛盾" pos="a" ne="O" wsd="Jc04" wsdexp="相对_矛盾" parent="44" relate="VOB" />
+                <word id="50" cont="（" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="51" cont="真丝" pos="n" ne="O" wsd="Bm12" wsdexp="蚕丝_绵纱_化学纤维" parent="52" relate="ATT" />
+                <word id="52" cont="产品" pos="n" ne="O" wsd="Ba04" wsdexp="货物_产品" parent="53" relate="ATT" />
+                <word id="53" cont="日" pos="j" ne="S-Ns" wsd="Di02" wsdexp="国家_行政区划" parent="54" relate="SBV" />
+                <word id="54" cont="晒" pos="v" ne="O" wsd="Hj42" wsdexp="晒_熨" parent="21" relate="VV">
+                    <arg id="0" type="施事" beg="51" end="53" />
+                </word>
+                <word id="55" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="56" cont="汗渍" pos="n" ne="O" wsd="Bg09" wsdexp="纹路_痕迹" parent="58" relate="ATT" />
+                <word id="57" cont="牢" pos="a" ne="O" wsd="Bn13" wsdexp="圈_笼_窠_陷阱" parent="58" relate="ATT" />
+                <word id="58" cont="度" pos="n" ne="O" wsd="Dn09" wsdexp="动量单位_复量单位" parent="60" relate="SBV" />
+                <word id="59" cont="极" pos="d" ne="O" wsd="Ka02" wsdexp="最_至多_至少" parent="60" relate="ADV" />
+                <word id="60" cont="差" pos="a" ne="O" wsd="Ed03" wsdexp="好_坏" parent="21" relate="IC" />
+                <word id="61" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="62" cont="很" pos="d" ne="O" wsd="Ka01" wsdexp="非常_多么" parent="63" relate="ADV" />
+                <word id="63" cont="容易" pos="a" ne="O" wsd="Jc07" wsdexp="易于" parent="64" relate="ADV" />
+                <word id="64" cont="掉" pos="v" ne="O" wsd="He15" wsdexp="缺少_遗漏" parent="8" relate="VV">
+                    <arg id="0" type="受事" beg="65" end="65" />
+                </word>
+                <word id="65" cont="色" pos="n" ne="O" wsd="Bg06" wsdexp="颜色_气息_味道" parent="64" relate="VOB" />
+                <word id="66" cont="）" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="67" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+        </para>
+        <para id="13">
+            <sent id="0" cont="大豆蛋白纤维与人体皮肤亲和性好且含有多种人体所必须的氨基酸，具有良好的保健作用。" tag="">
+                <word id="0" cont="大豆" pos="n" ne="O" wsd="Bh06" wsdexp="蔬菜" parent="1" relate="ATT" />
+                <word id="1" cont="蛋白" pos="n" ne="O" wsd="Bl05" wsdexp="精液_卵" parent="2" relate="ATT" />
+                <word id="2" cont="纤维" pos="n" ne="O" wsd="Bm12" wsdexp="蚕丝_绵纱_化学纤维" parent="7" relate="ATT" />
+                <word id="3" cont="与" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="5" relate="LAD" />
+                <word id="4" cont="人体" pos="n" ne="O" wsd="Bk01" wsdexp="身体_尸体" parent="5" relate="ATT" />
+                <word id="5" cont="皮肤" pos="n" ne="O" wsd="Bk10" wsdexp="皮肤_肌肉" parent="2" relate="COO" />
+                <word id="6" cont="亲和" pos="a" ne="O" wsd="Ee07" wsdexp="温柔_暴躁_温顺_倔强_乖僻" parent="7" relate="ATT" />
+                <word id="7" cont="性" pos="n" ne="O" wsd="De01" wsdexp="性格_品行_道德_作风" parent="10" relate="SBV" />
+                <word id="8" cont="好" pos="a" ne="O" wsd="Ed03" wsdexp="好_坏" parent="10" relate="ADV" />
+                <word id="9" cont="且" pos="c" ne="O" wsd="Kc02" wsdexp="并且_况且" parent="10" relate="CNJ" />
+                <word id="10" cont="含有" pos="v" ne="O" wsd="Jd06" wsdexp="充满_满怀_包含_显露_呈现" parent="13" relate="DE">
+                    <arg id="0" type="施事" beg="0" end="7" />
+                    <arg id="1" type="受事" beg="11" end="12" />
+                </word>
+                <word id="11" cont="多种" pos="m" ne="O" wsd="Dn05" wsdexp="半_概数_若干" parent="12" relate="QUN" />
+                <word id="12" cont="人体" pos="n" ne="O" wsd="Bk01" wsdexp="身体_尸体" parent="10" relate="VOB" />
+                <word id="13" cont="所" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="16" relate="ATT" />
+                <word id="14" cont="必须" pos="d" ne="O" wsd="Gc03" wsdexp="应该_必须_无须" parent="15" relate="DE" />
+                <word id="15" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="16" relate="ATT" />
+                <word id="16" cont="氨基酸" pos="n" ne="O" wsd="Dd10" wsdexp="因素_成分" parent="18" relate="SBV" />
+                <word id="17" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="18" cont="具有" pos="v" ne="O" wsd="Jd04" wsdexp="有_占有" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="16" />
+                    <arg id="1" type="受事" beg="19" end="22" />
+                </word>
+                <word id="19" cont="良好" pos="a" ne="O" wsd="Ed03" wsdexp="好_坏" parent="20" relate="DE" />
+                <word id="20" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="22" relate="ATT" />
+                <word id="21" cont="保健" pos="n" ne="O" wsd="Hj33" wsdexp="疗养_调养" parent="22" relate="ATT" />
+                <word id="22" cont="作用" pos="n" ne="O" wsd="Da25" wsdexp="效用_反应" parent="18" relate="VOB" />
+                <word id="23" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="1" cont="在大豆蛋白纤维纺丝工艺中加入定量的杀菌消炎作用的中草药与蛋白质侧链以化学键相结合，药效显著且持久，避免了棉制品用后整理方法开发的功能性产品药效难以持续的缺点。" tag="">
+                <word id="0" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="4" relate="ADV" />
+                <word id="1" cont="大豆" pos="n" ne="O" wsd="Bh06" wsdexp="蔬菜" parent="2" relate="ATT" />
+                <word id="2" cont="蛋白" pos="n" ne="O" wsd="Bl05" wsdexp="精液_卵" parent="3" relate="ATT" />
+                <word id="3" cont="纤维" pos="n" ne="O" wsd="Bm12" wsdexp="蚕丝_绵纱_化学纤维" parent="4" relate="SBV" />
+                <word id="4" cont="纺" pos="v" ne="O" wsd="Bq02" wsdexp="丝绸_呢绒" parent="7" relate="ATT">
+                    <arg id="0" type="施事" beg="1" end="3" />
+                    <arg id="1" type="受事" beg="5" end="5" />
+                </word>
+                <word id="5" cont="丝" pos="n" ne="O" wsd="Dn08" wsdexp="数量单位" parent="4" relate="VOB" />
+                <word id="6" cont="工艺" pos="n" ne="O" wsd="De04" wsdexp="智慧_才能_能力_功夫" parent="7" relate="ATT" />
+                <word id="7" cont="中" pos="nd" ne="O" wsd="Da05" wsdexp="过程_内中" parent="10" relate="DE" />
+                <word id="8" cont="加入" pos="v" ne="O" wsd="Hj19" wsdexp="从事_参加_脱离" parent="10" relate="DE" />
+                <word id="9" cont="定量" pos="v" ne="O" wsd="Dn03" wsdexp="数量" parent="10" relate="DE" />
+                <word id="10" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="11" relate="ATT" />
+                <word id="11" cont="杀菌" pos="v" ne="O" wsd="Hg20" wsdexp="医治_打针_开刀" parent="-1" relate="HED">
+                    <arg id="0" type="受事" beg="12" end="17" />
+                    <arg id="1" type="受事" beg="18" end="24" />
+                    <arg id="2" type="受事" beg="26" end="47" />
+                </word>
+                <word id="12" cont="消炎" pos="v" ne="O" wsd="Hg20" wsdexp="医治_打针_开刀" parent="14" relate="DE">
+                    <arg id="0" type="受事" beg="13" end="13" />
+                </word>
+                <word id="13" cont="作用" pos="n" ne="O" wsd="Da25" wsdexp="效用_反应" parent="12" relate="VOB" />
+                <word id="14" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="15" relate="ATT" />
+                <word id="15" cont="中草药" pos="n" ne="O" wsd="Bh08" wsdexp="药草" parent="11" relate="VOB" />
+                <word id="16" cont="与" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="17" relate="LAD" />
+                <word id="17" cont="蛋白质" pos="n" ne="O" wsd="Ba01" wsdexp="物_物体" parent="15" relate="COO" />
+                <word id="18" cont="侧" pos="v" ne="O" wsd="Bc02" wsdexp="边_角_面_脊" parent="24" relate="ADV" />
+                <word id="19" cont="链" pos="n" ne="O" wsd="Bp25" wsdexp="绳_链_带" parent="24" relate="SBV" />
+                <word id="20" cont="以" pos="p" ne="O" wsd="Kb05" wsdexp="为_被_以_由" parent="24" relate="ADV" />
+                <word id="21" cont="化学" pos="n" ne="O" wsd="Dk03" wsdexp="科学_学科_学业" parent="22" relate="ATT" />
+                <word id="22" cont="键" pos="n" ne="O" wsd="Bp24" wsdexp="纽扣_襻儿_结" parent="20" relate="POB" />
+                <word id="23" cont="相" pos="d" ne="O" wsd="Ka23" wsdexp="共同_分头_独自_互相_从中" parent="24" relate="ADV" />
+                <word id="24" cont="结合" pos="v" ne="O" wsd="Ie02" wsdexp="连接_纠缠_积压_结合_割裂" parent="11" relate="VOB">
+                    <arg id="0" type="施事" beg="19" end="19" />
+                </word>
+                <word id="25" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="26" cont="药效" pos="n" ne="O" wsd="Da25" wsdexp="效用_反应" parent="27" relate="SBV" />
+                <word id="27" cont="显著" pos="a" ne="O" wsd="Ed46" wsdexp="明显_含糊" parent="11" relate="VOB" />
+                <word id="28" cont="且" pos="c" ne="O" wsd="Kc02" wsdexp="并且_况且" parent="29" relate="LAD" />
+                <word id="29" cont="持久" pos="a" ne="O" wsd="Ee25" wsdexp="有恒_无恒" parent="27" relate="COO" />
+                <word id="30" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="31" cont="避免" pos="v" ne="O" wsd="Je11" wsdexp="防止_避免_免得" parent="36" relate="ATT">
+                    <arg id="0" type="受事" beg="33" end="34" />
+                </word>
+                <word id="32" cont="了" pos="u" ne="O" wsd="Kd05" wsdexp="吗_的话_罢了_了_哉" parent="31" relate="MT" />
+                <word id="33" cont="棉" pos="n" ne="O" wsd="Bh09" wsdexp="经济作物" parent="34" relate="ATT" />
+                <word id="34" cont="制品" pos="n" ne="O" wsd="Ba04" wsdexp="货物_产品" parent="31" relate="VOB" />
+                <word id="35" cont="用" pos="v" ne="O" wsd="Hj28" wsdexp="使用_沿用_借鉴" parent="36" relate="ATT" />
+                <word id="36" cont="后" pos="nd" ne="O" wsd="Cb04" wsdexp="前_后_中" parent="37" relate="ADV" />
+                <word id="37" cont="整理" pos="v" ne="O" wsd="Hj35" wsdexp="整理_料理_准备" parent="27" relate="IC">
+                    <arg id="0" type="方位" beg="31" end="36" />
+                    <arg id="1" type="受事" beg="38" end="38" />
+                    <arg id="2" type="受事" beg="39" end="47" />
+                </word>
+                <word id="38" cont="方法" pos="n" ne="O" wsd="Db09" wsdexp="方法_诀窍_步骤" parent="37" relate="VOB" />
+                <word id="39" cont="开发" pos="v" ne="O" wsd="Hd17" wsdexp="开山_垦荒_烧荒_种地" parent="40" relate="DE" />
+                <word id="40" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="43" relate="ATT" />
+                <word id="41" cont="功能性" pos="n" ne="O" wsd="Dd01" wsdexp="性质" parent="42" relate="ATT" />
+                <word id="42" cont="产品" pos="n" ne="O" wsd="Ba04" wsdexp="货物_产品" parent="43" relate="ATT" />
+                <word id="43" cont="药效" pos="n" ne="O" wsd="Da25" wsdexp="效用_反应" parent="45" relate="SBV" />
+                <word id="44" cont="难以" pos="d" ne="O" wsd="Ed48" wsdexp="便利_不便" parent="45" relate="ADV" />
+                <word id="45" cont="持续" pos="v" ne="O" wsd="Ka11" wsdexp="不断_一直_动辄" parent="46" relate="DE">
+                    <arg id="0" type="施事" beg="39" end="43" />
+                </word>
+                <word id="46" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="47" relate="ATT" />
+                <word id="47" cont="缺点" pos="n" ne="O" wsd="Dd02" wsdexp="优点_缺点" parent="37" relate="VOB" />
+                <word id="48" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+        </para>
+        <para id="14">
+            <sent id="0" cont="由于目前国内仅有一条工业化生产线，致使大豆纤维格外走俏。" tag="">
+                <word id="0" cont="由于" pos="p" ne="O" wsd="Kc09" wsdexp="因为_所以" parent="4" relate="ADV" />
+                <word id="1" cont="目前" pos="nt" ne="O" wsd="Ca10" wsdexp="现在" parent="4" relate="ADV" />
+                <word id="2" cont="国内" pos="nl" ne="O" wsd="Cb05" wsdexp="内_外" parent="4" relate="ADV" />
+                <word id="3" cont="仅" pos="d" ne="O" wsd="Ka07" wsdexp="都_只_不止_甚至" parent="4" relate="ADV" />
+                <word id="4" cont="有" pos="v" ne="O" wsd="Jd04" wsdexp="有_占有" parent="-1" relate="HED">
+                    <arg id="0" type="时间" beg="1" end="1" />
+                    <arg id="1" type="地点" beg="2" end="2" />
+                    <arg id="2" type="受事" beg="5" end="8" />
+                </word>
+                <word id="5" cont="一" pos="m" ne="B-Nm" wsd="Dn04" wsdexp="基数_序数" parent="6" relate="QUN" />
+                <word id="6" cont="条" pos="q" ne="E-Nm" wsd="Dn08" wsdexp="数量单位" parent="8" relate="ATT" />
+                <word id="7" cont="工业化" pos="v" ne="O" wsd="Ih01" wsdexp="变化_成为" parent="8" relate="ATT" />
+                <word id="8" cont="生产线" pos="n" ne="O" wsd="Dd07" wsdexp="次序_行列" parent="4" relate="VOB" />
+                <word id="9" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="10" cont="致使" pos="v" ne="O" wsd="Je04" wsdexp="引起_导致_使得" parent="4" relate="VV">
+                    <arg id="0" type="受事" beg="11" end="12" />
+                </word>
+                <word id="11" cont="大豆" pos="n" ne="O" wsd="Bh06" wsdexp="蔬菜" parent="12" relate="ATT" />
+                <word id="12" cont="纤维" pos="n" ne="O" wsd="Bm12" wsdexp="蚕丝_绵纱_化学纤维" parent="10" relate="VOB" />
+                <word id="13" cont="格外" pos="d" ne="O" wsd="Ka01" wsdexp="非常_多么" parent="14" relate="ADV" />
+                <word id="14" cont="走俏" pos="a" ne="O" wsd="Ed25" wsdexp="著名_无名_热门_冷门" parent="4" relate="IC" />
+                <word id="15" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="1" cont="据了解，除目前一条年产1500吨的工业化生产线外，还有江苏、浙江、山东等多条大豆纤维生产线已开工兴建，这些生产线建成投产后，预计年产量可达3.4万吨。" tag="">
+                <word id="0" cont="据" pos="p" ne="O" wsd="Kb07" wsdexp="依照_根据_趁" parent="15" relate="ADV" />
+                <word id="1" cont="了解" pos="v" ne="O" wsd="Gb08" wsdexp="了解_体会_不解" parent="0" relate="POB" />
+                <word id="2" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="3" cont="除" pos="p" ne="O" wsd="Kc07" wsdexp="除了_除非_若非_否则" parent="15" relate="ADV" />
+                <word id="4" cont="目前" pos="nt" ne="O" wsd="Ca10" wsdexp="现在" parent="3" relate="POB" />
+                <word id="5" cont="一" pos="m" ne="B-Nm" wsd="Dn04" wsdexp="基数_序数" parent="6" relate="QUN" />
+                <word id="6" cont="条" pos="q" ne="E-Nm" wsd="Dn08" wsdexp="数量单位" parent="12" relate="ATT" />
+                <word id="7" cont="年产" pos="v" ne="O" wsd="Hd29" wsdexp="出产" parent="10" relate="DE">
+                    <arg id="0" type="受事-数量性质" beg="8" end="9" />
+                </word>
+                <word id="8" cont="1500" pos="m" ne="B-Nm" wsd="-1" wsdexp="" parent="9" relate="QUN" />
+                <word id="9" cont="吨" pos="q" ne="E-Nm" wsd="Dn10" wsdexp="度量衡单位" parent="7" relate="VOB" />
+                <word id="10" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="12" relate="ATT" />
+                <word id="11" cont="工业化" pos="v" ne="O" wsd="Ih01" wsdexp="变化_成为" parent="12" relate="ATT" />
+                <word id="12" cont="生产线" pos="n" ne="O" wsd="Dd07" wsdexp="次序_行列" parent="13" relate="ATT" />
+                <word id="13" cont="外" pos="nd" ne="O" wsd="Cb05" wsdexp="内_外" parent="3" relate="POB" />
+                <word id="14" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="15" cont="还有" pos="v" ne="O" wsd="Jd04" wsdexp="有_占有" parent="-1" relate="HED">
+                    <arg id="0" type="时间" beg="3" end="13" />
+                    <arg id="1" type="受事" beg="16" end="20" />
+                    <arg id="2" type="受事" beg="22" end="29" />
+                </word>
+                <word id="16" cont="江苏" pos="ns" ne="S-Ns" wsd="Di02" wsdexp="国家_行政区划" parent="15" relate="VOB" />
+                <word id="17" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="18" cont="浙江" pos="ns" ne="S-Ns" wsd="Di02" wsdexp="国家_行政区划" parent="16" relate="COO" />
+                <word id="19" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="20" cont="山东" pos="ns" ne="S-Ns" wsd="Di02" wsdexp="国家_行政区划" parent="16" relate="COO" />
+                <word id="21" cont="等" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="15" relate="MT" />
+                <word id="22" cont="多" pos="m" ne="O" wsd="Dn05" wsdexp="半_概数_若干" parent="23" relate="QUN" />
+                <word id="23" cont="条" pos="q" ne="O" wsd="Dn08" wsdexp="数量单位" parent="26" relate="ATT" />
+                <word id="24" cont="大豆" pos="n" ne="O" wsd="Bh06" wsdexp="蔬菜" parent="25" relate="ATT" />
+                <word id="25" cont="纤维" pos="n" ne="O" wsd="Bm12" wsdexp="蚕丝_绵纱_化学纤维" parent="26" relate="ATT" />
+                <word id="26" cont="生产线" pos="n" ne="O" wsd="Dd07" wsdexp="次序_行列" parent="28" relate="SBV" />
+                <word id="27" cont="已" pos="d" ne="O" wsd="Ka12" wsdexp="已经_方才_正在" parent="28" relate="ADV" />
+                <word id="28" cont="开工" pos="v" ne="O" wsd="Ig01" wsdexp="开始_结束" parent="15" relate="VOB">
+                    <arg id="0" type="施事" beg="22" end="26" />
+                </word>
+                <word id="29" cont="兴建" pos="v" ne="O" wsd="Hc05" wsdexp="建立_设立_创立_命名" parent="28" relate="VV" />
+                <word id="30" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="31" cont="这些" pos="r" ne="O" wsd="Ed61" wsdexp="这个_那个_某个_各个_其他_何" parent="37" relate="SBV" />
+                <word id="32" cont="生产线" pos="n" ne="O" wsd="Dd07" wsdexp="次序_行列" parent="35" relate="ATT" />
+                <word id="33" cont="建成" pos="v" ne="O" wsd="Hc05" wsdexp="建立_设立_创立_命名" parent="35" relate="ATT" />
+                <word id="34" cont="投产" pos="v" ne="O" wsd="Hd29" wsdexp="出产" parent="35" relate="ATT" />
+                <word id="35" cont="后" pos="nd" ne="O" wsd="Cb04" wsdexp="前_后_中" parent="37" relate="ADV" />
+                <word id="36" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="37" cont="预计" pos="v" ne="O" wsd="Gb03" wsdexp="推测_猜想" parent="15" relate="VV">
+                    <arg id="0" type="施事" beg="31" end="31" />
+                    <arg id="1" type="方位" beg="32" end="35" />
+                    <arg id="2" type="受事" beg="38" end="38" />
+                    <arg id="3" type="受事" beg="39" end="42" />
+                </word>
+                <word id="38" cont="年产量" pos="n" ne="O" wsd="Dn03" wsdexp="数量" parent="37" relate="VOB" />
+                <word id="39" cont="可" pos="v" ne="O" wsd="Gc02" wsdexp="能够_不能_可以_不可" parent="40" relate="ADV" />
+                <word id="40" cont="达" pos="v" ne="O" wsd="Je12" wsdexp="取得_达到_挽回" parent="37" relate="VOB">
+                    <arg id="0" type="受事-数量性质" beg="41" end="42" />
+                </word>
+                <word id="41" cont="3.4万" pos="m" ne="B-Nm" wsd="-1" wsdexp="" parent="42" relate="QUN" />
+                <word id="42" cont="吨" pos="q" ne="E-Nm" wsd="Dn10" wsdexp="度量衡单位" parent="40" relate="VOB" />
+                <word id="43" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+        </para>
+        <para id="15" />
+        <para id="16" />
+        <para id="17" />
+        <para id="18" />
+    </doc>
+    <class>生活</class>
+    <coref />
+</xml4nlp>

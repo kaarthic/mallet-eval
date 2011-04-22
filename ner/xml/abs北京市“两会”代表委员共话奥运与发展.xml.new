@@ -1,0 +1,1363 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="nlp_style.xsl" ?>
+<xml4nlp>
+    <doc>
+        <para id="0">
+            <sent id="0" cont="北京市“两会”代表委员共话奥运与发展  " tag="">
+                <word id="0" cont="北京市" pos="ns" ne="S-Ns" wsd="Di03" wsdexp="首都_省会" parent="7" relate="SBV" />
+                <word id="1" cont="“" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="2" cont="两会" pos="j" ne="O" wsd="Di23" wsdexp="会议_宴会" parent="5" relate="ATT" />
+                <word id="3" cont="”" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="4" cont="代表" pos="n" ne="O" wsd="Aj13" wsdexp="专人_代表" parent="5" relate="ATT" />
+                <word id="5" cont="委员" pos="n" ne="O" wsd="Aj07" wsdexp="成员" parent="7" relate="SBV" />
+                <word id="6" cont="共" pos="d" ne="O" wsd="He16" wsdexp="合计" parent="7" relate="ADV" />
+                <word id="7" cont="话" pos="v" ne="O" wsd="Dk11" wsdexp="话" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="0" />
+                    <arg id="1" type="施事" beg="2" end="5" />
+                    <arg id="2" type="受事" beg="8" end="8" />
+                    <arg id="3" type="受事" beg="9" end="10" />
+                </word>
+                <word id="8" cont="奥运" pos="j" ne="O" wsd="Di23" wsdexp="会议_宴会" parent="7" relate="VOB" />
+                <word id="9" cont="与" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="10" relate="LAD" />
+                <word id="10" cont="发展" pos="v" ne="O" wsd="Ie12" wsdexp="进步_退步_堕落" parent="7" relate="VOB" />
+            </sent>
+        </para>
+        <para id="1" />
+        <para id="2">
+            <sent id="0" cont="今年是北京奥运工程建设的启动之年，在召开中的北京市人大、政协“两会”上，发挥奥运会对首都经济的加速器作用，做好奥运会筹备工作，成为人大代表、政协委员们连日来讨论的热门话题。" tag="10%">
+                <word id="0" cont="今年" pos="nt" ne="O" wsd="Ca18" wsdexp="年" parent="1" relate="ADV" />
+                <word id="1" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="-1" relate="HED">
+                    <arg id="0" type="时间" beg="0" end="0" />
+                    <arg id="1" type="受事" beg="7" end="48" />
+                </word>
+                <word id="2" cont="北京" pos="ns" ne="O" wsd="Di03" wsdexp="首都_省会" parent="3" relate="ATT" />
+                <word id="3" cont="奥运" pos="j" ne="O" wsd="Di23" wsdexp="会议_宴会" parent="4" relate="ATT" />
+                <word id="4" cont="工程" pos="n" ne="O" wsd="Di18" wsdexp="事业_行业_工程" parent="5" relate="ATT" />
+                <word id="5" cont="建设" pos="v" ne="O" wsd="Hc05" wsdexp="建立_设立_创立_命名" parent="6" relate="DE" />
+                <word id="6" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="1" relate="MT" />
+                <word id="7" cont="启动" pos="v" ne="O" wsd="Ig01" wsdexp="开始_结束" parent="1" relate="VOB" />
+                <word id="8" cont="之" pos="r" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="9" relate="ATT" />
+                <word id="9" cont="年" pos="q" ne="O" wsd="Ca18" wsdexp="年" parent="7" relate="VOB" />
+                <word id="10" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="11" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="12" relate="ADV" />
+                <word id="12" cont="召开" pos="v" ne="O" wsd="Ie13" wsdexp="实行_举行" parent="13" relate="ATT" />
+                <word id="13" cont="中" pos="nd" ne="O" wsd="Da05" wsdexp="过程_内中" parent="14" relate="DE" />
+                <word id="14" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="16" relate="ATT" />
+                <word id="15" cont="北京市" pos="ns" ne="B-Nz" wsd="Di03" wsdexp="首都_省会" parent="16" relate="ATT" />
+                <word id="16" cont="人大" pos="j" ne="E-Nz" wsd="Di23" wsdexp="会议_宴会" parent="22" relate="ATT" />
+                <word id="17" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="18" cont="政协" pos="j" ne="O" wsd="Dm01" wsdexp="政府" parent="16" relate="COO" />
+                <word id="19" cont="“" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="20" cont="两会" pos="j" ne="O" wsd="Di23" wsdexp="会议_宴会" parent="22" relate="ATT" />
+                <word id="21" cont="”" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="22" cont="上" pos="nd" ne="O" wsd="Cb03" wsdexp="上_下_左_右" parent="24" relate="ADV" />
+                <word id="23" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="24" cont="发挥" pos="v" ne="O" wsd="Hi14" wsdexp="表示_表达_阐明_表露_发誓" parent="7" relate="VV">
+                    <arg id="0" type="方位" beg="11" end="22" />
+                    <arg id="1" type="受事" beg="25" end="25" />
+                </word>
+                <word id="25" cont="奥运会" pos="j" ne="O" wsd="Hh07" wsdexp="比赛" parent="24" relate="VOB" />
+                <word id="26" cont="对" pos="p" ne="O" wsd="Kb04" wsdexp="对于_关于" parent="38" relate="ADV" />
+                <word id="27" cont="首都" pos="n" ne="O" wsd="Di03" wsdexp="首都_省会" parent="28" relate="ATT" />
+                <word id="28" cont="经济" pos="n" ne="O" wsd="Dj01" wsdexp="经济" parent="29" relate="DE" />
+                <word id="29" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="31" relate="ATT" />
+                <word id="30" cont="加速器" pos="n" ne="O" wsd="Bo01" wsdexp="机器_工具_泵" parent="31" relate="ATT" />
+                <word id="31" cont="作用" pos="n" ne="O" wsd="Da25" wsdexp="效用_反应" parent="26" relate="POB" />
+                <word id="32" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="33" cont="做好" pos="v" ne="O" wsd="Hj12" wsdexp="做_施展_合作_尝试" parent="26" relate="POB">
+                    <arg id="0" type="受事" beg="34" end="36" />
+                </word>
+                <word id="34" cont="奥运会" pos="j" ne="O" wsd="Hh07" wsdexp="比赛" parent="35" relate="ATT" />
+                <word id="35" cont="筹备" pos="v" ne="O" wsd="Hj35" wsdexp="整理_料理_准备" parent="36" relate="ATT" />
+                <word id="36" cont="工作" pos="v" ne="O" wsd="Hj11" wsdexp="工作_劳动" parent="33" relate="VOB" />
+                <word id="37" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="38" cont="成为" pos="v" ne="O" wsd="Ih01" wsdexp="变化_成为" parent="7" relate="IC">
+                    <arg id="0" type="受事" beg="39" end="43" />
+                    <arg id="1" type="受事" beg="44" end="44" />
+                    <arg id="2" type="受事" beg="45" end="48" />
+                </word>
+                <word id="39" cont="人大代表" pos="n" ne="O" wsd="Aj13" wsdexp="专人_代表" parent="38" relate="VOB" />
+                <word id="40" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="41" cont="政协" pos="j" ne="O" wsd="Dm01" wsdexp="政府" parent="42" relate="ATT" />
+                <word id="42" cont="委员" pos="n" ne="O" wsd="Aj07" wsdexp="成员" parent="39" relate="COO" />
+                <word id="43" cont="们" pos="k" ne="O" wsd="Aa01" wsdexp="人_人民_众人" parent="39" relate="RAD" />
+                <word id="44" cont="连日来" pos="i" ne="O" wsd="Ka10" wsdexp="经常_向来_本来" parent="38" relate="VOB" />
+                <word id="45" cont="讨论" pos="v" ne="O" wsd="Hc14" wsdexp="建议_讨论_决定_制订" parent="46" relate="DE" />
+                <word id="46" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="48" relate="ATT" />
+                <word id="47" cont="热门" pos="a" ne="O" wsd="Ed25" wsdexp="著名_无名_热门_冷门" parent="48" relate="ATT" />
+                <word id="48" cont="话题" pos="n" ne="O" wsd="Dk07" wsdexp="题材_体裁_布局" parent="38" relate="VOB" />
+                <word id="49" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+        </para>
+        <para id="3" />
+        <para id="4">
+            <sent id="0" cont="“我们要紧紧抓住跨越式发展的机遇” " tag="">
+                <word id="0" cont="“" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="1" cont="我们" pos="r" ne="O" wsd="Aa02" wsdexp="我_我们" parent="4" relate="SBV" />
+                <word id="2" cont="要" pos="v" ne="O" wsd="Gc03" wsdexp="应该_必须_无须" parent="4" relate="ADV" />
+                <word id="3" cont="紧紧" pos="d" ne="O" wsd="Eb09" wsdexp="紧_松" parent="4" relate="ADV" />
+                <word id="4" cont="抓住" pos="v" ne="O" wsd="Hc10" wsdexp="控制_把持" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="1" end="1" />
+                    <arg id="1" type="受事" beg="5" end="8" />
+                </word>
+                <word id="5" cont="跨越式" pos="b" ne="O" wsd="Dc01" wsdexp="形状_状态_式样_装饰" parent="6" relate="ATT" />
+                <word id="6" cont="发展" pos="v" ne="O" wsd="Ie12" wsdexp="进步_退步_堕落" parent="7" relate="DE" />
+                <word id="7" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="8" relate="ATT" />
+                <word id="8" cont="机遇" pos="n" ne="O" wsd="Ca04" wsdexp="时候_时机_关头" parent="4" relate="VOB" />
+                <word id="9" cont="”" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+        </para>
+        <para id="5">
+            <sent id="0" cont="北京市人大代表、北京ＷＴＯ事务研究咨询中心主任邓洪波介绍他研究的一个课题：" tag="">
+                <word id="0" cont="北京市" pos="ns" ne="O" wsd="Di03" wsdexp="首都_省会" parent="1" relate="ATT" />
+                <word id="1" cont="人大代表" pos="n" ne="O" wsd="Aj13" wsdexp="专人_代表" parent="10" relate="ATT" />
+                <word id="2" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="3" cont="北京" pos="ns" ne="B-Ni" wsd="Di03" wsdexp="首都_省会" parent="4" relate="ATT" />
+                <word id="4" cont="ＷＴＯ" pos="nz" ne="I-Ni" wsd="-1" wsdexp="" parent="5" relate="ATT" />
+                <word id="5" cont="事务" pos="n" ne="I-Ni" wsd="Da01" wsdexp="事情_事件_事故" parent="6" relate="ATT" />
+                <word id="6" cont="研究" pos="v" ne="I-Ni" wsd="Hg14" wsdexp="分析_推敲_研究_考证" parent="7" relate="ATT" />
+                <word id="7" cont="咨询" pos="v" ne="I-Ni" wsd="Hi18" wsdexp="问_答_对质" parent="8" relate="ATT" />
+                <word id="8" cont="中心" pos="n" ne="E-Ni" wsd="Dm04" wsdexp="商店" parent="9" relate="ATT" />
+                <word id="9" cont="主任" pos="n" ne="O" wsd="Af10" wsdexp="领袖_领导" parent="10" relate="ATT" />
+                <word id="10" cont="邓洪波" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="11" relate="SBV" />
+                <word id="11" cont="介绍" pos="v" ne="O" wsd="Hi16" wsdexp="介绍_推荐" parent="14" relate="DE">
+                    <arg id="0" type="施事" beg="0" end="10" />
+                    <arg id="1" type="受事" beg="12" end="13" />
+                </word>
+                <word id="12" cont="他" pos="r" ne="O" wsd="Aa04" wsdexp="他_他们" parent="13" relate="SBV" />
+                <word id="13" cont="研究" pos="v" ne="O" wsd="Hg14" wsdexp="分析_推敲_研究_考证" parent="11" relate="VOB">
+                    <arg id="0" type="施事" beg="12" end="12" />
+                </word>
+                <word id="14" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="16" relate="ATT" />
+                <word id="15" cont="一个" pos="m" ne="O" wsd="Dn08" wsdexp="数量单位" parent="16" relate="QUN" />
+                <word id="16" cont="课题" pos="n" ne="O" wsd="Dk07" wsdexp="题材_体裁_布局" parent="-1" relate="HED" />
+                <word id="17" cont="：" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="1" cont="近年来，凡是举办过奥运会的城市都有一个跨越式发展的阶段，原因是由于奥运会的举办满足了城市发展各个层面上的需求，可以迅速推动经济发展，加快城市现代化发展的步伐，并提高城市管理的现代化水平。" tag="">
+                <word id="0" cont="近年来" pos="i" ne="O" wsd="Ca03" wsdexp="时期_时间" parent="9" relate="ADV" />
+                <word id="1" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="2" cont="凡是" pos="d" ne="O" wsd="Kc06" wsdexp="连_凡是" parent="3" relate="ADV" />
+                <word id="3" cont="举办" pos="v" ne="O" wsd="Hc05" wsdexp="建立_设立_创立_命名" parent="6" relate="DE">
+                    <arg id="0" type="受事" beg="5" end="5" />
+                </word>
+                <word id="4" cont="过" pos="u" ne="O" wsd="Kd02" wsdexp="来着_过" parent="3" relate="MT" />
+                <word id="5" cont="奥运会" pos="j" ne="O" wsd="Hh07" wsdexp="比赛" parent="3" relate="VOB" />
+                <word id="6" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="7" relate="ATT" />
+                <word id="7" cont="城市" pos="n" ne="O" wsd="Cb25" wsdexp="城市_集镇_乡村" parent="9" relate="SBV" />
+                <word id="8" cont="都" pos="d" ne="O" wsd="Ka07" wsdexp="都_只_不止_甚至" parent="9" relate="ADV" />
+                <word id="9" cont="有" pos="v" ne="O" wsd="Jd04" wsdexp="有_占有" parent="20" relate="DE">
+                    <arg id="0" type="施事" beg="2" end="7" />
+                    <arg id="1" type="受事" beg="10" end="14" />
+                </word>
+                <word id="10" cont="一个" pos="m" ne="O" wsd="Dn08" wsdexp="数量单位" parent="14" relate="QUN" />
+                <word id="11" cont="跨越式" pos="b" ne="O" wsd="Dc01" wsdexp="形状_状态_式样_装饰" parent="12" relate="ATT" />
+                <word id="12" cont="发展" pos="v" ne="O" wsd="Ie12" wsdexp="进步_退步_堕落" parent="13" relate="DE" />
+                <word id="13" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="14" relate="ATT" />
+                <word id="14" cont="阶段" pos="n" ne="O" wsd="Ca03" wsdexp="时期_时间" parent="9" relate="VOB" />
+                <word id="15" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="16" cont="原因" pos="n" ne="O" wsd="Db01" wsdexp="原因_结果" parent="17" relate="SBV" />
+                <word id="17" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="9" relate="IC">
+                    <arg id="0" type="施事" beg="16" end="16" />
+                </word>
+                <word id="18" cont="由于" pos="p" ne="O" wsd="Kc09" wsdexp="因为_所以" parent="20" relate="DE" />
+                <word id="19" cont="奥运会" pos="j" ne="O" wsd="Hh07" wsdexp="比赛" parent="18" relate="POB" />
+                <word id="20" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="21" relate="ATT" />
+                <word id="21" cont="举办" pos="v" ne="O" wsd="Hc05" wsdexp="建立_设立_创立_命名" parent="-1" relate="HED">
+                    <arg id="0" type="受事" beg="22" end="30" />
+                </word>
+                <word id="22" cont="满足" pos="v" ne="O" wsd="Jc05" wsdexp="需要_提供_满足" parent="21" relate="VOB">
+                    <arg id="0" type="受事" beg="24" end="24" />
+                    <arg id="1" type="受事" beg="25" end="30" />
+                </word>
+                <word id="23" cont="了" pos="u" ne="O" wsd="Kd05" wsdexp="吗_的话_罢了_了_哉" parent="22" relate="MT" />
+                <word id="24" cont="城市" pos="n" ne="O" wsd="Cb25" wsdexp="城市_集镇_乡村" parent="22" relate="VOB" />
+                <word id="25" cont="发展" pos="v" ne="O" wsd="Ie12" wsdexp="进步_退步_堕落" parent="28" relate="ATT" />
+                <word id="26" cont="各个" pos="r" ne="O" wsd="Ed61" wsdexp="这个_那个_某个_各个_其他_何" parent="27" relate="ATT" />
+                <word id="27" cont="层面" pos="n" ne="O" wsd="Dd05" wsdexp="范围_方面_环节" parent="28" relate="ATT" />
+                <word id="28" cont="上" pos="nd" ne="O" wsd="Cb03" wsdexp="上_下_左_右" parent="29" relate="DE" />
+                <word id="29" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="30" relate="ATT" />
+                <word id="30" cont="需求" pos="n" ne="O" wsd="Df07" wsdexp="欲望_需要" parent="22" relate="VOB" />
+                <word id="31" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="32" cont="可以" pos="v" ne="O" wsd="Gc02" wsdexp="能够_不能_可以_不可" parent="34" relate="ADV" />
+                <word id="33" cont="迅速" pos="a" ne="O" wsd="Eb23" wsdexp="快_慢" parent="34" relate="ADV" />
+                <word id="34" cont="推动" pos="v" ne="O" wsd="Je06" wsdexp="推动_激发" parent="21" relate="VV">
+                    <arg id="0" type="受事" beg="35" end="36" />
+                </word>
+                <word id="35" cont="经济" pos="n" ne="O" wsd="Dj01" wsdexp="经济" parent="36" relate="ATT" />
+                <word id="36" cont="发展" pos="v" ne="O" wsd="Ie12" wsdexp="进步_退步_堕落" parent="34" relate="VOB" />
+                <word id="37" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="38" cont="加快" pos="v" ne="O" wsd="Ih08" wsdexp="加快_放慢" parent="42" relate="DE">
+                    <arg id="0" type="受事" beg="39" end="41" />
+                </word>
+                <word id="39" cont="城市" pos="n" ne="O" wsd="Cb25" wsdexp="城市_集镇_乡村" parent="40" relate="ATT" />
+                <word id="40" cont="现代化" pos="v" ne="O" wsd="Ih01" wsdexp="变化_成为" parent="41" relate="ATT" />
+                <word id="41" cont="发展" pos="v" ne="O" wsd="Ie12" wsdexp="进步_退步_堕落" parent="38" relate="VOB" />
+                <word id="42" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="43" relate="ATT" />
+                <word id="43" cont="步伐" pos="n" ne="O" wsd="Dc03" wsdexp="容貌_姿势_步伐_装束" parent="46" relate="SBV" />
+                <word id="44" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="45" cont="并" pos="c" ne="O" wsd="Kc02" wsdexp="并且_况且" parent="46" relate="CNJ" />
+                <word id="46" cont="提高" pos="v" ne="O" wsd="Ih06" wsdexp="削弱" parent="21" relate="VV">
+                    <arg id="0" type="施事" beg="38" end="43" />
+                    <arg id="1" type="受事" beg="47" end="51" />
+                </word>
+                <word id="47" cont="城市" pos="n" ne="O" wsd="Cb25" wsdexp="城市_集镇_乡村" parent="48" relate="ATT" />
+                <word id="48" cont="管理" pos="v" ne="O" wsd="Hc02" wsdexp="管理_经营" parent="49" relate="DE" />
+                <word id="49" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="51" relate="ATT" />
+                <word id="50" cont="现代化" pos="v" ne="O" wsd="Ih01" wsdexp="变化_成为" parent="51" relate="ATT" />
+                <word id="51" cont="水平" pos="n" ne="O" wsd="Dd12" wsdexp="质量_基础" parent="46" relate="VOB" />
+                <word id="52" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+        </para>
+        <para id="6">
+            <sent id="0" cont="他结合北京的实际解释说，奥运经济是首都经济发展在特定阶段的集中体现，筹办奥运会将大大促进消费和投资的增长。" tag="">
+                <word id="0" cont="他" pos="r" ne="O" wsd="Aa04" wsdexp="他_他们" parent="1" relate="SBV" />
+                <word id="1" cont="结合" pos="v" ne="O" wsd="Ie02" wsdexp="连接_纠缠_积压_结合_割裂" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="0" />
+                    <arg id="1" type="受事" beg="2" end="4" />
+                    <arg id="2" type="受事" beg="5" end="10" />
+                </word>
+                <word id="2" cont="北京" pos="ns" ne="S-Ns" wsd="Di03" wsdexp="首都_省会" parent="3" relate="DE" />
+                <word id="3" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="4" relate="ATT" />
+                <word id="4" cont="实际" pos="n" ne="O" wsd="Ed10" wsdexp="实际_空洞" parent="1" relate="VOB" />
+                <word id="5" cont="解释" pos="v" ne="O" wsd="Hg12" wsdexp="解释_注释_引证_参阅" parent="6" relate="ADV" />
+                <word id="6" cont="说" pos="v" ne="O" wsd="Hi12" wsdexp="讲话_谈天" parent="1" relate="VOB">
+                    <arg id="0" type="受事" beg="8" end="10" />
+                </word>
+                <word id="7" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="8" cont="奥运" pos="j" ne="O" wsd="Di23" wsdexp="会议_宴会" parent="9" relate="ATT" />
+                <word id="9" cont="经济" pos="n" ne="O" wsd="Dj01" wsdexp="经济" parent="10" relate="SBV" />
+                <word id="10" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="6" relate="VOB">
+                    <arg id="0" type="施事" beg="8" end="9" />
+                </word>
+                <word id="11" cont="首都" pos="n" ne="O" wsd="Di03" wsdexp="首都_省会" parent="12" relate="ATT" />
+                <word id="12" cont="经济" pos="n" ne="O" wsd="Dj01" wsdexp="经济" parent="13" relate="SBV" />
+                <word id="13" cont="发展" pos="v" ne="O" wsd="Ie12" wsdexp="进步_退步_堕落" parent="1" relate="VV">
+                    <arg id="0" type="施事" beg="11" end="12" />
+                </word>
+                <word id="14" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="19" relate="ADV" />
+                <word id="15" cont="特定" pos="b" ne="O" wsd="Ed04" wsdexp="杰出_异常_普通" parent="16" relate="ATT" />
+                <word id="16" cont="阶段" pos="n" ne="O" wsd="Ca03" wsdexp="时期_时间" parent="14" relate="POB" />
+                <word id="17" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="19" relate="ATT" />
+                <word id="18" cont="集中" pos="a" ne="O" wsd="Ie10" wsdexp="集合_分散" parent="19" relate="ATT" />
+                <word id="19" cont="体现" pos="v" ne="O" wsd="Ja03" wsdexp="意味_影射_体现_标志" parent="1" relate="VV" />
+                <word id="20" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="21" cont="筹办" pos="v" ne="O" wsd="Hc01" wsdexp="治理_办理_处理" parent="19" relate="VV">
+                    <arg id="0" type="受事" beg="22" end="30" />
+                </word>
+                <word id="22" cont="奥运会" pos="j" ne="O" wsd="Hh07" wsdexp="比赛" parent="25" relate="SBV" />
+                <word id="23" cont="将" pos="d" ne="O" wsd="Ka13" wsdexp="随即_即将_终于" parent="25" relate="ADV" />
+                <word id="24" cont="大大" pos="d" ne="O" wsd="Ka01" wsdexp="非常_多么" parent="25" relate="ADV" />
+                <word id="25" cont="促进" pos="v" ne="O" wsd="Je06" wsdexp="推动_激发" parent="29" relate="DE">
+                    <arg id="0" type="施事" beg="22" end="22" />
+                    <arg id="1" type="受事" beg="26" end="28" />
+                </word>
+                <word id="26" cont="消费" pos="v" ne="O" wsd="He03" wsdexp="买_卖" parent="25" relate="VOB" />
+                <word id="27" cont="和" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="28" relate="LAD" />
+                <word id="28" cont="投资" pos="v" ne="O" wsd="He01" wsdexp="贸易_输出_输入_投资" parent="26" relate="COO" />
+                <word id="29" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="30" relate="ATT" />
+                <word id="30" cont="增长" pos="v" ne="O" wsd="Ih05" wsdexp="增多_添补_减少" parent="21" relate="VOB" />
+                <word id="31" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="1" cont="这是北京的一次历史性机遇，只要我们抓紧抓实这次难得的机遇，就可以实现跨越式发展，比如城市基础设施的大规模建设、交通状况的改善、就业机会的增加等等，人民的生活水平和生活质量都将得到提高。" tag="10%">
+                <word id="0" cont="这" pos="r" ne="O" wsd="Ed61" wsdexp="这个_那个_某个_各个_其他_何" parent="1" relate="SBV" />
+                <word id="1" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="0" />
+                    <arg id="1" type="受事" beg="2" end="7" />
+                </word>
+                <word id="2" cont="北京" pos="ns" ne="S-Ns" wsd="Di03" wsdexp="首都_省会" parent="3" relate="DE" />
+                <word id="3" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="7" relate="ATT" />
+                <word id="4" cont="一" pos="m" ne="B-Nm" wsd="Dn04" wsdexp="基数_序数" parent="5" relate="QUN" />
+                <word id="5" cont="次" pos="q" ne="E-Nm" wsd="Dn08" wsdexp="数量单位" parent="7" relate="ATT" />
+                <word id="6" cont="历史性" pos="n" ne="O" wsd="Dd01" wsdexp="性质" parent="7" relate="ATT" />
+                <word id="7" cont="机遇" pos="n" ne="O" wsd="Ca04" wsdexp="时候_时机_关头" parent="1" relate="VOB" />
+                <word id="8" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="9" cont="只要" pos="c" ne="O" wsd="Kc07" wsdexp="除了_除非_若非_否则" parent="12" relate="CNJ" />
+                <word id="10" cont="我们" pos="r" ne="O" wsd="Aa02" wsdexp="我_我们" parent="12" relate="SBV" />
+                <word id="11" cont="抓紧" pos="v" ne="O" wsd="Ih10" wsdexp="抓紧_放松" parent="12" relate="ADV" />
+                <word id="12" cont="抓" pos="v" ne="O" wsd="Hj12" wsdexp="做_施展_合作_尝试" parent="1" relate="IC">
+                    <arg id="0" type="施事" beg="10" end="10" />
+                    <arg id="1" type="受事" beg="13" end="17" />
+                </word>
+                <word id="13" cont="实" pos="a" ne="O" wsd="Ed01" wsdexp="真实_虚假_确实_虚妄" parent="17" relate="ATT" />
+                <word id="14" cont="这次" pos="r" ne="O" wsd="Ca31" wsdexp="这时_那时_几时" parent="17" relate="ATT" />
+                <word id="15" cont="难得" pos="a" ne="O" wsd="Ed27" wsdexp="贵重_昂贵_便宜" parent="16" relate="DE" />
+                <word id="16" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="17" relate="ATT" />
+                <word id="17" cont="机遇" pos="n" ne="O" wsd="Ca04" wsdexp="时候_时机_关头" parent="12" relate="VOB" />
+                <word id="18" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="19" cont="就" pos="d" ne="O" wsd="Ka07" wsdexp="都_只_不止_甚至" parent="21" relate="ADV" />
+                <word id="20" cont="可以" pos="v" ne="O" wsd="Gc02" wsdexp="能够_不能_可以_不可" parent="21" relate="ADV" />
+                <word id="21" cont="实现" pos="v" ne="O" wsd="Ie14" wsdexp="完成_实现" parent="1" relate="VV">
+                    <arg id="0" type="受事" beg="22" end="23" />
+                </word>
+                <word id="22" cont="跨越式" pos="b" ne="O" wsd="Dc01" wsdexp="形状_状态_式样_装饰" parent="23" relate="ATT" />
+                <word id="23" cont="发展" pos="v" ne="O" wsd="Ie12" wsdexp="进步_退步_堕落" parent="21" relate="VOB" />
+                <word id="24" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="25" cont="比如" pos="v" ne="O" wsd="Jb03" wsdexp="相似_例如" parent="29" relate="DE">
+                    <arg id="0" type="受事" beg="26" end="28" />
+                </word>
+                <word id="26" cont="城市" pos="n" ne="O" wsd="Cb25" wsdexp="城市_集镇_乡村" parent="27" relate="ATT" />
+                <word id="27" cont="基础" pos="n" ne="O" wsd="Dd12" wsdexp="质量_基础" parent="28" relate="ATT" />
+                <word id="28" cont="设施" pos="n" ne="O" wsd="Ba05" wsdexp="器具_设备" parent="25" relate="VOB" />
+                <word id="29" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="31" relate="ATT" />
+                <word id="30" cont="大规模" pos="b" ne="O" wsd="Ed38" wsdexp="广泛_无穷_狭隘" parent="31" relate="ATT" />
+                <word id="31" cont="建设" pos="v" ne="O" wsd="Hc05" wsdexp="建立_设立_创立_命名" parent="35" relate="DE" />
+                <word id="32" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="33" cont="交通" pos="n" ne="O" wsd="Di18" wsdexp="事业_行业_工程" parent="34" relate="ATT" />
+                <word id="34" cont="状况" pos="n" ne="O" wsd="Da21" wsdexp="情况_境地_境界_环境" parent="31" relate="COO" />
+                <word id="35" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="36" relate="ATT" />
+                <word id="36" cont="改善" pos="v" ne="O" wsd="Ih11" wsdexp="好转_改进_恶化" parent="40" relate="DE" />
+                <word id="37" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="38" cont="就业" pos="v" ne="O" wsd="Hc27" wsdexp="就职_接替_交卸" parent="39" relate="ATT" />
+                <word id="39" cont="机会" pos="n" ne="O" wsd="Ca04" wsdexp="时候_时机_关头" parent="36" relate="COO" />
+                <word id="40" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="41" relate="ATT" />
+                <word id="41" cont="增加" pos="v" ne="O" wsd="Ih05" wsdexp="增多_添补_减少" parent="1" relate="IC" />
+                <word id="42" cont="等等" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="41" relate="RAD" />
+                <word id="43" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="44" cont="人民" pos="n" ne="O" wsd="Aa01" wsdexp="人_人民_众人" parent="45" relate="DE" />
+                <word id="45" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="47" relate="ATT" />
+                <word id="46" cont="生活" pos="v" ne="O" wsd="Hj01" wsdexp="生活_居住" parent="47" relate="ATT" />
+                <word id="47" cont="水平" pos="n" ne="O" wsd="Dd12" wsdexp="质量_基础" parent="53" relate="SBV" />
+                <word id="48" cont="和" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="50" relate="LAD" />
+                <word id="49" cont="生活" pos="v" ne="O" wsd="Hj01" wsdexp="生活_居住" parent="50" relate="ATT" />
+                <word id="50" cont="质量" pos="n" ne="O" wsd="Dd12" wsdexp="质量_基础" parent="47" relate="COO" />
+                <word id="51" cont="都" pos="d" ne="O" wsd="Ka07" wsdexp="都_只_不止_甚至" parent="53" relate="ADV" />
+                <word id="52" cont="将" pos="d" ne="O" wsd="Ka13" wsdexp="随即_即将_终于" parent="53" relate="ADV" />
+                <word id="53" cont="得到" pos="v" ne="O" wsd="Je12" wsdexp="取得_达到_挽回" parent="41" relate="IC">
+                    <arg id="0" type="施事" beg="44" end="50" />
+                    <arg id="1" type="受事" beg="54" end="54" />
+                </word>
+                <word id="54" cont="提高" pos="v" ne="O" wsd="Ih06" wsdexp="削弱" parent="53" relate="VOB" />
+                <word id="55" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+        </para>
+        <para id="7">
+            <sent id="0" cont="在一年前的北京市“两会”上，众多的代表、委员曾纷纷为奥运“支招”。" tag="">
+                <word id="0" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="4" relate="DE" />
+                <word id="1" cont="一" pos="m" ne="B-Nm" wsd="Dn04" wsdexp="基数_序数" parent="2" relate="QUN" />
+                <word id="2" cont="年" pos="q" ne="E-Nm" wsd="Ca18" wsdexp="年" parent="3" relate="ATT" />
+                <word id="3" cont="前" pos="nd" ne="O" wsd="Cb04" wsdexp="前_后_中" parent="0" relate="POB" />
+                <word id="4" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="5" relate="ATT" />
+                <word id="5" cont="北京市" pos="ns" ne="S-Ns" wsd="Di03" wsdexp="首都_省会" parent="9" relate="ATT" />
+                <word id="6" cont="“" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="7" cont="两会" pos="j" ne="O" wsd="Di23" wsdexp="会议_宴会" parent="9" relate="ATT" />
+                <word id="8" cont="”" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="9" cont="上" pos="nd" ne="O" wsd="Cb03" wsdexp="上_下_左_右" parent="18" relate="ADV" />
+                <word id="10" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="11" cont="众多" pos="m" ne="O" wsd="Eb01" wsdexp="多_少_稀少" parent="12" relate="DE" />
+                <word id="12" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="13" relate="ATT" />
+                <word id="13" cont="代表" pos="n" ne="O" wsd="Aj13" wsdexp="专人_代表" parent="18" relate="SBV" />
+                <word id="14" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="15" cont="委员" pos="n" ne="O" wsd="Aj07" wsdexp="成员" parent="13" relate="COO" />
+                <word id="16" cont="曾" pos="d" ne="O" wsd="Ka12" wsdexp="已经_方才_正在" parent="17" relate="ADV" />
+                <word id="17" cont="纷纷" pos="d" ne="O" wsd="Eb01" wsdexp="多_少_稀少" parent="18" relate="ADV" />
+                <word id="18" cont="为" pos="p" ne="O" wsd="Kb05" wsdexp="为_被_以_由" parent="-1" relate="HED" />
+                <word id="19" cont="奥运" pos="j" ne="O" wsd="Di23" wsdexp="会议_宴会" parent="18" relate="POB" />
+                <word id="20" cont="“" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="21" cont="支" pos="q" ne="O" wsd="Dn08" wsdexp="数量单位" parent="22" relate="ATT" />
+                <word id="22" cont="招" pos="n" ne="O" wsd="Hc24" wsdexp="聘请_征募" parent="18" relate="POB" />
+                <word id="23" cont="”" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="24" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="1" cont="今年再见他们，许多人已经开始实实在在地做起了“奥运文章”。" tag="">
+                <word id="0" cont="今年" pos="nt" ne="O" wsd="Ca18" wsdexp="年" parent="2" relate="ADV" />
+                <word id="1" cont="再" pos="d" ne="O" wsd="Ka14" wsdexp="再" parent="2" relate="ADV" />
+                <word id="2" cont="见" pos="v" ne="O" wsd="Fc04" wsdexp="看" parent="-1" relate="HED">
+                    <arg id="0" type="时间" beg="0" end="0" />
+                    <arg id="1" type="受事" beg="3" end="3" />
+                </word>
+                <word id="3" cont="他们" pos="r" ne="O" wsd="Aa04" wsdexp="他_他们" parent="2" relate="VOB" />
+                <word id="4" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="5" cont="许多" pos="m" ne="O" wsd="Eb01" wsdexp="多_少_稀少" parent="6" relate="QUN" />
+                <word id="6" cont="人" pos="n" ne="O" wsd="Aa01" wsdexp="人_人民_众人" parent="8" relate="SBV" />
+                <word id="7" cont="已经" pos="d" ne="O" wsd="Ka12" wsdexp="已经_方才_正在" parent="8" relate="ADV" />
+                <word id="8" cont="开始" pos="v" ne="O" wsd="Ig01" wsdexp="开始_结束" parent="2" relate="VV">
+                    <arg id="0" type="施事" beg="5" end="6" />
+                </word>
+                <word id="9" cont="实实在在" pos="a" ne="O" wsd="Ed01" wsdexp="真实_虚假_确实_虚妄" parent="11" relate="ADV" />
+                <word id="10" cont="地" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="11" relate="ADV" />
+                <word id="11" cont="做" pos="v" ne="O" wsd="Hj12" wsdexp="做_施展_合作_尝试" parent="2" relate="VV">
+                    <arg id="0" type="受事" beg="15" end="16" />
+                </word>
+                <word id="12" cont="起" pos="v" ne="O" wsd="Ig01" wsdexp="开始_结束" parent="11" relate="CMP" />
+                <word id="13" cont="了" pos="u" ne="O" wsd="Kd05" wsdexp="吗_的话_罢了_了_哉" parent="12" relate="MT" />
+                <word id="14" cont="“" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="15" cont="奥运" pos="j" ne="O" wsd="Di23" wsdexp="会议_宴会" parent="16" relate="ATT" />
+                <word id="16" cont="文章" pos="n" ne="O" wsd="Dk19" wsdexp="作品_文章_稿件" parent="11" relate="VOB" />
+                <word id="17" cont="”" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="18" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+        </para>
+        <para id="8">
+            <sent id="0" cont="北京市工商联副会长、百万庄园实业总公司总裁陈立群委员对记者说，２００８年奥运会召开时将有大量的外国游客来北京和中国旅游，百万庄园公司将从今年起至２００８年间每年在国内开设２０家西餐连锁店，“以接待奥运会客流为契机挑战洋快餐”。" tag="">
+                <word id="0" cont="北京市" pos="ns" ne="B-Ni" wsd="Di03" wsdexp="首都_省会" parent="1" relate="ATT" />
+                <word id="1" cont="工商联" pos="j" ne="E-Ni" wsd="Di10" wsdexp="团体_派别" parent="2" relate="ATT" />
+                <word id="2" cont="副" pos="b" ne="O" wsd="Ed28" wsdexp="重要_次要_不足道" parent="3" relate="ATT" />
+                <word id="3" cont="会长" pos="n" ne="O" wsd="Af10" wsdexp="领袖_领导" parent="14" relate="SBV" />
+                <word id="4" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="5" cont="百万" pos="m" ne="S-Nm" wsd="Dn03" wsdexp="数量" parent="14" relate="ADV" />
+                <word id="6" cont="庄园" pos="n" ne="O" wsd="Bn20" wsdexp="园林_塔" parent="7" relate="ATT" />
+                <word id="7" cont="实业" pos="n" ne="O" wsd="Dd15" wsdexp="名称_姓名_生肖_性别" parent="8" relate="ATT" />
+                <word id="8" cont="总公司" pos="n" ne="O" wsd="Dm04" wsdexp="商店" parent="9" relate="ATT" />
+                <word id="9" cont="总裁" pos="n" ne="O" wsd="Af10" wsdexp="领袖_领导" parent="10" relate="ATT" />
+                <word id="10" cont="陈立群" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="11" relate="ATT" />
+                <word id="11" cont="委员" pos="n" ne="O" wsd="Aj07" wsdexp="成员" parent="14" relate="SBV" />
+                <word id="12" cont="对" pos="p" ne="O" wsd="Kb04" wsdexp="对于_关于" parent="14" relate="ADV" />
+                <word id="13" cont="记者" pos="n" ne="O" wsd="Ae16" wsdexp="作者_译者_记者_编辑" parent="12" relate="POB" />
+                <word id="14" cont="说" pos="v" ne="O" wsd="Hi12" wsdexp="讲话_谈天" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="3" />
+                    <arg id="1" type="施事" beg="6" end="11" />
+                </word>
+                <word id="15" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="16" cont="２００８年" pos="nt" ne="S-Nr" wsd="-1" wsdexp="" parent="17" relate="ATT" />
+                <word id="17" cont="奥运会" pos="j" ne="O" wsd="Hh07" wsdexp="比赛" parent="18" relate="SBV" />
+                <word id="18" cont="召开" pos="v" ne="O" wsd="Ie13" wsdexp="实行_举行" parent="14" relate="VV">
+                    <arg id="0" type="施事" beg="16" end="17" />
+                    <arg id="1" type="受事" beg="19" end="19" />
+                    <arg id="2" type="受事" beg="20" end="21" />
+                    <arg id="3" type="受事" beg="22" end="25" />
+                </word>
+                <word id="19" cont="时" pos="n" ne="O" wsd="Ca04" wsdexp="时候_时机_关头" parent="18" relate="VOB" />
+                <word id="20" cont="将" pos="d" ne="O" wsd="Ka13" wsdexp="随即_即将_终于" parent="21" relate="ADV" />
+                <word id="21" cont="有" pos="v" ne="O" wsd="Jd04" wsdexp="有_占有" parent="18" relate="VOB" />
+                <word id="22" cont="大量" pos="m" ne="O" wsd="Eb01" wsdexp="多_少_稀少" parent="23" relate="DE" />
+                <word id="23" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="25" relate="ATT" />
+                <word id="24" cont="外国" pos="n" ne="O" wsd="Di02" wsdexp="国家_行政区划" parent="25" relate="ATT" />
+                <word id="25" cont="游客" pos="n" ne="O" wsd="Ag10" wsdexp="旅客" parent="18" relate="VOB" />
+                <word id="26" cont="来" pos="v" ne="O" wsd="Hj63" wsdexp="来_去_来去" parent="18" relate="CMP">
+                    <arg id="0" type="受事" beg="27" end="30" />
+                </word>
+                <word id="27" cont="北京" pos="ns" ne="S-Ns" wsd="Di03" wsdexp="首都_省会" parent="26" relate="VOB" />
+                <word id="28" cont="和" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="30" relate="LAD" />
+                <word id="29" cont="中国" pos="ns" ne="S-Ns" wsd="Di02" wsdexp="国家_行政区划" parent="30" relate="ATT" />
+                <word id="30" cont="旅游" pos="v" ne="O" wsd="Hj48" wsdexp="游戏_游览_消遣" parent="27" relate="COO" />
+                <word id="31" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="32" cont="百万" pos="m" ne="S-Nm" wsd="Dn03" wsdexp="数量" parent="34" relate="QUN" />
+                <word id="33" cont="庄园" pos="n" ne="O" wsd="Bn20" wsdexp="园林_塔" parent="34" relate="ATT" />
+                <word id="34" cont="公司" pos="n" ne="O" wsd="Dm04" wsdexp="商店" parent="38" relate="SBV" />
+                <word id="35" cont="将" pos="d" ne="O" wsd="Ka13" wsdexp="随即_即将_终于" parent="38" relate="ADV" />
+                <word id="36" cont="从" pos="p" ne="O" wsd="Kb02" wsdexp="从_到_沿" parent="38" relate="ADV" />
+                <word id="37" cont="今年" pos="nt" ne="O" wsd="Ca18" wsdexp="年" parent="36" relate="POB" />
+                <word id="38" cont="起" pos="v" ne="O" wsd="Ig01" wsdexp="开始_结束" parent="18" relate="VV">
+                    <arg id="0" type="施事" beg="32" end="34" />
+                    <arg id="1" type="时间" beg="36" end="37" />
+                    <arg id="2" type="受事" beg="39" end="49" />
+                </word>
+                <word id="39" cont="至" pos="p" ne="O" wsd="Kb02" wsdexp="从_到_沿" parent="45" relate="ADV" />
+                <word id="40" cont="２００８年" pos="nt" ne="S-Nr" wsd="-1" wsdexp="" parent="41" relate="ATT" />
+                <word id="41" cont="间" pos="nd" ne="O" wsd="Cb04" wsdexp="前_后_中" parent="39" relate="POB" />
+                <word id="42" cont="每年" pos="r" ne="O" wsd="Ca18" wsdexp="年" parent="39" relate="POB" />
+                <word id="43" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="45" relate="ADV" />
+                <word id="44" cont="国内" pos="nl" ne="O" wsd="Cb05" wsdexp="内_外" parent="43" relate="POB" />
+                <word id="45" cont="开设" pos="v" ne="O" wsd="Hc05" wsdexp="建立_设立_创立_命名" parent="38" relate="VOB">
+                    <arg id="0" type="方位" beg="39" end="42" />
+                    <arg id="1" type="地点" beg="43" end="44" />
+                    <arg id="2" type="受事" beg="46" end="49" />
+                </word>
+                <word id="46" cont="２０" pos="m" ne="B-Nm" wsd="-1" wsdexp="" parent="47" relate="QUN" />
+                <word id="47" cont="家" pos="q" ne="E-Nm" wsd="Dn08" wsdexp="数量单位" parent="49" relate="ATT" />
+                <word id="48" cont="西餐" pos="n" ne="O" wsd="Da18" wsdexp="生计_饮食" parent="49" relate="ATT" />
+                <word id="49" cont="连锁店" pos="n" ne="O" wsd="Dm04" wsdexp="商店" parent="45" relate="VOB" />
+                <word id="50" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="51" cont="“" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="52" cont="以" pos="p" ne="O" wsd="Kb05" wsdexp="为_被_以_由" parent="53" relate="ADV" />
+                <word id="53" cont="接待" pos="v" ne="O" wsd="Hi08" wsdexp="招呼_招待_对待" parent="18" relate="VV">
+                    <arg id="0" type="受事" beg="54" end="55" />
+                </word>
+                <word id="54" cont="奥运会" pos="j" ne="O" wsd="Hh07" wsdexp="比赛" parent="55" relate="ATT" />
+                <word id="55" cont="客流" pos="n" ne="O" wsd="Dn03" wsdexp="数量" parent="53" relate="VOB" />
+                <word id="56" cont="为" pos="p" ne="O" wsd="Kb05" wsdexp="为_被_以_由" parent="53" relate="CMP" />
+                <word id="57" cont="契机" pos="n" ne="O" wsd="Ca04" wsdexp="时候_时机_关头" parent="58" relate="ATT" />
+                <word id="58" cont="挑战" pos="v" ne="O" wsd="Hb02" wsdexp="誓师_检阅_作战" parent="59" relate="ATT" />
+                <word id="59" cont="洋快餐" pos="n" ne="O" wsd="Br04" wsdexp="饭_粥_锅巴" parent="56" relate="POB" />
+                <word id="60" cont="”" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="61" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+        </para>
+        <para id="9">
+            <sent id="0" cont="刘彬委员是国内知名体育品牌格威特体育产业集团的董事长，他表示：" tag="">
+                <word id="0" cont="刘彬" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="1" relate="ATT" />
+                <word id="1" cont="委员" pos="n" ne="O" wsd="Aj07" wsdexp="成员" parent="2" relate="SBV" />
+                <word id="2" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="1" />
+                    <arg id="1" type="受事" beg="3" end="10" />
+                    <arg id="2" type="受事" beg="11" end="12" />
+                    <arg id="3" type="受事" beg="14" end="15" />
+                </word>
+                <word id="3" cont="国内" pos="nl" ne="O" wsd="Cb05" wsdexp="内_外" parent="10" relate="ATT" />
+                <word id="4" cont="知名" pos="a" ne="O" wsd="Ed25" wsdexp="著名_无名_热门_冷门" parent="10" relate="ATT" />
+                <word id="5" cont="体育" pos="n" ne="B-Ni" wsd="Dk01" wsdexp="文化_教育_卫生" parent="6" relate="ATT" />
+                <word id="6" cont="品牌" pos="n" ne="I-Ni" wsd="Bp20" wsdexp="标志_旗帜" parent="7" relate="ATT" />
+                <word id="7" cont="格威特" pos="nz" ne="I-Ni" wsd="-1" wsdexp="" parent="8" relate="ATT" />
+                <word id="8" cont="体育" pos="n" ne="I-Ni" wsd="Dk01" wsdexp="文化_教育_卫生" parent="9" relate="ATT" />
+                <word id="9" cont="产业" pos="n" ne="I-Ni" wsd="Dj03" wsdexp="产业_财物" parent="10" relate="ATT" />
+                <word id="10" cont="集团" pos="n" ne="E-Ni" wsd="Di10" wsdexp="团体_派别" parent="2" relate="VOB" />
+                <word id="11" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="12" relate="ATT" />
+                <word id="12" cont="董事长" pos="n" ne="O" wsd="Af10" wsdexp="领袖_领导" parent="2" relate="VOB" />
+                <word id="13" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="14" cont="他" pos="r" ne="O" wsd="Aa04" wsdexp="他_他们" parent="15" relate="SBV" />
+                <word id="15" cont="表示" pos="v" ne="O" wsd="Hi14" wsdexp="表示_表达_阐明_表露_发誓" parent="2" relate="VOB">
+                    <arg id="0" type="施事" beg="14" end="14" />
+                </word>
+                <word id="16" cont="：" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="1" cont="“我们计划与一家日本的世界５００强企业合作，提高产品的科技含量，真正提高自身的国际竞争力，努力使中国名牌体育产品跻身北京奥运会。" tag="">
+                <word id="0" cont="“" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="1" cont="我们" pos="r" ne="O" wsd="Aa02" wsdexp="我_我们" parent="2" relate="ATT" />
+                <word id="2" cont="计划" pos="n" ne="O" wsd="Df09" wsdexp="计划_计策_手段" parent="12" relate="ATT" />
+                <word id="3" cont="与" pos="p" ne="O" wsd="Kc01" wsdexp="和_或者" parent="12" relate="ADV" />
+                <word id="4" cont="一" pos="m" ne="B-Nm" wsd="Dn04" wsdexp="基数_序数" parent="5" relate="QUN" />
+                <word id="5" cont="家" pos="q" ne="E-Nm" wsd="Dn08" wsdexp="数量单位" parent="8" relate="ATT" />
+                <word id="6" cont="日本" pos="ns" ne="S-Ns" wsd="Di02" wsdexp="国家_行政区划" parent="7" relate="DE" />
+                <word id="7" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="8" relate="ATT" />
+                <word id="8" cont="世界" pos="n" ne="O" wsd="Di01" wsdexp="世界_社会_人间" parent="3" relate="POB" />
+                <word id="9" cont="５００" pos="m" ne="B-Nm" wsd="-1" wsdexp="" parent="12" relate="ADV" />
+                <word id="10" cont="强" pos="a" ne="E-Nm" wsd="Ed19" wsdexp="稳固_强大_弱小" parent="12" relate="ATT" />
+                <word id="11" cont="企业" pos="n" ne="O" wsd="Dm03" wsdexp="工厂_工场" parent="12" relate="ATT" />
+                <word id="12" cont="合作" pos="v" ne="O" wsd="Hj12" wsdexp="做_施展_合作_尝试" parent="-1" relate="HED" />
+                <word id="13" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="14" cont="提高" pos="v" ne="O" wsd="Ih06" wsdexp="削弱" parent="16" relate="DE">
+                    <arg id="0" type="受事" beg="15" end="15" />
+                </word>
+                <word id="15" cont="产品" pos="n" ne="O" wsd="Ba04" wsdexp="货物_产品" parent="14" relate="VOB" />
+                <word id="16" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="18" relate="ATT" />
+                <word id="17" cont="科技" pos="n" ne="O" wsd="Dk03" wsdexp="科学_学科_学业" parent="18" relate="ATT" />
+                <word id="18" cont="含量" pos="n" ne="O" wsd="Dn03" wsdexp="数量" parent="21" relate="SBV" />
+                <word id="19" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="20" cont="真正" pos="d" ne="O" wsd="Ed01" wsdexp="真实_虚假_确实_虚妄" parent="21" relate="ADV" />
+                <word id="21" cont="提高" pos="v" ne="O" wsd="Ih06" wsdexp="削弱" parent="12" relate="IC">
+                    <arg id="0" type="施事" beg="14" end="18" />
+                    <arg id="1" type="受事" beg="22" end="25" />
+                </word>
+                <word id="22" cont="自身" pos="r" ne="O" wsd="Aa05" wsdexp="自己_别人_某人" parent="23" relate="DE" />
+                <word id="23" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="25" relate="ATT" />
+                <word id="24" cont="国际" pos="n" ne="O" wsd="Di02" wsdexp="国家_行政区划" parent="25" relate="ATT" />
+                <word id="25" cont="竞争力" pos="n" ne="O" wsd="De04" wsdexp="智慧_才能_能力_功夫" parent="21" relate="VOB" />
+                <word id="26" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="27" cont="努力" pos="a" ne="O" wsd="Ee24" wsdexp="勤奋_用功_懒惰_拖拉" parent="28" relate="ADV" />
+                <word id="28" cont="使" pos="v" ne="O" wsd="Je04" wsdexp="引起_导致_使得" parent="21" relate="VV">
+                    <arg id="0" type="受事" beg="29" end="32" />
+                </word>
+                <word id="29" cont="中国" pos="ns" ne="O" wsd="Di02" wsdexp="国家_行政区划" parent="30" relate="ATT" />
+                <word id="30" cont="名牌" pos="n" ne="O" wsd="Bp20" wsdexp="标志_旗帜" parent="31" relate="ATT" />
+                <word id="31" cont="体育" pos="n" ne="O" wsd="Dk01" wsdexp="文化_教育_卫生" parent="32" relate="ATT" />
+                <word id="32" cont="产品" pos="n" ne="O" wsd="Ba04" wsdexp="货物_产品" parent="28" relate="VOB" />
+                <word id="33" cont="跻身" pos="v" ne="O" wsd="Hj64" wsdexp="出_进_出入" parent="21" relate="IC" />
+                <word id="34" cont="北京" pos="ns" ne="O" wsd="Di03" wsdexp="首都_省会" parent="35" relate="ATT" />
+                <word id="35" cont="奥运会" pos="j" ne="O" wsd="Hh07" wsdexp="比赛" parent="12" relate="NOT" />
+                <word id="36" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="2" cont="” " tag="">
+                <word id="0" cont="”" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+        </para>
+        <para id="10">
+            <sent id="0" cont="完善监督机制，办“廉洁奥运” " tag="">
+                <word id="0" cont="完善" pos="v" ne="O" wsd="Ih11" wsdexp="好转_改进_恶化" parent="-1" relate="HED">
+                    <arg id="0" type="受事" beg="1" end="2" />
+                </word>
+                <word id="1" cont="监督" pos="v" ne="O" wsd="Hc19" wsdexp="监督_查点" parent="2" relate="ATT" />
+                <word id="2" cont="机制" pos="n" ne="O" wsd="Di09" wsdexp="政策_制度_所有制_体制" parent="0" relate="VOB" />
+                <word id="3" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="4" cont="办" pos="v" ne="O" wsd="Hj12" wsdexp="做_施展_合作_尝试" parent="0" relate="VV" />
+                <word id="5" cont="“" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="6" cont="廉洁" pos="a" ne="O" wsd="Ee41" wsdexp="廉洁_贪心" parent="7" relate="ATT" />
+                <word id="7" cont="奥运" pos="j" ne="O" wsd="Di23" wsdexp="会议_宴会" parent="0" relate="NOT" />
+                <word id="8" cont="”" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+        </para>
+        <para id="11">
+            <sent id="0" cont="奥运会是个超大型工程，筹办过程中若出现舞弊腐败将直接损害中国在国际社会的形象。" tag="">
+                <word id="0" cont="奥运会" pos="j" ne="O" wsd="Hh07" wsdexp="比赛" parent="1" relate="SBV" />
+                <word id="1" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="0" />
+                    <arg id="1" type="受事" beg="2" end="4" />
+                    <arg id="2" type="受事" beg="6" end="11" />
+                    <arg id="3" type="受事" beg="12" end="12" />
+                </word>
+                <word id="2" cont="个" pos="q" ne="O" wsd="Dn08" wsdexp="数量单位" parent="4" relate="ATT" />
+                <word id="3" cont="超大型" pos="b" ne="O" wsd="Dd06" wsdexp="系统_种类_结构" parent="4" relate="ATT" />
+                <word id="4" cont="工程" pos="n" ne="O" wsd="Di18" wsdexp="事业_行业_工程" parent="1" relate="VOB" />
+                <word id="5" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="6" cont="筹办" pos="v" ne="O" wsd="Hc01" wsdexp="治理_办理_处理" parent="8" relate="ATT" />
+                <word id="7" cont="过程" pos="n" ne="O" wsd="Da05" wsdexp="过程_内中" parent="8" relate="ATT" />
+                <word id="8" cont="中" pos="nd" ne="O" wsd="Da05" wsdexp="过程_内中" parent="10" relate="ADV" />
+                <word id="9" cont="若" pos="c" ne="O" wsd="Kc08" wsdexp="如果_那末" parent="10" relate="CNJ" />
+                <word id="10" cont="出现" pos="v" ne="O" wsd="Jd07" wsdexp="出现_发生" parent="1" relate="VOB">
+                    <arg id="0" type="方位" beg="6" end="8" />
+                    <arg id="1" type="受事" beg="11" end="11" />
+                </word>
+                <word id="11" cont="舞弊" pos="v" ne="O" wsd="Hn10" wsdexp="贪污_舞弊_剽窃_侵吞" parent="10" relate="VOB" />
+                <word id="12" cont="腐败" pos="a" ne="O" wsd="Ie12" wsdexp="进步_退步_堕落" parent="1" relate="VOB" />
+                <word id="13" cont="将" pos="d" ne="O" wsd="Ka13" wsdexp="随即_即将_终于" parent="14" relate="ADV" />
+                <word id="14" cont="直接" pos="a" ne="O" wsd="Ka25" wsdexp="迎头_径自_直接_间接" parent="15" relate="ADV" />
+                <word id="15" cont="损害" pos="v" ne="O" wsd="Je10" wsdexp="有利_有害" parent="1" relate="IC">
+                    <arg id="0" type="受事" beg="16" end="21" />
+                </word>
+                <word id="16" cont="中国" pos="ns" ne="S-Ns" wsd="Di02" wsdexp="国家_行政区划" parent="21" relate="ATT" />
+                <word id="17" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="20" relate="DE" />
+                <word id="18" cont="国际" pos="n" ne="O" wsd="Di02" wsdexp="国家_行政区划" parent="19" relate="ATT" />
+                <word id="19" cont="社会" pos="n" ne="O" wsd="Di01" wsdexp="世界_社会_人间" parent="17" relate="POB" />
+                <word id="20" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="21" relate="ATT" />
+                <word id="21" cont="形象" pos="n" ne="O" wsd="Dc01" wsdexp="形状_状态_式样_装饰" parent="15" relate="VOB" />
+                <word id="22" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="1" cont="那么，怎样办一届“廉洁奥运”呢？" tag="">
+                <word id="0" cont="那么" pos="r" ne="O" wsd="Ka34" wsdexp="这样_那样" parent="3" relate="CNJ" />
+                <word id="1" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="2" cont="怎样" pos="r" ne="O" wsd="Ka35" wsdexp="哪里_怎样_为什么" parent="3" relate="ADV" />
+                <word id="3" cont="办" pos="v" ne="O" wsd="Hj12" wsdexp="做_施展_合作_尝试" parent="-1" relate="HED">
+                    <arg id="0" type="受事-数量性质" beg="4" end="5" />
+                    <arg id="1" type="受事" beg="7" end="8" />
+                </word>
+                <word id="4" cont="一" pos="m" ne="B-Nm" wsd="Dn04" wsdexp="基数_序数" parent="5" relate="QUN" />
+                <word id="5" cont="届" pos="q" ne="E-Nm" wsd="Dn09" wsdexp="动量单位_复量单位" parent="3" relate="VOB" />
+                <word id="6" cont="“" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="7" cont="廉洁" pos="a" ne="O" wsd="Ee41" wsdexp="廉洁_贪心" parent="8" relate="ATT" />
+                <word id="8" cont="奥运" pos="j" ne="O" wsd="Di23" wsdexp="会议_宴会" parent="3" relate="VOB" />
+                <word id="9" cont="”" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="10" cont="呢" pos="u" ne="O" wsd="Kd03" wsdexp="啊_呢_喽" parent="3" relate="MT" />
+                <word id="11" cont="？" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="2" cont="在长达几年的奥运会筹办过程如何始终保持透明公开？" tag="">
+                <word id="0" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="5" relate="DE" />
+                <word id="1" cont="长" pos="a" ne="O" wsd="Ea01" wsdexp="长_短" parent="2" relate="ADV" />
+                <word id="2" cont="达" pos="v" ne="O" wsd="Je12" wsdexp="取得_达到_挽回" parent="5" relate="DE">
+                    <arg id="0" type="受事-数量性质" beg="3" end="4" />
+                </word>
+                <word id="3" cont="几" pos="m" ne="O" wsd="Dn05" wsdexp="半_概数_若干" parent="4" relate="QUN" />
+                <word id="4" cont="年" pos="q" ne="O" wsd="Ca18" wsdexp="年" parent="2" relate="VOB" />
+                <word id="5" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="7" relate="ADV" />
+                <word id="6" cont="奥运会" pos="j" ne="O" wsd="Hh07" wsdexp="比赛" parent="7" relate="SBV" />
+                <word id="7" cont="筹办" pos="v" ne="O" wsd="Hc01" wsdexp="治理_办理_处理" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="6" end="6" />
+                    <arg id="1" type="受事" beg="8" end="8" />
+                    <arg id="2" type="受事" beg="9" end="11" />
+                    <arg id="3" type="受事" beg="12" end="13" />
+                </word>
+                <word id="8" cont="过程" pos="n" ne="O" wsd="Da05" wsdexp="过程_内中" parent="7" relate="VOB" />
+                <word id="9" cont="如何" pos="r" ne="O" wsd="Ka35" wsdexp="哪里_怎样_为什么" parent="11" relate="ADV" />
+                <word id="10" cont="始终" pos="d" ne="O" wsd="Ka11" wsdexp="不断_一直_动辄" parent="11" relate="ADV" />
+                <word id="11" cont="保持" pos="v" ne="O" wsd="Jd01" wsdexp="无关" parent="7" relate="VOB" />
+                <word id="12" cont="透明" pos="a" ne="O" wsd="Eb19" wsdexp="清澈_浑浊" parent="13" relate="ATT" />
+                <word id="13" cont="公开" pos="v" ne="O" wsd="Ed44" wsdexp="公开_秘密" parent="7" relate="VOB" />
+                <word id="14" cont="？" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="3" cont="如何避免暗箱操作？" tag="">
+                <word id="0" cont="如何" pos="r" ne="O" wsd="Ka35" wsdexp="哪里_怎样_为什么" parent="1" relate="ADV" />
+                <word id="1" cont="避免" pos="v" ne="O" wsd="Je11" wsdexp="防止_避免_免得" parent="-1" relate="HED">
+                    <arg id="0" type="受事" beg="2" end="3" />
+                </word>
+                <word id="2" cont="暗箱" pos="n" ne="O" wsd="Bo03" wsdexp="机件" parent="3" relate="ATT" />
+                <word id="3" cont="操作" pos="v" ne="O" wsd="Hj28" wsdexp="使用_沿用_借鉴" parent="1" relate="VOB" />
+                <word id="4" cont="？" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+        </para>
+        <para id="12">
+            <sent id="0" cont="北京市政协委员鲁安怀认为，为了办好奥运，一定要先完善监督机制，要防范在先。" tag="20%">
+                <word id="0" cont="北京市" pos="ns" ne="B-Ni" wsd="Di03" wsdexp="首都_省会" parent="1" relate="ATT" />
+                <word id="1" cont="政协" pos="j" ne="E-Ni" wsd="Dm01" wsdexp="政府" parent="2" relate="ATT" />
+                <word id="2" cont="委员" pos="n" ne="O" wsd="Aj07" wsdexp="成员" parent="3" relate="ATT" />
+                <word id="3" cont="鲁安怀" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="4" relate="SBV" />
+                <word id="4" cont="认为" pos="v" ne="O" wsd="Gb02" wsdexp="感到_认为_主张" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="3" />
+                </word>
+                <word id="5" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="6" cont="为了" pos="p" ne="O" wsd="Kb05" wsdexp="为_被_以_由" parent="7" relate="ADV" />
+                <word id="7" cont="办" pos="v" ne="O" wsd="Hj12" wsdexp="做_施展_合作_尝试" parent="4" relate="VV">
+                    <arg id="0" type="受事" beg="9" end="9" />
+                </word>
+                <word id="8" cont="好" pos="a" ne="O" wsd="Ed03" wsdexp="好_坏" parent="7" relate="CMP" />
+                <word id="9" cont="奥运" pos="j" ne="O" wsd="Di23" wsdexp="会议_宴会" parent="7" relate="VOB" />
+                <word id="10" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="11" cont="一定" pos="d" ne="O" wsd="Ka15" wsdexp="必然_管保_未必" parent="12" relate="ADV" />
+                <word id="12" cont="要" pos="v" ne="O" wsd="Gc03" wsdexp="应该_必须_无须" parent="14" relate="ADV" />
+                <word id="13" cont="先" pos="d" ne="O" wsd="Ka09" wsdexp="姑且_临时_预先_首先_准时" parent="14" relate="ADV" />
+                <word id="14" cont="完善" pos="v" ne="O" wsd="Ih11" wsdexp="好转_改进_恶化" parent="7" relate="VV">
+                    <arg id="0" type="受事" beg="15" end="16" />
+                </word>
+                <word id="15" cont="监督" pos="v" ne="O" wsd="Hc19" wsdexp="监督_查点" parent="16" relate="ATT" />
+                <word id="16" cont="机制" pos="n" ne="O" wsd="Di09" wsdexp="政策_制度_所有制_体制" parent="14" relate="VOB" />
+                <word id="17" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="18" cont="要" pos="v" ne="O" wsd="Gc03" wsdexp="应该_必须_无须" parent="19" relate="ADV" />
+                <word id="19" cont="防范" pos="v" ne="O" wsd="Je11" wsdexp="防止_避免_免得" parent="14" relate="VV" />
+                <word id="20" cont="在先" pos="d" ne="O" wsd="Ca11" wsdexp="过去_近来" parent="7" relate="IC" />
+                <word id="21" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="1" cont="市人大代表、国家体育总局政策法规司张天白说，奥运会筹备工作中要建设大量的奥运场馆，还有一些市政基础设施。" tag="">
+                <word id="0" cont="市" pos="n" ne="O" wsd="Di02" wsdexp="国家_行政区划" parent="1" relate="ATT" />
+                <word id="1" cont="人大代表" pos="n" ne="O" wsd="Aj13" wsdexp="专人_代表" parent="7" relate="ATT" />
+                <word id="2" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="3" cont="国家" pos="n" ne="B-Ni" wsd="Di02" wsdexp="国家_行政区划" parent="4" relate="ATT" />
+                <word id="4" cont="体育" pos="n" ne="I-Ni" wsd="Dk01" wsdexp="文化_教育_卫生" parent="5" relate="ATT" />
+                <word id="5" cont="总局" pos="n" ne="E-Ni" wsd="Di09" wsdexp="政策_制度_所有制_体制" parent="6" relate="ATT" />
+                <word id="6" cont="政策法规司" pos="n" ne="O" wsd="-1" wsdexp="" parent="7" relate="ATT" />
+                <word id="7" cont="张天白" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="8" relate="SBV" />
+                <word id="8" cont="说" pos="v" ne="O" wsd="Hi12" wsdexp="讲话_谈天" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="7" />
+                </word>
+                <word id="9" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="10" cont="奥运会" pos="j" ne="O" wsd="Hh07" wsdexp="比赛" parent="11" relate="ATT" />
+                <word id="11" cont="筹备" pos="v" ne="O" wsd="Hj35" wsdexp="整理_料理_准备" parent="12" relate="ATT" />
+                <word id="12" cont="工作" pos="v" ne="O" wsd="Hj11" wsdexp="工作_劳动" parent="13" relate="ATT" />
+                <word id="13" cont="中" pos="nd" ne="O" wsd="Da05" wsdexp="过程_内中" parent="15" relate="ADV" />
+                <word id="14" cont="要" pos="v" ne="O" wsd="Gc03" wsdexp="应该_必须_无须" parent="15" relate="ADV" />
+                <word id="15" cont="建设" pos="v" ne="O" wsd="Hc05" wsdexp="建立_设立_创立_命名" parent="17" relate="DE">
+                    <arg id="0" type="方位" beg="10" end="13" />
+                    <arg id="1" type="受事" beg="16" end="16" />
+                </word>
+                <word id="16" cont="大量" pos="m" ne="O" wsd="Eb01" wsdexp="多_少_稀少" parent="15" relate="VOB" />
+                <word id="17" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="19" relate="ATT" />
+                <word id="18" cont="奥运" pos="j" ne="O" wsd="Di23" wsdexp="会议_宴会" parent="19" relate="ATT" />
+                <word id="19" cont="场馆" pos="n" ne="O" wsd="Cb28" wsdexp="场所" parent="21" relate="SBV" />
+                <word id="20" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="21" cont="还有" pos="v" ne="O" wsd="Jd04" wsdexp="有_占有" parent="8" relate="VV">
+                    <arg id="0" type="施事" beg="10" end="19" />
+                    <arg id="1" type="受事" beg="22" end="25" />
+                </word>
+                <word id="22" cont="一些" pos="m" ne="O" wsd="Dn05" wsdexp="半_概数_若干" parent="25" relate="QUN" />
+                <word id="23" cont="市政" pos="n" ne="O" wsd="Da01" wsdexp="事情_事件_事故" parent="24" relate="ATT" />
+                <word id="24" cont="基础" pos="n" ne="O" wsd="Dd12" wsdexp="质量_基础" parent="25" relate="ATT" />
+                <word id="25" cont="设施" pos="n" ne="O" wsd="Ba05" wsdexp="器具_设备" parent="21" relate="VOB" />
+                <word id="26" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="2" cont="要防止出现“豆腐渣工程”，在从机制上加大监管的同时，需要通过立法确保奥运建设法制化，用硬规矩堵塞漏洞，防止腐败。" tag="20%">
+                <word id="0" cont="要" pos="v" ne="O" wsd="Gc03" wsdexp="应该_必须_无须" parent="1" relate="ADV" />
+                <word id="1" cont="防止" pos="v" ne="O" wsd="Je11" wsdexp="防止_避免_免得" parent="-1" relate="HED">
+                    <arg id="0" type="受事" beg="2" end="2" />
+                    <arg id="1" type="受事" beg="4" end="6" />
+                </word>
+                <word id="2" cont="出现" pos="v" ne="O" wsd="Jd07" wsdexp="出现_发生" parent="1" relate="VOB" />
+                <word id="3" cont="“" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="4" cont="豆腐" pos="n" ne="O" wsd="Br06" wsdexp="菜肴_荤菜_素菜" parent="5" relate="ATT" />
+                <word id="5" cont="渣" pos="n" ne="O" wsd="Ba08" wsdexp="宝物_废物" parent="6" relate="ATT" />
+                <word id="6" cont="工程" pos="n" ne="O" wsd="Di18" wsdexp="事业_行业_工程" parent="1" relate="VOB" />
+                <word id="7" cont="”" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="8" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="9" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="13" relate="ADV" />
+                <word id="10" cont="从" pos="p" ne="O" wsd="Kb02" wsdexp="从_到_沿" parent="13" relate="ADV" />
+                <word id="11" cont="机制" pos="n" ne="O" wsd="Di09" wsdexp="政策_制度_所有制_体制" parent="12" relate="ATT" />
+                <word id="12" cont="上" pos="nd" ne="O" wsd="Cb03" wsdexp="上_下_左_右" parent="10" relate="POB" />
+                <word id="13" cont="加大" pos="v" ne="O" wsd="Ih05" wsdexp="增多_添补_减少" parent="15" relate="DE">
+                    <arg id="0" type="方位" beg="10" end="12" />
+                    <arg id="1" type="受事" beg="14" end="14" />
+                </word>
+                <word id="14" cont="监管" pos="v" ne="O" wsd="Hc02" wsdexp="管理_经营" parent="13" relate="VOB" />
+                <word id="15" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="16" relate="ATT" />
+                <word id="16" cont="同时" pos="n" ne="O" wsd="Ca03" wsdexp="时期_时间" parent="18" relate="CNJ" />
+                <word id="17" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="18" cont="需要" pos="v" ne="O" wsd="Jc05" wsdexp="需要_提供_满足" parent="1" relate="VV">
+                    <arg id="0" type="受事" beg="19" end="21" />
+                    <arg id="1" type="受事" beg="22" end="24" />
+                </word>
+                <word id="19" cont="通过" pos="p" ne="O" wsd="Kb06" wsdexp="依靠_通过" parent="21" relate="ADV" />
+                <word id="20" cont="立法" pos="v" ne="O" wsd="Hc05" wsdexp="建立_设立_创立_命名" parent="19" relate="POB" />
+                <word id="21" cont="确保" pos="v" ne="O" wsd="Ka15" wsdexp="必然_管保_未必" parent="18" relate="VOB" />
+                <word id="22" cont="奥运" pos="j" ne="O" wsd="Di23" wsdexp="会议_宴会" parent="23" relate="ATT" />
+                <word id="23" cont="建设" pos="v" ne="O" wsd="Hc05" wsdexp="建立_设立_创立_命名" parent="24" relate="ATT" />
+                <word id="24" cont="法制化" pos="v" ne="O" wsd="Ih01" wsdexp="变化_成为" parent="18" relate="VOB" />
+                <word id="25" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="26" cont="用" pos="p" ne="O" wsd="Hj28" wsdexp="使用_沿用_借鉴" parent="32" relate="ADV" />
+                <word id="27" cont="硬" pos="a" ne="O" wsd="Eb10" wsdexp="硬_软_烂_脆" parent="30" relate="ATT" />
+                <word id="28" cont="规矩" pos="n" ne="O" wsd="Di24" wsdexp="规则_条约_条款" parent="29" relate="ATT" />
+                <word id="29" cont="堵塞" pos="v" ne="O" wsd="Je07" wsdexp="妨碍_杜绝" parent="30" relate="ATT" />
+                <word id="30" cont="漏洞" pos="n" ne="O" wsd="Da15" wsdexp="是非_差错_漏洞" parent="26" relate="POB" />
+                <word id="31" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="32" cont="防止" pos="v" ne="O" wsd="Je11" wsdexp="防止_避免_免得" parent="18" relate="VV">
+                    <arg id="0" type="受事" beg="33" end="33" />
+                </word>
+                <word id="33" cont="腐败" pos="a" ne="O" wsd="Ie12" wsdexp="进步_退步_堕落" parent="32" relate="VOB" />
+                <word id="34" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+        </para>
+        <para id="13">
+            <sent id="0" cont="“奥运场馆建设的公开招投标很好地体现了筹办工作的公开化，”北京市规划委员会副主任黄艳委员介绍说，北京奥运会的所有建设项目都公开招投标，有关项目在网上公布。" tag="">
+                <word id="0" cont="“" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="1" cont="奥运" pos="j" ne="O" wsd="Di23" wsdexp="会议_宴会" parent="2" relate="ATT" />
+                <word id="2" cont="场馆" pos="n" ne="O" wsd="Cb28" wsdexp="场所" parent="3" relate="ATT" />
+                <word id="3" cont="建设" pos="v" ne="O" wsd="Hc05" wsdexp="建立_设立_创立_命名" parent="4" relate="DE" />
+                <word id="4" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="5" relate="ATT" />
+                <word id="5" cont="公开" pos="v" ne="O" wsd="Ed44" wsdexp="公开_秘密" parent="9" relate="DI" />
+                <word id="6" cont="招投标" pos="j" ne="O" wsd="-1" wsdexp="" parent="9" relate="DE" />
+                <word id="7" cont="很" pos="d" ne="O" wsd="Ka01" wsdexp="非常_多么" parent="9" relate="DI" />
+                <word id="8" cont="好" pos="a" ne="O" wsd="Ed03" wsdexp="好_坏" parent="9" relate="DI" />
+                <word id="9" cont="地" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="10" relate="ADV" />
+                <word id="10" cont="体现" pos="v" ne="O" wsd="Ja03" wsdexp="意味_影射_体现_标志" parent="14" relate="DE" />
+                <word id="11" cont="了" pos="u" ne="O" wsd="Kd05" wsdexp="吗_的话_罢了_了_哉" parent="10" relate="MT" />
+                <word id="12" cont="筹办" pos="v" ne="O" wsd="Hc01" wsdexp="治理_办理_处理" parent="14" relate="DE">
+                    <arg id="0" type="受事" beg="13" end="13" />
+                </word>
+                <word id="13" cont="工作" pos="v" ne="O" wsd="Hj11" wsdexp="工作_劳动" parent="12" relate="VOB" />
+                <word id="14" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="15" relate="ATT" />
+                <word id="15" cont="公开化" pos="v" ne="O" wsd="Ih01" wsdexp="变化_成为" parent="-1" relate="HED" />
+                <word id="16" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="17" cont="”" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="18" cont="北京市" pos="ns" ne="B-Ni" wsd="Di03" wsdexp="首都_省会" parent="19" relate="ATT" />
+                <word id="19" cont="规划" pos="n" ne="I-Ni" wsd="Gb05" wsdexp="计划_打算" parent="20" relate="ATT" />
+                <word id="20" cont="委员会" pos="n" ne="E-Ni" wsd="Di10" wsdexp="团体_派别" parent="21" relate="ATT" />
+                <word id="21" cont="副" pos="b" ne="O" wsd="Ed28" wsdexp="重要_次要_不足道" parent="22" relate="ATT" />
+                <word id="22" cont="主任" pos="n" ne="O" wsd="Af10" wsdexp="领袖_领导" parent="23" relate="ATT" />
+                <word id="23" cont="黄艳" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="24" relate="ATT" />
+                <word id="24" cont="委员" pos="n" ne="O" wsd="Aj07" wsdexp="成员" parent="25" relate="SBV" />
+                <word id="25" cont="介绍" pos="v" ne="O" wsd="Hi16" wsdexp="介绍_推荐" parent="15" relate="VV">
+                    <arg id="0" type="施事" beg="18" end="24" />
+                </word>
+                <word id="26" cont="说" pos="v" ne="O" wsd="Hi12" wsdexp="讲话_谈天" parent="25" relate="VV" />
+                <word id="27" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="28" cont="北京" pos="ns" ne="B-Nz" wsd="Di03" wsdexp="首都_省会" parent="29" relate="ATT" />
+                <word id="29" cont="奥运会" pos="j" ne="E-Nz" wsd="Hh07" wsdexp="比赛" parent="30" relate="DE" />
+                <word id="30" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="33" relate="ATT" />
+                <word id="31" cont="所有" pos="b" ne="O" wsd="Eb02" wsdexp="单_双_全部_部分" parent="32" relate="ATT" />
+                <word id="32" cont="建设" pos="v" ne="O" wsd="Hc05" wsdexp="建立_设立_创立_命名" parent="33" relate="ATT" />
+                <word id="33" cont="项目" pos="n" ne="O" wsd="Dd06" wsdexp="系统_种类_结构" parent="35" relate="SBV" />
+                <word id="34" cont="都" pos="d" ne="O" wsd="Ka07" wsdexp="都_只_不止_甚至" parent="35" relate="ADV" />
+                <word id="35" cont="公开" pos="v" ne="O" wsd="Ed44" wsdexp="公开_秘密" parent="25" relate="VV">
+                    <arg id="0" type="施事" beg="28" end="33" />
+                    <arg id="1" type="受事" beg="36" end="36" />
+                </word>
+                <word id="36" cont="招投标" pos="j" ne="O" wsd="-1" wsdexp="" parent="35" relate="VOB" />
+                <word id="37" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="38" cont="有关" pos="v" ne="O" wsd="Je01" wsdexp="牵连_涉及_相关" parent="39" relate="ATT" />
+                <word id="39" cont="项目" pos="n" ne="O" wsd="Dd06" wsdexp="系统_种类_结构" parent="42" relate="SBV" />
+                <word id="40" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="42" relate="ADV" />
+                <word id="41" cont="网上" pos="nl" ne="O" wsd="Cb28" wsdexp="场所" parent="40" relate="POB" />
+                <word id="42" cont="公布" pos="v" ne="O" wsd="Hc11" wsdexp="召集_宣布_下令" parent="25" relate="VV">
+                    <arg id="0" type="施事" beg="38" end="39" />
+                    <arg id="1" type="地点" beg="40" end="41" />
+                </word>
+                <word id="43" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="1" cont="在奥运场馆建设的前期工作中，奥组委开展了“规划方案国际征集活动”，在媒体、网站上发布消息，公布评审标准及评委名单。" tag="">
+                <word id="0" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="12" relate="ADV" />
+                <word id="1" cont="奥运" pos="j" ne="O" wsd="Di23" wsdexp="会议_宴会" parent="2" relate="ATT" />
+                <word id="2" cont="场馆" pos="n" ne="O" wsd="Cb28" wsdexp="场所" parent="3" relate="ATT" />
+                <word id="3" cont="建设" pos="v" ne="O" wsd="Hc05" wsdexp="建立_设立_创立_命名" parent="4" relate="DE" />
+                <word id="4" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="6" relate="ATT" />
+                <word id="5" cont="前期" pos="nd" ne="O" wsd="Ca07" wsdexp="初期_年初" parent="6" relate="ATT" />
+                <word id="6" cont="工作" pos="v" ne="O" wsd="Hj11" wsdexp="工作_劳动" parent="7" relate="ATT" />
+                <word id="7" cont="中" pos="nd" ne="O" wsd="Da05" wsdexp="过程_内中" parent="0" relate="POB" />
+                <word id="8" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="9" cont="奥" pos="j" ne="S-Ns" wsd="Cb05" wsdexp="内_外" parent="10" relate="ATT" />
+                <word id="10" cont="组" pos="n" ne="O" wsd="Di10" wsdexp="团体_派别" parent="11" relate="ATT" />
+                <word id="11" cont="委" pos="n" ne="O" wsd="Dm01" wsdexp="政府" parent="12" relate="SBV" />
+                <word id="12" cont="开展" pos="v" ne="O" wsd="Ig03" wsdexp="进行_继续_流逝" parent="-1" relate="HED">
+                    <arg id="0" type="方位" beg="0" end="7" />
+                    <arg id="1" type="施事" beg="9" end="11" />
+                    <arg id="2" type="受事" beg="15" end="19" />
+                </word>
+                <word id="13" cont="了" pos="u" ne="O" wsd="Kd05" wsdexp="吗_的话_罢了_了_哉" parent="12" relate="MT" />
+                <word id="14" cont="“" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="15" cont="规划" pos="v" ne="O" wsd="Df09" wsdexp="计划_计策_手段" parent="16" relate="ATT" />
+                <word id="16" cont="方案" pos="n" ne="O" wsd="Df09" wsdexp="计划_计策_手段" parent="17" relate="ATT" />
+                <word id="17" cont="国际" pos="n" ne="O" wsd="Di02" wsdexp="国家_行政区划" parent="18" relate="ATT" />
+                <word id="18" cont="征集" pos="v" ne="O" wsd="Hj25" wsdexp="采集_搜罗_挑选_取长补短" parent="19" relate="ATT" />
+                <word id="19" cont="活动" pos="v" ne="O" wsd="Di20" wsdexp="动作_举动_行为" parent="12" relate="VOB" />
+                <word id="20" cont="”" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="21" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="22" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="27" relate="ADV" />
+                <word id="23" cont="媒体" pos="n" ne="O" wsd="Aj15" wsdexp="介绍人_媒人_傧相" parent="26" relate="ATT" />
+                <word id="24" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="25" cont="网站" pos="n" ne="O" wsd="Cb08" wsdexp="地方_地点" parent="23" relate="COO" />
+                <word id="26" cont="上" pos="nd" ne="O" wsd="Cb03" wsdexp="上_下_左_右" parent="22" relate="POB" />
+                <word id="27" cont="发布" pos="v" ne="O" wsd="Hc11" wsdexp="召集_宣布_下令" parent="12" relate="VV">
+                    <arg id="0" type="方位" beg="22" end="26" />
+                    <arg id="1" type="受事" beg="28" end="28" />
+                </word>
+                <word id="28" cont="消息" pos="n" ne="O" wsd="Da19" wsdexp="消息_音信" parent="27" relate="VOB" />
+                <word id="29" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="30" cont="公布" pos="v" ne="O" wsd="Hc11" wsdexp="召集_宣布_下令" parent="12" relate="VV">
+                    <arg id="0" type="受事" beg="31" end="35" />
+                </word>
+                <word id="31" cont="评审" pos="v" ne="O" wsd="Hc18" wsdexp="调查_审查_检查" parent="32" relate="ATT" />
+                <word id="32" cont="标准" pos="n" ne="O" wsd="Dd11" wsdexp="标准_榜样" parent="30" relate="VOB" />
+                <word id="33" cont="及" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="35" relate="LAD" />
+                <word id="34" cont="评委" pos="n" ne="O" wsd="Ae14" wsdexp="运动员_裁判员" parent="35" relate="ATT" />
+                <word id="35" cont="名单" pos="n" ne="O" wsd="Bp18" wsdexp="簿册_卡片_名帖" parent="32" relate="COO" />
+                <word id="36" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="2" cont="在公证处的监督下，由国内外知名专家组成的评审委员会对方案进行了论证。" tag="">
+                <word id="0" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="2" relate="DE" />
+                <word id="1" cont="公证处" pos="n" ne="O" wsd="Di09" wsdexp="政策_制度_所有制_体制" parent="0" relate="POB" />
+                <word id="2" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="3" relate="ATT" />
+                <word id="3" cont="监督" pos="v" ne="O" wsd="Hc19" wsdexp="监督_查点" parent="4" relate="ATT" />
+                <word id="4" cont="下" pos="nd" ne="O" wsd="Cb03" wsdexp="上_下_左_右" parent="16" relate="ADV" />
+                <word id="5" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="6" cont="由" pos="p" ne="O" wsd="Kb05" wsdexp="为_被_以_由" parent="16" relate="ADV" />
+                <word id="7" cont="国内外" pos="nl" ne="O" wsd="Cb05" wsdexp="内_外" parent="9" relate="ATT" />
+                <word id="8" cont="知名" pos="a" ne="O" wsd="Ed25" wsdexp="著名_无名_热门_冷门" parent="9" relate="ATT" />
+                <word id="9" cont="专家" pos="n" ne="O" wsd="Al02" wsdexp="内行_专家_骨干_外行" parent="6" relate="POB" />
+                <word id="10" cont="组成" pos="v" ne="O" wsd="Ie02" wsdexp="连接_纠缠_积压_结合_割裂" parent="11" relate="DE" />
+                <word id="11" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="13" relate="ATT" />
+                <word id="12" cont="评审" pos="v" ne="O" wsd="Hc18" wsdexp="调查_审查_检查" parent="13" relate="ATT" />
+                <word id="13" cont="委员会" pos="n" ne="O" wsd="Di10" wsdexp="团体_派别" parent="6" relate="POB" />
+                <word id="14" cont="对" pos="p" ne="O" wsd="Kb04" wsdexp="对于_关于" parent="16" relate="ADV" />
+                <word id="15" cont="方案" pos="n" ne="O" wsd="Df09" wsdexp="计划_计策_手段" parent="14" relate="POB" />
+                <word id="16" cont="进行" pos="v" ne="O" wsd="Ig03" wsdexp="进行_继续_流逝" parent="-1" relate="HED">
+                    <arg id="0" type="方位" beg="0" end="4" />
+                    <arg id="1" type="受事" beg="18" end="18" />
+                </word>
+                <word id="17" cont="了" pos="u" ne="O" wsd="Kd05" wsdexp="吗_的话_罢了_了_哉" parent="16" relate="MT" />
+                <word id="18" cont="论证" pos="v" ne="O" wsd="Ja04" wsdexp="显示_预示_证明" parent="16" relate="VOB" />
+                <word id="19" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="3" cont="奥组委还把参评的８９个设计方案向社会进行了公开展示，广泛听取市民的意见。" tag="">
+                <word id="0" cont="奥组委" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="2" relate="SBV" />
+                <word id="1" cont="还" pos="d" ne="O" wsd="Ka33" wsdexp="却_还_也_反而" parent="2" relate="ADV" />
+                <word id="2" cont="把" pos="p" ne="O" wsd="Kb03" wsdexp="跟_替_把_比" parent="3" relate="ADV" />
+                <word id="3" cont="参评" pos="v" ne="O" wsd="Hj20" wsdexp="出席_缺席" parent="-1" relate="HED">
+                    <arg id="0" type="受事" beg="4" end="8" />
+                    <arg id="1" type="受事" beg="9" end="14" />
+                    <arg id="2" type="受事" beg="16" end="20" />
+                </word>
+                <word id="4" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="8" relate="ATT" />
+                <word id="5" cont="８９" pos="m" ne="B-Nm" wsd="-1" wsdexp="" parent="6" relate="QUN" />
+                <word id="6" cont="个" pos="q" ne="E-Nm" wsd="Dn08" wsdexp="数量单位" parent="8" relate="ATT" />
+                <word id="7" cont="设计" pos="v" ne="O" wsd="Gb05" wsdexp="计划_打算" parent="8" relate="ATT" />
+                <word id="8" cont="方案" pos="n" ne="O" wsd="Df09" wsdexp="计划_计策_手段" parent="3" relate="VOB" />
+                <word id="9" cont="向" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="11" relate="ADV" />
+                <word id="10" cont="社会" pos="n" ne="O" wsd="Di01" wsdexp="世界_社会_人间" parent="9" relate="POB" />
+                <word id="11" cont="进行" pos="v" ne="O" wsd="Ig03" wsdexp="进行_继续_流逝" parent="3" relate="VOB">
+                    <arg id="0" type="受事" beg="13" end="14" />
+                </word>
+                <word id="12" cont="了" pos="u" ne="O" wsd="Kd05" wsdexp="吗_的话_罢了_了_哉" parent="11" relate="MT" />
+                <word id="13" cont="公开" pos="a" ne="O" wsd="Ed44" wsdexp="公开_秘密" parent="14" relate="ADV" />
+                <word id="14" cont="展示" pos="v" ne="O" wsd="Ja04" wsdexp="显示_预示_证明" parent="11" relate="VOB" />
+                <word id="15" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="16" cont="广泛" pos="a" ne="O" wsd="Ed38" wsdexp="广泛_无穷_狭隘" parent="20" relate="ATT" />
+                <word id="17" cont="听取" pos="v" ne="O" wsd="Fc05" wsdexp="听_嗅" parent="19" relate="DE">
+                    <arg id="0" type="受事" beg="18" end="18" />
+                </word>
+                <word id="18" cont="市民" pos="n" ne="O" wsd="Ad01" wsdexp="居民_侨民" parent="17" relate="VOB" />
+                <word id="19" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="20" relate="ATT" />
+                <word id="20" cont="意见" pos="n" ne="O" wsd="Df14" wsdexp="想法_主意_见解" parent="3" relate="VOB" />
+                <word id="21" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+        </para>
+        <para id="14">
+            <sent id="0" cont="北京市人大代表谢朝华是北京奥运会监督委员会的一名委员，他所在的奥监委已就奥组委成员廉洁自率等方面制定了一系列规定，以保证各部门都按章办事。" tag="">
+                <word id="0" cont="北京市" pos="ns" ne="S-Ns" wsd="Di03" wsdexp="首都_省会" parent="1" relate="ATT" />
+                <word id="1" cont="人大代表" pos="n" ne="O" wsd="Aj13" wsdexp="专人_代表" parent="2" relate="ATT" />
+                <word id="2" cont="谢朝华" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="3" relate="SBV" />
+                <word id="3" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="2" />
+                    <arg id="1" type="受事" beg="4" end="7" />
+                    <arg id="2" type="受事" beg="8" end="11" />
+                    <arg id="3" type="受事" beg="13" end="16" />
+                </word>
+                <word id="4" cont="北京" pos="ns" ne="B-Ni" wsd="Di03" wsdexp="首都_省会" parent="5" relate="ATT" />
+                <word id="5" cont="奥运会" pos="j" ne="I-Ni" wsd="Hh07" wsdexp="比赛" parent="6" relate="ATT" />
+                <word id="6" cont="监督" pos="v" ne="I-Ni" wsd="Hc19" wsdexp="监督_查点" parent="7" relate="ATT" />
+                <word id="7" cont="委员会" pos="n" ne="E-Ni" wsd="Di10" wsdexp="团体_派别" parent="3" relate="VOB" />
+                <word id="8" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="11" relate="ATT" />
+                <word id="9" cont="一" pos="m" ne="B-Nm" wsd="Dn04" wsdexp="基数_序数" parent="10" relate="QUN" />
+                <word id="10" cont="名" pos="q" ne="E-Nm" wsd="Dn08" wsdexp="数量单位" parent="11" relate="ATT" />
+                <word id="11" cont="委员" pos="n" ne="O" wsd="Aj07" wsdexp="成员" parent="3" relate="VOB" />
+                <word id="12" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="13" cont="他" pos="r" ne="O" wsd="Aa04" wsdexp="他_他们" parent="14" relate="ATT" />
+                <word id="14" cont="所在" pos="n" ne="O" wsd="Cb08" wsdexp="地方_地点" parent="15" relate="DE" />
+                <word id="15" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="16" relate="ATT" />
+                <word id="16" cont="奥监委" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="3" relate="VOB" />
+                <word id="17" cont="已" pos="d" ne="O" wsd="Ka12" wsdexp="已经_方才_正在" parent="18" relate="ADV" />
+                <word id="18" cont="就" pos="p" ne="O" wsd="Ka07" wsdexp="都_只_不止_甚至" parent="24" relate="ATT" />
+                <word id="19" cont="奥" pos="j" ne="S-Ns" wsd="Cb05" wsdexp="内_外" parent="20" relate="ATT" />
+                <word id="20" cont="组" pos="n" ne="O" wsd="Di10" wsdexp="团体_派别" parent="21" relate="ATT" />
+                <word id="21" cont="委" pos="n" ne="O" wsd="Dm01" wsdexp="政府" parent="22" relate="ATT" />
+                <word id="22" cont="成员" pos="n" ne="O" wsd="Aj07" wsdexp="成员" parent="18" relate="POB" />
+                <word id="23" cont="廉洁" pos="a" ne="O" wsd="Ee41" wsdexp="廉洁_贪心" parent="18" relate="POB" />
+                <word id="24" cont="自" pos="p" ne="O" wsd="Kb02" wsdexp="从_到_沿" parent="25" relate="ADV" />
+                <word id="25" cont="率" pos="v" ne="O" wsd="Hc09" wsdexp="主持_指挥_统率_执掌_管辖" parent="26" relate="DE" />
+                <word id="26" cont="等" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="27" relate="ATT" />
+                <word id="27" cont="方面" pos="n" ne="O" wsd="Dd05" wsdexp="范围_方面_环节" parent="28" relate="SBV" />
+                <word id="28" cont="制定" pos="v" ne="O" wsd="Hc14" wsdexp="建议_讨论_决定_制订" parent="3" relate="VV">
+                    <arg id="0" type="施事" beg="17" end="27" />
+                    <arg id="1" type="受事" beg="30" end="32" />
+                </word>
+                <word id="29" cont="了" pos="u" ne="O" wsd="Kd05" wsdexp="吗_的话_罢了_了_哉" parent="28" relate="MT" />
+                <word id="30" cont="一" pos="m" ne="S-Nm" wsd="Dn04" wsdexp="基数_序数" parent="31" relate="QUN" />
+                <word id="31" cont="系列" pos="q" ne="O" wsd="Dn08" wsdexp="数量单位" parent="32" relate="ATT" />
+                <word id="32" cont="规定" pos="n" ne="O" wsd="Di24" wsdexp="规则_条约_条款" parent="28" relate="VOB" />
+                <word id="33" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="34" cont="以" pos="p" ne="O" wsd="Kb05" wsdexp="为_被_以_由" parent="35" relate="ADV" />
+                <word id="35" cont="保证" pos="v" ne="O" wsd="Ka15" wsdexp="必然_管保_未必" parent="28" relate="VV">
+                    <arg id="0" type="受事" beg="36" end="37" />
+                    <arg id="1" type="受事" beg="38" end="41" />
+                </word>
+                <word id="36" cont="各" pos="r" ne="O" wsd="Ed61" wsdexp="这个_那个_某个_各个_其他_何" parent="37" relate="ATT" />
+                <word id="37" cont="部门" pos="n" ne="O" wsd="Di09" wsdexp="政策_制度_所有制_体制" parent="35" relate="VOB" />
+                <word id="38" cont="都" pos="d" ne="O" wsd="Ka07" wsdexp="都_只_不止_甚至" parent="41" relate="ADV" />
+                <word id="39" cont="按" pos="p" ne="O" wsd="Kb07" wsdexp="依照_根据_趁" parent="41" relate="ADV" />
+                <word id="40" cont="章" pos="n" ne="O" wsd="Di24" wsdexp="规则_条约_条款" parent="39" relate="POB" />
+                <word id="41" cont="办事" pos="v" ne="O" wsd="Hj11" wsdexp="工作_劳动" parent="35" relate="VOB" />
+                <word id="42" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="1" cont="他认为：" tag="">
+                <word id="0" cont="他" pos="r" ne="O" wsd="Aa04" wsdexp="他_他们" parent="1" relate="SBV" />
+                <word id="1" cont="认为" pos="v" ne="O" wsd="Gb02" wsdexp="感到_认为_主张" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="0" />
+                </word>
+                <word id="2" cont="：" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="2" cont="“有了好的工作机制，好的规范，就能保证‘阳光’照进来。" tag="">
+                <word id="0" cont="“" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="1" cont="有" pos="v" ne="O" wsd="Jd04" wsdexp="有_占有" parent="-1" relate="HED">
+                    <arg id="0" type="受事" beg="3" end="6" />
+                </word>
+                <word id="2" cont="了" pos="u" ne="O" wsd="Kd05" wsdexp="吗_的话_罢了_了_哉" parent="1" relate="MT" />
+                <word id="3" cont="好" pos="a" ne="O" wsd="Ed03" wsdexp="好_坏" parent="4" relate="DE" />
+                <word id="4" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="6" relate="ATT" />
+                <word id="5" cont="工作" pos="v" ne="O" wsd="Hj11" wsdexp="工作_劳动" parent="6" relate="ATT" />
+                <word id="6" cont="机制" pos="n" ne="O" wsd="Di09" wsdexp="政策_制度_所有制_体制" parent="1" relate="VOB" />
+                <word id="7" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="8" cont="好" pos="a" ne="O" wsd="Ed03" wsdexp="好_坏" parent="9" relate="DE" />
+                <word id="9" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="10" relate="ATT" />
+                <word id="10" cont="规范" pos="n" ne="O" wsd="Ih02" wsdexp="改变_改换" parent="1" relate="VV" />
+                <word id="11" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="12" cont="就" pos="d" ne="O" wsd="Ka07" wsdexp="都_只_不止_甚至" parent="14" relate="ADV" />
+                <word id="13" cont="能" pos="v" ne="O" wsd="Gc02" wsdexp="能够_不能_可以_不可" parent="14" relate="ADV" />
+                <word id="14" cont="保证" pos="v" ne="O" wsd="Ka15" wsdexp="必然_管保_未必" parent="1" relate="VV">
+                    <arg id="0" type="受事" beg="16" end="16" />
+                    <arg id="1" type="受事" beg="18" end="20" />
+                </word>
+                <word id="15" cont="‘" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="16" cont="阳光" pos="n" ne="O" wsd="Bg03" wsdexp="火_光_影" parent="14" relate="VOB" />
+                <word id="17" cont="’" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="18" cont="照" pos="v" ne="O" wsd="Kb07" wsdexp="依照_根据_趁" parent="20" relate="ATT" />
+                <word id="19" cont="进" pos="v" ne="O" wsd="Hj64" wsdexp="出_进_出入" parent="18" relate="CMP" />
+                <word id="20" cont="来" pos="nd" ne="O" wsd="Hj63" wsdexp="来_去_来去" parent="14" relate="VOB" />
+                <word id="21" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="3" cont="” " tag="">
+                <word id="0" cont="”" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+        </para>
+        <para id="15">
+            <sent id="0" cont="注意赛后利用问题，考虑可持续发展 " tag="">
+                <word id="0" cont="注意" pos="v" ne="O" wsd="Gb20" wsdexp="注意_权衡_计较" parent="-1" relate="HED">
+                    <arg id="0" type="受事" beg="1" end="3" />
+                </word>
+                <word id="1" cont="赛后" pos="nt" ne="O" wsd="Ca12" wsdexp="将来_隔日" parent="2" relate="ADV" />
+                <word id="2" cont="利用" pos="v" ne="O" wsd="Hj28" wsdexp="使用_沿用_借鉴" parent="0" relate="VOB">
+                    <arg id="0" type="时间" beg="1" end="1" />
+                    <arg id="1" type="受事" beg="3" end="3" />
+                </word>
+                <word id="3" cont="问题" pos="n" ne="O" wsd="Da01" wsdexp="事情_事件_事故" parent="2" relate="VOB" />
+                <word id="4" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="5" cont="考虑" pos="v" ne="O" wsd="Gb01" wsdexp="想象_思考_斟酌_着想_存心" parent="0" relate="VV">
+                    <arg id="0" type="受事" beg="6" end="8" />
+                </word>
+                <word id="6" cont="可" pos="v" ne="O" wsd="Gc02" wsdexp="能够_不能_可以_不可" parent="8" relate="ADV" />
+                <word id="7" cont="持续" pos="v" ne="O" wsd="Ka11" wsdexp="不断_一直_动辄" parent="8" relate="ADV" />
+                <word id="8" cont="发展" pos="v" ne="O" wsd="Ie12" wsdexp="进步_退步_堕落" parent="5" relate="VOB" />
+            </sent>
+        </para>
+        <para id="16">
+            <sent id="0" cont="北京市建筑设计研究院副总建筑师黄薇委员说，１９７６年蒙特利尔奥运会后，有很多奥运场馆直到使用寿命结束时仍没有补够建设它们留下的财政赤字；" tag="">
+                <word id="0" cont="北京市" pos="ns" ne="B-Ni" wsd="Di03" wsdexp="首都_省会" parent="1" relate="ATT" />
+                <word id="1" cont="建筑" pos="n" ne="I-Ni" wsd="Bn01" wsdexp="建筑_房屋" parent="2" relate="ATT" />
+                <word id="2" cont="设计" pos="v" ne="I-Ni" wsd="Gb05" wsdexp="计划_打算" parent="3" relate="ATT" />
+                <word id="3" cont="研究院" pos="n" ne="E-Ni" wsd="Dm07" wsdexp="文体机构" parent="4" relate="ATT" />
+                <word id="4" cont="副" pos="b" ne="O" wsd="Ed28" wsdexp="重要_次要_不足道" parent="5" relate="ATT" />
+                <word id="5" cont="总" pos="b" ne="O" wsd="Ed56" wsdexp="总_分" parent="6" relate="ATT" />
+                <word id="6" cont="建筑师" pos="n" ne="O" wsd="Al02" wsdexp="内行_专家_骨干_外行" parent="7" relate="ATT" />
+                <word id="7" cont="黄薇" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="8" relate="ATT" />
+                <word id="8" cont="委员" pos="n" ne="O" wsd="Aj07" wsdexp="成员" parent="9" relate="SBV" />
+                <word id="9" cont="说" pos="v" ne="O" wsd="Hi12" wsdexp="讲话_谈天" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="8" />
+                    <arg id="1" type="受事" beg="11" end="34" />
+                </word>
+                <word id="10" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="11" cont="１９７６年" pos="nt" ne="S-Nr" wsd="-1" wsdexp="" parent="12" relate="ATT" />
+                <word id="12" cont="蒙特利尔" pos="ns" ne="B-Nz" wsd="Cb25" wsdexp="城市_集镇_乡村" parent="13" relate="ATT" />
+                <word id="13" cont="奥运会" pos="j" ne="E-Nz" wsd="Hh07" wsdexp="比赛" parent="14" relate="ATT" />
+                <word id="14" cont="后" pos="nd" ne="O" wsd="Cb04" wsdexp="前_后_中" parent="16" relate="ADV" />
+                <word id="15" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="16" cont="有" pos="v" ne="O" wsd="Jd04" wsdexp="有_占有" parent="9" relate="VOB">
+                    <arg id="0" type="方位" beg="11" end="14" />
+                    <arg id="1" type="受事" beg="17" end="19" />
+                    <arg id="2" type="受事" beg="21" end="22" />
+                    <arg id="3" type="受事" beg="23" end="24" />
+                    <arg id="4" type="受事" beg="25" end="28" />
+                    <arg id="5" type="受事" beg="29" end="34" />
+                </word>
+                <word id="17" cont="很多" pos="m" ne="O" wsd="Eb01" wsdexp="多_少_稀少" parent="19" relate="QUN" />
+                <word id="18" cont="奥运" pos="j" ne="O" wsd="Di23" wsdexp="会议_宴会" parent="19" relate="ATT" />
+                <word id="19" cont="场馆" pos="n" ne="O" wsd="Cb28" wsdexp="场所" parent="16" relate="VOB" />
+                <word id="20" cont="直到" pos="v" ne="O" wsd="Kb02" wsdexp="从_到_沿" parent="16" relate="CMP" />
+                <word id="21" cont="使用" pos="v" ne="O" wsd="Hj28" wsdexp="使用_沿用_借鉴" parent="16" relate="VOB">
+                    <arg id="0" type="受事" beg="22" end="22" />
+                </word>
+                <word id="22" cont="寿命" pos="n" ne="O" wsd="Da17" wsdexp="生命_生活" parent="21" relate="VOB" />
+                <word id="23" cont="结束" pos="v" ne="O" wsd="Ig01" wsdexp="开始_结束" parent="16" relate="VOB">
+                    <arg id="0" type="受事" beg="24" end="24" />
+                </word>
+                <word id="24" cont="时" pos="n" ne="O" wsd="Ca04" wsdexp="时候_时机_关头" parent="23" relate="VOB" />
+                <word id="25" cont="仍" pos="d" ne="O" wsd="Ka28" wsdexp="仍然_尚且" parent="27" relate="ADV" />
+                <word id="26" cont="没有" pos="d" ne="O" wsd="Ka18" wsdexp="不_没" parent="27" relate="ADV" />
+                <word id="27" cont="补" pos="v" ne="O" wsd="Ih05" wsdexp="增多_添补_减少" parent="16" relate="VOB" />
+                <word id="28" cont="够" pos="v" ne="O" wsd="He14" wsdexp="足够_相抵_剩余_结存_亏欠" parent="27" relate="CMP" />
+                <word id="29" cont="建设" pos="v" ne="O" wsd="Hc05" wsdexp="建立_设立_创立_命名" parent="16" relate="VOB">
+                    <arg id="0" type="受事" beg="30" end="34" />
+                </word>
+                <word id="30" cont="它们" pos="r" ne="O" wsd="Ba10" wsdexp="它_什么" parent="31" relate="SBV" />
+                <word id="31" cont="留下" pos="v" ne="O" wsd="Jd01" wsdexp="无关" parent="32" relate="DE">
+                    <arg id="0" type="施事" beg="30" end="30" />
+                </word>
+                <word id="32" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="34" relate="ATT" />
+                <word id="33" cont="财政" pos="n" ne="O" wsd="Da01" wsdexp="事情_事件_事故" parent="34" relate="ATT" />
+                <word id="34" cont="赤字" pos="n" ne="O" wsd="Dj08" wsdexp="帐目_款项_费用" parent="29" relate="VOB" />
+                <word id="35" cont="；" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="1" cont="１９９０年北京亚运会后也出现了一些场馆使用效率低的问题。" tag="">
+                <word id="0" cont="１９９０年" pos="nt" ne="S-Nr" wsd="-1" wsdexp="" parent="1" relate="ATT" />
+                <word id="1" cont="北京" pos="ns" ne="S-Ns" wsd="Di03" wsdexp="首都_省会" parent="2" relate="ATT" />
+                <word id="2" cont="亚运会" pos="n" ne="O" wsd="Hh07" wsdexp="比赛" parent="3" relate="ATT" />
+                <word id="3" cont="后" pos="nd" ne="O" wsd="Cb04" wsdexp="前_后_中" parent="5" relate="ADV" />
+                <word id="4" cont="也" pos="d" ne="O" wsd="Ka33" wsdexp="却_还_也_反而" parent="5" relate="ADV" />
+                <word id="5" cont="出现" pos="v" ne="O" wsd="Jd07" wsdexp="出现_发生" parent="-1" relate="HED">
+                    <arg id="0" type="方位" beg="0" end="3" />
+                    <arg id="1" type="受事" beg="7" end="10" />
+                    <arg id="2" type="受事" beg="11" end="13" />
+                </word>
+                <word id="6" cont="了" pos="u" ne="O" wsd="Kd05" wsdexp="吗_的话_罢了_了_哉" parent="5" relate="MT" />
+                <word id="7" cont="一些" pos="m" ne="O" wsd="Dn05" wsdexp="半_概数_若干" parent="10" relate="QUN" />
+                <word id="8" cont="场馆" pos="n" ne="O" wsd="Cb28" wsdexp="场所" parent="9" relate="ATT" />
+                <word id="9" cont="使用" pos="v" ne="O" wsd="Hj28" wsdexp="使用_沿用_借鉴" parent="10" relate="ATT" />
+                <word id="10" cont="效率" pos="n" ne="O" wsd="Eb23" wsdexp="快_慢" parent="5" relate="VOB" />
+                <word id="11" cont="低" pos="a" ne="O" wsd="Ea02" wsdexp="高_矮" parent="12" relate="DE" />
+                <word id="12" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="13" relate="ATT" />
+                <word id="13" cont="问题" pos="n" ne="O" wsd="Da01" wsdexp="事情_事件_事故" parent="5" relate="VOB" />
+                <word id="14" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="2" cont="“浪费也是一种腐败，必须重视并考虑奥运场馆的赛后利用问题，让它们长期产生效益，防止浪费。" tag="20%">
+                <word id="0" cont="“" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="1" cont="浪费" pos="v" ne="O" wsd="He13" wsdexp="积累_花费_浪费_节省" parent="-1" relate="HED">
+                    <arg id="0" type="受事" beg="2" end="3" />
+                    <arg id="1" type="受事-数量性质" beg="4" end="5" />
+                    <arg id="2" type="受事" beg="6" end="6" />
+                </word>
+                <word id="2" cont="也" pos="d" ne="O" wsd="Ka33" wsdexp="却_还_也_反而" parent="3" relate="ADV" />
+                <word id="3" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="1" relate="VOB" />
+                <word id="4" cont="一" pos="m" ne="B-Nm" wsd="Dn04" wsdexp="基数_序数" parent="5" relate="QUN" />
+                <word id="5" cont="种" pos="q" ne="E-Nm" wsd="Dn08" wsdexp="数量单位" parent="1" relate="VOB" />
+                <word id="6" cont="腐败" pos="a" ne="O" wsd="Ie12" wsdexp="进步_退步_堕落" parent="1" relate="VOB" />
+                <word id="7" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="8" cont="必须" pos="d" ne="O" wsd="Gc03" wsdexp="应该_必须_无须" parent="9" relate="ADV" />
+                <word id="9" cont="重视" pos="v" ne="O" wsd="Gb21" wsdexp="重视_并重_漠视_鄙视_置之不理" parent="14" relate="DE">
+                    <arg id="0" type="受事" beg="12" end="13" />
+                </word>
+                <word id="10" cont="并" pos="c" ne="O" wsd="Kc02" wsdexp="并且_况且" parent="11" relate="LAD" />
+                <word id="11" cont="考虑" pos="v" ne="O" wsd="Gb01" wsdexp="想象_思考_斟酌_着想_存心" parent="9" relate="COO" />
+                <word id="12" cont="奥运" pos="j" ne="O" wsd="Di23" wsdexp="会议_宴会" parent="13" relate="ATT" />
+                <word id="13" cont="场馆" pos="n" ne="O" wsd="Cb28" wsdexp="场所" parent="9" relate="VOB" />
+                <word id="14" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="16" relate="ATT" />
+                <word id="15" cont="赛后" pos="nt" ne="O" wsd="Ca12" wsdexp="将来_隔日" parent="16" relate="ADV" />
+                <word id="16" cont="利用" pos="v" ne="O" wsd="Hj28" wsdexp="使用_沿用_借鉴" parent="1" relate="VV">
+                    <arg id="0" type="时间" beg="15" end="15" />
+                    <arg id="1" type="受事" beg="17" end="17" />
+                </word>
+                <word id="17" cont="问题" pos="n" ne="O" wsd="Da01" wsdexp="事情_事件_事故" parent="16" relate="VOB" />
+                <word id="18" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="19" cont="让" pos="v" ne="O" wsd="Je04" wsdexp="引起_导致_使得" parent="16" relate="VV">
+                    <arg id="0" type="受事" beg="20" end="20" />
+                    <arg id="1" type="受事" beg="21" end="23" />
+                </word>
+                <word id="20" cont="它们" pos="r" ne="O" wsd="Ba10" wsdexp="它_什么" parent="19" relate="VOB" />
+                <word id="21" cont="长期" pos="d" ne="O" wsd="Eb24" wsdexp="长久_永远" parent="22" relate="ADV" />
+                <word id="22" cont="产生" pos="v" ne="O" wsd="Jd07" wsdexp="出现_发生" parent="19" relate="VOB">
+                    <arg id="0" type="受事" beg="23" end="23" />
+                </word>
+                <word id="23" cont="效益" pos="n" ne="O" wsd="Da25" wsdexp="效用_反应" parent="22" relate="VOB" />
+                <word id="24" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="25" cont="防止" pos="v" ne="O" wsd="Je11" wsdexp="防止_避免_免得" parent="16" relate="VV">
+                    <arg id="0" type="受事" beg="26" end="26" />
+                </word>
+                <word id="26" cont="浪费" pos="v" ne="O" wsd="He13" wsdexp="积累_花费_浪费_节省" parent="25" relate="VOB" />
+                <word id="27" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="3" cont="” " tag="">
+                <word id="0" cont="”" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+        </para>
+        <para id="17">
+            <sent id="0" cont="身为北京市通州区副区长的杜宏谋委员也持相同的观点――“举办奥运会无疑将推进北京市的现代化建设进程，但也要考虑奥运会结束后怎样保持可持续发展。" tag="">
+                <word id="0" cont="身" pos="n" ne="O" wsd="Bk01" wsdexp="身体_尸体" parent="1" relate="SBV" />
+                <word id="1" cont="为" pos="p" ne="O" wsd="Kb05" wsdexp="为_被_以_由" parent="6" relate="DE" />
+                <word id="2" cont="北京市" pos="ns" ne="B-Ns" wsd="Di03" wsdexp="首都_省会" parent="3" relate="ATT" />
+                <word id="3" cont="通州区" pos="ns" ne="E-Ns" wsd="-1" wsdexp="" parent="4" relate="ATT" />
+                <word id="4" cont="副" pos="b" ne="O" wsd="Ed28" wsdexp="重要_次要_不足道" parent="5" relate="ATT" />
+                <word id="5" cont="区长" pos="n" ne="O" wsd="Af10" wsdexp="领袖_领导" parent="1" relate="POB" />
+                <word id="6" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="8" relate="ATT" />
+                <word id="7" cont="杜宏谋" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="8" relate="ATT" />
+                <word id="8" cont="委员" pos="n" ne="O" wsd="Aj07" wsdexp="成员" parent="10" relate="SBV" />
+                <word id="9" cont="也" pos="d" ne="O" wsd="Ka33" wsdexp="却_还_也_反而" parent="10" relate="ADV" />
+                <word id="10" cont="持" pos="v" ne="O" wsd="Fa06" wsdexp="拿_撮_揪_挎_夹" parent="16" relate="IS">
+                    <arg id="0" type="施事" beg="0" end="8" />
+                    <arg id="1" type="受事" beg="11" end="13" />
+                </word>
+                <word id="11" cont="相同" pos="a" ne="O" wsd="Jb01" wsdexp="相同_相等_差不多" parent="12" relate="DE" />
+                <word id="12" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="13" relate="ATT" />
+                <word id="13" cont="观点" pos="n" ne="O" wsd="Df14" wsdexp="想法_主意_见解" parent="10" relate="VOB" />
+                <word id="14" cont="――" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="15" cont="“" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="16" cont="举办" pos="v" ne="O" wsd="Hc05" wsdexp="建立_设立_创立_命名" parent="-1" relate="HED">
+                    <arg id="0" type="受事" beg="17" end="17" />
+                    <arg id="1" type="受事" beg="18" end="20" />
+                    <arg id="2" type="受事" beg="21" end="25" />
+                </word>
+                <word id="17" cont="奥运会" pos="j" ne="O" wsd="Hh07" wsdexp="比赛" parent="16" relate="VOB" />
+                <word id="18" cont="无疑" pos="d" ne="O" wsd="Ed01" wsdexp="真实_虚假_确实_虚妄" parent="20" relate="ADV" />
+                <word id="19" cont="将" pos="d" ne="O" wsd="Ka13" wsdexp="随即_即将_终于" parent="20" relate="ADV" />
+                <word id="20" cont="推进" pos="v" ne="O" wsd="Je06" wsdexp="推动_激发" parent="16" relate="VOB" />
+                <word id="21" cont="北京市" pos="ns" ne="S-Ns" wsd="Di03" wsdexp="首都_省会" parent="22" relate="DE" />
+                <word id="22" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="25" relate="ATT" />
+                <word id="23" cont="现代化" pos="v" ne="O" wsd="Ih01" wsdexp="变化_成为" parent="24" relate="ATT" />
+                <word id="24" cont="建设" pos="v" ne="O" wsd="Hc05" wsdexp="建立_设立_创立_命名" parent="25" relate="ATT" />
+                <word id="25" cont="进程" pos="n" ne="O" wsd="Da05" wsdexp="过程_内中" parent="16" relate="VOB" />
+                <word id="26" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="27" cont="但" pos="c" ne="O" wsd="Kc03" wsdexp="但是" parent="30" relate="CNJ" />
+                <word id="28" cont="也" pos="d" ne="O" wsd="Ka33" wsdexp="却_还_也_反而" parent="30" relate="ADV" />
+                <word id="29" cont="要" pos="v" ne="O" wsd="Gc03" wsdexp="应该_必须_无须" parent="30" relate="ADV" />
+                <word id="30" cont="考虑" pos="v" ne="O" wsd="Gb01" wsdexp="想象_思考_斟酌_着想_存心" parent="33" relate="ATT" />
+                <word id="31" cont="奥运会" pos="j" ne="O" wsd="Hh07" wsdexp="比赛" parent="33" relate="ATT" />
+                <word id="32" cont="结束" pos="v" ne="O" wsd="Ig01" wsdexp="开始_结束" parent="33" relate="ATT" />
+                <word id="33" cont="后" pos="nd" ne="O" wsd="Cb04" wsdexp="前_后_中" parent="35" relate="ADV" />
+                <word id="34" cont="怎样" pos="r" ne="O" wsd="Ka35" wsdexp="哪里_怎样_为什么" parent="35" relate="ADV" />
+                <word id="35" cont="保持" pos="v" ne="O" wsd="Jd01" wsdexp="无关" parent="16" relate="VV">
+                    <arg id="0" type="方位" beg="27" end="33" />
+                    <arg id="1" type="受事" beg="36" end="38" />
+                </word>
+                <word id="36" cont="可" pos="v" ne="O" wsd="Gc02" wsdexp="能够_不能_可以_不可" parent="38" relate="ADV" />
+                <word id="37" cont="持续" pos="v" ne="O" wsd="Ka11" wsdexp="不断_一直_动辄" parent="38" relate="ADV" />
+                <word id="38" cont="发展" pos="v" ne="O" wsd="Ie12" wsdexp="进步_退步_堕落" parent="35" relate="VOB" />
+                <word id="39" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="1" cont="奥运场馆的后期维护、使用等都要在奥运规划中体现，要作好整体规划，要让奥运经济成为北京可持续发展的长期推动力量。" tag="">
+                <word id="0" cont="奥运" pos="j" ne="O" wsd="Di23" wsdexp="会议_宴会" parent="1" relate="ATT" />
+                <word id="1" cont="场馆" pos="n" ne="O" wsd="Cb28" wsdexp="场所" parent="2" relate="DE" />
+                <word id="2" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="3" relate="ATT" />
+                <word id="3" cont="后期" pos="nt" ne="O" wsd="Ca09" wsdexp="末期_年终_月终" parent="4" relate="ADV" />
+                <word id="4" cont="维护" pos="v" ne="O" wsd="Hi37" wsdexp="照顾_服侍_护理_保护" parent="31" relate="DE">
+                    <arg id="0" type="时间" beg="0" end="3" />
+                    <arg id="1" type="受事" beg="8" end="20" />
+                </word>
+                <word id="5" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="6" cont="使用" pos="v" ne="O" wsd="Hj28" wsdexp="使用_沿用_借鉴" parent="4" relate="COO" />
+                <word id="7" cont="等" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="4" relate="RAD" />
+                <word id="8" cont="都" pos="d" ne="O" wsd="Ka07" wsdexp="都_只_不止_甚至" parent="9" relate="ADV" />
+                <word id="9" cont="要" pos="v" ne="O" wsd="Gc03" wsdexp="应该_必须_无须" parent="14" relate="ADV" />
+                <word id="10" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="14" relate="ADV" />
+                <word id="11" cont="奥运" pos="j" ne="O" wsd="Di23" wsdexp="会议_宴会" parent="12" relate="ATT" />
+                <word id="12" cont="规划" pos="n" ne="O" wsd="Df09" wsdexp="计划_计策_手段" parent="13" relate="ATT" />
+                <word id="13" cont="中" pos="nd" ne="O" wsd="Da05" wsdexp="过程_内中" parent="10" relate="POB" />
+                <word id="14" cont="体现" pos="v" ne="O" wsd="Ja03" wsdexp="意味_影射_体现_标志" parent="4" relate="VOB">
+                    <arg id="0" type="方位" beg="10" end="13" />
+                </word>
+                <word id="15" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="16" cont="要" pos="v" ne="O" wsd="Gc03" wsdexp="应该_必须_无须" parent="17" relate="ADV" />
+                <word id="17" cont="作" pos="v" ne="O" wsd="Hj12" wsdexp="做_施展_合作_尝试" parent="14" relate="VV">
+                    <arg id="0" type="受事" beg="18" end="20" />
+                </word>
+                <word id="18" cont="好" pos="a" ne="O" wsd="Ed03" wsdexp="好_坏" parent="20" relate="ATT" />
+                <word id="19" cont="整体" pos="n" ne="O" wsd="Ed56" wsdexp="总_分" parent="20" relate="ATT" />
+                <word id="20" cont="规划" pos="n" ne="O" wsd="Df09" wsdexp="计划_计策_手段" parent="17" relate="VOB" />
+                <word id="21" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="22" cont="要" pos="v" ne="O" wsd="Gc03" wsdexp="应该_必须_无须" parent="23" relate="ADV" />
+                <word id="23" cont="让" pos="v" ne="O" wsd="Je04" wsdexp="引起_导致_使得" parent="31" relate="DE">
+                    <arg id="0" type="受事" beg="24" end="25" />
+                    <arg id="1" type="受事" beg="26" end="26" />
+                    <arg id="2" type="受事" beg="27" end="27" />
+                </word>
+                <word id="24" cont="奥运" pos="j" ne="O" wsd="Di23" wsdexp="会议_宴会" parent="25" relate="ATT" />
+                <word id="25" cont="经济" pos="n" ne="O" wsd="Dj01" wsdexp="经济" parent="23" relate="VOB" />
+                <word id="26" cont="成为" pos="v" ne="O" wsd="Ih01" wsdexp="变化_成为" parent="23" relate="VOB" />
+                <word id="27" cont="北京" pos="ns" ne="S-Ns" wsd="Di03" wsdexp="首都_省会" parent="23" relate="VOB" />
+                <word id="28" cont="可" pos="v" ne="O" wsd="Gc02" wsdexp="能够_不能_可以_不可" parent="30" relate="ADV" />
+                <word id="29" cont="持续" pos="v" ne="O" wsd="Ka11" wsdexp="不断_一直_动辄" parent="30" relate="ADV" />
+                <word id="30" cont="发展" pos="v" ne="O" wsd="Ie12" wsdexp="进步_退步_堕落" parent="31" relate="DE" />
+                <word id="31" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="33" relate="ATT" />
+                <word id="32" cont="长期" pos="d" ne="O" wsd="Eb24" wsdexp="长久_永远" parent="33" relate="ADV" />
+                <word id="33" cont="推动" pos="v" ne="O" wsd="Je06" wsdexp="推动_激发" parent="-1" relate="HED">
+                    <arg id="0" type="受事" beg="34" end="34" />
+                </word>
+                <word id="34" cont="力量" pos="n" ne="O" wsd="De04" wsdexp="智慧_才能_能力_功夫" parent="33" relate="VOB" />
+                <word id="35" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="2" cont="” " tag="">
+                <word id="0" cont="”" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+        </para>
+        <para id="18">
+            <sent id="0" cont="陈立群等委员也表示了他们的担忧：" tag="">
+                <word id="0" cont="陈立群" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="7" relate="DE" />
+                <word id="1" cont="等" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="0" relate="RAD" />
+                <word id="2" cont="委员" pos="n" ne="O" wsd="Aj07" wsdexp="成员" parent="4" relate="SBV" />
+                <word id="3" cont="也" pos="d" ne="O" wsd="Ka33" wsdexp="却_还_也_反而" parent="4" relate="ADV" />
+                <word id="4" cont="表示" pos="v" ne="O" wsd="Hi14" wsdexp="表示_表达_阐明_表露_发誓" parent="7" relate="DE">
+                    <arg id="0" type="施事" beg="2" end="2" />
+                </word>
+                <word id="5" cont="了" pos="u" ne="O" wsd="Kd05" wsdexp="吗_的话_罢了_了_哉" parent="4" relate="MT" />
+                <word id="6" cont="他们" pos="r" ne="O" wsd="Aa04" wsdexp="他_他们" parent="7" relate="DE" />
+                <word id="7" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="8" relate="LAD" />
+                <word id="8" cont="担忧" pos="v" ne="O" wsd="Ga02" wsdexp="忧愁_烦闷" parent="-1" relate="HED" />
+                <word id="9" cont="：" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="1" cont="“要防止有人打着奥运的旗号搞重复建设。" tag="">
+                <word id="0" cont="“" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="1" cont="要" pos="v" ne="O" wsd="Gc03" wsdexp="应该_必须_无须" parent="2" relate="ADV" />
+                <word id="2" cont="防止" pos="v" ne="O" wsd="Je11" wsdexp="防止_避免_免得" parent="-1" relate="HED">
+                    <arg id="0" type="受事" beg="3" end="4" />
+                    <arg id="1" type="受事" beg="5" end="9" />
+                    <arg id="2" type="受事" beg="10" end="12" />
+                </word>
+                <word id="3" cont="有" pos="v" ne="O" wsd="Jd04" wsdexp="有_占有" parent="2" relate="VOB">
+                    <arg id="0" type="受事" beg="4" end="4" />
+                </word>
+                <word id="4" cont="人" pos="n" ne="O" wsd="Aa01" wsdexp="人_人民_众人" parent="3" relate="VOB" />
+                <word id="5" cont="打" pos="v" ne="O" wsd="Fa01" wsdexp="打_拍_抚摩_搔_摸" parent="2" relate="VOB">
+                    <arg id="0" type="受事" beg="7" end="9" />
+                </word>
+                <word id="6" cont="着" pos="u" ne="O" wsd="Fa18" wsdexp="穿_戴_佩带" parent="5" relate="MT" />
+                <word id="7" cont="奥运" pos="j" ne="O" wsd="Di23" wsdexp="会议_宴会" parent="8" relate="DE" />
+                <word id="8" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="9" relate="ATT" />
+                <word id="9" cont="旗号" pos="n" ne="O" wsd="Dd15" wsdexp="名称_姓名_生肖_性别" parent="5" relate="VOB" />
+                <word id="10" cont="搞" pos="v" ne="O" wsd="Hj12" wsdexp="做_施展_合作_尝试" parent="2" relate="VOB">
+                    <arg id="0" type="受事" beg="11" end="12" />
+                </word>
+                <word id="11" cont="重复" pos="v" ne="O" wsd="Ig04" wsdexp="重复_循环" parent="12" relate="ATT" />
+                <word id="12" cont="建设" pos="v" ne="O" wsd="Hc05" wsdexp="建立_设立_创立_命名" parent="10" relate="VOB" />
+                <word id="13" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="2" cont="应该注意这个问题。" tag="">
+                <word id="0" cont="应该" pos="v" ne="O" wsd="Gc03" wsdexp="应该_必须_无须" parent="1" relate="ADV" />
+                <word id="1" cont="注意" pos="v" ne="O" wsd="Gb20" wsdexp="注意_权衡_计较" parent="-1" relate="HED">
+                    <arg id="0" type="受事" beg="2" end="3" />
+                </word>
+                <word id="2" cont="这个" pos="r" ne="O" wsd="Ed61" wsdexp="这个_那个_某个_各个_其他_何" parent="3" relate="ATT" />
+                <word id="3" cont="问题" pos="n" ne="O" wsd="Da01" wsdexp="事情_事件_事故" parent="1" relate="VOB" />
+                <word id="4" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="3" cont="”" tag="">
+                <word id="0" cont="”" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+        </para>
+    </doc>
+    <class>财经</class>
+    <coref>
+        <cr id="0">
+            <mention id="0" beg="81" end="81" />
+            <mention id="1" beg="83" end="83" />
+            <mention id="2" beg="142" end="142" />
+        </cr>
+        <cr id="1">
+            <mention id="0" beg="336" end="336" />
+            <mention id="1" beg="350" end="350" />
+        </cr>
+        <cr id="2">
+            <mention id="0" beg="664" end="664" />
+            <mention id="1" beg="675" end="675" />
+        </cr>
+        <cr id="3">
+            <mention id="0" beg="678" end="678" />
+            <mention id="1" beg="705" end="705" />
+        </cr>
+    </coref>
+</xml4nlp>

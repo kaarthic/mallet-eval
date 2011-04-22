@@ -1,0 +1,2232 @@
+Usage: train.sh [Training File] [Thread Number] [Output Model File]
+Number of features in training data: 19155
+Number of predicates: 19155
+Labels: O B-NP B-PP I-NP B-VP I-VP B-SBAR B-ADJP B-ADVP I-ADVP I-ADJP I-SBAR I-PP B-PRT B-LST B-INTJ I-INTJ B-CONJP I-CONJP I-PRT B-UCP I-UCP
+Preparing O
+O->O(O) O,O
+O->B-NP(B-NP) O,B-NP
+O->B-PP(B-PP) O,B-PP
+O->I-NP(I-NP) O,I-NP
+O->B-VP(B-VP) O,B-VP
+O->I-VP(I-VP) O,I-VP
+O->B-SBAR(B-SBAR) O,B-SBAR
+O->B-ADJP(B-ADJP) O,B-ADJP
+O->B-ADVP(B-ADVP) O,B-ADVP
+O->I-ADVP(I-ADVP) O,I-ADVP
+O->I-ADJP(I-ADJP) O,I-ADJP
+O->I-SBAR(I-SBAR) O,I-SBAR
+O->I-PP(I-PP) O,I-PP
+O->B-PRT(B-PRT) O,B-PRT
+O->B-LST(B-LST) O,B-LST
+O->B-INTJ(B-INTJ) O,B-INTJ
+O->I-INTJ(I-INTJ) O,I-INTJ
+O->B-CONJP(B-CONJP) O,B-CONJP
+O->I-CONJP(I-CONJP) O,I-CONJP
+O->I-PRT(I-PRT) O,I-PRT
+O->B-UCP(B-UCP) O,B-UCP
+O->I-UCP(I-UCP) O,I-UCP
+State #0 "O"
+initialWeight=0.0, finalWeight=0.0
+#destinations=22
+-> O
+-> B-NP
+-> B-PP
+-> I-NP
+-> B-VP
+-> I-VP
+-> B-SBAR
+-> B-ADJP
+-> B-ADVP
+-> I-ADVP
+-> I-ADJP
+-> I-SBAR
+-> I-PP
+-> B-PRT
+-> B-LST
+-> B-INTJ
+-> I-INTJ
+-> B-CONJP
+-> I-CONJP
+-> I-PRT
+-> B-UCP
+-> I-UCP
+Preparing B-NP
+B-NP->O(O) B-NP,O
+B-NP->B-NP(B-NP) B-NP,B-NP
+B-NP->B-PP(B-PP) B-NP,B-PP
+B-NP->I-NP(I-NP) B-NP,I-NP
+B-NP->B-VP(B-VP) B-NP,B-VP
+B-NP->I-VP(I-VP) B-NP,I-VP
+B-NP->B-SBAR(B-SBAR) B-NP,B-SBAR
+B-NP->B-ADJP(B-ADJP) B-NP,B-ADJP
+B-NP->B-ADVP(B-ADVP) B-NP,B-ADVP
+B-NP->I-ADVP(I-ADVP) B-NP,I-ADVP
+B-NP->I-ADJP(I-ADJP) B-NP,I-ADJP
+B-NP->I-SBAR(I-SBAR) B-NP,I-SBAR
+B-NP->I-PP(I-PP) B-NP,I-PP
+B-NP->B-PRT(B-PRT) B-NP,B-PRT
+B-NP->B-LST(B-LST) B-NP,B-LST
+B-NP->B-INTJ(B-INTJ) B-NP,B-INTJ
+B-NP->I-INTJ(I-INTJ) B-NP,I-INTJ
+B-NP->B-CONJP(B-CONJP) B-NP,B-CONJP
+B-NP->I-CONJP(I-CONJP) B-NP,I-CONJP
+B-NP->I-PRT(I-PRT) B-NP,I-PRT
+B-NP->B-UCP(B-UCP) B-NP,B-UCP
+B-NP->I-UCP(I-UCP) B-NP,I-UCP
+State #1 "B-NP"
+initialWeight=0.0, finalWeight=0.0
+#destinations=22
+-> O
+-> B-NP
+-> B-PP
+-> I-NP
+-> B-VP
+-> I-VP
+-> B-SBAR
+-> B-ADJP
+-> B-ADVP
+-> I-ADVP
+-> I-ADJP
+-> I-SBAR
+-> I-PP
+-> B-PRT
+-> B-LST
+-> B-INTJ
+-> I-INTJ
+-> B-CONJP
+-> I-CONJP
+-> I-PRT
+-> B-UCP
+-> I-UCP
+Preparing B-PP
+B-PP->O(O) B-PP,O
+B-PP->B-NP(B-NP) B-PP,B-NP
+B-PP->B-PP(B-PP) B-PP,B-PP
+B-PP->I-NP(I-NP) B-PP,I-NP
+B-PP->B-VP(B-VP) B-PP,B-VP
+B-PP->I-VP(I-VP) B-PP,I-VP
+B-PP->B-SBAR(B-SBAR) B-PP,B-SBAR
+B-PP->B-ADJP(B-ADJP) B-PP,B-ADJP
+B-PP->B-ADVP(B-ADVP) B-PP,B-ADVP
+B-PP->I-ADVP(I-ADVP) B-PP,I-ADVP
+B-PP->I-ADJP(I-ADJP) B-PP,I-ADJP
+B-PP->I-SBAR(I-SBAR) B-PP,I-SBAR
+B-PP->I-PP(I-PP) B-PP,I-PP
+B-PP->B-PRT(B-PRT) B-PP,B-PRT
+B-PP->B-LST(B-LST) B-PP,B-LST
+B-PP->B-INTJ(B-INTJ) B-PP,B-INTJ
+B-PP->I-INTJ(I-INTJ) B-PP,I-INTJ
+B-PP->B-CONJP(B-CONJP) B-PP,B-CONJP
+B-PP->I-CONJP(I-CONJP) B-PP,I-CONJP
+B-PP->I-PRT(I-PRT) B-PP,I-PRT
+B-PP->B-UCP(B-UCP) B-PP,B-UCP
+B-PP->I-UCP(I-UCP) B-PP,I-UCP
+State #2 "B-PP"
+initialWeight=0.0, finalWeight=0.0
+#destinations=22
+-> O
+-> B-NP
+-> B-PP
+-> I-NP
+-> B-VP
+-> I-VP
+-> B-SBAR
+-> B-ADJP
+-> B-ADVP
+-> I-ADVP
+-> I-ADJP
+-> I-SBAR
+-> I-PP
+-> B-PRT
+-> B-LST
+-> B-INTJ
+-> I-INTJ
+-> B-CONJP
+-> I-CONJP
+-> I-PRT
+-> B-UCP
+-> I-UCP
+Preparing I-NP
+I-NP->O(O) I-NP,O
+I-NP->B-NP(B-NP) I-NP,B-NP
+I-NP->B-PP(B-PP) I-NP,B-PP
+I-NP->I-NP(I-NP) I-NP,I-NP
+I-NP->B-VP(B-VP) I-NP,B-VP
+I-NP->I-VP(I-VP) I-NP,I-VP
+I-NP->B-SBAR(B-SBAR) I-NP,B-SBAR
+I-NP->B-ADJP(B-ADJP) I-NP,B-ADJP
+I-NP->B-ADVP(B-ADVP) I-NP,B-ADVP
+I-NP->I-ADVP(I-ADVP) I-NP,I-ADVP
+I-NP->I-ADJP(I-ADJP) I-NP,I-ADJP
+I-NP->I-SBAR(I-SBAR) I-NP,I-SBAR
+I-NP->I-PP(I-PP) I-NP,I-PP
+I-NP->B-PRT(B-PRT) I-NP,B-PRT
+I-NP->B-LST(B-LST) I-NP,B-LST
+I-NP->B-INTJ(B-INTJ) I-NP,B-INTJ
+I-NP->I-INTJ(I-INTJ) I-NP,I-INTJ
+I-NP->B-CONJP(B-CONJP) I-NP,B-CONJP
+I-NP->I-CONJP(I-CONJP) I-NP,I-CONJP
+I-NP->I-PRT(I-PRT) I-NP,I-PRT
+I-NP->B-UCP(B-UCP) I-NP,B-UCP
+I-NP->I-UCP(I-UCP) I-NP,I-UCP
+State #3 "I-NP"
+initialWeight=0.0, finalWeight=0.0
+#destinations=22
+-> O
+-> B-NP
+-> B-PP
+-> I-NP
+-> B-VP
+-> I-VP
+-> B-SBAR
+-> B-ADJP
+-> B-ADVP
+-> I-ADVP
+-> I-ADJP
+-> I-SBAR
+-> I-PP
+-> B-PRT
+-> B-LST
+-> B-INTJ
+-> I-INTJ
+-> B-CONJP
+-> I-CONJP
+-> I-PRT
+-> B-UCP
+-> I-UCP
+Preparing B-VP
+B-VP->O(O) B-VP,O
+B-VP->B-NP(B-NP) B-VP,B-NP
+B-VP->B-PP(B-PP) B-VP,B-PP
+B-VP->I-NP(I-NP) B-VP,I-NP
+B-VP->B-VP(B-VP) B-VP,B-VP
+B-VP->I-VP(I-VP) B-VP,I-VP
+B-VP->B-SBAR(B-SBAR) B-VP,B-SBAR
+B-VP->B-ADJP(B-ADJP) B-VP,B-ADJP
+B-VP->B-ADVP(B-ADVP) B-VP,B-ADVP
+B-VP->I-ADVP(I-ADVP) B-VP,I-ADVP
+B-VP->I-ADJP(I-ADJP) B-VP,I-ADJP
+B-VP->I-SBAR(I-SBAR) B-VP,I-SBAR
+B-VP->I-PP(I-PP) B-VP,I-PP
+B-VP->B-PRT(B-PRT) B-VP,B-PRT
+B-VP->B-LST(B-LST) B-VP,B-LST
+B-VP->B-INTJ(B-INTJ) B-VP,B-INTJ
+B-VP->I-INTJ(I-INTJ) B-VP,I-INTJ
+B-VP->B-CONJP(B-CONJP) B-VP,B-CONJP
+B-VP->I-CONJP(I-CONJP) B-VP,I-CONJP
+B-VP->I-PRT(I-PRT) B-VP,I-PRT
+B-VP->B-UCP(B-UCP) B-VP,B-UCP
+B-VP->I-UCP(I-UCP) B-VP,I-UCP
+State #4 "B-VP"
+initialWeight=0.0, finalWeight=0.0
+#destinations=22
+-> O
+-> B-NP
+-> B-PP
+-> I-NP
+-> B-VP
+-> I-VP
+-> B-SBAR
+-> B-ADJP
+-> B-ADVP
+-> I-ADVP
+-> I-ADJP
+-> I-SBAR
+-> I-PP
+-> B-PRT
+-> B-LST
+-> B-INTJ
+-> I-INTJ
+-> B-CONJP
+-> I-CONJP
+-> I-PRT
+-> B-UCP
+-> I-UCP
+Preparing I-VP
+I-VP->O(O) I-VP,O
+I-VP->B-NP(B-NP) I-VP,B-NP
+I-VP->B-PP(B-PP) I-VP,B-PP
+I-VP->I-NP(I-NP) I-VP,I-NP
+I-VP->B-VP(B-VP) I-VP,B-VP
+I-VP->I-VP(I-VP) I-VP,I-VP
+I-VP->B-SBAR(B-SBAR) I-VP,B-SBAR
+I-VP->B-ADJP(B-ADJP) I-VP,B-ADJP
+I-VP->B-ADVP(B-ADVP) I-VP,B-ADVP
+I-VP->I-ADVP(I-ADVP) I-VP,I-ADVP
+I-VP->I-ADJP(I-ADJP) I-VP,I-ADJP
+I-VP->I-SBAR(I-SBAR) I-VP,I-SBAR
+I-VP->I-PP(I-PP) I-VP,I-PP
+I-VP->B-PRT(B-PRT) I-VP,B-PRT
+I-VP->B-LST(B-LST) I-VP,B-LST
+I-VP->B-INTJ(B-INTJ) I-VP,B-INTJ
+I-VP->I-INTJ(I-INTJ) I-VP,I-INTJ
+I-VP->B-CONJP(B-CONJP) I-VP,B-CONJP
+I-VP->I-CONJP(I-CONJP) I-VP,I-CONJP
+I-VP->I-PRT(I-PRT) I-VP,I-PRT
+I-VP->B-UCP(B-UCP) I-VP,B-UCP
+I-VP->I-UCP(I-UCP) I-VP,I-UCP
+State #5 "I-VP"
+initialWeight=0.0, finalWeight=0.0
+#destinations=22
+-> O
+-> B-NP
+-> B-PP
+-> I-NP
+-> B-VP
+-> I-VP
+-> B-SBAR
+-> B-ADJP
+-> B-ADVP
+-> I-ADVP
+-> I-ADJP
+-> I-SBAR
+-> I-PP
+-> B-PRT
+-> B-LST
+-> B-INTJ
+-> I-INTJ
+-> B-CONJP
+-> I-CONJP
+-> I-PRT
+-> B-UCP
+-> I-UCP
+Preparing B-SBAR
+B-SBAR->O(O) B-SBAR,O
+B-SBAR->B-NP(B-NP) B-SBAR,B-NP
+B-SBAR->B-PP(B-PP) B-SBAR,B-PP
+B-SBAR->I-NP(I-NP) B-SBAR,I-NP
+B-SBAR->B-VP(B-VP) B-SBAR,B-VP
+B-SBAR->I-VP(I-VP) B-SBAR,I-VP
+B-SBAR->B-SBAR(B-SBAR) B-SBAR,B-SBAR
+B-SBAR->B-ADJP(B-ADJP) B-SBAR,B-ADJP
+B-SBAR->B-ADVP(B-ADVP) B-SBAR,B-ADVP
+B-SBAR->I-ADVP(I-ADVP) B-SBAR,I-ADVP
+B-SBAR->I-ADJP(I-ADJP) B-SBAR,I-ADJP
+B-SBAR->I-SBAR(I-SBAR) B-SBAR,I-SBAR
+B-SBAR->I-PP(I-PP) B-SBAR,I-PP
+B-SBAR->B-PRT(B-PRT) B-SBAR,B-PRT
+B-SBAR->B-LST(B-LST) B-SBAR,B-LST
+B-SBAR->B-INTJ(B-INTJ) B-SBAR,B-INTJ
+B-SBAR->I-INTJ(I-INTJ) B-SBAR,I-INTJ
+B-SBAR->B-CONJP(B-CONJP) B-SBAR,B-CONJP
+B-SBAR->I-CONJP(I-CONJP) B-SBAR,I-CONJP
+B-SBAR->I-PRT(I-PRT) B-SBAR,I-PRT
+B-SBAR->B-UCP(B-UCP) B-SBAR,B-UCP
+B-SBAR->I-UCP(I-UCP) B-SBAR,I-UCP
+State #6 "B-SBAR"
+initialWeight=0.0, finalWeight=0.0
+#destinations=22
+-> O
+-> B-NP
+-> B-PP
+-> I-NP
+-> B-VP
+-> I-VP
+-> B-SBAR
+-> B-ADJP
+-> B-ADVP
+-> I-ADVP
+-> I-ADJP
+-> I-SBAR
+-> I-PP
+-> B-PRT
+-> B-LST
+-> B-INTJ
+-> I-INTJ
+-> B-CONJP
+-> I-CONJP
+-> I-PRT
+-> B-UCP
+-> I-UCP
+Preparing B-ADJP
+B-ADJP->O(O) B-ADJP,O
+B-ADJP->B-NP(B-NP) B-ADJP,B-NP
+B-ADJP->B-PP(B-PP) B-ADJP,B-PP
+B-ADJP->I-NP(I-NP) B-ADJP,I-NP
+B-ADJP->B-VP(B-VP) B-ADJP,B-VP
+B-ADJP->I-VP(I-VP) B-ADJP,I-VP
+B-ADJP->B-SBAR(B-SBAR) B-ADJP,B-SBAR
+B-ADJP->B-ADJP(B-ADJP) B-ADJP,B-ADJP
+B-ADJP->B-ADVP(B-ADVP) B-ADJP,B-ADVP
+B-ADJP->I-ADVP(I-ADVP) B-ADJP,I-ADVP
+B-ADJP->I-ADJP(I-ADJP) B-ADJP,I-ADJP
+B-ADJP->I-SBAR(I-SBAR) B-ADJP,I-SBAR
+B-ADJP->I-PP(I-PP) B-ADJP,I-PP
+B-ADJP->B-PRT(B-PRT) B-ADJP,B-PRT
+B-ADJP->B-LST(B-LST) B-ADJP,B-LST
+B-ADJP->B-INTJ(B-INTJ) B-ADJP,B-INTJ
+B-ADJP->I-INTJ(I-INTJ) B-ADJP,I-INTJ
+B-ADJP->B-CONJP(B-CONJP) B-ADJP,B-CONJP
+B-ADJP->I-CONJP(I-CONJP) B-ADJP,I-CONJP
+B-ADJP->I-PRT(I-PRT) B-ADJP,I-PRT
+B-ADJP->B-UCP(B-UCP) B-ADJP,B-UCP
+B-ADJP->I-UCP(I-UCP) B-ADJP,I-UCP
+State #7 "B-ADJP"
+initialWeight=0.0, finalWeight=0.0
+#destinations=22
+-> O
+-> B-NP
+-> B-PP
+-> I-NP
+-> B-VP
+-> I-VP
+-> B-SBAR
+-> B-ADJP
+-> B-ADVP
+-> I-ADVP
+-> I-ADJP
+-> I-SBAR
+-> I-PP
+-> B-PRT
+-> B-LST
+-> B-INTJ
+-> I-INTJ
+-> B-CONJP
+-> I-CONJP
+-> I-PRT
+-> B-UCP
+-> I-UCP
+Preparing B-ADVP
+B-ADVP->O(O) B-ADVP,O
+B-ADVP->B-NP(B-NP) B-ADVP,B-NP
+B-ADVP->B-PP(B-PP) B-ADVP,B-PP
+B-ADVP->I-NP(I-NP) B-ADVP,I-NP
+B-ADVP->B-VP(B-VP) B-ADVP,B-VP
+B-ADVP->I-VP(I-VP) B-ADVP,I-VP
+B-ADVP->B-SBAR(B-SBAR) B-ADVP,B-SBAR
+B-ADVP->B-ADJP(B-ADJP) B-ADVP,B-ADJP
+B-ADVP->B-ADVP(B-ADVP) B-ADVP,B-ADVP
+B-ADVP->I-ADVP(I-ADVP) B-ADVP,I-ADVP
+B-ADVP->I-ADJP(I-ADJP) B-ADVP,I-ADJP
+B-ADVP->I-SBAR(I-SBAR) B-ADVP,I-SBAR
+B-ADVP->I-PP(I-PP) B-ADVP,I-PP
+B-ADVP->B-PRT(B-PRT) B-ADVP,B-PRT
+B-ADVP->B-LST(B-LST) B-ADVP,B-LST
+B-ADVP->B-INTJ(B-INTJ) B-ADVP,B-INTJ
+B-ADVP->I-INTJ(I-INTJ) B-ADVP,I-INTJ
+B-ADVP->B-CONJP(B-CONJP) B-ADVP,B-CONJP
+B-ADVP->I-CONJP(I-CONJP) B-ADVP,I-CONJP
+B-ADVP->I-PRT(I-PRT) B-ADVP,I-PRT
+B-ADVP->B-UCP(B-UCP) B-ADVP,B-UCP
+B-ADVP->I-UCP(I-UCP) B-ADVP,I-UCP
+State #8 "B-ADVP"
+initialWeight=0.0, finalWeight=0.0
+#destinations=22
+-> O
+-> B-NP
+-> B-PP
+-> I-NP
+-> B-VP
+-> I-VP
+-> B-SBAR
+-> B-ADJP
+-> B-ADVP
+-> I-ADVP
+-> I-ADJP
+-> I-SBAR
+-> I-PP
+-> B-PRT
+-> B-LST
+-> B-INTJ
+-> I-INTJ
+-> B-CONJP
+-> I-CONJP
+-> I-PRT
+-> B-UCP
+-> I-UCP
+Preparing I-ADVP
+I-ADVP->O(O) I-ADVP,O
+I-ADVP->B-NP(B-NP) I-ADVP,B-NP
+I-ADVP->B-PP(B-PP) I-ADVP,B-PP
+I-ADVP->I-NP(I-NP) I-ADVP,I-NP
+I-ADVP->B-VP(B-VP) I-ADVP,B-VP
+I-ADVP->I-VP(I-VP) I-ADVP,I-VP
+I-ADVP->B-SBAR(B-SBAR) I-ADVP,B-SBAR
+I-ADVP->B-ADJP(B-ADJP) I-ADVP,B-ADJP
+I-ADVP->B-ADVP(B-ADVP) I-ADVP,B-ADVP
+I-ADVP->I-ADVP(I-ADVP) I-ADVP,I-ADVP
+I-ADVP->I-ADJP(I-ADJP) I-ADVP,I-ADJP
+I-ADVP->I-SBAR(I-SBAR) I-ADVP,I-SBAR
+I-ADVP->I-PP(I-PP) I-ADVP,I-PP
+I-ADVP->B-PRT(B-PRT) I-ADVP,B-PRT
+I-ADVP->B-LST(B-LST) I-ADVP,B-LST
+I-ADVP->B-INTJ(B-INTJ) I-ADVP,B-INTJ
+I-ADVP->I-INTJ(I-INTJ) I-ADVP,I-INTJ
+I-ADVP->B-CONJP(B-CONJP) I-ADVP,B-CONJP
+I-ADVP->I-CONJP(I-CONJP) I-ADVP,I-CONJP
+I-ADVP->I-PRT(I-PRT) I-ADVP,I-PRT
+I-ADVP->B-UCP(B-UCP) I-ADVP,B-UCP
+I-ADVP->I-UCP(I-UCP) I-ADVP,I-UCP
+State #9 "I-ADVP"
+initialWeight=0.0, finalWeight=0.0
+#destinations=22
+-> O
+-> B-NP
+-> B-PP
+-> I-NP
+-> B-VP
+-> I-VP
+-> B-SBAR
+-> B-ADJP
+-> B-ADVP
+-> I-ADVP
+-> I-ADJP
+-> I-SBAR
+-> I-PP
+-> B-PRT
+-> B-LST
+-> B-INTJ
+-> I-INTJ
+-> B-CONJP
+-> I-CONJP
+-> I-PRT
+-> B-UCP
+-> I-UCP
+Preparing I-ADJP
+I-ADJP->O(O) I-ADJP,O
+I-ADJP->B-NP(B-NP) I-ADJP,B-NP
+I-ADJP->B-PP(B-PP) I-ADJP,B-PP
+I-ADJP->I-NP(I-NP) I-ADJP,I-NP
+I-ADJP->B-VP(B-VP) I-ADJP,B-VP
+I-ADJP->I-VP(I-VP) I-ADJP,I-VP
+I-ADJP->B-SBAR(B-SBAR) I-ADJP,B-SBAR
+I-ADJP->B-ADJP(B-ADJP) I-ADJP,B-ADJP
+I-ADJP->B-ADVP(B-ADVP) I-ADJP,B-ADVP
+I-ADJP->I-ADVP(I-ADVP) I-ADJP,I-ADVP
+I-ADJP->I-ADJP(I-ADJP) I-ADJP,I-ADJP
+I-ADJP->I-SBAR(I-SBAR) I-ADJP,I-SBAR
+I-ADJP->I-PP(I-PP) I-ADJP,I-PP
+I-ADJP->B-PRT(B-PRT) I-ADJP,B-PRT
+I-ADJP->B-LST(B-LST) I-ADJP,B-LST
+I-ADJP->B-INTJ(B-INTJ) I-ADJP,B-INTJ
+I-ADJP->I-INTJ(I-INTJ) I-ADJP,I-INTJ
+I-ADJP->B-CONJP(B-CONJP) I-ADJP,B-CONJP
+I-ADJP->I-CONJP(I-CONJP) I-ADJP,I-CONJP
+I-ADJP->I-PRT(I-PRT) I-ADJP,I-PRT
+I-ADJP->B-UCP(B-UCP) I-ADJP,B-UCP
+I-ADJP->I-UCP(I-UCP) I-ADJP,I-UCP
+State #10 "I-ADJP"
+initialWeight=0.0, finalWeight=0.0
+#destinations=22
+-> O
+-> B-NP
+-> B-PP
+-> I-NP
+-> B-VP
+-> I-VP
+-> B-SBAR
+-> B-ADJP
+-> B-ADVP
+-> I-ADVP
+-> I-ADJP
+-> I-SBAR
+-> I-PP
+-> B-PRT
+-> B-LST
+-> B-INTJ
+-> I-INTJ
+-> B-CONJP
+-> I-CONJP
+-> I-PRT
+-> B-UCP
+-> I-UCP
+Preparing I-SBAR
+I-SBAR->O(O) I-SBAR,O
+I-SBAR->B-NP(B-NP) I-SBAR,B-NP
+I-SBAR->B-PP(B-PP) I-SBAR,B-PP
+I-SBAR->I-NP(I-NP) I-SBAR,I-NP
+I-SBAR->B-VP(B-VP) I-SBAR,B-VP
+I-SBAR->I-VP(I-VP) I-SBAR,I-VP
+I-SBAR->B-SBAR(B-SBAR) I-SBAR,B-SBAR
+I-SBAR->B-ADJP(B-ADJP) I-SBAR,B-ADJP
+I-SBAR->B-ADVP(B-ADVP) I-SBAR,B-ADVP
+I-SBAR->I-ADVP(I-ADVP) I-SBAR,I-ADVP
+I-SBAR->I-ADJP(I-ADJP) I-SBAR,I-ADJP
+I-SBAR->I-SBAR(I-SBAR) I-SBAR,I-SBAR
+I-SBAR->I-PP(I-PP) I-SBAR,I-PP
+I-SBAR->B-PRT(B-PRT) I-SBAR,B-PRT
+I-SBAR->B-LST(B-LST) I-SBAR,B-LST
+I-SBAR->B-INTJ(B-INTJ) I-SBAR,B-INTJ
+I-SBAR->I-INTJ(I-INTJ) I-SBAR,I-INTJ
+I-SBAR->B-CONJP(B-CONJP) I-SBAR,B-CONJP
+I-SBAR->I-CONJP(I-CONJP) I-SBAR,I-CONJP
+I-SBAR->I-PRT(I-PRT) I-SBAR,I-PRT
+I-SBAR->B-UCP(B-UCP) I-SBAR,B-UCP
+I-SBAR->I-UCP(I-UCP) I-SBAR,I-UCP
+State #11 "I-SBAR"
+initialWeight=0.0, finalWeight=0.0
+#destinations=22
+-> O
+-> B-NP
+-> B-PP
+-> I-NP
+-> B-VP
+-> I-VP
+-> B-SBAR
+-> B-ADJP
+-> B-ADVP
+-> I-ADVP
+-> I-ADJP
+-> I-SBAR
+-> I-PP
+-> B-PRT
+-> B-LST
+-> B-INTJ
+-> I-INTJ
+-> B-CONJP
+-> I-CONJP
+-> I-PRT
+-> B-UCP
+-> I-UCP
+Preparing I-PP
+I-PP->O(O) I-PP,O
+I-PP->B-NP(B-NP) I-PP,B-NP
+I-PP->B-PP(B-PP) I-PP,B-PP
+I-PP->I-NP(I-NP) I-PP,I-NP
+I-PP->B-VP(B-VP) I-PP,B-VP
+I-PP->I-VP(I-VP) I-PP,I-VP
+I-PP->B-SBAR(B-SBAR) I-PP,B-SBAR
+I-PP->B-ADJP(B-ADJP) I-PP,B-ADJP
+I-PP->B-ADVP(B-ADVP) I-PP,B-ADVP
+I-PP->I-ADVP(I-ADVP) I-PP,I-ADVP
+I-PP->I-ADJP(I-ADJP) I-PP,I-ADJP
+I-PP->I-SBAR(I-SBAR) I-PP,I-SBAR
+I-PP->I-PP(I-PP) I-PP,I-PP
+I-PP->B-PRT(B-PRT) I-PP,B-PRT
+I-PP->B-LST(B-LST) I-PP,B-LST
+I-PP->B-INTJ(B-INTJ) I-PP,B-INTJ
+I-PP->I-INTJ(I-INTJ) I-PP,I-INTJ
+I-PP->B-CONJP(B-CONJP) I-PP,B-CONJP
+I-PP->I-CONJP(I-CONJP) I-PP,I-CONJP
+I-PP->I-PRT(I-PRT) I-PP,I-PRT
+I-PP->B-UCP(B-UCP) I-PP,B-UCP
+I-PP->I-UCP(I-UCP) I-PP,I-UCP
+State #12 "I-PP"
+initialWeight=0.0, finalWeight=0.0
+#destinations=22
+-> O
+-> B-NP
+-> B-PP
+-> I-NP
+-> B-VP
+-> I-VP
+-> B-SBAR
+-> B-ADJP
+-> B-ADVP
+-> I-ADVP
+-> I-ADJP
+-> I-SBAR
+-> I-PP
+-> B-PRT
+-> B-LST
+-> B-INTJ
+-> I-INTJ
+-> B-CONJP
+-> I-CONJP
+-> I-PRT
+-> B-UCP
+-> I-UCP
+Preparing B-PRT
+B-PRT->O(O) B-PRT,O
+B-PRT->B-NP(B-NP) B-PRT,B-NP
+B-PRT->B-PP(B-PP) B-PRT,B-PP
+B-PRT->I-NP(I-NP) B-PRT,I-NP
+B-PRT->B-VP(B-VP) B-PRT,B-VP
+B-PRT->I-VP(I-VP) B-PRT,I-VP
+B-PRT->B-SBAR(B-SBAR) B-PRT,B-SBAR
+B-PRT->B-ADJP(B-ADJP) B-PRT,B-ADJP
+B-PRT->B-ADVP(B-ADVP) B-PRT,B-ADVP
+B-PRT->I-ADVP(I-ADVP) B-PRT,I-ADVP
+B-PRT->I-ADJP(I-ADJP) B-PRT,I-ADJP
+B-PRT->I-SBAR(I-SBAR) B-PRT,I-SBAR
+B-PRT->I-PP(I-PP) B-PRT,I-PP
+B-PRT->B-PRT(B-PRT) B-PRT,B-PRT
+B-PRT->B-LST(B-LST) B-PRT,B-LST
+B-PRT->B-INTJ(B-INTJ) B-PRT,B-INTJ
+B-PRT->I-INTJ(I-INTJ) B-PRT,I-INTJ
+B-PRT->B-CONJP(B-CONJP) B-PRT,B-CONJP
+B-PRT->I-CONJP(I-CONJP) B-PRT,I-CONJP
+B-PRT->I-PRT(I-PRT) B-PRT,I-PRT
+B-PRT->B-UCP(B-UCP) B-PRT,B-UCP
+B-PRT->I-UCP(I-UCP) B-PRT,I-UCP
+State #13 "B-PRT"
+initialWeight=0.0, finalWeight=0.0
+#destinations=22
+-> O
+-> B-NP
+-> B-PP
+-> I-NP
+-> B-VP
+-> I-VP
+-> B-SBAR
+-> B-ADJP
+-> B-ADVP
+-> I-ADVP
+-> I-ADJP
+-> I-SBAR
+-> I-PP
+-> B-PRT
+-> B-LST
+-> B-INTJ
+-> I-INTJ
+-> B-CONJP
+-> I-CONJP
+-> I-PRT
+-> B-UCP
+-> I-UCP
+Preparing B-LST
+B-LST->O(O) B-LST,O
+B-LST->B-NP(B-NP) B-LST,B-NP
+B-LST->B-PP(B-PP) B-LST,B-PP
+B-LST->I-NP(I-NP) B-LST,I-NP
+B-LST->B-VP(B-VP) B-LST,B-VP
+B-LST->I-VP(I-VP) B-LST,I-VP
+B-LST->B-SBAR(B-SBAR) B-LST,B-SBAR
+B-LST->B-ADJP(B-ADJP) B-LST,B-ADJP
+B-LST->B-ADVP(B-ADVP) B-LST,B-ADVP
+B-LST->I-ADVP(I-ADVP) B-LST,I-ADVP
+B-LST->I-ADJP(I-ADJP) B-LST,I-ADJP
+B-LST->I-SBAR(I-SBAR) B-LST,I-SBAR
+B-LST->I-PP(I-PP) B-LST,I-PP
+B-LST->B-PRT(B-PRT) B-LST,B-PRT
+B-LST->B-LST(B-LST) B-LST,B-LST
+B-LST->B-INTJ(B-INTJ) B-LST,B-INTJ
+B-LST->I-INTJ(I-INTJ) B-LST,I-INTJ
+B-LST->B-CONJP(B-CONJP) B-LST,B-CONJP
+B-LST->I-CONJP(I-CONJP) B-LST,I-CONJP
+B-LST->I-PRT(I-PRT) B-LST,I-PRT
+B-LST->B-UCP(B-UCP) B-LST,B-UCP
+B-LST->I-UCP(I-UCP) B-LST,I-UCP
+State #14 "B-LST"
+initialWeight=0.0, finalWeight=0.0
+#destinations=22
+-> O
+-> B-NP
+-> B-PP
+-> I-NP
+-> B-VP
+-> I-VP
+-> B-SBAR
+-> B-ADJP
+-> B-ADVP
+-> I-ADVP
+-> I-ADJP
+-> I-SBAR
+-> I-PP
+-> B-PRT
+-> B-LST
+-> B-INTJ
+-> I-INTJ
+-> B-CONJP
+-> I-CONJP
+-> I-PRT
+-> B-UCP
+-> I-UCP
+Preparing B-INTJ
+B-INTJ->O(O) B-INTJ,O
+B-INTJ->B-NP(B-NP) B-INTJ,B-NP
+B-INTJ->B-PP(B-PP) B-INTJ,B-PP
+B-INTJ->I-NP(I-NP) B-INTJ,I-NP
+B-INTJ->B-VP(B-VP) B-INTJ,B-VP
+B-INTJ->I-VP(I-VP) B-INTJ,I-VP
+B-INTJ->B-SBAR(B-SBAR) B-INTJ,B-SBAR
+B-INTJ->B-ADJP(B-ADJP) B-INTJ,B-ADJP
+B-INTJ->B-ADVP(B-ADVP) B-INTJ,B-ADVP
+B-INTJ->I-ADVP(I-ADVP) B-INTJ,I-ADVP
+B-INTJ->I-ADJP(I-ADJP) B-INTJ,I-ADJP
+B-INTJ->I-SBAR(I-SBAR) B-INTJ,I-SBAR
+B-INTJ->I-PP(I-PP) B-INTJ,I-PP
+B-INTJ->B-PRT(B-PRT) B-INTJ,B-PRT
+B-INTJ->B-LST(B-LST) B-INTJ,B-LST
+B-INTJ->B-INTJ(B-INTJ) B-INTJ,B-INTJ
+B-INTJ->I-INTJ(I-INTJ) B-INTJ,I-INTJ
+B-INTJ->B-CONJP(B-CONJP) B-INTJ,B-CONJP
+B-INTJ->I-CONJP(I-CONJP) B-INTJ,I-CONJP
+B-INTJ->I-PRT(I-PRT) B-INTJ,I-PRT
+B-INTJ->B-UCP(B-UCP) B-INTJ,B-UCP
+B-INTJ->I-UCP(I-UCP) B-INTJ,I-UCP
+State #15 "B-INTJ"
+initialWeight=0.0, finalWeight=0.0
+#destinations=22
+-> O
+-> B-NP
+-> B-PP
+-> I-NP
+-> B-VP
+-> I-VP
+-> B-SBAR
+-> B-ADJP
+-> B-ADVP
+-> I-ADVP
+-> I-ADJP
+-> I-SBAR
+-> I-PP
+-> B-PRT
+-> B-LST
+-> B-INTJ
+-> I-INTJ
+-> B-CONJP
+-> I-CONJP
+-> I-PRT
+-> B-UCP
+-> I-UCP
+Preparing I-INTJ
+I-INTJ->O(O) I-INTJ,O
+I-INTJ->B-NP(B-NP) I-INTJ,B-NP
+I-INTJ->B-PP(B-PP) I-INTJ,B-PP
+I-INTJ->I-NP(I-NP) I-INTJ,I-NP
+I-INTJ->B-VP(B-VP) I-INTJ,B-VP
+I-INTJ->I-VP(I-VP) I-INTJ,I-VP
+I-INTJ->B-SBAR(B-SBAR) I-INTJ,B-SBAR
+I-INTJ->B-ADJP(B-ADJP) I-INTJ,B-ADJP
+I-INTJ->B-ADVP(B-ADVP) I-INTJ,B-ADVP
+I-INTJ->I-ADVP(I-ADVP) I-INTJ,I-ADVP
+I-INTJ->I-ADJP(I-ADJP) I-INTJ,I-ADJP
+I-INTJ->I-SBAR(I-SBAR) I-INTJ,I-SBAR
+I-INTJ->I-PP(I-PP) I-INTJ,I-PP
+I-INTJ->B-PRT(B-PRT) I-INTJ,B-PRT
+I-INTJ->B-LST(B-LST) I-INTJ,B-LST
+I-INTJ->B-INTJ(B-INTJ) I-INTJ,B-INTJ
+I-INTJ->I-INTJ(I-INTJ) I-INTJ,I-INTJ
+I-INTJ->B-CONJP(B-CONJP) I-INTJ,B-CONJP
+I-INTJ->I-CONJP(I-CONJP) I-INTJ,I-CONJP
+I-INTJ->I-PRT(I-PRT) I-INTJ,I-PRT
+I-INTJ->B-UCP(B-UCP) I-INTJ,B-UCP
+I-INTJ->I-UCP(I-UCP) I-INTJ,I-UCP
+State #16 "I-INTJ"
+initialWeight=0.0, finalWeight=0.0
+#destinations=22
+-> O
+-> B-NP
+-> B-PP
+-> I-NP
+-> B-VP
+-> I-VP
+-> B-SBAR
+-> B-ADJP
+-> B-ADVP
+-> I-ADVP
+-> I-ADJP
+-> I-SBAR
+-> I-PP
+-> B-PRT
+-> B-LST
+-> B-INTJ
+-> I-INTJ
+-> B-CONJP
+-> I-CONJP
+-> I-PRT
+-> B-UCP
+-> I-UCP
+Preparing B-CONJP
+B-CONJP->O(O) B-CONJP,O
+B-CONJP->B-NP(B-NP) B-CONJP,B-NP
+B-CONJP->B-PP(B-PP) B-CONJP,B-PP
+B-CONJP->I-NP(I-NP) B-CONJP,I-NP
+B-CONJP->B-VP(B-VP) B-CONJP,B-VP
+B-CONJP->I-VP(I-VP) B-CONJP,I-VP
+B-CONJP->B-SBAR(B-SBAR) B-CONJP,B-SBAR
+B-CONJP->B-ADJP(B-ADJP) B-CONJP,B-ADJP
+B-CONJP->B-ADVP(B-ADVP) B-CONJP,B-ADVP
+B-CONJP->I-ADVP(I-ADVP) B-CONJP,I-ADVP
+B-CONJP->I-ADJP(I-ADJP) B-CONJP,I-ADJP
+B-CONJP->I-SBAR(I-SBAR) B-CONJP,I-SBAR
+B-CONJP->I-PP(I-PP) B-CONJP,I-PP
+B-CONJP->B-PRT(B-PRT) B-CONJP,B-PRT
+B-CONJP->B-LST(B-LST) B-CONJP,B-LST
+B-CONJP->B-INTJ(B-INTJ) B-CONJP,B-INTJ
+B-CONJP->I-INTJ(I-INTJ) B-CONJP,I-INTJ
+B-CONJP->B-CONJP(B-CONJP) B-CONJP,B-CONJP
+B-CONJP->I-CONJP(I-CONJP) B-CONJP,I-CONJP
+B-CONJP->I-PRT(I-PRT) B-CONJP,I-PRT
+B-CONJP->B-UCP(B-UCP) B-CONJP,B-UCP
+B-CONJP->I-UCP(I-UCP) B-CONJP,I-UCP
+State #17 "B-CONJP"
+initialWeight=0.0, finalWeight=0.0
+#destinations=22
+-> O
+-> B-NP
+-> B-PP
+-> I-NP
+-> B-VP
+-> I-VP
+-> B-SBAR
+-> B-ADJP
+-> B-ADVP
+-> I-ADVP
+-> I-ADJP
+-> I-SBAR
+-> I-PP
+-> B-PRT
+-> B-LST
+-> B-INTJ
+-> I-INTJ
+-> B-CONJP
+-> I-CONJP
+-> I-PRT
+-> B-UCP
+-> I-UCP
+Preparing I-CONJP
+I-CONJP->O(O) I-CONJP,O
+I-CONJP->B-NP(B-NP) I-CONJP,B-NP
+I-CONJP->B-PP(B-PP) I-CONJP,B-PP
+I-CONJP->I-NP(I-NP) I-CONJP,I-NP
+I-CONJP->B-VP(B-VP) I-CONJP,B-VP
+I-CONJP->I-VP(I-VP) I-CONJP,I-VP
+I-CONJP->B-SBAR(B-SBAR) I-CONJP,B-SBAR
+I-CONJP->B-ADJP(B-ADJP) I-CONJP,B-ADJP
+I-CONJP->B-ADVP(B-ADVP) I-CONJP,B-ADVP
+I-CONJP->I-ADVP(I-ADVP) I-CONJP,I-ADVP
+I-CONJP->I-ADJP(I-ADJP) I-CONJP,I-ADJP
+I-CONJP->I-SBAR(I-SBAR) I-CONJP,I-SBAR
+I-CONJP->I-PP(I-PP) I-CONJP,I-PP
+I-CONJP->B-PRT(B-PRT) I-CONJP,B-PRT
+I-CONJP->B-LST(B-LST) I-CONJP,B-LST
+I-CONJP->B-INTJ(B-INTJ) I-CONJP,B-INTJ
+I-CONJP->I-INTJ(I-INTJ) I-CONJP,I-INTJ
+I-CONJP->B-CONJP(B-CONJP) I-CONJP,B-CONJP
+I-CONJP->I-CONJP(I-CONJP) I-CONJP,I-CONJP
+I-CONJP->I-PRT(I-PRT) I-CONJP,I-PRT
+I-CONJP->B-UCP(B-UCP) I-CONJP,B-UCP
+I-CONJP->I-UCP(I-UCP) I-CONJP,I-UCP
+State #18 "I-CONJP"
+initialWeight=0.0, finalWeight=0.0
+#destinations=22
+-> O
+-> B-NP
+-> B-PP
+-> I-NP
+-> B-VP
+-> I-VP
+-> B-SBAR
+-> B-ADJP
+-> B-ADVP
+-> I-ADVP
+-> I-ADJP
+-> I-SBAR
+-> I-PP
+-> B-PRT
+-> B-LST
+-> B-INTJ
+-> I-INTJ
+-> B-CONJP
+-> I-CONJP
+-> I-PRT
+-> B-UCP
+-> I-UCP
+Preparing I-PRT
+I-PRT->O(O) I-PRT,O
+I-PRT->B-NP(B-NP) I-PRT,B-NP
+I-PRT->B-PP(B-PP) I-PRT,B-PP
+I-PRT->I-NP(I-NP) I-PRT,I-NP
+I-PRT->B-VP(B-VP) I-PRT,B-VP
+I-PRT->I-VP(I-VP) I-PRT,I-VP
+I-PRT->B-SBAR(B-SBAR) I-PRT,B-SBAR
+I-PRT->B-ADJP(B-ADJP) I-PRT,B-ADJP
+I-PRT->B-ADVP(B-ADVP) I-PRT,B-ADVP
+I-PRT->I-ADVP(I-ADVP) I-PRT,I-ADVP
+I-PRT->I-ADJP(I-ADJP) I-PRT,I-ADJP
+I-PRT->I-SBAR(I-SBAR) I-PRT,I-SBAR
+I-PRT->I-PP(I-PP) I-PRT,I-PP
+I-PRT->B-PRT(B-PRT) I-PRT,B-PRT
+I-PRT->B-LST(B-LST) I-PRT,B-LST
+I-PRT->B-INTJ(B-INTJ) I-PRT,B-INTJ
+I-PRT->I-INTJ(I-INTJ) I-PRT,I-INTJ
+I-PRT->B-CONJP(B-CONJP) I-PRT,B-CONJP
+I-PRT->I-CONJP(I-CONJP) I-PRT,I-CONJP
+I-PRT->I-PRT(I-PRT) I-PRT,I-PRT
+I-PRT->B-UCP(B-UCP) I-PRT,B-UCP
+I-PRT->I-UCP(I-UCP) I-PRT,I-UCP
+State #19 "I-PRT"
+initialWeight=0.0, finalWeight=0.0
+#destinations=22
+-> O
+-> B-NP
+-> B-PP
+-> I-NP
+-> B-VP
+-> I-VP
+-> B-SBAR
+-> B-ADJP
+-> B-ADVP
+-> I-ADVP
+-> I-ADJP
+-> I-SBAR
+-> I-PP
+-> B-PRT
+-> B-LST
+-> B-INTJ
+-> I-INTJ
+-> B-CONJP
+-> I-CONJP
+-> I-PRT
+-> B-UCP
+-> I-UCP
+Preparing B-UCP
+B-UCP->O(O) B-UCP,O
+B-UCP->B-NP(B-NP) B-UCP,B-NP
+B-UCP->B-PP(B-PP) B-UCP,B-PP
+B-UCP->I-NP(I-NP) B-UCP,I-NP
+B-UCP->B-VP(B-VP) B-UCP,B-VP
+B-UCP->I-VP(I-VP) B-UCP,I-VP
+B-UCP->B-SBAR(B-SBAR) B-UCP,B-SBAR
+B-UCP->B-ADJP(B-ADJP) B-UCP,B-ADJP
+B-UCP->B-ADVP(B-ADVP) B-UCP,B-ADVP
+B-UCP->I-ADVP(I-ADVP) B-UCP,I-ADVP
+B-UCP->I-ADJP(I-ADJP) B-UCP,I-ADJP
+B-UCP->I-SBAR(I-SBAR) B-UCP,I-SBAR
+B-UCP->I-PP(I-PP) B-UCP,I-PP
+B-UCP->B-PRT(B-PRT) B-UCP,B-PRT
+B-UCP->B-LST(B-LST) B-UCP,B-LST
+B-UCP->B-INTJ(B-INTJ) B-UCP,B-INTJ
+B-UCP->I-INTJ(I-INTJ) B-UCP,I-INTJ
+B-UCP->B-CONJP(B-CONJP) B-UCP,B-CONJP
+B-UCP->I-CONJP(I-CONJP) B-UCP,I-CONJP
+B-UCP->I-PRT(I-PRT) B-UCP,I-PRT
+B-UCP->B-UCP(B-UCP) B-UCP,B-UCP
+B-UCP->I-UCP(I-UCP) B-UCP,I-UCP
+State #20 "B-UCP"
+initialWeight=0.0, finalWeight=0.0
+#destinations=22
+-> O
+-> B-NP
+-> B-PP
+-> I-NP
+-> B-VP
+-> I-VP
+-> B-SBAR
+-> B-ADJP
+-> B-ADVP
+-> I-ADVP
+-> I-ADJP
+-> I-SBAR
+-> I-PP
+-> B-PRT
+-> B-LST
+-> B-INTJ
+-> I-INTJ
+-> B-CONJP
+-> I-CONJP
+-> I-PRT
+-> B-UCP
+-> I-UCP
+Preparing I-UCP
+I-UCP->O(O) I-UCP,O
+I-UCP->B-NP(B-NP) I-UCP,B-NP
+I-UCP->B-PP(B-PP) I-UCP,B-PP
+I-UCP->I-NP(I-NP) I-UCP,I-NP
+I-UCP->B-VP(B-VP) I-UCP,B-VP
+I-UCP->I-VP(I-VP) I-UCP,I-VP
+I-UCP->B-SBAR(B-SBAR) I-UCP,B-SBAR
+I-UCP->B-ADJP(B-ADJP) I-UCP,B-ADJP
+I-UCP->B-ADVP(B-ADVP) I-UCP,B-ADVP
+I-UCP->I-ADVP(I-ADVP) I-UCP,I-ADVP
+I-UCP->I-ADJP(I-ADJP) I-UCP,I-ADJP
+I-UCP->I-SBAR(I-SBAR) I-UCP,I-SBAR
+I-UCP->I-PP(I-PP) I-UCP,I-PP
+I-UCP->B-PRT(B-PRT) I-UCP,B-PRT
+I-UCP->B-LST(B-LST) I-UCP,B-LST
+I-UCP->B-INTJ(B-INTJ) I-UCP,B-INTJ
+I-UCP->I-INTJ(I-INTJ) I-UCP,I-INTJ
+I-UCP->B-CONJP(B-CONJP) I-UCP,B-CONJP
+I-UCP->I-CONJP(I-CONJP) I-UCP,I-CONJP
+I-UCP->I-PRT(I-PRT) I-UCP,I-PRT
+I-UCP->B-UCP(B-UCP) I-UCP,B-UCP
+I-UCP->I-UCP(I-UCP) I-UCP,I-UCP
+State #21 "I-UCP"
+initialWeight=0.0, finalWeight=0.0
+#destinations=22
+-> O
+-> B-NP
+-> B-PP
+-> I-NP
+-> B-VP
+-> I-VP
+-> B-SBAR
+-> B-ADJP
+-> B-ADVP
+-> I-ADVP
+-> I-ADJP
+-> I-SBAR
+-> I-PP
+-> B-PRT
+-> B-LST
+-> B-INTJ
+-> I-INTJ
+-> B-CONJP
+-> I-CONJP
+-> I-PRT
+-> B-UCP
+-> I-UCP
+Training on 8936 instances
+CRF: Incremental training detected.  Adding weights for some unsupported features...
+CRF weights[O,O] num features = 231
+CRF weights[O,B-NP] num features = 3247
+CRF weights[O,B-PP] num features = 159
+CRF weights[O,I-NP] num features = 0
+CRF weights[O,B-VP] num features = 1182
+CRF weights[O,I-VP] num features = 0
+CRF weights[O,B-SBAR] num features = 47
+CRF weights[O,B-ADJP] num features = 195
+CRF weights[O,B-ADVP] num features = 289
+CRF weights[O,I-ADVP] num features = 0
+CRF weights[O,I-ADJP] num features = 0
+CRF weights[O,I-SBAR] num features = 0
+CRF weights[O,I-PP] num features = 0
+CRF weights[O,B-PRT] num features = 2
+CRF weights[O,B-LST] num features = 8
+CRF weights[O,B-INTJ] num features = 30
+CRF weights[O,I-INTJ] num features = 0
+CRF weights[O,B-CONJP] num features = 10
+CRF weights[O,I-CONJP] num features = 0
+CRF weights[O,I-PRT] num features = 0
+CRF weights[O,B-UCP] num features = 0
+CRF weights[O,I-UCP] num features = 0
+CRF weights[B-NP,O] num features = 64
+CRF weights[B-NP,B-NP] num features = 276
+CRF weights[B-NP,B-PP] num features = 78
+CRF weights[B-NP,I-NP] num features = 8918
+CRF weights[B-NP,B-VP] num features = 1253
+CRF weights[B-NP,I-VP] num features = 0
+CRF weights[B-NP,B-SBAR] num features = 24
+CRF weights[B-NP,B-ADJP] num features = 129
+CRF weights[B-NP,B-ADVP] num features = 162
+CRF weights[B-NP,I-ADVP] num features = 0
+CRF weights[B-NP,I-ADJP] num features = 0
+CRF weights[B-NP,I-SBAR] num features = 0
+CRF weights[B-NP,I-PP] num features = 0
+CRF weights[B-NP,B-PRT] num features = 10
+CRF weights[B-NP,B-LST] num features = 0
+CRF weights[B-NP,B-INTJ] num features = 0
+CRF weights[B-NP,I-INTJ] num features = 0
+CRF weights[B-NP,B-CONJP] num features = 4
+CRF weights[B-NP,I-CONJP] num features = 0
+CRF weights[B-NP,I-PRT] num features = 0
+CRF weights[B-NP,B-UCP] num features = 3
+CRF weights[B-NP,I-UCP] num features = 0
+CRF weights[B-PP,O] num features = 39
+CRF weights[B-PP,B-NP] num features = 4028
+CRF weights[B-PP,B-PP] num features = 24
+CRF weights[B-PP,I-NP] num features = 0
+CRF weights[B-PP,B-VP] num features = 336
+CRF weights[B-PP,I-VP] num features = 0
+CRF weights[B-PP,B-SBAR] num features = 7
+CRF weights[B-PP,B-ADJP] num features = 36
+CRF weights[B-PP,B-ADVP] num features = 39
+CRF weights[B-PP,I-ADVP] num features = 0
+CRF weights[B-PP,I-ADJP] num features = 0
+CRF weights[B-PP,I-SBAR] num features = 0
+CRF weights[B-PP,I-PP] num features = 39
+CRF weights[B-PP,B-PRT] num features = 0
+CRF weights[B-PP,B-LST] num features = 0
+CRF weights[B-PP,B-INTJ] num features = 0
+CRF weights[B-PP,I-INTJ] num features = 0
+CRF weights[B-PP,B-CONJP] num features = 0
+CRF weights[B-PP,I-CONJP] num features = 0
+CRF weights[B-PP,I-PRT] num features = 0
+CRF weights[B-PP,B-UCP] num features = 0
+CRF weights[B-PP,I-UCP] num features = 0
+CRF weights[I-NP,O] num features = 68
+CRF weights[I-NP,B-NP] num features = 263
+CRF weights[I-NP,B-PP] num features = 101
+CRF weights[I-NP,I-NP] num features = 6244
+CRF weights[I-NP,B-VP] num features = 1364
+CRF weights[I-NP,I-VP] num features = 0
+CRF weights[I-NP,B-SBAR] num features = 21
+CRF weights[I-NP,B-ADJP] num features = 122
+CRF weights[I-NP,B-ADVP] num features = 213
+CRF weights[I-NP,I-ADVP] num features = 0
+CRF weights[I-NP,I-ADJP] num features = 0
+CRF weights[I-NP,I-SBAR] num features = 0
+CRF weights[I-NP,I-PP] num features = 0
+CRF weights[I-NP,B-PRT] num features = 10
+CRF weights[I-NP,B-LST] num features = 0
+CRF weights[I-NP,B-INTJ] num features = 0
+CRF weights[I-NP,I-INTJ] num features = 0
+CRF weights[I-NP,B-CONJP] num features = 5
+CRF weights[I-NP,I-CONJP] num features = 0
+CRF weights[I-NP,I-PRT] num features = 0
+CRF weights[I-NP,B-UCP] num features = 0
+CRF weights[I-NP,I-UCP] num features = 0
+CRF weights[B-VP,O] num features = 53
+CRF weights[B-VP,B-NP] num features = 1771
+CRF weights[B-VP,B-PP] num features = 67
+CRF weights[B-VP,I-NP] num features = 0
+CRF weights[B-VP,B-VP] num features = 50
+CRF weights[B-VP,I-VP] num features = 1886
+CRF weights[B-VP,B-SBAR] num features = 17
+CRF weights[B-VP,B-ADJP] num features = 418
+CRF weights[B-VP,B-ADVP] num features = 219
+CRF weights[B-VP,I-ADVP] num features = 0
+CRF weights[B-VP,I-ADJP] num features = 0
+CRF weights[B-VP,I-SBAR] num features = 0
+CRF weights[B-VP,I-PP] num features = 0
+CRF weights[B-VP,B-PRT] num features = 22
+CRF weights[B-VP,B-LST] num features = 0
+CRF weights[B-VP,B-INTJ] num features = 2
+CRF weights[B-VP,I-INTJ] num features = 0
+CRF weights[B-VP,B-CONJP] num features = 3
+CRF weights[B-VP,I-CONJP] num features = 0
+CRF weights[B-VP,I-PRT] num features = 0
+CRF weights[B-VP,B-UCP] num features = 0
+CRF weights[B-VP,I-UCP] num features = 0
+CRF weights[I-VP,O] num features = 44
+CRF weights[I-VP,B-NP] num features = 1113
+CRF weights[I-VP,B-PP] num features = 61
+CRF weights[I-VP,I-NP] num features = 0
+CRF weights[I-VP,B-VP] num features = 31
+CRF weights[I-VP,I-VP] num features = 1303
+CRF weights[I-VP,B-SBAR] num features = 21
+CRF weights[I-VP,B-ADJP] num features = 207
+CRF weights[I-VP,B-ADVP] num features = 166
+CRF weights[I-VP,I-ADVP] num features = 0
+CRF weights[I-VP,I-ADJP] num features = 0
+CRF weights[I-VP,I-SBAR] num features = 0
+CRF weights[I-VP,I-PP] num features = 0
+CRF weights[I-VP,B-PRT] num features = 20
+CRF weights[I-VP,B-LST] num features = 0
+CRF weights[I-VP,B-INTJ] num features = 0
+CRF weights[I-VP,I-INTJ] num features = 0
+CRF weights[I-VP,B-CONJP] num features = 2
+CRF weights[I-VP,I-CONJP] num features = 0
+CRF weights[I-VP,I-PRT] num features = 0
+CRF weights[I-VP,B-UCP] num features = 0
+CRF weights[I-VP,I-UCP] num features = 0
+CRF weights[B-SBAR,O] num features = 22
+CRF weights[B-SBAR,B-NP] num features = 487
+CRF weights[B-SBAR,B-PP] num features = 22
+CRF weights[B-SBAR,I-NP] num features = 0
+CRF weights[B-SBAR,B-VP] num features = 72
+CRF weights[B-SBAR,I-VP] num features = 0
+CRF weights[B-SBAR,B-SBAR] num features = 8
+CRF weights[B-SBAR,B-ADJP] num features = 7
+CRF weights[B-SBAR,B-ADVP] num features = 19
+CRF weights[B-SBAR,I-ADVP] num features = 0
+CRF weights[B-SBAR,I-ADJP] num features = 0
+CRF weights[B-SBAR,I-SBAR] num features = 11
+CRF weights[B-SBAR,I-PP] num features = 0
+CRF weights[B-SBAR,B-PRT] num features = 0
+CRF weights[B-SBAR,B-LST] num features = 2
+CRF weights[B-SBAR,B-INTJ] num features = 0
+CRF weights[B-SBAR,I-INTJ] num features = 0
+CRF weights[B-SBAR,B-CONJP] num features = 0
+CRF weights[B-SBAR,I-CONJP] num features = 0
+CRF weights[B-SBAR,I-PRT] num features = 0
+CRF weights[B-SBAR,B-UCP] num features = 0
+CRF weights[B-SBAR,I-UCP] num features = 0
+CRF weights[B-ADJP,O] num features = 45
+CRF weights[B-ADJP,B-NP] num features = 76
+CRF weights[B-ADJP,B-PP] num features = 37
+CRF weights[B-ADJP,I-NP] num features = 0
+CRF weights[B-ADJP,B-VP] num features = 26
+CRF weights[B-ADJP,I-VP] num features = 0
+CRF weights[B-ADJP,B-SBAR] num features = 20
+CRF weights[B-ADJP,B-ADJP] num features = 5
+CRF weights[B-ADJP,B-ADVP] num features = 23
+CRF weights[B-ADJP,I-ADVP] num features = 0
+CRF weights[B-ADJP,I-ADJP] num features = 330
+CRF weights[B-ADJP,I-SBAR] num features = 0
+CRF weights[B-ADJP,I-PP] num features = 0
+CRF weights[B-ADJP,B-PRT] num features = 2
+CRF weights[B-ADJP,B-LST] num features = 0
+CRF weights[B-ADJP,B-INTJ] num features = 0
+CRF weights[B-ADJP,I-INTJ] num features = 0
+CRF weights[B-ADJP,B-CONJP] num features = 0
+CRF weights[B-ADJP,I-CONJP] num features = 0
+CRF weights[B-ADJP,I-PRT] num features = 0
+CRF weights[B-ADJP,B-UCP] num features = 0
+CRF weights[B-ADJP,I-UCP] num features = 0
+CRF weights[B-ADVP,O] num features = 45
+CRF weights[B-ADVP,B-NP] num features = 336
+CRF weights[B-ADVP,B-PP] num features = 51
+CRF weights[B-ADVP,I-NP] num features = 0
+CRF weights[B-ADVP,B-VP] num features = 442
+CRF weights[B-ADVP,I-VP] num features = 0
+CRF weights[B-ADVP,B-SBAR] num features = 13
+CRF weights[B-ADVP,B-ADJP] num features = 71
+CRF weights[B-ADVP,B-ADVP] num features = 48
+CRF weights[B-ADVP,I-ADVP] num features = 152
+CRF weights[B-ADVP,I-ADJP] num features = 0
+CRF weights[B-ADVP,I-SBAR] num features = 0
+CRF weights[B-ADVP,I-PP] num features = 0
+CRF weights[B-ADVP,B-PRT] num features = 2
+CRF weights[B-ADVP,B-LST] num features = 0
+CRF weights[B-ADVP,B-INTJ] num features = 0
+CRF weights[B-ADVP,I-INTJ] num features = 0
+CRF weights[B-ADVP,B-CONJP] num features = 2
+CRF weights[B-ADVP,I-CONJP] num features = 0
+CRF weights[B-ADVP,I-PRT] num features = 0
+CRF weights[B-ADVP,B-UCP] num features = 0
+CRF weights[B-ADVP,I-UCP] num features = 0
+CRF weights[I-ADVP,O] num features = 17
+CRF weights[I-ADVP,B-NP] num features = 59
+CRF weights[I-ADVP,B-PP] num features = 23
+CRF weights[I-ADVP,I-NP] num features = 0
+CRF weights[I-ADVP,B-VP] num features = 29
+CRF weights[I-ADVP,I-VP] num features = 0
+CRF weights[I-ADVP,B-SBAR] num features = 7
+CRF weights[I-ADVP,B-ADJP] num features = 8
+CRF weights[I-ADVP,B-ADVP] num features = 20
+CRF weights[I-ADVP,I-ADVP] num features = 58
+CRF weights[I-ADVP,I-ADJP] num features = 0
+CRF weights[I-ADVP,I-SBAR] num features = 0
+CRF weights[I-ADVP,I-PP] num features = 0
+CRF weights[I-ADVP,B-PRT] num features = 0
+CRF weights[I-ADVP,B-LST] num features = 0
+CRF weights[I-ADVP,B-INTJ] num features = 0
+CRF weights[I-ADVP,I-INTJ] num features = 0
+CRF weights[I-ADVP,B-CONJP] num features = 0
+CRF weights[I-ADVP,I-CONJP] num features = 0
+CRF weights[I-ADVP,I-PRT] num features = 0
+CRF weights[I-ADVP,B-UCP] num features = 0
+CRF weights[I-ADVP,I-UCP] num features = 0
+CRF weights[I-ADJP,O] num features = 15
+CRF weights[I-ADJP,B-NP] num features = 57
+CRF weights[I-ADJP,B-PP] num features = 25
+CRF weights[I-ADJP,I-NP] num features = 0
+CRF weights[I-ADJP,B-VP] num features = 10
+CRF weights[I-ADJP,I-VP] num features = 0
+CRF weights[I-ADJP,B-SBAR] num features = 11
+CRF weights[I-ADJP,B-ADJP] num features = 12
+CRF weights[I-ADJP,B-ADVP] num features = 13
+CRF weights[I-ADJP,I-ADVP] num features = 0
+CRF weights[I-ADJP,I-ADJP] num features = 96
+CRF weights[I-ADJP,I-SBAR] num features = 0
+CRF weights[I-ADJP,I-PP] num features = 0
+CRF weights[I-ADJP,B-PRT] num features = 0
+CRF weights[I-ADJP,B-LST] num features = 0
+CRF weights[I-ADJP,B-INTJ] num features = 0
+CRF weights[I-ADJP,I-INTJ] num features = 0
+CRF weights[I-ADJP,B-CONJP] num features = 0
+CRF weights[I-ADJP,I-CONJP] num features = 0
+CRF weights[I-ADJP,I-PRT] num features = 0
+CRF weights[I-ADJP,B-UCP] num features = 0
+CRF weights[I-ADJP,I-UCP] num features = 0
+CRF weights[I-SBAR,O] num features = 0
+CRF weights[I-SBAR,B-NP] num features = 41
+CRF weights[I-SBAR,B-PP] num features = 2
+CRF weights[I-SBAR,I-NP] num features = 0
+CRF weights[I-SBAR,B-VP] num features = 2
+CRF weights[I-SBAR,I-VP] num features = 0
+CRF weights[I-SBAR,B-SBAR] num features = 0
+CRF weights[I-SBAR,B-ADJP] num features = 0
+CRF weights[I-SBAR,B-ADVP] num features = 0
+CRF weights[I-SBAR,I-ADVP] num features = 0
+CRF weights[I-SBAR,I-ADJP] num features = 0
+CRF weights[I-SBAR,I-SBAR] num features = 0
+CRF weights[I-SBAR,I-PP] num features = 0
+CRF weights[I-SBAR,B-PRT] num features = 0
+CRF weights[I-SBAR,B-LST] num features = 0
+CRF weights[I-SBAR,B-INTJ] num features = 0
+CRF weights[I-SBAR,I-INTJ] num features = 0
+CRF weights[I-SBAR,B-CONJP] num features = 0
+CRF weights[I-SBAR,I-CONJP] num features = 0
+CRF weights[I-SBAR,I-PRT] num features = 0
+CRF weights[I-SBAR,B-UCP] num features = 0
+CRF weights[I-SBAR,I-UCP] num features = 0
+CRF weights[I-PP,O] num features = 8
+CRF weights[I-PP,B-NP] num features = 143
+CRF weights[I-PP,B-PP] num features = 10
+CRF weights[I-PP,I-NP] num features = 0
+CRF weights[I-PP,B-VP] num features = 12
+CRF weights[I-PP,I-VP] num features = 0
+CRF weights[I-PP,B-SBAR] num features = 0
+CRF weights[I-PP,B-ADJP] num features = 2
+CRF weights[I-PP,B-ADVP] num features = 7
+CRF weights[I-PP,I-ADVP] num features = 0
+CRF weights[I-PP,I-ADJP] num features = 0
+CRF weights[I-PP,I-SBAR] num features = 0
+CRF weights[I-PP,I-PP] num features = 16
+CRF weights[I-PP,B-PRT] num features = 0
+CRF weights[I-PP,B-LST] num features = 0
+CRF weights[I-PP,B-INTJ] num features = 0
+CRF weights[I-PP,I-INTJ] num features = 0
+CRF weights[I-PP,B-CONJP] num features = 0
+CRF weights[I-PP,I-CONJP] num features = 0
+CRF weights[I-PP,I-PRT] num features = 0
+CRF weights[I-PP,B-UCP] num features = 0
+CRF weights[I-PP,I-UCP] num features = 0
+CRF weights[B-PRT,O] num features = 19
+CRF weights[B-PRT,B-NP] num features = 140
+CRF weights[B-PRT,B-PP] num features = 23
+CRF weights[B-PRT,I-NP] num features = 0
+CRF weights[B-PRT,B-VP] num features = 13
+CRF weights[B-PRT,I-VP] num features = 0
+CRF weights[B-PRT,B-SBAR] num features = 7
+CRF weights[B-PRT,B-ADJP] num features = 2
+CRF weights[B-PRT,B-ADVP] num features = 16
+CRF weights[B-PRT,I-ADVP] num features = 0
+CRF weights[B-PRT,I-ADJP] num features = 0
+CRF weights[B-PRT,I-SBAR] num features = 0
+CRF weights[B-PRT,I-PP] num features = 0
+CRF weights[B-PRT,B-PRT] num features = 0
+CRF weights[B-PRT,B-LST] num features = 0
+CRF weights[B-PRT,B-INTJ] num features = 0
+CRF weights[B-PRT,I-INTJ] num features = 0
+CRF weights[B-PRT,B-CONJP] num features = 0
+CRF weights[B-PRT,I-CONJP] num features = 0
+CRF weights[B-PRT,I-PRT] num features = 2
+CRF weights[B-PRT,B-UCP] num features = 0
+CRF weights[B-PRT,I-UCP] num features = 0
+CRF weights[B-LST,O] num features = 3
+CRF weights[B-LST,B-NP] num features = 0
+CRF weights[B-LST,B-PP] num features = 0
+CRF weights[B-LST,I-NP] num features = 0
+CRF weights[B-LST,B-VP] num features = 0
+CRF weights[B-LST,I-VP] num features = 0
+CRF weights[B-LST,B-SBAR] num features = 0
+CRF weights[B-LST,B-ADJP] num features = 0
+CRF weights[B-LST,B-ADVP] num features = 0
+CRF weights[B-LST,I-ADVP] num features = 0
+CRF weights[B-LST,I-ADJP] num features = 0
+CRF weights[B-LST,I-SBAR] num features = 0
+CRF weights[B-LST,I-PP] num features = 0
+CRF weights[B-LST,B-PRT] num features = 0
+CRF weights[B-LST,B-LST] num features = 0
+CRF weights[B-LST,B-INTJ] num features = 0
+CRF weights[B-LST,I-INTJ] num features = 0
+CRF weights[B-LST,B-CONJP] num features = 0
+CRF weights[B-LST,I-CONJP] num features = 0
+CRF weights[B-LST,I-PRT] num features = 0
+CRF weights[B-LST,B-UCP] num features = 0
+CRF weights[B-LST,I-UCP] num features = 0
+CRF weights[B-INTJ,O] num features = 4
+CRF weights[B-INTJ,B-NP] num features = 2
+CRF weights[B-INTJ,B-PP] num features = 2
+CRF weights[B-INTJ,I-NP] num features = 0
+CRF weights[B-INTJ,B-VP] num features = 3
+CRF weights[B-INTJ,I-VP] num features = 0
+CRF weights[B-INTJ,B-SBAR] num features = 0
+CRF weights[B-INTJ,B-ADJP] num features = 0
+CRF weights[B-INTJ,B-ADVP] num features = 2
+CRF weights[B-INTJ,I-ADVP] num features = 0
+CRF weights[B-INTJ,I-ADJP] num features = 0
+CRF weights[B-INTJ,I-SBAR] num features = 0
+CRF weights[B-INTJ,I-PP] num features = 0
+CRF weights[B-INTJ,B-PRT] num features = 0
+CRF weights[B-INTJ,B-LST] num features = 0
+CRF weights[B-INTJ,B-INTJ] num features = 0
+CRF weights[B-INTJ,I-INTJ] num features = 9
+CRF weights[B-INTJ,B-CONJP] num features = 0
+CRF weights[B-INTJ,I-CONJP] num features = 0
+CRF weights[B-INTJ,I-PRT] num features = 0
+CRF weights[B-INTJ,B-UCP] num features = 0
+CRF weights[B-INTJ,I-UCP] num features = 0
+CRF weights[I-INTJ,O] num features = 4
+CRF weights[I-INTJ,B-NP] num features = 0
+CRF weights[I-INTJ,B-PP] num features = 0
+CRF weights[I-INTJ,I-NP] num features = 0
+CRF weights[I-INTJ,B-VP] num features = 0
+CRF weights[I-INTJ,I-VP] num features = 0
+CRF weights[I-INTJ,B-SBAR] num features = 0
+CRF weights[I-INTJ,B-ADJP] num features = 0
+CRF weights[I-INTJ,B-ADVP] num features = 0
+CRF weights[I-INTJ,I-ADVP] num features = 0
+CRF weights[I-INTJ,I-ADJP] num features = 0
+CRF weights[I-INTJ,I-SBAR] num features = 0
+CRF weights[I-INTJ,I-PP] num features = 0
+CRF weights[I-INTJ,B-PRT] num features = 0
+CRF weights[I-INTJ,B-LST] num features = 0
+CRF weights[I-INTJ,B-INTJ] num features = 0
+CRF weights[I-INTJ,I-INTJ] num features = 5
+CRF weights[I-INTJ,B-CONJP] num features = 0
+CRF weights[I-INTJ,I-CONJP] num features = 0
+CRF weights[I-INTJ,I-PRT] num features = 0
+CRF weights[I-INTJ,B-UCP] num features = 0
+CRF weights[I-INTJ,I-UCP] num features = 0
+CRF weights[B-CONJP,O] num features = 4
+CRF weights[B-CONJP,B-NP] num features = 0
+CRF weights[B-CONJP,B-PP] num features = 0
+CRF weights[B-CONJP,I-NP] num features = 0
+CRF weights[B-CONJP,B-VP] num features = 0
+CRF weights[B-CONJP,I-VP] num features = 0
+CRF weights[B-CONJP,B-SBAR] num features = 0
+CRF weights[B-CONJP,B-ADJP] num features = 0
+CRF weights[B-CONJP,B-ADVP] num features = 0
+CRF weights[B-CONJP,I-ADVP] num features = 0
+CRF weights[B-CONJP,I-ADJP] num features = 0
+CRF weights[B-CONJP,I-SBAR] num features = 0
+CRF weights[B-CONJP,I-PP] num features = 0
+CRF weights[B-CONJP,B-PRT] num features = 0
+CRF weights[B-CONJP,B-LST] num features = 0
+CRF weights[B-CONJP,B-INTJ] num features = 0
+CRF weights[B-CONJP,I-INTJ] num features = 0
+CRF weights[B-CONJP,B-CONJP] num features = 0
+CRF weights[B-CONJP,I-CONJP] num features = 10
+CRF weights[B-CONJP,I-PRT] num features = 0
+CRF weights[B-CONJP,B-UCP] num features = 0
+CRF weights[B-CONJP,I-UCP] num features = 0
+CRF weights[I-CONJP,O] num features = 4
+CRF weights[I-CONJP,B-NP] num features = 34
+CRF weights[I-CONJP,B-PP] num features = 7
+CRF weights[I-CONJP,I-NP] num features = 0
+CRF weights[I-CONJP,B-VP] num features = 15
+CRF weights[I-CONJP,I-VP] num features = 0
+CRF weights[I-CONJP,B-SBAR] num features = 0
+CRF weights[I-CONJP,B-ADJP] num features = 2
+CRF weights[I-CONJP,B-ADVP] num features = 0
+CRF weights[I-CONJP,I-ADVP] num features = 0
+CRF weights[I-CONJP,I-ADJP] num features = 0
+CRF weights[I-CONJP,I-SBAR] num features = 0
+CRF weights[I-CONJP,I-PP] num features = 0
+CRF weights[I-CONJP,B-PRT] num features = 0
+CRF weights[I-CONJP,B-LST] num features = 0
+CRF weights[I-CONJP,B-INTJ] num features = 0
+CRF weights[I-CONJP,I-INTJ] num features = 0
+CRF weights[I-CONJP,B-CONJP] num features = 0
+CRF weights[I-CONJP,I-CONJP] num features = 2
+CRF weights[I-CONJP,I-PRT] num features = 0
+CRF weights[I-CONJP,B-UCP] num features = 0
+CRF weights[I-CONJP,I-UCP] num features = 0
+CRF weights[I-PRT,O] num features = 1
+CRF weights[I-PRT,B-NP] num features = 0
+CRF weights[I-PRT,B-PP] num features = 0
+CRF weights[I-PRT,I-NP] num features = 0
+CRF weights[I-PRT,B-VP] num features = 0
+CRF weights[I-PRT,I-VP] num features = 0
+CRF weights[I-PRT,B-SBAR] num features = 0
+CRF weights[I-PRT,B-ADJP] num features = 0
+CRF weights[I-PRT,B-ADVP] num features = 0
+CRF weights[I-PRT,I-ADVP] num features = 0
+CRF weights[I-PRT,I-ADJP] num features = 0
+CRF weights[I-PRT,I-SBAR] num features = 0
+CRF weights[I-PRT,I-PP] num features = 0
+CRF weights[I-PRT,B-PRT] num features = 0
+CRF weights[I-PRT,B-LST] num features = 0
+CRF weights[I-PRT,B-INTJ] num features = 0
+CRF weights[I-PRT,I-INTJ] num features = 0
+CRF weights[I-PRT,B-CONJP] num features = 0
+CRF weights[I-PRT,I-CONJP] num features = 0
+CRF weights[I-PRT,I-PRT] num features = 2
+CRF weights[I-PRT,B-UCP] num features = 0
+CRF weights[I-PRT,I-UCP] num features = 0
+CRF weights[B-UCP,O] num features = 0
+CRF weights[B-UCP,B-NP] num features = 0
+CRF weights[B-UCP,B-PP] num features = 0
+CRF weights[B-UCP,I-NP] num features = 0
+CRF weights[B-UCP,B-VP] num features = 0
+CRF weights[B-UCP,I-VP] num features = 0
+CRF weights[B-UCP,B-SBAR] num features = 0
+CRF weights[B-UCP,B-ADJP] num features = 0
+CRF weights[B-UCP,B-ADVP] num features = 0
+CRF weights[B-UCP,I-ADVP] num features = 0
+CRF weights[B-UCP,I-ADJP] num features = 0
+CRF weights[B-UCP,I-SBAR] num features = 0
+CRF weights[B-UCP,I-PP] num features = 0
+CRF weights[B-UCP,B-PRT] num features = 0
+CRF weights[B-UCP,B-LST] num features = 0
+CRF weights[B-UCP,B-INTJ] num features = 0
+CRF weights[B-UCP,I-INTJ] num features = 0
+CRF weights[B-UCP,B-CONJP] num features = 0
+CRF weights[B-UCP,I-CONJP] num features = 0
+CRF weights[B-UCP,I-PRT] num features = 0
+CRF weights[B-UCP,B-UCP] num features = 0
+CRF weights[B-UCP,I-UCP] num features = 3
+CRF weights[I-UCP,O] num features = 0
+CRF weights[I-UCP,B-NP] num features = 3
+CRF weights[I-UCP,B-PP] num features = 0
+CRF weights[I-UCP,I-NP] num features = 0
+CRF weights[I-UCP,B-VP] num features = 0
+CRF weights[I-UCP,I-VP] num features = 0
+CRF weights[I-UCP,B-SBAR] num features = 0
+CRF weights[I-UCP,B-ADJP] num features = 0
+CRF weights[I-UCP,B-ADVP] num features = 0
+CRF weights[I-UCP,I-ADVP] num features = 0
+CRF weights[I-UCP,I-ADJP] num features = 0
+CRF weights[I-UCP,I-SBAR] num features = 0
+CRF weights[I-UCP,I-PP] num features = 0
+CRF weights[I-UCP,B-PRT] num features = 0
+CRF weights[I-UCP,B-LST] num features = 0
+CRF weights[I-UCP,B-INTJ] num features = 0
+CRF weights[I-UCP,I-INTJ] num features = 0
+CRF weights[I-UCP,B-CONJP] num features = 0
+CRF weights[I-UCP,I-CONJP] num features = 0
+CRF weights[I-UCP,I-PRT] num features = 0
+CRF weights[I-UCP,B-UCP] num features = 0
+CRF weights[I-UCP,I-UCP] num features = 7
+Number of weights = 40669
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -654457.1455222
+getValue() (loglikelihood, optimizable by label likelihood) = -589495.2400420364
+attempted step too big. scaling: sum=120.65059986678769, stpmax=100.0
+getValue() (loglikelihood, optimizable by label likelihood) = -2479451.526726309
+getValue() (loglikelihood, optimizable by label likelihood) = -968195.9209163375
+getValue() (loglikelihood, optimizable by label likelihood) = -508988.4199759227
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -451078.9770785499
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -293271.6773657155
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -940093.2517969144
+getValue() (loglikelihood, optimizable by label likelihood) = -180353.21866516024
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -153490.62005963593
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -140681.9767251356
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -124669.37280635162
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -107994.23559600403
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -94434.4911399968
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -82162.82938733521
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -77610.23343881866
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -72058.29137216037
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -69694.37781537058
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -64358.69475965191
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -60062.86124008256
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -58210.01170205326
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -55311.36766922467
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -54282.69443970139
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -53569.33302837646
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -52243.25583237514
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -49607.48627594601
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -48152.594091957275
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -46692.93338492571
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -45689.23707346475
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -45041.7011896104
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -43574.83876652733
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -41733.81438234027
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -41514.88925334062
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -40202.53642333417
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -39804.41428334252
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -39360.141841134944
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -38945.306135606756
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -38481.21270046627
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -37737.41326035565
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -36554.90489986089
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -36220.287684373994
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -35780.26198578735
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -35631.68992394594
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -35372.977371656096
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -34973.09599832609
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -34245.0432296024
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -33949.53782813557
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -33491.890543625064
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -33058.29080796982
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -32842.41651026968
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -32584.910041071325
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -32015.713846494113
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -32274.367982095253
+getValue() (loglikelihood, optimizable by label likelihood) = -31707.24556051239
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -31474.56516298582
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -31260.63071793705
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -31145.77163288714
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -30925.818086855335
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -30442.23361846547
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -30493.62591195152
+getValue() (loglikelihood, optimizable by label likelihood) = -30195.02958778534
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -30009.57044063301
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -29902.155657270774
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -29655.778175147625
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -29275.887088788866
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -29262.442222152207
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -28781.019118022243
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -28699.032948205866
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -28621.216647587476
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -28450.28308321782
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -28279.470171220953
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -27895.6514147495
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -27950.859885731737
+getValue() (loglikelihood, optimizable by label likelihood) = -27762.100360332657
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -27615.27892476585
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -27253.86392099628
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -26831.633924823487
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -26644.558095807006
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -26383.693526543677
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -26279.67353864454
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -26187.233186073663
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -26005.432632568936
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -25718.743703822336
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -26240.197278378502
+getValue() (loglikelihood, optimizable by label likelihood) = -25619.992335045572
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -25359.62614374191
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -25197.258456505446
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -25027.72380046274
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -24856.434970824066
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -24677.19414122905
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -24473.70957188855
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -24366.307391115814
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -24232.63716436297
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -24091.931970925136
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -23934.789582267393
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -23609.810617403
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -23518.653810180353
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -23449.186274110325
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -23406.20421057294
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -23169.507216433343
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -22851.494895176118
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -22618.47447553064
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -22473.60966443183
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -22237.687146793964
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -22097.321780765233
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -21931.090689439832
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -21843.546553760803
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -21900.028122373173
+getValue() (loglikelihood, optimizable by label likelihood) = -21786.65084767507
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -21713.128780379036
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -21582.67705014506
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -21436.74287528338
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -21229.218497432354
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -21185.973919839285
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -20946.897017398507
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -20860.519599776908
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -20807.607068867306
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -20704.784789473328
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -20568.13861974323
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -20478.613793340235
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -20366.00915033697
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -20280.389056955235
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -20148.936077566166
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -20048.30965915526
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -19921.72487304488
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -19867.02420770003
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -19755.33524621548
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -19726.058819734008
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -19640.403391026564
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -19512.30449769386
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -19468.1797546124
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -19342.651939156684
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -19281.42415208496
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -19166.14829309686
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -19124.446936570697
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -19058.892764558193
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -19002.16901390141
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -18922.20967154996
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -18796.437969728453
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -18788.272941998406
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -18697.882768411673
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -18655.58804528349
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -18616.280267527844
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -18550.887183779836
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -18467.566675940434
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -18415.48175385027
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -18396.690679016032
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -18372.16794131458
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -18315.785447539485
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -18264.74188029791
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -18229.588575190868
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -18190.603550195276
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -18137.490072988145
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -18072.03724716836
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -17973.96417724024
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -17897.045602402908
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -18003.638782761045
+getValue() (loglikelihood, optimizable by label likelihood) = -17883.572521952592
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -17864.13731571384
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -17836.035426581842
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -17786.52401421844
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -17750.20982048719
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -17727.047290118127
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -17699.41908623636
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -17681.69142974433
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -17646.675651028214
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -17609.63759675708
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -17566.893388677614
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -17538.09208541298
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -17510.68571785949
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -17500.332320549063
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -17490.065063245635
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -17450.847736664247
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -17394.80198512559
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -17387.848631395464
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -17304.86291432743
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -17276.901386552214
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -17224.54105948323
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -17189.419873814757
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -17168.489253140513
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -17146.603709801977
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -17120.22147522683
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -17090.609770706105
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -17060.043022997386
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -17027.198658686975
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -16997.41909348254
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -16966.91491617947
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -16932.98309048192
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -16941.972466791623
+getValue() (loglikelihood, optimizable by label likelihood) = -16911.13075207498
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -16886.047277325975
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -16860.598347255003
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -16838.61474113973
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -16792.205299626814
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -16742.075445238122
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -16738.301792943406
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -16699.71619428643
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -16688.084072765367
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -16672.047340814373
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -16634.576226480014
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -16597.32023001563
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -16581.45809585218
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -16564.10889052519
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -16554.700632050786
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -16537.6992888856
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -16493.276099292467
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -16741.718733949645
+getValue() (loglikelihood, optimizable by label likelihood) = -16485.241019131718
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -16465.308639968218
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -16452.04440030176
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -16433.791447011077
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -16412.97126939414
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -16384.719926228958
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -16347.57032302508
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -16329.041843077628
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -16311.203955695462
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -16323.592007537733
+getValue() (loglikelihood, optimizable by label likelihood) = -16306.141830453991
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -16300.14836690361
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -16281.6110779517
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -16266.258168730148
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -16259.102297327063
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -16218.660095325937
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -16200.286869683128
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -16188.360423413837
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -16162.047580714021
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -16141.183017815521
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -16126.675827896906
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -16106.440998740632
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -16107.356074641593
+getValue() (loglikelihood, optimizable by label likelihood) = -16095.543744128481
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -16091.478213871022
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -16076.706445683752
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -16065.759785275168
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -16053.689815568117
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -16036.504825195132
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -16035.128465788392
+Exiting L-BFGS on termination #1:
+value difference below tolerance (oldValue: -16036.504825195132 newValue: -16035.128465788392
+CRF finished one iteration of maximizer, i=0
+CRF training has converged, i=0

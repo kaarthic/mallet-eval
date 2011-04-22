@@ -1,0 +1,2149 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="nlp_style.xsl" ?>
+<xml4nlp>
+    <doc>
+        <para id="0">
+            <sent id="0" cont="分析：" tag="">
+                <word id="0" cont="分析" pos="v" ne="O" wsd="Hg14" wsdexp="分析_推敲_研究_考证" parent="-1" relate="HED" />
+                <word id="1" cont="：" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="1" cont="中国开展登月计划的意义 " tag="">
+                <word id="0" cont="中国" pos="ns" ne="S-Ns" wsd="Di02" wsdexp="国家_行政区划" parent="1" relate="SBV" />
+                <word id="1" cont="开展" pos="v" ne="O" wsd="Ig03" wsdexp="进行_继续_流逝" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="0" />
+                    <arg id="1" type="受事" beg="2" end="6" />
+                </word>
+                <word id="2" cont="登" pos="v" ne="O" wsd="Jd03" wsdexp="登载" parent="5" relate="DE">
+                    <arg id="0" type="受事" beg="3" end="3" />
+                    <arg id="1" type="受事" beg="4" end="4" />
+                </word>
+                <word id="3" cont="月" pos="n" ne="O" wsd="Ca21" wsdexp="月" parent="2" relate="VOB" />
+                <word id="4" cont="计划" pos="n" ne="O" wsd="Gb05" wsdexp="计划_打算" parent="2" relate="VOB" />
+                <word id="5" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="6" relate="ATT" />
+                <word id="6" cont="意义" pos="n" ne="O" wsd="Db06" wsdexp="规律_意义" parent="1" relate="VOB" />
+            </sent>
+        </para>
+        <para id="1">
+            <sent id="0" cont="神舟五号载人飞船带着亿万炎黄子孙的期盼遨游九天。" tag="10%">
+                <word id="0" cont="神舟" pos="n" ne="O" wsd="-1" wsdexp="" parent="4" relate="ATT" />
+                <word id="1" cont="五" pos="m" ne="B-Nm" wsd="Dn04" wsdexp="基数_序数" parent="2" relate="QUN" />
+                <word id="2" cont="号" pos="q" ne="E-Nm" wsd="Dk04" wsdexp="号码_记号_曲谱_标点符号" parent="4" relate="ATT" />
+                <word id="3" cont="载人" pos="b" ne="O" wsd="Hf05" wsdexp="搬运_运输_装卸" parent="4" relate="ATT" />
+                <word id="4" cont="飞船" pos="n" ne="O" wsd="Bo22" wsdexp="船_筏子_飞机" parent="5" relate="SBV" />
+                <word id="5" cont="带" pos="v" ne="O" wsd="Hj36" wsdexp="携带_跟随" parent="9" relate="DE">
+                    <arg id="0" type="施事" beg="0" end="4" />
+                    <arg id="1" type="受事" beg="7" end="8" />
+                </word>
+                <word id="6" cont="着" pos="u" ne="O" wsd="Fa18" wsdexp="穿_戴_佩带" parent="5" relate="MT" />
+                <word id="7" cont="亿万" pos="m" ne="S-Nm" wsd="Eb01" wsdexp="多_少_稀少" parent="8" relate="QUN" />
+                <word id="8" cont="炎黄子孙" pos="n" ne="O" wsd="Aa01" wsdexp="人_人民_众人" parent="5" relate="VOB" />
+                <word id="9" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="11" relate="ATT" />
+                <word id="10" cont="期盼" pos="v" ne="O" wsd="Gb04" wsdexp="希望_要求_追求" parent="11" relate="ADV" />
+                <word id="11" cont="遨游" pos="v" ne="O" wsd="Hj48" wsdexp="游戏_游览_消遣" parent="-1" relate="HED">
+                    <arg id="0" type="受事" beg="12" end="12" />
+                </word>
+                <word id="12" cont="九天" pos="n" ne="O" wsd="Cb07" wsdexp="天_地" parent="11" relate="VOB" />
+                <word id="13" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="1" cont="英雄杨利伟凯旋归来，每一位华夏儿女都为祖国和他的优秀儿女而感到骄傲和自豪。" tag="10%">
+                <word id="0" cont="英雄" pos="n" ne="O" wsd="Ak01" wsdexp="英雄_硬汉_烈士" parent="1" relate="ATT" />
+                <word id="1" cont="杨利伟" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="2" relate="SBV" />
+                <word id="2" cont="凯旋" pos="v" ne="O" wsd="If21" wsdexp="胜利_战败_被围_沦陷_亡国" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="1" />
+                    <arg id="1" type="受事" beg="3" end="4" />
+                </word>
+                <word id="3" cont="归" pos="v" ne="O" wsd="Hf07" wsdexp="离开_返回" parent="2" relate="VOB">
+                    <arg id="0" type="受事" beg="4" end="4" />
+                </word>
+                <word id="4" cont="来" pos="nd" ne="O" wsd="Hj63" wsdexp="来_去_来去" parent="3" relate="VOB" />
+                <word id="5" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="6" cont="每" pos="r" ne="O" wsd="Ed61" wsdexp="这个_那个_某个_各个_其他_何" parent="8" relate="ATT" />
+                <word id="7" cont="一" pos="m" ne="B-Nm" wsd="Dn04" wsdexp="基数_序数" parent="8" relate="QUN" />
+                <word id="8" cont="位" pos="q" ne="E-Nm" wsd="Dn08" wsdexp="数量单位" parent="10" relate="ATT" />
+                <word id="9" cont="华夏" pos="nz" ne="S-Nz" wsd="Di02" wsdexp="国家_行政区划" parent="10" relate="ATT" />
+                <word id="10" cont="儿女" pos="n" ne="O" wsd="Ah14" wsdexp="子_女_子女" parent="20" relate="SBV" />
+                <word id="11" cont="都" pos="d" ne="O" wsd="Ka07" wsdexp="都_只_不止_甚至" parent="20" relate="ADV" />
+                <word id="12" cont="为" pos="p" ne="O" wsd="Kb05" wsdexp="为_被_以_由" parent="20" relate="ADV" />
+                <word id="13" cont="祖国" pos="n" ne="O" wsd="Di02" wsdexp="国家_行政区划" parent="12" relate="POB" />
+                <word id="14" cont="和" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="20" relate="CNJ" />
+                <word id="15" cont="他" pos="r" ne="O" wsd="Aa04" wsdexp="他_他们" parent="16" relate="DE" />
+                <word id="16" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="18" relate="ATT" />
+                <word id="17" cont="优秀" pos="a" ne="O" wsd="Ed03" wsdexp="好_坏" parent="18" relate="ATT" />
+                <word id="18" cont="儿女" pos="n" ne="O" wsd="Ah14" wsdexp="子_女_子女" parent="20" relate="SBV" />
+                <word id="19" cont="而" pos="c" ne="O" wsd="Kc02" wsdexp="并且_况且" parent="20" relate="CNJ" />
+                <word id="20" cont="感到" pos="v" ne="O" wsd="Gb02" wsdexp="感到_认为_主张" parent="2" relate="VV">
+                    <arg id="0" type="施事" beg="6" end="10" />
+                    <arg id="1" type="施事" beg="15" end="18" />
+                </word>
+                <word id="21" cont="骄傲" pos="a" ne="O" wsd="Ee34" wsdexp="谦虚_自卑_恭顺_骄傲" parent="20" relate="CMP" />
+                <word id="22" cont="和" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="23" relate="LAD" />
+                <word id="23" cont="自豪" pos="a" ne="O" wsd="Ee34" wsdexp="谦虚_自卑_恭顺_骄傲" parent="21" relate="COO" />
+                <word id="24" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+        </para>
+        <para id="2">
+            <sent id="0" cont="“明月几时有，把酒问青天，不知天上宫阕，今昔是何年。" tag="">
+                <word id="0" cont="“" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="1" cont="明月" pos="n" ne="O" wsd="Bd02" wsdexp="太阳_月亮_日月" parent="3" relate="SBV" />
+                <word id="2" cont="几" pos="m" ne="O" wsd="Dn05" wsdexp="半_概数_若干" parent="3" relate="ADV" />
+                <word id="3" cont="时有" pos="v" ne="O" wsd="-1" wsdexp="" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="1" end="1" />
+                </word>
+                <word id="4" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="5" cont="把酒" pos="v" ne="O" wsd="Fa04" wsdexp="举_捧" parent="3" relate="VV">
+                    <arg id="0" type="受事" beg="6" end="7" />
+                </word>
+                <word id="6" cont="问" pos="v" ne="O" wsd="Hi18" wsdexp="问_答_对质" parent="5" relate="VOB">
+                    <arg id="0" type="受事" beg="7" end="7" />
+                </word>
+                <word id="7" cont="青天" pos="n" ne="O" wsd="Af08" wsdexp="官吏" parent="6" relate="VOB" />
+                <word id="8" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="9" cont="不知" pos="v" ne="O" wsd="Ed43" wsdexp="正常_反常_奇怪" parent="15" relate="ADV">
+                    <arg id="0" type="受事" beg="10" end="11" />
+                </word>
+                <word id="10" cont="天上" pos="nl" ne="O" wsd="Cb07" wsdexp="天_地" parent="11" relate="ATT" />
+                <word id="11" cont="宫" pos="n" ne="O" wsd="Bn01" wsdexp="建筑_房屋" parent="9" relate="VOB" />
+                <word id="12" cont="阕" pos="q" ne="O" wsd="Dn08" wsdexp="数量单位" parent="9" relate="VOB" />
+                <word id="13" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="14" cont="今昔" pos="n" ne="O" wsd="Ca10" wsdexp="现在" parent="15" relate="SBV" />
+                <word id="15" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="5" relate="IC">
+                    <arg id="0" type="施事" beg="14" end="14" />
+                </word>
+                <word id="16" cont="何" pos="r" ne="O" wsd="Ka35" wsdexp="哪里_怎样_为什么" parent="17" relate="ATT" />
+                <word id="17" cont="年" pos="q" ne="O" wsd="Ca18" wsdexp="年" parent="3" relate="IC" />
+                <word id="18" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="1" cont="”低吟着苏东坡的水调歌头，我们思绪不由得飘向了广阔无垠的长空，飘向了离我们最近、而又有神秘色彩的天体――月球。" tag="">
+                <word id="0" cont="”" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="1" cont="低" pos="a" ne="O" wsd="Ea02" wsdexp="高_矮" parent="2" relate="ADV" />
+                <word id="2" cont="吟" pos="v" ne="O" wsd="Hg10" wsdexp="阅读_查阅_朗读_吟咏_背诵" parent="-1" relate="HED">
+                    <arg id="0" type="受事" beg="4" end="6" />
+                    <arg id="1" type="受事" beg="8" end="12" />
+                </word>
+                <word id="3" cont="着" pos="u" ne="O" wsd="Fa18" wsdexp="穿_戴_佩带" parent="2" relate="MT" />
+                <word id="4" cont="苏东坡" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="5" relate="DE" />
+                <word id="5" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="6" relate="ATT" />
+                <word id="6" cont="水调歌头" pos="n" ne="O" wsd="-1" wsdexp="" parent="2" relate="VOB" />
+                <word id="7" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="8" cont="我们" pos="r" ne="O" wsd="Aa02" wsdexp="我_我们" parent="12" relate="SBV" />
+                <word id="9" cont="思绪" pos="n" ne="O" wsd="Df01" wsdexp="思想_感想" parent="12" relate="SBV" />
+                <word id="10" cont="不由" pos="d" ne="O" wsd="-1" wsdexp="" parent="11" relate="ADV" />
+                <word id="11" cont="得" pos="v" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="12" relate="ADV" />
+                <word id="12" cont="飘" pos="v" ne="O" wsd="Id13" wsdexp="飘" parent="2" relate="VOB">
+                    <arg id="0" type="施事" beg="8" end="8" />
+                    <arg id="1" type="施事" beg="9" end="9" />
+                </word>
+                <word id="13" cont="向" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="14" relate="DE" />
+                <word id="14" cont="了" pos="u" ne="O" wsd="Kd05" wsdexp="吗_的话_罢了_了_哉" parent="2" relate="VV" />
+                <word id="15" cont="广阔无垠" pos="i" ne="O" wsd="Ea04" wsdexp="广阔_宽敞_狭窄" parent="16" relate="DE" />
+                <word id="16" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="17" relate="ATT" />
+                <word id="17" cont="长空" pos="n" ne="O" wsd="Cb07" wsdexp="天_地" parent="19" relate="SBV" />
+                <word id="18" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="19" cont="飘" pos="v" ne="O" wsd="Id13" wsdexp="飘" parent="14" relate="NOT">
+                    <arg id="0" type="施事" beg="15" end="17" />
+                </word>
+                <word id="20" cont="向" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="34" relate="IS" />
+                <word id="21" cont="了" pos="u" ne="O" wsd="Kd05" wsdexp="吗_的话_罢了_了_哉" parent="20" relate="MT" />
+                <word id="22" cont="离" pos="v" ne="O" wsd="Id21" wsdexp="交界_靠近_逼近_相距" parent="24" relate="ATT" />
+                <word id="23" cont="我们" pos="r" ne="O" wsd="Aa02" wsdexp="我_我们" parent="22" relate="POB" />
+                <word id="24" cont="最近" pos="nt" ne="O" wsd="Ca11" wsdexp="过去_近来" parent="32" relate="ATT" />
+                <word id="25" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="26" cont="而" pos="c" ne="O" wsd="Kc03" wsdexp="但是" parent="28" relate="CNJ" />
+                <word id="27" cont="又" pos="d" ne="O" wsd="Ka14" wsdexp="再" parent="28" relate="ADV" />
+                <word id="28" cont="有" pos="v" ne="O" wsd="Jd04" wsdexp="有_占有" parent="31" relate="DE">
+                    <arg id="0" type="受事" beg="29" end="30" />
+                </word>
+                <word id="29" cont="神秘" pos="a" ne="O" wsd="Ed44" wsdexp="公开_秘密" parent="30" relate="ATT" />
+                <word id="30" cont="色彩" pos="n" ne="O" wsd="Bg06" wsdexp="颜色_气息_味道" parent="28" relate="VOB" />
+                <word id="31" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="32" relate="ATT" />
+                <word id="32" cont="天体" pos="n" ne="O" wsd="Bd01" wsdexp="宇宙_星辰" parent="34" relate="IS" />
+                <word id="33" cont="――" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="34" cont="月球" pos="n" ne="O" wsd="Bd02" wsdexp="太阳_月亮_日月" parent="14" relate="NOT" />
+                <word id="35" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="2" cont="千百年来，中华儿女一直把把月球视为神秘的天国，把圆月视为团圆的象征,把登月比作人们对美好事物的追求。" tag="20%">
+                <word id="0" cont="千百" pos="m" ne="B-Nm" wsd="-1" wsdexp="" parent="1" relate="QUN" />
+                <word id="1" cont="年" pos="q" ne="E-Nm" wsd="Ca18" wsdexp="年" parent="2" relate="ATT" />
+                <word id="2" cont="来" pos="nd" ne="O" wsd="Hj63" wsdexp="来_去_来去" parent="10" relate="ADV" />
+                <word id="3" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="4" cont="中华" pos="nz" ne="S-Nz" wsd="Di02" wsdexp="国家_行政区划" parent="5" relate="ATT" />
+                <word id="5" cont="儿女" pos="n" ne="O" wsd="Ah14" wsdexp="子_女_子女" parent="10" relate="SBV" />
+                <word id="6" cont="一直" pos="d" ne="O" wsd="Ka11" wsdexp="不断_一直_动辄" parent="10" relate="ADV" />
+                <word id="7" cont="把" pos="p" ne="O" wsd="Kb03" wsdexp="跟_替_把_比" parent="10" relate="ADV" />
+                <word id="8" cont="把" pos="p" ne="O" wsd="Kb03" wsdexp="跟_替_把_比" parent="10" relate="ADV" />
+                <word id="9" cont="月球" pos="n" ne="O" wsd="Bd02" wsdexp="太阳_月亮_日月" parent="8" relate="POB" />
+                <word id="10" cont="视为" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="-1" relate="HED">
+                    <arg id="0" type="方位" beg="0" end="2" />
+                    <arg id="1" type="施事" beg="4" end="5" />
+                    <arg id="2" type="受事" beg="11" end="13" />
+                </word>
+                <word id="11" cont="神秘" pos="a" ne="O" wsd="Ed08" wsdexp="深奥_玄妙_浅近" parent="12" relate="DE" />
+                <word id="12" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="13" relate="ATT" />
+                <word id="13" cont="天国" pos="n" ne="O" wsd="Dh02" wsdexp="天国_阴间_前生_来世_风水" parent="10" relate="VOB" />
+                <word id="14" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="15" cont="把" pos="p" ne="O" wsd="Kb03" wsdexp="跟_替_把_比" parent="18" relate="ADV" />
+                <word id="16" cont="圆" pos="a" ne="O" wsd="Ea13" wsdexp="方_圆" parent="17" relate="ATT" />
+                <word id="17" cont="月" pos="n" ne="O" wsd="Ca21" wsdexp="月" parent="15" relate="POB" />
+                <word id="18" cont="视为" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="10" relate="VV">
+                    <arg id="0" type="受事" beg="19" end="21" />
+                </word>
+                <word id="19" cont="团圆" pos="v" ne="O" wsd="Ie09" wsdexp="团聚_离别" parent="20" relate="DE" />
+                <word id="20" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="21" relate="ATT" />
+                <word id="21" cont="象征" pos="n" ne="O" wsd="Ja03" wsdexp="意味_影射_体现_标志" parent="18" relate="VOB" />
+                <word id="22" cont="," pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="23" cont="把" pos="p" ne="O" wsd="Kb03" wsdexp="跟_替_把_比" parent="24" relate="ADV" />
+                <word id="24" cont="登月" pos="v" ne="O" wsd="Hj64" wsdexp="出_进_出入" parent="10" relate="VV">
+                    <arg id="0" type="受事" beg="25" end="31" />
+                </word>
+                <word id="25" cont="比作" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="24" relate="VOB">
+                    <arg id="0" type="受事" beg="26" end="26" />
+                    <arg id="1" type="受事" beg="27" end="31" />
+                </word>
+                <word id="26" cont="人们" pos="n" ne="O" wsd="Aa01" wsdexp="人_人民_众人" parent="25" relate="VOB" />
+                <word id="27" cont="对" pos="p" ne="O" wsd="Kb04" wsdexp="对于_关于" parent="30" relate="DE" />
+                <word id="28" cont="美好" pos="a" ne="O" wsd="Ed03" wsdexp="好_坏" parent="29" relate="ATT" />
+                <word id="29" cont="事物" pos="n" ne="O" wsd="Da28" wsdexp="事物_对象" parent="27" relate="POB" />
+                <word id="30" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="31" relate="ATT" />
+                <word id="31" cont="追求" pos="v" ne="O" wsd="Gb04" wsdexp="希望_要求_追求" parent="25" relate="VOB" />
+                <word id="32" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="3" cont="人们常用“月圆、月缺”来形容“悲欢离合”，客居他乡的游子，更是以月来寄托深情。" tag="">
+                <word id="0" cont="人们" pos="n" ne="O" wsd="Aa01" wsdexp="人_人民_众人" parent="2" relate="SBV" />
+                <word id="1" cont="常" pos="d" ne="O" wsd="Ka10" wsdexp="经常_向来_本来" parent="2" relate="ADV" />
+                <word id="2" cont="用" pos="v" ne="O" wsd="Hj28" wsdexp="使用_沿用_借鉴" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="0" />
+                    <arg id="1" type="受事" beg="4" end="13" />
+                </word>
+                <word id="3" cont="“" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="4" cont="月" pos="n" ne="O" wsd="Ca21" wsdexp="月" parent="5" relate="SBV" />
+                <word id="5" cont="圆" pos="v" ne="O" wsd="Ea13" wsdexp="方_圆" parent="2" relate="VOB">
+                    <arg id="0" type="施事" beg="4" end="4" />
+                </word>
+                <word id="6" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="7" cont="月" pos="n" ne="O" wsd="Ca21" wsdexp="月" parent="8" relate="SBV" />
+                <word id="8" cont="缺" pos="v" ne="O" wsd="He15" wsdexp="缺少_遗漏" parent="5" relate="COO">
+                    <arg id="0" type="施事" beg="7" end="7" />
+                </word>
+                <word id="9" cont="”" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="10" cont="来" pos="v" ne="O" wsd="Hj63" wsdexp="来_去_来去" parent="11" relate="ADV" />
+                <word id="11" cont="形容" pos="v" ne="O" wsd="Hi13" wsdexp="演讲_论述_列举_叙述_描写" parent="5" relate="COO">
+                    <arg id="0" type="受事" beg="13" end="13" />
+                </word>
+                <word id="12" cont="“" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="13" cont="悲欢离合" pos="i" ne="O" wsd="Db08" wsdexp="立场_角度" parent="11" relate="VOB" />
+                <word id="14" cont="”" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="15" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="16" cont="客居" pos="v" ne="O" wsd="Hj01" wsdexp="生活_居住" parent="2" relate="VV">
+                    <arg id="0" type="受事" beg="17" end="19" />
+                </word>
+                <word id="17" cont="他乡" pos="r" ne="O" wsd="Cb15" wsdexp="本地_外地_家乡" parent="18" relate="DE" />
+                <word id="18" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="19" relate="ATT" />
+                <word id="19" cont="游子" pos="n" ne="O" wsd="Ag10" wsdexp="旅客" parent="16" relate="VOB" />
+                <word id="20" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="21" cont="更" pos="d" ne="O" wsd="Ka04" wsdexp="更加" parent="22" relate="ADV" />
+                <word id="22" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="2" relate="IC">
+                    <arg id="0" type="受事" beg="23" end="27" />
+                </word>
+                <word id="23" cont="以" pos="p" ne="O" wsd="Kb05" wsdexp="为_被_以_由" parent="26" relate="ADV" />
+                <word id="24" cont="月" pos="n" ne="O" wsd="Ca21" wsdexp="月" parent="25" relate="ATT" />
+                <word id="25" cont="来" pos="nd" ne="O" wsd="Hj63" wsdexp="来_去_来去" parent="23" relate="POB" />
+                <word id="26" cont="寄托" pos="v" ne="O" wsd="Je05" wsdexp="给予_寄予_加以_冠以" parent="22" relate="VOB">
+                    <arg id="0" type="方位" beg="23" end="25" />
+                    <arg id="1" type="受事" beg="27" end="27" />
+                </word>
+                <word id="27" cont="深情" pos="n" ne="O" wsd="Ee33" wsdexp="恭敬_客气_简慢_热情_冷淡" parent="26" relate="VOB" />
+                <word id="28" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="4" cont="关于月亮的咏叹比比皆是：" tag="">
+                <word id="0" cont="关于" pos="p" ne="O" wsd="Kb04" wsdexp="对于_关于" parent="2" relate="DE" />
+                <word id="1" cont="月亮" pos="n" ne="O" wsd="Bd02" wsdexp="太阳_月亮_日月" parent="0" relate="POB" />
+                <word id="2" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="3" relate="ADV" />
+                <word id="3" cont="咏叹" pos="v" ne="O" wsd="Hg10" wsdexp="阅读_查阅_朗读_吟咏_背诵" parent="-1" relate="HED">
+                    <arg id="0" type="受事" beg="4" end="4" />
+                </word>
+                <word id="4" cont="比比皆是" pos="i" ne="O" wsd="Eb01" wsdexp="多_少_稀少" parent="3" relate="VOB" />
+                <word id="5" cont="：" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="5" cont="唐代诗人李白的“举头望明月，低头思故乡”，杜甫的“露从今夜白，月是故乡明”，宋代王安石的“春风又绿江南岸，明月何时照我还”，这些都成为脍炙人口的不朽诗篇。" tag="">
+                <word id="0" cont="唐代" pos="nt" ne="O" wsd="Ca02" wsdexp="时代_朝代_年代" parent="1" relate="ATT" />
+                <word id="1" cont="诗人" pos="n" ne="O" wsd="Al01" wsdexp="知识分子_文盲" parent="2" relate="ATT" />
+                <word id="2" cont="李白" pos="nh" ne="S-Nh" wsd="Al01" wsdexp="知识分子_文盲" parent="3" relate="DE" />
+                <word id="3" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="5" relate="ATT" />
+                <word id="4" cont="“" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="5" cont="举头" pos="v" ne="O" wsd="-1" wsdexp="" parent="15" relate="DE" />
+                <word id="6" cont="望" pos="v" ne="O" wsd="Fc04" wsdexp="看" parent="5" relate="CMP">
+                    <arg id="0" type="受事" beg="7" end="7" />
+                </word>
+                <word id="7" cont="明月" pos="n" ne="O" wsd="Bd02" wsdexp="太阳_月亮_日月" parent="6" relate="VOB" />
+                <word id="8" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="9" cont="低头" pos="v" ne="O" wsd="Hi45" wsdexp="调解_屈服_降伏_讲和" parent="5" relate="VV" />
+                <word id="10" cont="思" pos="v" ne="O" wsd="Gb01" wsdexp="想象_思考_斟酌_着想_存心" parent="9" relate="VV">
+                    <arg id="0" type="受事" beg="11" end="11" />
+                </word>
+                <word id="11" cont="故乡" pos="n" ne="O" wsd="Cb15" wsdexp="本地_外地_家乡" parent="10" relate="VOB" />
+                <word id="12" cont="”" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="13" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="14" cont="杜甫" pos="nh" ne="S-Nh" wsd="Ae16" wsdexp="作者_译者_记者_编辑" parent="15" relate="DE" />
+                <word id="15" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="17" relate="ATT" />
+                <word id="16" cont="“" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="17" cont="露" pos="v" ne="O" wsd="Jd06" wsdexp="充满_满怀_包含_显露_呈现" parent="-1" relate="HED" />
+                <word id="18" cont="从" pos="p" ne="O" wsd="Kb02" wsdexp="从_到_沿" parent="17" relate="CMP" />
+                <word id="19" cont="今夜" pos="nt" ne="O" wsd="Ca29" wsdexp="傍晚_晚上_夜间_昼夜" parent="18" relate="POB" />
+                <word id="20" cont="白" pos="a" ne="O" wsd="Ec04" wsdexp="白_灰_黑" parent="17" relate="CMP" />
+                <word id="21" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="22" cont="月" pos="n" ne="O" wsd="Ca21" wsdexp="月" parent="23" relate="SBV" />
+                <word id="23" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="20" relate="IC">
+                    <arg id="0" type="施事" beg="22" end="22" />
+                    <arg id="1" type="受事" beg="24" end="24" />
+                    <arg id="2" type="受事" beg="28" end="32" />
+                </word>
+                <word id="24" cont="故乡" pos="n" ne="O" wsd="Cb15" wsdexp="本地_外地_家乡" parent="23" relate="VOB" />
+                <word id="25" cont="明" pos="a" ne="O" wsd="Eb18" wsdexp="亮_暗" parent="23" relate="CMP" />
+                <word id="26" cont="”" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="27" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="28" cont="宋代" pos="nt" ne="O" wsd="Ca02" wsdexp="时代_朝代_年代" parent="29" relate="ATT" />
+                <word id="29" cont="王安石" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="30" relate="DE" />
+                <word id="30" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="32" relate="ATT" />
+                <word id="31" cont="“" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="32" cont="春风" pos="n" ne="O" wsd="Bf02" wsdexp="风_云" parent="23" relate="VOB" />
+                <word id="33" cont="又" pos="c" ne="O" wsd="Ka14" wsdexp="再" parent="35" relate="LAD" />
+                <word id="34" cont="绿江" pos="ns" ne="S-Ns" wsd="-1" wsdexp="" parent="35" relate="ATT" />
+                <word id="35" cont="南岸" pos="nl" ne="O" wsd="Be03" wsdexp="滩_岸" parent="20" relate="NOT" />
+                <word id="36" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="37" cont="明月" pos="n" ne="O" wsd="Bd02" wsdexp="太阳_月亮_日月" parent="41" relate="SBV" />
+                <word id="38" cont="何时" pos="r" ne="O" wsd="Ca31" wsdexp="这时_那时_几时" parent="37" relate="RAD" />
+                <word id="39" cont="照" pos="p" ne="O" wsd="Kb07" wsdexp="依照_根据_趁" parent="41" relate="ADV" />
+                <word id="40" cont="我" pos="r" ne="O" wsd="Aa02" wsdexp="我_我们" parent="39" relate="POB" />
+                <word id="41" cont="还" pos="d" ne="O" wsd="Ka33" wsdexp="却_还_也_反而" parent="46" relate="ADV" />
+                <word id="42" cont="”" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="43" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="44" cont="这些" pos="r" ne="O" wsd="Ed61" wsdexp="这个_那个_某个_各个_其他_何" parent="46" relate="SBV" />
+                <word id="45" cont="都" pos="d" ne="O" wsd="Ka07" wsdexp="都_只_不止_甚至" parent="46" relate="ADV" />
+                <word id="46" cont="成为" pos="v" ne="O" wsd="Ih01" wsdexp="变化_成为" parent="35" relate="NOT">
+                    <arg id="0" type="施事" beg="44" end="44" />
+                    <arg id="1" type="受事" beg="47" end="50" />
+                </word>
+                <word id="47" cont="脍炙人口" pos="i" ne="O" wsd="Ed03" wsdexp="好_坏" parent="48" relate="DE" />
+                <word id="48" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="50" relate="ATT" />
+                <word id="49" cont="不朽" pos="a" ne="O" wsd="Ed24" wsdexp="光荣_可耻" parent="50" relate="ATT" />
+                <word id="50" cont="诗篇" pos="n" ne="O" wsd="Dk27" wsdexp="诗_词_赋" parent="46" relate="VOB" />
+                <word id="51" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="6" cont="我国古代，帝王就有春天祭日、秋天祭月的礼制。" tag="">
+                <word id="0" cont="我国" pos="n" ne="O" wsd="Di02" wsdexp="国家_行政区划" parent="1" relate="ATT" />
+                <word id="1" cont="古代" pos="nt" ne="O" wsd="Ca02" wsdexp="时代_朝代_年代" parent="5" relate="ADV" />
+                <word id="2" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="3" cont="帝王" pos="n" ne="O" wsd="Af05" wsdexp="皇帝_后妃" parent="5" relate="SBV" />
+                <word id="4" cont="就" pos="d" ne="O" wsd="Ka07" wsdexp="都_只_不止_甚至" parent="5" relate="ADV" />
+                <word id="5" cont="有" pos="v" ne="O" wsd="Jd04" wsdexp="有_占有" parent="-1" relate="HED">
+                    <arg id="0" type="时间" beg="0" end="1" />
+                    <arg id="1" type="施事" beg="3" end="3" />
+                    <arg id="2" type="受事" beg="6" end="7" />
+                    <arg id="3" type="受事" beg="9" end="13" />
+                </word>
+                <word id="6" cont="春天" pos="nt" ne="O" wsd="Ca19" wsdexp="四季_春_夏_秋_冬" parent="7" relate="ATT" />
+                <word id="7" cont="祭日" pos="n" ne="O" wsd="-1" wsdexp="" parent="5" relate="VOB" />
+                <word id="8" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="9" cont="秋天" pos="nt" ne="O" wsd="Ca19" wsdexp="四季_春_夏_秋_冬" parent="10" relate="ADV" />
+                <word id="10" cont="祭" pos="v" ne="O" wsd="Hj56" wsdexp="扫墓_瞻仰_祭祀" parent="12" relate="DE">
+                    <arg id="0" type="时间" beg="9" end="9" />
+                    <arg id="1" type="受事" beg="11" end="11" />
+                </word>
+                <word id="11" cont="月" pos="n" ne="O" wsd="Ca21" wsdexp="月" parent="10" relate="VOB" />
+                <word id="12" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="13" relate="ATT" />
+                <word id="13" cont="礼制" pos="n" ne="O" wsd="-1" wsdexp="" parent="5" relate="VOB" />
+                <word id="14" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="7" cont="在民间，每逢八月中秋，也有拜月或祭月的风俗。" tag="">
+                <word id="0" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="3" relate="ADV" />
+                <word id="1" cont="民间" pos="n" ne="O" wsd="Dd06" wsdexp="系统_种类_结构" parent="0" relate="POB" />
+                <word id="2" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="3" cont="每逢" pos="v" ne="O" wsd="Id18" wsdexp="撞_触_相遇_错过" parent="5" relate="ATT" />
+                <word id="4" cont="八月" pos="nt" ne="B-Nr" wsd="Bl02" wsdexp="体液_月经" parent="5" relate="ATT" />
+                <word id="5" cont="中秋" pos="nt" ne="E-Nr" wsd="Ca25" wsdexp="节日_假日" parent="8" relate="ADV" />
+                <word id="6" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="7" cont="也" pos="d" ne="O" wsd="Ka33" wsdexp="却_还_也_反而" parent="8" relate="ADV" />
+                <word id="8" cont="有" pos="v" ne="O" wsd="Jd04" wsdexp="有_占有" parent="-1" relate="HED">
+                    <arg id="0" type="时间" beg="0" end="5" />
+                    <arg id="1" type="受事" beg="9" end="15" />
+                </word>
+                <word id="9" cont="拜" pos="v" ne="O" wsd="Ee33" wsdexp="恭敬_客气_简慢_热情_冷淡" parent="8" relate="VOB">
+                    <arg id="0" type="受事" beg="10" end="10" />
+                    <arg id="1" type="受事" beg="13" end="15" />
+                </word>
+                <word id="10" cont="月" pos="n" ne="O" wsd="Ca21" wsdexp="月" parent="9" relate="VOB" />
+                <word id="11" cont="或" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="12" relate="CNJ" />
+                <word id="12" cont="祭" pos="v" ne="O" wsd="Hj56" wsdexp="扫墓_瞻仰_祭祀" parent="9" relate="VV" />
+                <word id="13" cont="月" pos="n" ne="O" wsd="Ca21" wsdexp="月" parent="14" relate="DE" />
+                <word id="14" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="15" relate="ATT" />
+                <word id="15" cont="风俗" pos="n" ne="O" wsd="Di14" wsdexp="风俗_习惯_风气" parent="9" relate="VOB" />
+                <word id="16" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="8" cont="关于月球的传说家喻户晓：" tag="">
+                <word id="0" cont="关于" pos="p" ne="O" wsd="Kb04" wsdexp="对于_关于" parent="-1" relate="HED" />
+                <word id="1" cont="月球" pos="n" ne="O" wsd="Bd02" wsdexp="太阳_月亮_日月" parent="2" relate="DE" />
+                <word id="2" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="3" relate="ATT" />
+                <word id="3" cont="传说" pos="n" ne="O" wsd="Da19" wsdexp="消息_音信" parent="4" relate="SBV" />
+                <word id="4" cont="家喻户晓" pos="i" ne="O" wsd="Ed46" wsdexp="明显_含糊" parent="0" relate="POB" />
+                <word id="5" cont="：" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="9" cont="朱元璋月饼起义、唐明皇游月宫、吴刚伐桂、嫦娥奔月。" tag="">
+                <word id="0" cont="朱元璋" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="1" relate="ATT" />
+                <word id="1" cont="月饼" pos="n" ne="O" wsd="Br09" wsdexp="点心" parent="2" relate="ATT" />
+                <word id="2" cont="起义" pos="v" ne="O" wsd="Ha01" wsdexp="革命_解放" parent="11" relate="SBV" />
+                <word id="3" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="4" cont="唐明皇" pos="nh" ne="B-Nh" wsd="-1" wsdexp="" parent="5" relate="ATT" />
+                <word id="5" cont="游月宫" pos="nh" ne="I-Nh" wsd="-1" wsdexp="" parent="2" relate="COO" />
+                <word id="6" cont="、" pos="wp" ne="I-Nh" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="7" cont="吴刚伐" pos="nh" ne="E-Nh" wsd="-1" wsdexp="" parent="8" relate="ATT" />
+                <word id="8" cont="桂" pos="n" ne="O" wsd="Bh02" wsdexp="花_花卉" parent="2" relate="COO" />
+                <word id="9" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="10" cont="嫦娥" pos="n" ne="O" wsd="Ac03" wsdexp="美女_美男子_丑八怪" parent="2" relate="COO" />
+                <word id="11" cont="奔月" pos="v" ne="O" wsd="Fb01" wsdexp="走_跑" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="10" />
+                </word>
+                <word id="12" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="10" cont="五千年的悠久历史，雄浑厚重的文化积淀，使中华民族比世界上其它民族对月球有着更为深厚的感情和更为深切的关注。" tag="">
+                <word id="0" cont="五千" pos="m" ne="B-Nm" wsd="-1" wsdexp="" parent="1" relate="QUN" />
+                <word id="1" cont="年" pos="q" ne="E-Nm" wsd="Ca18" wsdexp="年" parent="2" relate="DE" />
+                <word id="2" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="4" relate="ATT" />
+                <word id="3" cont="悠久" pos="a" ne="O" wsd="Eb24" wsdexp="长久_永远" parent="4" relate="ATT" />
+                <word id="4" cont="历史" pos="n" ne="O" wsd="Da07" wsdexp="往事_前途" parent="10" relate="SBV" />
+                <word id="5" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="6" cont="雄浑" pos="a" ne="O" wsd="Ed22" wsdexp="雄健_奔放" parent="8" relate="DE" />
+                <word id="7" cont="厚重" pos="a" ne="O" wsd="Eb13" wsdexp="重_轻_笨重_轻巧" parent="8" relate="DE" />
+                <word id="8" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="10" relate="ATT" />
+                <word id="9" cont="文化" pos="n" ne="O" wsd="Dk01" wsdexp="文化_教育_卫生" parent="10" relate="ATT" />
+                <word id="10" cont="积淀" pos="v" ne="O" wsd="He13" wsdexp="积累_花费_浪费_节省" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="4" />
+                </word>
+                <word id="11" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="12" cont="使" pos="v" ne="O" wsd="Je04" wsdexp="引起_导致_使得" parent="10" relate="VV">
+                    <arg id="0" type="受事" beg="13" end="13" />
+                    <arg id="1" type="受事" beg="14" end="25" />
+                    <arg id="2" type="受事" beg="26" end="30" />
+                </word>
+                <word id="13" cont="中华民族" pos="n" ne="O" wsd="Di04" wsdexp="人种_民族" parent="12" relate="VOB" />
+                <word id="14" cont="比" pos="p" ne="O" wsd="Kb03" wsdexp="跟_替_把_比" parent="21" relate="ADV" />
+                <word id="15" cont="世界" pos="n" ne="O" wsd="Di01" wsdexp="世界_社会_人间" parent="16" relate="ATT" />
+                <word id="16" cont="上" pos="nd" ne="O" wsd="Cb03" wsdexp="上_下_左_右" parent="14" relate="POB" />
+                <word id="17" cont="其它" pos="r" ne="O" wsd="Ed61" wsdexp="这个_那个_某个_各个_其他_何" parent="18" relate="ATT" />
+                <word id="18" cont="民族" pos="n" ne="O" wsd="Di04" wsdexp="人种_民族" parent="14" relate="POB" />
+                <word id="19" cont="对" pos="p" ne="O" wsd="Kb04" wsdexp="对于_关于" parent="21" relate="ADV" />
+                <word id="20" cont="月球" pos="n" ne="O" wsd="Bd02" wsdexp="太阳_月亮_日月" parent="19" relate="POB" />
+                <word id="21" cont="有着" pos="v" ne="O" wsd="Jd04" wsdexp="有_占有" parent="12" relate="VOB">
+                    <arg id="0" type="方位" beg="14" end="18" />
+                    <arg id="1" type="受事" beg="22" end="25" />
+                </word>
+                <word id="22" cont="更为" pos="d" ne="O" wsd="Ka04" wsdexp="更加" parent="23" relate="ADV" />
+                <word id="23" cont="深厚" pos="a" ne="O" wsd="Ed16" wsdexp="深刻_深远_深厚_深沉" parent="24" relate="DE" />
+                <word id="24" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="25" relate="ATT" />
+                <word id="25" cont="感情" pos="n" ne="O" wsd="Df04" wsdexp="感觉_感情" parent="21" relate="VOB" />
+                <word id="26" cont="和" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="30" relate="LAD" />
+                <word id="27" cont="更为" pos="d" ne="O" wsd="Ka04" wsdexp="更加" parent="28" relate="ADV" />
+                <word id="28" cont="深切" pos="a" ne="O" wsd="Ed16" wsdexp="深刻_深远_深厚_深沉" parent="29" relate="DE" />
+                <word id="29" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="30" relate="ATT" />
+                <word id="30" cont="关注" pos="v" ne="O" wsd="Gb19" wsdexp="关怀_担心_放心" parent="12" relate="VOB" />
+                <word id="31" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="11" cont="每到中秋佳节，家人团聚在皓月之下，饮酒赋诗，酹神拜月，遥望溶溶月宫，老人们便娓娓讲起月亮的故事来。" tag="">
+                <word id="0" cont="每" pos="r" ne="O" wsd="Ed61" wsdexp="这个_那个_某个_各个_其他_何" parent="1" relate="ADV" />
+                <word id="1" cont="到" pos="p" ne="O" wsd="Hf08" wsdexp="到达_停靠" parent="6" relate="ADV" />
+                <word id="2" cont="中秋" pos="nt" ne="O" wsd="Ca25" wsdexp="节日_假日" parent="3" relate="ATT" />
+                <word id="3" cont="佳节" pos="n" ne="O" wsd="Ca25" wsdexp="节日_假日" parent="1" relate="POB" />
+                <word id="4" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="5" cont="家人" pos="n" ne="O" wsd="Ah01" wsdexp="亲戚_眷属" parent="6" relate="SBV" />
+                <word id="6" cont="团聚" pos="v" ne="O" wsd="Ie09" wsdexp="团聚_离别" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="5" end="5" />
+                </word>
+                <word id="7" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="6" relate="CMP" />
+                <word id="8" cont="皓月" pos="n" ne="O" wsd="Bd02" wsdexp="太阳_月亮_日月" parent="9" relate="ATT" />
+                <word id="9" cont="之下" pos="nd" ne="O" wsd="Cb03" wsdexp="上_下_左_右" parent="7" relate="POB" />
+                <word id="10" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="11" cont="饮酒" pos="v" ne="O" wsd="Fc06" wsdexp="吃_嚼_咽_吮_喝" parent="6" relate="VV">
+                    <arg id="0" type="受事" beg="12" end="12" />
+                </word>
+                <word id="12" cont="赋诗" pos="v" ne="O" wsd="Hg16" wsdexp="写作_翻译" parent="11" relate="VOB" />
+                <word id="13" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="14" cont="酹" pos="v" ne="O" wsd="Ib07" wsdexp="醉_打嗝儿_打喷嚏_打哈欠" parent="11" relate="VV">
+                    <arg id="0" type="受事" beg="15" end="15" />
+                </word>
+                <word id="15" cont="神" pos="n" ne="O" wsd="Dh01" wsdexp="神_鬼_妖_魂_妖魔鬼怪" parent="14" relate="VOB" />
+                <word id="16" cont="拜" pos="v" ne="O" wsd="Ee33" wsdexp="恭敬_客气_简慢_热情_冷淡" parent="14" relate="VV">
+                    <arg id="0" type="受事" beg="17" end="17" />
+                </word>
+                <word id="17" cont="月" pos="n" ne="O" wsd="Ca21" wsdexp="月" parent="16" relate="VOB" />
+                <word id="18" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="19" cont="遥望" pos="v" ne="O" wsd="Fc04" wsdexp="看" parent="14" relate="VV">
+                    <arg id="0" type="受事" beg="20" end="21" />
+                </word>
+                <word id="20" cont="溶溶" pos="a" ne="O" wsd="Ia10" wsdexp="沸腾_蒸发_溶解_融化" parent="21" relate="ATT" />
+                <word id="21" cont="月宫" pos="n" ne="O" wsd="Bd02" wsdexp="太阳_月亮_日月" parent="19" relate="VOB" />
+                <word id="22" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="23" cont="老人" pos="n" ne="O" wsd="Ab02" wsdexp="老人_成年人_老小" parent="27" relate="SBV" />
+                <word id="24" cont="们" pos="k" ne="O" wsd="Aa01" wsdexp="人_人民_众人" parent="23" relate="RAD" />
+                <word id="25" cont="便" pos="d" ne="O" wsd="Ka08" wsdexp="立刻_赶快_逐渐" parent="27" relate="ADV" />
+                <word id="26" cont="娓娓" pos="d" ne="O" wsd="Ka11" wsdexp="不断_一直_动辄" parent="27" relate="ADV" />
+                <word id="27" cont="讲" pos="v" ne="O" wsd="Hi12" wsdexp="讲话_谈天" parent="30" relate="DE">
+                    <arg id="0" type="施事" beg="23" end="24" />
+                    <arg id="1" type="受事" beg="29" end="29" />
+                </word>
+                <word id="28" cont="起" pos="v" ne="O" wsd="Ig01" wsdexp="开始_结束" parent="27" relate="CMP" />
+                <word id="29" cont="月亮" pos="n" ne="O" wsd="Bd02" wsdexp="太阳_月亮_日月" parent="27" relate="VOB" />
+                <word id="30" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="31" relate="ATT" />
+                <word id="31" cont="故事" pos="n" ne="O" wsd="Dk10" wsdexp="内容_意思_要点" parent="32" relate="ATT" />
+                <word id="32" cont="来" pos="nd" ne="O" wsd="Hj63" wsdexp="来_去_来去" parent="11" relate="IC" />
+                <word id="33" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="12" cont="儿时的我们常常会有这样的疑问:真的有玉宇琼楼般的月宫吗?" tag="">
+                <word id="0" cont="儿时" pos="nt" ne="O" wsd="Ca15" wsdexp="童年_少年" parent="1" relate="DE" />
+                <word id="1" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="5" relate="ATT" />
+                <word id="2" cont="我们" pos="r" ne="O" wsd="Aa02" wsdexp="我_我们" parent="5" relate="SBV" />
+                <word id="3" cont="常常" pos="d" ne="O" wsd="Ka10" wsdexp="经常_向来_本来" parent="5" relate="ADV" />
+                <word id="4" cont="会" pos="v" ne="O" wsd="Gc02" wsdexp="能够_不能_可以_不可" parent="5" relate="ADV" />
+                <word id="5" cont="有" pos="v" ne="O" wsd="Jd04" wsdexp="有_占有" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="2" end="2" />
+                    <arg id="1" type="受事" beg="6" end="8" />
+                    <arg id="2" type="受事" beg="10" end="17" />
+                </word>
+                <word id="6" cont="这样" pos="r" ne="O" wsd="Ka34" wsdexp="这样_那样" parent="7" relate="DE" />
+                <word id="7" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="8" relate="ATT" />
+                <word id="8" cont="疑问" pos="n" ne="O" wsd="Da04" wsdexp="疑问_嫌疑" parent="5" relate="VOB" />
+                <word id="9" cont=":" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="10" cont="真" pos="a" ne="O" wsd="Ed01" wsdexp="真实_虚假_确实_虚妄" parent="11" relate="DE" />
+                <word id="11" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="17" relate="ATT" />
+                <word id="12" cont="有" pos="v" ne="O" wsd="Jd04" wsdexp="有_占有" parent="16" relate="DE">
+                    <arg id="0" type="受事" beg="13" end="14" />
+                </word>
+                <word id="13" cont="玉宇琼" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="14" relate="ATT" />
+                <word id="14" cont="楼" pos="n" ne="O" wsd="Bn01" wsdexp="建筑_房屋" parent="12" relate="VOB" />
+                <word id="15" cont="般" pos="u" ne="O" wsd="Jb03" wsdexp="相似_例如" parent="16" relate="DE" />
+                <word id="16" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="17" relate="ATT" />
+                <word id="17" cont="月宫" pos="n" ne="O" wsd="Bd02" wsdexp="太阳_月亮_日月" parent="5" relate="VOB" />
+                <word id="18" cont="吗" pos="u" ne="O" wsd="Kd05" wsdexp="吗_的话_罢了_了_哉" parent="5" relate="MT" />
+                <word id="19" cont="?" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="13" cont="这么久了,吴刚还在月亮上砍桂花树吗?" tag="">
+                <word id="0" cont="这么" pos="r" ne="O" wsd="Ka34" wsdexp="这样_那样" parent="1" relate="ADV" />
+                <word id="1" cont="久" pos="a" ne="O" wsd="Eb24" wsdexp="长久_永远" parent="9" relate="ADV" />
+                <word id="2" cont="了" pos="u" ne="O" wsd="Kd05" wsdexp="吗_的话_罢了_了_哉" parent="1" relate="MT" />
+                <word id="3" cont="," pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="4" cont="吴刚" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="9" relate="SBV" />
+                <word id="5" cont="还" pos="d" ne="O" wsd="Ka33" wsdexp="却_还_也_反而" parent="9" relate="ADV" />
+                <word id="6" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="9" relate="ADV" />
+                <word id="7" cont="月亮" pos="n" ne="O" wsd="Bd02" wsdexp="太阳_月亮_日月" parent="8" relate="ATT" />
+                <word id="8" cont="上" pos="nd" ne="O" wsd="Cb03" wsdexp="上_下_左_右" parent="6" relate="POB" />
+                <word id="9" cont="砍" pos="v" ne="O" wsd="Fa28" wsdexp="剪_刻_砍_刮" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="4" end="4" />
+                    <arg id="1" type="方位" beg="6" end="8" />
+                    <arg id="2" type="受事" beg="10" end="11" />
+                </word>
+                <word id="10" cont="桂花" pos="n" ne="O" wsd="Bh02" wsdexp="花_花卉" parent="11" relate="ATT" />
+                <word id="11" cont="树" pos="n" ne="O" wsd="Hc05" wsdexp="建立_设立_创立_命名" parent="9" relate="VOB" />
+                <word id="12" cont="吗" pos="u" ne="O" wsd="Kd05" wsdexp="吗_的话_罢了_了_哉" parent="9" relate="MT" />
+                <word id="13" cont="?" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+        </para>
+        <para id="3">
+            <sent id="0" cont="我们疑惑不解:月宫-金字塔,如此相似的描述难道仅仅是巧合吗?" tag="20%">
+                <word id="0" cont="我们" pos="r" ne="O" wsd="Aa02" wsdexp="我_我们" parent="1" relate="SBV" />
+                <word id="1" cont="疑惑" pos="v" ne="O" wsd="Ga14" wsdexp="沉迷_迷惑_留恋_习惯" parent="3" relate="SBV">
+                    <arg id="0" type="施事" beg="0" end="0" />
+                </word>
+                <word id="2" cont="不" pos="d" ne="O" wsd="Ka18" wsdexp="不_没" parent="3" relate="ADV" />
+                <word id="3" cont="解" pos="v" ne="O" wsd="Gb08" wsdexp="了解_体会_不解" parent="9" relate="SIM">
+                    <arg id="0" type="施事" beg="0" end="1" />
+                    <arg id="1" type="受事" beg="4" end="5" />
+                    <arg id="2" type="受事" beg="7" end="7" />
+                </word>
+                <word id="4" cont=":月" pos="nt" ne="S-Nr" wsd="-1" wsdexp="" parent="5" relate="ATT" />
+                <word id="5" cont="宫" pos="n" ne="O" wsd="Bn01" wsdexp="建筑_房屋" parent="3" relate="VOB" />
+                <word id="6" cont="-" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="7" cont="金字塔" pos="n" ne="O" wsd="Bn20" wsdexp="园林_塔" parent="3" relate="VOB" />
+                <word id="8" cont="," pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="9" cont="如此" pos="r" ne="O" wsd="Ka34" wsdexp="这样_那样" parent="12" relate="SBV" />
+                <word id="10" cont="相似" pos="a" ne="O" wsd="Jb03" wsdexp="相似_例如" parent="11" relate="DE" />
+                <word id="11" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="12" relate="ATT" />
+                <word id="12" cont="描述" pos="v" ne="O" wsd="Hi13" wsdexp="演讲_论述_列举_叙述_描写" parent="15" relate="SBV">
+                    <arg id="0" type="施事" beg="0" end="9" />
+                </word>
+                <word id="13" cont="难道" pos="d" ne="O" wsd="Ka17" wsdexp="也许_大概_难道" parent="15" relate="ADV" />
+                <word id="14" cont="仅仅" pos="d" ne="O" wsd="Ka07" wsdexp="都_只_不止_甚至" parent="15" relate="ADV" />
+                <word id="15" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="12" />
+                    <arg id="1" type="受事" beg="16" end="17" />
+                </word>
+                <word id="16" cont="巧合" pos="v" ne="O" wsd="Jc02" wsdexp="相投_巧合" parent="15" relate="VOB" />
+                <word id="17" cont="吗" pos="u" ne="O" wsd="Kd05" wsdexp="吗_的话_罢了_了_哉" parent="16" relate="MT" />
+                <word id="18" cont="?" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="1" cont="又是谁在那里刻下了文明的痕迹?" tag="">
+                <word id="0" cont="又" pos="d" ne="O" wsd="Ka14" wsdexp="再" parent="1" relate="ADV" />
+                <word id="1" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="6" relate="ATT">
+                    <arg id="0" type="受事" beg="2" end="5" />
+                </word>
+                <word id="2" cont="谁" pos="r" ne="O" wsd="Aa06" wsdexp="谁" parent="5" relate="SBV" />
+                <word id="3" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="5" relate="ADV" />
+                <word id="4" cont="那里" pos="r" ne="O" wsd="Cb30" wsdexp="这里_那里_哪里" parent="3" relate="POB" />
+                <word id="5" cont="刻" pos="v" ne="O" wsd="Hg19" wsdexp="绘画_制图_雕刻" parent="1" relate="VOB">
+                    <arg id="0" type="施事" beg="2" end="2" />
+                </word>
+                <word id="6" cont="下" pos="nd" ne="O" wsd="Cb03" wsdexp="上_下_左_右" parent="-1" relate="HED" />
+                <word id="7" cont="了" pos="u" ne="O" wsd="Kd05" wsdexp="吗_的话_罢了_了_哉" parent="10" relate="ATT" />
+                <word id="8" cont="文明" pos="a" ne="O" wsd="Dk01" wsdexp="文化_教育_卫生" parent="9" relate="DE" />
+                <word id="9" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="10" relate="ATT" />
+                <word id="10" cont="痕迹" pos="n" ne="O" wsd="Bg09" wsdexp="纹路_痕迹" parent="6" relate="VOB" />
+                <word id="11" cont="?" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="2" cont="茫茫太空，是否只有我们人类拥有高度的智慧和发达的文化?" tag="">
+                <word id="0" cont="茫茫" pos="a" ne="O" wsd="Ea04" wsdexp="广阔_宽敞_狭窄" parent="1" relate="ATT" />
+                <word id="1" cont="太空" pos="nl" ne="O" wsd="Cb07" wsdexp="天_地" parent="-1" relate="HED" />
+                <word id="2" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="3" cont="是否" pos="v" ne="O" wsd="Da15" wsdexp="是非_差错_漏洞" parent="1" relate="NOT">
+                    <arg id="0" type="受事" beg="4" end="10" />
+                    <arg id="1" type="受事" beg="11" end="14" />
+                </word>
+                <word id="4" cont="只有" pos="c" ne="O" wsd="Kc07" wsdexp="除了_除非_若非_否则" parent="7" relate="CNJ" />
+                <word id="5" cont="我们" pos="r" ne="O" wsd="Aa02" wsdexp="我_我们" parent="7" relate="SBV" />
+                <word id="6" cont="人类" pos="n" ne="O" wsd="Aa01" wsdexp="人_人民_众人" parent="7" relate="SBV" />
+                <word id="7" cont="拥有" pos="v" ne="O" wsd="Jd04" wsdexp="有_占有" parent="9" relate="DE">
+                    <arg id="0" type="施事" beg="5" end="5" />
+                    <arg id="1" type="施事" beg="6" end="6" />
+                    <arg id="2" type="受事" beg="8" end="8" />
+                </word>
+                <word id="8" cont="高度" pos="n" ne="O" wsd="Ed16" wsdexp="深刻_深远_深厚_深沉" parent="7" relate="VOB" />
+                <word id="9" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="10" relate="ATT" />
+                <word id="10" cont="智慧" pos="n" ne="O" wsd="De04" wsdexp="智慧_才能_能力_功夫" parent="3" relate="VOB" />
+                <word id="11" cont="和" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="14" relate="LAD" />
+                <word id="12" cont="发达" pos="a" ne="O" wsd="Ef02" wsdexp="繁荣_萧条" parent="13" relate="DE" />
+                <word id="13" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="14" relate="ATT" />
+                <word id="14" cont="文化" pos="n" ne="O" wsd="Dk01" wsdexp="文化_教育_卫生" parent="3" relate="VOB" />
+                <word id="15" cont="?" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+        </para>
+        <para id="4">
+            <sent id="0" cont="登上月球就可以解开我们心中的谜团。" tag="">
+                <word id="0" cont="登" pos="v" ne="O" wsd="Jd03" wsdexp="登载" parent="5" relate="ADV">
+                    <arg id="0" type="受事" beg="1" end="2" />
+                </word>
+                <word id="1" cont="上" pos="nd" ne="O" wsd="Cb03" wsdexp="上_下_左_右" parent="2" relate="ATT" />
+                <word id="2" cont="月球" pos="n" ne="O" wsd="Bd02" wsdexp="太阳_月亮_日月" parent="0" relate="VOB" />
+                <word id="3" cont="就" pos="d" ne="O" wsd="Ka07" wsdexp="都_只_不止_甚至" parent="4" relate="ADV" />
+                <word id="4" cont="可以" pos="v" ne="O" wsd="Gc02" wsdexp="能够_不能_可以_不可" parent="5" relate="ADV" />
+                <word id="5" cont="解开" pos="v" ne="O" wsd="Fa19" wsdexp="脱_解_拆" parent="-1" relate="HED">
+                    <arg id="0" type="受事" beg="6" end="9" />
+                </word>
+                <word id="6" cont="我们" pos="r" ne="O" wsd="Aa02" wsdexp="我_我们" parent="7" relate="ATT" />
+                <word id="7" cont="心中" pos="nl" ne="O" wsd="Df02" wsdexp="内心_良心_丹心" parent="8" relate="DE" />
+                <word id="8" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="9" relate="ATT" />
+                <word id="9" cont="谜团" pos="n" ne="O" wsd="Dk06" wsdexp="词_句_语言_谜语" parent="5" relate="VOB" />
+                <word id="10" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+        </para>
+        <para id="5">
+            <sent id="0" cont="中国发展载人航天，登上月球可以使之成为人类探测宇宙寻找外星生命的前哨站,实现千年以来中华民族的飞天奔月梦想，更具有经济、科技和国家发展战略方面的重大意义。" tag="10%">
+                <word id="0" cont="中国" pos="ns" ne="S-Ns" wsd="Di02" wsdexp="国家_行政区划" parent="1" relate="SBV" />
+                <word id="1" cont="发展" pos="v" ne="O" wsd="Ie12" wsdexp="进步_退步_堕落" parent="10" relate="DE">
+                    <arg id="0" type="施事" beg="0" end="0" />
+                    <arg id="1" type="受事" beg="2" end="3" />
+                </word>
+                <word id="2" cont="载人" pos="b" ne="O" wsd="Hf05" wsdexp="搬运_运输_装卸" parent="3" relate="ATT" />
+                <word id="3" cont="航天" pos="n" ne="O" wsd="Dk03" wsdexp="科学_学科_学业" parent="1" relate="VOB" />
+                <word id="4" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="5" cont="登" pos="v" ne="O" wsd="Jd03" wsdexp="登载" parent="10" relate="DE">
+                    <arg id="0" type="受事" beg="6" end="7" />
+                </word>
+                <word id="6" cont="上" pos="nd" ne="O" wsd="Cb03" wsdexp="上_下_左_右" parent="7" relate="ATT" />
+                <word id="7" cont="月球" pos="n" ne="O" wsd="Bd02" wsdexp="太阳_月亮_日月" parent="5" relate="VOB" />
+                <word id="8" cont="可以" pos="v" ne="O" wsd="Gc02" wsdexp="能够_不能_可以_不可" parent="9" relate="ADV" />
+                <word id="9" cont="使" pos="v" ne="O" wsd="Je04" wsdexp="引起_导致_使得" parent="10" relate="DE" />
+                <word id="10" cont="之" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="11" relate="ATT" />
+                <word id="11" cont="成为" pos="v" ne="O" wsd="Ih01" wsdexp="变化_成为" parent="-1" relate="HED">
+                    <arg id="0" type="受事" beg="12" end="12" />
+                    <arg id="1" type="受事" beg="13" end="20" />
+                    <arg id="2" type="受事" beg="21" end="21" />
+                    <arg id="3" type="受事" beg="23" end="31" />
+                    <arg id="4" type="受事" beg="33" end="45" />
+                </word>
+                <word id="12" cont="人类" pos="n" ne="O" wsd="Aa01" wsdexp="人_人民_众人" parent="11" relate="VOB" />
+                <word id="13" cont="探测" pos="v" ne="O" wsd="Hd14" wsdexp="勘察_勘探_测量" parent="15" relate="ADV">
+                    <arg id="0" type="受事" beg="14" end="14" />
+                </word>
+                <word id="14" cont="宇宙" pos="n" ne="O" wsd="Bd01" wsdexp="宇宙_星辰" parent="13" relate="VOB" />
+                <word id="15" cont="寻找" pos="v" ne="O" wsd="Hj40" wsdexp="寻找_储藏_储蓄" parent="19" relate="DE">
+                    <arg id="0" type="受事" beg="16" end="18" />
+                </word>
+                <word id="16" cont="外" pos="nd" ne="O" wsd="Cb05" wsdexp="内_外" parent="17" relate="ATT" />
+                <word id="17" cont="星" pos="n" ne="O" wsd="Bd01" wsdexp="宇宙_星辰" parent="18" relate="ATT" />
+                <word id="18" cont="生命" pos="n" ne="O" wsd="Da17" wsdexp="生命_生活" parent="15" relate="VOB" />
+                <word id="19" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="20" relate="ATT" />
+                <word id="20" cont="前哨" pos="n" ne="O" wsd="Cb28" wsdexp="场所" parent="11" relate="VOB" />
+                <word id="21" cont="站" pos="v" ne="O" wsd="Fb03" wsdexp="坐_蹲_立_骑" parent="11" relate="VOB" />
+                <word id="22" cont="," pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="23" cont="实现" pos="v" ne="O" wsd="Ie14" wsdexp="完成_实现" parent="11" relate="VOB">
+                    <arg id="0" type="受事" beg="24" end="29" />
+                    <arg id="1" type="受事" beg="30" end="31" />
+                </word>
+                <word id="24" cont="千" pos="m" ne="B-Nm" wsd="Dn04" wsdexp="基数_序数" parent="25" relate="QUN" />
+                <word id="25" cont="年" pos="q" ne="E-Nm" wsd="Ca18" wsdexp="年" parent="27" relate="ATT" />
+                <word id="26" cont="以来" pos="nd" ne="O" wsd="Ca11" wsdexp="过去_近来" parent="27" relate="ATT" />
+                <word id="27" cont="中华民族" pos="n" ne="O" wsd="Di04" wsdexp="人种_民族" parent="28" relate="DE" />
+                <word id="28" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="29" relate="ATT" />
+                <word id="29" cont="飞天" pos="n" ne="O" wsd="Dh01" wsdexp="神_鬼_妖_魂_妖魔鬼怪" parent="23" relate="VOB" />
+                <word id="30" cont="奔月" pos="v" ne="O" wsd="Fb01" wsdexp="走_跑" parent="23" relate="VOB">
+                    <arg id="0" type="受事" beg="31" end="31" />
+                </word>
+                <word id="31" cont="梦想" pos="n" ne="O" wsd="Gb04" wsdexp="希望_要求_追求" parent="30" relate="VOB" />
+                <word id="32" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="33" cont="更" pos="d" ne="O" wsd="Ka04" wsdexp="更加" parent="34" relate="ADV" />
+                <word id="34" cont="具有" pos="v" ne="O" wsd="Jd04" wsdexp="有_占有" parent="43" relate="DE">
+                    <arg id="0" type="受事" beg="35" end="42" />
+                </word>
+                <word id="35" cont="经济" pos="n" ne="O" wsd="Dj01" wsdexp="经济" parent="34" relate="VOB" />
+                <word id="36" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="37" cont="科技" pos="n" ne="O" wsd="Dk03" wsdexp="科学_学科_学业" parent="35" relate="COO" />
+                <word id="38" cont="和" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="42" relate="LAD" />
+                <word id="39" cont="国家" pos="n" ne="O" wsd="Di02" wsdexp="国家_行政区划" parent="40" relate="ATT" />
+                <word id="40" cont="发展" pos="v" ne="O" wsd="Ie12" wsdexp="进步_退步_堕落" parent="41" relate="ATT" />
+                <word id="41" cont="战略" pos="n" ne="O" wsd="Df09" wsdexp="计划_计策_手段" parent="42" relate="ATT" />
+                <word id="42" cont="方面" pos="n" ne="O" wsd="Dd05" wsdexp="范围_方面_环节" parent="35" relate="COO" />
+                <word id="43" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="45" relate="ATT" />
+                <word id="44" cont="重大" pos="a" ne="O" wsd="Ed28" wsdexp="重要_次要_不足道" parent="45" relate="ATT" />
+                <word id="45" cont="意义" pos="n" ne="O" wsd="Db06" wsdexp="规律_意义" parent="11" relate="VOB" />
+                <word id="46" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+        </para>
+        <para id="6">
+            <sent id="0" cont="月球是一个取之不尽，用之不竭的能源宝库。" tag="10%">
+                <word id="0" cont="月球" pos="n" ne="O" wsd="Bd02" wsdexp="太阳_月亮_日月" parent="1" relate="SBV" />
+                <word id="1" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="0" />
+                    <arg id="1" type="受事" beg="2" end="3" />
+                    <arg id="2" type="受事" beg="5" end="8" />
+                </word>
+                <word id="2" cont="一个" pos="m" ne="O" wsd="Dn08" wsdexp="数量单位" parent="3" relate="QUN" />
+                <word id="3" cont="取之不尽" pos="i" ne="O" wsd="Ed39" wsdexp="丰富_广博_广博_贫乏" parent="1" relate="VOB" />
+                <word id="4" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="5" cont="用之不竭" pos="i" ne="O" wsd="Eb01" wsdexp="多_少_稀少" parent="6" relate="DE" />
+                <word id="6" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="8" relate="ATT" />
+                <word id="7" cont="能源" pos="n" ne="O" wsd="Db02" wsdexp="根源_来源" parent="8" relate="ATT" />
+                <word id="8" cont="宝库" pos="n" ne="O" wsd="Ba08" wsdexp="宝物_废物" parent="1" relate="VOB" />
+                <word id="9" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="1" cont="月球上蕴藏着丰富的钛、铁、铀、钍、稀土、镁、磷、硅、钠、钾、镍、铬、锰等矿产，仅月海玄武岩中含有可开采利用的钛金属至少就有100万亿吨。" tag="20%">
+                <word id="0" cont="月球" pos="n" ne="O" wsd="Bd02" wsdexp="太阳_月亮_日月" parent="1" relate="ATT" />
+                <word id="1" cont="上" pos="nd" ne="O" wsd="Cb03" wsdexp="上_下_左_右" parent="5" relate="DE" />
+                <word id="2" cont="蕴藏" pos="v" ne="O" wsd="Jd06" wsdexp="充满_满怀_包含_显露_呈现" parent="5" relate="DE" />
+                <word id="3" cont="着" pos="u" ne="O" wsd="Fa18" wsdexp="穿_戴_佩带" parent="2" relate="MT" />
+                <word id="4" cont="丰富" pos="a" ne="O" wsd="Ed39" wsdexp="丰富_广博_广博_贫乏" parent="5" relate="DE" />
+                <word id="5" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="6" relate="ATT" />
+                <word id="6" cont="钛" pos="n" ne="O" wsd="Dd10" wsdexp="因素_成分" parent="32" relate="ATT" />
+                <word id="7" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="8" cont="铁" pos="n" ne="O" wsd="Dd10" wsdexp="因素_成分" parent="6" relate="COO" />
+                <word id="9" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="10" cont="铀" pos="n" ne="O" wsd="Dd10" wsdexp="因素_成分" parent="6" relate="COO" />
+                <word id="11" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="12" cont="钍" pos="n" ne="O" wsd="Bm01" wsdexp="五金_金_银_铜" parent="6" relate="COO" />
+                <word id="13" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="14" cont="稀土" pos="n" ne="O" wsd="Dd10" wsdexp="因素_成分" parent="6" relate="COO" />
+                <word id="15" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="16" cont="镁" pos="n" ne="O" wsd="Dd10" wsdexp="因素_成分" parent="6" relate="COO" />
+                <word id="17" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="18" cont="磷" pos="n" ne="O" wsd="Bm08" wsdexp="煤_炭" parent="6" relate="COO" />
+                <word id="19" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="20" cont="硅" pos="n" ne="O" wsd="Br13" wsdexp="药品_维生素_补品" parent="6" relate="COO" />
+                <word id="21" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="22" cont="钠" pos="n" ne="O" wsd="Dd10" wsdexp="因素_成分" parent="6" relate="COO" />
+                <word id="23" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="24" cont="钾" pos="n" ne="O" wsd="Dd10" wsdexp="因素_成分" parent="6" relate="COO" />
+                <word id="25" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="26" cont="镍" pos="n" ne="O" wsd="Bm01" wsdexp="五金_金_银_铜" parent="6" relate="COO" />
+                <word id="27" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="28" cont="铬" pos="n" ne="O" wsd="Br13" wsdexp="药品_维生素_补品" parent="6" relate="COO" />
+                <word id="29" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="30" cont="锰" pos="n" ne="O" wsd="Dd10" wsdexp="因素_成分" parent="6" relate="COO" />
+                <word id="31" cont="等" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="32" relate="ATT" />
+                <word id="32" cont="矿产" pos="n" ne="O" wsd="Bm01" wsdexp="五金_金_银_铜" parent="38" relate="SBV" />
+                <word id="33" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="34" cont="仅" pos="d" ne="O" wsd="Ka07" wsdexp="都_只_不止_甚至" parent="36" relate="ATT" />
+                <word id="35" cont="月海" pos="ns" ne="B-Ns" wsd="-1" wsdexp="" parent="36" relate="ATT" />
+                <word id="36" cont="玄武岩" pos="ns" ne="E-Ns" wsd="Bm04" wsdexp="石_土_泥_沙" parent="38" relate="SBV" />
+                <word id="37" cont="中" pos="nd" ne="O" wsd="Da05" wsdexp="过程_内中" parent="38" relate="ADV" />
+                <word id="38" cont="含有" pos="v" ne="O" wsd="Jd06" wsdexp="充满_满怀_包含_显露_呈现" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="32" />
+                    <arg id="1" type="施事" beg="34" end="36" />
+                    <arg id="2" type="方位" beg="37" end="37" />
+                    <arg id="3" type="受事" beg="39" end="49" />
+                </word>
+                <word id="39" cont="可" pos="v" ne="O" wsd="Gc02" wsdexp="能够_不能_可以_不可" parent="40" relate="ADV" />
+                <word id="40" cont="开采" pos="v" ne="O" wsd="Hd15" wsdexp="开矿_选矿" parent="38" relate="VOB">
+                    <arg id="0" type="受事" beg="41" end="49" />
+                </word>
+                <word id="41" cont="利用" pos="v" ne="O" wsd="Hj28" wsdexp="使用_沿用_借鉴" parent="42" relate="DE" />
+                <word id="42" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="44" relate="ATT" />
+                <word id="43" cont="钛" pos="n" ne="O" wsd="Dd10" wsdexp="因素_成分" parent="44" relate="ATT" />
+                <word id="44" cont="金属" pos="n" ne="O" wsd="Bm01" wsdexp="五金_金_银_铜" parent="47" relate="SBV" />
+                <word id="45" cont="至少" pos="d" ne="O" wsd="Ka02" wsdexp="最_至多_至少" parent="47" relate="ADV" />
+                <word id="46" cont="就" pos="d" ne="O" wsd="Ka07" wsdexp="都_只_不止_甚至" parent="47" relate="ADV" />
+                <word id="47" cont="有" pos="v" ne="O" wsd="Jd04" wsdexp="有_占有" parent="40" relate="VOB">
+                    <arg id="0" type="施事" beg="41" end="44" />
+                    <arg id="1" type="受事-数量性质" beg="48" end="49" />
+                </word>
+                <word id="48" cont="100万亿" pos="m" ne="B-Nm" wsd="-1" wsdexp="" parent="49" relate="QUN" />
+                <word id="49" cont="吨" pos="q" ne="E-Nm" wsd="Dn10" wsdexp="度量衡单位" parent="47" relate="VOB" />
+                <word id="50" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="2" cont="据环球时报报道，克里普岩是月球主要岩石类型之一，因其富含钾(K)、稀土元素(REE)和磷(P)而得名。" tag="">
+                <word id="0" cont="据" pos="p" ne="O" wsd="Kb07" wsdexp="依照_根据_趁" parent="7" relate="ADV" />
+                <word id="1" cont="环球" pos="nz" ne="B-Nz" wsd="Di01" wsdexp="世界_社会_人间" parent="2" relate="ATT" />
+                <word id="2" cont="时报" pos="n" ne="E-Nz" wsd="Dk21" wsdexp="报章_杂志_报刊" parent="0" relate="POB" />
+                <word id="3" cont="报道" pos="v" ne="O" wsd="Hi15" wsdexp="告诉_通知_嘱咐" parent="0" relate="POB" />
+                <word id="4" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="5" cont="克里" pos="nh" ne="B-Nh" wsd="-1" wsdexp="" parent="6" relate="ATT" />
+                <word id="6" cont="普岩" pos="nh" ne="E-Nh" wsd="-1" wsdexp="" parent="7" relate="SBV" />
+                <word id="7" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="5" end="6" />
+                    <arg id="1" type="受事" beg="8" end="11" />
+                    <arg id="2" type="受事" beg="12" end="12" />
+                    <arg id="3" type="受事" beg="23" end="24" />
+                    <arg id="4" type="受事" beg="28" end="29" />
+                </word>
+                <word id="8" cont="月球" pos="n" ne="O" wsd="Bd02" wsdexp="太阳_月亮_日月" parent="9" relate="ATT" />
+                <word id="9" cont="主要" pos="b" ne="O" wsd="Ed28" wsdexp="重要_次要_不足道" parent="10" relate="ATT" />
+                <word id="10" cont="岩石" pos="n" ne="O" wsd="Bm04" wsdexp="石_土_泥_沙" parent="11" relate="ATT" />
+                <word id="11" cont="类型" pos="n" ne="O" wsd="Dd06" wsdexp="系统_种类_结构" parent="7" relate="VOB" />
+                <word id="12" cont="之一" pos="r" ne="O" wsd="Ed61" wsdexp="这个_那个_某个_各个_其他_何" parent="7" relate="VOB" />
+                <word id="13" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="14" cont="因" pos="p" ne="O" wsd="Kc09" wsdexp="因为_所以" parent="17" relate="ADV" />
+                <word id="15" cont="其" pos="r" ne="O" wsd="Ba10" wsdexp="它_什么" parent="14" relate="POB" />
+                <word id="16" cont="富" pos="a" ne="O" wsd="Ef14" wsdexp="富裕_小康_贫穷" parent="14" relate="POB" />
+                <word id="17" cont="含" pos="v" ne="O" wsd="Jd06" wsdexp="充满_满怀_包含_显露_呈现" parent="7" relate="IC">
+                    <arg id="0" type="受事" beg="18" end="18" />
+                </word>
+                <word id="18" cont="钾" pos="n" ne="O" wsd="Dd10" wsdexp="因素_成分" parent="17" relate="VOB" />
+                <word id="19" cont="(" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="20" cont="K" pos="ws" ne="O" wsd="-1" wsdexp="" parent="7" relate="NOT" />
+                <word id="21" cont=")" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="22" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="23" cont="稀土" pos="n" ne="O" wsd="Dd10" wsdexp="因素_成分" parent="24" relate="ATT" />
+                <word id="24" cont="元素" pos="n" ne="O" wsd="Dd10" wsdexp="因素_成分" parent="7" relate="VOB" />
+                <word id="25" cont="(" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="26" cont="REE" pos="ws" ne="O" wsd="-1" wsdexp="" parent="7" relate="NOT" />
+                <word id="27" cont=")" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="28" cont="和" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="29" relate="LAD" />
+                <word id="29" cont="磷" pos="n" ne="O" wsd="Bm08" wsdexp="煤_炭" parent="7" relate="VOB" />
+                <word id="30" cont="(" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="31" cont="P" pos="ws" ne="O" wsd="-1" wsdexp="" parent="7" relate="NOT" />
+                <word id="32" cont=")" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="33" cont="而" pos="c" ne="O" wsd="Kc03" wsdexp="但是" parent="34" relate="CNJ" />
+                <word id="34" cont="得名" pos="v" ne="O" wsd="-1" wsdexp="" parent="7" relate="IC" />
+                <word id="35" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="3" cont="根据最近美国“克莱门汀”号和“月球勘探者”号月球探测器的探测资料分析，在月球正面的风暴洋区域可能就是克里普岩的分布区域，进而对克里普岩出露于月面或近月面进行了成因机制的分析，并估算出其厚度估计有10―20公里。" tag="">
+                <word id="0" cont="根据" pos="p" ne="O" wsd="Kb07" wsdexp="依照_根据_趁" parent="15" relate="DE" />
+                <word id="1" cont="最近" pos="nt" ne="O" wsd="Ca11" wsdexp="过去_近来" parent="2" relate="ATT" />
+                <word id="2" cont="美国" pos="ns" ne="S-Ns" wsd="Di02" wsdexp="国家_行政区划" parent="0" relate="POB" />
+                <word id="3" cont="“" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="4" cont="克莱门汀" pos="nz" ne="S-Nz" wsd="-1" wsdexp="" parent="0" relate="POB" />
+                <word id="5" cont="”" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="6" cont="号" pos="n" ne="O" wsd="Dk04" wsdexp="号码_记号_曲谱_标点符号" parent="0" relate="POB" />
+                <word id="7" cont="和" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="10" relate="LAD" />
+                <word id="8" cont="“" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="9" cont="月球" pos="n" ne="O" wsd="Bd02" wsdexp="太阳_月亮_日月" parent="10" relate="ATT" />
+                <word id="10" cont="勘探者" pos="n" ne="O" wsd="Aa01" wsdexp="人_人民_众人" parent="6" relate="VOB" />
+                <word id="11" cont="”" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="12" cont="号" pos="n" ne="O" wsd="Dk04" wsdexp="号码_记号_曲谱_标点符号" parent="13" relate="ATT" />
+                <word id="13" cont="月球" pos="n" ne="O" wsd="Bd02" wsdexp="太阳_月亮_日月" parent="14" relate="ATT" />
+                <word id="14" cont="探测器" pos="n" ne="O" wsd="Ba05" wsdexp="器具_设备" parent="15" relate="DE" />
+                <word id="15" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="16" relate="ATT" />
+                <word id="16" cont="探测" pos="v" ne="O" wsd="Hd14" wsdexp="勘察_勘探_测量" parent="-1" relate="HED">
+                    <arg id="0" type="受事" beg="17" end="18" />
+                </word>
+                <word id="17" cont="资料" pos="n" ne="O" wsd="Dk17" wsdexp="资料_文件" parent="18" relate="ATT" />
+                <word id="18" cont="分析" pos="v" ne="O" wsd="Hg14" wsdexp="分析_推敲_研究_考证" parent="16" relate="VOB" />
+                <word id="19" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="20" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="29" relate="ADV" />
+                <word id="21" cont="月球" pos="n" ne="O" wsd="Bd02" wsdexp="太阳_月亮_日月" parent="24" relate="ATT" />
+                <word id="22" cont="正面" pos="b" ne="O" wsd="Bc02" wsdexp="边_角_面_脊" parent="23" relate="DE" />
+                <word id="23" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="24" relate="ATT" />
+                <word id="24" cont="风暴" pos="n" ne="O" wsd="Da02" wsdexp="变故_动乱_风潮" parent="26" relate="ATT" />
+                <word id="25" cont="洋" pos="a" ne="O" wsd="Ed52" wsdexp="外来_国产" parent="26" relate="ATT" />
+                <word id="26" cont="区域" pos="n" ne="O" wsd="Cb08" wsdexp="地方_地点" parent="20" relate="POB" />
+                <word id="27" cont="可能" pos="v" ne="O" wsd="Ka17" wsdexp="也许_大概_难道" parent="29" relate="ADV" />
+                <word id="28" cont="就" pos="d" ne="O" wsd="Ka07" wsdexp="都_只_不止_甚至" parent="29" relate="ADV" />
+                <word id="29" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="16" relate="IC">
+                    <arg id="0" type="受事" beg="30" end="34" />
+                </word>
+                <word id="30" cont="克里" pos="nh" ne="B-Nh" wsd="-1" wsdexp="" parent="31" relate="ATT" />
+                <word id="31" cont="普岩" pos="nh" ne="E-Nh" wsd="-1" wsdexp="" parent="32" relate="DE" />
+                <word id="32" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="34" relate="ATT" />
+                <word id="33" cont="分布" pos="v" ne="O" wsd="Id08" wsdexp="陈列_布置_排列_分布" parent="34" relate="ATT" />
+                <word id="34" cont="区域" pos="n" ne="O" wsd="Cb08" wsdexp="地方_地点" parent="29" relate="VOB" />
+                <word id="35" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="36" cont="进而" pos="c" ne="O" wsd="Ka04" wsdexp="更加" parent="47" relate="CNJ" />
+                <word id="37" cont="对" pos="p" ne="O" wsd="Kb04" wsdexp="对于_关于" parent="47" relate="ADV" />
+                <word id="38" cont="克里普" pos="nh" ne="B-Nh" wsd="-1" wsdexp="" parent="39" relate="ATT" />
+                <word id="39" cont="岩出露" pos="nh" ne="E-Nh" wsd="-1" wsdexp="" parent="47" relate="SBV" />
+                <word id="40" cont="于" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="47" relate="ADV" />
+                <word id="41" cont="月" pos="n" ne="O" wsd="Ca21" wsdexp="月" parent="42" relate="ATT" />
+                <word id="42" cont="面" pos="n" ne="O" wsd="Dd05" wsdexp="范围_方面_环节" parent="46" relate="ATT" />
+                <word id="43" cont="或" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="46" relate="LAD" />
+                <word id="44" cont="近" pos="a" ne="O" wsd="Dn05" wsdexp="半_概数_若干" parent="46" relate="ATT" />
+                <word id="45" cont="月" pos="n" ne="O" wsd="Ca21" wsdexp="月" parent="46" relate="ATT" />
+                <word id="46" cont="面" pos="n" ne="O" wsd="Dd05" wsdexp="范围_方面_环节" parent="40" relate="POB" />
+                <word id="47" cont="进行" pos="v" ne="O" wsd="Ig03" wsdexp="进行_继续_流逝" parent="29" relate="IC">
+                    <arg id="0" type="施事" beg="38" end="39" />
+                    <arg id="1" type="受事" beg="49" end="52" />
+                </word>
+                <word id="48" cont="了" pos="u" ne="O" wsd="Kd05" wsdexp="吗_的话_罢了_了_哉" parent="47" relate="MT" />
+                <word id="49" cont="成因" pos="n" ne="O" wsd="Db01" wsdexp="原因_结果" parent="50" relate="ATT" />
+                <word id="50" cont="机制" pos="n" ne="O" wsd="Di09" wsdexp="政策_制度_所有制_体制" parent="51" relate="DE" />
+                <word id="51" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="52" relate="ATT" />
+                <word id="52" cont="分析" pos="v" ne="O" wsd="Hg14" wsdexp="分析_推敲_研究_考证" parent="47" relate="VOB" />
+                <word id="53" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="54" cont="并" pos="c" ne="O" wsd="Kc02" wsdexp="并且_况且" parent="55" relate="CNJ" />
+                <word id="55" cont="估算" pos="v" ne="O" wsd="Gb03" wsdexp="推测_猜想" parent="56" relate="ADV" />
+                <word id="56" cont="出" pos="v" ne="O" wsd="Hj64" wsdexp="出_进_出入" parent="59" relate="ADV" />
+                <word id="57" cont="其" pos="r" ne="O" wsd="Ba10" wsdexp="它_什么" parent="59" relate="SBV" />
+                <word id="58" cont="厚度" pos="n" ne="O" wsd="Dn01" wsdexp="量度_温度" parent="59" relate="SBV" />
+                <word id="59" cont="估计" pos="v" ne="O" wsd="Gb03" wsdexp="推测_猜想" parent="47" relate="VV">
+                    <arg id="0" type="施事" beg="57" end="57" />
+                    <arg id="1" type="施事" beg="58" end="58" />
+                    <arg id="2" type="受事" beg="60" end="64" />
+                </word>
+                <word id="60" cont="有" pos="v" ne="O" wsd="Jd04" wsdexp="有_占有" parent="59" relate="VOB">
+                    <arg id="0" type="受事-数量性质" beg="61" end="64" />
+                </word>
+                <word id="61" cont="10" pos="m" ne="S-Nm" wsd="-1" wsdexp="" parent="63" relate="RAD" />
+                <word id="62" cont="―" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="63" cont="20" pos="m" ne="B-Nm" wsd="-1" wsdexp="" parent="64" relate="QUN" />
+                <word id="64" cont="公里" pos="q" ne="E-Nm" wsd="Dn10" wsdexp="度量衡单位" parent="60" relate="VOB" />
+                <word id="65" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="4" cont="据一些专家的模式计算，克里普岩中稀土元素、钍、铀的资源量分别约为6.7亿吨、8.4亿吨和3.6亿吨。" tag="">
+                <word id="0" cont="据" pos="p" ne="O" wsd="Kb07" wsdexp="依照_根据_趁" parent="3" relate="DE" />
+                <word id="1" cont="一些" pos="m" ne="O" wsd="Dn05" wsdexp="半_概数_若干" parent="2" relate="QUN" />
+                <word id="2" cont="专家" pos="n" ne="O" wsd="Al02" wsdexp="内行_专家_骨干_外行" parent="0" relate="POB" />
+                <word id="3" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="5" relate="ATT" />
+                <word id="4" cont="模式" pos="n" ne="O" wsd="Dc01" wsdexp="形状_状态_式样_装饰" parent="5" relate="ATT" />
+                <word id="5" cont="计算" pos="v" ne="O" wsd="Hj29" wsdexp="称_量_计算" parent="-1" relate="HED" />
+                <word id="6" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="7" cont="克里普" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="8" relate="ATT" />
+                <word id="8" cont="岩" pos="n" ne="O" wsd="Be04" wsdexp="山_坡" parent="9" relate="ATT" />
+                <word id="9" cont="中" pos="nd" ne="O" wsd="Da05" wsdexp="过程_内中" parent="10" relate="ATT" />
+                <word id="10" cont="稀土" pos="n" ne="O" wsd="Dd10" wsdexp="因素_成分" parent="11" relate="ATT" />
+                <word id="11" cont="元素" pos="n" ne="O" wsd="Dd10" wsdexp="因素_成分" parent="16" relate="DE" />
+                <word id="12" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="13" cont="钍" pos="n" ne="O" wsd="Bm01" wsdexp="五金_金_银_铜" parent="11" relate="COO" />
+                <word id="14" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="15" cont="铀" pos="n" ne="O" wsd="Dd10" wsdexp="因素_成分" parent="11" relate="COO" />
+                <word id="16" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="17" relate="ATT" />
+                <word id="17" cont="资源量" pos="n" ne="O" wsd="Dn03" wsdexp="数量" parent="20" relate="SBV" />
+                <word id="18" cont="分别" pos="d" ne="O" wsd="Ka23" wsdexp="共同_分头_独自_互相_从中" parent="20" relate="ADV" />
+                <word id="19" cont="约" pos="d" ne="O" wsd="Ka17" wsdexp="也许_大概_难道" parent="20" relate="ADV" />
+                <word id="20" cont="为" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="5" relate="IC">
+                    <arg id="0" type="施事" beg="7" end="17" />
+                    <arg id="1" type="受事-数量性质" beg="21" end="22" />
+                    <arg id="2" type="受事-数量性质" beg="24" end="25" />
+                    <arg id="3" type="受事-数量性质" beg="26" end="28" />
+                </word>
+                <word id="21" cont="6.7亿" pos="m" ne="B-Nm" wsd="-1" wsdexp="" parent="22" relate="QUN" />
+                <word id="22" cont="吨" pos="q" ne="E-Nm" wsd="Dn10" wsdexp="度量衡单位" parent="20" relate="VOB" />
+                <word id="23" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="24" cont="8.4亿" pos="m" ne="B-Nm" wsd="-1" wsdexp="" parent="25" relate="QUN" />
+                <word id="25" cont="吨" pos="q" ne="E-Nm" wsd="Dn10" wsdexp="度量衡单位" parent="20" relate="VOB" />
+                <word id="26" cont="和" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="28" relate="LAD" />
+                <word id="27" cont="3.6亿" pos="m" ne="B-Nm" wsd="-1" wsdexp="" parent="28" relate="QUN" />
+                <word id="28" cont="吨" pos="q" ne="E-Nm" wsd="Dn10" wsdexp="度量衡单位" parent="20" relate="VOB" />
+                <word id="29" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="5" cont="从目前采集来的月球岩石标本中测明，月球不仅含有地球上的全部元素，还有大量分布的55种矿物，其中6种矿物是地球没有的。" tag="">
+                <word id="0" cont="从" pos="p" ne="O" wsd="Kb02" wsdexp="从_到_沿" parent="2" relate="ADV" />
+                <word id="1" cont="目前" pos="nt" ne="O" wsd="Ca10" wsdexp="现在" parent="0" relate="POB" />
+                <word id="2" cont="采集" pos="v" ne="O" wsd="Hj25" wsdexp="采集_搜罗_挑选_取长补短" parent="4" relate="DE">
+                    <arg id="0" type="时间" beg="0" end="1" />
+                </word>
+                <word id="3" cont="来" pos="v" ne="O" wsd="Hj63" wsdexp="来_去_来去" parent="2" relate="CMP" />
+                <word id="4" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="7" relate="ATT" />
+                <word id="5" cont="月球" pos="n" ne="O" wsd="Bd02" wsdexp="太阳_月亮_日月" parent="6" relate="ATT" />
+                <word id="6" cont="岩石" pos="n" ne="O" wsd="Bm04" wsdexp="石_土_泥_沙" parent="7" relate="ATT" />
+                <word id="7" cont="标本" pos="n" ne="O" wsd="Ba02" wsdexp="生物_物品" parent="8" relate="ATT" />
+                <word id="8" cont="中" pos="nd" ne="O" wsd="Da05" wsdexp="过程_内中" parent="9" relate="ADV" />
+                <word id="9" cont="测" pos="v" ne="O" wsd="Hd14" wsdexp="勘察_勘探_测量" parent="-1" relate="HED">
+                    <arg id="0" type="方位" beg="0" end="8" />
+                </word>
+                <word id="10" cont="明" pos="a" ne="O" wsd="Eb18" wsdexp="亮_暗" parent="9" relate="CMP" />
+                <word id="11" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="12" cont="月球" pos="n" ne="O" wsd="Bd02" wsdexp="太阳_月亮_日月" parent="14" relate="SBV" />
+                <word id="13" cont="不仅" pos="c" ne="O" wsd="Kc05" wsdexp="不但_何止" parent="14" relate="CNJ" />
+                <word id="14" cont="含有" pos="v" ne="O" wsd="Jd06" wsdexp="充满_满怀_包含_显露_呈现" parent="9" relate="VV">
+                    <arg id="0" type="施事" beg="12" end="12" />
+                    <arg id="1" type="受事" beg="15" end="19" />
+                </word>
+                <word id="15" cont="地球" pos="n" ne="O" wsd="Bd03" wsdexp="地球" parent="16" relate="ATT" />
+                <word id="16" cont="上" pos="nd" ne="O" wsd="Cb03" wsdexp="上_下_左_右" parent="17" relate="DE" />
+                <word id="17" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="19" relate="ATT" />
+                <word id="18" cont="全部" pos="m" ne="O" wsd="Eb02" wsdexp="单_双_全部_部分" parent="19" relate="QUN" />
+                <word id="19" cont="元素" pos="n" ne="O" wsd="Dd10" wsdexp="因素_成分" parent="14" relate="VOB" />
+                <word id="20" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="21" cont="还有" pos="v" ne="O" wsd="Jd04" wsdexp="有_占有" parent="14" relate="VV" />
+                <word id="22" cont="大量" pos="m" ne="O" wsd="Eb01" wsdexp="多_少_稀少" parent="23" relate="ADV" />
+                <word id="23" cont="分布" pos="v" ne="O" wsd="Id08" wsdexp="陈列_布置_排列_分布" parent="24" relate="DE" />
+                <word id="24" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="27" relate="ATT" />
+                <word id="25" cont="55" pos="m" ne="B-Nm" wsd="-1" wsdexp="" parent="26" relate="QUN" />
+                <word id="26" cont="种" pos="q" ne="E-Nm" wsd="Dn08" wsdexp="数量单位" parent="27" relate="ATT" />
+                <word id="27" cont="矿物" pos="n" ne="O" wsd="Ba08" wsdexp="宝物_废物" parent="33" relate="SBV" />
+                <word id="28" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="29" cont="其中" pos="r" ne="O" wsd="Da05" wsdexp="过程_内中" parent="31" relate="ATT" />
+                <word id="30" cont="6" pos="m" ne="B-Nm" wsd="-1" wsdexp="" parent="31" relate="QUN" />
+                <word id="31" cont="种" pos="q" ne="E-Nm" wsd="Dn08" wsdexp="数量单位" parent="32" relate="ATT" />
+                <word id="32" cont="矿物" pos="n" ne="O" wsd="Ba08" wsdexp="宝物_废物" parent="33" relate="SBV" />
+                <word id="33" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="9" relate="IC">
+                    <arg id="0" type="施事" beg="22" end="27" />
+                    <arg id="1" type="施事" beg="29" end="32" />
+                    <arg id="2" type="受事" beg="34" end="34" />
+                    <arg id="3" type="受事" beg="35" end="35" />
+                </word>
+                <word id="34" cont="地球" pos="n" ne="O" wsd="Bd03" wsdexp="地球" parent="33" relate="VOB" />
+                <word id="35" cont="没有" pos="v" ne="O" wsd="Ka18" wsdexp="不_没" parent="33" relate="VOB" />
+                <word id="36" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="33" relate="MT" />
+                <word id="37" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="6" cont="除了月球岩石中的丰富矿产，月球表面上稳定的太阳能可供人们利用外，月球的尘埃中也富含着由太阳风粒子积累而形成的气体，如氢、氦、氖、氩、氮等有用气体，尤其是核聚变燃料“氦3”，蕴藏十分丰富，据专家初步估算，月壤中的氦3资源总量可达100-500万吨。" tag="">
+                <word id="0" cont="除了" pos="p" ne="O" wsd="Kc07" wsdexp="除了_除非_若非_否则" parent="4" relate="DE" />
+                <word id="1" cont="月球" pos="n" ne="O" wsd="Bd02" wsdexp="太阳_月亮_日月" parent="2" relate="ATT" />
+                <word id="2" cont="岩石" pos="n" ne="O" wsd="Bm04" wsdexp="石_土_泥_沙" parent="3" relate="ATT" />
+                <word id="3" cont="中" pos="nd" ne="O" wsd="Da05" wsdexp="过程_内中" parent="0" relate="POB" />
+                <word id="4" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="6" relate="ATT" />
+                <word id="5" cont="丰富" pos="a" ne="O" wsd="Ed39" wsdexp="丰富_广博_广博_贫乏" parent="6" relate="ATT" />
+                <word id="6" cont="矿产" pos="n" ne="O" wsd="Bm01" wsdexp="五金_金_银_铜" parent="26" relate="SBV" />
+                <word id="7" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="8" cont="月球" pos="n" ne="O" wsd="Bd02" wsdexp="太阳_月亮_日月" parent="9" relate="ATT" />
+                <word id="9" cont="表面" pos="n" ne="O" wsd="Dd08" wsdexp="表面_实质_根本" parent="10" relate="ATT" />
+                <word id="10" cont="上" pos="nd" ne="O" wsd="Cb03" wsdexp="上_下_左_右" parent="13" relate="ATT" />
+                <word id="11" cont="稳定" pos="a" ne="O" wsd="Ef01" wsdexp="太平_安定_动荡_混乱" parent="12" relate="DE" />
+                <word id="12" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="13" relate="ATT" />
+                <word id="13" cont="太阳能" pos="n" ne="O" wsd="Dd14" wsdexp="力气_力量_能量" parent="15" relate="SBV" />
+                <word id="14" cont="可" pos="v" ne="O" wsd="Gc02" wsdexp="能够_不能_可以_不可" parent="15" relate="ADV" />
+                <word id="15" cont="供" pos="v" ne="O" wsd="Jc05" wsdexp="需要_提供_满足" parent="18" relate="ATT">
+                    <arg id="0" type="施事" beg="8" end="13" />
+                    <arg id="1" type="受事" beg="16" end="16" />
+                </word>
+                <word id="16" cont="人们" pos="n" ne="O" wsd="Aa01" wsdexp="人_人民_众人" parent="15" relate="VOB" />
+                <word id="17" cont="利用" pos="v" ne="O" wsd="Hj28" wsdexp="使用_沿用_借鉴" parent="18" relate="ATT" />
+                <word id="18" cont="外" pos="nd" ne="O" wsd="Cb05" wsdexp="内_外" parent="26" relate="ADV" />
+                <word id="19" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="20" cont="月球" pos="n" ne="O" wsd="Bd02" wsdexp="太阳_月亮_日月" parent="21" relate="DE" />
+                <word id="21" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="22" relate="ATT" />
+                <word id="22" cont="尘埃" pos="n" ne="O" wsd="Bg08" wsdexp="灰尘_污垢" parent="23" relate="ATT" />
+                <word id="23" cont="中" pos="nd" ne="O" wsd="Da05" wsdexp="过程_内中" parent="25" relate="ADV" />
+                <word id="24" cont="也" pos="d" ne="O" wsd="Ka33" wsdexp="却_还_也_反而" parent="25" relate="ADV" />
+                <word id="25" cont="富" pos="a" ne="O" wsd="Ef14" wsdexp="富裕_小康_贫穷" parent="26" relate="ADV" />
+                <word id="26" cont="含" pos="v" ne="O" wsd="Jd06" wsdexp="充满_满怀_包含_显露_呈现" parent="31" relate="ADV">
+                    <arg id="0" type="施事" beg="0" end="6" />
+                    <arg id="1" type="方位" beg="8" end="18" />
+                </word>
+                <word id="27" cont="着" pos="u" ne="O" wsd="Fa18" wsdexp="穿_戴_佩带" parent="26" relate="MT" />
+                <word id="28" cont="由" pos="p" ne="O" wsd="Kb05" wsdexp="为_被_以_由" parent="31" relate="ADV" />
+                <word id="29" cont="太阳风" pos="n" ne="O" wsd="-1" wsdexp="" parent="30" relate="ATT" />
+                <word id="30" cont="粒子" pos="n" ne="O" wsd="Dd10" wsdexp="因素_成分" parent="31" relate="ATT" />
+                <word id="31" cont="积累" pos="v" ne="O" wsd="He13" wsdexp="积累_花费_浪费_节省" parent="-1" relate="HED">
+                    <arg id="0" type="受事" beg="32" end="35" />
+                </word>
+                <word id="32" cont="而" pos="c" ne="O" wsd="Kc03" wsdexp="但是" parent="33" relate="CNJ" />
+                <word id="33" cont="形成" pos="v" ne="O" wsd="Ie14" wsdexp="完成_实现" parent="34" relate="DE" />
+                <word id="34" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="35" relate="ATT" />
+                <word id="35" cont="气体" pos="n" ne="O" wsd="Ba01" wsdexp="物_物体" parent="31" relate="VOB" />
+                <word id="36" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="37" cont="如" pos="v" ne="O" wsd="Jb03" wsdexp="相似_例如" parent="31" relate="VV">
+                    <arg id="0" type="受事" beg="38" end="46" />
+                    <arg id="1" type="受事" beg="48" end="48" />
+                </word>
+                <word id="38" cont="氢" pos="n" ne="O" wsd="Bg05" wsdexp="气" parent="37" relate="VOB" />
+                <word id="39" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="40" cont="氦" pos="n" ne="O" wsd="Dd10" wsdexp="因素_成分" parent="38" relate="COO" />
+                <word id="41" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="42" cont="氖" pos="n" ne="O" wsd="-1" wsdexp="" parent="38" relate="COO" />
+                <word id="43" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="44" cont="氩" pos="n" ne="O" wsd="Bg05" wsdexp="气" parent="38" relate="COO" />
+                <word id="45" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="46" cont="氮" pos="n" ne="O" wsd="Bg05" wsdexp="气" parent="38" relate="COO" />
+                <word id="47" cont="等" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="37" relate="MT" />
+                <word id="48" cont="有" pos="v" ne="O" wsd="Jd04" wsdexp="有_占有" parent="37" relate="VOB" />
+                <word id="49" cont="用" pos="p" ne="O" wsd="Hj28" wsdexp="使用_沿用_借鉴" parent="53" relate="ADV" />
+                <word id="50" cont="气体" pos="n" ne="O" wsd="Ba01" wsdexp="物_物体" parent="49" relate="POB" />
+                <word id="51" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="52" cont="尤其" pos="d" ne="O" wsd="Ka04" wsdexp="更加" parent="53" relate="ADV" />
+                <word id="53" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="37" relate="IC">
+                    <arg id="0" type="受事" beg="54" end="54" />
+                    <arg id="1" type="受事" beg="55" end="56" />
+                    <arg id="2" type="受事" beg="58" end="58" />
+                </word>
+                <word id="54" cont="核" pos="n" ne="O" wsd="Bh13" wsdexp="果实_种子" parent="53" relate="VOB" />
+                <word id="55" cont="聚变" pos="v" ne="O" wsd="Ih01" wsdexp="变化_成为" parent="53" relate="VOB">
+                    <arg id="0" type="受事" beg="56" end="56" />
+                </word>
+                <word id="56" cont="燃料" pos="n" ne="O" wsd="Ba06" wsdexp="物资_生活资料" parent="55" relate="VOB" />
+                <word id="57" cont="“" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="58" cont="氦" pos="n" ne="O" wsd="Dd10" wsdexp="因素_成分" parent="53" relate="VOB" />
+                <word id="59" cont="3" pos="m" ne="S-Nm" wsd="-1" wsdexp="" parent="31" relate="NOT" />
+                <word id="60" cont="”" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="61" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="62" cont="蕴藏" pos="v" ne="O" wsd="Jd06" wsdexp="充满_满怀_包含_显露_呈现" parent="59" relate="VV" />
+                <word id="63" cont="十分" pos="d" ne="O" wsd="Ka01" wsdexp="非常_多么" parent="64" relate="ADV" />
+                <word id="64" cont="丰富" pos="a" ne="O" wsd="Ed39" wsdexp="丰富_广博_广博_贫乏" parent="62" relate="CMP" />
+                <word id="65" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="66" cont="据" pos="p" ne="O" wsd="Kb07" wsdexp="依照_根据_趁" parent="69" relate="ADV" />
+                <word id="67" cont="专家" pos="n" ne="O" wsd="Al02" wsdexp="内行_专家_骨干_外行" parent="66" relate="POB" />
+                <word id="68" cont="初步" pos="d" ne="O" wsd="Ig01" wsdexp="开始_结束" parent="69" relate="ADV" />
+                <word id="69" cont="估算" pos="v" ne="O" wsd="Gb03" wsdexp="推测_猜想" parent="62" relate="VV" />
+                <word id="70" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="71" cont="月壤" pos="ns" ne="S-Ns" wsd="-1" wsdexp="" parent="74" relate="ATT" />
+                <word id="72" cont="中" pos="nd" ne="O" wsd="Da05" wsdexp="过程_内中" parent="73" relate="DE" />
+                <word id="73" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="74" relate="ATT" />
+                <word id="74" cont="氦" pos="n" ne="O" wsd="Dd10" wsdexp="因素_成分" parent="79" relate="SBV" />
+                <word id="75" cont="3" pos="m" ne="S-Nm" wsd="-1" wsdexp="" parent="79" relate="ADV" />
+                <word id="76" cont="资源" pos="n" ne="O" wsd="Ba08" wsdexp="宝物_废物" parent="77" relate="ATT" />
+                <word id="77" cont="总量" pos="n" ne="O" wsd="Dn03" wsdexp="数量" parent="79" relate="SBV" />
+                <word id="78" cont="可" pos="v" ne="O" wsd="Gc02" wsdexp="能够_不能_可以_不可" parent="79" relate="ADV" />
+                <word id="79" cont="达" pos="v" ne="O" wsd="Je12" wsdexp="取得_达到_挽回" parent="69" relate="VV">
+                    <arg id="0" type="施事" beg="71" end="74" />
+                    <arg id="1" type="施事" beg="76" end="77" />
+                    <arg id="2" type="受事-数量性质" beg="80" end="81" />
+                </word>
+                <word id="80" cont="100-500万" pos="m" ne="B-Nm" wsd="-1" wsdexp="" parent="81" relate="QUN" />
+                <word id="81" cont="吨" pos="q" ne="E-Nm" wsd="Dn10" wsdexp="度量衡单位" parent="79" relate="VOB" />
+                <word id="82" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="7" cont="“氦3”是一种高效、清洁、安全、廉价的核聚变发电燃料，100吨“氦3”就能满足全球一年的电力需求，10吨“氦3”所发的电，就可满足我国一年的用电量。" tag="">
+                <word id="0" cont="“" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="1" cont="氦" pos="n" ne="O" wsd="Dd10" wsdexp="因素_成分" parent="2" relate="SBV" />
+                <word id="2" cont="3" pos="m" ne="S-Nm" wsd="-1" wsdexp="" parent="-1" relate="HED" />
+                <word id="3" cont="”" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="4" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="2" relate="NOT">
+                    <arg id="0" type="受事" beg="5" end="15" />
+                    <arg id="1" type="受事" beg="16" end="18" />
+                    <arg id="2" type="受事" beg="20" end="34" />
+                    <arg id="3" type="受事" beg="36" end="45" />
+                    <arg id="4" type="受事" beg="47" end="54" />
+                </word>
+                <word id="5" cont="一" pos="m" ne="B-Nm" wsd="Dn04" wsdexp="基数_序数" parent="6" relate="QUN" />
+                <word id="6" cont="种" pos="q" ne="E-Nm" wsd="Dn08" wsdexp="数量单位" parent="15" relate="ATT" />
+                <word id="7" cont="高效" pos="b" ne="O" wsd="Eb23" wsdexp="快_慢" parent="14" relate="DE" />
+                <word id="8" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="9" cont="清洁" pos="a" ne="O" wsd="Ef12" wsdexp="清洁_肮脏" parent="7" relate="COO" />
+                <word id="10" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="11" cont="安全" pos="a" ne="O" wsd="Ef08" wsdexp="安全_危险" parent="7" relate="COO" />
+                <word id="12" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="13" cont="廉价" pos="a" ne="O" wsd="Ed27" wsdexp="贵重_昂贵_便宜" parent="7" relate="COO" />
+                <word id="14" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="15" relate="ATT" />
+                <word id="15" cont="核" pos="n" ne="O" wsd="Bh13" wsdexp="果实_种子" parent="4" relate="VOB" />
+                <word id="16" cont="聚变" pos="v" ne="O" wsd="Ih01" wsdexp="变化_成为" parent="4" relate="VOB">
+                    <arg id="0" type="受事" beg="17" end="18" />
+                </word>
+                <word id="17" cont="发电" pos="v" ne="O" wsd="Jd07" wsdexp="出现_发生" parent="18" relate="ATT" />
+                <word id="18" cont="燃料" pos="n" ne="O" wsd="Ba06" wsdexp="物资_生活资料" parent="16" relate="VOB" />
+                <word id="19" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="20" cont="100" pos="m" ne="B-Nm" wsd="-1" wsdexp="" parent="21" relate="QUN" />
+                <word id="21" cont="吨" pos="q" ne="E-Nm" wsd="Dn10" wsdexp="度量衡单位" parent="23" relate="ATT" />
+                <word id="22" cont="“" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="23" cont="氦" pos="n" ne="O" wsd="Dd10" wsdexp="因素_成分" parent="24" relate="SBV" />
+                <word id="24" cont="3" pos="m" ne="S-Nm" wsd="-1" wsdexp="" parent="34" relate="QUN" />
+                <word id="25" cont="”" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="26" cont="就" pos="d" ne="O" wsd="Ka07" wsdexp="都_只_不止_甚至" parent="28" relate="ADV" />
+                <word id="27" cont="能" pos="v" ne="O" wsd="Gc02" wsdexp="能够_不能_可以_不可" parent="28" relate="ADV" />
+                <word id="28" cont="满足" pos="v" ne="O" wsd="Jc05" wsdexp="需要_提供_满足" parent="32" relate="DE">
+                    <arg id="0" type="受事" beg="29" end="29" />
+                    <arg id="1" type="受事-数量性质" beg="30" end="31" />
+                </word>
+                <word id="29" cont="全球" pos="n" ne="O" wsd="Di01" wsdexp="世界_社会_人间" parent="28" relate="VOB" />
+                <word id="30" cont="一" pos="m" ne="B-Nm" wsd="Dn04" wsdexp="基数_序数" parent="31" relate="QUN" />
+                <word id="31" cont="年" pos="q" ne="E-Nm" wsd="Ca18" wsdexp="年" parent="28" relate="VOB" />
+                <word id="32" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="34" relate="ATT" />
+                <word id="33" cont="电力" pos="n" ne="O" wsd="Di18" wsdexp="事业_行业_工程" parent="34" relate="ATT" />
+                <word id="34" cont="需求" pos="n" ne="O" wsd="Df07" wsdexp="欲望_需要" parent="4" relate="VOB" />
+                <word id="35" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="36" cont="10" pos="m" ne="B-Nm" wsd="-1" wsdexp="" parent="37" relate="QUN" />
+                <word id="37" cont="吨" pos="q" ne="E-Nm" wsd="Dn10" wsdexp="度量衡单位" parent="39" relate="ATT" />
+                <word id="38" cont="“" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="39" cont="氦" pos="n" ne="O" wsd="Dd10" wsdexp="因素_成分" parent="40" relate="SBV" />
+                <word id="40" cont="3" pos="m" ne="S-Nm" wsd="-1" wsdexp="" parent="45" relate="QUN" />
+                <word id="41" cont="”" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="42" cont="所" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="43" relate="LAD" />
+                <word id="43" cont="发" pos="v" ne="O" wsd="Hc07" wsdexp="收_发" parent="44" relate="DE" />
+                <word id="44" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="45" relate="ATT" />
+                <word id="45" cont="电" pos="n" ne="O" wsd="Dk16" wsdexp="信_电报" parent="4" relate="VOB" />
+                <word id="46" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="47" cont="就" pos="d" ne="O" wsd="Ka07" wsdexp="都_只_不止_甚至" parent="48" relate="ADV" />
+                <word id="48" cont="可" pos="v" ne="O" wsd="Gc02" wsdexp="能够_不能_可以_不可" parent="49" relate="ADV" />
+                <word id="49" cont="满足" pos="v" ne="O" wsd="Jc05" wsdexp="需要_提供_满足" parent="53" relate="DE">
+                    <arg id="0" type="受事" beg="50" end="50" />
+                    <arg id="1" type="受事-数量性质" beg="51" end="52" />
+                </word>
+                <word id="50" cont="我国" pos="n" ne="O" wsd="Di02" wsdexp="国家_行政区划" parent="49" relate="VOB" />
+                <word id="51" cont="一" pos="m" ne="B-Nm" wsd="Dn04" wsdexp="基数_序数" parent="52" relate="QUN" />
+                <word id="52" cont="年" pos="q" ne="E-Nm" wsd="Ca18" wsdexp="年" parent="49" relate="VOB" />
+                <word id="53" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="54" relate="ATT" />
+                <word id="54" cont="用电量" pos="n" ne="O" wsd="Dn03" wsdexp="数量" parent="4" relate="VOB" />
+                <word id="55" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="8" cont="以目前的能源消耗水平计算，这足够人类使用一万年！" tag="">
+                <word id="0" cont="以" pos="p" ne="O" wsd="Kb05" wsdexp="为_被_以_由" parent="4" relate="ADV" />
+                <word id="1" cont="目前" pos="nt" ne="O" wsd="Ca10" wsdexp="现在" parent="2" relate="DE" />
+                <word id="2" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="3" relate="ATT" />
+                <word id="3" cont="能源" pos="n" ne="O" wsd="Ba08" wsdexp="宝物_废物" parent="0" relate="POB" />
+                <word id="4" cont="消耗" pos="v" ne="O" wsd="He13" wsdexp="积累_花费_浪费_节省" parent="-1" relate="HED">
+                    <arg id="0" type="受事" beg="5" end="6" />
+                </word>
+                <word id="5" cont="水平" pos="n" ne="O" wsd="Dd12" wsdexp="质量_基础" parent="6" relate="ATT" />
+                <word id="6" cont="计算" pos="v" ne="O" wsd="Hj29" wsdexp="称_量_计算" parent="4" relate="VOB" />
+                <word id="7" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="8" cont="这" pos="r" ne="O" wsd="Ed61" wsdexp="这个_那个_某个_各个_其他_何" parent="9" relate="SBV" />
+                <word id="9" cont="足够" pos="v" ne="O" wsd="He14" wsdexp="足够_相抵_剩余_结存_亏欠" parent="4" relate="IC">
+                    <arg id="0" type="施事" beg="8" end="8" />
+                    <arg id="1" type="受事" beg="10" end="10" />
+                    <arg id="2" type="受事" beg="11" end="13" />
+                </word>
+                <word id="10" cont="人类" pos="n" ne="O" wsd="Aa01" wsdexp="人_人民_众人" parent="9" relate="VOB" />
+                <word id="11" cont="使用" pos="v" ne="O" wsd="Hj28" wsdexp="使用_沿用_借鉴" parent="9" relate="VOB">
+                    <arg id="0" type="受事-数量性质" beg="12" end="13" />
+                </word>
+                <word id="12" cont="一万" pos="m" ne="B-Nm" wsd="-1" wsdexp="" parent="13" relate="QUN" />
+                <word id="13" cont="年" pos="q" ne="E-Nm" wsd="Ca18" wsdexp="年" parent="11" relate="VOB" />
+                <word id="14" cont="！" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="9" cont="不远的将来，地球上将面临着矿产耗尽，石油枯竭的危险，如果中国人登上了月球，我们就可以利用其丰富的矿产和能源作为地球能源的补充,促使国家经济持续健康快速的发展。" tag="">
+                <word id="0" cont="不" pos="d" ne="O" wsd="Ka18" wsdexp="不_没" parent="1" relate="ADV" />
+                <word id="1" cont="远" pos="a" ne="O" wsd="Eb21" wsdexp="远_近" parent="2" relate="DE" />
+                <word id="2" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="3" relate="ATT" />
+                <word id="3" cont="将来" pos="nt" ne="O" wsd="Ca12" wsdexp="将来_隔日" parent="11" relate="ADV" />
+                <word id="4" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="5" cont="地球" pos="n" ne="O" wsd="Bd03" wsdexp="地球" parent="6" relate="ATT" />
+                <word id="6" cont="上" pos="nd" ne="O" wsd="Cb03" wsdexp="上_下_左_右" parent="8" relate="ADV" />
+                <word id="7" cont="将" pos="d" ne="O" wsd="Ka13" wsdexp="随即_即将_终于" parent="8" relate="ADV" />
+                <word id="8" cont="面临" pos="v" ne="O" wsd="Je13" wsdexp="遭受_享受" parent="11" relate="ADV">
+                    <arg id="0" type="方位" beg="5" end="6" />
+                    <arg id="1" type="受事" beg="10" end="10" />
+                </word>
+                <word id="9" cont="着" pos="u" ne="O" wsd="Fa18" wsdexp="穿_戴_佩带" parent="8" relate="MT" />
+                <word id="10" cont="矿产" pos="n" ne="O" wsd="Bm01" wsdexp="五金_金_银_铜" parent="8" relate="VOB" />
+                <word id="11" cont="耗尽" pos="v" ne="O" wsd="He13" wsdexp="积累_花费_浪费_节省" parent="-1" relate="HED">
+                    <arg id="0" type="时间" beg="0" end="3" />
+                </word>
+                <word id="12" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="13" cont="石油" pos="n" ne="O" wsd="Bm10" wsdexp="石油_酒精_润滑油_煤焦油" parent="14" relate="SBV" />
+                <word id="14" cont="枯竭" pos="v" ne="O" wsd="Ed39" wsdexp="丰富_广博_广博_贫乏" parent="15" relate="DE">
+                    <arg id="0" type="施事" beg="13" end="13" />
+                </word>
+                <word id="15" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="16" relate="ATT" />
+                <word id="16" cont="危险" pos="a" ne="O" wsd="Ef08" wsdexp="安全_危险" parent="11" relate="IC" />
+                <word id="17" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="18" cont="如果" pos="c" ne="O" wsd="Kc08" wsdexp="如果_那末" parent="21" relate="CNJ" />
+                <word id="19" cont="中国" pos="ns" ne="S-Ns" wsd="Di02" wsdexp="国家_行政区划" parent="20" relate="ATT" />
+                <word id="20" cont="人" pos="n" ne="O" wsd="Aa01" wsdexp="人_人民_众人" parent="21" relate="SBV" />
+                <word id="21" cont="登" pos="v" ne="O" wsd="Jd03" wsdexp="登载" parent="11" relate="VV">
+                    <arg id="0" type="施事" beg="19" end="20" />
+                    <arg id="1" type="受事" beg="24" end="24" />
+                </word>
+                <word id="22" cont="上" pos="nd" ne="O" wsd="Cb03" wsdexp="上_下_左_右" parent="21" relate="CMP" />
+                <word id="23" cont="了" pos="u" ne="O" wsd="Kd05" wsdexp="吗_的话_罢了_了_哉" parent="21" relate="MT" />
+                <word id="24" cont="月球" pos="n" ne="O" wsd="Bd02" wsdexp="太阳_月亮_日月" parent="21" relate="VOB" />
+                <word id="25" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="26" cont="我们" pos="r" ne="O" wsd="Aa02" wsdexp="我_我们" parent="29" relate="SBV" />
+                <word id="27" cont="就" pos="d" ne="O" wsd="Ka07" wsdexp="都_只_不止_甚至" parent="29" relate="ADV" />
+                <word id="28" cont="可以" pos="v" ne="O" wsd="Gc02" wsdexp="能够_不能_可以_不可" parent="29" relate="ADV" />
+                <word id="29" cont="利用" pos="v" ne="O" wsd="Hj28" wsdexp="使用_沿用_借鉴" parent="39" relate="DE">
+                    <arg id="0" type="施事" beg="26" end="26" />
+                    <arg id="1" type="受事" beg="30" end="30" />
+                    <arg id="2" type="受事" beg="31" end="35" />
+                    <arg id="3" type="受事" beg="36" end="38" />
+                </word>
+                <word id="30" cont="其" pos="r" ne="O" wsd="Ba10" wsdexp="它_什么" parent="29" relate="VOB" />
+                <word id="31" cont="丰富" pos="a" ne="O" wsd="Ed39" wsdexp="丰富_广博_广博_贫乏" parent="32" relate="DE" />
+                <word id="32" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="33" relate="ATT" />
+                <word id="33" cont="矿产" pos="n" ne="O" wsd="Bm01" wsdexp="五金_金_银_铜" parent="29" relate="VOB" />
+                <word id="34" cont="和" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="35" relate="LAD" />
+                <word id="35" cont="能源" pos="n" ne="O" wsd="Ba08" wsdexp="宝物_废物" parent="33" relate="COO" />
+                <word id="36" cont="作为" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="29" relate="VOB">
+                    <arg id="0" type="受事" beg="37" end="38" />
+                </word>
+                <word id="37" cont="地球" pos="n" ne="O" wsd="Bd03" wsdexp="地球" parent="38" relate="ATT" />
+                <word id="38" cont="能源" pos="n" ne="O" wsd="Ba08" wsdexp="宝物_废物" parent="36" relate="VOB" />
+                <word id="39" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="40" relate="ATT" />
+                <word id="40" cont="补充" pos="v" ne="O" wsd="Ih05" wsdexp="增多_添补_减少" parent="11" relate="VV" />
+                <word id="41" cont="," pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="42" cont="促使" pos="v" ne="O" wsd="Je04" wsdexp="引起_导致_使得" parent="11" relate="VV">
+                    <arg id="0" type="受事" beg="43" end="44" />
+                    <arg id="1" type="受事" beg="45" end="45" />
+                    <arg id="2" type="受事" beg="46" end="49" />
+                </word>
+                <word id="43" cont="国家" pos="n" ne="O" wsd="Di02" wsdexp="国家_行政区划" parent="44" relate="ATT" />
+                <word id="44" cont="经济" pos="n" ne="O" wsd="Dj01" wsdexp="经济" parent="42" relate="VOB" />
+                <word id="45" cont="持续" pos="v" ne="O" wsd="Ka11" wsdexp="不断_一直_动辄" parent="42" relate="VOB" />
+                <word id="46" cont="健康" pos="a" ne="O" wsd="Eb37" wsdexp="健康_孱弱" parent="48" relate="DE" />
+                <word id="47" cont="快速" pos="b" ne="O" wsd="Eb23" wsdexp="快_慢" parent="48" relate="DE" />
+                <word id="48" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="49" relate="ATT" />
+                <word id="49" cont="发展" pos="v" ne="O" wsd="Ie12" wsdexp="进步_退步_堕落" parent="42" relate="VOB" />
+                <word id="50" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+        </para>
+        <para id="7">
+            <sent id="0" cont="月球还是研究宇宙科学、天体化学、空间物理、生命科学、观测科学与材料科学的理想场所。" tag="10%">
+                <word id="0" cont="月球" pos="n" ne="O" wsd="Bd02" wsdexp="太阳_月亮_日月" parent="2" relate="SBV" />
+                <word id="1" cont="还是" pos="d" ne="O" wsd="Kc01" wsdexp="和_或者" parent="2" relate="ADV" />
+                <word id="2" cont="研究" pos="v" ne="O" wsd="Hg14" wsdexp="分析_推敲_研究_考证" parent="19" relate="DE">
+                    <arg id="0" type="施事" beg="0" end="0" />
+                    <arg id="1" type="受事" beg="3" end="16" />
+                    <arg id="2" type="受事" beg="17" end="18" />
+                </word>
+                <word id="3" cont="宇宙" pos="n" ne="O" wsd="Bd01" wsdexp="宇宙_星辰" parent="4" relate="ATT" />
+                <word id="4" cont="科学" pos="n" ne="O" wsd="Dk03" wsdexp="科学_学科_学业" parent="16" relate="ATT" />
+                <word id="5" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="6" cont="天体" pos="n" ne="O" wsd="Bd01" wsdexp="宇宙_星辰" parent="7" relate="ATT" />
+                <word id="7" cont="化学" pos="n" ne="O" wsd="Dk03" wsdexp="科学_学科_学业" parent="4" relate="COO" />
+                <word id="8" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="9" cont="空间" pos="n" ne="O" wsd="Cb07" wsdexp="天_地" parent="10" relate="ATT" />
+                <word id="10" cont="物理" pos="n" ne="O" wsd="Db06" wsdexp="规律_意义" parent="4" relate="COO" />
+                <word id="11" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="12" cont="生命" pos="n" ne="O" wsd="Da17" wsdexp="生命_生活" parent="13" relate="ATT" />
+                <word id="13" cont="科学" pos="n" ne="O" wsd="Dk03" wsdexp="科学_学科_学业" parent="4" relate="COO" />
+                <word id="14" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="15" cont="观测" pos="v" ne="O" wsd="Hj26" wsdexp="观察_比较_区分" parent="4" relate="COO" />
+                <word id="16" cont="科学" pos="n" ne="O" wsd="Dk03" wsdexp="科学_学科_学业" parent="2" relate="VOB" />
+                <word id="17" cont="与" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="18" relate="LAD" />
+                <word id="18" cont="材料科学" pos="n" ne="O" wsd="Dk03" wsdexp="科学_学科_学业" parent="2" relate="VOB" />
+                <word id="19" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="21" relate="ATT" />
+                <word id="20" cont="理想" pos="n" ne="O" wsd="Df10" wsdexp="理想_幻想_泡影_梦幻" parent="21" relate="ATT" />
+                <word id="21" cont="场所" pos="n" ne="O" wsd="Cb28" wsdexp="场所" parent="-1" relate="HED" />
+                <word id="22" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="1" cont="月球上有特殊的空间环境资源：" tag="">
+                <word id="0" cont="月球" pos="n" ne="O" wsd="Bd02" wsdexp="太阳_月亮_日月" parent="1" relate="ATT" />
+                <word id="1" cont="上" pos="nd" ne="O" wsd="Cb03" wsdexp="上_下_左_右" parent="2" relate="ADV" />
+                <word id="2" cont="有" pos="v" ne="O" wsd="Jd04" wsdexp="有_占有" parent="-1" relate="HED">
+                    <arg id="0" type="方位" beg="0" end="1" />
+                    <arg id="1" type="受事" beg="3" end="7" />
+                </word>
+                <word id="3" cont="特殊" pos="a" ne="O" wsd="Ed04" wsdexp="杰出_异常_普通" parent="4" relate="DE" />
+                <word id="4" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="7" relate="ATT" />
+                <word id="5" cont="空间" pos="n" ne="O" wsd="Cb07" wsdexp="天_地" parent="6" relate="ATT" />
+                <word id="6" cont="环境" pos="n" ne="O" wsd="Da21" wsdexp="情况_境地_境界_环境" parent="7" relate="ATT" />
+                <word id="7" cont="资源" pos="n" ne="O" wsd="Ba08" wsdexp="宝物_废物" parent="2" relate="VOB" />
+                <word id="8" cont="：" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="2" cont="超高真空、无大气活动、无磁场、地质构造稳定、弱重力、无污染、宇宙射线丰富。" tag="">
+                <word id="0" cont="超高" pos="b" ne="O" wsd="Jb04" wsdexp="超过" parent="1" relate="ATT" />
+                <word id="1" cont="真空" pos="n" ne="O" wsd="Cb07" wsdexp="天_地" parent="3" relate="SBV" />
+                <word id="2" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="3" cont="无" pos="v" ne="O" wsd="Ka18" wsdexp="不_没" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="1" />
+                    <arg id="1" type="受事" beg="4" end="5" />
+                </word>
+                <word id="4" cont="大气" pos="n" ne="O" wsd="Bg05" wsdexp="气" parent="5" relate="ATT" />
+                <word id="5" cont="活动" pos="v" ne="O" wsd="Di20" wsdexp="动作_举动_行为" parent="3" relate="VOB" />
+                <word id="6" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="7" cont="无" pos="v" ne="O" wsd="Ka18" wsdexp="不_没" parent="3" relate="VV">
+                    <arg id="0" type="受事" beg="8" end="8" />
+                </word>
+                <word id="8" cont="磁场" pos="n" ne="O" wsd="Cb28" wsdexp="场所" parent="7" relate="VOB" />
+                <word id="9" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="10" cont="地质" pos="n" ne="O" wsd="Dc01" wsdexp="形状_状态_式样_装饰" parent="11" relate="SBV" />
+                <word id="11" cont="构造" pos="v" ne="O" wsd="Dd06" wsdexp="系统_种类_结构" parent="3" relate="COO">
+                    <arg id="0" type="施事" beg="10" end="10" />
+                </word>
+                <word id="12" cont="稳定" pos="a" ne="O" wsd="Ef01" wsdexp="太平_安定_动荡_混乱" parent="11" relate="CMP" />
+                <word id="13" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="14" cont="弱" pos="a" ne="O" wsd="Ed19" wsdexp="稳固_强大_弱小" parent="15" relate="ATT" />
+                <word id="15" cont="重力" pos="n" ne="O" wsd="Dd14" wsdexp="力气_力量_能量" parent="20" relate="SBV" />
+                <word id="16" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="17" cont="无污染" pos="v" ne="O" wsd="Ef12" wsdexp="清洁_肮脏" parent="15" relate="COO" />
+                <word id="18" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="19" cont="宇宙射线" pos="i" ne="O" wsd="Cb23" wsdexp="点_线_角_面_体" parent="15" relate="COO" />
+                <word id="20" cont="丰富" pos="a" ne="O" wsd="Ed39" wsdexp="丰富_广博_广博_贫乏" parent="12" relate="COO" />
+                <word id="21" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="3" cont="我们可以利用其特殊的空间环境，开展空间材料加工和空间制药，空间育种等科技研究活动。" tag="20%">
+                <word id="0" cont="我们" pos="r" ne="O" wsd="Aa02" wsdexp="我_我们" parent="2" relate="SBV" />
+                <word id="1" cont="可以" pos="v" ne="O" wsd="Gc02" wsdexp="能够_不能_可以_不可" parent="2" relate="ADV" />
+                <word id="2" cont="利用" pos="v" ne="O" wsd="Hj28" wsdexp="使用_沿用_借鉴" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="0" />
+                    <arg id="1" type="受事" beg="3" end="3" />
+                    <arg id="2" type="受事" beg="4" end="7" />
+                </word>
+                <word id="3" cont="其" pos="r" ne="O" wsd="Ba10" wsdexp="它_什么" parent="2" relate="VOB" />
+                <word id="4" cont="特殊" pos="a" ne="O" wsd="Ed04" wsdexp="杰出_异常_普通" parent="5" relate="DE" />
+                <word id="5" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="7" relate="ATT" />
+                <word id="6" cont="空间" pos="n" ne="O" wsd="Cb07" wsdexp="天_地" parent="7" relate="ATT" />
+                <word id="7" cont="环境" pos="n" ne="O" wsd="Da21" wsdexp="情况_境地_境界_环境" parent="2" relate="VOB" />
+                <word id="8" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="9" cont="开展" pos="v" ne="O" wsd="Ig03" wsdexp="进行_继续_流逝" parent="2" relate="VV">
+                    <arg id="0" type="受事" beg="10" end="15" />
+                </word>
+                <word id="10" cont="空间" pos="n" ne="O" wsd="Cb07" wsdexp="天_地" parent="11" relate="ATT" />
+                <word id="11" cont="材料" pos="n" ne="O" wsd="Ba06" wsdexp="物资_生活资料" parent="12" relate="ATT" />
+                <word id="12" cont="加工" pos="v" ne="O" wsd="Hd29" wsdexp="出产" parent="9" relate="VOB" />
+                <word id="13" cont="和" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="15" relate="LAD" />
+                <word id="14" cont="空间" pos="n" ne="O" wsd="Cb07" wsdexp="天_地" parent="15" relate="ATT" />
+                <word id="15" cont="制药" pos="v" ne="O" wsd="Hg21" wsdexp="处方_配药_下药" parent="12" relate="COO" />
+                <word id="16" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="17" cont="空间" pos="n" ne="O" wsd="Cb07" wsdexp="天_地" parent="18" relate="SBV" />
+                <word id="18" cont="育种" pos="v" ne="O" wsd="Hd28" wsdexp="配种_阉割_屠宰" parent="2" relate="VV">
+                    <arg id="0" type="施事" beg="17" end="17" />
+                    <arg id="1" type="受事" beg="20" end="22" />
+                </word>
+                <word id="19" cont="等" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="18" relate="MT" />
+                <word id="20" cont="科技" pos="n" ne="O" wsd="Dk03" wsdexp="科学_学科_学业" parent="21" relate="ATT" />
+                <word id="21" cont="研究" pos="v" ne="O" wsd="Hg14" wsdexp="分析_推敲_研究_考证" parent="22" relate="ATT" />
+                <word id="22" cont="活动" pos="v" ne="O" wsd="Di20" wsdexp="动作_举动_行为" parent="18" relate="VOB" />
+                <word id="23" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="4" cont="在月球上建立发射场，发射深空探测器比在地球上要容易得多。" tag="">
+                <word id="0" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="3" relate="ADV" />
+                <word id="1" cont="月球" pos="n" ne="O" wsd="Bd02" wsdexp="太阳_月亮_日月" parent="2" relate="ATT" />
+                <word id="2" cont="上" pos="nd" ne="O" wsd="Cb03" wsdexp="上_下_左_右" parent="0" relate="POB" />
+                <word id="3" cont="建立" pos="v" ne="O" wsd="Hc05" wsdexp="建立_设立_创立_命名" parent="-1" relate="HED">
+                    <arg id="0" type="方位" beg="0" end="2" />
+                    <arg id="1" type="受事" beg="4" end="4" />
+                </word>
+                <word id="4" cont="发射场" pos="n" ne="O" wsd="Cb28" wsdexp="场所" parent="3" relate="VOB" />
+                <word id="5" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="6" cont="发射" pos="v" ne="O" wsd="Hb06" wsdexp="射击_空袭_爆破_刺杀" parent="9" relate="ATT" />
+                <word id="7" cont="深" pos="d" ne="O" wsd="Ed16" wsdexp="深刻_深远_深厚_深沉" parent="8" relate="ADV" />
+                <word id="8" cont="空" pos="a" ne="O" wsd="Eb06" wsdexp="空_实_光秃秃" parent="9" relate="ATT" />
+                <word id="9" cont="探测器" pos="n" ne="O" wsd="Ba05" wsdexp="器具_设备" parent="14" relate="SBV" />
+                <word id="10" cont="比" pos="p" ne="O" wsd="Kb03" wsdexp="跟_替_把_比" parent="14" relate="ADV" />
+                <word id="11" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="14" relate="ADV" />
+                <word id="12" cont="地球" pos="n" ne="O" wsd="Bd03" wsdexp="地球" parent="13" relate="ATT" />
+                <word id="13" cont="上" pos="nd" ne="O" wsd="Cb03" wsdexp="上_下_左_右" parent="11" relate="POB" />
+                <word id="14" cont="要" pos="v" ne="O" wsd="Gc03" wsdexp="应该_必须_无须" parent="3" relate="VV">
+                    <arg id="0" type="施事" beg="6" end="9" />
+                    <arg id="1" type="方位" beg="11" end="13" />
+                    <arg id="2" type="受事" beg="15" end="17" />
+                </word>
+                <word id="15" cont="容易" pos="a" ne="O" wsd="Ed07" wsdexp="困难_艰巨_容易" parent="14" relate="VOB" />
+                <word id="16" cont="得" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="15" relate="CMP" />
+                <word id="17" cont="多" pos="a" ne="O" wsd="Dn05" wsdexp="半_概数_若干" parent="16" relate="DEI" />
+                <word id="18" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="5" cont="月球不仅可以作为一个天然的发射平台，还是一个理想的太空探测的中转站。" tag="">
+                <word id="0" cont="月球" pos="n" ne="O" wsd="Bd02" wsdexp="太阳_月亮_日月" parent="3" relate="SBV" />
+                <word id="1" cont="不仅" pos="c" ne="O" wsd="Kc05" wsdexp="不但_何止" parent="3" relate="CNJ" />
+                <word id="2" cont="可以" pos="v" ne="O" wsd="Gc02" wsdexp="能够_不能_可以_不可" parent="3" relate="ADV" />
+                <word id="3" cont="作为" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="0" />
+                    <arg id="1" type="受事" beg="4" end="8" />
+                    <arg id="2" type="受事" beg="11" end="17" />
+                </word>
+                <word id="4" cont="一个" pos="m" ne="O" wsd="Dn08" wsdexp="数量单位" parent="8" relate="QUN" />
+                <word id="5" cont="天然" pos="b" ne="O" wsd="Ed51" wsdexp="天然_本来_现成" parent="6" relate="DE" />
+                <word id="6" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="8" relate="ATT" />
+                <word id="7" cont="发射" pos="v" ne="O" wsd="Hb06" wsdexp="射击_空袭_爆破_刺杀" parent="8" relate="ATT" />
+                <word id="8" cont="平台" pos="n" ne="O" wsd="Bn09" wsdexp="阳台_院子" parent="3" relate="VOB" />
+                <word id="9" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="10" cont="还是" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="3" relate="VV" />
+                <word id="11" cont="一个" pos="m" ne="O" wsd="Dn08" wsdexp="数量单位" parent="17" relate="QUN" />
+                <word id="12" cont="理想" pos="a" ne="O" wsd="Df10" wsdexp="理想_幻想_泡影_梦幻" parent="13" relate="DE" />
+                <word id="13" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="14" relate="ATT" />
+                <word id="14" cont="太空" pos="nl" ne="O" wsd="Cb07" wsdexp="天_地" parent="17" relate="ATT" />
+                <word id="15" cont="探测" pos="v" ne="O" wsd="Hd14" wsdexp="勘察_勘探_测量" parent="16" relate="DE" />
+                <word id="16" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="17" relate="ATT" />
+                <word id="17" cont="中转站" pos="n" ne="O" wsd="Cb26" wsdexp="车站_港口" parent="3" relate="VOB" />
+                <word id="18" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="6" cont="在月球上建立天文观测站，可以不受地球大气层的限制，是理想的对天观测和对地监测站。" tag="">
+                <word id="0" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="3" relate="ADV" />
+                <word id="1" cont="月球" pos="n" ne="O" wsd="Bd02" wsdexp="太阳_月亮_日月" parent="2" relate="ATT" />
+                <word id="2" cont="上" pos="nd" ne="O" wsd="Cb03" wsdexp="上_下_左_右" parent="0" relate="POB" />
+                <word id="3" cont="建立" pos="v" ne="O" wsd="Hc05" wsdexp="建立_设立_创立_命名" parent="17" relate="DE">
+                    <arg id="0" type="方位" beg="0" end="2" />
+                    <arg id="1" type="受事" beg="4" end="5" />
+                </word>
+                <word id="4" cont="天文" pos="n" ne="O" wsd="Da22" wsdexp="现象_迹象_预兆" parent="5" relate="ATT" />
+                <word id="5" cont="观测站" pos="n" ne="O" wsd="Cb08" wsdexp="地方_地点" parent="3" relate="VOB" />
+                <word id="6" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="7" cont="可以" pos="v" ne="O" wsd="Gc02" wsdexp="能够_不能_可以_不可" parent="9" relate="ADV" />
+                <word id="8" cont="不" pos="d" ne="O" wsd="Ka18" wsdexp="不_没" parent="9" relate="ADV" />
+                <word id="9" cont="受" pos="v" ne="O" wsd="Je13" wsdexp="遭受_享受" parent="12" relate="DE">
+                    <arg id="0" type="受事" beg="10" end="11" />
+                </word>
+                <word id="10" cont="地球" pos="n" ne="O" wsd="Bd03" wsdexp="地球" parent="11" relate="ATT" />
+                <word id="11" cont="大气层" pos="n" ne="O" wsd="Dd07" wsdexp="次序_行列" parent="9" relate="VOB" />
+                <word id="12" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="13" relate="ATT" />
+                <word id="13" cont="限制" pos="v" ne="O" wsd="Je08" wsdexp="限制_约束_制止" parent="15" relate="SBV" />
+                <word id="14" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="15" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="3" relate="IC">
+                    <arg id="0" type="施事" beg="7" end="13" />
+                </word>
+                <word id="16" cont="理想" pos="a" ne="O" wsd="Df10" wsdexp="理想_幻想_泡影_梦幻" parent="17" relate="DE" />
+                <word id="17" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="22" relate="ATT" />
+                <word id="18" cont="对" pos="p" ne="O" wsd="Kb04" wsdexp="对于_关于" parent="22" relate="ATT" />
+                <word id="19" cont="天" pos="n" ne="O" wsd="Ca23" wsdexp="日" parent="20" relate="ATT" />
+                <word id="20" cont="观测" pos="v" ne="O" wsd="Hj26" wsdexp="观察_比较_区分" parent="18" relate="POB" />
+                <word id="21" cont="和" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="22" relate="LAD" />
+                <word id="22" cont="对" pos="p" ne="O" wsd="Kb04" wsdexp="对于_关于" parent="-1" relate="HED" />
+                <word id="23" cont="地" pos="n" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="24" relate="ATT" />
+                <word id="24" cont="监测站" pos="n" ne="O" wsd="Cb26" wsdexp="车站_港口" parent="22" relate="POB" />
+                <word id="25" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="7" cont="月球的大气极为稀薄，而且夜间的温度低而稳定，这对提高和扩大天文观测的精度和范围都非常有利。" tag="">
+                <word id="0" cont="月球" pos="n" ne="O" wsd="Bd02" wsdexp="太阳_月亮_日月" parent="1" relate="DE" />
+                <word id="1" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="2" relate="ATT" />
+                <word id="2" cont="大气" pos="n" ne="O" wsd="Bg05" wsdexp="气" parent="4" relate="SBV" />
+                <word id="3" cont="极为" pos="d" ne="O" wsd="Ka01" wsdexp="非常_多么" parent="4" relate="ADV" />
+                <word id="4" cont="稀薄" pos="a" ne="O" wsd="Eb12" wsdexp="浓_稠_黏_稀" parent="-1" relate="HED" />
+                <word id="5" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="6" cont="而且" pos="c" ne="O" wsd="Kc02" wsdexp="并且_况且" parent="10" relate="CNJ" />
+                <word id="7" cont="夜间" pos="nt" ne="O" wsd="Ca29" wsdexp="傍晚_晚上_夜间_昼夜" parent="8" relate="DE" />
+                <word id="8" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="9" relate="ATT" />
+                <word id="9" cont="温度" pos="n" ne="O" wsd="Dn01" wsdexp="量度_温度" parent="10" relate="SBV" />
+                <word id="10" cont="低" pos="a" ne="O" wsd="Jb05" wsdexp="不及" parent="4" relate="IC" />
+                <word id="11" cont="而" pos="c" ne="O" wsd="Kc03" wsdexp="但是" parent="12" relate="LAD" />
+                <word id="12" cont="稳定" pos="a" ne="O" wsd="Ef01" wsdexp="太平_安定_动荡_混乱" parent="10" relate="COO" />
+                <word id="13" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="14" cont="这" pos="r" ne="O" wsd="Ed61" wsdexp="这个_那个_某个_各个_其他_何" parent="16" relate="SBV" />
+                <word id="15" cont="对" pos="p" ne="O" wsd="Kb04" wsdexp="对于_关于" parent="16" relate="ADV" />
+                <word id="16" cont="提高" pos="v" ne="O" wsd="Ih06" wsdexp="削弱" parent="4" relate="VV">
+                    <arg id="0" type="施事" beg="14" end="14" />
+                    <arg id="1" type="受事" beg="19" end="19" />
+                    <arg id="2" type="受事" beg="20" end="24" />
+                </word>
+                <word id="17" cont="和" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="18" relate="LAD" />
+                <word id="18" cont="扩大" pos="v" ne="O" wsd="Ih03" wsdexp="扩大_伸长_收缩" parent="16" relate="COO" />
+                <word id="19" cont="天文" pos="n" ne="O" wsd="Da22" wsdexp="现象_迹象_预兆" parent="16" relate="VOB" />
+                <word id="20" cont="观测" pos="v" ne="O" wsd="Hj26" wsdexp="观察_比较_区分" parent="21" relate="DE" />
+                <word id="21" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="22" relate="ATT" />
+                <word id="22" cont="精度" pos="n" ne="O" wsd="Dn01" wsdexp="量度_温度" parent="16" relate="VOB" />
+                <word id="23" cont="和" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="24" relate="LAD" />
+                <word id="24" cont="范围" pos="n" ne="O" wsd="Dd05" wsdexp="范围_方面_环节" parent="22" relate="COO" />
+                <word id="25" cont="都" pos="d" ne="O" wsd="Ka07" wsdexp="都_只_不止_甚至" parent="27" relate="ADV" />
+                <word id="26" cont="非常" pos="d" ne="O" wsd="Ka01" wsdexp="非常_多么" parent="27" relate="ADV" />
+                <word id="27" cont="有利" pos="a" ne="O" wsd="Je10" wsdexp="有利_有害" parent="16" relate="CMP" />
+                <word id="28" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="8" cont="由于月球自转与公转周期相同等因素，在月面上可以持续进行14个地球日的夜间观测。" tag="">
+                <word id="0" cont="由于" pos="p" ne="O" wsd="Kc09" wsdexp="因为_所以" parent="2" relate="ADV" />
+                <word id="1" cont="月球" pos="n" ne="O" wsd="Bd02" wsdexp="太阳_月亮_日月" parent="0" relate="POB" />
+                <word id="2" cont="自转" pos="v" ne="O" wsd="Id15" wsdexp="旋转_缭绕_滚动" parent="8" relate="DE">
+                    <arg id="0" type="受事" beg="5" end="7" />
+                </word>
+                <word id="3" cont="与" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="4" relate="LAD" />
+                <word id="4" cont="公转" pos="v" ne="O" wsd="Id15" wsdexp="旋转_缭绕_滚动" parent="2" relate="COO" />
+                <word id="5" cont="周期" pos="n" ne="O" wsd="Ca03" wsdexp="时期_时间" parent="7" relate="SBV" />
+                <word id="6" cont="相" pos="d" ne="O" wsd="Ka23" wsdexp="共同_分头_独自_互相_从中" parent="7" relate="ADV" />
+                <word id="7" cont="同" pos="v" ne="O" wsd="Kc01" wsdexp="和_或者" parent="2" relate="VOB">
+                    <arg id="0" type="施事" beg="5" end="5" />
+                </word>
+                <word id="8" cont="等" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="9" relate="ATT" />
+                <word id="9" cont="因素" pos="n" ne="O" wsd="Dd10" wsdexp="因素_成分" parent="23" relate="SBV" />
+                <word id="10" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="11" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="17" relate="ADV" />
+                <word id="12" cont="月" pos="n" ne="O" wsd="Ca21" wsdexp="月" parent="13" relate="ATT" />
+                <word id="13" cont="面" pos="n" ne="O" wsd="Dd05" wsdexp="范围_方面_环节" parent="14" relate="ATT" />
+                <word id="14" cont="上" pos="nd" ne="O" wsd="Cb03" wsdexp="上_下_左_右" parent="11" relate="POB" />
+                <word id="15" cont="可以" pos="v" ne="O" wsd="Gc02" wsdexp="能够_不能_可以_不可" parent="17" relate="ADV" />
+                <word id="16" cont="持续" pos="v" ne="O" wsd="Ka11" wsdexp="不断_一直_动辄" parent="17" relate="ADV" />
+                <word id="17" cont="进行" pos="v" ne="O" wsd="Ig03" wsdexp="进行_继续_流逝" parent="21" relate="DE">
+                    <arg id="0" type="方位" beg="11" end="14" />
+                    <arg id="1" type="受事" beg="18" end="20" />
+                </word>
+                <word id="18" cont="14" pos="m" ne="B-Nm" wsd="-1" wsdexp="" parent="19" relate="QUN" />
+                <word id="19" cont="个" pos="q" ne="E-Nm" wsd="Dn08" wsdexp="数量单位" parent="20" relate="ATT" />
+                <word id="20" cont="地球日" pos="n" ne="O" wsd="-1" wsdexp="" parent="17" relate="VOB" />
+                <word id="21" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="23" relate="ATT" />
+                <word id="22" cont="夜间" pos="nt" ne="O" wsd="Ca29" wsdexp="傍晚_晚上_夜间_昼夜" parent="23" relate="ADV" />
+                <word id="23" cont="观测" pos="v" ne="O" wsd="Hj26" wsdexp="观察_比较_区分" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="9" />
+                    <arg id="1" type="时间" beg="22" end="22" />
+                </word>
+                <word id="24" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="9" cont="因此，在月面建立观察网不但可以进行全方位持续的天文观测，同时可以对地球的地质构造及环境变化进行监测与研究，特别是对空间小天体对地球可能构成的威胁进行监测。" tag="">
+                <word id="0" cont="因此" pos="c" ne="O" wsd="Kc09" wsdexp="因为_所以" parent="15" relate="CNJ" />
+                <word id="1" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="2" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="5" relate="ADV" />
+                <word id="3" cont="月" pos="n" ne="O" wsd="Ca21" wsdexp="月" parent="4" relate="ATT" />
+                <word id="4" cont="面" pos="n" ne="O" wsd="Br05" wsdexp="面食_杂粮" parent="2" relate="POB" />
+                <word id="5" cont="建立" pos="v" ne="O" wsd="Hc05" wsdexp="建立_设立_创立_命名" parent="13" relate="DE" />
+                <word id="6" cont="观察" pos="v" ne="O" wsd="Hj26" wsdexp="观察_比较_区分" parent="5" relate="VV">
+                    <arg id="0" type="受事" beg="7" end="7" />
+                </word>
+                <word id="7" cont="网" pos="n" ne="O" wsd="Dd06" wsdexp="系统_种类_结构" parent="6" relate="VOB" />
+                <word id="8" cont="不但" pos="c" ne="O" wsd="Kc05" wsdexp="不但_何止" parent="10" relate="CNJ" />
+                <word id="9" cont="可以" pos="v" ne="O" wsd="Gc02" wsdexp="能够_不能_可以_不可" parent="10" relate="ADV" />
+                <word id="10" cont="进行" pos="v" ne="O" wsd="Ig03" wsdexp="进行_继续_流逝" parent="13" relate="DE">
+                    <arg id="0" type="受事" beg="11" end="12" />
+                </word>
+                <word id="11" cont="全方位" pos="n" ne="O" wsd="Eb02" wsdexp="单_双_全部_部分" parent="12" relate="ATT" />
+                <word id="12" cont="持续" pos="v" ne="O" wsd="Ka11" wsdexp="不断_一直_动辄" parent="10" relate="VOB" />
+                <word id="13" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="15" relate="ATT" />
+                <word id="14" cont="天文" pos="n" ne="O" wsd="Da22" wsdexp="现象_迹象_预兆" parent="15" relate="ATT" />
+                <word id="15" cont="观测" pos="v" ne="O" wsd="Hj26" wsdexp="观察_比较_区分" parent="-1" relate="HED" />
+                <word id="16" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="17" cont="同时" pos="c" ne="O" wsd="Ca03" wsdexp="时期_时间" parent="18" relate="CNJ" />
+                <word id="18" cont="可以" pos="v" ne="O" wsd="Gc02" wsdexp="能够_不能_可以_不可" parent="27" relate="ADV" />
+                <word id="19" cont="对" pos="p" ne="O" wsd="Kb04" wsdexp="对于_关于" parent="21" relate="DE" />
+                <word id="20" cont="地球" pos="n" ne="O" wsd="Bd03" wsdexp="地球" parent="19" relate="POB" />
+                <word id="21" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="23" relate="ATT" />
+                <word id="22" cont="地质" pos="n" ne="O" wsd="Dc01" wsdexp="形状_状态_式样_装饰" parent="23" relate="ATT" />
+                <word id="23" cont="构造" pos="n" ne="O" wsd="Dd06" wsdexp="系统_种类_结构" parent="27" relate="SBV" />
+                <word id="24" cont="及" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="26" relate="LAD" />
+                <word id="25" cont="环境" pos="n" ne="O" wsd="Da21" wsdexp="情况_境地_境界_环境" parent="26" relate="ATT" />
+                <word id="26" cont="变化" pos="v" ne="O" wsd="Ih01" wsdexp="变化_成为" parent="23" relate="COO" />
+                <word id="27" cont="进行" pos="v" ne="O" wsd="Ig03" wsdexp="进行_继续_流逝" parent="15" relate="VV">
+                    <arg id="0" type="施事" beg="19" end="26" />
+                    <arg id="1" type="受事" beg="28" end="30" />
+                </word>
+                <word id="28" cont="监测" pos="v" ne="O" wsd="Hd14" wsdexp="勘察_勘探_测量" parent="27" relate="VOB" />
+                <word id="29" cont="与" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="30" relate="LAD" />
+                <word id="30" cont="研究" pos="v" ne="O" wsd="Hg14" wsdexp="分析_推敲_研究_考证" parent="28" relate="COO" />
+                <word id="31" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="32" cont="特别" pos="d" ne="O" wsd="Ka01" wsdexp="非常_多么" parent="33" relate="ADV" />
+                <word id="33" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="27" relate="IC" />
+                <word id="34" cont="对" pos="p" ne="O" wsd="Kb04" wsdexp="对于_关于" parent="41" relate="ADV" />
+                <word id="35" cont="空间" pos="n" ne="O" wsd="Cb07" wsdexp="天_地" parent="37" relate="ATT" />
+                <word id="36" cont="小" pos="a" ne="O" wsd="Ea03" wsdexp="大_中_小" parent="37" relate="ATT" />
+                <word id="37" cont="天体" pos="n" ne="O" wsd="Bd01" wsdexp="宇宙_星辰" parent="34" relate="POB" />
+                <word id="38" cont="对" pos="p" ne="O" wsd="Kb04" wsdexp="对于_关于" parent="41" relate="ADV" />
+                <word id="39" cont="地球" pos="n" ne="O" wsd="Bd03" wsdexp="地球" parent="38" relate="POB" />
+                <word id="40" cont="可能" pos="v" ne="O" wsd="Ka17" wsdexp="也许_大概_难道" parent="41" relate="ADV" />
+                <word id="41" cont="构成" pos="v" ne="O" wsd="Ie02" wsdexp="连接_纠缠_积压_结合_割裂" parent="42" relate="DE" />
+                <word id="42" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="43" relate="ATT" />
+                <word id="43" cont="威胁" pos="v" ne="O" wsd="Hi57" wsdexp="恐吓_威胁_引诱" parent="27" relate="VV">
+                    <arg id="0" type="受事" beg="44" end="45" />
+                </word>
+                <word id="44" cont="进行" pos="v" ne="O" wsd="Ig03" wsdexp="进行_继续_流逝" parent="43" relate="VOB">
+                    <arg id="0" type="受事" beg="45" end="45" />
+                </word>
+                <word id="45" cont="监测" pos="v" ne="O" wsd="Hd14" wsdexp="勘察_勘探_测量" parent="44" relate="VOB" />
+                <word id="46" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="10" cont="一旦发现有陨石、彗星等物体向地球方向运行可能撞击地球时，可及时采取措施将其摧毁或改变其运行方向，从而起到保护人类的作用。" tag="">
+                <word id="0" cont="一旦" pos="d" ne="O" wsd="Kc08" wsdexp="如果_那末" parent="1" relate="ADV" />
+                <word id="1" cont="发现" pos="v" ne="O" wsd="Gb08" wsdexp="了解_体会_不解" parent="-1" relate="HED">
+                    <arg id="0" type="受事" beg="2" end="2" />
+                    <arg id="1" type="受事" beg="3" end="5" />
+                    <arg id="2" type="受事" beg="6" end="7" />
+                    <arg id="3" type="受事" beg="8" end="11" />
+                    <arg id="4" type="受事" beg="12" end="36" />
+                </word>
+                <word id="2" cont="有" pos="v" ne="O" wsd="Jd04" wsdexp="有_占有" parent="1" relate="VOB" />
+                <word id="3" cont="陨石" pos="n" ne="O" wsd="Bd01" wsdexp="宇宙_星辰" parent="1" relate="VOB" />
+                <word id="4" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="5" cont="彗星" pos="n" ne="O" wsd="Bd01" wsdexp="宇宙_星辰" parent="3" relate="COO" />
+                <word id="6" cont="等" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="7" relate="ATT" />
+                <word id="7" cont="物体" pos="n" ne="O" wsd="Ba01" wsdexp="物_物体" parent="1" relate="VOB" />
+                <word id="8" cont="向" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="11" relate="ADV" />
+                <word id="9" cont="地球" pos="n" ne="O" wsd="Bd03" wsdexp="地球" parent="10" relate="ATT" />
+                <word id="10" cont="方向" pos="n" ne="O" wsd="Cb01" wsdexp="方向_位置" parent="11" relate="ATT" />
+                <word id="11" cont="运行" pos="v" ne="O" wsd="Id15" wsdexp="旋转_缭绕_滚动" parent="1" relate="VOB" />
+                <word id="12" cont="可能" pos="v" ne="O" wsd="Ka17" wsdexp="也许_大概_难道" parent="13" relate="ADV" />
+                <word id="13" cont="撞击" pos="v" ne="O" wsd="Id18" wsdexp="撞_触_相遇_错过" parent="1" relate="VOB">
+                    <arg id="0" type="受事" beg="14" end="15" />
+                </word>
+                <word id="14" cont="地球" pos="n" ne="O" wsd="Bd03" wsdexp="地球" parent="15" relate="ATT" />
+                <word id="15" cont="时" pos="n" ne="O" wsd="Ca04" wsdexp="时候_时机_关头" parent="13" relate="VOB" />
+                <word id="16" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="17" cont="可" pos="v" ne="O" wsd="Gc02" wsdexp="能够_不能_可以_不可" parent="19" relate="ADV" />
+                <word id="18" cont="及时" pos="a" ne="O" wsd="Ka08" wsdexp="立刻_赶快_逐渐" parent="19" relate="ADV" />
+                <word id="19" cont="采取" pos="v" ne="O" wsd="Hj28" wsdexp="使用_沿用_借鉴" parent="13" relate="VV">
+                    <arg id="0" type="受事" beg="20" end="20" />
+                </word>
+                <word id="20" cont="措施" pos="n" ne="O" wsd="Db09" wsdexp="方法_诀窍_步骤" parent="19" relate="VOB" />
+                <word id="21" cont="将" pos="p" ne="O" wsd="Ka13" wsdexp="随即_即将_终于" parent="23" relate="ADV" />
+                <word id="22" cont="其" pos="r" ne="O" wsd="Ba10" wsdexp="它_什么" parent="21" relate="POB" />
+                <word id="23" cont="摧毁" pos="v" ne="O" wsd="Hb13" wsdexp="击败_歼灭_摧毁_撤兵" parent="13" relate="VV">
+                    <arg id="0" type="受事" beg="26" end="28" />
+                </word>
+                <word id="24" cont="或" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="25" relate="LAD" />
+                <word id="25" cont="改变" pos="v" ne="O" wsd="Ih02" wsdexp="改变_改换" parent="23" relate="COO" />
+                <word id="26" cont="其" pos="r" ne="O" wsd="Ba10" wsdexp="它_什么" parent="28" relate="ATT" />
+                <word id="27" cont="运行" pos="v" ne="O" wsd="Id15" wsdexp="旋转_缭绕_滚动" parent="28" relate="ATT" />
+                <word id="28" cont="方向" pos="n" ne="O" wsd="Cb01" wsdexp="方向_位置" parent="23" relate="VOB" />
+                <word id="29" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="30" cont="从而" pos="c" ne="O" wsd="Kc09" wsdexp="因为_所以" parent="31" relate="CNJ" />
+                <word id="31" cont="起" pos="v" ne="O" wsd="Ig01" wsdexp="开始_结束" parent="13" relate="VV">
+                    <arg id="0" type="受事" beg="33" end="36" />
+                </word>
+                <word id="32" cont="到" pos="v" ne="O" wsd="Hf08" wsdexp="到达_停靠" parent="31" relate="CMP" />
+                <word id="33" cont="保护" pos="v" ne="O" wsd="Hi37" wsdexp="照顾_服侍_护理_保护" parent="34" relate="ATT" />
+                <word id="34" cont="人类" pos="n" ne="O" wsd="Aa01" wsdexp="人_人民_众人" parent="35" relate="DE" />
+                <word id="35" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="36" relate="ATT" />
+                <word id="36" cont="作用" pos="n" ne="O" wsd="Da25" wsdexp="效用_反应" parent="31" relate="VOB" />
+                <word id="37" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+        </para>
+        <para id="8">
+            <sent id="0" cont="1984年，联合国通过的《指导各国在月球和其他天体上活动的协定》曾明确规定：" tag="">
+                <word id="0" cont="1984年" pos="nt" ne="S-Nr" wsd="-1" wsdexp="" parent="-1" relate="HED" />
+                <word id="1" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="2" cont="联合国" pos="ni" ne="S-Ni" wsd="Di10" wsdexp="团体_派别" parent="3" relate="SBV" />
+                <word id="3" cont="通过" pos="v" ne="O" wsd="Kb06" wsdexp="依靠_通过" parent="4" relate="DE">
+                    <arg id="0" type="施事" beg="2" end="2" />
+                </word>
+                <word id="4" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="16" relate="ATT" />
+                <word id="5" cont="《" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="6" cont="指导" pos="v" ne="O" wsd="Hg02" wsdexp="开导_指点_唤醒_引导" parent="15" relate="DE">
+                    <arg id="0" type="受事" beg="7" end="7" />
+                    <arg id="1" type="受事" beg="8" end="14" />
+                </word>
+                <word id="7" cont="各国" pos="r" ne="O" wsd="Ed61" wsdexp="这个_那个_某个_各个_其他_何" parent="6" relate="VOB" />
+                <word id="8" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="14" relate="ADV" />
+                <word id="9" cont="月球" pos="n" ne="O" wsd="Bd02" wsdexp="太阳_月亮_日月" parent="8" relate="POB" />
+                <word id="10" cont="和" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="14" relate="LAD" />
+                <word id="11" cont="其他" pos="r" ne="O" wsd="Ed61" wsdexp="这个_那个_某个_各个_其他_何" parent="14" relate="ATT" />
+                <word id="12" cont="天体" pos="n" ne="O" wsd="Bd01" wsdexp="宇宙_星辰" parent="13" relate="ATT" />
+                <word id="13" cont="上" pos="nd" ne="O" wsd="Cb03" wsdexp="上_下_左_右" parent="14" relate="ATT" />
+                <word id="14" cont="活动" pos="v" ne="O" wsd="Di20" wsdexp="动作_举动_行为" parent="6" relate="VOB" />
+                <word id="15" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="16" relate="ATT" />
+                <word id="16" cont="协定" pos="n" ne="O" wsd="Di24" wsdexp="规则_条约_条款" parent="0" relate="COO" />
+                <word id="17" cont="》" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="18" cont="曾" pos="d" ne="O" wsd="Ka12" wsdexp="已经_方才_正在" parent="19" relate="ADV" />
+                <word id="19" cont="明确" pos="a" ne="O" wsd="Ed46" wsdexp="明显_含糊" parent="20" relate="ATT" />
+                <word id="20" cont="规定" pos="n" ne="O" wsd="Hc14" wsdexp="建议_讨论_决定_制订" parent="16" relate="APP" />
+                <word id="21" cont="：" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="1" cont="“月球及其自然资源是人类共同财产，任何国家、团体和个人不得据为己有。" tag="">
+                <word id="0" cont="“" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="1" cont="月球" pos="n" ne="O" wsd="Bd02" wsdexp="太阳_月亮_日月" parent="3" relate="SBV" />
+                <word id="2" cont="及其" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="3" relate="LAD" />
+                <word id="3" cont="自然资源" pos="i" ne="O" wsd="Db02" wsdexp="根源_来源" parent="4" relate="ADV" />
+                <word id="4" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="-1" relate="HED">
+                    <arg id="0" type="受事" beg="5" end="7" />
+                </word>
+                <word id="5" cont="人类" pos="n" ne="O" wsd="Aa01" wsdexp="人_人民_众人" parent="6" relate="ATT" />
+                <word id="6" cont="共同" pos="b" ne="O" wsd="Ka23" wsdexp="共同_分头_独自_互相_从中" parent="7" relate="ATT" />
+                <word id="7" cont="财产" pos="n" ne="O" wsd="Dj03" wsdexp="产业_财物" parent="4" relate="VOB" />
+                <word id="8" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="9" cont="任何" pos="r" ne="O" wsd="Ed61" wsdexp="这个_那个_某个_各个_其他_何" parent="10" relate="ATT" />
+                <word id="10" cont="国家" pos="n" ne="O" wsd="Di02" wsdexp="国家_行政区划" parent="15" relate="SBV" />
+                <word id="11" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="12" cont="团体" pos="n" ne="O" wsd="Di10" wsdexp="团体_派别" parent="10" relate="COO" />
+                <word id="13" cont="和" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="14" relate="LAD" />
+                <word id="14" cont="个人" pos="n" ne="O" wsd="Ed55" wsdexp="公_私" parent="10" relate="COO" />
+                <word id="15" cont="不得" pos="v" ne="O" wsd="Gc02" wsdexp="能够_不能_可以_不可" parent="4" relate="IC">
+                    <arg id="0" type="施事" beg="9" end="14" />
+                    <arg id="1" type="受事" beg="16" end="16" />
+                </word>
+                <word id="16" cont="据为己有" pos="i" ne="O" wsd="Hn03" wsdexp="抢劫_盗窃" parent="15" relate="VOB" />
+                <word id="17" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="2" cont="月球的探测、开发与利用是没有政治边界的，谁先到达，谁先占有；" tag="">
+                <word id="0" cont="月球" pos="n" ne="O" wsd="Bd02" wsdexp="太阳_月亮_日月" parent="1" relate="DE" />
+                <word id="1" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="15" relate="ATT" />
+                <word id="2" cont="探测" pos="v" ne="O" wsd="Hd14" wsdexp="勘察_勘探_测量" parent="11" relate="DE">
+                    <arg id="0" type="受事" beg="7" end="10" />
+                </word>
+                <word id="3" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="4" cont="开发" pos="v" ne="O" wsd="Hd17" wsdexp="开山_垦荒_烧荒_种地" parent="2" relate="COO" />
+                <word id="5" cont="与" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="6" relate="LAD" />
+                <word id="6" cont="利用" pos="v" ne="O" wsd="Hj28" wsdexp="使用_沿用_借鉴" parent="2" relate="COO" />
+                <word id="7" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="2" relate="VOB">
+                    <arg id="0" type="受事" beg="8" end="10" />
+                </word>
+                <word id="8" cont="没有" pos="v" ne="O" wsd="Ka18" wsdexp="不_没" parent="7" relate="VOB">
+                    <arg id="0" type="受事" beg="9" end="10" />
+                </word>
+                <word id="9" cont="政治" pos="n" ne="O" wsd="Di08" wsdexp="政治_政体_专政" parent="10" relate="ATT" />
+                <word id="10" cont="边界" pos="n" ne="O" wsd="Cb14" wsdexp="边疆_界线" parent="8" relate="VOB" />
+                <word id="11" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="15" relate="ATT" />
+                <word id="12" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="13" cont="谁" pos="r" ne="O" wsd="Aa06" wsdexp="谁" parent="15" relate="SBV" />
+                <word id="14" cont="先" pos="d" ne="O" wsd="Ka09" wsdexp="姑且_临时_预先_首先_准时" parent="15" relate="ADV" />
+                <word id="15" cont="到达" pos="v" ne="O" wsd="Hf08" wsdexp="到达_停靠" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="13" end="13" />
+                </word>
+                <word id="16" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="17" cont="谁" pos="r" ne="O" wsd="Aa06" wsdexp="谁" parent="19" relate="SBV" />
+                <word id="18" cont="先" pos="d" ne="O" wsd="Ka09" wsdexp="姑且_临时_预先_首先_准时" parent="19" relate="ADV" />
+                <word id="19" cont="占有" pos="v" ne="O" wsd="Jd04" wsdexp="有_占有" parent="15" relate="IC">
+                    <arg id="0" type="施事" beg="17" end="17" />
+                </word>
+                <word id="20" cont="；" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="3" cont="谁先开发，谁先利用。" tag="">
+                <word id="0" cont="谁" pos="r" ne="O" wsd="Aa06" wsdexp="谁" parent="2" relate="SBV" />
+                <word id="1" cont="先" pos="d" ne="O" wsd="Ka09" wsdexp="姑且_临时_预先_首先_准时" parent="2" relate="ADV" />
+                <word id="2" cont="开发" pos="v" ne="O" wsd="Hd17" wsdexp="开山_垦荒_烧荒_种地" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="0" />
+                </word>
+                <word id="3" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="4" cont="谁" pos="r" ne="O" wsd="Aa06" wsdexp="谁" parent="6" relate="SBV" />
+                <word id="5" cont="先" pos="d" ne="O" wsd="Ka09" wsdexp="姑且_临时_预先_首先_准时" parent="6" relate="ADV" />
+                <word id="6" cont="利用" pos="v" ne="O" wsd="Hj28" wsdexp="使用_沿用_借鉴" parent="2" relate="VV">
+                    <arg id="0" type="施事" beg="4" end="4" />
+                </word>
+                <word id="7" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="4" cont="”而美苏早已开展了大量详尽广泛的研究，我国如不尽快行动，将来就难以在这片广袤的土地上占有一席之地。" tag="">
+                <word id="0" cont="”" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="1" cont="而" pos="c" ne="O" wsd="Kc03" wsdexp="但是" parent="3" relate="LAD" />
+                <word id="2" cont="美" pos="j" ne="S-Ns" wsd="Eb30" wsdexp="美丽_丑陋" parent="3" relate="ATT" />
+                <word id="3" cont="苏" pos="j" ne="S-Ns" wsd="Ib04" wsdexp="醒_入睡_失眠" parent="5" relate="SBV" />
+                <word id="4" cont="早已" pos="d" ne="O" wsd="Ka12" wsdexp="已经_方才_正在" parent="5" relate="ADV" />
+                <word id="5" cont="开展" pos="v" ne="O" wsd="Ig03" wsdexp="进行_继续_流逝" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="1" end="3" />
+                    <arg id="1" type="受事" beg="7" end="11" />
+                </word>
+                <word id="6" cont="了" pos="u" ne="O" wsd="Kd05" wsdexp="吗_的话_罢了_了_哉" parent="5" relate="MT" />
+                <word id="7" cont="大量" pos="m" ne="O" wsd="Eb01" wsdexp="多_少_稀少" parent="11" relate="ADV" />
+                <word id="8" cont="详尽" pos="a" ne="O" wsd="Ed37" wsdexp="简单_详细_透彻_均匀" parent="10" relate="DE" />
+                <word id="9" cont="广泛" pos="a" ne="O" wsd="Ed38" wsdexp="广泛_无穷_狭隘" parent="10" relate="DE" />
+                <word id="10" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="11" relate="ATT" />
+                <word id="11" cont="研究" pos="v" ne="O" wsd="Hg14" wsdexp="分析_推敲_研究_考证" parent="5" relate="VOB" />
+                <word id="12" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="13" cont="我国" pos="n" ne="O" wsd="Di02" wsdexp="国家_行政区划" parent="14" relate="SBV" />
+                <word id="14" cont="如" pos="v" ne="O" wsd="Jb03" wsdexp="相似_例如" parent="5" relate="VV">
+                    <arg id="0" type="施事" beg="13" end="13" />
+                    <arg id="1" type="受事" beg="15" end="17" />
+                </word>
+                <word id="15" cont="不" pos="d" ne="O" wsd="Ka18" wsdexp="不_没" parent="17" relate="ADV" />
+                <word id="16" cont="尽快" pos="d" ne="O" wsd="Ka08" wsdexp="立刻_赶快_逐渐" parent="17" relate="ADV" />
+                <word id="17" cont="行动" pos="v" ne="O" wsd="Di20" wsdexp="动作_举动_行为" parent="14" relate="VOB" />
+                <word id="18" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="19" cont="将来" pos="nt" ne="O" wsd="Ca12" wsdexp="将来_隔日" parent="29" relate="ADV" />
+                <word id="20" cont="就" pos="d" ne="O" wsd="Ka07" wsdexp="都_只_不止_甚至" parent="29" relate="ADV" />
+                <word id="21" cont="难以" pos="d" ne="O" wsd="Ed48" wsdexp="便利_不便" parent="29" relate="ADV" />
+                <word id="22" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="29" relate="ADV" />
+                <word id="23" cont="这" pos="r" ne="O" wsd="Ed61" wsdexp="这个_那个_某个_各个_其他_何" parent="24" relate="ATT" />
+                <word id="24" cont="片" pos="q" ne="O" wsd="Dn08" wsdexp="数量单位" parent="27" relate="ATT" />
+                <word id="25" cont="广袤" pos="a" ne="O" wsd="Ed39" wsdexp="丰富_广博_广博_贫乏" parent="26" relate="DE" />
+                <word id="26" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="27" relate="ATT" />
+                <word id="27" cont="土地" pos="n" ne="O" wsd="Bn12" wsdexp="田地_田埂_园圃_温室_苗床" parent="28" relate="ATT" />
+                <word id="28" cont="上" pos="nd" ne="O" wsd="Cb03" wsdexp="上_下_左_右" parent="22" relate="POB" />
+                <word id="29" cont="占有" pos="v" ne="O" wsd="Jd04" wsdexp="有_占有" parent="5" relate="VV">
+                    <arg id="0" type="时间" beg="19" end="19" />
+                    <arg id="1" type="方位" beg="22" end="28" />
+                    <arg id="2" type="受事" beg="30" end="30" />
+                </word>
+                <word id="30" cont="一席之地" pos="i" ne="O" wsd="-1" wsdexp="" parent="29" relate="VOB" />
+                <word id="31" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="5" cont="登上月球，对子子孙孙千秋万代有着重大的战略意义。" tag="10%">
+                <word id="0" cont="登" pos="v" ne="O" wsd="Jd03" wsdexp="登载" parent="-1" relate="HED">
+                    <arg id="0" type="受事" beg="1" end="2" />
+                </word>
+                <word id="1" cont="上" pos="nd" ne="O" wsd="Cb03" wsdexp="上_下_左_右" parent="2" relate="ATT" />
+                <word id="2" cont="月球" pos="n" ne="O" wsd="Bd02" wsdexp="太阳_月亮_日月" parent="0" relate="VOB" />
+                <word id="3" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="4" cont="对" pos="p" ne="O" wsd="Kb04" wsdexp="对于_关于" parent="7" relate="ADV" />
+                <word id="5" cont="子子孙孙" pos="n" ne="O" wsd="Eb24" wsdexp="长久_永远" parent="4" relate="POB" />
+                <word id="6" cont="千秋万代" pos="i" ne="O" wsd="Eb24" wsdexp="长久_永远" parent="4" relate="POB" />
+                <word id="7" cont="有着" pos="v" ne="O" wsd="Jd04" wsdexp="有_占有" parent="0" relate="VV">
+                    <arg id="0" type="受事" beg="8" end="11" />
+                </word>
+                <word id="8" cont="重大" pos="a" ne="O" wsd="Ed28" wsdexp="重要_次要_不足道" parent="9" relate="DE" />
+                <word id="9" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="11" relate="ATT" />
+                <word id="10" cont="战略" pos="n" ne="O" wsd="Df09" wsdexp="计划_计策_手段" parent="11" relate="ATT" />
+                <word id="11" cont="意义" pos="n" ne="O" wsd="Db06" wsdexp="规律_意义" parent="7" relate="VOB" />
+                <word id="12" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+        </para>
+        <para id="9">
+            <sent id="0" cont="中国登月，将标志着我们的活动范围扩展到了宇宙空间。" tag="10%">
+                <word id="0" cont="中国" pos="ns" ne="S-Ns" wsd="Di02" wsdexp="国家_行政区划" parent="1" relate="SBV" />
+                <word id="1" cont="登" pos="v" ne="O" wsd="Jd03" wsdexp="登载" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="0" />
+                    <arg id="1" type="受事" beg="2" end="2" />
+                </word>
+                <word id="2" cont="月" pos="n" ne="O" wsd="Ca21" wsdexp="月" parent="1" relate="VOB" />
+                <word id="3" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="4" cont="将" pos="d" ne="O" wsd="Ka13" wsdexp="随即_即将_终于" parent="5" relate="ADV" />
+                <word id="5" cont="标志" pos="v" ne="O" wsd="Ja03" wsdexp="意味_影射_体现_标志" parent="1" relate="VV">
+                    <arg id="0" type="受事" beg="7" end="10" />
+                    <arg id="1" type="受事" beg="11" end="14" />
+                </word>
+                <word id="6" cont="着" pos="u" ne="O" wsd="Fa18" wsdexp="穿_戴_佩带" parent="5" relate="MT" />
+                <word id="7" cont="我们" pos="r" ne="O" wsd="Aa02" wsdexp="我_我们" parent="8" relate="DE" />
+                <word id="8" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="10" relate="ATT" />
+                <word id="9" cont="活动" pos="v" ne="O" wsd="Di20" wsdexp="动作_举动_行为" parent="10" relate="ATT" />
+                <word id="10" cont="范围" pos="n" ne="O" wsd="Dd05" wsdexp="范围_方面_环节" parent="5" relate="VOB" />
+                <word id="11" cont="扩展" pos="v" ne="O" wsd="Ih03" wsdexp="扩大_伸长_收缩" parent="5" relate="VOB">
+                    <arg id="0" type="受事" beg="14" end="14" />
+                </word>
+                <word id="12" cont="到" pos="v" ne="O" wsd="Hf08" wsdexp="到达_停靠" parent="11" relate="CMP" />
+                <word id="13" cont="了" pos="u" ne="O" wsd="Kd05" wsdexp="吗_的话_罢了_了_哉" parent="11" relate="MT" />
+                <word id="14" cont="宇宙空间" pos="i" ne="O" wsd="Bd01" wsdexp="宇宙_星辰" parent="11" relate="VOB" />
+                <word id="15" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="1" cont="活动领域的每一次变迁，都大大增强了人类认识和改造自然的能力，促进了社会生产力的持续高速向前发展。" tag="20%">
+                <word id="0" cont="活动" pos="v" ne="O" wsd="Di20" wsdexp="动作_举动_行为" parent="1" relate="ATT" />
+                <word id="1" cont="领域" pos="n" ne="O" wsd="Dd05" wsdexp="范围_方面_环节" parent="2" relate="DE" />
+                <word id="2" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="5" relate="ATT" />
+                <word id="3" cont="每" pos="r" ne="O" wsd="Ed61" wsdexp="这个_那个_某个_各个_其他_何" parent="5" relate="ATT" />
+                <word id="4" cont="一" pos="m" ne="B-Nm" wsd="Dn04" wsdexp="基数_序数" parent="5" relate="QUN" />
+                <word id="5" cont="次" pos="q" ne="E-Nm" wsd="Dn08" wsdexp="数量单位" parent="6" relate="ATT" />
+                <word id="6" cont="变迁" pos="v" ne="O" wsd="Ih01" wsdexp="变化_成为" parent="-1" relate="HED" />
+                <word id="7" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="8" cont="都" pos="d" ne="O" wsd="Ka07" wsdexp="都_只_不止_甚至" parent="10" relate="ADV" />
+                <word id="9" cont="大大" pos="d" ne="O" wsd="Ka01" wsdexp="非常_多么" parent="10" relate="ADV" />
+                <word id="10" cont="增强" pos="v" ne="O" wsd="Ih10" wsdexp="抓紧_放松" parent="6" relate="VV">
+                    <arg id="0" type="受事" beg="12" end="18" />
+                </word>
+                <word id="11" cont="了" pos="u" ne="O" wsd="Kd05" wsdexp="吗_的话_罢了_了_哉" parent="10" relate="MT" />
+                <word id="12" cont="人类" pos="n" ne="O" wsd="Aa01" wsdexp="人_人民_众人" parent="13" relate="ATT" />
+                <word id="13" cont="认识" pos="v" ne="O" wsd="Df14" wsdexp="想法_主意_见解" parent="17" relate="DE" />
+                <word id="14" cont="和" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="16" relate="LAD" />
+                <word id="15" cont="改造" pos="v" ne="O" wsd="Ha04" wsdexp="改革_救国_闭关自守" parent="16" relate="ATT" />
+                <word id="16" cont="自然" pos="n" ne="O" wsd="Ed51" wsdexp="天然_本来_现成" parent="13" relate="COO" />
+                <word id="17" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="18" relate="ATT" />
+                <word id="18" cont="能力" pos="n" ne="O" wsd="De04" wsdexp="智慧_才能_能力_功夫" parent="10" relate="VOB" />
+                <word id="19" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="20" cont="促进" pos="v" ne="O" wsd="Je06" wsdexp="推动_激发" parent="24" relate="DE">
+                    <arg id="0" type="受事" beg="22" end="23" />
+                </word>
+                <word id="21" cont="了" pos="u" ne="O" wsd="Kd05" wsdexp="吗_的话_罢了_了_哉" parent="20" relate="MT" />
+                <word id="22" cont="社会" pos="n" ne="O" wsd="Di01" wsdexp="世界_社会_人间" parent="23" relate="ATT" />
+                <word id="23" cont="生产力" pos="n" ne="O" wsd="Dd14" wsdexp="力气_力量_能量" parent="20" relate="VOB" />
+                <word id="24" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="25" relate="ATT" />
+                <word id="25" cont="持续" pos="v" ne="O" wsd="Ka11" wsdexp="不断_一直_动辄" parent="28" relate="ADV" />
+                <word id="26" cont="高速" pos="d" ne="O" wsd="Eb23" wsdexp="快_慢" parent="28" relate="ADV" />
+                <word id="27" cont="向前" pos="v" ne="O" wsd="Hj67" wsdexp="前进_后退_追赶" parent="28" relate="ADV" />
+                <word id="28" cont="发展" pos="v" ne="O" wsd="Ie12" wsdexp="进步_退步_堕落" parent="10" relate="VV" />
+                <word id="29" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="2" cont="人类的活动领域第一次变迁是从陆地扩展到海洋，促发了产业革命,把人类带向了蒸汽机时代；" tag="">
+                <word id="0" cont="人类" pos="n" ne="O" wsd="Aa01" wsdexp="人_人民_众人" parent="1" relate="DE" />
+                <word id="1" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="3" relate="ATT" />
+                <word id="2" cont="活动" pos="v" ne="O" wsd="Di20" wsdexp="动作_举动_行为" parent="3" relate="ATT" />
+                <word id="3" cont="领域" pos="n" ne="O" wsd="Dd05" wsdexp="范围_方面_环节" parent="6" relate="ATT" />
+                <word id="4" cont="第一" pos="m" ne="O" wsd="Dn04" wsdexp="基数_序数" parent="5" relate="QUN" />
+                <word id="5" cont="次" pos="q" ne="O" wsd="Dn08" wsdexp="数量单位" parent="6" relate="ATT" />
+                <word id="6" cont="变迁" pos="v" ne="O" wsd="Ih01" wsdexp="变化_成为" parent="7" relate="SBV" />
+                <word id="7" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="6" />
+                    <arg id="1" type="受事" beg="8" end="12" />
+                    <arg id="2" type="受事" beg="19" end="21" />
+                    <arg id="3" type="受事" beg="24" end="25" />
+                </word>
+                <word id="8" cont="从" pos="p" ne="O" wsd="Kb02" wsdexp="从_到_沿" parent="10" relate="ADV" />
+                <word id="9" cont="陆地" pos="n" ne="O" wsd="Be01" wsdexp="陆地_原野_沙漠" parent="8" relate="POB" />
+                <word id="10" cont="扩展" pos="v" ne="O" wsd="Ih03" wsdexp="扩大_伸长_收缩" parent="7" relate="VOB">
+                    <arg id="0" type="受事" beg="12" end="12" />
+                </word>
+                <word id="11" cont="到" pos="v" ne="O" wsd="Hf08" wsdexp="到达_停靠" parent="10" relate="CMP" />
+                <word id="12" cont="海洋" pos="n" ne="O" wsd="Be05" wsdexp="海洋_江河_溪涧" parent="10" relate="VOB" />
+                <word id="13" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="14" cont="促" pos="v" ne="O" wsd="Je06" wsdexp="推动_激发" parent="7" relate="IC">
+                    <arg id="0" type="受事" beg="15" end="16" />
+                    <arg id="1" type="受事" beg="17" end="17" />
+                </word>
+                <word id="15" cont="发" pos="v" ne="O" wsd="Hc07" wsdexp="收_发" parent="14" relate="VOB" />
+                <word id="16" cont="了" pos="u" ne="O" wsd="Kd05" wsdexp="吗_的话_罢了_了_哉" parent="15" relate="MT" />
+                <word id="17" cont="产业革命" pos="i" ne="O" wsd="Ee37" wsdexp="革命_反动_进步_落后" parent="14" relate="VOB" />
+                <word id="18" cont="," pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="19" cont="把" pos="p" ne="O" wsd="Kb03" wsdexp="跟_替_把_比" parent="21" relate="ADV" />
+                <word id="20" cont="人类" pos="n" ne="O" wsd="Aa01" wsdexp="人_人民_众人" parent="19" relate="POB" />
+                <word id="21" cont="带" pos="v" ne="O" wsd="Hj36" wsdexp="携带_跟随" parent="7" relate="VOB" />
+                <word id="22" cont="向" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="23" relate="DE" />
+                <word id="23" cont="了" pos="u" ne="O" wsd="Kd05" wsdexp="吗_的话_罢了_了_哉" parent="7" relate="MT" />
+                <word id="24" cont="蒸汽机" pos="n" ne="O" wsd="Bo01" wsdexp="机器_工具_泵" parent="25" relate="ATT" />
+                <word id="25" cont="时代" pos="n" ne="O" wsd="Ca02" wsdexp="时代_朝代_年代" parent="7" relate="VOB" />
+                <word id="26" cont="；" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="3" cont="当人类活动的领域继续扩大到大气层实现了第二次变迁后，交通发达通讯流畅把人类引向了高度发达的信息化时代。" tag="">
+                <word id="0" cont="当" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="5" relate="ADV" />
+                <word id="1" cont="人类" pos="n" ne="O" wsd="Aa01" wsdexp="人_人民_众人" parent="2" relate="ATT" />
+                <word id="2" cont="活动" pos="v" ne="O" wsd="Di20" wsdexp="动作_举动_行为" parent="3" relate="DE" />
+                <word id="3" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="4" relate="ATT" />
+                <word id="4" cont="领域" pos="n" ne="O" wsd="Dd05" wsdexp="范围_方面_环节" parent="0" relate="POB" />
+                <word id="5" cont="继续" pos="v" ne="O" wsd="Ig03" wsdexp="进行_继续_流逝" parent="6" relate="ADV" />
+                <word id="6" cont="扩大" pos="v" ne="O" wsd="Ih03" wsdexp="扩大_伸长_收缩" parent="14" relate="ATT">
+                    <arg id="0" type="受事" beg="8" end="8" />
+                </word>
+                <word id="7" cont="到" pos="v" ne="O" wsd="Hf08" wsdexp="到达_停靠" parent="6" relate="CMP" />
+                <word id="8" cont="大气层" pos="n" ne="O" wsd="Dd07" wsdexp="次序_行列" parent="6" relate="VOB" />
+                <word id="9" cont="实现" pos="v" ne="O" wsd="Ie14" wsdexp="完成_实现" parent="14" relate="ATT" />
+                <word id="10" cont="了" pos="u" ne="O" wsd="Kd05" wsdexp="吗_的话_罢了_了_哉" parent="9" relate="MT" />
+                <word id="11" cont="第二" pos="m" ne="O" wsd="Dn04" wsdexp="基数_序数" parent="12" relate="QUN" />
+                <word id="12" cont="次" pos="q" ne="O" wsd="Dn08" wsdexp="数量单位" parent="14" relate="ATT" />
+                <word id="13" cont="变迁" pos="v" ne="O" wsd="Ih01" wsdexp="变化_成为" parent="14" relate="ATT" />
+                <word id="14" cont="后" pos="nd" ne="O" wsd="Cb04" wsdexp="前_后_中" parent="22" relate="ADV" />
+                <word id="15" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="16" cont="交通" pos="n" ne="O" wsd="Di18" wsdexp="事业_行业_工程" parent="17" relate="SBV" />
+                <word id="17" cont="发达" pos="a" ne="O" wsd="Ef02" wsdexp="繁荣_萧条" parent="18" relate="ATT" />
+                <word id="18" cont="通讯" pos="n" ne="O" wsd="Bo04" wsdexp="通信器材_电线_电料" parent="19" relate="SBV" />
+                <word id="19" cont="流畅" pos="a" ne="O" wsd="Ed09" wsdexp="工整_通顺_晦涩" parent="22" relate="SBV" />
+                <word id="20" cont="把" pos="p" ne="O" wsd="Kb03" wsdexp="跟_替_把_比" parent="22" relate="ADV" />
+                <word id="21" cont="人类" pos="n" ne="O" wsd="Aa01" wsdexp="人_人民_众人" parent="20" relate="POB" />
+                <word id="22" cont="引" pos="v" ne="O" wsd="Hg02" wsdexp="开导_指点_唤醒_引导" parent="-1" relate="HED">
+                    <arg id="0" type="方位" beg="0" end="14" />
+                    <arg id="1" type="施事" beg="16" end="19" />
+                    <arg id="2" type="受事" beg="25" end="29" />
+                </word>
+                <word id="23" cont="向" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="22" relate="CMP" />
+                <word id="24" cont="了" pos="u" ne="O" wsd="Kd05" wsdexp="吗_的话_罢了_了_哉" parent="22" relate="MT" />
+                <word id="25" cont="高度" pos="d" ne="O" wsd="Ed16" wsdexp="深刻_深远_深厚_深沉" parent="29" relate="ATT" />
+                <word id="26" cont="发达" pos="a" ne="O" wsd="Ef02" wsdexp="繁荣_萧条" parent="27" relate="DE" />
+                <word id="27" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="29" relate="ATT" />
+                <word id="28" cont="信息化" pos="v" ne="O" wsd="Ih01" wsdexp="变化_成为" parent="29" relate="ATT" />
+                <word id="29" cont="时代" pos="n" ne="O" wsd="Ca02" wsdexp="时代_朝代_年代" parent="22" relate="VOB" />
+                <word id="30" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="4" cont="当人类活动领域扩大到宇宙空间后，人类将开始利用和开发空间蕴藏的极其丰富的资源，并使人类能利用整个宇宙来解决社会发展问题―-这势必带来一场新的革命，势必会促进人类社会各个领域的长足进步，势必会极大的解放和发展生产力！" tag="">
+                <word id="0" cont="当" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="4" relate="ADV" />
+                <word id="1" cont="人类" pos="n" ne="O" wsd="Aa01" wsdexp="人_人民_众人" parent="2" relate="ATT" />
+                <word id="2" cont="活动" pos="v" ne="O" wsd="Di20" wsdexp="动作_举动_行为" parent="3" relate="ATT" />
+                <word id="3" cont="领域" pos="n" ne="O" wsd="Dd05" wsdexp="范围_方面_环节" parent="0" relate="POB" />
+                <word id="4" cont="扩大" pos="v" ne="O" wsd="Ih03" wsdexp="扩大_伸长_收缩" parent="7" relate="ATT">
+                    <arg id="0" type="受事" beg="6" end="6" />
+                </word>
+                <word id="5" cont="到" pos="v" ne="O" wsd="Hf08" wsdexp="到达_停靠" parent="4" relate="CMP" />
+                <word id="6" cont="宇宙空间" pos="i" ne="O" wsd="Bd01" wsdexp="宇宙_星辰" parent="4" relate="VOB" />
+                <word id="7" cont="后" pos="nd" ne="O" wsd="Cb04" wsdexp="前_后_中" parent="12" relate="ADV" />
+                <word id="8" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="9" cont="人类" pos="n" ne="O" wsd="Aa01" wsdexp="人_人民_众人" parent="11" relate="SBV" />
+                <word id="10" cont="将" pos="d" ne="O" wsd="Ka13" wsdexp="随即_即将_终于" parent="11" relate="ADV" />
+                <word id="11" cont="开始" pos="v" ne="O" wsd="Ig01" wsdexp="开始_结束" parent="12" relate="ADV">
+                    <arg id="0" type="施事" beg="9" end="9" />
+                </word>
+                <word id="12" cont="利用" pos="v" ne="O" wsd="Hj28" wsdexp="使用_沿用_借鉴" parent="-1" relate="HED">
+                    <arg id="0" type="方位" beg="0" end="7" />
+                    <arg id="1" type="受事" beg="13" end="15" />
+                    <arg id="2" type="受事" beg="16" end="21" />
+                </word>
+                <word id="13" cont="和" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="15" relate="LAD" />
+                <word id="14" cont="开发" pos="v" ne="O" wsd="Hd17" wsdexp="开山_垦荒_烧荒_种地" parent="15" relate="ATT" />
+                <word id="15" cont="空间" pos="n" ne="O" wsd="Cb07" wsdexp="天_地" parent="12" relate="VOB" />
+                <word id="16" cont="蕴藏" pos="v" ne="O" wsd="Jd06" wsdexp="充满_满怀_包含_显露_呈现" parent="17" relate="DE" />
+                <word id="17" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="21" relate="ATT" />
+                <word id="18" cont="极其" pos="d" ne="O" wsd="Ka02" wsdexp="最_至多_至少" parent="19" relate="ADV" />
+                <word id="19" cont="丰富" pos="a" ne="O" wsd="Ed39" wsdexp="丰富_广博_广博_贫乏" parent="20" relate="DE" />
+                <word id="20" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="21" relate="ATT" />
+                <word id="21" cont="资源" pos="n" ne="O" wsd="Ba08" wsdexp="宝物_废物" parent="12" relate="VOB" />
+                <word id="22" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="23" cont="并" pos="c" ne="O" wsd="Kc02" wsdexp="并且_况且" parent="24" relate="CNJ" />
+                <word id="24" cont="使" pos="v" ne="O" wsd="Je04" wsdexp="引起_导致_使得" parent="39" relate="SBV">
+                    <arg id="0" type="受事" beg="25" end="25" />
+                    <arg id="1" type="受事" beg="26" end="27" />
+                    <arg id="2" type="受事" beg="28" end="29" />
+                    <arg id="3" type="受事" beg="30" end="34" />
+                </word>
+                <word id="25" cont="人类" pos="n" ne="O" wsd="Aa01" wsdexp="人_人民_众人" parent="24" relate="VOB" />
+                <word id="26" cont="能" pos="v" ne="O" wsd="Gc02" wsdexp="能够_不能_可以_不可" parent="27" relate="ADV" />
+                <word id="27" cont="利用" pos="v" ne="O" wsd="Hj28" wsdexp="使用_沿用_借鉴" parent="24" relate="VOB" />
+                <word id="28" cont="整个" pos="b" ne="O" wsd="Eb02" wsdexp="单_双_全部_部分" parent="29" relate="ATT" />
+                <word id="29" cont="宇宙" pos="n" ne="O" wsd="Bd01" wsdexp="宇宙_星辰" parent="24" relate="VOB" />
+                <word id="30" cont="来" pos="nd" ne="O" wsd="Hj63" wsdexp="来_去_来去" parent="31" relate="ADV" />
+                <word id="31" cont="解决" pos="v" ne="O" wsd="Jd09" wsdexp="解决" parent="24" relate="VOB">
+                    <arg id="0" type="方位" beg="30" end="30" />
+                    <arg id="1" type="受事" beg="32" end="34" />
+                </word>
+                <word id="32" cont="社会" pos="n" ne="O" wsd="Di01" wsdexp="世界_社会_人间" parent="33" relate="ATT" />
+                <word id="33" cont="发展" pos="v" ne="O" wsd="Ie12" wsdexp="进步_退步_堕落" parent="34" relate="ATT" />
+                <word id="34" cont="问题" pos="n" ne="O" wsd="Da01" wsdexp="事情_事件_事故" parent="31" relate="VOB" />
+                <word id="35" cont="―" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="36" cont="-" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="37" cont="这" pos="r" ne="O" wsd="Ed61" wsdexp="这个_那个_某个_各个_其他_何" parent="39" relate="SBV" />
+                <word id="38" cont="势必" pos="d" ne="O" wsd="Ka15" wsdexp="必然_管保_未必" parent="39" relate="ADV" />
+                <word id="39" cont="带来" pos="v" ne="O" wsd="Hj36" wsdexp="携带_跟随" parent="12" relate="VV">
+                    <arg id="0" type="施事" beg="23" end="34" />
+                    <arg id="1" type="施事" beg="37" end="37" />
+                    <arg id="2" type="受事" beg="40" end="44" />
+                </word>
+                <word id="40" cont="一" pos="m" ne="B-Nm" wsd="Dn04" wsdexp="基数_序数" parent="41" relate="QUN" />
+                <word id="41" cont="场" pos="q" ne="E-Nm" wsd="Dn09" wsdexp="动量单位_复量单位" parent="44" relate="ATT" />
+                <word id="42" cont="新" pos="a" ne="O" wsd="Eb28" wsdexp="新_新鲜" parent="43" relate="DE" />
+                <word id="43" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="44" relate="ATT" />
+                <word id="44" cont="革命" pos="v" ne="O" wsd="Ha01" wsdexp="革命_解放" parent="39" relate="VOB" />
+                <word id="45" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="46" cont="势必" pos="d" ne="O" wsd="Ka15" wsdexp="必然_管保_未必" parent="48" relate="ADV" />
+                <word id="47" cont="会" pos="v" ne="O" wsd="Gc02" wsdexp="能够_不能_可以_不可" parent="48" relate="ADV" />
+                <word id="48" cont="促进" pos="v" ne="O" wsd="Je06" wsdexp="推动_激发" parent="53" relate="DE">
+                    <arg id="0" type="受事" beg="49" end="52" />
+                </word>
+                <word id="49" cont="人类" pos="n" ne="O" wsd="Aa01" wsdexp="人_人民_众人" parent="50" relate="ATT" />
+                <word id="50" cont="社会" pos="n" ne="O" wsd="Di01" wsdexp="世界_社会_人间" parent="52" relate="ATT" />
+                <word id="51" cont="各个" pos="r" ne="O" wsd="Ed61" wsdexp="这个_那个_某个_各个_其他_何" parent="52" relate="ATT" />
+                <word id="52" cont="领域" pos="n" ne="O" wsd="Dd05" wsdexp="范围_方面_环节" parent="48" relate="VOB" />
+                <word id="53" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="55" relate="ATT" />
+                <word id="54" cont="长足" pos="a" ne="O" wsd="Eb23" wsdexp="快_慢" parent="55" relate="ATT" />
+                <word id="55" cont="进步" pos="v" ne="O" wsd="Ie12" wsdexp="进步_退步_堕落" parent="12" relate="VV" />
+                <word id="56" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="57" cont="势必" pos="d" ne="O" wsd="Ka15" wsdexp="必然_管保_未必" parent="58" relate="ADV" />
+                <word id="58" cont="会" pos="v" ne="O" wsd="Gc02" wsdexp="能够_不能_可以_不可" parent="12" relate="VV">
+                    <arg id="0" type="受事" beg="59" end="64" />
+                </word>
+                <word id="59" cont="极大" pos="a" ne="O" wsd="Ea03" wsdexp="大_中_小" parent="60" relate="DE" />
+                <word id="60" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="61" relate="ATT" />
+                <word id="61" cont="解放" pos="v" ne="O" wsd="Ha01" wsdexp="革命_解放" parent="58" relate="VOB" />
+                <word id="62" cont="和" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="64" relate="LAD" />
+                <word id="63" cont="发展" pos="v" ne="O" wsd="Ie12" wsdexp="进步_退步_堕落" parent="64" relate="ATT" />
+                <word id="64" cont="生产力" pos="n" ne="O" wsd="Dd14" wsdexp="力气_力量_能量" parent="61" relate="COO" />
+                <word id="65" cont="！" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="5" cont="第一次变迁，我们还在“天朝上国”的梦幻中男耕女织；" tag="">
+                <word id="0" cont="第一" pos="m" ne="O" wsd="Dn04" wsdexp="基数_序数" parent="1" relate="QUN" />
+                <word id="1" cont="次" pos="q" ne="O" wsd="Dn08" wsdexp="数量单位" parent="2" relate="ATT" />
+                <word id="2" cont="变迁" pos="v" ne="O" wsd="Ih01" wsdexp="变化_成为" parent="-1" relate="HED" />
+                <word id="3" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="4" cont="我们" pos="r" ne="O" wsd="Aa02" wsdexp="我_我们" parent="2" relate="NOT" />
+                <word id="5" cont="还" pos="d" ne="O" wsd="Ka33" wsdexp="却_还_也_反而" parent="6" relate="ADV" />
+                <word id="6" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="15" relate="ADV" />
+                <word id="7" cont="“" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="8" cont="天朝" pos="n" ne="O" wsd="-1" wsdexp="" parent="9" relate="ATT" />
+                <word id="9" cont="上" pos="nd" ne="O" wsd="Cb03" wsdexp="上_下_左_右" parent="10" relate="ATT" />
+                <word id="10" cont="国" pos="n" ne="O" wsd="Di02" wsdexp="国家_行政区划" parent="12" relate="DE" />
+                <word id="11" cont="”" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="12" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="13" relate="ATT" />
+                <word id="13" cont="梦幻" pos="n" ne="O" wsd="Df10" wsdexp="理想_幻想_泡影_梦幻" parent="14" relate="ATT" />
+                <word id="14" cont="中" pos="nd" ne="O" wsd="Da05" wsdexp="过程_内中" parent="6" relate="POB" />
+                <word id="15" cont="男耕女织" pos="i" ne="O" wsd="-1" wsdexp="" parent="4" relate="NOT" />
+                <word id="16" cont="；" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="6" cont="第二次变迁，我们还在忙碌着为实现温饱；" tag="">
+                <word id="0" cont="第二" pos="m" ne="O" wsd="Dn04" wsdexp="基数_序数" parent="1" relate="QUN" />
+                <word id="1" cont="次" pos="q" ne="O" wsd="Dn08" wsdexp="数量单位" parent="2" relate="ATT" />
+                <word id="2" cont="变迁" pos="v" ne="O" wsd="Ih01" wsdexp="变化_成为" parent="-1" relate="HED" />
+                <word id="3" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="4" cont="我们" pos="r" ne="O" wsd="Aa02" wsdexp="我_我们" parent="6" relate="SBV" />
+                <word id="5" cont="还" pos="d" ne="O" wsd="Ka33" wsdexp="却_还_也_反而" parent="6" relate="ADV" />
+                <word id="6" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="9" relate="ADV" />
+                <word id="7" cont="忙碌" pos="a" ne="O" wsd="Ef06" wsdexp="繁忙_匆忙_空闲" parent="9" relate="ADV" />
+                <word id="8" cont="着" pos="u" ne="O" wsd="Fa18" wsdexp="穿_戴_佩带" parent="7" relate="MT" />
+                <word id="9" cont="为" pos="v" ne="O" wsd="Kb05" wsdexp="为_被_以_由" parent="2" relate="VV">
+                    <arg id="0" type="受事" beg="10" end="11" />
+                </word>
+                <word id="10" cont="实现" pos="v" ne="O" wsd="Ie14" wsdexp="完成_实现" parent="9" relate="VOB">
+                    <arg id="0" type="受事" beg="11" end="11" />
+                </word>
+                <word id="11" cont="温饱" pos="n" ne="O" wsd="Ef14" wsdexp="富裕_小康_贫穷" parent="10" relate="VOB" />
+                <word id="12" cont="；" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="7" cont="今天，面对着这晨晖中的第三次变迁，强盛的中国，不容错过!" tag="">
+                <word id="0" cont="今天" pos="nt" ne="O" wsd="Ca23" wsdexp="日" parent="14" relate="ADV" />
+                <word id="1" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="2" cont="面对" pos="v" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="6" relate="ATT" />
+                <word id="3" cont="着" pos="u" ne="O" wsd="Fa18" wsdexp="穿_戴_佩带" parent="2" relate="MT" />
+                <word id="4" cont="这" pos="r" ne="O" wsd="Ed61" wsdexp="这个_那个_某个_各个_其他_何" parent="5" relate="ATT" />
+                <word id="5" cont="晨晖" pos="n" ne="O" wsd="Bg03" wsdexp="火_光_影" parent="6" relate="ATT" />
+                <word id="6" cont="中" pos="nd" ne="O" wsd="Da05" wsdexp="过程_内中" parent="7" relate="DE" />
+                <word id="7" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="9" relate="ATT" />
+                <word id="8" cont="第三" pos="m" ne="O" wsd="Dn04" wsdexp="基数_序数" parent="9" relate="QUN" />
+                <word id="9" cont="次" pos="q" ne="O" wsd="Dn08" wsdexp="数量单位" parent="10" relate="ATT" />
+                <word id="10" cont="变迁" pos="v" ne="O" wsd="Ih01" wsdexp="变化_成为" parent="13" relate="DE" />
+                <word id="11" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="12" cont="强盛" pos="a" ne="O" wsd="Ed19" wsdexp="稳固_强大_弱小" parent="13" relate="DE" />
+                <word id="13" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="14" relate="ATT" />
+                <word id="14" cont="中国" pos="ns" ne="S-Ns" wsd="Di02" wsdexp="国家_行政区划" parent="17" relate="SBV" />
+                <word id="15" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="16" cont="不容" pos="v" ne="O" wsd="Hi32" wsdexp="答应_允许_拒绝" parent="17" relate="ADV" />
+                <word id="17" cont="错过" pos="v" ne="O" wsd="Id18" wsdexp="撞_触_相遇_错过" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="14" />
+                </word>
+                <word id="18" cont="!" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="8" cont="w " tag="">
+                <word id="0" cont="w " pos="ws" ne="O" wsd="-1" wsdexp="" parent="-1" relate="HED" />
+            </sent>
+        </para>
+        <para id="10" />
+    </doc>
+    <class>科技</class>
+    <coref>
+        <cr id="0">
+            <mention id="0" beg="24" end="24" />
+            <mention id="1" beg="38" end="38" />
+        </cr>
+    </coref>
+</xml4nlp>
