@@ -1,4 +1,4 @@
-
+Usage: tag.sh [MODEL FILE] [TEST FILE]
 NNP 
 NNP 
 , 

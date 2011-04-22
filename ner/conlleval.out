@@ -1,4 +1,3 @@
-
 正义 n O O
 要 v O O
 以 p O O
@@ -8,13 +7,13 @@
 来 nd O O
 实现 v O O
 
-沈阳 ns S-Ns O
+沈阳 ns S-Ns S-Ns
 涉嫌 v O O
 黑社会 n O O
 犯罪 v O O
 的 u O O
 头目 n O O
-刘涌 nh S-Nh O
+刘涌 nh S-Nh S-Nh
 二审 n O O
 被 p O O
 改判 v O O
@@ -31,7 +30,7 @@
 ， wp O O
 法学 n O O
 博士 n O O
-郭光东 nh S-Nh O
+郭光东 nh S-Nh S-Nh
 先生 n O O
 为 p O O
 此 r O O
@@ -56,7 +55,7 @@
 位 q E-Nm E-Nm
 法学 n O O
 博士 n O O
-何兵 nh S-Nh O
+何兵 nh S-Nh S-Nh
 先生 n O O
 针锋相对 i O O
 地 u O O
@@ -76,17 +75,17 @@
 " wp O O
 我 r O O
 赞同 v O O
-何兵 nh S-Nh O
+何兵 nh S-Nh S-Nh
 先生 n O O
 的 u O O
 观点 n O O
 ， wp O O
 并 c O O
 对 p O O
-数 m O O
-年 q O O
+数 m O B-Nm
+年 q O E-Nm
 前 nd O O
-魏永征 nh S-Nh O
+魏永征 nh S-Nh S-Nh
 先生 n O O
 提出 v O O
 的 u O O
@@ -270,7 +269,7 @@ UOTATION ws O O
 。 wp O O
 
 诚如 v O O
-何兵 nh S-Nh O
+何兵 nh S-Nh S-Nh
 所 u O O
 言 n O O
 ： wp O O
@@ -445,14 +444,14 @@ UOTATION ws O O
 例子 n O O
 ： wp O O
 
-1991年 nt B-Nr O
-3月 nt I-Nr O
-3日 nt I-Nr O
-夜 nt E-Nr O
+1991年 nt B-Nr B-Nr
+3月 nt I-Nr E-Nr
+3日 nt I-Nr B-Nr
+夜 nt E-Nr E-Nr
 ， wp O O
 四 m B-Nm B-Nm
 名 q E-Nm E-Nm
-美国 ns B-Ni O
+美国 ns B-Ni S-Ns
 洛杉矶 ns I-Ni O
 警察局 n E-Ni O
 的 u O O
@@ -460,12 +459,12 @@ UOTATION ws O O
 警察 n O O
 ， wp O O
 在 p O O
-210 m B-Nm O
-号 q E-Nm O
+210 m B-Nm B-Nm
+号 q E-Nm E-Nm
 公路 n O O
 发现 v O O
-一 m B-Nm S-Nm
-辆 q E-Nm O
+一 m B-Nm B-Nm
+辆 q E-Nm E-Nm
 由 p O O
 酒后 nt O O
 黑人 n O O
@@ -476,8 +475,8 @@ UOTATION ws O O
 车 n O O
 （ wp O O
 时速 n O O
-一百 m B-Nm O
-英里 q E-Nm O
+一百 m B-Nm B-Nm
+英里 q E-Nm E-Nm
 以上 nd O O
 。 wp O O
 
@@ -487,8 +486,8 @@ UOTATION ws O O
 最高 a O O
 时速 n O O
 为 v O O
-65 m B-Nm O
-英里 q E-Nm O
+65 m B-Nm B-Nm
+英里 q E-Nm E-Nm
 。 wp O O
 
 在 p O O
@@ -584,8 +583,8 @@ UOTATION ws O O
 ， wp O O
 这 r O O
 短短 a O O
-83 m B-Nm O
-秒钟 q E-Nm O
+83 m B-Nm B-Nm
+秒钟 q E-Nm E-Nm
 的 u O O
 录像 n O O
 ， wp O O
@@ -601,7 +600,7 @@ UOTATION ws O O
 之一 r O O
 ， wp O O
 而且 c O O
-多次 m S-Nm O
+多次 m S-Nm S-Nm
 出现 v O O
 在 p O O
 全世界 n O O
@@ -677,8 +676,8 @@ UOTATION ws O O
 结果 n O O
 。 wp O O
 
-1992年 nt B-Nr O
-4月 nt I-Nr O
+1992年 nt B-Nr B-Nr
+4月 nt I-Nr E-Nr
 29日 nt E-Nr O
 ， wp O O
 以 p O O
@@ -705,10 +704,10 @@ UOTATION ws O O
 结论 n O O
 。 wp O O
 
-当天 nt O O
-晚上 nt O O
+当天 nt O B-Nr
+晚上 nt O E-Nr
 ， wp O O
-洛杉矶 ns S-Ns O
+洛杉矶 ns S-Ns S-Ns
 发生 v O O
 暴乱 v O O
 。 wp O O
@@ -717,7 +716,7 @@ UOTATION ws O O
 这 r O O
 场 q O O
 短短 a O O
-几十 m B-Nm O
+几十 m B-Nm S-Nm
 小时 n E-Nm O
 的 u O O
 暴乱 v O O
@@ -726,18 +725,18 @@ UOTATION ws O O
 死亡 v O O
 人数 n O O
 超过 v O O
-50 m B-Nm O
-名 q E-Nm O
+50 m B-Nm B-Nm
+名 q E-Nm E-Nm
 ， wp O O
 受伤 v O O
 人数 n O O
 超过 v O O
-2000 m B-Nm O
-名 q E-Nm O
+2000 m B-Nm B-Nm
+名 q E-Nm E-Nm
 ， wp O O
 超过 v O O
-1000 m B-Nm O
-幢 q E-Nm O
+1000 m B-Nm B-Nm
+幢 q E-Nm E-Nm
 大小 n O O
 建筑物 n O O
 被 p O O
@@ -757,7 +756,7 @@ UOTATION ws O O
 美国 ns S-Ns S-Ns
 南方 nl O O
 的 u O O
-亚特兰大市 ns S-Ns O
+亚特兰大市 ns S-Ns S-Ns
 ， wp O O
 也 d O O
 随后 d O O
@@ -829,11 +828,11 @@ UOTATION ws O O
 将 p O O
 这 r O O
 段 q O O
-83 m B-Nm O
-秒钟 q E-Nm O
+83 m B-Nm B-Nm
+秒钟 q E-Nm E-Nm
 的 u O O
 录像带 n O O
-一次次 m S-Nm O
+一次次 m S-Nm S-Nm
 的 u O O
 停 v O O
 格 j O O
@@ -976,7 +975,7 @@ UOTATION ws O O
 违反 v O O
 联邦 n O O
 民权 n O O
-法 n O S-Ns
+法 n O O
 有 v O O
 罪 n O O
 ， wp O O
@@ -992,15 +991,15 @@ UOTATION ws O O
 结论 n O O
 似乎 d O O
 使 v O O
-大多数 m O O
-人 n O O
+大多数 m O B-Nm
+人 n O E-Nm
 都 d O O
 满意 v O O
 ， wp O O
 戒备 v O O
 森严 a O O
 的 u O O
-洛杉矶 ns S-Ns O
+洛杉矶 ns S-Ns S-Ns
 警察 n O O
 都 d O O
 松 a O O
@@ -1021,7 +1020,7 @@ UOTATION ws O O
 了 u O O
 。 wp O O
 
-洛杉矶 ns S-Ns O
+洛杉矶 ns S-Ns S-Ns
 骚乱 v O O
 的 u O O
 前前后后 i O O
@@ -1122,7 +1121,7 @@ UOTATION ws O O
 公众 n O O
 不 d O O
 能 v O O
-左右 m O O
+左右 m O S-Nm
 司法 n O O
 ， wp O O
 但 c O O
@@ -1180,7 +1179,7 @@ UOTATION ws O O
 
 而 c O O
 在 p O O
-刘涌 nh S-Nh O
+刘涌 nh S-Nh S-Nh
 案 n O O
 的 u O O
 二审 n O O
@@ -1243,8 +1242,8 @@ UOTATION ws O O
 信 n O O
 而 c O O
 放 v O O
-刘涌 nh S-Nh O
-一 m S-Nm S-Nm
+刘涌 nh S-Nh S-Nh
+一 m S-Nm O
 马 n O O
 ？ wp O O
 
@@ -1270,7 +1269,7 @@ UOTATION ws O O
 
 是 v O O
 因为 p O O
-刘涌 nh S-Nh O
+刘涌 nh S-Nh S-Nh
 供 v O O
 出 v O O
 了 u O O
@@ -1292,8 +1291,8 @@ UOTATION ws O O
 而 c O O
 留 v O O
 他 r O O
-一 m S-Nm B-Nm
-命 n O E-Nm
+一 m S-Nm S-Nm
+命 n O O
 吗 u O O
 ？ wp O O
 
@@ -1308,8 +1307,8 @@ UOTATION ws O O
 交易 n O O
 " wp O O
 开 v O O
-一 m S-Nm B-Nm
-先河 n O E-Nm
+一 m S-Nm S-Nm
+先河 n O O
 。 wp O O
 
 但 c O O
@@ -1360,13 +1359,13 @@ UOTATION ws O O
 意义 n O O
 
 神舟 n O O
-五 m B-Nm O
-号 q E-Nm O
+五 m B-Nm B-Nm
+号 q E-Nm E-Nm
 载人 b O O
 飞船 n O O
 带 v O O
 着 u O O
-亿万 m S-Nm O
+亿万 m S-Nm S-Nm
 炎黄子孙 n O O
 的 u O O
 期盼 v O O
@@ -1375,7 +1374,7 @@ UOTATION ws O O
 。 wp O O
 
 英雄 n O O
-杨利伟 nh S-Nh O
+杨利伟 nh S-Nh S-Nh
 凯旋 v O O
 归 v O O
 来 nd O O
@@ -1416,15 +1415,15 @@ UOTATION ws O O
 ， wp O O
 今昔 n O O
 是 v O O
-何 r O B-Nm
-年 q O E-Nm
+何 r O O
+年 q O O
 。 wp O O
 
 ” wp O O
 低 a O O
 吟 v O O
 着 u O O
-苏东坡 nh S-Nh O
+苏东坡 nh S-Nh S-Nh
 的 u O O
 水调歌头 n O O
 ， wp O O
@@ -1457,11 +1456,11 @@ UOTATION ws O O
 月球 n O O
 。 wp O O
 
-千百 m B-Nm O
-年 q E-Nm O
+千百 m B-Nm B-Nm
+年 q E-Nm E-Nm
 来 nd O O
 ， wp O O
-中华 nz S-Nz O
+中华 nz S-Nz S-Nz
 儿女 n O O
 一直 d O O
 把 p O O
@@ -1530,7 +1529,7 @@ UOTATION ws O O
 
 唐代 nt O O
 诗人 n O O
-李白 nh S-Nh O
+李白 nh S-Nh S-Nh
 的 u O O
 “ wp O O
 举头 v O O
@@ -1542,7 +1541,7 @@ UOTATION ws O O
 故乡 n O O
 ” wp O O
 ， wp O O
-杜甫 nh S-Nh O
+杜甫 nh S-Nh S-Nh
 的 u O O
 “ wp O O
 露 v O O
@@ -1557,12 +1556,12 @@ UOTATION ws O O
 ” wp O O
 ， wp O O
 宋代 nt O O
-王安石 nh S-Nh O
+王安石 nh S-Nh S-Nh
 的 u O O
 “ wp O O
 春风 n O O
 又 c O O
-绿江 ns S-Ns O
+绿江 ns S-Ns S-Ns
 南岸 nl O O
 ， wp O O
 明月 n O O
@@ -1601,8 +1600,8 @@ UOTATION ws O O
 民间 n O O
 ， wp O O
 每逢 v O O
-八月 nt B-Nr O
-中秋 nt E-Nr O
+八月 nt B-Nr B-Nr
+中秋 nt E-Nr E-Nr
 ， wp O O
 也 d O O
 有 v O O
@@ -1622,14 +1621,14 @@ UOTATION ws O O
 家喻户晓 i O O
 ： wp O O
 
-朱元璋 nh S-Nh O
+朱元璋 nh S-Nh S-Nh
 月饼 n O O
 起义 v O O
 、 wp O O
-唐明皇 nh B-Nh O
+唐明皇 nh B-Nh S-Nh
 游月宫 nh I-Nh O
 、 wp I-Nh O
-吴刚伐 nh E-Nh O
+吴刚伐 nh E-Nh S-Nh
 桂 n O O
 、 wp O O
 嫦娥 n O O
@@ -1717,7 +1716,7 @@ UOTATION ws O O
 真 a O O
 的 u O O
 有 v O O
-玉宇琼 nh S-Nh O
+玉宇琼 nh S-Nh S-Nh
 楼 n O O
 般 u O O
 的 u O O
@@ -1729,7 +1728,7 @@ UOTATION ws O O
 久 a O O
 了 u O O
 , wp O O
-吴刚 nh S-Nh O
+吴刚 nh S-Nh S-Nh
 还 d O O
 在 p O O
 月亮 n O O
@@ -1896,7 +1895,7 @@ UOTATION ws O O
 矿产 n O O
 ， wp O O
 仅 d O O
-月海 ns B-Ns O
+月海 ns B-Ns S-Ns
 玄武岩 ns E-Ns O
 中 nd O O
 含有 v O O
@@ -1914,11 +1913,11 @@ UOTATION ws O O
 。 wp O O
 
 据 p O O
-环球 nz B-Nz O
+环球 nz B-Nz S-Nz
 时报 n E-Nz O
 报道 v O O
 ， wp O O
-克里 nh B-Nh O
+克里 nh B-Nh S-Nh
 普岩 nh E-Nh O
 是 v O O
 月球 n O O
@@ -1951,10 +1950,10 @@ P ws O O
 。 wp O O
 
 根据 p O O
-最近 nt O O
+最近 nt O S-Nr
 美国 ns S-Ns S-Ns
 “ wp O O
-克莱门汀 nz S-Nz O
+克莱门汀 nz S-Nz S-Nz
 ” wp O O
 号 n O O
 和 c O O
@@ -1980,7 +1979,7 @@ P ws O O
 可能 v O O
 就 d O O
 是 v O O
-克里 nh B-Nh O
+克里 nh B-Nh S-Nh
 普岩 nh E-Nh O
 的 u O O
 分布 v O O
@@ -1988,7 +1987,7 @@ P ws O O
 ， wp O O
 进而 c O O
 对 p O O
-克里普 nh B-Nh O
+克里普 nh B-Nh S-Nh
 岩出露 nh E-Nh O
 于 p O O
 月 n O O
@@ -2011,7 +2010,7 @@ P ws O O
 厚度 n O O
 估计 v O O
 有 v O O
-10 m S-Nm O
+10 m S-Nm S-Nm
 ― wp O O
 20 m B-Nm B-Nm
 公里 q E-Nm E-Nm
@@ -2024,7 +2023,7 @@ P ws O O
 模式 n O O
 计算 v O O
 ， wp O O
-克里普 nh S-Nh O
+克里普 nh S-Nh S-Nh
 岩 n O O
 中 nd O O
 稀土 n O O
@@ -2038,11 +2037,11 @@ P ws O O
 分别 d O O
 约 d O O
 为 v O O
-6.7亿 m B-Nm O
-吨 q E-Nm O
+6.7亿 m B-Nm B-Nm
+吨 q E-Nm E-Nm
 、 wp O O
-8.4亿 m B-Nm O
-吨 q E-Nm O
+8.4亿 m B-Nm B-Nm
+吨 q E-Nm E-Nm
 和 c O O
 3.6亿 m B-Nm B-Nm
 吨 q E-Nm E-Nm
@@ -2073,8 +2072,8 @@ P ws O O
 大量 m O O
 分布 v O O
 的 u O O
-55 m B-Nm O
-种 q E-Nm O
+55 m B-Nm B-Nm
+种 q E-Nm E-Nm
 矿物 n O O
 ， wp O O
 其中 r O O
@@ -2158,11 +2157,11 @@ P ws O O
 初步 d O O
 估算 v O O
 ， wp O O
-月壤 ns S-Ns O
+月壤 ns S-Ns S-Ns
 中 nd O O
 的 u O O
 氦 n O O
-3 m S-Nm O
+3 m S-Nm S-Nm
 资源 n O O
 总量 n O O
 可 v O O
@@ -2240,8 +2239,8 @@ P ws O O
 足够 v O O
 人类 n O O
 使用 v O O
-一万 m B-Nm O
-年 q E-Nm O
+一万 m B-Nm B-Nm
+年 q E-Nm E-Nm
 ！ wp O O
 
 不 d O O
@@ -2588,7 +2587,7 @@ P ws O O
 作用 n O O
 。 wp O O
 
-1984年 nt S-Nr O
+1984年 nt S-Nr S-Nr
 ， wp O O
 联合国 ni S-Ni O
 通过 v O O
@@ -2663,7 +2662,7 @@ P ws O O
 
 ” wp O O
 而 c O O
-美 j S-Ns S-Ns
+美 j S-Ns O
 苏 j S-Ns O
 早已 d O O
 开展 v O O
@@ -2680,7 +2679,7 @@ P ws O O
 尽快 d O O
 行动 v O O
 ， wp O O
-将来 nt O O
+将来 nt O S-Nr
 就 d O O
 难以 d O O
 在 p O O
@@ -2934,5 +2933,4 @@ P ws O O
 不容 v O O
 错过 v O O
 ! wp O O
-
 
