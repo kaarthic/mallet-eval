@@ -1,6 +1,5 @@
 20100422 MALLET-EVAL PROJECT
 
-
 GENERAL
 
 This is a project for evaluating MALLET (MAchine Learning for 
@@ -35,19 +34,26 @@ In order to obtain the data files you need to perform three steps:
    3. Train and test with provided Chunking, POS Tagging and Named Entity 
       Recognition data (chunking/ pos-tagging/ ner/)
 
-   2a (Chunking) ./conlleval < chunking/conlleval.out
+   4a. (Chunking) ./conlleval < chunking/conlleval.out
 
-   2b (POS-Tagging) cd pos-tagging | ./verify.py   
+   4b. (POS-Tagging) cd pos-tagging | ./verify.py   
 
-   2c (Named Entity Recognition) ./chn-conlleval < ner/conlleval.out
+   4c. (Named Entity Recognition) ./chn-conlleval < ner/conlleval.out
 
 and the results are:
 
-   eng.testa: precision:  78.33%; recall:  65.23%; FB1:  71.18
-   eng.testb: precision:  71.91%; recall:  50.90%; FB1:  59.61
-   deu.testa: precision:  37.19%; recall:  26.07%; FB1:  30.65
-   deu.testb: precision:  31.86%; recall:  28.89%; FB1:  30.30
-
+    processed 47377 tokens with 23852 phrases; found: 23682 phrases; correct: 21441.
+    accuracy:  93.97%; precision:  90.54%; recall:  89.89%; FB1:  90.21
+             ADJP: precision:  72.35%; recall:  63.93%; FB1:  67.88  387
+             ADVP: precision:  78.61%; recall:  75.98%; FB1:  77.28  837
+            CONJP: precision:  40.00%; recall:  44.44%; FB1:  42.11  10
+             INTJ: precision:  50.00%; recall:  50.00%; FB1:  50.00  2
+              LST: precision:   0.00%; recall:   0.00%; FB1:   0.00  2
+               NP: precision:  90.05%; recall:  89.57%; FB1:  89.81  12355
+               PP: precision:  94.97%; recall:  96.88%; FB1:  95.92  4908
+              PRT: precision:  71.84%; recall:  69.81%; FB1:  70.81  103
+             SBAR: precision:  89.01%; recall:  78.69%; FB1:  83.53  473
+               VP: precision:  91.55%; recall:  90.51%; FB1:  91.03  4605
 
 DATA FORMAT
 
