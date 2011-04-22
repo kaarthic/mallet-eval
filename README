@@ -37,7 +37,7 @@ In order to obtain the data files you need to perform three steps:
 
    2a (Chunking) ./conlleval < chunking/conlleval.out
 
-   2b (POS-Tagging)  
+   2b (POS-Tagging) cd pos-tagging | ./verify.py   
 
    2c (Named Entity Recognition) ./chn-conlleval < ner/conlleval.out
 
