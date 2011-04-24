@@ -5,6 +5,8 @@ rem  MALLET command line tools.
 
 echo Usage: train.bat [Training File] [Thread Number] [Output Model File]
 
+if "%3" == "" goto eof
+
 if not "%MALLET_HOME%" == "" goto gotMalletHome
 
 echo MALLET requires an environment variable MALLET_HOME.

@@ -5,6 +5,8 @@ rem  MALLET command line tools.
 
 echo Usage: tag.sh [MODEL FILE] [TEST FILE]
 
+if "%2" == "" goto eof
+
 if not "%MALLET_HOME%" == "" goto gotMalletHome
 
 echo MALLET requires an environment variable MALLET_HOME.
