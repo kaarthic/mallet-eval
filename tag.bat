@@ -3,9 +3,12 @@
 rem This batch file serves as a wrapper for several
 rem  MALLET command line tools.
 
-echo Usage: tag.sh [MODEL FILE] [TEST FILE]
+if not "%2" == "" goto detectMalletHome
 
-if "%2" == "" goto eof
+echo Usage: tag.bat [MODEL FILE] [TEST FILE]
+goto :eof
+
+:detectMalletHome
 
 if not "%MALLET_HOME%" == "" goto gotMalletHome
 

@@ -2,9 +2,9 @@
 
 MALLET_HOME=/root/mallet/mallet-2.0.6
 
-echo "Usage: tag.sh [MODEL FILE] [TEST FILE]"
 if [ "$2" = '' ]
 then
+    echo "Usage: tag.sh [MODEL FILE] [TEST FILE]"
     exit
 fi
 

@@ -3,9 +3,13 @@
 rem This batch file serves as a wrapper for several
 rem  MALLET command line tools.
 
+if not "%3" == "" goto detectMalletHome
+
 echo Usage: train.bat [Training File] [Thread Number] [Output Model File]
 
-if "%3" == "" goto eof
+goto :eof
+
+:detectMalletHome
 
 if not "%MALLET_HOME%" == "" goto gotMalletHome
 

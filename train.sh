@@ -2,9 +2,9 @@
 
 MALLET_HOME=/root/mallet/mallet-2.0.6
 
-echo "Usage: train.sh [Training File] [Thread Number] [Output Model File]"
 if [ "$3" = '' ]
 then
+    echo "Usage: train.sh [Training File] [Thread Number] [Output Model File]"
     exit
 fi
 
