@@ -284,43 +284,1073 @@ CRF weights[I-MISC,I-ORG] num features = 0
 CRF weights[I-MISC,I-LOC] num features = 0
 CRF weights[I-MISC,I-MISC] num features = 907
 Number of weights = 32143
-Gathering constraints...
-Creating 4 threads for updating gradient...
 CRF about to train with 1 iterations
-getValue() (loglikelihood, optimizable by label likelihood) =-581638.303989553
-getValue() (loglikelihood, optimizable by label likelihood) =-362785.7577985184
-getValue() (loglikelihood, optimizable by label likelihood) =-956907.9540082673
-getValue() (loglikelihood, optimizable by label likelihood) =-439878.746244512
-getValue() (loglikelihood, optimizable by label likelihood) =-247527.43800362194
+getValue() (loglikelihood, optimizable by label likelihood) = -581638.3039895669
+getValue() (loglikelihood, optimizable by label likelihood) = -362785.75779850886
+getValue() (loglikelihood, optimizable by label likelihood) = -956907.9540083845
+getValue() (loglikelihood, optimizable by label likelihood) = -439878.74624455714
+getValue() (loglikelihood, optimizable by label likelihood) = -247527.43800365517
 CRF finished one iteration of maximizer, i=0
 CRF about to train with 1 iterations
-getValue() (loglikelihood, optimizable by label likelihood) =-190688.2629670282
-getValue() (loglikelihood, optimizable by label likelihood) =-4051485.4636070984
-getValue() (loglikelihood, optimizable by label likelihood) =-235567.19932425756
-getValue() (loglikelihood, optimizable by label likelihood) =-140448.41834834477
+getValue() (loglikelihood, optimizable by label likelihood) = -205043.23896129025
 CRF finished one iteration of maximizer, i=0
 CRF about to train with 1 iterations
-getValue() (loglikelihood, optimizable by label likelihood) =-138820.45081242197
-getValue() (loglikelihood, optimizable by label likelihood) =-130176.54683378855
+getValue() (loglikelihood, optimizable by label likelihood) = -5619745.786393779
+getValue() (loglikelihood, optimizable by label likelihood) = -312623.7965778517
+getValue() (loglikelihood, optimizable by label likelihood) = -142465.05863693298
 CRF finished one iteration of maximizer, i=0
 CRF about to train with 1 iterations
-getValue() (loglikelihood, optimizable by label likelihood) =-147719.80262875857
-getValue() (loglikelihood, optimizable by label likelihood) =-128318.4290283072
-getValue() (loglikelihood, optimizable by label likelihood) =-126950.12996066961
+getValue() (loglikelihood, optimizable by label likelihood) = -134024.11741742477
 CRF finished one iteration of maximizer, i=0
 CRF about to train with 1 iterations
-getValue() (loglikelihood, optimizable by label likelihood) =-140110.3898947141
-getValue() (loglikelihood, optimizable by label likelihood) =-125250.00467226046
-getValue() (loglikelihood, optimizable by label likelihood) =-123090.37953589228
+getValue() (loglikelihood, optimizable by label likelihood) = -132923.77986599223
 CRF finished one iteration of maximizer, i=0
 CRF about to train with 1 iterations
-getValue() (loglikelihood, optimizable by label likelihood) =-139391.27041699004
-getValue() (loglikelihood, optimizable by label likelihood) =-121938.26552868444
-getValue() (loglikelihood, optimizable by label likelihood) =-120786.2001412524
+getValue() (loglikelihood, optimizable by label likelihood) = -115581.28674314839
 CRF finished one iteration of maximizer, i=0
 CRF about to train with 1 iterations
-getValue() (loglikelihood, optimizable by label likelihood) =-139009.93036868167
-getValue() (loglikelihood, optimizable by label likelihood) =-119538.05679348156
-getValue() (loglikelihood, optimizable by label likelihood) =-118071.57455139827
+getValue() (loglikelihood, optimizable by label likelihood) = -114136.10298859951
 CRF finished one iteration of maximizer, i=0
 CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -103138.53534079863
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -97070.58364656975
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -88903.9273669757
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -99499.93801991882
+getValue() (loglikelihood, optimizable by label likelihood) = -87486.90382622187
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -87331.94526647861
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -84727.1780646672
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -84023.97175624824
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -82061.85345979381
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -81272.89966218476
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -80431.22355562472
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -78741.06396971311
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -77029.4078792909
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -75109.35855953989
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -79538.24135783156
+getValue() (loglikelihood, optimizable by label likelihood) = -73749.89347160909
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -72502.5694377939
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -70909.2500888338
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -67601.15931802822
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -65699.5035801795
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -64416.46071959162
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -63912.795475898914
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -63150.885620056324
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -62753.94658844023
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -62140.42505975267
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -60866.300891248175
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -60359.95093225826
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -59656.43928660096
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -59322.98630175204
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -58984.73209312253
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -58285.379134272196
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -57549.03318924372
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -57001.632879386656
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -56787.83458801286
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -56661.08764539396
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -56334.49572565302
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -55692.33686543249
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -54829.96054447399
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -54959.85354420691
+getValue() (loglikelihood, optimizable by label likelihood) = -54248.81908023316
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -53860.96015509472
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -53513.10698701366
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -52995.15220159507
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -52615.92490194754
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -52341.20815372608
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -52196.57887632225
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -51870.31509106114
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -51136.33958042521
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -50620.08827820974
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -53110.155462939685
+getValue() (loglikelihood, optimizable by label likelihood) = -50535.32066457902
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -50219.343676648496
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -50021.31149366364
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -49708.778671780135
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -49387.004591891055
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -49094.45377013342
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -48576.16588405029
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -48277.741692579075
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -48035.08648484434
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -47528.688594273735
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -47262.589727871215
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -46929.75978931223
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -46555.231093661234
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -46017.831513300654
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -45515.946612837004
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -45362.823523972205
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -44896.51129205487
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -44362.70087644918
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -43661.07407148495
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -43823.246288542905
+getValue() (loglikelihood, optimizable by label likelihood) = -43497.72673452869
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -43286.164632372114
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -43142.3472852696
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -42796.06840591123
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -42137.22893904092
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -41782.34024608701
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -41345.567596715664
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -41167.86082107731
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -40775.63115821195
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -40136.512083232
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -40192.83088968831
+getValue() (loglikelihood, optimizable by label likelihood) = -39742.803409099564
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -39207.07486582097
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -38347.294068357834
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -37885.821887678976
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -38048.520037055416
+getValue() (loglikelihood, optimizable by label likelihood) = -37599.406985778354
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -37304.019443161254
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -36951.714219783134
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -36431.49510473845
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -36090.46381835192
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -35947.69847815472
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -35548.19798338048
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -35224.480926880555
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -35625.38048833138
+getValue() (loglikelihood, optimizable by label likelihood) = -35110.79798841843
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -34975.766607880345
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -34787.313174491996
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -34745.3380796288
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -34335.335047252076
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -34266.19699526893
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -34177.49891431454
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -34081.94024337143
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -33988.44127148729
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -33893.34204980047
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -33755.69158526716
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -33672.503513708994
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -33576.814806492686
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -33459.33894961476
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -33356.718984348365
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -32972.51672275497
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -32793.01856496851
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -32596.54171325614
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -32435.44946109687
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -32343.70675284837
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -32283.07162324968
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -32186.805194197506
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -32108.666038268013
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -31848.78054858315
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -31682.78202969101
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -31365.346138918518
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -31255.496980595555
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -31208.471817484635
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -31092.03455049987
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -30910.73809847778
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -30628.478440541272
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -30566.6510295754
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -30272.609030129697
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -30203.800092946833
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -30129.619754167994
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -29852.549616815108
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -29615.48142074316
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -29360.45211264202
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -29268.008177653403
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -29117.441421259893
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -28806.728650518922
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -28449.912278440836
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -28313.671126119712
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -28060.451366626956
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -27964.55216083045
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -27909.333962979556
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -27693.7530195741
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -27465.40935957697
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -27090.304368129753
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -26981.509295146745
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -26882.856887545757
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -26700.777906560776
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -26413.380563647162
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -26243.084002773652
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -26041.876978766802
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -25855.70071499968
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -25779.315730182938
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -25563.11224157635
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -25395.153493642607
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -25276.72818699413
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -25123.370932685255
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -24992.75594121169
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -24725.39868912586
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -25776.600190635887
+getValue() (loglikelihood, optimizable by label likelihood) = -24628.99218699831
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -24392.66526947944
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -24271.540402323815
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -24033.54605836508
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -23844.970868865006
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -23758.277340512992
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -23710.150791753033
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -23666.13861124886
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -23642.906050057423
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -23598.265423361066
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -23528.26589537496
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -23656.187756715928
+getValue() (loglikelihood, optimizable by label likelihood) = -23468.97999828749
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -23411.551840736418
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -23386.033926468557
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -23242.774201486758
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -23123.66312026187
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -23059.7108358535
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -23022.9196237191
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -23012.13569705957
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -22982.887625401512
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -22919.7583535418
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -22813.95801798286
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -22947.393638163023
+getValue() (loglikelihood, optimizable by label likelihood) = -22783.82458950438
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -22721.527610993344
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -22695.79296352565
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -22669.953761956116
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -22604.34111553923
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -22516.030923396393
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -22745.502441342633
+getValue() (loglikelihood, optimizable by label likelihood) = -22479.533696225346
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -22440.11403434473
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -22390.03189678915
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -22297.47137072914
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -22226.87286449904
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -22160.967134565966
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -22100.95544789597
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -21962.921390152376
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -21831.247887700403
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -21717.433038570976
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -21672.789858806875
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -21596.382607897373
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -21574.15981106333
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -21527.414330207368
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -21393.18118185967
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -21385.958069903594
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -21306.36866887568
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -21277.644233933755
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -21255.545995650602
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -21161.73403213214
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -21026.3119118252
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -22156.23290925637
+getValue() (loglikelihood, optimizable by label likelihood) = -20985.490439548288
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -20829.39445382549
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -20752.930198414895
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -20667.669013946685
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -20570.881155919298
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -20839.365050647782
+getValue() (loglikelihood, optimizable by label likelihood) = -20527.06642777534
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -20407.135888546632
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -20272.531940828052
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -20138.632358924835
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -19961.015865482557
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -19968.87749456172
+getValue() (loglikelihood, optimizable by label likelihood) = -19882.584781000638
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -19792.618389938863
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -19704.954987839024
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -19576.943666116484
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -19477.150330224205
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -19326.121268013703
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -19402.049822228248
+getValue() (loglikelihood, optimizable by label likelihood) = -19260.707841207277
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -19163.836586690297
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -19090.410997159703
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -18956.1999518417
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -18827.10110537276
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -18571.754727236497
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -18548.326264758616
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -18344.124580013853
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -18286.236035203736
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -18193.08778196358
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -18024.77287007282
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -17916.675837773564
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -18013.689675246
+getValue() (loglikelihood, optimizable by label likelihood) = -17846.986705998268
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -17753.177596663936
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -17700.41147295034
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -17596.789646005538
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -17475.407470764098
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -17440.63924869899
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -17218.090102698665
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -17176.517440427422
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -17050.51577622005
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -16954.773774843216
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -16854.611230259972
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -16740.04419316966
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -16645.840794484702
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -16624.57911311241
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -16537.262507962994
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -16470.187300452526
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -16381.492785697355
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -16227.464546547308
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -16097.780214056893
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -15966.396683465902
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -15903.661874458845
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -15842.538449254904
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -15783.034828752729
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -15708.93424456099
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -15667.826482007555
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -15629.47336928672
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -15595.006368939785
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -15546.681067121304
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -15518.537237498971
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -15479.196210125872
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -15428.740764215992
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -15389.234359442307
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -15346.947904167871
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -15285.461012709406
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -15170.209702047163
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -15097.924648023196
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -15037.288042531618
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -14987.000680660885
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -14927.529213721231
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -14866.734206177725
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -14778.227630582232
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -14736.06716032972
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -14673.689979167035
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -14647.874821939677
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -14620.37222919671
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -14558.84948058032
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -14478.094506473248
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -14407.459291303501
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -14335.15230844956
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -14281.353767572375
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -14244.25949651835
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -14214.73245371745
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -14191.732751499763
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -14081.411167696988
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -14147.546479557554
+getValue() (loglikelihood, optimizable by label likelihood) = -14053.434922227447
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -14009.041091649631
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -13966.79264556464
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -13923.530848084787
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -13864.530344411638
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -13832.345027876112
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -14109.177673974755
+getValue() (loglikelihood, optimizable by label likelihood) = -13813.09165332627
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -13790.863020385645
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -13766.673185775653
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -13728.171986133144
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -13697.832215862967
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -13683.108964044492
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -13657.118527262919
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -13639.234155847407
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -13619.450010807072
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -13576.297531010721
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -13735.678763714022
+getValue() (loglikelihood, optimizable by label likelihood) = -13553.095346773443
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -13501.302285072772
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -13462.677549278713
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -13441.162797411429
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -13403.388389667543
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -13360.929458729337
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -13336.430539630674
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -13314.899119895083
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -13305.428289814474
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -13292.724003610467
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -13256.742851416715
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -13538.38365265906
+getValue() (loglikelihood, optimizable by label likelihood) = -13242.331307156155
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -13200.908221930084
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -13177.779533731937
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -13164.412652082523
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -13146.570037721638
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -13110.67574895172
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -13156.260840031877
+getValue() (loglikelihood, optimizable by label likelihood) = -13093.372635678665
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -13068.807194698798
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -13039.539203093465
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -13014.544884940617
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -13007.479052177456
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -12988.141188311234
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -12980.53914930421
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -12972.537478544746
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -12961.627829784942
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -12950.553478486101
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -12939.436339365182
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -12921.869886583787
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -12924.846129648788
+getValue() (loglikelihood, optimizable by label likelihood) = -12911.080725833013
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -12898.937528015584
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -12892.141906344226
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -12884.272892865712
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -12876.47520101954
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -12860.392917545045
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -12849.924617288783
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -12831.772389268604
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -12822.004952959163
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -12813.483461649337
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -12800.173985928615
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -12780.428016113932
+CRF finished one iteration of maximizer, i=0
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) = -12780.2613284483
+Exiting L-BFGS on termination #1:
+value difference below tolerance (oldValue: -12780.428016113932 newValue: -12780.2613284483
+CRF finished one iteration of maximizer, i=0
+CRF training has converged, i=0
