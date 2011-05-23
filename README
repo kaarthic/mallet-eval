@@ -8,10 +8,10 @@ you can check out them from this site:
 
     http://mallet.cs.umass.edu/
 
-This distribution only contains sample data annotation information 
-and scripts for converting, importing and evaluating. The articles
-in the two corpora have not been included here for copyright reasons. 
-That is why you need the the two cds for building the complete data sets.
+This distribution only contains sample annotation data and scripts for 
+converting, importing and evaluating. The articles in the two corpora are
+not included here for copyright reasons. That is why you need their cds 
+for building the complete data sets.
 
 We provide two sample corpora: Penn Treebank Sample (5% fragment of Penn
 Treebank) and HIT CIR LTP Corpora Sample (10% fragemnt of the whole
